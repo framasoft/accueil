@@ -62,13 +62,12 @@
 				kkeys.push( e.keyCode );
 				if ( kkeys.toString().indexOf( konami ) >= 0 ) {
 				alert('Konami old school ! pwnd :p');
-				window.location = "http://testaccueil.test.framasoft.org/index4.html#";
+				window.location = "http://framasoft.org";
 				}
 			}, true);
 		}
 	
 	</script>
-
 <?php 
 
 define("FNAV_LOCAL_JQUERY", false); // Doit-on charger le jQuery local ?
@@ -79,7 +78,6 @@ define("FNAV_LOCAL_BOOTSTRAP_RESPONSIVE_CSS",false);
 include_once('/home/framasoft/www/framanav/nav.php'); 
 
 ?>
-   
 	<!-- accueil Top -->
 	
     <div class="container">
