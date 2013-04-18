@@ -112,10 +112,12 @@ include_once('/home/framasoft/www/framanav/nav.php');
 					<li>Une invitation à bâtir ensemble un monde de partage et de coopération.</li>
 				</ul>
 			</div>
-			<figure id="pingouinVolant">
+			<div class="row">
+			    <p class="homeAlerte">Vous cherchez l'annuaire de logiciels libres&nbsp;? <a href="http://framalibre.org">C'est par ici&nbsp!</a></p>
+			    <figure id="pingouinVolant">
 				<img src="<?php echo $home_subdir; ?>img/pingouinVolantRefait.png" alt="Le pingouin volant, icône éternelle de Framasoft" />
-			</figure>
-
+			    </figure>
+			</div>
 			<div class="row containerActu">
 				  <h3 id="news">Quoi de neuf sur Framasoft&nbsp;?</h3>     
 			</div>
@@ -731,7 +733,7 @@ include_once('/home/framasoft/www/framanav/nav.php');
 						<figure id="nyanCat">
 							<img src="<?php echo $home_subdir; ?>img/nyanCat.gif" alt="Les héros de Framasoft" />
 						</figure>
-						<p class="legende"> Vous n'éspériez pas y échapper, non&nbsp;? Si&nbsp;?</p>
+						<p class="legende"> Vous n'espériez pas y échapper, non&nbsp;? Si&nbsp;?</p>
 						<p class="miniBlocLast"><a href=""> &nbsp; </a></p>
 					</div>
 					<!-- minibloc Framavenir mis en 'attente' 
