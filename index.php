@@ -731,7 +731,7 @@ include_once('/home/framasoft/www/framanav/nav.php');
 						<figure id="nyanCat">
 							<img src="<?php echo $home_subdir; ?>img/nyanCat.gif" alt="Les héros de Framasoft" />
 						</figure>
-						<p class="legende"> Vous n'éspériez pas y échapper, non&nbsp;? Si&nbsp;?</p>
+						<p class="legende"> Vous n'espériez pas y échapper, non&nbsp;? Si&nbsp;?</p>
 						<p class="miniBlocLast"><a href=""> &nbsp; </a></p>
 					</div>
 					<!-- minibloc Framavenir mis en 'attente' 
