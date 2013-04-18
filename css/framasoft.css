@@ -624,6 +624,19 @@ h4.titreBloc {
 	color: #604043; border: none;
 }	
 
+.homeAlerte {
+    float: left; 
+    text-align:center;
+    margin-top:2em; 
+    margin-left:2em; 
+    padding:1em;
+    background:#eee; 
+    font-size:120%; 
+    border: 1px solid #333; 
+    width:45%;
+}
+
+
 /*--------------------Illustrations -----------------*/
 
 #pingouinVolant {
