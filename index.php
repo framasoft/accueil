@@ -5,7 +5,7 @@
 <html lang="fr">
   <head>
 	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
-    <title>Framasoft ~ Page portail du réseau</title>
+    <title>Framasoft - Logiciels Libres</title>
 	<meta name="url" content="http://www.framasoft.net/" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Association française de loi 1901, issue du monde éducatif, Framasoft est un réseau d'éducation populaire consacré principalement au logiciel libre. Le réseau s'organise en trois axes sur un mode collaboratif : promotion, diffusion et développement de logiciels libres, enrichissement de la culture libre. Il offre également des services libres en ligne. La page portail du réseau présente l'ensemble des activités de Framasoft et propose des liens vers les différents sites et activités du réseau.">
