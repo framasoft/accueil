@@ -15,7 +15,7 @@
     font-family: 'PTSansCaption';
     src: url('../fonts/PTC55F-webfont.eot.eot');
     src: url('../fonts/PTC55F-webfont.eot') format('embedded-opentype'),
-         url('../fonts/RPTC55F-webfont.woff') format('woff'),
+         url('../fonts/PTC55F-webfont.woff') format('woff'),
          url('../fonts/PTC55F-webfont.woff') format('truetype'),
          url('../fonts/PTC55F-webfont.svg') format('svg');
     font-weight: normal;
@@ -23,22 +23,24 @@
 
 }
 
+/* Correctif padding Bootstrap 15px > 25px */
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {padding-right:25px;padding-left:25px;}
 
 body {
-  background-color: #eee;
+  background-color: #eee !important;
   font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;
   color: #333;
-  padding-top: 40px !important;
+  /*padding-top: 40px !important; BSv3 */
 }
 
-.container {
+.ombre {
   background-color: #fff;
   padding-right: 3em;
   padding-left: 3em;
-  margin-bottom: 1em;
-	-webkit-box-shadow: -4px 6px 9px rgba(50, 50, 50, 0.5);
-	-moz-box-shadow:    -4px 6px 9px rgba(50, 50, 50, 0.5);
-	box-shadow:         -4px 6px 9px rgba(50, 50, 50, 0.5);
+  margin-bottom: 2em;
+    -webkit-box-shadow: -4px 6px 9px rgba(50, 50, 50, 0.5);
+    -moz-box-shadow:    -4px 6px 9px rgba(50, 50, 50, 0.5);
+    box-shadow:         -4px 6px 9px rgba(50, 50, 50, 0.5);
 }
 
 .bleu{color:#0c5b7a;}
@@ -54,585 +56,415 @@ a, a:hover, a:focus, a:visited {text-decoration: none;}
 a {color: #888; border-bottom: 1px dotted #888;;}
 a:hover {color: #7E4F82; border-bottom: 1px dotted #7E4F82;}
 
-.sitename a, #sitename a , #sitename2 a, #sitename3 a, .navEntities a, .navEntities2 a, .FramaTrucsLien a, .goTo1 a, .goTo2 a, .goTo3 a, .goTo4 a,.miniBlocLast a, .EnVenteLibre a, .titreFramaTrucs a,.FramaTrucs a {border: none;}
+.sitename a, .navEntities a, .navEntities2 a, .FramaTrucsLien a, .goTo1 a, .goTo2 a, .goTo3 a, .goTo4 a,.miniBlocLast a, .EnVenteLibre a, .titreFramaTrucs a,.FramaTrucs a {border: none;}
 
 
 /*----------- titraille général ------------*/
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: PTSansCaption, GillSans, sans-serif;
-	font-weight: bold;
-	color: #666;
-	margin: 0;
+    font-family: PTSansCaption, GillSans, sans-serif; /* !imp BSv3 */
+    font-weight: bold; /* !imp BSv3 */
+    color: #666;
+     /* BSv3 */
+    margin-left: 0;
+    margin-right: 0;
 }
-h1 {font-size: 2.857em; /*text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5) !important;*/}
+h1 {font-size: 2.857em;}
 
 #framasoft {font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;}
 
 h3 {font-size: 1.714em;}
 h4 {font-size : 1.3em;}
 
+
+
 /*----------- Framabarre - ajustements  ------------*/
-.navbar .brand {
-    color: #777777;
-    display: block;
-    float: left;
-    font-size: 20px;
-    font-weight: 200;
-    margin-left: -80px;
-    padding: 10px 20px;
-    text-shadow: 0 1px 0 #FFFFFF;
-}
-
-.navbar-search {
-    float: right;
-    margin-bottom: 0;
-    margin-top: 5px;
-    position: relative;
-    margin-left: 4em;
-	right: 0;
-}
-
-.navbar-search .search-query {
-    border-radius: 5px 5px 5px 5px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 1;
-    margin-bottom: 0;
-    padding: 3px 2em;
-	margin-top: 0.15em;
-}
-
 #framanav a {
-	border: none;
+    border: none;
 }
 
 /*---------- header ---------------------*/
 .header {
-	border-bottom: 11px solid #eee;
-	padding-bottom: 0.5em;
-	margin-left: 0!important;
-	margin-bottom: 2.5em;
-	padding-top: 2em;
+    border-bottom: 11px solid #eee;
+    padding-bottom: 0.5em;
+    /* BSv3
+    margin-left: 0!important;*/
+    margin-bottom: 2.5em;
+    padding-top: 1.5em; /* 2em; BSv3 */
 }
 
-
-.header .span4 {
-	width: 30.7% !important;
+.header .col-md-5,
+.header .col-md-4,
+.header .col-md-3 {
+    padding:0 10px;
 }
 
-#sitename,  #sitename3 {
-	color: transparent;
-	margin-left: -30px;
-	margin-bottom: 0em;
+.sitename {
+    margin-bottom: 0;
+    margin-left: -0.2em;
 }
 
-#sitename{
-	background: url("../img/headerFramasoft.png") no-repeat scroll bottom left transparent;
-	/*border: 2px solid red;*/
-	padding-bottom: 0.2em;
-}
-
-/*#sitename2, */.sitename{
-	/*background: url("../img/headerCommunaute.png") no-repeat scroll bottom left transparent;*/
-	/*padding-bottom: 0.4em;*/
-	margin-bottom: 0;
-    margin-left: -0.7em;
-    padding-top: 0.4em;
-
-}
-
-#sitename3{
-	background: url("../img/headerLogiciels.png") no-repeat scroll bottom left transparent;
-	padding-bottom: 0.4em;
-}
-
-#sitename a , #sitename3 a{
-	color: transparent;
-}
-
-#headerSubTitle {
-	color: #666;
-	font: italic 1.3em/1.35 "PT Sans", Arial, sans-serif;
-	padding-top: 1.65em;
-	margin-bottom: 0.5em;
+.headerSubTitle {
+    color: #666;
+    font: italic 1.3em/1.35 "PT Sans", Arial, sans-serif;
+    padding-top: 1.65em;
+    margin-bottom: 0.5em;
 }
 
 /*---------- navigation interne ---------------------*/
 .navEntities {
-	/*background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;*/
-	float: right;
-	margin-top: 2em;
-	margin-left: 13.4em;
-	height: 24px;
-	width: 172px;
+    /*background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;*/
+    float: right;
+    margin-top: 2em;
+    margin-left: 13.4em;
+    height: 24px;
+    width: 172px;
 }
 
 .navEntities li {
-	display: inline-block;
+    display: inline-block;
 }
 
 .navEntities a, .navEntities2 a{
-	text-decoration: none;
-	width: 21px;
-	height: 23px;
+    text-decoration: none;
+    width: 21px;
+    height: 23px;
 }
 
 .navEntities2 {
-	/*background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;*/
-	list-style-type: none;
-	margin-top: -13.5em;
-	margin-left: -2em;
-	height: 172px;
-	width: 24px;
-	position: relative;
-	bottom: 0.5em;
+    /*background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;*/
+    list-style-type: none;
+    margin-top: -13.5em;
+    margin-left: -3em;
+    height: 172px;
+    width: 24px;
+    position: relative;
+    bottom: 0.5em;
 }
 
 .navEntities2 li {
-	margin-top: 24px;
+    margin-top: 24px;
 }
 
-[data-tip] {
+.col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
+
+.navEntities [title] {
     position: relative;
 }
-[data-tip]:hover:after {
-    content: attr(data-tip);
+.navEntities [title]:hover:after {
+    content: attr(title);
     position: absolute;
     top: 1.8em; right: -0em;
     white-space: nowrap; /* no wrapping */
     padding: 2px 8px;
     background: #eee;
     color: #666;
-	font-size: 0.9em;
+    font-size: 0.9em;
 }
 
 
-.bleu1 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;
-	color: transparent;
+.bleu1 a, .bleu2 a, .bleu3 a, .bleu4 a, .bleu5 a, .bleu6 a,
+.rouge1 a, .rouge2 a, .rouge3 a, .rouge4 a, .rouge5 a, .rouge6 a,
+.vert1 a, .vert2 a, .vert3 a, .vert4 a, .vert5 a, .vert6 a,
+.jaune1 a, .jaune2 a, .jaune3 a, .jaune4 a, .jaune5 a, .jaune6 a{
+    background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;
+    color: transparent;
+}
+.bleu1 a:hover, .bleu2 a:hover, .bleu3 a:hover, .bleu4 a:hover, .bleu5 a:hover, .bleu6 a:hover,
+.rouge1 a:hover, .rouge2 a:hover, .rouge3 a:hover, .rouge4 a:hover, .rouge5 a:hover, .rouge6 a:hover,
+.vert1 a:hover, .vert2 a:hover, .vert3 a:hover, .vert4 a:hover, .vert5 a:hover, .vert6 a:hover,
+.jaune1 a:hover, .jaune2 a:hover, .jaune3 a:hover, .jaune4 a:hover, .jaune5 a:hover, .jaune6 a:hover {
+    border: none;
 }
 
-.bleu1 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll 0 -20px transparent !important; border: none;
-}
-.bleu2 a, .bleu4 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -180px 0px transparent;
-	color: transparent;
-}
+.bleu1 a {          background-position:0 0;}
+.bleu1 a:hover {    background-position:0 -20px;}
+.bleu2 a {          background-position:-180px 0px;}
+.bleu2 a:hover {    background-position:-131px -21px;}
+.bleu3 a {          background-position:0 -42px;}
+.bleu3 a:hover {    background-position:0 -63px;}
+.bleu4 a {          background-position:-180px 0px;}
+.bleu4 a:hover {    background-position:-131px -182px;}
+.bleu5 a {          background-position:0 -82px;}
+.bleu5 a:hover {    background-position:0 -103px;}
 
-.bleu2 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -131px -21px transparent !important; border: none;
-}
-.bleu4 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -131px -182px transparent !important; border: none;
-}
+.rouge1 a {         background-position:-43px 0; margin-left: 23px;}
+.rouge1 a:hover {   background-position:-43px -20px;}
+.rouge2 a {         background-position:-180px -46px;}
+.rouge2 a:hover {   background-position:-87px -21px;}
+.rouge3 a {         background-position:-43px -82px ; margin-left: 23px;}
+.rouge3 a:hover {   background-position:-43px -103px;}
+.rouge4 a {         background-position:-180px -46px;}
+.rouge4 a:hover {   background-position:-87px -142px;}
+.rouge5 a {         background-position:-43px -122px; margin-left: 23px;}
+.rouge5 a:hover {   background-position:-43px -142px;}
+.rouge6 a {         background-position:-180px -46px;}
+.rouge6 a:hover {   background-position:-87px -182px;}
 
-.bleu3 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll 0 -42px; transparent;
-	color: transparent;
-}
+.vert1 a {          background-position:-86px 0; margin-left: 23px;}
+.vert1 a:hover {    background-position:-86px -20px;}
+.vert2 a {          background-position:-180px -90px ;}
+.vert2 a:hover {    background-position:-43px -21px;}
+.vert3 a {          background-position:-86px -122px; margin-left: 23px;}
+.vert3 a:hover {    background-position:-86px -142px;}
+.vert4 a {          background-position:-180px -90px ;}
+.vert4 a:hover {    background-position:-43px -102px;}
+.vert5 a {          background-position:-86px -163px; margin-left: 23px;}
+.vert5 a:hover {    background-position:-86px -182px;}
+.vert6 a {          background-position:-180px -90px ;}
+.vert6 a:hover {    background-position:-43px -142px;}
 
-.bleu3 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll 0 -63px transparent !important; border: none;
-}
-
-.bleu5 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll 0 -82px transparent;
-	color: transparent;
-}
-
-.bleu5 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll 0 -103px transparent !important; border: none;
-}
-
-.rouge1 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -43px 0 transparent;
-	color: transparent;
-	margin-left: 23px;
-}
-
-.rouge1 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -43px -20px transparent !important; border: none;
-}
-
-.rouge2 a, .rouge4 a, .rouge6 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -180px -46px transparent;
-	color: transparent;
-}
-.rouge2 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -87px -21px transparent !important; border: none;
-}
-.rouge4 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -87px -142px transparent !important; border: none;
-}
-.rouge6 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -87px -182px transparent !important; border: none;
-}
-
-.rouge3 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -43px -82px transparent;
-	color: transparent;
-	margin-left: 23px;
-}
-
-.rouge3 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -43px -103px transparent !important; border: none;
-}
-
-.rouge5 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -43px -122px transparent;
-	color: transparent;
-	margin-left: 23px;
-}
-
-.rouge5 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -43px -142px transparent !important; border: none;
-}
-
-.vert1 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -86px 0 transparent;
-	color: transparent;
-	margin-left: 23px;
-}
-
-.vert1 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -86px -20px transparent !important; border: none;
-}
-
-.vert3 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -86px -122px transparent;
-	color: transparent;
-	margin-left: 23px;
-}
-
-.vert3 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -86px -142px transparent !important; border: none;
-}
-
-.vert5 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -86px -163px transparent;
-	color: transparent;
-	margin-left: 23px;
-}
-
-.vert5 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -86px -182px transparent !important; border: none;
-}
-
-.jaune1 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -132px 0 transparent;
-	color: transparent;
-	margin-left: 23px;
-}
-
-.jaune1 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -132px -20px transparent !important; border: none;
-}
-
-
-.jaune3 a {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -129px -163px transparent;
-	color: transparent;
-	margin-left: 23px;
-}
-
-.jaune3 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -129px -182px transparent !important; border: none;
-}
-
-
-
-
-.jaune2 a, .jaune4 a , .jaune6 a{
-	background: url("../img/widgetsFrama.png") no-repeat scroll -180px -133px transparent;
-	color: transparent;
-}
-.jaune2 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll 0px -21px transparent !important; border: none;
-}
-.jaune4 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll 0px -62px transparent !important; border: none;
-}
-.jaune6 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll 0px -102px transparent !important; border: none;
-}
-
-.vert2 a , .vert4 a, .vert6 a{
-	background: url("../img/widgetsFrama.png") no-repeat scroll -180px -90px transparent;
-	color: transparent;
-}
-
-
-.vert2 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -43px -21px transparent !important; border: none;
-}
-.vert4 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -43px -102px transparent !important; border: none;
-}
-.vert6 a:hover {
-	background: url("../img/widgetsFrama.png") no-repeat scroll -43px -142px transparent !important; border: none;
-}
-
+.jaune1 a {         background-position:-132px 0; margin-left: 23px;}
+.jaune1 a:hover {   background-position:-132px -20px;}
+.jaune2 a {         background-position:-180px -133px;}
+.jaune2 a:hover {   background-position:0px -21px;}
+.jaune3 a {         background-position:-129px -163px; margin-left: 23px;}
+.jaune3 a:hover {   background-position:-129px -182px;}
+.jaune4 a {         background-position:-180px -133px;}
+.jaune4 a:hover {   background-position:0px -62px;}
+.jaune6 a {         background-position:-180px -133px;}
+.jaune6 a:hover {   background-position:0px -102px;}
 
 /*-------------------- ContentAccueil ---------------*/
 
 .accueil {
-	margin-left: 4.3em !important;
-	width: 60% !important;
+
 }
 
 .accroche {
-	list-style-type: none;
-	font: 1.143em/1.7em PTSansCaption, GillSans, sans-serif;
-	margin-left: 2em;
-	margin-top: 0;
+    list-style-type: none;
+    font: 1.143em/1.7em PTSansCaption, GillSans, sans-serif;
+    margin-left: 2em;
+    margin-top: 15px; /* 0; BSV3 */
 }
 
 .accroche li {
-	line-height: 2em;
+    line-height: 2em;
 }
 
 .containerActu{
-	margin-left: 0em !important;
-	margin-top: 1.5em;
-	margin-right: 0em;
-	font-size: 1em;
-	line-height: 1.8em;
+    margin-left: 0em !important;
+    margin-top: 1.5em;
+    margin-right: 0em;
+    font-size: 1em;
+    line-height: 1.8em;
 }
 
 
 
 #news, .presentation {
-	border-bottom: 8px solid #eee;
-	padding-bottom: 7px;
-	margin-bottom: 10px;
+    border-bottom: 8px solid #eee;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
 }
 
 #contentCommunaute {
-	margin-top: 3.5em;
-	margin-bottom: 2.5em;
+    margin-top: 3.5em;
+    margin-bottom: 2.5em;
 }
 .blocCommunaute {
-	border-bottom: 1px solid #ddd;
-	width: 28% !important;
-	margin-left: 3.5em !important;
-	margin-right: 1em;
-	margin-top: 1em;
-	min-height: 25em !important;
+    margin-top: 1em;
+    min-height: 25em !important;
 }
 
 .blocCommunaute>img {
-	margin-top: 1.5em;
+    margin-top: 1.5em;
 }
 
 #presentationLogiciels, #presentationLibrenVrac{
-	border-bottom: 1px solid #ddd;
-	width: 57%;
-	margin-left:4em;
-	margin-right:2.5em;
-	padding-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 #presentationLibre, #presentationServices {
-	width: 40%;
-	margin-left:6em;
-	margin-right:2.5em
+
 }
+.col-md-12 {clear:both;}
 
 #blocServices {
-	border-bottom: 1px solid #ddd;
-	padding-bottom: 2em;
+/*  border-bottom: 1px solid #ddd;*/
+    padding-bottom: 2em;
 }
 #AlaUne {
-	margin-top: 1.5em;
+    margin-top: 1.5em;
 }
 
 blockquote {
-	font: 1.287em/1.7em PTSans, GillSans, sans-serif;
-	color: #666;
-	margin-top: 2em;
-	margin-bottom: 1em;
-	text-align: right; 
-	border: none;
+    font: 1.287em/1.7em PTSans, GillSans, sans-serif;
+    color: #666;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: right;
+    border: none;
 }
 
 .miniBloc {
-	border-bottom: 1px solid #ddd;
-	margin-left: 3em !important;
-	margin-right: 0em;
-	margin-top: 2.5em;
-	min-height: 23em !important;
-	/*margin-bottom: 2.5em;*/
-	width: 21% !important;
+    margin-top: 2.5em;
+    min-height: 23em !important;
 } /*blocs Framatrucs double class sur div span3 + hacks*/
 
 .miniBloc2 {
-	border-bottom: 1px solid #ddd;
-	margin-left: 3em !important;
-	margin-right: 0em;
-	margin-top: 1.5em;
-	min-height: 22em !important;
-	margin-bottom: 1.5em;
-	width: 42% !important;
+    margin-top: 1.5em;
+    min-height: 22em !important;
+    margin-bottom: 1.5em;
 } /*blocs Framatrucs double class sur div span3 + hacks*/
 
 h4.titreBloc {
-	border-bottom: 8px solid #eee;
-	padding-bottom: 6px;
-	margin-bottom: 0.5em;
-	margin-right: 0.7em;
-	margin-left: 0.7em;
+    border-bottom: 8px solid #eee;
+    padding-bottom: 6px;
+    margin-bottom: 0.5em;
+    /*margin-right: 0.7em;
+    margin-left: 0.7em; BSv3 */
 }
 
 .FramaTrucsLien {
-	padding-right: 7.5em;
+    padding-right: 7.5em;
 }
 .FramaTrucsLien a:hover {
-	color: #604043; border: none;
+    color: #604043;
+    border: none;
 }
 
 .goTo1{
-	/*border: 1px solid green;*/
-	background: url("../img/widgetsFrama2.png") no-repeat scroll 205px 2px transparent;
+    /*border: 1px solid green;*/
+    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px 2px transparent;
 }
 .goTo1 a:hover{
-	background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -23px #fff;
-	color: #604043; border: none;
+    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -23px #fff;
+    color: #604043; border: none;
 }
 
 .goTo2{
-	/*border: 1px solid green;*/
-	background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -52px transparent;
+    /*border: 1px solid green;*/
+    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -52px transparent;
 }
 .goTo2 a:hover{
-	background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -80px #fff;
-	color: #604043; border: none;
+    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -80px #fff;
+    color: #604043; border: none;
 }
 
 .goTo3{
-	/*border: 1px solid green;*/
-	background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -110px transparent;
+    /*border: 1px solid green;*/
+    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -110px transparent;
 }
 .goTo3 a:hover{
-	background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -137px #fff;
-	color: #604043; border: none;
+    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -137px #fff;
+    color: #604043; border: none;
 }
 
 .goTo4{
-	/*border: 1px solid green;*/
-	background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -166px transparent;
+    /*border: 1px solid green;*/
+    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -166px transparent;
 }
 .goTo4 a:hover{
-	background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -194px #fff;
-	color: #604043; border: none;
+    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -194px #fff;
+    color: #604043; border: none;
 }
 
 .blocSubTitle, .miniBlocSubTitle {
-	font-weight: bold;
+    font-weight: bold;
 }
 .blocSubTitle, .blocTexte{
-	margin-left: 0em;
-	margin-right: .5em;
-	line-height: 1.5em;
+    margin-left: 0em;
+    margin-right: .5em;
+    line-height: 1.5em;
 }
 
 .miniBlocSubTitle , .miniBlocTexte {
-	margin-right: 1em;
-	margin-left: 1em;
-	line-height: 1.5em;
+    margin-right: 1em;
+    /*margin-left: 1em; BSv3 */
+    line-height: 1.5em;
 }
 
 .miniBlocLast {
-	background-color: #ddd;
-	/*border-bottom: 1px solid #ddd;
-	padding-top: 1em;
-	padding-bottom: 1em;
-	margin-bottom: 2.5em;*/
-	padding-right: 2em !important;
-	margin-left: 73%;
-	margin-top: 1em;
-	text-align: right;
-	height: 15px;
-	width: 17px;
+    background-color: #ddd;
+    padding-right: 2em !important;
+    margin-top: 1em;
+    text-align: right;
+    height: 15px;
+    width: 17px;
 }
 
 #presentationLogiciels>p.miniBlocLast {
-	margin-left: 92% !important;
-	margin-top: 2em;
-	margin-bottom: -1em;
+    margin-top: 2em;
+    margin-bottom: -1em;
 }
 
 .miniBlocLast a {
-	
+
 }
 
 .miniBlocLast a:hover {
-	color: #ddd; border: none;
+    color: #ddd; border: none;
 }
 
 .EnVenteLibre {
-	background: none;
-	text-align: right;
-	font-weight: bold;
-	/*margin-bottom: -1.25em;*/
-	margin-right: 1em;
-	margin-left: 15em;
+    background: none;
+    text-align: right;
+    font-weight: bold;
+    /*margin-bottom: -1.25em;*/
+    margin-right: 1em;
+    /*margin-left: 15em;*/
 }
 
 .EnVenteLibre a:hover {
-	color: #604043; border: none;
+    color: #604043; border: none;
 }
 /*-------------- les FramaTrucs-------------*/
 
 #blocFramatrucs{
-	margin-left: 3em !important;
-	margin-top: -0.5em;
+/*  margin-left: 3em !important; BSv3 */
+    margin-top: -0.5em;
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#blocFramatrucs .col-md-4, #blocFramatrucs .col-md-8 {
+    padding-left:15px;
+    padding-right:15px;
 }
 
 .titreFramaTrucs {
-	border-bottom: 2px solid #ddd;
-	padding-top: 0.7em;
-	padding-bottom: 5px;
-	margin-bottom: 9px;
-	margin-left: 1.5em;
-	margin-right: 1em;
+    border-bottom: 2px solid #ddd;
+    padding-top: 0.7em;
+    padding-bottom: 5px;
+    margin-bottom: 9px;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
 
 .listeFramaTrucs li, .FramaTrucs li {line-height: 24px;}
 
 .listeFramaTrucs {
-	list-style-type: none;
-	margin-left: 1.5em;
-	padding-left: 2.5em;
+    list-style-type: none;
+    margin-left: 1.5em;
+    padding-left: 2.5em;
 }
 
 .FramaTrucs{
-	font: bold 1.143em/1.357em PT Sans, Arial, Helvetica, sans-serif;
-	/*list-style-image: url("../img/puce.png");*/
-	list-style-type: none;
-	margin-left: 1em;
+    font: bold 1.143em/1.357em PT Sans, Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin-left: 2em;
 }
 
 .FramaTrucs a:hover {
-	color: red;
+    color: red;
+    text-decoration: none;
 }
 
 .titreFramaTrucs a:hover,.FramaTrucs a:hover {
-	color: #604043; border: none;
-}	
+    color: #604043; border: none;
+}
 
 .homeAlerte {
-    float: left; 
+    float: left;
     text-align:center;
-    margin-top:2em; 
-    margin-left:2em; 
+    margin-top:2em;
+    margin-left:2em;
     padding:1em;
-    background:#eee; 
-    font-size:120%; 
-    border: 1px solid #333; 
+    background:#eee;
+    font-size:120%;
+    border: 1px solid #333;
     width:45%;
 }
 
@@ -640,326 +472,103 @@ h4.titreBloc {
 /*--------------------Illustrations -----------------*/
 
 #pingouinVolant {
-	margin-left: 31em;
-	margin-bottom: -5em;
-	margin-top: -1em;
+    margin-left: 31em;
+    margin-bottom: -5em;
+    margin-top: -1em;
 }
 
 .legende {
-	color: #888;
-	font: italic 1em/1.35 "PT Sans", Arial, sans-serif;
-	margin-bottom: 2em;
-	text-align: center;
-}
-
-/*--------------------Caroussel -----------------*/	
-.carousel{
-	margin-top: 1.5em !important;
-	margin-bottom: 1em !important;
-}
-
-.carousel-caption {
-    background: none repeat scroll 0 0 rgba(50, 50, 50, 0.55);
-    bottom: 0;
-    left: 0;
-    padding: 15px;
-    position: absolute;
-    right: 0;
-}
-
-.carousel-caption p {
-    margin-bottom: 0;
-}
-.carousel-caption h4, .carousel-caption p {
-    color: #ddd;
-    line-height: 20px;
-}
-.carousel-caption a {
-    color: #fff;
-}
-.carousel-caption a:hover {
-    color: #7E4F82;
-}
-
-
-.carousel-control {
-   background: none repeat scroll 0 0 #ddd;
-   border: none;
-   border-radius:0;
-    color: #333;
-    font-size: 32px;
-    height: 21px;
-    left: 15px;
-    line-height: 18px;
-    margin-top: -20px;
-    opacity: 0.15;
-    position: absolute;
+    color: #888;
+    font: italic 1em/1.35 "PT Sans", Arial, sans-serif;
+    margin-bottom: 2em;
     text-align: center;
-    top: 60%;
-    width: 23px;
-}
-
-.carousel-control a{
-	text-decoration: none;
-}
-.carousel-control:hover{
-	opacity: 0.5;
-	text-decoration: none;
-	color: #7E4F82;
 }
 
 
-/*---------------------footer-------------------------*/
-
-.footer {
-	border-top: 1px solid #ddd;
-	padding-top: 1em;
-	margin-top: 1.5em;
-	margin-right: auto;
-	margin-left: auto;
-	/*-webkit-box-shadow: 5px -6px 13px -12px rgba(50, 50, 50, 0.5);
-	-moz-box-shadow:    5px -6px 13px -12px rgba(50, 50, 50, 0.5);
-	box-shadow:         5px -6px 13px -12px rgba(50, 50, 50, 0.5);
-	
-	-webkit-box-shadow: -4px 6px 9px rgba(50, 50, 50, 0.5);
-	-moz-box-shadow:    5px -6px 13px -12px rgba(50, 50, 50, 0.5);
-	box-shadow:         -4px 6px 9px rgba(50, 50, 50, 0.5);*/
-
+.row img { /* BSv3 */
+    width:80%;
+    margin:0.5em 10%;
 }
 
-#Credits h1 , #Mentions h1{font-size: 1.4em; font-weight: bold;}
-#Credits h2, #Mentions h2{font-size: 1.2em; font-weight: bold;}
-#Credits h3, #Mentions h3{font-size: 1em; font-weight: bold;}
+/*--------------------Carousel -----------------*/
+.carousel {
+    margin:1em;
+}
 
-.btn {
-	-moz-border-bottom-colors: none;
-    -moz-border-left-colors: none;
-    -moz-border-right-colors: none;
-    -moz-border-top-colors: none;
-    background-repeat: repeat-x;
-	background: none;
-	border: none;
-    border-image: none;
-	color: #888;
+.carousel-inner {
+    padding-bottom:75px;
+    box-shadow:0px 3px 3px rgba(50, 50, 50, 0.5);
+}
+
+
+.carousel-control.right, .carousel-control.left{
+    background-image:none !important;
+    color:#eee!important;
+}
+
+#play-pause {
+    position: absolute;
+    margin-top: -100px;
+    margin-left:30px;
+    left: 0%;
+}
+
+#play-pause a {
     cursor: pointer;
-    display: inline-block;
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 0;
-    padding: 4px 12px;
-    text-align: center;
-	text-shadow: none;
-    vertical-align: middle;
-	}
-
-.btn:hover {
-	background: none;
-	border-bottom: 1px dotted #7E4F82;
-	color: #7E4F82;
+    font-size: 30px;
+    z-index: 1000 !important;
+    background: #f3f3f3 !important;
+    border-radius: 30px;
+    color: #767676 !important;
+    width: 40px;
+    height: 40px;
+    padding-left: 2px;
+    padding-top: 2px;
+    position:absolute!important;
+    opacity:1;
+    text-shadow:none;
+    box-shadow:0px 1px 1px rgba(50, 50, 50, 0.5);
+}
+#play-pause a:hover {
+    color: #555 !important;
 }
 
-/*--------------------- patches portables (proposition pyg) -------------------------*/
-	@media screen and (max-width: 767px) {
-   /* pour toutes les plateformes mobiles avec une résolution horizontale de moins de 767px */ 
-	.framanav_container{width: 92% !important;}
+.carousel a{
+    border-bottom: none!important;
+}
 
-    /* on réduit ou vire les padding du body pour maximiser l'espace de lecture */
-      body {padding-right: 0px; padding-left: 0px;}
+.carousel-caption{
+    background: #f3f3f3 !important;
+    bottom:-75px!important;
+    color: #333 !important;
+    left:0!important;
+    right:0!important;
+    position:absolute!important;
+    height:78px !important;
+    text-shadow:none;
+    border-top:1px solid #ddd;
+}
 
-    /* on occupe le maximum d'espace */
-		.sitename {margin-left: 0em;}
-		.header {margin-bottom: 0.5em !important;}
-		#contentCommunaute {margin-bottom: 0.5em !important; margin-top: 0.5em !important;}
-		.blocCommunaute {margin-top: 1.5em !important;}
-	
-	
-		 .sitename, .accueil, .blocCommunaute, h4.titreBloc, .miniBlocSubTitle, .miniBlocTexte,  #presentationLogiciels, #presentationLibrenVrac,  .miniBloc , #presentationLibre,#presentationServices, .miniBloc2 {
-			margin-left: 0 !important;
-			margin-right: 0 !important;
-			width: 100% !important;
-			min-height: 0 !important;
-		  }
-	  
-		.blocCommunaute > img {margin-top: 0em !important;}
+.carousel img { /* BSv3 */
+    width:100%;
+    margin:0;
+}
 
-    /* La liste des projets */
+ul,ol {padding-left:0 !important}
 
-		.listeFramaTrucs {
-			/*margin-left: -1.5em;
-			margin-right: 1.5em;*/
-			padding-left: none;
-			float: left;
-			width: none;
-		}
-		#blocFramatrucs, .titreFramaTrucs , .listeFramaTrucs {
-			margin-left: 0em !important;
-			margin-right: 0em !important;
-			padding-left: 0em !important;
-			}
-		.FramaTrucs {
-			float: left;
-			margin-left: 0em !important;
-			padding-left: 0em !important;
-		}
-
-    /* Les sous-titres */
-		#headerSubTitle {font: italic 1.1em/1.35 "PT Sans",Arial,sans-serif;}
-		.header .span4 {width: 89.7% !important;}
-
-    /* violent ? on vire les navEntities2, peu utiles sur petits écrans */
-		  .navEntities2 {display: none;}
-	  
-		 .span8 > .accueil {margin-left: 0em !important;width: 100% !important;}
-	  
-		  .accroche, ul.accroche {margin: 0em !important;}
-		  #pingouinVolant {display: none !important;} /*on enlève les illustrations, peu lisibles*/
+@media (max-width: 991px) {
+    .blocCommunaute,.miniBloc,.miniBloc2 {
+        min-height: 0 !important;
     }
-	
-	
-	@media screen and (max-width: 319px) {
-	/*pour les petits portables et pour le fun*/
-		.header{border: 0px solid purple;}
-		h1 {font-size: 1.6em !important;}
-		h3, h3.presentation {font-size: 1.3em !important;}
-		#headerSubTitle {font-size: 1em !important;}
-		.navEntities {margin-left: -1.8em !important;}
-		.accroche, ul.accroche {font-size: 1em !important;}
-		.btn {font-size: 0.8em !important; padding: 2px 6px !important;}
-		.blocCommunaute, #presentationLogiciels,#presentationLibre, #presentationLibrenVrac, .miniBloc, .miniBloc2 {font-size: 0.9em !important;}
-		.miniBlocLast {padding-right: 1em !important; height: 10px !important;}
-		/*.goTo1{background: url("../img/widgetsFrama2.png") no-repeat scroll 98px 2px transparent;}
-		.goTo1 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 98px -23px #fff;}
-		.goTo2{background: url("../img/widgetsFrama2.png") no-repeat scroll 98px -52px transparent;}
-		.goTo2 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 98px -80px #fff;}*/
-		.goTo1, .goTo2, .goTo3, .goTo4, .goTo1 a:hover, .goTo2 a:hover, .goTo3 a:hover, .goTo4 a:hover {background: none;}
-
-		.FramaTrucsLien {padding-right: 2.5em !important;}
-		#pingouinsBalladeurs {display: none;}
-		#pingouinMuseeWindows, #pingouinsQuelquesBriques, #GeGeGenerator{margin-right: auto; margin-left: auto; min-width: 100px;}
-		.EnVenteLibre {margin-left: 0em !important; margin-right: 0em !important;}
-		blockquote {font: 1.1em/1.5em PTSans,GillSans,sans-serif;}
-	}
-	
-	@media screen and (min-width: 320px) and (max-width: 479px){
-		/*pour les portables de type iPhone*/
-		/*pour une raison mystérieuse, cette query ne s'amorce plus, il doit y avoir un conflit, mais je ne l'ai pas trouvé =/  pitain... je viens de réussir à débugger le truc, victoire !...*/
-			.framanav_container{width: 74% !important;}
-			.header{border: 0px solid yellow;}
-			h1 {font-size: 2.3em !important;}
-			h3 {font-size: 1.5em !important;}
-			#headerSubTitle {font-size: 1.15em !important;}
-			.accroche, ul.accroche {font-size: 1em !important;}
-			.btn {font-size: 0.9em !important; padding: 3px 8px !important;}
-			.miniBlocLast {padding-right: 1.4em !important; height: 12px !important;}
-			.goTo1{background: url("../img/widgetsFrama2.png") no-repeat scroll 160px 2px transparent;}
-			.goTo1 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 160px -23px #fff;}
-			.goTo2{background: url("../img/widgetsFrama2.png") no-repeat scroll 160px -52px transparent;}
-			.goTo2 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 160px -80px #fff;}
-			.goTo3{background:url("../img/widgetsFrama2.png") no-repeat scroll 160px -110px transparent;}
-		   .goTo3 a:hover {background: url("../img/widgetsFrama2.png") no-repeat scroll 160px -137px #fff;}
-		   .goTo4{background: url("../img/widgetsFrama2.png") no-repeat scroll 160px -166px transparent;}
-		   .goTo4 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 160px -194px #fff;}
-			.FramaTrucsLien {padding-right: 5.1em !important;}
-			.EnVenteLibre {margin-left: 12.3em !important;}
-			blockquote {font: 1.15em/1.5em PTSans,GillSans,sans-serif; }
-			.navEntities {margin-left: 0em !important;}
-			#presentationLogiciels > p.miniBlocLast {margin-left: 83% !important;}
-			#pingouinMuseeWindows, #pingouinsQuelquesBriques, #GeGeGenerator{margin-right: auto; margin-left: auto; min-width: 200px;}
-	}
-
-	@media screen and (min-width: 480px) and (max-width: 767px)  {
-	/*petites tablettes machins non couverts par les propriétés 'générales'*/
-		.framanav_container{width: 86% !important;}
-		.header{border: 0px solid blue;}
-		.navEntities {margin-left: 0em !important;}
-		#presentationLogiciels > p.miniBlocLast {margin-left: 83% !important;}
-		/*.goTo1{background: url("../img/widgetsFrama2.png") no-repeat scroll 333px 2px transparent;}
-		.goTo1 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 333px -23px #fff;}*/
-		/*.goTo2{background: url("../img/widgetsFrama2.png") no-repeat scroll 157px -52px transparent;}
-		.goTo2 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 157px -80px #fff;}*/
-		.FramaTrucsLien {padding-right: 15.5em !important;}
-		#pingouinMuseeWindows, #pingouinsQuelquesBriques, #GeGeGenerator{margin-right: auto; margin-left: auto; max-width: 400px;}
-		#nyanCat{margin-right: auto; margin-left: auto; max-width: 300px;}
-	}
-	
-	@media screen and (min-width: 768px) and (max-width: 1023px){
-		/* pour les tablettes en mode portrait */ 	
-		.framanav_container{width: 119% !important;}
-	   .header {margin-left: 0 !important; border:0px solid green; }
-	   .header .span4{width: 27.5% !important;}
-	   .sitename {margin-left: -0.5em !important; width: 298px !important;}
-	   #headerSubTitle {font: italic 1.1em/1.35 "PT Sans",Arial,sans-serif; padding-top: 2em; margin-right: -2em !important; text-align: right; width: 263px;}
-	   .navEntities {margin-left: 12em !important; margin-right: -5em !important;}
-	   
-	   .accueil{ margin-left: 1.5em !important; margin-right: 2.5em !important; width: 50% !important;}
-	   #pingouinVolant{margin-bottom: -2em; margin-left: 20em; margin-right: 0; min-width: 33%;}
-	   #blocFramatrucs{width: 42% !important;}
-	   .listeFramaTrucs{margin-right: 3em; padding-left: 2em;}
-	   #blocFramatrucs, .titreFramaTrucs, .listeFramaTrucs, ul.listeFramaTrucs{margin-left: 0em !important; padding-left: 0em !important;}
-	   .FramaTrucs{margin-left: 1em; margin-right: -4em;}
-	   #contentCommunaute{margin-left: 1em !important;}
-	   .blocCommunaute{margin-left: 0em !important; min-height: 0 !important; width: 31% !important;}
-	   .blocCommunaute > img {margin-top: 7em !important;}
-	   #presentationLogiciels, #presentationLibrenVrac {margin-left: 1.5em !important;}
-	   #pingouinMuseeWindows, #pingouinsQuelquesBriques  {margin-left: auto; margin-right: auto; margin-top: 4em;}
-	   #nyanCat{margin-top:2em; margin-bottom: 2em;}
-	   .miniBloc{margin-left: 2em !important; min-height: 35em !important;}
-	   #presentationLibre, #presentationServices{margin-left: 4em; width: 37%;}
-	   .miniBloc2{ margin-left: 0 !important; width: 50% !important;}
-	   .EnVenteLibre{margin-left: 9em !important;}
-	   .goTo1 {background: url("../img/widgetsFrama2.png") no-repeat scroll 114px 2px transparent;}
-	   .goTo1 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 114px -23px #fff;}
-	   .goTo2{background: url("../img/widgetsFrama2.png") no-repeat scroll 144px -52px transparent;}
-	   .goTo2 a:hover {background: url("../img/widgetsFrama2.png") no-repeat scroll 144px -80px #fff;}
-	   .goTo3{background:url("../img/widgetsFrama2.png") no-repeat scroll 144px -110px transparent;}
-	   .goTo3 a:hover {background: url("../img/widgetsFrama2.png") no-repeat scroll 144px -137px #fff;}
-	   .goTo4{background: url("../img/widgetsFrama2.png") no-repeat scroll 144px -166px transparent;}
-	   .goTo4 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 144px -194px #fff;}
-	   .FramaTrucsLien{padding-right: 4em !important;}
-	   blockquote {margin-left: 2em; margin-top: 8em;}
-
-	}
-	
-@media screen and (min-width: 1024px) and (max-width: 1200px) and (orientation: landscape), screen and (min-width:1024px) and (max-width:1200px)
-	/*@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)*/{
-	/* pour les tablettes en mode paysage ou les ordinateurs avec une r?lution horizontale de moins de 1024px */ 
-		.framanav_container{width: 115% !important;}
-	   .header .span4 {width: 28.5% !important;}
-	   .header { margin-left: 0 !important;border:0px solid red;}
-	   .sitename {margin-left: -0.5em !important; width: 400px !important;}
-	   #headerSubTitle {font: italic 1.1em/1.35 "PT Sans",Arial,sans-serif; padding-top: 2em; margin-right: -2em !important; text-align: right;}
-	   .navEntities {margin-left: 12em !important; margin-right: -5em !important;}
-	   .accueil {margin-left: 1.5em !important; width: 59% !important;}
-	   .accroche{margin-left: 1.5em !important;}
-	   #blocFramatrucs {margin-left: 2em !important; width: 35% !important; float: right;}
-	   .titreFramaTrucs {margin-right: 0.5em;}
-	   .listeFramaTrucs {margin-left: 0em !important; margin-left: 0em !important;}
-	   .FramaTrucs{margin-left: 0em !important;}
-	   #pingouinVolant {margin-bottom: -4em; margin-left: 27em;}
-	   
-      .blocCommunaute {min-height: 29em !important; width: 26% !important;}
-	  .miniBloc {min-height: 29em !important; width: 20% !important;}
-	  #presentationLibre, #presentationServices{margin-left: 5em; width: 34%;}
-	  .miniBloc2{ margin-left: 1.5em !important; min-height: 25em !important; width: 45% !important;}
-	  .EnVenteLibre {margin-left: 12em !important;}
-	  .goTo1 {background:url("../img/widgetsFrama2.png") no-repeat scroll 148px 2px transparent;}
-	  .goTo1 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 148px -23px #fff;}
-	  .goTo2 {background: url("../img/widgetsFrama2.png") no-repeat scroll 171px -52px transparent;}
-	  .goTo2 a:hover {background: url("../img/widgetsFrama2.png") no-repeat scroll 171px -80px #fff;}
-	  .goTo3{background:url("../img/widgetsFrama2.png") no-repeat scroll 147px -110px transparent;}
-	  .goTo3 a:hover {background: url("../img/widgetsFrama2.png") no-repeat scroll 147px -137px #fff;}
-	  .goTo4{background: url("../img/widgetsFrama2.png") no-repeat scroll 150px -166px transparent;}
-	  .goTo4 a:hover{background: url("../img/widgetsFrama2.png") no-repeat scroll 150px -194px #fff;}
-	  #pingouinMuseeWindows{}
-	  #pingouinMuseeWindows, #pingouinsQuelquesBriques {margin: 3em auto;}
-	  #nyanCat{margin-top:2em; margin-bottom: 2em;}
-
-    }		
-
-	
-
-	
-
-
-	
-
+    .listeFramaTrucs, .FramaTrucs {
+        float:left;
+    }
+    .goTo1 {background-position:114px 2px;}
+    .goTo1 a:hover{background-position:114px -23px;}
+    .goTo2{background-position:144px -52px;}
+    .goTo2 a:hover {background-position:144px -80px;}
+    .goTo3{background-position:144px -110px;}
+    .goTo3 a:hover {background-position:144px -137px;}
+    .goTo4{background-position:144px -166px;}
+    .goTo4 a:hover{background-position:144px -194px;}
+}
