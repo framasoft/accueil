@@ -211,7 +211,7 @@
                             <li>Calculer</li>
                             <li>Structurer</li>
                             <li>Dessiner</li>
-                            <li>Diffuser</li>
+                            <li>Partager</li>
                         </ul>
                     </div>
                     <div class="col-md-8">
@@ -221,7 +221,7 @@
                             <li><a href="http://www.framacalc.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>calc</a></li>
                             <li><a href="http://www.framindmap.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Fra</span>mindmap</a></li>
                             <li><a href="http://framavectoriel.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>vectoriel</a></li>
-                            <li><a href="http://framaphonie.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>phonie</a></li>
+                            <li><a href="https://framasphere.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>sphère</a></li>
                         </ul>
                     </div>
                 </div>
@@ -593,9 +593,9 @@
                     </div>
 
                     <div class="col-md-3 miniBloc">
-                        <h4 class="titreBloc goTo3"><a href="http://framaphonie.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>phonie</a></h4>
-                        <p class="miniBlocSubTitle">Le Libre dans des zones faiblement connectées</p>
-                        <p class="miniBlocTexte"> Framaphonie est un projet du réseau Framasoft qui vise à diffuser des produits libres (CD, clés USB, livres, etc) dans les zones faiblement connectées à Internet. </p>
+                        <h4 class="titreBloc goTo3"><a href="http://framasphere.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>sphère</a></h4>
+                        <p class="miniBlocSubTitle">Le réseau social de Framasoft</p>
+                        <p class="miniBlocTexte"> Framasphère est un nœud de Diaspora* : un réseau social libre, décentralisé, respectueux de vos données et de votre vie privée. </p>
                         <p class="miniBlocLast">&nbsp;</p>
                     </div>
                 </div>
