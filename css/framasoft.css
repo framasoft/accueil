@@ -56,7 +56,7 @@ a, a:hover, a:focus, a:visited {text-decoration: none;}
 a {color: #888; border-bottom: 1px dotted #888;;}
 a:hover {color: #7E4F82; border-bottom: 1px dotted #7E4F82;}
 
-.sitename a, #sitename a , #sitename2 a, #sitename3 a, .navEntities a, .navEntities2 a, .FramaTrucsLien a, .goTo1 a, .goTo2 a, .goTo3 a, .goTo4 a,.miniBlocLast a, .EnVenteLibre a, .titreFramaTrucs a,.FramaTrucs a {border: none;}
+.sitename a, .navEntities a, .navEntities2 a, .FramaTrucsLien a, .goTo1 a, .goTo2 a, .goTo3 a, .goTo4 a,.miniBlocLast a, .EnVenteLibre a, .titreFramaTrucs a,.FramaTrucs a {border: none;}
 
 
 /*----------- titraille général ------------*/
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-left: 0;
     margin-right: 0;
 }
-h1 {font-size: 2.857em; /*text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.5) !important;*/}
+h1 {font-size: 2.857em;}
 
 #framasoft {font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;}
 
@@ -79,37 +79,6 @@ h4 {font-size : 1.3em;}
 
 
 /*----------- Framabarre - ajustements  ------------*/
-.navbar .brand {
-    color: #777777;
-    display: block;
-    float: left;
-    font-size: 20px;
-    font-weight: 200;
-    margin-left: -80px;
-    padding: 10px 20px;
-    text-shadow: 0 1px 0 #FFFFFF;
-}
-
-.navbar-search {
-    float: right;
-    margin-bottom: 0;
-    margin-top: 5px;
-    position: relative;
-    margin-left: 4em;
-    right: 0;
-}
-
-.navbar-search .search-query {
-    border-radius: 5px 5px 5px 5px;
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 13px;
-    font-weight: normal;
-    line-height: 1;
-    margin-bottom: 0;
-    padding: 3px 2em;
-    margin-top: 0.15em;
-}
-
 #framanav a {
     border: none;
 }
@@ -124,40 +93,15 @@ h4 {font-size : 1.3em;}
     padding-top: 1.5em; /* 2em; BSv3 */
 }
 
-
-/*  BSv3
-.header .col-md-4 {
-    width: 30.7% !important;
-} */
-
-#sitename,  #sitename3 {
-    color: transparent;
-    margin-left: -30px;
-    margin-bottom: 0em;
+.header .col-md-5,
+.header .col-md-4,
+.header .col-md-3 {
+    padding:0 10px;
 }
 
-#sitename{
-    background: url("../img/headerFramasoft.png") no-repeat scroll bottom left transparent;
-    /*border: 2px solid red;*/
-    padding-bottom: 0.2em;
-}
-
-/*#sitename2, */.sitename{
-    /*background: url("../img/headerCommunaute.png") no-repeat scroll bottom left transparent;*/
-    /*padding-bottom: 0.4em;*/
+.sitename {
     margin-bottom: 0;
     margin-left: -0.2em;
-    padding-top: 0.4em;
-
-}
-
-#sitename3{
-    background: url("../img/headerLogiciels.png") no-repeat scroll bottom left transparent;
-    padding-bottom: 0.4em;
-}
-
-#sitename a , #sitename3 a{
-    color: transparent;
 }
 
 .headerSubTitle {
@@ -204,11 +148,11 @@ h4 {font-size : 1.3em;}
 
 .col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
 
-[data-tip] {
+.navEntities [title] {
     position: relative;
 }
-[data-tip]:hover:after {
-    content: attr(data-tip);
+.navEntities [title]:hover:after {
+    content: attr(title);
     position: absolute;
     top: 1.8em; right: -0em;
     white-space: nowrap; /* no wrapping */
