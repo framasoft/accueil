@@ -594,8 +594,8 @@
 
                     <div class="col-md-3 miniBloc">
                         <h4 class="titreBloc goTo3"><a href="http://framasphere.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>sphère</a></h4>
-                        <p class="miniBlocSubTitle">Le réseau social de Framasoft</p>
-                        <p class="miniBlocTexte"> Framasphère est un nœud de Diaspora* : un réseau social libre, décentralisé, respectueux de vos données et de votre vie privée. </p>
+                        <p class="miniBlocSubTitle">Le réseau social libre</p>
+                        <p class="miniBlocTexte"> Framasphère est un réseau social libre, basé sur le logiciel décentralisé Diaspora*. Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* - et échangez avec eux sans être pisté.</p>
                         <p class="miniBlocLast">&nbsp;</p>
                     </div>
                 </div>
