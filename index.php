@@ -133,6 +133,13 @@
                             </a>
                         </div>
                         <div class="item">
+                            <a href="http://www.framablog.org/index.php/post/2014/11/10/des-cartes-mentales-libres-avec-framindmap"><img src="/accueil/img/slide-framindmap.jpg" alt="" />
+                                <div class="carousel-caption">
+                                    <p><strong><span class="violet1">Fram</span><span class="vert">mindmap</span></strong> évolue et repose à présent sur Wisemapping.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
                             <a href="http://2014.capitoledulibre.org"><img src="/accueil/img/slide-capitole2014.jpg" alt="" />
                                 <div class="carousel-caption">
                                     <p><strong><span class="violet1">Frama</span><span class="orange">soft</span></strong> sera à Toulouse pour le <em>Capitole du Libre</em> les 14, 15 et 16 novembre.</p>
