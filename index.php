@@ -140,9 +140,9 @@
                             </a>
                         </div>
                         <div class="item">
-                            <a href="http://2014.capitoledulibre.org"><img src="/accueil/img/slide-capitole2014.jpg" alt="" />
+                            <a href="http://www.framablog.org/index.php/post/2014/11/26/Framadate-nouvelle-version-accessible"><img src="/accueil/img/slide-framadate.jpg" alt="" />
                                 <div class="carousel-caption">
-                                    <p><strong><span class="violet1">Frama</span><span class="orange">soft</span></strong> sera à Toulouse pour le <em>Capitole du Libre</em> les 14, 15 et 16 novembre.</p>
+                                    <p><strong><span class="violet1">Fram</span><span class="vert">date</span></strong> fait peau neuve pour être plus pratique et accessible.</p>
                                 </div>
                             </a>
                         </div>
