@@ -43,18 +43,18 @@ body {
     box-shadow:         -4px 6px 9px rgba(50, 50, 50, 0.5);
 }
 
-.bleu{color:#0c5b7a;}
-.rouge{color: #cc2d18;}
-.vert{color: #9bae5f;}
-.jaune{color: #dba306;}
-.violet1{color: #6a5687;}
-.orange {color: #eb7e41;}
+.bleu{color:#0c5b7a !important;}
+.rouge{color: #cc2d18 !important;}
+.vert{color: #8E9C48 !important;}
+.jaune{color: #dba306 !important;}
+.violet1{color: #6a5687 !important;}
+.orange {color: #eb7239 !important;}
 
 .smallcaps {font-variant: small-caps; /*si GillSans font-size: 0.85em;*/}
 
 a, a:hover, a:focus, a:visited {text-decoration: none;}
-a {color: #888; border-bottom: 1px dotted #888;;}
-a:hover {color: #7E4F82; border-bottom: 1px dotted #7E4F82;}
+a {color: #888; }/*border-bottom: 1px dotted #888;;}*/
+a:hover {color: #7E4F82; } /* border-bottom: 1px dotted #7E4F82;}*/
 
 .sitename a, .navEntities a, .navEntities2 a, .FramaTrucsLien a, .goTo1 a, .goTo2 a, .goTo3 a, .goTo4 a,.miniBlocLast a, .EnVenteLibre a, .titreFramaTrucs a,.FramaTrucs a {border: none;}
 
@@ -71,12 +71,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {font-size: 2.857em;}
 
-#framasoft {font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;}
+h1#framasoft {font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;}
 
 h3 {font-size: 1.714em;}
 h4 {font-size : 1.3em;}
 
-
+h1.sitename a, h4.titreFramaTrucs a, h4.titreBloc a, .FramaTrucs a { text-decoration:none}
 
 /*----------- Framabarre - ajustements  ------------*/
 #framanav a {

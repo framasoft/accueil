@@ -27,18 +27,18 @@
     <!-- fin metas DC -->
 
     <!-- Les styles -->
-    <link href="/nav/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://n1.framasoft.org/nav/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
     <link href="<?php echo $home_subdir; ?>css/framasoft.css" rel="stylesheet" />
 
     <!-- Fav and touch icons -->
     <link rel="shortcut icon" href="../NAVPICS/favicon.png">
-    <script src="/nav/lib/jquery/jquery.min.js" type="text/javascript"></script>
-    <script src="/nav/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="https://n1.framasoft.org/nav/lib/jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="https://n1.framasoft.org/nav/lib/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
 
 </head>
 
 <body>
-    <script src="/nav/nav.js" id="nav_js" type="text/javascript"></script>
+    <script src="https://n1.framasoft.org/nav/nav.js" type="text/javascript"></script>
     <script>
         if ( window.addEventListener ) {
             var kkeys = [], konami = "38,38,40,40,37,39,37,39,66,65";
@@ -80,10 +80,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu1"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge1"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="bleu1"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="rouge1"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -114,7 +114,14 @@
                         <div class="item active">
                             <a href="http://degooglisons-internet.org"><img src="<?php echo $home_subdir; ?>img/slide-degooglisons-internet.png" alt="" />
                                 <div class="carousel-caption">
-                                    <p><strong><span class="violet1">Dégooglisons</span> <span class="orange">Internet</span></strong> : des alternatives libres sont possibles.<br />Découvrez notre projet pour résister aux géants des services en ligne.</p>
+                                    <p><b><span class="violet1">Dégooglisons</span> <span class="orange">Internet</span></b> : des alternatives libres sont possibles.<br />Découvrez notre projet pour résister aux géants des services en ligne.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="http://framablog.org/2015/05/05/framabee-le-meta-moteur-qui-va-vous-butiner-le-web/"><img src="<?php echo $home_subdir; ?>img/slide-framabee.jpg" alt="" />
+                                <div class="carousel-caption">
+                                    <p><b><span class="violet1">Frama</span><span class="vert">bee</span></b>, le moteur de recherche libre et anonyme<br />qui butine les internets pour vous, sort de sa ruche.</p>
                                 </div>
                             </a>
                         </div>
@@ -126,30 +133,30 @@
                             </a>
                         </div>
                         <div class="item">
-                            <a href="http://framabook.org/16-r-et-espace/"><img src="<?php echo $home_subdir; ?>img/slide-book-r-et-espace.png" alt="" />
+                            <a href="http://framablog.org/2015/03/12/avant-de-dormir-un-roman-fantastique-et-sombre-chez-framabook/"><img src="<?php echo $home_subdir; ?>img/slide-avant-de-dormir.png" alt="" />
                                 <div class="carousel-caption">
-                                    <p>Nouveau <strong><span class="violet1">Frama</span><span class="rouge">book</span></strong> : <em>R et espace</em>, un manuel pour s’initier<br />au traitement de données géographiques et à la programmation avec R</p>
+                                    <p>Sortie du roman fantastique <cite><em>Avant de dormir</em></cite> de Lilly Bouriot chez <b><span class="violet1">Frama</span><span class="culture">book</span></b></p>
                                 </div>
                             </a>
                         </div>
                         <div class="item">
-                            <a href="http://www.framablog.org/index.php/post/2014/11/10/des-cartes-mentales-libres-avec-framindmap"><img src="/accueil/img/slide-framindmap.jpg" alt="" />
+                            <a href="http://framablog.org/2015/03/16/huit-re-framapic-framabin-framasoft-met-les-bouchees-triples/"><img src="/accueil/img/slide-bin-pic-link.jpg" alt="" />
                                 <div class="carousel-caption">
-                                    <p><strong><span class="violet1">Fram</span><span class="vert">mindmap</span></strong> évolue et repose à présent sur Wisemapping.</p>
+                                    <p><b><span class="violet1">Huit</span>.<span class="vert">re</span></b>, <b><span class="violet1">Frama</span><span class="vert">pic</span></b> et <b><span class="violet1">Frama</span><span class="vert">bin</span></b> : trois nouveaux services libres<br />pour partager des images, des liens, du texte en ligne.</p>
                                 </div>
                             </a>
                         </div>
                         <div class="item">
-                            <a href="http://www.framablog.org/index.php/post/2014/11/26/Framadate-nouvelle-version-accessible"><img src="/accueil/img/slide-framadate.jpg" alt="" />
+                            <a href="http://framablog.org/2015/02/05/degooglisons-internet-la-conference/"><img src="/accueil/img/slide-dio-conf.png" alt="" />
                                 <div class="carousel-caption">
-                                    <p><strong><span class="violet1">Fram</span><span class="vert">date</span></strong> fait peau neuve pour être plus pratique et accessible.</p>
+                                    <p><b><span class="violet1">Dégooglisons</span> <span class="orange">Internet</span></b>, LA conférence en vidéo.<br />« Et si Google était le Skynet de 2024 ? »</p>
                                 </div>
                             </a>
                         </div>
                         <div class="item">
                             <a href="http://fr.ulule.com/etherpad-framapad/news/"><img src="<?php echo $home_subdir; ?>img/slide-mypads-dev.jpg" alt="" />
                                 <div class="carousel-caption">
-                                    <p>Le développement du plugin MyPads pour permettre<br />la création de comptes privés sur <strong><span class="violet1">Frama</span><span class="vert">pad</span></strong> a commencé…</p>
+                                    <p>Le développement du plugin MyPads pour permettre<br />la création de comptes privés sur <strong><span class="violet1">Frama</span><span class="vert">pad</span></strong> est en cours…</p>
                                 </div>
                             </a>
                         </div>
@@ -218,17 +225,25 @@
                             <li>Calculer</li>
                             <li>Structurer</li>
                             <li>Dessiner</li>
+                            <li>Réseauter</li>
+                            <li>Coder</li>
+                            <li>Rechercher</li>
                             <li>Partager</li>
                         </ul>
                     </div>
                     <div class="col-md-8">
                         <ul class="FramaTrucs">
-                            <li><a href="http://www.framapad.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>pad</a></li>
-                            <li><a href="http://www.framadate.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>date</a></li>
-                            <li><a href="http://www.framacalc.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>calc</a></li>
-                            <li><a href="http://www.framindmap.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Fra</span>mindmap</a></li>
+                            <li><a href="https://framapad.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>pad</a></li>
+                            <li><a href="https://framadate.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>date</a></li>
+                            <li><a href="https://framacalc.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>calc</a></li>
+                            <li><a href="https://framindmap.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Fra</span>mindmap</a></li>
                             <li><a href="http://framavectoriel.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>vectoriel</a></li>
                             <li><a href="https://framasphere.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>sphère</a></li>
+                            <li><a href="https://git.framasoft.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>git</a></li>
+                            <li><a href="https://framabee.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>bee</a></li>
+                            <li><a href="https://framabin.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>bin</a></li>
+                            <li><a href="https://framapic.org/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>pic</a></li>
+                            <li><a href="https://frama.link/" class="vert">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>link</a></li>
                         </ul>
                     </div>
                 </div>
@@ -236,17 +251,13 @@
                 <div class="row">
                     <div class="col-md-4">
                         <ul class="listeFramaTrucs">
-                            <li>Un&nbsp;laboratoire</li>
                             <li>Un&nbsp;forum</li>
-                            <li>Une&nbsp;forge</li>
                             <li>Une&nbsp;boutique</li>
                         </ul>
                     </div>
                     <div class="col-md-8">
                         <ul class="FramaTrucs">
-                            <li><a href="http://framalab.org/" class="jaune">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>lab</a></li>
-                            <li><a href="http://forum.framasoft.org/" class="jaune">&#8827;&nbsp;&nbsp; <span class="violet1">Fram</span>agora</a></li>
-                            <li><a href="https://framacode.org" class="jaune">&#8827;&nbsp;&nbsp; <span class="violet1">Frama</span>code</a></li>
+                            <li><a href="https://forum.framasoft.org/" class="jaune">&#8827;&nbsp;&nbsp; <span class="violet1">Fram</span>agora</a></li>
                             <li><a href="http://www.enventelibre.org/" class="jaune">&#8827;&nbsp;&nbsp; <span class="violet1">EnVente</span>Libre</a></li>
                         </ul>
                     </div>
@@ -257,10 +268,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune2"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert2"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="jaune2"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="vert2"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -278,10 +289,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu1"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge1"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="bleu1"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="rouge1"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -317,7 +328,7 @@
             <div class="col-md-4 blocCommunaute">
                 <h4 class="titreBloc">Nous soutenir&nbsp;? </h4>
                 <p class="miniBlocSubTitle">Parce que libre ne signifie pas gratuit</p>
-                <p class="miniBlocTexte">Framasoft ne serait rien sans sa communauté de bénévoles mais ne pourrait pas fonctionner non plus sans le service de l’association qui a des frais et emploie trois indispensables permanents. Notre financement dépend de vous, c’est-à-dire des dons individuels collectés sur Internet. <a href="http://soutenir.framasoft.org/">Si vous pensez que nous le méritons…</a></p>
+                <p class="miniBlocTexte">Framasoft ne serait rien sans sa communauté de bénévoles mais ne pourrait pas fonctionner non plus sans le service de l’association qui a des frais et emploie trois indispensables permanents. Notre financement dépend de vous, c’est-à-dire des dons individuels collectés sur Internet. <a href="https://soutenir.framasoft.org/">Si vous pensez que nous le méritons…</a></p>
                 <p class="miniBlocLast">&nbsp;</p>
             </div>
 
@@ -325,15 +336,26 @@
                 <img src="<?php echo $home_subdir; ?>img/framateam2.jpg" alt="" />
             </div>
 
+            <div class="col-md-12 blocCommunaute">
+                <h4 class="titreBloc">Nos partenaires</h4>
+                <p class="miniBlocTexte">Framasoft est avant tout une communauté d’utilisateurs. Cependant, son fonctionnement est clairement celui d’un réseau, non seulement de projets, mais aussi de partenaires.
+                <br/>Ainsi, Framasoft bénéficie du soutien de nombreuses organisations (publiques, commerciales, associatives) qui permettent aux projets de croître et de se développer. <a href="https://soutenir.framasoft.org/partenaires">Liste de tous nos partenaires</a></p>
+                <ul class="list-inline text-center">
+                    <li><a href="http://www.milliweb.fr/"><img src="https://soutenir.framasoft.org/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
+                    <li><a href="https://www.ikoula.com/"><img src="https://soutenir.framasoft.org/sites/default/files/transparent-png-bleu.png" alt="Ikoula"></a></li>
+                </ul>
+                <p class="miniBlocLast">&nbsp;</p>
+            </div>
+
         </div>
 
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune2"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert2"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="jaune2"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="vert2"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -351,10 +373,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu3"><a href="#topPgLogiciels" title="rubrique logiciels"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge1"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="bleu3"><a href="#topPgLogiciels" title="rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="rouge1"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -408,10 +430,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune4"><a href="#topPgLogiciels" title="rubrique logiciels"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert2"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="jaune4"><a href="#topPgLogiciels" title="rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="vert2"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -429,10 +451,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu5"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge3"><a href="#topPgCulture" title="rubrique culture"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="bleu5"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="rouge3"><a href="#topPgCulture" title="rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -519,10 +541,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune6"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert4"><a href="#topPgCulture" title="rubrique culture"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="jaune6"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="vert4"><a href="#topPgCulture" title="rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -539,10 +561,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu5"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge5"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert3"><a href="#topPgCloud" title="rubrique cloud"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="bleu5"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="rouge5"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="vert3"><a href="#topPgCloud" title="rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -561,14 +583,14 @@
             <div class="col-md-6">
                 <div class="row">
                     <div class="col-md-6 miniBloc2">
-                        <h4 class="titreBloc goTo3"><a href="http://framapad.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>pad</a></h4>
+                        <h4 class="titreBloc goTo3"><a href="https://framapad.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>pad</a></h4>
                         <p class="miniBlocSubTitle">Éditer collaborativement</p>
                         <p class="miniBlocTexte">Écrivons tous ensemble sur le même document dans une interface de rédaction collective en ligne. Aucune inscription requise, on se donne un pseudo, une couleur et on se lance&nbsp;!</p>
                         <p class="miniBlocLast">&nbsp;</p>
                     </div>
 
                     <div class="col-md-6 miniBloc2">
-                        <h4 class="titreBloc goTo3"><a href="http://www.framadate.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>date</a></h4>
+                        <h4 class="titreBloc goTo3"><a href="https://framadate.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>date</a></h4>
                         <p class="miniBlocSubTitle">Organiser des rendez-vous et des sondages</p>
                         <p class="miniBlocTexte">Framadate c’est un peu comme Doodle mais en libre. Rien de plus simple de créer un rendez-vous ou un sondage sans inscription pour y inviter vos collaborateurs.</p>
                         <p class="miniBlocLast">&nbsp;</p>
@@ -586,7 +608,7 @@
                     </div>
 
                     <div class="col-md-3 miniBloc">
-                        <h4 class="titreBloc goTo3"><a href="http://www.framindmap.org/" class="vert FramaTrucsLien"><span class="violet1">Fra</span>mindmap</a></h4>
+                        <h4 class="titreBloc goTo3"><a href="https://framindmap.org/" class="vert FramaTrucsLien"><span class="violet1">Fra</span>mindmap</a></h4>
                         <p class="miniBlocSubTitle">Créer des cartes mentales</p>
                         <p class="miniBlocTexte">Interface fluide et intuitive pour créer rapidement et simplement des cartes heuristiques à même votre navigateur. Pertinent en situation de brainstorming ou de prise de notes.</p>
                         <p class="miniBlocLast">&nbsp;</p>
@@ -600,9 +622,64 @@
                     </div>
 
                     <div class="col-md-3 miniBloc">
-                        <h4 class="titreBloc goTo3"><a href="http://framasphere.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>sphère</a></h4>
+                        <h4 class="titreBloc goTo3"><a href="https://framasphere.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>sphère</a></h4>
                         <p class="miniBlocSubTitle">Le réseau social libre</p>
-                        <p class="miniBlocTexte"> Framasphère est un réseau social libre, basé sur le logiciel décentralisé Diaspora*. Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* - et échangez avec eux sans être pisté.</p>
+                        <p class="miniBlocTexte">Framasphère est un réseau social libre, basé sur le logiciel décentralisé Diaspora*. Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* - et échangez avec eux sans être pisté.</p>
+                        <p class="miniBlocLast">&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6 miniBloc">
+                        <h4 class="titreBloc goTo3"><a href="https://framabee.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>bee</a></h4>
+                        <p class="miniBlocSubTitle">Le moteur qui butine les internets pour vous</p>
+                        <p class="miniBlocTexte">Framabee est un meta-moteur de recherche libre et anonyme. Vos recherches effectuées au travers de ce moteur sont envoyées à différents moteurs avant d’être affichées dans votre navigateur. L’intérêt ? Notre moteur est alors un intermédiaire entre vous et Google (et autres), ainsi vos données personnelles (adresse IP, historique de vos recherches, géolocalisation, profil) ne sont pas enregistrées chez eux.</p>
+                        <p class="miniBlocLast">&nbsp;</p>
+                    </div>
+
+                    <div class="col-md-3 miniBloc">
+                        <h4 class="titreBloc goTo3"><a href="https://framabag.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>bag</a></h4>
+                        <p class="miniBlocSubTitle">Ne ratez plus aucun article !</p>
+                        <p class="miniBlocTexte">Framabag vous permet de mettre de côté les articles que vous n’avez pas le temps de lire tout de suite.</p>
+                        <p class="miniBlocLast">&nbsp;</p>
+                    </div>
+
+                    <div class="col-md-3 miniBloc">
+                        <h4 class="titreBloc goTo3"><a href="http://framanews.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>news</a></h4>
+                        <p class="miniBlocSubTitle">Suivre l’actualité</p>
+                        <p class="miniBlocTexte">En vous abonnant aux flux RSS de vos sites préférés, restez informés de toutes leurs actualités avec Framanews !</p>
+                        <p class="miniBlocLast">&nbsp;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3 miniBloc">
+                        <h4 class="titreBloc goTo3"><a href="https://git.framasoft.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>git</a></h4>
+                        <p class="miniBlocSubTitle">Héberger du code libre</p>
+                        <p class="miniBlocTexte">Framagit est un outil qui s’adresse avant tout aux développeurs. Il permet d’héberger vos projets de logiciels libres et de travailler collaborativement dessus.</p>
+                        <p class="miniBlocLast">&nbsp;</p>
+                    </div>
+                    
+                    <div class="col-md-3 miniBloc">
+                        <h4 class="titreBloc goTo3"><a href="https://framabin.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>bin</a></h4>
+                        <p class="miniBlocSubTitle">Transmettre des données chiffrées</p>
+                        <p class="miniBlocTexte">Avec Framabin, vous pouvez partager des informations que seuls vous et votre correspondant aurez le pouvoir de déchiffrer, et ceci de manière très simple.</p>
+                        <p class="miniBlocLast">&nbsp;</p>
+                    </div>
+
+                    <div class="col-md-3 miniBloc">
+                        <h4 class="titreBloc goTo3"><a href="https://framapic.org/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>pic</a></h4>
+                        <p class="miniBlocSubTitle">Partager des images anonymement</p>
+                        <p class="miniBlocTexte">Framapic vous permet de partager facilement des images, par exemple pour les publier sur Twitter, Facebook, ou … Framasphère !</p>
+                        <p class="miniBlocLast">&nbsp;</p>
+                    </div>
+
+                    <div class="col-md-3 miniBloc">
+                        <h4 class="titreBloc goTo3"><a href="https://frama.link/" class="vert FramaTrucsLien"><span class="violet1">Frama</span>link</a></h4>
+                        <p class="miniBlocSubTitle">Réduire des liens</p>
+                        <p class="miniBlocTexte">Avec Frama.link, il est possible de raccourcir des adresses web trop longues. Sur les réseaux sociaux et le microblogging, un lien raccourci permet d’économiser de l’espace et gagner en clarté.</p>
                         <p class="miniBlocLast">&nbsp;</p>
                     </div>
                 </div>
@@ -612,10 +689,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune6"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert6"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge4"><a href="#topPgCloud" title="rubrique cloud"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="jaune6"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="vert6"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="rouge4"><a href="#topPgCloud" title="rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -633,10 +710,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu5"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge5"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert5"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune3"><a href="#topPgVrac" title="rubrique libr’en vrac"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="bleu5"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="rouge5"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="vert5"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="jaune3"><a href="#topPgVrac" title="rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -655,7 +732,7 @@
                 <h4 class="titreBloc">À la une</h4>
                 <p class="miniBlocSubTitle">GéGé, Geektionnerd generator</p>
                 <figure id="GeGeGenerator">
-                    <a href="http://framalab.org/gknd-creator/" title="vers le générateur de Geektionnerd"><img src="<?php echo $home_subdir; ?>img/GeGeGenerator.jpg" alt="" /></a>
+                    <a href="https://framalab.org/gknd-creator/" title="vers le générateur de Geektionnerd"><img src="<?php echo $home_subdir; ?>img/GeGeGenerator.jpg" alt="" /></a>
                 </figure>
                 <p class="legende">
                     Cadeau&nbsp;: le geektionnerd à faire soi-même
@@ -665,28 +742,28 @@
         </div>
 
         <div class="row">
-            <div class="col-md-3 miniBloc">
-                <h4 class="titreBloc goTo4"><a href="http://framalab.org/" class="jaune FramaTrucsLien"><span class="violet1">Frama</span>lab</a></h4>
+            <!--<div class="col-md-3 miniBloc">
+                <h4 class="titreBloc goTo4"><a href="https://framalab.org/" class="jaune FramaTrucsLien"><span class="violet1">Frama</span>lab</a></h4>
                 <p class="miniBlocSubTitle">Le laboratoire des projets Framasoft</p>
                 <p class="miniBlocTexte">C’est ici que nous déposons les projets modestes, dans nos cartons, en cours ou en attente de bonnes volontés. On peut y trouver des belles suprises.</p>
                 <p class="miniBlocLast">&nbsp;</p>
-            </div>
+            </div>-->
 
-            <div class="col-md-3 miniBloc">
-                <h4 class="titreBloc goTo4"><a href="http://forum.framasoft.org/" class="jaune FramaTrucsLien"><span class="violet1">Fram</span>agora</a></h4>
+            <div class="col-md-6 miniBloc">
+                <h4 class="titreBloc goTo4"><a href="https://forum.framasoft.org/" class="jaune FramaTrucsLien"><span class="violet1">Fram</span>agora</a></h4>
                 <p class="miniBlocSubTitle">Le forum du réseau Framasoft<P>
                 <p class="miniBlocTexte">Vous avez une question&nbsp;? Nous avons (peut-être) une réponse&nbsp;! «&nbsp;Si tu ne sais pas, demande. Si tu sais, partage.&nbsp;» Framagora est notre convivial espace d’échange d’informations autour du Libre.</p>
                 <p class="miniBlocLast">&nbsp;</p>
             </div>
 
-            <div class="col-md-3 miniBloc">
-                <h4 class="titreBloc goTo4"><a href="https://github.com/framasoft" class="jaune FramaTrucsLien"><span class="violet1">Frama</span>code</a></h4>
+            <!--<div class="col-md-3 miniBloc">
+                <h4 class="titreBloc goTo4"><a href="http://framacode.org" class="jaune FramaTrucsLien"><span class="violet1">Frama</span>code</a></h4>
                 <p class="miniBlocSubTitle">Chez nous aussi on développe</p>
-                <p class="miniBlocTexte">Le dépôt GitHub du code produit par Framasoft, en particulier les services libres Framacloud pour les installer soi-même et les améliorer ensemble.</p>
+                <p class="miniBlocTexte">Le dépôt Gitlab du code produit par Framasoft, en particulier les services libres Framacloud pour les installer soi-même et les améliorer ensemble.</p>
                 <p class="miniBlocLast">&nbsp;</p>
-            </div>
+            </div>-->
 
-            <div class="col-md-3 miniBloc">
+            <div class="col-md-6 miniBloc">
                 <h4 class="titreBloc goTo4"><a href="http://www.enventelibre.org/" class="jaune FramaTrucsLien"><span class="violet1">EnVente</span>libre</a></h4>
                 <p class="miniBlocSubTitle">Notre libre petite boutique</p>
                 <p class="miniBlocTexte">L’espace vente des différents produits Framasoft qui peuvent se matérialiser&nbsp;: Framakey, Framabook, Framadvd mais aussi des goodies et des tee-shirts.</p>
@@ -697,10 +774,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune6"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert6"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge6"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu4"><a href="#topPgVrac" title="rubrique libr’en vrac"><span aria-hidden="true">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li class="jaune6"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li class="vert6"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
+                    <li class="rouge6"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li class="bleu4"><a href="#topPgVrac" title="rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
