@@ -1,36 +1,12 @@
-/*---------- général ----------------------*/
-@font-face {
-    font-family: 'PTSans';
-    src: url('../fonts/PTS55F-webfont.eot');
-    src: url('../fonts/PTS55F-webfont.eot') format('embedded-opentype'),
-         url('../fonts/PTS55F-webfont.woff') format('woff'),
-         url('../fonts/PTS55F-webfont.ttf') format('truetype'),
-         url('../fonts/PTS55F-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+/*---------- gÃ©nÃ©ral ----------------------*/
 
-}
-
-@font-face {
-    font-family: 'PTSansCaption';
-    src: url('../fonts/PTC55F-webfont.eot.eot');
-    src: url('../fonts/PTC55F-webfont.eot') format('embedded-opentype'),
-         url('../fonts/PTC55F-webfont.woff') format('woff'),
-         url('../fonts/PTC55F-webfont.woff') format('truetype'),
-         url('../fonts/PTC55F-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/* Correctif padding Bootstrap 15px > 25px */
+/* Correctif padding Bootstrap 15px â†’ 25px */
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {padding-right:25px;padding-left:25px;}
 
 body {
   background-color: #eee !important;
   font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;
   color: #333;
-  /*padding-top: 40px !important; BSv3 */
 }
 
 .ombre {
@@ -43,29 +19,15 @@ body {
     box-shadow:         -4px 6px 9px rgba(50, 50, 50, 0.5);
 }
 
-.bleu{color:#0c5b7a !important;}
-.rouge{color: #cc2d18 !important;}
-.vert{color: #8E9C48 !important;}
-.jaune{color: #dba306 !important;}
-.violet1{color: #6a5687 !important;}
-.orange {color: #eb7239 !important;}
-
 .smallcaps {font-variant: small-caps; /*si GillSans font-size: 0.85em;*/}
 
-a, a:hover, a:focus, a:visited {text-decoration: none;}
-a {color: #888; }/*border-bottom: 1px dotted #888;;}*/
-a:hover {color: #7E4F82; } /* border-bottom: 1px dotted #7E4F82;}*/
+a, a:hover, a:focus, a:visited, a h4 {text-decoration: none !important;}
 
-.sitename a, .navEntities a, .navEntities2 a, .FramaTrucsLien a, .goTo1 a, .goTo2 a, .goTo3 a, .goTo4 a,.miniBlocLast a, .EnVenteLibre a, .titreFramaTrucs a,.FramaTrucs a {border: none;}
-
-
-/*----------- titraille général ------------*/
+/*----------- titraille gÃ©nÃ©ral ------------*/
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: PTSansCaption, GillSans, sans-serif; /* !imp BSv3 */
-    font-weight: bold; /* !imp BSv3 */
-    color: #666;
-     /* BSv3 */
+    font-family: PTSansCaption, GillSans, sans-serif;
+    font-weight: bold;
     margin-left: 0;
     margin-right: 0;
 }
@@ -76,21 +38,23 @@ h1#framasoft {font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;}
 h3 {font-size: 1.714em;}
 h4 {font-size : 1.3em;}
 
-h1.sitename a, h4.titreFramaTrucs a, h4.titreBloc a, .FramaTrucs a { text-decoration:none}
+h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc { text-decoration:none !important}
 
-/*----------- Framabarre - ajustements  ------------*/
-#framanav a {
-    border: none;
-}
+/*----------- couleurs ------------*/
+.bleu   { color: #0c5b7a !important; }
+.rouge  { color: #cc2d18 !important; }
+.vert   { color: #8E9C48 !important; }
+.jaune  { color: #C48A1B !important; }
+
+.violet { color: #6a5687 !important; }
+.orange { color: #eb7239 !important; }
 
 /*---------- header ---------------------*/
 .header {
     border-bottom: 11px solid #eee;
     padding-bottom: 0.5em;
-    /* BSv3
-    margin-left: 0!important;*/
     margin-bottom: 2.5em;
-    padding-top: 1.5em; /* 2em; BSv3 */
+    padding-top: 1.5em;
 }
 
 .header .col-md-5,
@@ -113,7 +77,6 @@ h1.sitename a, h4.titreFramaTrucs a, h4.titreBloc a, .FramaTrucs a { text-decora
 
 /*---------- navigation interne ---------------------*/
 .navEntities {
-    /*background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;*/
     float: right;
     margin-top: 2em;
     margin-left: 13.4em;
@@ -132,7 +95,6 @@ h1.sitename a, h4.titreFramaTrucs a, h4.titreBloc a, .FramaTrucs a { text-decora
 }
 
 .navEntities2 {
-    /*background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;*/
     list-style-type: none;
     margin-top: -13.5em;
     margin-left: -3em;
@@ -227,10 +189,6 @@ h1.sitename a, h4.titreFramaTrucs a, h4.titreBloc a, .FramaTrucs a { text-decora
 
 /*-------------------- ContentAccueil ---------------*/
 
-.accueil {
-
-}
-
 .accroche {
     list-style-type: none;
     font: 1.143em/1.7em PTSansCaption, GillSans, sans-serif;
@@ -249,8 +207,6 @@ h1.sitename a, h4.titreFramaTrucs a, h4.titreBloc a, .FramaTrucs a { text-decora
     font-size: 1em;
     line-height: 1.8em;
 }
-
-
 
 #news, .presentation {
     border-bottom: 8px solid #eee;
@@ -281,7 +237,6 @@ h1.sitename a, h4.titreFramaTrucs a, h4.titreBloc a, .FramaTrucs a { text-decora
 .col-md-12 {clear:both;}
 
 #blocServices {
-/*  border-bottom: 1px solid #ddd;*/
     padding-bottom: 2em;
 }
 #AlaUne {
@@ -300,65 +255,35 @@ blockquote {
 .miniBloc {
     margin-top: 2.5em;
     min-height: 23em !important;
-} /*blocs Framatrucs double class sur div span3 + hacks*/
+}
 
 .miniBloc2 {
     margin-top: 1.5em;
     min-height: 22em !important;
     margin-bottom: 1.5em;
-} /*blocs Framatrucs double class sur div span3 + hacks*/
+}
 
-h4.titreBloc {
+h4 {
     border-bottom: 8px solid #eee;
     padding-bottom: 6px;
     margin-bottom: 0.5em;
-    /*margin-right: 0.7em;
-    margin-left: 0.7em; BSv3 */
 }
 
-.FramaTrucsLien {
-    padding-right: 7.5em;
+#topPgLogiciels h4,
+#topPgCulture h4,
+#topPgCloud h4,
+#topPgVrac h4 {
+    background: url("../img/widgetsFrama2.png") no-repeat scroll transparent;
 }
-.FramaTrucsLien a:hover {
-    color: #604043;
-    border: none;
-}
+#topPgLogiciels h4 { background-position: 205px 2px; }
+#topPgCulture h4   { background-position: 205px -52px; }
+#topPgCloud h4     { background-position: 205px -110px; }
+#topPgVrac h4      { background-position: 205px -166px; }
 
-.goTo1{
-    /*border: 1px solid green;*/
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px 2px transparent;
-}
-.goTo1 a:hover{
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -23px #fff;
-    color: #604043; border: none;
-}
-
-.goTo2{
-    /*border: 1px solid green;*/
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -52px transparent;
-}
-.goTo2 a:hover{
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -80px #fff;
-    color: #604043; border: none;
-}
-
-.goTo3{
-    /*border: 1px solid green;*/
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -110px transparent;
-}
-.goTo3 a:hover{
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -137px #fff;
-    color: #604043; border: none;
-}
-
-.goTo4{
-    /*border: 1px solid green;*/
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -166px transparent;
-}
-.goTo4 a:hover{
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -194px #fff;
-    color: #604043; border: none;
-}
+#topPgLogiciels h4:hover { background-position: 205px -23px; }
+#topPgCulture h4:hover   { background-position:  205px -80px; }
+#topPgCloud h4:hover     { background-position: 205px -137px; }
+#topPgVrac h4:hover      { background-position: 205px -194px; }
 
 .blocSubTitle, .miniBlocSubTitle {
     font-weight: bold;
@@ -371,7 +296,6 @@ h4.titreBloc {
 
 .miniBlocSubTitle , .miniBlocTexte {
     margin-right: 1em;
-    /*margin-left: 1em; BSv3 */
     line-height: 1.5em;
 }
 
@@ -412,7 +336,6 @@ h4.titreBloc {
 /*-------------- les FramaTrucs-------------*/
 
 #blocFramatrucs{
-/*  margin-left: 3em !important; BSv3 */
     margin-top: -0.5em;
     padding-left:15px;
     padding-right:15px;
@@ -432,28 +355,25 @@ h4.titreBloc {
     margin-right: 1em;
 }
 
-
 .listeFramaTrucs li, .FramaTrucs li {line-height: 24px;}
 
 .listeFramaTrucs {
     list-style-type: none;
     margin-left: 1.5em;
-    padding-left: 2.5em;
+    padding-left: 15px !important;
 }
 
-.FramaTrucs{
+.listeFramaTrucs a {
     font: bold 1.143em/1.357em PT Sans, Arial, Helvetica, sans-serif;
-    list-style-type: none;
-    margin-left: 2em;
+    text-decoration:none;
+    width:50%;
+    float:right;
 }
 
-.FramaTrucs a:hover {
-    color: red;
-    text-decoration: none;
-}
-
-.titreFramaTrucs a:hover,.FramaTrucs a:hover {
-    color: #604043; border: none;
+.titreFramaTrucs a:hover,
+.listeFramaTrucs a:hover {
+    text-decoration:none;
+    color:#5d4037 !important;
 }
 
 .homeAlerte {
@@ -467,7 +387,6 @@ h4.titreBloc {
     border: 1px solid #333;
     width:45%;
 }
-
 
 /*--------------------Illustrations -----------------*/
 
@@ -484,8 +403,7 @@ h4.titreBloc {
     text-align: center;
 }
 
-
-.row img { /* BSv3 */
+.row img {
     width:80%;
     margin:0.5em 10%;
 }
@@ -549,26 +467,18 @@ h4.titreBloc {
     border-top:1px solid #ddd;
 }
 
-.carousel img { /* BSv3 */
+.carousel img {
     width:100%;
     margin:0;
 }
 
 ul,ol {padding-left:0 !important}
 
-@media (max-width: 991px) {
-    .blocCommunaute,.miniBloc,.miniBloc2 {
-        min-height: 0 !important;
-    }
-    .listeFramaTrucs, .FramaTrucs {
-        float:left;
-    }
-    .goTo1 {background-position:114px 2px;}
-    .goTo1 a:hover{background-position:114px -23px;}
-    .goTo2{background-position:144px -52px;}
-    .goTo2 a:hover {background-position:144px -80px;}
-    .goTo3{background-position:144px -110px;}
-    .goTo3 a:hover {background-position:144px -137px;}
-    .goTo4{background-position:144px -166px;}
-    .goTo4 a:hover{background-position:144px -194px;}
+.bg-icon {
+    top: 60px;
+    position: absolute;
+    font-size: 100px;
+    color: rgb(142, 156, 72);
+    opacity: 0.5;
+    right: 10px;
 }
