@@ -1,36 +1,12 @@
-/*---------- g�n�ral ----------------------*/
-@font-face {
-    font-family: 'PTSans';
-    src: url('../fonts/PTS55F-webfont.eot');
-    src: url('../fonts/PTS55F-webfont.eot') format('embedded-opentype'),
-         url('../fonts/PTS55F-webfont.woff') format('woff'),
-         url('../fonts/PTS55F-webfont.ttf') format('truetype'),
-         url('../fonts/PTS55F-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+/*---------- général ----------------------*/
 
-}
-
-@font-face {
-    font-family: 'PTSansCaption';
-    src: url('../fonts/PTC55F-webfont.eot.eot');
-    src: url('../fonts/PTC55F-webfont.eot') format('embedded-opentype'),
-         url('../fonts/PTC55F-webfont.woff') format('woff'),
-         url('../fonts/PTC55F-webfont.woff') format('truetype'),
-         url('../fonts/PTC55F-webfont.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-/* Correctif padding Bootstrap 15px > 25px */
+/* Correctif padding Bootstrap 15px → 25px */
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {padding-right:25px;padding-left:25px;}
 
 body {
   background-color: #eee !important;
   font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;
   color: #333;
-  /*padding-top: 40px !important; BSv3 */
 }
 
 .ombre {
@@ -43,54 +19,50 @@ body {
     box-shadow:         -4px 6px 9px rgba(50, 50, 50, 0.5);
 }
 
-.bleu{color:#0c5b7a;}
-.rouge{color: #cc2d18;}
-.vert{color: #9bae5f;}
-.jaune{color: #dba306;}
-.violet1{color: #6a5687;}
-.orange {color: #eb7e41;}
-
 .smallcaps {font-variant: small-caps; /*si GillSans font-size: 0.85em;*/}
 
-a, a:hover, a:focus, a:visited {text-decoration: none;}
-a {color: #888; border-bottom: 1px dotted #888;;}
-a:hover {color: #7E4F82; border-bottom: 1px dotted #7E4F82;}
+a, a:hover, a:focus, a:visited, a h4 {text-decoration: none !important;}
 
-.sitename a, .navEntities a, .navEntities2 a, .FramaTrucsLien a, .goTo1 a, .goTo2 a, .goTo3 a, .goTo4 a,.miniBlocLast a, .EnVenteLibre a, .titreFramaTrucs a,.FramaTrucs a {border: none;}
+a[target="_blank"]:after {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    content: " \f08e";
+}
 
-
-/*----------- titraille g�n�ral ------------*/
+/*----------- titraille général ------------*/
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: PTSansCaption, GillSans, sans-serif; /* !imp BSv3 */
-    font-weight: bold; /* !imp BSv3 */
-    color: #666;
-     /* BSv3 */
+    font-family: PTSansCaption, GillSans, sans-serif;
+    font-weight: bold;
     margin-left: 0;
     margin-right: 0;
 }
 h1 {font-size: 2.857em;}
 
-#framasoft {font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;}
+h1#framasoft {font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;}
 
 h3 {font-size: 1.714em;}
 h4 {font-size : 1.3em;}
 
+h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc { text-decoration:none !important}
 
+/*----------- couleurs ------------*/
+.bleu   { color: #0c5b7a !important; }
+.rouge  { color: #cc2d18 !important; }
+.vert   { color: #8E9C48 !important; }
+.jaune  { color: #C48A1B !important; }
 
-/*----------- Framabarre - ajustements  ------------*/
-#framanav a {
-    border: none;
-}
+.violet { color: #6a5687 !important; }
+.orange { color: #eb7239 !important; }
 
 /*---------- header ---------------------*/
 .header {
     border-bottom: 11px solid #eee;
     padding-bottom: 0.5em;
-    /* BSv3
-    margin-left: 0!important;*/
     margin-bottom: 2.5em;
-    padding-top: 1.5em; /* 2em; BSv3 */
+    padding-top: 1.5em;
 }
 
 .header .col-md-5,
@@ -112,8 +84,9 @@ h4 {font-size : 1.3em;}
 }
 
 /*---------- navigation interne ---------------------*/
+.col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
+
 .navEntities {
-    /*background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;*/
     float: right;
     margin-top: 2em;
     margin-left: 13.4em;
@@ -127,17 +100,17 @@ h4 {font-size : 1.3em;}
 
 .navEntities a, .navEntities2 a{
     text-decoration: none;
-    width: 21px;
-    height: 23px;
+    width:21px;
+    height:17px;
+    display:block;
 }
 
 .navEntities2 {
-    /*background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;*/
     list-style-type: none;
     margin-top: -13.5em;
     margin-left: -3em;
     height: 172px;
-    width: 24px;
+    width: 21px;
     position: relative;
     bottom: 0.5em;
 }
@@ -146,8 +119,6 @@ h4 {font-size : 1.3em;}
     margin-top: 24px;
 }
 
-.col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
-
 .navEntities [title] {
     position: relative;
 }
@@ -155,81 +126,94 @@ h4 {font-size : 1.3em;}
     content: attr(title);
     position: absolute;
     top: 1.8em; right: -0em;
-    white-space: nowrap; /* no wrapping */
+    white-space: nowrap;
     padding: 2px 8px;
     background: #eee;
     color: #666;
     font-size: 0.9em;
 }
 
+.navEntities2 li:nth-child(1) a { background-color:#0c5b7a}
+.navEntities2 li:nth-child(2) a { background-color:#cc2d18}
+.navEntities2 li:nth-child(3) a { background-color:#8E9C48}
+.navEntities2 li:nth-child(4) a { background-color:#C48A1B}
 
-.bleu1 a, .bleu2 a, .bleu3 a, .bleu4 a, .bleu5 a, .bleu6 a,
-.rouge1 a, .rouge2 a, .rouge3 a, .rouge4 a, .rouge5 a, .rouge6 a,
-.vert1 a, .vert2 a, .vert3 a, .vert4 a, .vert5 a, .vert6 a,
-.jaune1 a, .jaune2 a, .jaune3 a, .jaune4 a, .jaune5 a, .jaune6 a{
+.navEntities li a,
+.navEntities2 li a:hover {
     background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;
     color: transparent;
 }
-.bleu1 a:hover, .bleu2 a:hover, .bleu3 a:hover, .bleu4 a:hover, .bleu5 a:hover, .bleu6 a:hover,
-.rouge1 a:hover, .rouge2 a:hover, .rouge3 a:hover, .rouge4 a:hover, .rouge5 a:hover, .rouge6 a:hover,
-.vert1 a:hover, .vert2 a:hover, .vert3 a:hover, .vert4 a:hover, .vert5 a:hover, .vert6 a:hover,
-.jaune1 a:hover, .jaune2 a:hover, .jaune3 a:hover, .jaune4 a:hover, .jaune5 a:hover, .jaune6 a:hover {
+
+.navEntities li a:hover,
+.navEntities2 li a,
+.navEntities2 li a:hover {
     border: none;
 }
 
-.bleu1 a {          background-position:0 0;}
-.bleu1 a:hover {    background-position:0 -20px;}
-.bleu2 a {          background-position:-180px 0px;}
-.bleu2 a:hover {    background-position:-131px -21px;}
-.bleu3 a {          background-position:0 -42px;}
-.bleu3 a:hover {    background-position:0 -63px;}
-.bleu4 a {          background-position:-180px 0px;}
-.bleu4 a:hover {    background-position:-131px -182px;}
-.bleu5 a {          background-position:0 -82px;}
-.bleu5 a:hover {    background-position:0 -103px;}
+/* symbole ⇓ par défaut par tout 
+ * 1 = bleu, 2 = rouge, 3 = vert, 4 = jaune */
+.navEntities li:nth-child(1) a {        background-position:0 0;} 
+.navEntities li:nth-child(1) a:hover {  background-position:0 -20px;}
+.navEntities li:nth-child(2) a {        background-position:-43px 0; margin-left: 23px;}
+.navEntities li:nth-child(2) a:hover {  background-position:-43px -20px;}
+.navEntities li:nth-child(3) a {        background-position:-86px 0; margin-left: 23px;}
+.navEntities li:nth-child(3) a:hover {  background-position:-86px -20px;}
+.navEntities li:nth-child(4) a {        background-position:-132px 0; margin-left: 23px;}
+.navEntities li:nth-child(4) a:hover {  background-position:-132px -20px;}
 
-.rouge1 a {         background-position:-43px 0; margin-left: 23px;}
-.rouge1 a:hover {   background-position:-43px -20px;}
-.rouge2 a {         background-position:-180px -46px;}
-.rouge2 a:hover {   background-position:-87px -21px;}
-.rouge3 a {         background-position:-43px -82px ; margin-left: 23px;}
-.rouge3 a:hover {   background-position:-43px -103px;}
-.rouge4 a {         background-position:-180px -46px;}
-.rouge4 a:hover {   background-position:-87px -142px;}
-.rouge5 a {         background-position:-43px -122px; margin-left: 23px;}
-.rouge5 a:hover {   background-position:-43px -142px;}
-.rouge6 a {         background-position:-180px -46px;}
-.rouge6 a:hover {   background-position:-87px -182px;}
+.navEntities2 li:nth-child(1) a:hover { background-position:0 -20px;}
+.navEntities2 li:nth-child(2) a:hover { background-position:-43px -20px;}
+.navEntities2 li:nth-child(3) a:hover { background-position:-86px -20px;}
+.navEntities2 li:nth-child(4) a:hover { background-position:-132px -20px;}
 
-.vert1 a {          background-position:-86px 0; margin-left: 23px;}
-.vert1 a:hover {    background-position:-86px -20px;}
-.vert2 a {          background-position:-180px -90px ;}
-.vert2 a:hover {    background-position:-43px -21px;}
-.vert3 a {          background-position:-86px -122px; margin-left: 23px;}
-.vert3 a:hover {    background-position:-86px -142px;}
-.vert4 a {          background-position:-180px -90px ;}
-.vert4 a:hover {    background-position:-43px -102px;}
-.vert5 a {          background-position:-86px -163px; margin-left: 23px;}
-.vert5 a:hover {    background-position:-86px -182px;}
-.vert6 a {          background-position:-180px -90px ;}
-.vert6 a:hover {    background-position:-43px -142px;}
 
-.jaune1 a {         background-position:-132px 0; margin-left: 23px;}
-.jaune1 a:hover {   background-position:-132px -20px;}
-.jaune2 a {         background-position:-180px -133px;}
-.jaune2 a:hover {   background-position:0px -21px;}
-.jaune3 a {         background-position:-129px -163px; margin-left: 23px;}
-.jaune3 a:hover {   background-position:-129px -182px;}
-.jaune4 a {         background-position:-180px -133px;}
-.jaune4 a:hover {   background-position:0px -62px;}
-.jaune6 a {         background-position:-180px -133px;}
-.jaune6 a:hover {   background-position:0px -102px;}
+
+/* topPgLogiciel symbole ⇔ sur bleu */
+#topPgLogiciels .navEntities li:nth-child(1) a {        background-position:0 -42px;} 
+#topPgLogiciels .navEntities li:nth-child(1) a:hover,
+#topPgLogiciels .navEntities2 li:nth-child(1) a:hover { background-position:0 -63px;}
+
+/* topPgCulture symbole ⇔ sur rouge */
+#topPgCulture .navEntities li:nth-child(2) a {          background-position:-43px -82px;} 
+#topPgCulture .navEntities li:nth-child(2) a:hover,
+#topPgCulture .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -103px;}
+
+/* topPgCloud symbole ⇔ sur vert */
+#topPgCloud .navEntities li:nth-child(3) a {            background-position:-86px -122px;} 
+#topPgCloud .navEntities li:nth-child(3) a:hover,
+#topPgCloud .navEntities2 li:nth-child(3) a:hover {     background-position:-86px -142px;}
+
+/* topPgCloud symbole ⇔ sur jaune */
+#topPgVrac .navEntities li:nth-child(4) a {             background-position:-129px -163px;} 
+#topPgVrac .navEntities li:nth-child(4) a:hover,
+#topPgVrac .navEntities2 li:nth-child(4) a:hover {      background-position:-129px -182px;}
+
+/* topPgCulture, Cloud Vrac, symbole ⇑ sur bleu */
+#topPgCulture .navEntities li:nth-child(1) a,
+#topPgCloud .navEntities li:nth-child(1) a,
+#topPgVrac .navEntities li:nth-child(1) a {          background-position:0 -82px;} 
+#topPgCulture .navEntities li:nth-child(1) a:hover,
+#topPgCulture .navEntities2 li:nth-child(1) a:hover,
+#topPgCloud .navEntities li:nth-child(1) a:hover,
+#topPgCloud .navEntities2 li:nth-child(1) a:hover, 
+#topPgVrac .navEntities li:nth-child(1) a:hover,
+#topPgVrac .navEntities2 li:nth-child(1) a:hover {   background-position:0 -103px;}
+
+/* topPgCloud Vrac, symbole ⇑ sur rouge */
+#topPgCloud .navEntities li:nth-child(2) a,
+#topPgVrac .navEntities li:nth-child(2) a {          background-position:-43px -122px;} 
+#topPgCloud .navEntities li:nth-child(2) a:hover,
+#topPgCloud .navEntities2 li:nth-child(2) a:hover,
+#topPgVrac .navEntities li:nth-child(2) a:hover,
+#topPgVrac .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -142px;}
+
+/* topPgVrac, symbole ⇑ sur vert */
+#topPgVrac .navEntities li:nth-child(3) a {          background-position:-86px -163px;} 
+#topPgVrac .navEntities li:nth-child(3) a:hover,
+#topPgVrac .navEntities2 li:nth-child(3) a:hover {   background-position:-86px -182px;}
+
 
 /*-------------------- ContentAccueil ---------------*/
-
-.accueil {
-
-}
 
 .accroche {
     list-style-type: none;
@@ -250,8 +234,6 @@ h4 {font-size : 1.3em;}
     line-height: 1.8em;
 }
 
-
-
 #news, .presentation {
     border-bottom: 8px solid #eee;
     padding-bottom: 7px;
@@ -271,17 +253,14 @@ h4 {font-size : 1.3em;}
     margin-top: 1.5em;
 }
 
+#presentationLibre, #presentationServices,
 #presentationLogiciels, #presentationLibrenVrac{
     padding-bottom: 2em;
 }
 
-#presentationLibre, #presentationServices {
-
-}
 .col-md-12 {clear:both;}
 
 #blocServices {
-/*  border-bottom: 1px solid #ddd;*/
     padding-bottom: 2em;
 }
 #AlaUne {
@@ -300,65 +279,35 @@ blockquote {
 .miniBloc {
     margin-top: 2.5em;
     min-height: 23em !important;
-} /*blocs Framatrucs double class sur div span3 + hacks*/
+}
 
 .miniBloc2 {
     margin-top: 1.5em;
     min-height: 22em !important;
     margin-bottom: 1.5em;
-} /*blocs Framatrucs double class sur div span3 + hacks*/
+}
 
-h4.titreBloc {
+h4 {
     border-bottom: 8px solid #eee;
     padding-bottom: 6px;
     margin-bottom: 0.5em;
-    /*margin-right: 0.7em;
-    margin-left: 0.7em; BSv3 */
 }
 
-.FramaTrucsLien {
-    padding-right: 7.5em;
+#topPgLogiciels h4,
+#topPgCulture h4,
+#topPgCloud h4,
+#topPgVrac h4 {
+    background: url("../img/widgetsFrama2.png") no-repeat scroll transparent;
 }
-.FramaTrucsLien a:hover {
-    color: #604043;
-    border: none;
-}
+#topPgLogiciels h4 { background-position: 205px 2px; }
+#topPgCulture h4   { background-position: 205px -52px; }
+#topPgCloud h4     { background-position: 205px -110px; }
+#topPgVrac h4      { background-position: 205px -166px; }
 
-.goTo1{
-    /*border: 1px solid green;*/
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px 2px transparent;
-}
-.goTo1 a:hover{
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -23px #fff;
-    color: #604043; border: none;
-}
-
-.goTo2{
-    /*border: 1px solid green;*/
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -52px transparent;
-}
-.goTo2 a:hover{
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -80px #fff;
-    color: #604043; border: none;
-}
-
-.goTo3{
-    /*border: 1px solid green;*/
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -110px transparent;
-}
-.goTo3 a:hover{
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -137px #fff;
-    color: #604043; border: none;
-}
-
-.goTo4{
-    /*border: 1px solid green;*/
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -166px transparent;
-}
-.goTo4 a:hover{
-    background: url("../img/widgetsFrama2.png") no-repeat scroll 205px -194px #fff;
-    color: #604043; border: none;
-}
+#topPgLogiciels h4:hover { background-position: 205px -23px; }
+#topPgCulture h4:hover   { background-position:  205px -80px; }
+#topPgCloud h4:hover     { background-position: 205px -137px; }
+#topPgVrac h4:hover      { background-position: 205px -194px; }
 
 .blocSubTitle, .miniBlocSubTitle {
     font-weight: bold;
@@ -371,39 +320,57 @@ h4.titreBloc {
 
 .miniBlocSubTitle , .miniBlocTexte {
     margin-right: 1em;
-    /*margin-left: 1em; BSv3 */
     line-height: 1.5em;
+    position:relative;
+    z-index:2;
+}
+ /* Trait fin de § */
+.miniBlocTexte:after {
+    content: "\A███";
+    white-space:pre;
+    line-height:2em;
+    color: #ddd;
+}
+ /* Background icon (complété dans le code html par la classe font-awesome "fa-[nom-de-l-icone]" */
+.miniBlocSubTitle:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 100px !important;
+    position: absolute;
+    top: 80px;
+    right:0;
+    opacity: 0.3;
+    z-index: 1;
 }
 
-.miniBlocLast {
-    background-color: #ddd;
-    padding-right: 2em !important;
-    margin-top: 1em;
-    text-align: right;
-    height: 15px;
-    width: 17px;
+.fa-archive.miniBlocSubTitle:before {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
 }
 
-#presentationLogiciels>p.miniBlocLast {
-    margin-top: 2em;
-    margin-bottom: -1em;
+.fa-sitemap.miniBlocSubTitle:before {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
 }
 
-.miniBlocLast a {
-
-}
-
-.miniBlocLast a:hover {
-    color: #ddd; border: none;
-}
+#topPgLogiciels .miniBlocSubTitle:before { color: #0c5b7a; }
+#topPgCulture .miniBlocSubTitle:before   { color: #cc2d18; }
+#topPgCloud .miniBlocSubTitle:before     { color: #8E9C48; }
+#topPgVrac .miniBlocSubTitle:before      { color: #C48A1B; }
 
 .EnVenteLibre {
     background: none;
-    text-align: right;
     font-weight: bold;
-    /*margin-bottom: -1.25em;*/
-    margin-right: 1em;
-    /*margin-left: 15em;*/
+    font-size:18px;
+    position: absolute;
+    right: 1em;
+    margin-top: -36px;
 }
 
 .EnVenteLibre a:hover {
@@ -412,8 +379,7 @@ h4.titreBloc {
 /*-------------- les FramaTrucs-------------*/
 
 #blocFramatrucs{
-/*  margin-left: 3em !important; BSv3 */
-    margin-top: -0.5em;
+    margin-top: 0px;
     padding-left:15px;
     padding-right:15px;
 }
@@ -432,28 +398,25 @@ h4.titreBloc {
     margin-right: 1em;
 }
 
-
 .listeFramaTrucs li, .FramaTrucs li {line-height: 24px;}
 
 .listeFramaTrucs {
     list-style-type: none;
     margin-left: 1.5em;
-    padding-left: 2.5em;
+    padding-left: 15px !important;
 }
 
-.FramaTrucs{
+.listeFramaTrucs a {
     font: bold 1.143em/1.357em PT Sans, Arial, Helvetica, sans-serif;
-    list-style-type: none;
-    margin-left: 2em;
+    text-decoration:none;
+    width:50%;
+    float:right;
 }
 
-.FramaTrucs a:hover {
-    color: red;
-    text-decoration: none;
-}
-
-.titreFramaTrucs a:hover,.FramaTrucs a:hover {
-    color: #604043; border: none;
+.titreFramaTrucs a:hover,
+.listeFramaTrucs a:hover {
+    text-decoration:none;
+    color:#5d4037 !important;
 }
 
 .homeAlerte {
@@ -461,13 +424,9 @@ h4.titreBloc {
     text-align:center;
     margin-top:2em;
     margin-left:2em;
-    padding:1em;
-    background:#eee;
     font-size:120%;
-    border: 1px solid #333;
     width:45%;
 }
-
 
 /*--------------------Illustrations -----------------*/
 
@@ -484,8 +443,7 @@ h4.titreBloc {
     text-align: center;
 }
 
-
-.row img { /* BSv3 */
+.row img {
     width:80%;
     margin:0.5em 10%;
 }
@@ -549,26 +507,9 @@ h4.titreBloc {
     border-top:1px solid #ddd;
 }
 
-.carousel img { /* BSv3 */
+.carousel img {
     width:100%;
     margin:0;
 }
 
 ul,ol {padding-left:0 !important}
-
-@media (max-width: 991px) {
-    .blocCommunaute,.miniBloc,.miniBloc2 {
-        min-height: 0 !important;
-    }
-    .listeFramaTrucs, .FramaTrucs {
-        float:left;
-    }
-    .goTo1 {background-position:114px 2px;}
-    .goTo1 a:hover{background-position:114px -23px;}
-    .goTo2{background-position:144px -52px;}
-    .goTo2 a:hover {background-position:144px -80px;}
-    .goTo3{background-position:144px -110px;}
-    .goTo3 a:hover {background-position:144px -137px;}
-    .goTo4{background-position:144px -166px;}
-    .goTo4 a:hover{background-position:144px -194px;}
-}
