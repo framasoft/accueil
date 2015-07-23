@@ -317,26 +317,11 @@ h4 {
     line-height: 1.5em;
 }
 
-.miniBlocLast {
-    background-color: #ddd;
-    padding-right: 2em !important;
-    margin-top: 1em;
-    text-align: right;
-    height: 15px;
-    width: 17px;
-}
-
-#presentationLogiciels>p.miniBlocLast {
-    margin-top: 2em;
-    margin-bottom: -1em;
-}
-
-.miniBlocLast a {
-
-}
-
-.miniBlocLast a:hover {
-    color: #ddd; border: none;
+.miniBlocTexte:after {
+    content: "\A███";
+    white-space:pre;
+    line-height:2em;
+    color: #ddd;
 }
 
 .EnVenteLibre {
