@@ -70,7 +70,7 @@
     </script>
 
     <!-- accueil Top -->
-    <div class="container ombre" style="margin-top:20px;">
+    <div class="container ombre" style="margin-top:20px;" id="topPgAccueil">
         <div class="row header">
             <div class="col-md-4">
                 <h1 id="framasoft" class="sitename"><a href="#" class="orange"><span class="violet">Frama</span>soft</a></h1>
@@ -80,10 +80,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu1"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge1"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -226,10 +226,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune2"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert2"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -237,7 +237,7 @@
 
 
     <!-- communauté -->
-    <div class="container ombre" >
+    <div class="container ombre" id="topPgCommunaute">
         <div class="row header">
             <div class="col-md-4">
                 <h1 class="sitename"><a href="#" class="violet">Libre communauté</a></h1>
@@ -247,10 +247,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu1"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge1"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -310,10 +310,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune2"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert2"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -331,10 +331,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu3"><a href="#topPgLogiciels" title="rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge1"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgLogiciels" title="rubrique logiciels"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -388,10 +388,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune4"><a href="#topPgLogiciels" title="rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert2"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgLogiciels" title="rubrique logiciels"><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -409,10 +409,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu5"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge3"><a href="#topPgCulture" title="rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert1"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgCulture" title="rubrique culture"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -499,10 +499,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune6"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert4"><a href="#topPgCulture" title="rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge2"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgCulture" title="rubrique culture"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -519,10 +519,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu5"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge5"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert3"><a href="#topPgCloud" title="rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune1"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgCloud" title="rubrique cloud"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -647,10 +647,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune6"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert6"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge4"><a href="#topPgCloud" title="rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu2"><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgCloud" title="rubrique cloud"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgVrac" title="vers la rubrique libr’en vrac"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>
@@ -668,10 +668,10 @@
             </div>
             <div class="col-md-3">
                 <ul class="navEntities">
-                    <li class="bleu5"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
-                    <li class="rouge5"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="vert5"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="jaune3"><a href="#topPgVrac" title="rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgVrac" title="rubrique libr’en vrac"><span class="sr-only">Rubrique logiciels</span></a></li>
                 </ul>
             </div>
         </div>
@@ -732,10 +732,10 @@
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
-                    <li class="jaune6"><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span aria-hidden="true" class="invisible">lkY</span><span class="sr-only">Rubrique logiciels</span></a></li>
-                    <li class="vert6"><a href="#topPgCulture" title="vers la rubrique culture"><span aria-hidden="true" class="invisible">lkG</span><span class="sr-only">Rubrique culture</span></a></li>
-                    <li class="rouge6"><a href="#topPgCloud" title="vers la rubrique cloud"><span aria-hidden="true" class="invisible">lkR</span><span class="sr-only">Rubrique cloud</span></a></li>
-                    <li class="bleu4"><a href="#topPgVrac" title="rubrique libr’en vrac"><span aria-hidden="true" class="invisible">lkB</span><span class="sr-only">Rubrique libr’en vrac</span></a></li>
+                    <li><a href="#topPgLogiciels" title="vers la rubrique logiciels"><span class="sr-only">Rubrique logiciels</span></a></li>
+                    <li><a href="#topPgCulture" title="vers la rubrique culture"><span class="sr-only">Rubrique culture</span></a></li>
+                    <li><a href="#topPgCloud" title="vers la rubrique cloud"><span class="sr-only">Rubrique cloud</span></a></li>
+                    <li><a href="#topPgVrac" title="rubrique libr’en vrac"><span class="sr-only">Rubrique libr’en vrac</span></a></li>
                 </ul>
             </div>
         </div>

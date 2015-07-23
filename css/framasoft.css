@@ -76,6 +76,8 @@ h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc { text-decoration:none !imp
 }
 
 /*---------- navigation interne ---------------------*/
+.col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
+
 .navEntities {
     float: right;
     margin-top: 2em;
@@ -90,8 +92,9 @@ h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc { text-decoration:none !imp
 
 .navEntities a, .navEntities2 a{
     text-decoration: none;
-    width: 21px;
-    height: 23px;
+    width:21px;
+    height:17px;
+    display:block;
 }
 
 .navEntities2 {
@@ -99,7 +102,7 @@ h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc { text-decoration:none !imp
     margin-top: -13.5em;
     margin-left: -3em;
     height: 172px;
-    width: 24px;
+    width: 21px;
     position: relative;
     bottom: 0.5em;
 }
@@ -108,8 +111,6 @@ h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc { text-decoration:none !imp
     margin-top: 24px;
 }
 
-.col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
-
 .navEntities [title] {
     position: relative;
 }
@@ -117,75 +118,92 @@ h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc { text-decoration:none !imp
     content: attr(title);
     position: absolute;
     top: 1.8em; right: -0em;
-    white-space: nowrap; /* no wrapping */
+    white-space: nowrap;
     padding: 2px 8px;
     background: #eee;
     color: #666;
     font-size: 0.9em;
 }
 
+.navEntities2 li:nth-child(1) a { background-color:#0c5b7a}
+.navEntities2 li:nth-child(2) a { background-color:#cc2d18}
+.navEntities2 li:nth-child(3) a { background-color:#8E9C48}
+.navEntities2 li:nth-child(4) a { background-color:#C48A1B}
 
-.bleu1 a, .bleu2 a, .bleu3 a, .bleu4 a, .bleu5 a, .bleu6 a,
-.rouge1 a, .rouge2 a, .rouge3 a, .rouge4 a, .rouge5 a, .rouge6 a,
-.vert1 a, .vert2 a, .vert3 a, .vert4 a, .vert5 a, .vert6 a,
-.jaune1 a, .jaune2 a, .jaune3 a, .jaune4 a, .jaune5 a, .jaune6 a{
+.navEntities li a,
+.navEntities2 li a:hover {
     background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;
     color: transparent;
 }
-.bleu1 a:hover, .bleu2 a:hover, .bleu3 a:hover, .bleu4 a:hover, .bleu5 a:hover, .bleu6 a:hover,
-.rouge1 a:hover, .rouge2 a:hover, .rouge3 a:hover, .rouge4 a:hover, .rouge5 a:hover, .rouge6 a:hover,
-.vert1 a:hover, .vert2 a:hover, .vert3 a:hover, .vert4 a:hover, .vert5 a:hover, .vert6 a:hover,
-.jaune1 a:hover, .jaune2 a:hover, .jaune3 a:hover, .jaune4 a:hover, .jaune5 a:hover, .jaune6 a:hover {
+
+.navEntities li a:hover,
+.navEntities2 li a,
+.navEntities2 li a:hover {
     border: none;
 }
 
-.bleu1 a {          background-position:0 0;}
-.bleu1 a:hover {    background-position:0 -20px;}
-.bleu2 a {          background-position:-180px 0px;}
-.bleu2 a:hover {    background-position:-131px -21px;}
-.bleu3 a {          background-position:0 -42px;}
-.bleu3 a:hover {    background-position:0 -63px;}
-.bleu4 a {          background-position:-180px 0px;}
-.bleu4 a:hover {    background-position:-131px -182px;}
-.bleu5 a {          background-position:0 -82px;}
-.bleu5 a:hover {    background-position:0 -103px;}
+/* symbole ⇓ par défaut par tout 
+ * 1 = bleu, 2 = rouge, 3 = vert, 4 = jaune */
+.navEntities li:nth-child(1) a {        background-position:0 0;} 
+.navEntities li:nth-child(1) a:hover {  background-position:0 -20px;}
+.navEntities li:nth-child(2) a {        background-position:-43px 0; margin-left: 23px;}
+.navEntities li:nth-child(2) a:hover {  background-position:-43px -20px;}
+.navEntities li:nth-child(3) a {        background-position:-86px 0; margin-left: 23px;}
+.navEntities li:nth-child(3) a:hover {  background-position:-86px -20px;}
+.navEntities li:nth-child(4) a {        background-position:-132px 0; margin-left: 23px;}
+.navEntities li:nth-child(4) a:hover {  background-position:-132px -20px;}
 
-.rouge1 a {         background-position:-43px 0; margin-left: 23px;}
-.rouge1 a:hover {   background-position:-43px -20px;}
-.rouge2 a {         background-position:-180px -46px;}
-.rouge2 a:hover {   background-position:-87px -21px;}
-.rouge3 a {         background-position:-43px -82px ; margin-left: 23px;}
-.rouge3 a:hover {   background-position:-43px -103px;}
-.rouge4 a {         background-position:-180px -46px;}
-.rouge4 a:hover {   background-position:-87px -142px;}
-.rouge5 a {         background-position:-43px -122px; margin-left: 23px;}
-.rouge5 a:hover {   background-position:-43px -142px;}
-.rouge6 a {         background-position:-180px -46px;}
-.rouge6 a:hover {   background-position:-87px -182px;}
+.navEntities2 li:nth-child(1) a:hover { background-position:0 -20px;}
+.navEntities2 li:nth-child(2) a:hover { background-position:-43px -20px;}
+.navEntities2 li:nth-child(3) a:hover { background-position:-86px -20px;}
+.navEntities2 li:nth-child(4) a:hover { background-position:-132px -20px;}
 
-.vert1 a {          background-position:-86px 0; margin-left: 23px;}
-.vert1 a:hover {    background-position:-86px -20px;}
-.vert2 a {          background-position:-180px -90px ;}
-.vert2 a:hover {    background-position:-43px -21px;}
-.vert3 a {          background-position:-86px -122px; margin-left: 23px;}
-.vert3 a:hover {    background-position:-86px -142px;}
-.vert4 a {          background-position:-180px -90px ;}
-.vert4 a:hover {    background-position:-43px -102px;}
-.vert5 a {          background-position:-86px -163px; margin-left: 23px;}
-.vert5 a:hover {    background-position:-86px -182px;}
-.vert6 a {          background-position:-180px -90px ;}
-.vert6 a:hover {    background-position:-43px -142px;}
 
-.jaune1 a {         background-position:-132px 0; margin-left: 23px;}
-.jaune1 a:hover {   background-position:-132px -20px;}
-.jaune2 a {         background-position:-180px -133px;}
-.jaune2 a:hover {   background-position:0px -21px;}
-.jaune3 a {         background-position:-129px -163px; margin-left: 23px;}
-.jaune3 a:hover {   background-position:-129px -182px;}
-.jaune4 a {         background-position:-180px -133px;}
-.jaune4 a:hover {   background-position:0px -62px;}
-.jaune6 a {         background-position:-180px -133px;}
-.jaune6 a:hover {   background-position:0px -102px;}
+
+/* topPgLogiciel symbole ⇔ sur bleu */
+#topPgLogiciels .navEntities li:nth-child(1) a {        background-position:0 -42px;} 
+#topPgLogiciels .navEntities li:nth-child(1) a:hover,
+#topPgLogiciels .navEntities2 li:nth-child(1) a:hover { background-position:0 -63px;}
+
+/* topPgCulture symbole ⇔ sur rouge */
+#topPgCulture .navEntities li:nth-child(2) a {          background-position:-43px -82px;} 
+#topPgCulture .navEntities li:nth-child(2) a:hover,
+#topPgCulture .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -103px;}
+
+/* topPgCloud symbole ⇔ sur vert */
+#topPgCloud .navEntities li:nth-child(3) a {            background-position:-86px -122px;} 
+#topPgCloud .navEntities li:nth-child(3) a:hover,
+#topPgCloud .navEntities2 li:nth-child(3) a:hover {     background-position:-86px -142px;}
+
+/* topPgCloud symbole ⇔ sur jaune */
+#topPgVrac .navEntities li:nth-child(4) a {             background-position:-129px -163px;} 
+#topPgVrac .navEntities li:nth-child(4) a:hover,
+#topPgVrac .navEntities2 li:nth-child(4) a:hover {      background-position:-129px -182px;}
+
+/* topPgCulture, Cloud Vrac, symbole ⇑ sur bleu */
+#topPgCulture .navEntities li:nth-child(1) a,
+#topPgCloud .navEntities li:nth-child(1) a,
+#topPgVrac .navEntities li:nth-child(1) a {          background-position:0 -82px;} 
+#topPgCulture .navEntities li:nth-child(1) a:hover,
+#topPgCulture .navEntities2 li:nth-child(1) a:hover,
+#topPgCloud .navEntities li:nth-child(1) a:hover,
+#topPgCloud .navEntities2 li:nth-child(1) a:hover, 
+#topPgVrac .navEntities li:nth-child(1) a:hover,
+#topPgVrac .navEntities2 li:nth-child(1) a:hover {   background-position:0 -103px;}
+
+/* topPgCloud Vrac, symbole ⇑ sur rouge */
+#topPgCloud .navEntities li:nth-child(2) a,
+#topPgVrac .navEntities li:nth-child(2) a {          background-position:-43px -122px;} 
+#topPgCloud .navEntities li:nth-child(2) a:hover,
+#topPgCloud .navEntities2 li:nth-child(2) a:hover,
+#topPgVrac .navEntities li:nth-child(2) a:hover,
+#topPgVrac .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -142px;}
+
+/* topPgVrac, symbole ⇑ sur vert */
+#topPgVrac .navEntities li:nth-child(3) a {          background-position:-86px -163px;} 
+#topPgVrac .navEntities li:nth-child(3) a:hover,
+#topPgVrac .navEntities2 li:nth-child(3) a:hover {   background-position:-86px -182px;}
+
 
 /*-------------------- ContentAccueil ---------------*/
 
