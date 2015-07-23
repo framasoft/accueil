@@ -89,7 +89,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-8 accueil">
+            <div class="col-md-8">
                 <div class="row">
                     <ul class="accroche">
                         <li>Un réseau dédié à la promotion du « <span class="smallcaps">libre</span> » en général et du <span class="smallcaps">logiciel libre</span> en particulier.</li>
@@ -99,7 +99,7 @@
                     </ul>
                 </div>
                 <div class="row">
-                    <p class="homeAlerte">Vous cherchez l'annuaire de logiciels libres ? <a href="http://framalibre.org">C'est par ici&nbsp!</a></p>
+                    <p class="homeAlerte well">Vous cherchez l'annuaire de logiciels libres ? <a href="http://framalibre.org">C'est par ici&nbsp!</a></p>
                     <figure id="pingouinVolant">
                         <img src="<?php echo $home_subdir; ?>img/pingouinVolantRefait.png" alt="" />
                     </figure>
@@ -174,7 +174,6 @@
                     </a>
                 </div><!-- /.carousel -->
             </div>
-        
             <div class="col-md-4" id="blocFramatrucs">
                 <h4 class="titreFramaTrucs"><a href="#topPgLogiciels" class="bleu">Libres logiciels</a></h4>
                 <div class="row">
@@ -264,14 +263,12 @@
                 <h4 class="titreBloc">Une communauté</h4>
                 <p class="miniBlocSubTitle">Un joyeux bazar</p>
                 <p class="miniBlocTexte">Qui se cache derrière Framasoft ? Tous ceux qui ont participé ou participent de près ou de loin à nos différents projets. Il suffit de vouloir promouvoir le Libre et de placer sa participation sous licence libre, garantissant qu’elle sera mise dans le pot des biens communs sans risque d’appropriation.</p>
-                
             </div>
 
             <div class="col-md-4 blocCommunaute">
                 <h4 class="titreBloc">Une association</h4>
                 <p class="miniBlocSubTitle">Un peu de cathédrale</p>
                 <p class="miniBlocTexte">Framasoft repose sur une association 1901 d’intérêt général. À charge pour elle de mettre de l'huile dans les rouages et de s’assurer que la communauté puisse s’activer dans les meilleures conditions. Elle compte trois permanents et est financée principalement par les dons individuels collectés sur Internet. Vous pouvez en être vous aussi, mais attention ça tient plus du sacerdoce que de la sinécure !</p>
-                
             </div>
         </div>
 
@@ -280,14 +277,12 @@
                 <h4 class="titreBloc">Participer ? </h4>
                 <p class="miniBlocSubTitle">Il y a mille et une façon de participer avec nous à diffuser le Libre au sein de nos nombreux projets.</p>
                 <p class="miniBlocTexte">Tester, rédiger, modérer, administrer, traduire, relire, relayer, coder, communiquer, promouvoir, sensibiliser… N’hésitez pas à <a href="https://participer.framasoft.org/">mettre la main à la pâte</a> avec nous ! Et merci d'avance…</p>
-                
             </div>
 
             <div class="col-md-4 blocCommunaute">
                 <h4 class="titreBloc">Nous soutenir ? </h4>
                 <p class="miniBlocSubTitle">Parce que libre ne signifie pas gratuit</p>
                 <p class="miniBlocTexte">Framasoft ne serait rien sans sa communauté de bénévoles mais ne pourrait pas fonctionner non plus sans le service de l’association qui a des frais et emploie trois indispensables permanents. Notre financement dépend de vous, c’est-à-dire des dons individuels collectés sur Internet. <a href="https://soutenir.framasoft.org/">Si vous pensez que nous le méritons…</a></p>
-                
             </div>
 
             <div class="col-md-4 blocCommunaute">
@@ -302,7 +297,6 @@
                     <li><a href="http://www.milliweb.fr/"><img src="https://soutenir.framasoft.org/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
                     <li><a href="https://www.ikoula.com/"><img src="https://soutenir.framasoft.org/sites/default/files/transparent-png-bleu.png" alt="Ikoula"></a></li>
                 </ul>
-                
             </div>
 
         </div>
@@ -345,7 +339,7 @@
                 <p class="blocSubTitle">Un <a href="http://fr.wikipedia.org/wiki/Logiciel_libre" target="_blank">logiciel libre <i class="fa fa-external-link"></i></a> est un logiciel qui offre et garantit les quatre libertés suivantes : utilisation, étude, modification et duplication en vue de sa diffusion (gratuite ou pas).</p>
                 <p class="blocTexte">Ceci est permis techniquement grâce à l’accès au <a href="http://fr.wikipedia.org/wiki/Code_source" target="_blank">code <i class="fa fa-external-link"></i></a> et légalement grâce à la <a href="http://fr.wikipedia.org/wiki/Licence_libre" target="_blank">licence libre <i class="fa fa-external-link"></i></a> qui l’accompagne. Ces <span class="smallcaps">quatre libertés</span> favorisent la transparence, la confiance, l’échange, le partage et la collaboration au sein de communautés.</p>
                 <p class="blocTexte">Framasoft vous propose un annuaire, des clés USB et DVD et un installateur Windows pour les découvrir et les utiliser régulièrement.</p>
-                
+
             </div>
 
             <div class="col-md-4">
@@ -360,7 +354,7 @@
                 <a href="http://framalibre.org" ><h4 class="bleu"><span class="violet">Frama</span>libre</h4></a>
                 <p class="miniBlocSubTitle fa-linux">Le gros annuaire</p>
                 <p class="miniBlocTexte">Plus de 1600 logiciels classés, testés et commentés dans le projet historique et fondateur de Framasoft. On y trouve également des tutoriels et des articles de fond.</p>
-                
+
             </div>
 
             <div class="col-md-3 miniBloc">
@@ -381,7 +375,7 @@
                 <a href="http://framapack.org" ><h4 class="bleu"><span class="violet">Frama</span>pack</h4></a>
                 <p class="miniBlocSubTitle fa-download">Distribution massive</p>
                 <p class="miniBlocTexte">Pratique, sur Framapack on fait son marché des meilleurs logiciels libres Windows dans leur dernière version.<br>On les sélectionne et ils s’installent tous ensemble d’un simple clic !</p>
-                
+
             </div>
         </div>
 
@@ -419,22 +413,22 @@
 
         <div class="row">
             <div class="col-md-6" id="presentationLibre">
-                <div class="row">
+                <div class="row col-md-12">
                     <h3 class="presentation">Culture Libre ?</h3>
                     <p class="blocSubTitle">Facilitée par Internet et la numérisation, la « <a href="http://fr.wikipedia.org/wiki/Culture_libre">culture libre <i class="fa fa-external-link"></i></a> » est une culture en mouvement qui s’inspire directement du logiciel libre dans sa philosophie et ses licences pour promouvoir et diffuser des œuvres de l’esprit.</p>
                     <p class="blocTexte">Elle explore des domaines aussi variés que les arts, l’éducation, les sciences, le matériel... Ces œuvres peuvent alors être considérées comme des <a href="http://fr.wikipedia.org/wiki/Bien_commun">biens communs <i class="fa fa-external-link"></i></a>. L’exemple le plus emblématique est l’encyclopédie libre Wikipédia.</p>
                     <p class="blocTexte">Dans ce cadre, Framasoft vous propose un blog, une maison d’édition, une plateforme vidéo, un site dédié à la musique libre ainsi qu’un service original de traduction collaborative.</p>
-                    
+
                 </div>
 
-                <div class="row">
+                <div class="row col-md-12">
                     <figure id="pingouinsQuelquesBriques">
                         <img src="<?php echo $home_subdir; ?>img/quelques-briques_licence-art-libre.jpg" alt="" />
                     </figure>
                 </div>
 
-                <div class="row">
-                    <blockquote>
+                <div class="row col-md-12">
+                    <blockquote class="well">
                     « Parce que ce serait l’une des plus grandes opportunités manquées de notre époque si le logiciel libre ne libérait rien d’autre que du code. »
                     </blockquote>
                 </div>
@@ -446,9 +440,7 @@
                         <a href="http://framablog.org" ><h4 class="rouge"><span class="violet">Frama</span>blog</h4></a>
                         <p class="miniBlocSubTitle fa-pencil">L’actualité du « Libre »</p>
                         <p class="miniBlocTexte">Chroniques quotidiennes autour du Libre en général et du logiciel libre en particulier. De riches débats dans les commentairees, de nombreuses traductions originales et les annonces des nouveautés de l’ensemble du réseau Framasoft.</p>
-                        
                     </div>
-
                     <div class="col-md-6 miniBloc2">
                         <a href="http://framabook.org" ><h4 class="rouge"><span class="violet">Frama</span>book</h4></a>
                         <p class="miniBlocSubTitle fa-book">Le pari du livre libre</p>
@@ -460,37 +452,27 @@
 
                 <div class="row">
                     <div class="col-md-6 miniBloc2">
+                        <a href="http://framabookin.org" ><h4 class="rouge"><span class="violet">Frama</span>bookin</h4></a>
+                        <p class="miniBlocSubTitle fa-coffee">Une bibliothèque numérique libre</p>
+                        <p class="miniBlocTexte">Notre bibliothèque numérique qui contient quelques centaines d’ouvrages libres ou du domaine public. Elle est consultable en ligne sur les plateformes mobiles (smartphones, tablettes, liseuses…) et peut aussi être ajoutée directement dans votre application préférée de lecture d’ebook grâce au flux OPDS.</p>
+                    </div>
+                    <div class="col-md-6 miniBloc2">
                         <a href="http://framablog.org/framalang" ><h4 class="rouge"><span class="violet">Frama</span>lang</h4></a>
                         <p class="miniBlocSubTitle fa-language">Traduction collaborative</p>
                         <p class="miniBlocTexte">Traduire tous ensemble, principalement de l’anglais vers le français, dans la convivialité en bénéficiant de la force d’Internet et de la bonne volonté de ses habitants. Il peut s’agir d’articles, de sous-titrage et même de livres entiers !</p>
-                        
                     </div>
-
-                    <div class="col-md-6 miniBloc2">
-                        <a href="https://framatube.org" ><h4 class="rouge"><span class="violet">Frama</span>tube</h4></a>
-                        <p class="miniBlocSubTitle fa-film">Notre « YouTube » du Libre</p>
-                        <p class="miniBlocTexte">Vidéos en français (ou sous-titrées en français) autour du logiciel libre en particulier et du Libre en général. Interviews, conférences, documentaires, extraits télévisés… pour s’informer mais aussi informer les autres.</p>
-                        
-                    </div>
-
                 </div>
 
                 <div class="row">
                     <div class="col-md-6 miniBloc2">
+                        <a href="https://framatube.org" ><h4 class="rouge"><span class="violet">Frama</span>tube</h4></a>
+                        <p class="miniBlocSubTitle fa-film">Notre « YouTube » du Libre</p>
+                        <p class="miniBlocTexte">Vidéos en français (ou sous-titrées en français) autour du logiciel libre en particulier et du Libre en général. Interviews, conférences, documentaires, extraits télévisés… pour s’informer mais aussi informer les autres.</p>
+                    </div>
+                    <div class="col-md-6 miniBloc2">
                         <a href="http://framazic.org" ><h4 class="rouge"><span class="violet">Frama</span>zic</h4></a>
                         <p class="miniBlocSubTitle fa-music">Quand la musique est libre</p>
                         <p class="miniBlocTexte">Une « musique libre » est une musique qui offre au mélomane les mêmes libertés qu’un logiciel libre. Un site dédié permettant de mieux la comprendre accompagné d’une petite sélection permettant de constater que la qualité est au rendez-vous.</p>
-                        
-                    </div>
-
-                    <div class="col-md-6 miniBloc2">
-                        <a href="http://www.openculture.com/2010/07/the_monty_python_philosophy_football_match.html" ><h4 class="rouge"><span class="violet">Frama</span>cat</h4></a>
-                        <p class="miniBlocSubTitle">Hommage à nos héros</p>
-                        <figure id="nyanCat">
-                            <img src="<?php echo $home_subdir; ?>img/nyanCat.gif" alt="" />
-                        </figure>
-                        <p class="legende"> Vous n'espériez pas y échapper, non ? Si ?</p>
-                        
                     </div>
                 </div>
             </div>
@@ -529,12 +511,11 @@
 
         <div class="row">
             <div class="col-md-6" id="presentationServices">
-                <div class="row" id="blocServices">
+                <div class="row col-md-12" id="blocServices">
                     <h3 class="presentation">Service Libre ?</h3>
                     <p class="blocSubTitle">Nom de code : « Framacloud »</p>
-                    <p class="blocTexte">Intuitif, sans inscription et à même votre navigateur, un ensemble de services en ligne libres et respectueux de vos données personnelles.</p>
-                    <p class="blocTexte">On peut aussi les installer sur son propre serveur, participant à décentraliser l’Internet.</p>
-                    
+                    <p class="blocTexte">Intuitif, sans inscription et à même votre navigateur, un ensemble de services en ligne libres et respectueux de vos données personnelles. Ces services vous sont proposés dans le cadre de la notre campagne « <a href="http://degooglisons-internet.org"><b class="violet">Dégooglisons</b> <b class="orange">Internet</b></a> »</p>
+                    <p class="blocTexte">Vous pouvez aussi les installer sur votre propre serveur, participant ainsi à décentraliser l’Internet. Des tutoriels sont là pour vous aider à franchir le pas dans la rubrique <a href="http://framacloud.org/cultiver-son-jardin">Cultiver son jardin</a>.</p>
                 </div>
             </div>
 
@@ -544,14 +525,12 @@
                         <a href="https://framapad.org/" ><h4 class="vert"><span class="violet">Frama</span>pad</h4></a>
                         <p class="miniBlocSubTitle fa-align-left">Éditer collaborativement</p>
                         <p class="miniBlocTexte">Écrivons tous ensemble sur le même document dans une interface de rédaction collective en ligne. Aucune inscription requise, on se donne un pseudo, une couleur et on se lance !</p>
-                        
                     </div>
 
                     <div class="col-md-6 miniBloc2">
                         <a href="https://framadate.org/" ><h4 class="vert"><span class="violet">Frama</span>date</h4></a>
                         <p class="miniBlocSubTitle fa-calendar">Organiser des rendez-vous et des sondages</p>
                         <p class="miniBlocTexte">Framadate c’est un peu comme Doodle mais en libre. Rien de plus simple de créer un rendez-vous ou un sondage sans inscription pour y inviter vos collaborateurs.</p>
-                        
                     </div>
                 </div>
             </div>
@@ -562,83 +541,88 @@
                         <a href="https://framacalc.org" ><h4 class="vert"><span class="violet">Frama</span>calc</h4></a>
                         <p class="miniBlocSubTitle fa-th">Un tableur collaboratif</p>
                         <p class="miniBlocTexte">Framacalc est au tableur ce que Framapad est au traitement de texte, autrement dit la possibilité d’éditer simplement et collectivement en ligne sur un même document.</p>
-                        
                     </div>
 
                     <div class="col-md-3 miniBloc">
                         <a href="https://framindmap.org" ><h4 class="vert"><span class="violet">Fra</span>mindmap</h4></a>
                         <p class="miniBlocSubTitle fa-sitemap">Créer des cartes mentales</p>
                         <p class="miniBlocTexte">Interface fluide et intuitive pour créer rapidement et simplement des cartes heuristiques à même votre navigateur. Pertinent en situation de brainstorming ou de prise de notes.</p>
-                        
                     </div>
 
                     <div class="col-md-3 miniBloc">
                         <a href="http://framavectoriel.org" ><h4 class="vert"><span class="violet">Frama</span>vectoriel</h4></a>
                         <p class="miniBlocSubTitle fa-paint-brush">Dessiner en vectoriel</p>
                         <p class="miniBlocTexte">Pour créer et éditer simplement et rapidement de belles images en ligne au format ouvert SVG. Les enfants adorent !</p>
-                        
                     </div>
 
                     <div class="col-md-3 miniBloc">
-                        <a href="https://framasphere.org" ><h4 class="vert"><span class="violet">Frama</span>sphère</h4></a>
-                        <p class="miniBlocSubTitle fa-asterisk">Le réseau social libre</p>
-                        <p class="miniBlocTexte">Framasphère est un réseau social libre, basé sur le logiciel décentralisé Diaspora*. Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* - et échangez avec eux sans être pisté.</p>
-                        
+                        <a href="http://framavectoriel.org" ><h4 class="vert"><span class="violet">Frama</span>games</h4></a>
+                        <p class="miniBlocSubTitle fa-gamepad">Jouer en ligne ou déconnecté</p>
+                        <p class="miniBlocTexte">Framagames est une compilation de jeux libres qui se jouent en ligne, se téléchargent sur son PC, sa tablette… et ne nécessitent aucune installation supplémentaire.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-6 miniBloc">
+                        <a href="http://degooglisons-internet.org"><img src="<?php echo $home_subdir; ?>img/stallmanoramix.png" alt="" class="img-responsive"/></a>
+                    </div>
+
+                    <div class="col-md-6 miniBloc">
                         <a href="https://framabee.org" ><h4 class="vert"><span class="violet">Frama</span>bee</h4></a>
                         <p class="miniBlocSubTitle fa-search">Le moteur qui butine les internets pour vous</p>
                         <p class="miniBlocTexte">Framabee est un meta-moteur de recherche libre et anonyme. Vos recherches effectuées au travers de ce moteur sont envoyées à différents moteurs avant d’être affichées dans votre navigateur. L’intérêt ? Notre moteur est alors un intermédiaire entre vous et Google (et autres), ainsi vos données personnelles (adresse IP, historique de vos recherches, géolocalisation, profil) ne sont pas enregistrées chez eux.</p>
-                        
-                    </div>
-
-                    <div class="col-md-3 miniBloc">
-                        <a href="https://framabag.org" ><h4 class="vert"><span class="violet">Frama</span>bag</h4></a>
-                        <p class="miniBlocSubTitle fa-briefcase">Ne ratez plus aucun article !</p>
-                        <p class="miniBlocTexte">Framabag vous permet de mettre de côté les articles que vous n’avez pas le temps de lire tout de suite.</p>
-                        
-                    </div>
-
-                    <div class="col-md-3 miniBloc">
-                        <a href="http://framanews.org" ><h4 class="vert"><span class="violet">Frama</span>news</h4></a>
-                        <p class="miniBlocSubTitle fa-newspaper-o">Suivre l’actualité</p>
-                        <p class="miniBlocTexte">En vous abonnant aux flux RSS de vos sites préférés, restez informés de toutes leurs actualités avec Framanews !</p>
-                        
                     </div>
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-3 miniBloc">
+                        <a href="https://framasphere.org" ><h4 class="vert"><span class="violet">Frama</span>sphère</h4></a>
+                        <p class="miniBlocSubTitle fa-asterisk">Le réseau social libre</p>
+                        <p class="miniBlocTexte">Framasphère est un réseau social libre, basé sur le logiciel décentralisé Diaspora*. Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* - et échangez avec eux sans être pisté.</p>
+                    </div>
+                    <div class="col-md-3 miniBloc">
+                        <a href="https://framabag.org" ><h4 class="vert"><span class="violet">Frama</span>bag</h4></a>
+                        <p class="miniBlocSubTitle fa-briefcase">Ne ratez plus aucun article !</p>
+                        <p class="miniBlocTexte">Framabag vous permet de mettre de côté les articles que vous n’avez pas le temps de lire tout de suite.</p>
+                    </div>
+
+                    <div class="col-md-3 miniBloc">
+                        <a href="http://framanews.org" ><h4 class="vert"><span class="violet">Frama</span>news</h4></a>
+                        <p class="miniBlocSubTitle fa-newspaper-o">Suivre l’actualité</p>
+                        <p class="miniBlocTexte">En vous abonnant aux flux RSS de vos sites préférés, restez informés de toutes leurs actualités avec Framanews !</p>
+                    </div>
+
+                    <div class="col-md-3 miniBloc">
                         <a href="https://git.framasoft.org" ><h4 class="vert"><span class="violet">Frama</span>git</h4></a>
                         <p class="miniBlocSubTitle fa-git">Héberger du code libre</p>
                         <p class="miniBlocTexte">Framagit est un outil qui s’adresse avant tout aux développeurs. Il permet d’héberger vos projets de logiciels libres et de travailler collaborativement dessus.</p>
-                        
                     </div>
-                    
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
                     <div class="col-md-3 miniBloc">
                         <a href="https://framabin.org" ><h4 class="vert"><span class="violet">Frama</span>bin</h4></a>
                         <p class="miniBlocSubTitle fa-paste">Transmettre des données chiffrées</p>
                         <p class="miniBlocTexte">Avec Framabin, vous pouvez partager des informations que seuls vous et votre correspondant aurez le pouvoir de déchiffrer, et ceci de manière très simple.</p>
-                        
                     </div>
 
                     <div class="col-md-3 miniBloc">
                         <a href="https://framapic.org" ><h4 class="vert"><span class="violet">Frama</span>pic</h4></a>
                         <p class="miniBlocSubTitle fa-photo">Partager des images anonymement</p>
                         <p class="miniBlocTexte">Framapic vous permet de partager facilement des images, par exemple pour les publier sur Twitter, Facebook, ou … Framasphère !</p>
-                        
                     </div>
 
                     <div class="col-md-3 miniBloc">
                         <a href="https://frama.link" ><h4 class="vert"><span class="violet">Frama</span>link</h4></a>
                         <p class="miniBlocSubTitle fa-link">Réduire des liens</p>
                         <p class="miniBlocTexte">Avec Frama.link, il est possible de raccourcir des adresses web trop longues. Sur les réseaux sociaux et le microblogging, un lien raccourci permet d’économiser de l’espace et gagner en clarté.</p>
-                        
+                    </div>
+
+                    <div class="col-md-3 miniBloc">
+                        <a href="http://degooglisons-internet.org"><img src="<?php echo $home_subdir; ?>img/carte_petite.png" alt="" class="img-responsive"/></a>
                     </div>
                 </div>
             </div>
@@ -681,22 +665,20 @@
                 <h3 class="presentation">Les projets transversaux </h3>
                 <p class="blocSubTitle">Espaces d’échanges, d’achats, de développements…</p>
                 <p class="blocTexte">
-                     Nous regroupons ici tout ce qui touche à l’ensemble du réseau ainsi que notre laboratoire d’idées et de projets en construction.
+                    Nous regroupons ici tout ce qui touche à l’ensemble du réseau ainsi que notre laboratoire d’idées et de projets en construction.
                 </p>
-                
             </div>
 
             <div class="col-md-4" id="AlaUne">
-                <h4 class="titreBloc">À la une</h4>
+                <h4 class="titreBloc">Lumière sur…</h4>
                 <p class="miniBlocSubTitle">GéGé, Geektionnerd generator</p>
                 <figure id="GeGeGenerator">
                     <a href="https://framalab.org/gknd-creator/" title="vers le générateur de Geektionnerd"><img src="<?php echo $home_subdir; ?>img/GeGeGenerator.jpg" alt="" /></a>
                 </figure>
                 <p class="legende">
-                    Cadeau : le geektionnerd à faire soi-même
+                    Le geektionnerd à faire soi-même.
                 </p>
             </div>
-
         </div>
 
         <div class="row">
@@ -704,28 +686,24 @@
                 <a href="https://framalab.org/"><h4 class="jaune"><span class="violet">Frama</span>lab</h4></a>
                 <p class="miniBlocSubTitle">Le laboratoire des projets Framasoft</p>
                 <p class="miniBlocTexte">C’est ici que nous déposons les projets modestes, dans nos cartons, en cours ou en attente de bonnes volontés. On peut y trouver des belles suprises.</p>
-                
             </div>-->
 
             <div class="col-md-6 miniBloc">
                 <a href="https://forum.framasoft.org" ><h4 class="jaune"><span class="violet">Fram</span>agora</h4></a>
                 <p class="miniBlocSubTitle fa-comment">Le forum du réseau Framasoft<P>
                 <p class="miniBlocTexte">Vous avez une question ? Nous avons (peut-être) une réponse ! « Si tu ne sais pas, demande. Si tu sais, partage. » Framagora est notre convivial espace d’échange d’informations autour du Libre.</p>
-                
             </div>
 
             <!--<div class="col-md-3 miniBloc">
                 <a href="http://framacode.org"><h4 class="jaune"><span class="violet">Frama</span>code</h4></a>
                 <p class="miniBlocSubTitle">Chez nous aussi on développe</p>
                 <p class="miniBlocTexte">Le dépôt Gitlab du code produit par Framasoft, en particulier les services libres Framacloud pour les installer soi-même et les améliorer ensemble.</p>
-                
             </div>-->
 
             <div class="col-md-6 miniBloc">
                 <a href="http://enventelibre.org" ><h4 class="jaune"><span class="violet">EnVente</span>libre</h4></a>
                 <p class="miniBlocSubTitle fa-shopping-cart">Notre libre petite boutique</p>
                 <p class="miniBlocTexte">L’espace vente des différents produits Framasoft qui peuvent se matérialiser : Framakey, Framabook, Framadvd mais aussi des goodies et des tee-shirts.</p>
-                
             </div>
         </div>
 

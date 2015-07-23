@@ -245,13 +245,11 @@ h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc { text-decoration:none !imp
     margin-top: 1.5em;
 }
 
+#presentationLibre, #presentationServices,
 #presentationLogiciels, #presentationLibrenVrac{
     padding-bottom: 2em;
 }
 
-#presentationLibre, #presentationServices {
-
-}
 .col-md-12 {clear:both;}
 
 #blocServices {
@@ -373,7 +371,7 @@ h4 {
 /*-------------- les FramaTrucs-------------*/
 
 #blocFramatrucs{
-    margin-top: -0.5em;
+    margin-top: 0px;
     padding-left:15px;
     padding-right:15px;
 }
@@ -418,10 +416,7 @@ h4 {
     text-align:center;
     margin-top:2em;
     margin-left:2em;
-    padding:1em;
-    background:#eee;
     font-size:120%;
-    border: 1px solid #333;
     width:45%;
 }
 
