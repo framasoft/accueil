@@ -126,13 +126,6 @@
                             </a>
                         </div>
                         <div class="item">
-                            <a href="http://framasphere.org"><img src="<?php echo $home_subdir; ?>img/slide-framasphere.jpg" alt="" />
-                                <div class="carousel-caption">
-                                    <p>Framasoft ouvre l'accès à un réseau social décentralisé,<br/>sans publicité ni exploitation de données : <strong><span class="violet">Frama</span><span class="vert">sphère</span></strong>.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
                             <a href="http://framablog.org/2015/03/12/avant-de-dormir-un-roman-fantastique-et-sombre-chez-framabook/"><img src="<?php echo $home_subdir; ?>img/slide-avant-de-dormir.png" alt="" />
                                 <div class="carousel-caption">
                                     <p>Sortie du roman fantastique <cite><em>Avant de dormir</em></cite> de Lilly Bouriot chez <b><span class="violet">Frama</span><span class="culture">book</span></b></p>
@@ -140,9 +133,16 @@
                             </a>
                         </div>
                         <div class="item">
-                            <a href="http://framablog.org/2015/03/16/huit-re-framapic-framabin-framasoft-met-les-bouchees-triples/"><img src="/accueil/img/slide-bin-pic-link.jpg" alt="" />
+                            <a href="http://framablog.org/2015/06/18/framagames-des-jeux-pour-changer-les-idees-aux-lyceens/"><img src="/accueil/img/slide-games-bookin.jpg" alt="" />
                                 <div class="carousel-caption">
-                                    <p><b><span class="violet">Huit</span>.<span class="vert">re</span></b>, <b><span class="violet">Frama</span><span class="vert">pic</span></b> et <b><span class="violet">Frama</span><span class="vert">bin</span></b> : trois nouveaux services libres<br />pour partager des images, des liens, du texte en ligne.</p>
+                                    <p><b><span class="violet">Frama</span><span class="vert">games</span></b> et <b><span class="violet">Frama</span><span class="rouge">bookin</span></b> : deux nouveaux services libres<br />pour vous détendre pendant cet été.</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="http://framabook.org/thermodynamique-de-lingenieur/"><img src="<?php echo $home_subdir; ?>img/slide-thermo.jpg" alt="" />
+                                <div class="carousel-caption">
+                                    <p><b><span class="violet">Frama</span><span class="rouge">book</span></b> publie le premier manuel libre<br∕>de thermodynamique destiné aux futur⋅e⋅s ingénrieur⋅e⋅s</p>
                                 </div>
                             </a>
                         </div>
@@ -156,7 +156,14 @@
                         <div class="item">
                             <a href="http://fr.ulule.com/etherpad-framapad/news/"><img src="<?php echo $home_subdir; ?>img/slide-mypads-dev.jpg" alt="" />
                                 <div class="carousel-caption">
-                                    <p>Le développement du plugin MyPads pour permettre<br />la création de comptes privés sur <strong><span class="violet">Frama</span><span class="vert">pad</span></strong> est en cours…</p>
+                                    <p>La version <b class="orange">beta</b> du plugin MyPads qui permettra<br />la création de comptes privés sur <strong><span class="violet">Frama</span><span class="vert">pad</span></strong> est en ligne… À tester !</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="http://framasphere.org"><img src="<?php echo $home_subdir; ?>img/slide-framasphere.jpg" alt="" />
+                                <div class="carousel-caption">
+                                    <p>Framasoft ouvre l'accès à un réseau social décentralisé,<br/>sans publicité ni exploitation de données : <strong><span class="violet">Frama</span><span class="vert">sphère</span></strong>.</p>
                                 </div>
                             </a>
                         </div>
@@ -336,8 +343,8 @@
         <div class="row">
             <div class="col-md-8" id="presentationLogiciels">
                 <h3 class="presentation">Logiciel Libre ?</h3>
-                <p class="blocSubTitle">Un <a href="http://fr.wikipedia.org/wiki/Logiciel_libre" target="_blank">logiciel libre <i class="fa fa-external-link"></i></a> est un logiciel qui offre et garantit les quatre libertés suivantes : utilisation, étude, modification et duplication en vue de sa diffusion (gratuite ou pas).</p>
-                <p class="blocTexte">Ceci est permis techniquement grâce à l’accès au <a href="http://fr.wikipedia.org/wiki/Code_source" target="_blank">code <i class="fa fa-external-link"></i></a> et légalement grâce à la <a href="http://fr.wikipedia.org/wiki/Licence_libre" target="_blank">licence libre <i class="fa fa-external-link"></i></a> qui l’accompagne. Ces <span class="smallcaps">quatre libertés</span> favorisent la transparence, la confiance, l’échange, le partage et la collaboration au sein de communautés.</p>
+                <p class="blocSubTitle">Un <a href="http://fr.wikipedia.org/wiki/Logiciel_libre" target="_blank">logiciel libre</a> est un logiciel qui offre et garantit les quatre libertés suivantes : utilisation, étude, modification et duplication en vue de sa diffusion (gratuite ou pas).</p>
+                <p class="blocTexte">Ceci est permis techniquement grâce à l’accès au <a href="http://fr.wikipedia.org/wiki/Code_source" target="_blank">code</a> et légalement grâce à la <a href="http://fr.wikipedia.org/wiki/Licence_libre" target="_blank">licence libre</a> qui l’accompagne. Ces <span class="smallcaps">quatre libertés</span> favorisent la transparence, la confiance, l’échange, le partage et la collaboration au sein de communautés.</p>
                 <p class="blocTexte">Framasoft vous propose un annuaire, des clés USB et DVD et un installateur Windows pour les découvrir et les utiliser régulièrement.</p>
 
             </div>
@@ -415,8 +422,8 @@
             <div class="col-md-6" id="presentationLibre">
                 <div class="row col-md-12">
                     <h3 class="presentation">Culture Libre ?</h3>
-                    <p class="blocSubTitle">Facilitée par Internet et la numérisation, la « <a href="http://fr.wikipedia.org/wiki/Culture_libre">culture libre <i class="fa fa-external-link"></i></a> » est une culture en mouvement qui s’inspire directement du logiciel libre dans sa philosophie et ses licences pour promouvoir et diffuser des œuvres de l’esprit.</p>
-                    <p class="blocTexte">Elle explore des domaines aussi variés que les arts, l’éducation, les sciences, le matériel... Ces œuvres peuvent alors être considérées comme des <a href="http://fr.wikipedia.org/wiki/Bien_commun">biens communs <i class="fa fa-external-link"></i></a>. L’exemple le plus emblématique est l’encyclopédie libre Wikipédia.</p>
+                    <p class="blocSubTitle">Facilitée par Internet et la numérisation, la « <a href="http://fr.wikipedia.org/wiki/Culture_libre">culture libre</a> » est une culture en mouvement qui s’inspire directement du logiciel libre dans sa philosophie et ses licences pour promouvoir et diffuser des œuvres de l’esprit.</p>
+                    <p class="blocTexte">Elle explore des domaines aussi variés que les arts, l’éducation, les sciences, le matériel... Ces œuvres peuvent alors être considérées comme des <a href="http://fr.wikipedia.org/wiki/Bien_commun">biens communs</a>. L’exemple le plus emblématique est l’encyclopédie libre Wikipédia.</p>
                     <p class="blocTexte">Dans ce cadre, Framasoft vous propose un blog, une maison d’édition, une plateforme vidéo, un site dédié à la musique libre ainsi qu’un service original de traduction collaborative.</p>
 
                 </div>
@@ -454,7 +461,7 @@
                     <div class="col-md-6 miniBloc2">
                         <a href="http://framabookin.org" ><h4 class="rouge"><span class="violet">Frama</span>bookin</h4></a>
                         <p class="miniBlocSubTitle fa-coffee">Une bibliothèque numérique libre</p>
-                        <p class="miniBlocTexte">Notre bibliothèque numérique qui contient quelques centaines d’ouvrages libres ou du domaine public. Elle est consultable en ligne sur les plateformes mobiles (smartphones, tablettes, liseuses…) et peut aussi être ajoutée directement dans votre application préférée de lecture d’ebook grâce au flux OPDS.</p>
+                        <p class="miniBlocTexte">Notre bibliothèque contient quelques centaines d’ouvrages libres ou du domaine public. Elle est consultable en ligne sur les plateformes mobiles. Vous pouvez l’ajouter directement une application de lecture d’ebook grâce au flux <abbr>OPDS</abbr>.</p>
                     </div>
                     <div class="col-md-6 miniBloc2">
                         <a href="http://framablog.org/framalang" ><h4 class="rouge"><span class="violet">Frama</span>lang</h4></a>

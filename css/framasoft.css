@@ -23,6 +23,14 @@ body {
 
 a, a:hover, a:focus, a:visited, a h4 {text-decoration: none !important;}
 
+a[target="_blank"]:after {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    content: " \f08e";
+}
+
 /*----------- titraille général ------------*/
 
 h1, h2, h3, h4, h5, h6 {
