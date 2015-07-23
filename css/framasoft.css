@@ -315,22 +315,56 @@ h4 {
 .miniBlocSubTitle , .miniBlocTexte {
     margin-right: 1em;
     line-height: 1.5em;
+    position:relative;
+    z-index:2;
 }
-
+ /* Trait fin de § */
 .miniBlocTexte:after {
     content: "\A███";
     white-space:pre;
     line-height:2em;
     color: #ddd;
 }
+ /* Background icon (complété dans le code html par la classe font-awesome "fa-[nom-de-l-icone]" */
+.miniBlocSubTitle:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: none;
+    font-size: 100px !important;
+    position: absolute;
+    top: 80px;
+    right:0;
+    opacity: 0.3;
+    z-index: 1;
+}
+
+.fa-archive.miniBlocSubTitle:before {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+    -webkit-transform: scale(1, -1);
+    -ms-transform: scale(1, -1);
+    transform: scale(1, -1);
+}
+
+.fa-sitemap.miniBlocSubTitle:before {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+#topPgLogiciels .miniBlocSubTitle:before { color: #0c5b7a; }
+#topPgCulture .miniBlocSubTitle:before   { color: #cc2d18; }
+#topPgCloud .miniBlocSubTitle:before     { color: #8E9C48; }
+#topPgVrac .miniBlocSubTitle:before      { color: #C48A1B; }
 
 .EnVenteLibre {
     background: none;
-    text-align: right;
     font-weight: bold;
-    /*margin-bottom: -1.25em;*/
-    margin-right: 1em;
-    /*margin-left: 15em;*/
+    font-size:18px;
+    position: absolute;
+    right: 1em;
+    margin-top: -36px;
 }
 
 .EnVenteLibre a:hover {
@@ -476,12 +510,3 @@ h4 {
 }
 
 ul,ol {padding-left:0 !important}
-
-.bg-icon {
-    top: 60px;
-    position: absolute;
-    font-size: 100px;
-    color: rgb(142, 156, 72);
-    opacity: 0.5;
-    right: 10px;
-}
