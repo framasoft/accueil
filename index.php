@@ -142,7 +142,7 @@
                         <div class="item">
                             <a href="http://framabook.org/thermodynamique-de-lingenieur/"><img src="<?php echo $home_subdir; ?>img/slide-thermo.jpg" alt="" />
                                 <div class="carousel-caption">
-                                    <p><b><span class="violet">Frama</span><span class="rouge">book</span></b> publie le premier manuel libre<br∕> de thermodynamique destiné aux futur⋅e⋅s ingénieur⋅e⋅s</p>
+                                    <p><b><span class="violet">Frama</span><span class="rouge">book</span></b> publie le premier manuel libre<br />de thermodynamique destiné aux futur⋅e⋅s ingénieur⋅e⋅s</p>
                                 </div>
                             </a>
                         </div>
