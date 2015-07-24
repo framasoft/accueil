@@ -23,7 +23,7 @@ body {
 
 a, a:hover, a:focus, a:visited, a h4 {text-decoration: none !important;}
 
-a[target="_blank"]:after {
+.container.ombre a[target="_blank"]:after {
     font-family: FontAwesome;
     font-style: normal;
     font-weight: normal;
