@@ -563,7 +563,7 @@
                     </div>
 
                     <div class="col-md-3 miniBloc">
-                        <a href="http://framavectoriel.org" ><h4 class="vert"><span class="violet">Frama</span>games</h4></a>
+                        <a href="http://framagames.org" ><h4 class="vert"><span class="violet">Frama</span>games</h4></a>
                         <p class="miniBlocSubTitle fa-gamepad">Jouer en ligne ou déconnecté</p>
                         <p class="miniBlocTexte">Framagames est une compilation de jeux libres qui se jouent en ligne, se téléchargent sur son PC, sa tablette… et ne nécessitent aucune installation supplémentaire.</p>
                     </div>
