@@ -301,7 +301,7 @@
                 <p class="miniBlocTexte">Framasoft est avant tout une communauté d’utilisateurs. Cependant, son fonctionnement est clairement celui d’un réseau, non seulement de projets, mais aussi de partenaires.
                 <br/>Ainsi, Framasoft bénéficie du soutien de nombreuses organisations (publiques, commerciales, associatives) qui permettent aux projets de croître et de se développer. <a href="https://soutenir.framasoft.org/partenaires">Liste de tous nos partenaires</a></p>
                 <ul class="list-inline text-center">
-                    <li><a href="http://www.milliweb.fr/"><img src="https://soutenir.framasoft.org/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
+                    <li><a href="http://milliweb.fr/"><img src="https://soutenir.framasoft.org/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
                     <li><a href="https://www.ikoula.com/"><img src="https://soutenir.framasoft.org/sites/default/files/transparent-png-bleu.png" alt="Ikoula"></a></li>
                 </ul>
             </div>
