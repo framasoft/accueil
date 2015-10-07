@@ -91,18 +91,16 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="row">
+                    <figure id="pingouinVolant" class="pull-right" >
+                        <img src="<?php echo $home_subdir; ?>img/pingouinVolantRefait.png" alt="" />
+                    </figure>
+
                     <ul class="accroche">
                         <li>Un réseau dédié à la promotion du « <span class="smallcaps">libre</span> » en général et du <span class="smallcaps">logiciel libre</span> en particulier.</li>
                         <li>De nombreux services et projets innovants mis librement à disposition du grand public.</li>
                         <li>Une <a href="#topPgCommunaute">communauté</a> de bénévoles soutenue par une association d’intérêt général.</li>
                         <li>Une invitation à bâtir ensemble un monde de partage et de coopération.</li>
                     </ul>
-                </div>
-                <div class="row">
-                    <p class="homeAlerte well">Vous cherchez l'annuaire de logiciels libres ? <a href="http://framalibre.org">C'est par ici&nbsp!</a></p>
-                    <figure id="pingouinVolant">
-                        <img src="<?php echo $home_subdir; ?>img/pingouinVolantRefait.png" alt="" />
-                    </figure>
                 </div>
                 <div class="row containerActu">
                     <h3 id="news">Quoi de neuf sur Framasoft ?</h3>
@@ -112,12 +110,45 @@
                 <div id="carousel-actus" class="carousel slide">
                     <div class="carousel-inner">
                         <div class="item active">
-                            <a href="http://degooglisons-internet.org"><img src="<?php echo $home_subdir; ?>img/slide-degooglisons-internet.png" alt="" />
+                            <a href="http://framablog.org/2015/10/06/mypads-lalternative-de-framasoft-a-google-docs/"><img src="<?php echo $home_subdir; ?>img/slide-mypads-release.jpg" alt="" />
                                 <div class="carousel-caption">
-                                    <p><b><span class="violet">Dégooglisons</span> <span class="orange">Internet</span></b> : des alternatives libres sont possibles.<br />Découvrez notre projet pour résister aux géants des services en ligne.</p>
+                                    <p><b class="violet">My</b><b class="vert">Pads</b> : après 6 mois de développement,<br />l’alternative à Google Docs sort enfin en version finale !</p>
                                 </div>
                             </a>
                         </div>
+
+                        <div class="item">
+                            <a href="http://framablog.org/2015/10/05/degooglisons-saison-2-ils-ne-savaient-pas-que-cetait-impossible-alors-ils-lont-fait/"><img src="<?php echo $home_subdir; ?>img/slide-dio-an-2.png" alt="" />
+                                <div class="carousel-caption">
+                                    <p><b class="violet">Dégooglisons</b> <b class="orange">Internet</b>, l'an II : sortie de 5 nouveaux projets libres<br /> pour résister aux géants des services en ligne.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://framabook.org/apolog-le-cycle-des-noenautesiii/"><img src="<?php echo $home_subdir; ?>img/slide-book-apolog.png" alt="" />
+                                <div class="carousel-caption">
+                                    <p>Les NoéNautes reviennent dans <cite>#Apolog</cite>, un nouveau roman<br /> signé Pouhiou à télécharger librement sur <b class="violet">Frama</b><b class="culture">book</b>.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://framablog.org/2015/02/05/degooglisons-internet-la-conference/"><img src="/accueil/img/slide-dio-conf.png" alt="" />
+                                <div class="carousel-caption">
+                                    <p><b class="violet">Dégooglisons</b> <b class="orange">Internet</b>, LA conférence en vidéo.<br />« Et si Google était le Skynet de 2024 ? »</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://framabook.org/thermodynamique-de-lingenieur/"><img src="<?php echo $home_subdir; ?>img/slide-thermo.jpg" alt="" />
+                                <div class="carousel-caption">
+                                    <p><b class="violet">Frama</b><b class="rouge">book</b> publie le premier manuel libre<br ∕>de thermodynamique destiné aux futur⋅e⋅s ingénieur⋅e⋅s.</p>
+                                </div>
+                            </a>
+                        </div>
+
                         <div class="item">
                             <a href="http://framablog.org/2015/05/05/framabee-le-meta-moteur-qui-va-vous-butiner-le-web/"><img src="<?php echo $home_subdir; ?>img/slide-framabee.jpg" alt="" />
                                 <div class="carousel-caption">
@@ -125,48 +156,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="item">
-                            <a href="http://framablog.org/2015/03/12/avant-de-dormir-un-roman-fantastique-et-sombre-chez-framabook/"><img src="<?php echo $home_subdir; ?>img/slide-avant-de-dormir.png" alt="" />
-                                <div class="carousel-caption">
-                                    <p>Sortie du roman fantastique <cite><em>Avant de dormir</em></cite> de Lilly Bouriot chez <b><span class="violet">Frama</span><span class="culture">book</span></b></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="http://framablog.org/2015/06/18/framagames-des-jeux-pour-changer-les-idees-aux-lyceens/"><img src="/accueil/img/slide-games-bookin.jpg" alt="" />
-                                <div class="carousel-caption">
-                                    <p><b><span class="violet">Frama</span><span class="vert">games</span></b> et <b><span class="violet">Frama</span><span class="rouge">bookin</span></b> : deux nouveaux services libres<br />pour vous détendre pendant cet été.</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="http://framabook.org/thermodynamique-de-lingenieur/"><img src="<?php echo $home_subdir; ?>img/slide-thermo.jpg" alt="" />
-                                <div class="carousel-caption">
-                                    <p><b><span class="violet">Frama</span><span class="rouge">book</span></b> publie le premier manuel libre<br />de thermodynamique destiné aux futur⋅e⋅s ingénieur⋅e⋅s</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="http://framablog.org/2015/02/05/degooglisons-internet-la-conference/"><img src="/accueil/img/slide-dio-conf.png" alt="" />
-                                <div class="carousel-caption">
-                                    <p><b><span class="violet">Dégooglisons</span> <span class="orange">Internet</span></b>, LA conférence en vidéo.<br />« Et si Google était le Skynet de 2024 ? »</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="http://fr.ulule.com/etherpad-framapad/news/"><img src="<?php echo $home_subdir; ?>img/slide-mypads-dev.jpg" alt="" />
-                                <div class="carousel-caption">
-                                    <p>La version <b class="orange">beta</b> du plugin MyPads qui permettra<br />la création de comptes privés sur <strong><span class="violet">Frama</span><span class="vert">pad</span></strong> est en ligne… À tester !</p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="item">
-                            <a href="http://framasphere.org"><img src="<?php echo $home_subdir; ?>img/slide-framasphere.jpg" alt="" />
-                                <div class="carousel-caption">
-                                    <p>Framasoft ouvre l'accès à un réseau social décentralisé,<br/>sans publicité ni exploitation de données : <strong><span class="violet">Frama</span><span class="vert">sphère</span></strong>.</p>
-                                </div>
-                            </a>
-                        </div>
+
                     </div><!-- /.carousel-inner -->
 
                     <!-- Controls -->
@@ -180,6 +170,8 @@
                         <i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">Diapo suivante</span>
                     </a>
                 </div><!-- /.carousel -->
+
+                <p class="homeAlerte well">Vous cherchez l'annuaire de logiciels libres ? <a href="http://framalibre.org">C'est par ici&nbsp!</a></p>
             </div>
             <div class="col-md-4" id="blocFramatrucs">
                 <h4 class="titreFramaTrucs"><a href="#topPgLogiciels" class="bleu">Libres logiciels</a></h4>
@@ -205,18 +197,23 @@
                 <h4 class="titreFramaTrucs"><a href="#topPgCloud" class="vert">Libres services</a></h4>
                 <div class="row">
                     <ul class="listeFramaTrucs col-md-12">
-                        <li>&Eacute;diter <a href="https://framapad.org/" class="vert">≻   <span class="violet">Frama</span>pad</a></li>
-                        <li>Organiser <a href="https://framadate.org/" class="vert">≻   <span class="violet">Frama</span>date</a></li>
-                        <li>Calculer <a href="https://framacalc.org/" class="vert">≻   <span class="violet">Frama</span>calc</a></li>
-                        <li>Structurer <a href="https://framindmap.org/" class="vert">≻   <span class="violet">Fra</span>mindmap</a></li>
-                        <li>Dessiner <a href="http://framavectoriel.org/" class="vert">≻   <span class="violet">Frama</span>vectoriel</a></li>
-                        <li>Réseauter <a href="https://framasphere.org/" class="vert">≻   <span class="violet">Frama</span>sphère</a></li>
-                        <li>Jouer <a href="http://framagames.org/" class="vert">≻   <span class="violet">Frama</span>games</a></li>
-                        <li>Coder <a href="https://git.framasoft.org/" class="vert">≻   <span class="violet">Frama</span>git</a></li>
-                        <li>Rechercher <a href="https://framabee.org/" class="vert">≻   <span class="violet">Frama</span>bee</a></li>
-                        <li>Partager <a href="https://framabin.org/" class="vert">≻   <span class="violet">Frama</span>bin</a><br/>
-                                     <a href="https://framapic.org/" class="vert">≻   <span class="violet">Frama</span>pic</a><br/>
-                                     <a href="https://frama.link/" class="vert">≻   <span class="violet">Frama</span>link</a></li>
+                        <li>Éditer      <a href="https://framapad.org/" class="vert">≻   <span class="violet">Frama</span>pad</a></li>
+                        <li>Calculer    <a href="https://framacalc.org/" class="vert">≻   <span class="violet">Frama</span>calc</a></li>
+                        <li>Organiser   <a href="https://framadate.org/" class="vert">≻   <span class="violet">Frama</span>date</a><br />
+                                        <a href="https://framaboard.org/" class="vert">≻   <span class="violet">Frama</span>board</a></li>
+                        <li>Structurer  <a href="https://framindmap.org/" class="vert">≻   <span class="violet">Fra</span>mindmap</a></li>
+                        <li>Dessiner    <a href="http://framavectoriel.org/" class="vert">≻   <span class="violet">Frama</span>vectoriel</a></li>
+                        <li>Stocker     <a href="https://framadrive.org/" class="vert">≻   <span class="violet">Frama</span>drive</a></li>
+                        <li>Suivre l’actualité <a href="https://framabag.org/" class="vert">≻   <span class="violet">Frama</span>bag</a><br />
+                                        <a href="https://framanews.org/" class="vert">≻   <span class="violet">Frama</span>news</a></li>
+                        <li>Jouer       <a href="http://framagames.org/" class="vert">≻   <span class="violet">Frama</span>games</a></li>
+                        <li>Réseauter   <a href="https://framasphere.org/" class="vert">≻   <span class="violet">Frama</span>sphère</a></li>
+                        <li>Coder       <a href="https://git.framasoft.org/" class="vert">≻   <span class="violet">Frama</span>git</a></li>
+                        <li>Rechercher  <a href="https://framabee.org/" class="vert">≻   <span class="violet">Frama</span>bee</a></li>
+                        <li>Partager    <a href="https://framadrop.org/" class="vert">≻   <span class="violet">Frama</span>drop</a><br />
+                                        <a href="https://framabin.org/" class="vert">≻   <span class="violet">Frama</span>bin</a><br />
+                                        <a href="https://framapic.org/" class="vert">≻   <span class="violet">Frama</span>pic</a><br />
+                                        <a href="https://frama.link/" class="vert">≻   <span class="violet">Frama</span>link</a></li>
                     </ul>
                 </div>
                 <h4 class="titreFramaTrucs"><a href="#topPgVrac" class="jaune">Libr’en vrac</a></h4>
@@ -535,19 +532,26 @@
                     </div>
 
                     <div class="col-md-6 miniBloc2">
-                        <a href="https://framadate.org/" ><h4 class="vert"><span class="violet">Frama</span>date</h4></a>
-                        <p class="miniBlocSubTitle fa-calendar">Organiser des rendez-vous et des sondages</p>
-                        <p class="miniBlocTexte">Framadate c’est un peu comme Doodle mais en libre. Rien de plus simple de créer un rendez-vous ou un sondage sans inscription pour y inviter vos collaborateurs.</p>
+                        <a href="https://framacalc.org" ><h4 class="vert"><span class="violet">Frama</span>calc</h4></a>
+                        <p class="miniBlocSubTitle fa-th">Un tableur collaboratif</p>
+                        <p class="miniBlocTexte">Framacalc est au tableur ce que Framapad est au traitement de texte, autrement dit la possibilité d’éditer simplement et collectivement en ligne sur un même document.</p>
                     </div>
+
                 </div>
             </div>
 
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-3 miniBloc">
-                        <a href="https://framacalc.org" ><h4 class="vert"><span class="violet">Frama</span>calc</h4></a>
-                        <p class="miniBlocSubTitle fa-th">Un tableur collaboratif</p>
-                        <p class="miniBlocTexte">Framacalc est au tableur ce que Framapad est au traitement de texte, autrement dit la possibilité d’éditer simplement et collectivement en ligne sur un même document.</p>
+                        <a href="https://framadate.org/" ><h4 class="vert"><span class="violet">Frama</span>date</h4></a>
+                        <p class="miniBlocSubTitle fa-calendar">Organiser des rendez-vous et des sondages</p>
+                        <p class="miniBlocTexte">Framadate c’est un peu comme Doodle mais en libre. Rien de plus simple de créer un rendez-vous ou un sondage sans inscription pour y inviter vos collaborateurs.</p>
+                    </div>
+
+                    <div class="col-md-3 miniBloc">
+                        <a href="https://framaboard.org/" ><h4 class="vert"><span class="violet">Frama</span>board</h4></a>
+                        <p class="miniBlocSubTitle fa-dashboard">Gérer des projets</p>
+                        <p class="miniBlocTexte">Framaboard est un gestionnaire collaboartif de tâches et de projets, en suivant la méthode Kanban. Son système visuel permet de s’y retrouver au premier coup d’œil, quelque soit votre habitude à utiliser ce genre d’outil.</p>
                     </div>
 
                     <div class="col-md-3 miniBloc">
@@ -560,12 +564,6 @@
                         <a href="http://framavectoriel.org" ><h4 class="vert"><span class="violet">Frama</span>vectoriel</h4></a>
                         <p class="miniBlocSubTitle fa-paint-brush">Dessiner en vectoriel</p>
                         <p class="miniBlocTexte">Pour créer et éditer simplement et rapidement de belles images en ligne au format ouvert SVG. Les enfants adorent !</p>
-                    </div>
-
-                    <div class="col-md-3 miniBloc">
-                        <a href="http://framagames.org" ><h4 class="vert"><span class="violet">Frama</span>games</h4></a>
-                        <p class="miniBlocSubTitle fa-gamepad">Jouer en ligne ou déconnecté</p>
-                        <p class="miniBlocTexte">Framagames est une compilation de jeux libres qui se jouent en ligne, se téléchargent sur son PC, sa tablette… et ne nécessitent aucune installation supplémentaire.</p>
                     </div>
                 </div>
             </div>
@@ -584,11 +582,13 @@
             </div>
             <div class="col-md-12">
                 <div class="row">
+
                     <div class="col-md-3 miniBloc">
-                        <a href="https://framasphere.org" ><h4 class="vert"><span class="violet">Frama</span>sphère</h4></a>
-                        <p class="miniBlocSubTitle fa-asterisk">Le réseau social libre</p>
-                        <p class="miniBlocTexte">Framasphère est un réseau social libre, basé sur le logiciel décentralisé Diaspora*. Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* - et échangez avec eux sans être pisté.</p>
+                        <a href="https://framadrive.org" ><h4 class="vert"><span class="violet">Frama</span>drive</h4></a>
+                        <p class="miniBlocSubTitle fa-cloud-upload">Héberger ses documents en ligne</p>
+                        <p class="miniBlocTexte">Framadrive vous permet de stocker vos documents en ligne, de les synchroniser sur vos ordinateurs, mobiles, etc… et de les partager avec qui vous voulez.</p>
                     </div>
+
                     <div class="col-md-3 miniBloc">
                         <a href="https://framabag.org" ><h4 class="vert"><span class="violet">Frama</span>bag</h4></a>
                         <p class="miniBlocSubTitle fa-briefcase">Ne ratez plus aucun article !</p>
@@ -602,14 +602,44 @@
                     </div>
 
                     <div class="col-md-3 miniBloc">
-                        <a href="https://git.framasoft.org" ><h4 class="vert"><span class="violet">Frama</span>git</h4></a>
-                        <p class="miniBlocSubTitle fa-git">Héberger du code libre</p>
-                        <p class="miniBlocTexte">Framagit est un outil qui s’adresse avant tout aux développeurs. Il permet d’héberger vos projets de logiciels libres et de travailler collaborativement dessus.</p>
+                        <a href="http://framagames.org" ><h4 class="vert"><span class="violet">Frama</span>games</h4></a>
+                        <p class="miniBlocSubTitle fa-gamepad">Jouer en ligne ou déconnecté</p>
+                        <p class="miniBlocTexte">Framagames est une compilation de jeux libres qui se jouent en ligne, se téléchargent sur son PC, sa tablette… et ne nécessitent aucune installation supplémentaire.</p>
                     </div>
+
                 </div>
             </div>
             <div class="col-md-12">
                 <div class="row">
+
+                    <div class="col-md-3 miniBloc">
+                        <a href="https://framasphere.org" ><h4 class="vert"><span class="violet">Frama</span>sphère</h4></a>
+                        <p class="miniBlocSubTitle fa-asterisk">Le réseau social libre</p>
+                        <p class="miniBlocTexte">Framasphère est un réseau social libre, basé sur le logiciel décentralisé Diaspora*. Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* - et échangez avec eux sans être pisté.</p>
+                    </div>
+
+                    <div class="col-md-6 miniBloc">
+                        <a href="http://degooglisons-internet.org"><img src="<?php echo $home_subdir; ?>img/village.png" alt="" class="img-responsive"/></a>
+                    </div>
+
+
+                    <div class="col-md-3 miniBloc">
+                        <a href="https://git.framasoft.org" ><h4 class="vert"><span class="violet">Frama</span>git</h4></a>
+                        <p class="miniBlocSubTitle fa-git">Héberger du code libre</p>
+                        <p class="miniBlocTexte">Framagit est un outil qui s’adresse avant tout aux développeurs. Il permet d’héberger vos projets de logiciels libres et de travailler collaborativement dessus.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+
+                    <div class="col-md-3 miniBloc">
+                        <a href="https://framadrop.org" ><h4 class="vert"><span class="violet">Frama</span>drop</h4></a>
+                        <p class="miniBlocSubTitle fa-send">Partager des fichiers anonymement</p>
+                        <p class="miniBlocTexte">Avec Framadrop, fini les pièces jointes trop lourdes qui empêchent l’envoi d'un <span lang="en">email</span>. Ce service libre vous permet de partager facilement des fichiers de manière sécurisé.</p>
+                    </div>
+
                     <div class="col-md-3 miniBloc">
                         <a href="https://framabin.org" ><h4 class="vert"><span class="violet">Frama</span>bin</h4></a>
                         <p class="miniBlocSubTitle fa-paste">Transmettre des données chiffrées</p>
@@ -628,12 +658,11 @@
                         <p class="miniBlocTexte">Avec Frama.link, il est possible de raccourcir des adresses web trop longues. Sur les réseaux sociaux et le microblogging, un lien raccourci permet d’économiser de l’espace et gagner en clarté.</p>
                     </div>
 
-                    <div class="col-md-3 miniBloc">
-                        <a href="http://degooglisons-internet.org"><img src="<?php echo $home_subdir; ?>img/carte_petite.png" alt="" class="img-responsive"/></a>
-                    </div>
                 </div>
             </div>
+
         </div>
+
 
         <div class="row" class="finPseudoPage">
             <div class="col-md-2">
