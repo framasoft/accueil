@@ -120,7 +120,7 @@
                         <div class="item">
                             <a href="http://framablog.org/2015/10/05/degooglisons-saison-2-ils-ne-savaient-pas-que-cetait-impossible-alors-ils-lont-fait/"><img src="<?php echo $home_subdir; ?>img/slide-dio-an-2.png" alt="" />
                                 <div class="carousel-caption">
-                                    <p><b class="violet">Dégooglisons</b> <b class="orange">Internet</b>, l'an II : sortie de 5 nouveaux projets libres<br /> pour résister aux géants des services en ligne.</p>
+                                    <p><b class="violet">Dégooglisons</b> <b class="orange">Internet</b>, l’an 2 : sortie de 5 nouveaux projets libres<br /> pour résister aux géants des services en ligne.</p>
                                 </div>
                             </a>
                         </div>
