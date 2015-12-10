@@ -109,15 +109,8 @@
                 <!--  Carousel -->
                 <div id="carousel-actus" class="carousel slide">
                     <div class="carousel-inner">
-                        <div class="item active">
-                            <a href="http://framablog.org/2015/10/06/mypads-lalternative-de-framasoft-a-google-docs/"><img src="<?php echo $home_subdir; ?>img/slide-mypads-release.jpg" alt="" />
-                                <div class="carousel-caption">
-                                    <p><b class="violet">My</b><b class="vert">Pads</b> : après 6 mois de développement,<br />l’alternative à Google Docs sort enfin en version finale !</p>
-                                </div>
-                            </a>
-                        </div>
 
-                        <div class="item">
+                        <div class="item active">
                             <a href="http://framablog.org/2015/10/05/degooglisons-saison-2-ils-ne-savaient-pas-que-cetait-impossible-alors-ils-lont-fait/"><img src="<?php echo $home_subdir; ?>img/slide-dio-an-2.png" alt="" />
                                 <div class="carousel-caption">
                                     <p><b class="violet">Dégooglisons</b> <b class="orange">Internet</b>, l’an 2 : sortie de 5 nouveaux projets libres<br /> pour résister aux géants des services en ligne.</p>
@@ -126,9 +119,9 @@
                         </div>
 
                         <div class="item">
-                            <a href="http://framabook.org/apolog-le-cycle-des-noenautesiii/"><img src="<?php echo $home_subdir; ?>img/slide-book-apolog.png" alt="" />
+                            <a href="http://framablog.org/2015/12/10/vieux-flic-et-vieux-voyou-un-polar-tout-neuf-dans-le-domaine-public/"><img src="<?php echo $home_subdir; ?>img/slide-book-vfvv.jpg" alt="" />
                                 <div class="carousel-caption">
-                                    <p>Les NoéNautes reviennent dans <cite>#Apolog</cite>, un nouveau roman<br /> signé Pouhiou à télécharger librement sur <b class="violet">Frama</b><b class="culture">book</b>.</p>
+                                    <p>Sortie chez <b class="violet">Frama</b><b class="rouge">book</b> de <cite>Vieux flic et vieux voyou</cite>,<br>le polar de Frédéric Urbain qui dérouille vos rhumatismes.</p>
                                 </div>
                             </a>
                         </div>
@@ -142,9 +135,9 @@
                         </div>
 
                         <div class="item">
-                            <a href="http://framabook.org/thermodynamique-de-lingenieur/"><img src="<?php echo $home_subdir; ?>img/slide-thermo.jpg" alt="" />
+                            <a href="http://framabook.org/apolog-le-cycle-des-noenautesiii/"><img src="<?php echo $home_subdir; ?>img/slide-book-apolog.png" alt="" />
                                 <div class="carousel-caption">
-                                    <p><b class="violet">Frama</b><b class="rouge">book</b> publie le premier manuel libre<br ∕>de thermodynamique destiné aux futur⋅e⋅s ingénieur⋅e⋅s.</p>
+                                    <p>Les NoéNautes reviennent dans <cite>#Apolog</cite>, un nouveau roman<br /> signé Pouhiou à télécharger librement sur <b class="violet">Frama</b><b class="culture">book</b>.</p>
                                 </div>
                             </a>
                         </div>
@@ -153,6 +146,14 @@
                             <a href="http://framablog.org/2015/05/05/framabee-le-meta-moteur-qui-va-vous-butiner-le-web/"><img src="<?php echo $home_subdir; ?>img/slide-framabee.jpg" alt="" />
                                 <div class="carousel-caption">
                                     <p><b><span class="violet">Frama</span><span class="vert">bee</span></b>, le moteur de recherche libre et anonyme<br />qui butine les internets pour vous, sort de sa ruche.</p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="item">
+                            <a href="http://framablog.org/2015/10/06/mypads-lalternative-de-framasoft-a-google-docs/"><img src="<?php echo $home_subdir; ?>img/slide-mypads-release.jpg" alt="" />
+                                <div class="carousel-caption">
+                                    <p><b class="violet">My</b><b class="vert">Pads</b> : après 6 mois de développement,<br />l’alternative à Google Docs sort enfin en version finale !</p>
                                 </div>
                             </a>
                         </div>
@@ -363,7 +364,7 @@
 
             <div class="col-md-3 miniBloc">
                 <a href="https://framakey.org" ><h4 class="bleu"><span class="violet">Frama</span>key</h4></a>
-                <p class="miniBlocSubTitle fa-archive">Le plein de liberté dans une simple clé</p>
+                <p class="miniBlocSubTitle fa-usb">Le plein de liberté dans une simple clé</p>
                 <p class="miniBlocTexte">Dans une clé USB (ou tout autre support mobile) utiliser en mode nomade une centaine de logiciels libres portables pour Windows, tester voire installer une distribution GNU/Linux ou encore avoir accès hors ligne à toute la Wikipédia francophone.</p>
                 <p class="EnVenteLibre"><a href="http://enventelibre.org/catalog/par-association/framasoft" class="bleu" title="Acheter la Framakey sur la boutique En Vente Libre"><span aria-hidden="true">[€]</span><span class="sr-only">En Vente Libre</span></a></p>
             </div>
