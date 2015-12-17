@@ -444,7 +444,7 @@
                     <div class="col-md-6 miniBloc2">
                         <a href="http://framablog.org" ><h4 class="rouge"><span class="violet">Frama</span>blog</h4></a>
                         <p class="miniBlocSubTitle fa-pencil">L’actualité du « Libre »</p>
-                        <p class="miniBlocTexte">Chroniques quotidiennes autour du Libre en général et du logiciel libre en particulier. De riches débats dans les commentairees, de nombreuses traductions originales et les annonces des nouveautés de l’ensemble du réseau Framasoft.</p>
+                        <p class="miniBlocTexte">Chroniques quotidiennes autour du Libre en général et du logiciel libre en particulier. De riches débats dans les commentaires, de nombreuses traductions originales et les annonces des nouveautés de l’ensemble du réseau Framasoft.</p>
                     </div>
                     <div class="col-md-6 miniBloc2">
                         <a href="http://framabook.org" ><h4 class="rouge"><span class="violet">Frama</span>book</h4></a>
@@ -552,7 +552,7 @@
                     <div class="col-md-3 miniBloc">
                         <a href="https://framaboard.org/" ><h4 class="vert"><span class="violet">Frama</span>board</h4></a>
                         <p class="miniBlocSubTitle fa-dashboard">Gérer des projets</p>
-                        <p class="miniBlocTexte">Framaboard est un gestionnaire collaboartif de tâches et de projets, en suivant la méthode Kanban. Son système visuel permet de s’y retrouver au premier coup d’œil, quelque soit votre habitude à utiliser ce genre d’outil.</p>
+                        <p class="miniBlocTexte">Framaboard est un gestionnaire collaboratif de tâches et de projets, en suivant la méthode Kanban. Son système visuel permet de s’y retrouver au premier coup d’œil, quelque soit votre habitude à utiliser ce genre d’outil.</p>
                     </div>
 
                     <div class="col-md-3 miniBloc">
