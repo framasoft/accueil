@@ -287,7 +287,7 @@
         <div class="row">
             <div class="col-md-4 blocCommunaute">
                 <h4 class="titreBloc">Participer ? </h4>
-                <p class="miniBlocSubTitle">Il y a mille et une façon de participer avec nous à diffuser le Libre au sein de nos nombreux projets.</p>
+                <p class="miniBlocSubTitle">Il y a mille et une façons de participer avec nous à diffuser le Libre au sein de nos nombreux projets.</p>
                 <p class="miniBlocTexte">Tester, rédiger, modérer, administrer, traduire, relire, relayer, coder, communiquer, promouvoir, sensibiliser… N’hésitez pas à <a href="https://participer.framasoft.org/">mettre la main à la pâte</a> avec nous ! Et merci d'avance…</p>
             </div>
 
