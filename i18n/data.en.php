@@ -28,7 +28,7 @@ $l['bsCSS']      = $l['nav'].'lib/bootstrap/css/bootstrap.min.css';
 $l['bsJS']       = $l['nav'].'lib/bootstrap/js/bootstrap.min.js';
 $l['jQuery']     = $l['nav'].'lib/jquery/jquery.min.js';
 $l['favicon']    = $l['nav'].'img/icons/favicon-violet.png';
-
+$l['faCSS']      = $l['nav'].'lib/font-awesome/css/font-awesome.min.css';
 $l['fsCSS']      = $dir.'css/framasoft.css';
 
 $l['contact']    = 'https://contact.framasoft.org';
@@ -447,7 +447,18 @@ $t['slide'][5]['i'] = $dir.'img/slide-framabee.jpg';
 $t['slide'][5]['d'] = $s['bee']['t'].', le moteur de recherche libre et anonyme<br />
                        qui butine les internets pour vous, sort de sa ruche.';
 
+// Recherche
+$t['_Rechercher']            = 'Rechercher';
+$t['_sur Framasoft']         = 'sur les sites de Framasoft';
+$t['_sur le web']            = 'sur le web';
+
 // Navigation interne
+$t['inav']['lite']           = 'Accueil lite';
+$t['inav']['full']           = 'Accueil classique';
+$t['_Select the language']   = 'Choisir la langue';
+$t['_Change the language']   = 'Changer la langue';
+$t['_OK']                    = 'OK';
+
 $t['inav']['logiciel']       = 'Rubrique logiciels';
 $t['inav']['logicielTitle']  = 'vers la rubrique logiciels';
 $t['inav']['culture']        = 'Rubrique culture';

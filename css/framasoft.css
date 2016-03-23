@@ -84,6 +84,34 @@ h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc { text-decoration:none !imp
 }
 
 /*---------- navigation interne ---------------------*/
+body > .row {
+    margin-left:0;
+    margin-right:0;
+}
+
+#internav ul {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#internav li a {
+    color: #666;
+    padding: 12px 15px;
+    text-decoration: none;
+    border:none !important;
+    line-height: 14px;
+}
+#internav li a:hover,
+#internav li a:focus,
+#internav li a.active {
+    background: #767676;
+    color: #fff;
+}
+
+#internav form div {
+    margin-top: 4px;
+    margin-left: 25px
+}
+
 .col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
 
 .navEntities {
@@ -505,3 +533,42 @@ h4 {
 }
 
 ul,ol {padding-left:0 !important}
+
+.lite {
+    margin: 0px;
+}
+
+.lite li {
+    margin:15px 0;
+}
+
+.lite a:hover {
+    border : 2px dashed #ccc;
+    margin : -2px 0;
+}
+
+.lite a {
+    display:block;
+    width:100%;
+}
+
+.lite i {
+    display:block;
+    margin:10px auto -10px;
+    line-height:64px;
+    width:64px;
+    height:64px;
+    border-radius:50%;
+}
+
+.lite a:hover i {
+    opacity:0.8;
+}
+
+.lite .titreFramaTrucs {
+    margin : 0 0 5px 0;
+}
+
+.lite:last-child {
+    margin-bottom:20px;
+}

@@ -6,7 +6,7 @@
             <option lang="'.substr($k,0,2).'" value="'.$k.'">'.$v.'</option>';
     }
 
-
+    // NavEntities
     $navEntities = '
                     <li><a href="#'.$t['cat']['logiciel']['l'].'" title="'.$t['inav']['logicielTitle'].'"><span class="sr-only">'.$t['inav']['logiciel'].'</span></a></li>
                     <li><a href="#'.$t['cat']['culture']['l'].'" title="'.$t['inav']['cultureTitle'].'"><span class="sr-only">'.$t['inav']['culture'].'</span></a></li>
@@ -28,6 +28,67 @@
                 </ul>
             </div>
         </div>
+    ';
+
+
+    // Carousel
+    $carousel = '
+        <!--  Carousel -->
+        <div id="carousel-actus" class="carousel slide">
+            <div class="carousel-inner">';
+
+    foreach ($t['slide'] as $k => $v) {
+        $active = ($k == 0) ? 'active' : '';
+        $carousel .= '
+            <div class="item '.$active.'">
+                <a href="'.$t['slide'][$k]['l'].'"><img src="'.$t['slide'][$k]['i'].'" alt="" />
+                    <div class="carousel-caption">
+                        <p>'.$t['slide'][$k]['d'].'</p>
+                    </div>
+                </a>
+            </div>';
+    }
+
+    $carousel .= '
+        </div>
+            <!-- Controls -->
+            <p class="text-center" id="play-pause"><a href="#play-pause" class="carousel-control" title="'.$t['carousel']['pause'].'"><span class="glyphicon glyphicon-pause"></span><span class="sr-only">'.$t['carousel']['pause'].'</span></a></p>
+            <a class="left carousel-control" href="#carousel-actus" role="button" data-slide="prev" title="'.$t['carousel']['prev'].'">
+                <i class="glyphicon glyphicon-chevron-left"></i><span class="sr-only">'.$t['carousel']['prev'].'</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-actus" role="button" data-slide="next" title="'.$t['carousel']['next'].'">
+                <i class="glyphicon glyphicon-chevron-right"></i><span class="sr-only">'.$t['carousel']['next'].'</span>
+            </a>
+        </div>
+    ';
+
+
+    // Search
+    $framaworld = 'framasoft.org';
+    foreach ($s as $k => $v) {
+        if($s[$k]['c']!='vert') {
+            $parse = parse_url($s[$k]['l']);
+            $framaworld .= ','.str_replace('www.','',str_replace('framalibre.org','framasoft.net',$parse['host']));
+        }
+    }
+
+    $search = '
+        <form method="post" id="search" action="https://framabee.org">
+            <div class="input-group input-group-lg">
+                <input type="search" name="q" class="form-control">
+                <span class="input-group-btn">
+                    <div class="btn-group">
+                        <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fa fa-fw fa-search"></i> '.$t['_Rechercher'].' <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-right">
+                            <li><button type="submit" class="btn btn-link" id="framabee">'.$t['_Rechercher'].' '.$t['_sur le web'].'</button></li>
+                            <li><button type="button" class="btn btn-link" id="framaworld">'.$t['_Rechercher'].' '.$t['_sur Framasoft'].'</button></li>
+                        </ul>
+                    </div>
+                </span>
+            </div>
+        </form>
     ';
 
 ?>
@@ -59,6 +120,7 @@
 
     <!-- Les styles -->
     <link href="<?php echo $l['bsCSS'] ?>" rel="stylesheet" />
+    <link href="<?php echo $l['faCSS'] ?>" rel="stylesheet" />
     <link href="<?php echo $l['fsCSS'] ?>" rel="stylesheet" />
 
     <!-- Fav and touch icons -->
@@ -97,22 +159,10 @@
                 };
                 return false;
             });
+
+            $('#framaworld').on('click', function() {
+                console.log('https://duckduckgo.com/?q='+$('#search input[name="q"]').val()+'site:<?php echo $framaworld ?>')
+                location.href = 'https://duckduckgo.com/?q='+$('#search input[name="q"]').val()+' site:<?php echo $framaworld ?>';
+            });
         });
     </script>
-
-    <!-- accueil Top -->
-    <div class="container ombre" style="margin-top:20px;" id="topPgAccueil">
-        <div class="row header">
-            <div class="col-md-4">
-                <h1 id="framasoft" class="sitename"><?php echo $t['meta']['F'] ?></h1>
-            </div>
-            <div class="col-md-5">
-                <p class="headerSubTitle"><?php echo $t['meta']['slogan'] ?></p>
-            </div>
-            <div class="col-md-3">
-                <ul class="navEntities">
-                    <?php echo $navEntities ?>
-                </ul>
-            </div>
-        </div>
-

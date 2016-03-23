@@ -1,7 +1,7 @@
 <?php
     $langs = [
         'fr' => 'Français',
-        'en' => 'English',
+        //'en' => 'English',
         //'es' => 'Español',
     ];
 
