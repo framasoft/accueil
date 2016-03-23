@@ -1,12 +1,3 @@
-    <style>
-        @media (min-width:768px) {
-            .container.ombre,
-            #internav .container {
-                width:750px;
-            }
-        }
-    </style>
-
     <div class="row" id="internav">
         <div class="container">
             <form method="post" action="#">
@@ -25,6 +16,14 @@
             </ul>
         </div>
     </div>
+    <style>
+        @media (min-width:768px) {
+            .container.ombre,
+            #internav .container {
+                width:750px;
+            }
+        }
+    </style>
     <div class="container ombre" id="topPgAccueil">
         <div class="row header">
             <div class="col-md-4">
