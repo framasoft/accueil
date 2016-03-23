@@ -4,6 +4,7 @@
         //'en' => 'English',
         //'es' => 'Español',
     ];
+    session_start();
 
     $paramLang = '';
 
