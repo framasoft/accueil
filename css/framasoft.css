@@ -373,7 +373,7 @@ h4 {
     z-index: 1;
 }
 
-.lite .fa-sitemap:before,
+.lite .fa-sitemap,
 .fa-sitemap.miniBlocSubTitle:before {
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
     -webkit-transform: rotate(270deg);
