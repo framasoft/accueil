@@ -1,6 +1,9 @@
     <style>
-        .container.ombre, #internav .container {
-            width:750px;
+        @media (min-width:768px) {
+            .container.ombre,
+            #internav .container {
+                width:750px;
+            }
         }
     </style>
 
