@@ -4,6 +4,8 @@
         //'en' => 'English',
         //'es' => 'Español',
     ];
+
+    session_set_cookie_params(365*24*60*60);
     session_start();
 
     $paramLang = '';

@@ -12,7 +12,7 @@
             </form>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="?m=full"><?php echo $t['inav']['full'] ?></a></li>
+                <li><a href="<?php echo $l['F'] ?>"><?php echo $t['inav']['full'] ?></a></li>
             </ul>
         </div>
     </div>
@@ -34,25 +34,22 @@
             </div>
         </div>
 
-
-        <div class="row">
-            <div class="col-xs-12">
-                <h3><?php echo $t['pg1']['news'] ?></h3>
-                <?php echo $carousel ?>
-            </div>
-        </div>
-
         <div class="row" style="margin-top:40px; margin-bottom:20px">
             <div class="col-xs-12">
             <?php echo $search ?>
             </div>
         </div>
 
-        <hr class="trait" role="presentation" style="margin-left:-15px; margin-right:-15px">
+        <?php
+        $temp = array(
+            'cloud'    => '',
+            'logiciel' => '',
+            'culture'  => '',
+            'vrac'     => ''
+        );
 
-        <?php foreach ($t['cat'] as $k => $v) {
-            if ($k != 'communaute') {
-                echo '
+        foreach ($temp as $k => $v) {
+            echo '
         <div class="row lite">
             <h3 class="titreFramaTrucs '.$t['cat'][$k]['c'].'">'.$t['cat'][$k]['t'].'</h3>
             <ul class="list-inline">
@@ -61,7 +58,7 @@
                     if ($s[$j]['c'] == $t['cat'][$k]['c']) {
                     $fb = ' fb_'.substr($s[$j]['c'],0,1).rand(1,4);
                         echo '
-                <li class="col-xs-3 text-center">
+                <li class="col-xs-4 col-sm-3 text-center">
                     <a href="'.$s[$j]['l'].'"
                        data-toggle="popover" data-placement="top" data-container="body"
                        data-content="'.strip_tags($s[$j]['pt']).'"
@@ -75,6 +72,14 @@
                 echo '
             </ul>
         </div>';
-            }
         }?>
+
+        <hr class="trait" role="presentation" style="margin-left:-15px; margin-right:-15px">
+
+        <div class="row">
+            <div class="col-xs-12">
+                <h3><?php echo $t['pg1']['news'] ?></h3>
+                <?php echo $carousel ?>
+            </div>
+        </div>
     </div>

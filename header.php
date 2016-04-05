@@ -21,7 +21,7 @@
             </div>
     ';
     $interNavFooter = '
-        <div class="row" class="finPseudoPage">
+        <div class="row finPseudoPage">
             <div class="col-md-2">
                 <ul class="navEntities2">
                     '.$navEntities.'
@@ -68,7 +68,7 @@
     foreach ($s as $k => $v) {
         if($s[$k]['c']!='vert') {
             $parse = parse_url($s[$k]['l']);
-            $framaworld .= ','.str_replace('www.','',str_replace('framalibre.org','framasoft.net',$parse['host']));
+            $framaworld .= ','.str_replace('www.','',$parse['host']);
         }
     }
 
