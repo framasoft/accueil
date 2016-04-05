@@ -12,7 +12,7 @@
             </form>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="?m=lite"><?php echo $t['inav']['lite'] ?></a></li>
+                <li><a href="<?php echo $l['F'] ?>/?p=lite"><?php echo $t['inav']['lite'] ?></a></li>
             </ul>
         </div>
     </div>
@@ -341,7 +341,7 @@
 
                     // Nlle ligne Framadrive
                     case 'drive' : echo '
-                    </div>
+
                 </div>
             </div>
             <div class="col-md-12">
