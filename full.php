@@ -12,7 +12,7 @@
             </form>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?php echo $l['F'] ?>/?p=lite"><?php echo $t['inav']['lite'] ?></a></li>
+                <li><a href="<?php echo $l['F'] ?>/?m=lite"><?php echo $t['inav']['lite'] ?></a></li>
             </ul>
         </div>
     </div>
