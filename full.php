@@ -326,9 +326,9 @@
 
                     // Nlle ligne + 2 images Framacarte
                     case 'carte' : echo '
-                    <div class="col-md-3 miniBloc">
+                    <!--<div class="col-md-3 miniBloc">
                         <a href="'.$l['DIo'].'"><img src="'.$l['dioCarte'].'" alt="" class="img-responsive"/></a>
-                    </div>
+                    </div>-->
                 </div>
             </div>
             <div class="col-md-12">
