@@ -21,7 +21,7 @@ $l['S']          = 'https://soutenir.framasoft.org';
 $l['DIo']        = 'https://degooglisons-internet.org';
 $l['DIoL']       = $l['DIo'].'/liste';
 
-$l['nav']        = 'https://n1.framasoft.org/nav/';
+$l['nav']        = 'https://framasoft.org/nav/';
 $l['navJS']      = $l['nav'].'nav.js';
 $l['Charte']     = $l['nav'].'html/charte.html';
 $l['bsCSS']      = $l['nav'].'lib/bootstrap/css/bootstrap.min.css';
