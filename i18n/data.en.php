@@ -285,6 +285,26 @@ $s[$k]['pt'] = 'Framasphère est un réseau social libre, basé sur le
                 Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* -
                 et échangez avec eux sans être pisté.';
 
+$k = 'team'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framateam.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">team</b>';
+$s[$k]['d']  = 'Discuter';
+$s[$k]['i']  = 'fa-comments-o';
+$s[$k]['pd'] = 'Collaborative communication';
+$s[$k]['pt'] = 'Framateam est un service de <b>tchat</b> libre
+                qui permet de communiquer avec son équipe en notifiant ses collègues,
+                de conserver ses conversations et d’y faire des recherches.';
+
+$k = 'vox'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framavox.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">vox</b>';
+$s[$k]['d']  = 'Decide';
+$s[$k]['i']  = 'fa-bullhorn';
+$s[$k]['pd'] = 'Decide together';
+$s[$k]['pt'] = 'Framavox helps you to make group-based decisions.
+                Start a discussion, share ideas, come to an agreement.
+                Every decision has a clear deadline, so you can be sure to decide on time.';
+
 $k = 'bag'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framabag.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">bag</b>';
