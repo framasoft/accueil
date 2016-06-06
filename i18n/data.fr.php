@@ -295,6 +295,16 @@ $s[$k]['pt'] = 'Framateam est un service de <b>tchat</b> libre
                 qui permet de communiquer avec son équipe en notifiant ses collègues,
                 de conserver ses conversations et d’y faire des recherches.';
 
+$k = 'vox'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framavox.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">vox</b>';
+$s[$k]['d']  = 'Décider';
+$s[$k]['i']  = 'fa-bullhorn';
+$s[$k]['pd'] = 'Prise de décision';
+$s[$k]['pt'] = 'Framavox vous aide à prendre des décisions communautaires.
+                Discutez, échangez, mettez-vous d’accord et passez à l’action,
+                le tout dans les délais que vous vous êtes fixés au départ.';
+
 $k = 'bag'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framabag.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">bag</b>';
@@ -433,23 +443,23 @@ $t['slide'][0]['i'] = $dir.'img/slide-dio-an-2.png';
 $t['slide'][0]['d'] = $s['DIo']['t'].', l’an 2 : sortie de 5 nouveaux projets libres<br />
                        pour résister aux géants des services en ligne.';
 
-$t['slide'][1]['l'] = 'https://framateam.org';
-$t['slide'][1]['i'] = $dir.'img/slide-framateam.jpg';
-$t['slide'][1]['d'] = 'Sortie de '.$s['team']['t'].'. Discutez avec votre équipe sur un tchat boosté aux stéroïdes.';
+$t['slide'][1]['l'] = 'https://framavox.org';
+$t['slide'][1]['i'] = $dir.'img/slide-framavox.jpg';
+$t['slide'][1]['d'] = 'Sortie de '.$s['vox']['t'].'. Discutez, décidez et faites entendre votre voix.';
 
-$t['slide'][2]['l'] = 'http://framabook.org/grise-bouille-tome-1/';
-$t['slide'][2]['i'] = $dir.'img/slide-book-grisebouille1.jpg';
-$t['slide'][2]['d'] = $s['book']['t'].' présente <cite>Grise Bouille</cite>, un recueil de planches BD<br>
+$t['slide'][2]['l'] = 'http://framabook.org/logiciels-et-objets-libres/';
+$t['slide'][2]['i'] = $dir.'img/slide-book-lol.jpg';
+$t['slide'][2]['d'] = 'Sortie chez '.$s['book']['t'].' de <cite>Logiciels et objets libres</cite>,<br>
+                       un guide de l’Inria pour l’animation des communautés autour d’un projet ouvert ';
+
+$t['slide'][3]['l'] = 'https://framateam.org';
+$t['slide'][3]['i'] = $dir.'img/slide-framateam.jpg';
+$t['slide'][3]['d'] = 'Sortie de '.$s['team']['t'].'. Discutez avec votre équipe sur un tchat boosté aux stéroïdes.';
+
+$t['slide'][4]['l'] = 'http://framabook.org/grise-bouille-tome-1/';
+$t['slide'][4]['i'] = $dir.'img/slide-book-grisebouille1.jpg';
+$t['slide'][4]['d'] = $s['book']['t'].' présente <cite>Grise Bouille</cite>, un recueil de planches BD<br>
                       mêlant humour absurde, vulgarisation scientifique et satire politique.';
-
-$t['slide'][3]['l'] = 'https://framacarte.org';
-$t['slide'][3]['i'] = $dir.'img/slide-framacarte.jpg';
-$t['slide'][3]['d'] = 'Sortie de '.$s['carte']['t'].'. Créez des cartes personnalisées pour vos sites web.';
-
-$t['slide'][4]['l'] = 'http://framablog.org/2015/12/10/vieux-flic-et-vieux-voyou-un-polar-tout-neuf-dans-le-domaine-public/';
-$t['slide'][4]['i'] = $dir.'img/slide-book-vfvv.jpg';
-$t['slide'][4]['d'] = 'Sortie chez '.$s['book']['t'].' de <cite>Vieux flic et vieux voyou</cite>,<br>
-                       le polar de Frédéric Urbain qui dérouille vos rhumatismes.';
 
 $t['slide'][5]['l'] = 'http://framablog.org/2015/02/05/degooglisons-internet-la-conference/';
 $t['slide'][5]['i'] = $dir.'img/slide-dio-conf.png';

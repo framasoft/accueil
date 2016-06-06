@@ -325,10 +325,10 @@
                         '; break;
 
                     // Nlle ligne + 2 images Framacarte
-                    case 'carte' : echo '
-                    <!--<div class="col-md-3 miniBloc">
+                    case 'bag' : echo '
+                    <div class="col-md-3 miniBloc">
                         <a href="'.$l['DIo'].'"><img src="'.$l['dioCarte'].'" alt="" class="img-responsive"/></a>
-                    </div>-->
+                    </div>
                 </div>
             </div>
             <div class="col-md-12">
@@ -339,8 +339,8 @@
                     <div class="col-md-3 miniBloc">
                         '; break;
 
-                    // Nlle ligne Framadrive
-                    case 'drive' : echo '
+                    // Nlle ligne Framapic
+                    case 'pic' : echo '
 
                 </div>
             </div>
@@ -365,9 +365,9 @@
                     ';
             }
         }?>
-                    <div class="col-md-6 miniBloc">
+                <!--    <div class="col-md-6 miniBloc">
                         <a href="<?php echo $l['DIo'] ?>"><img src="<?php echo $l['dioFight'] ?>" alt="" class="img-responsive"/></a>
-                    </div>
+                    </div>-->
 
                 </div>
             </div>
