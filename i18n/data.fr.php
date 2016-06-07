@@ -443,7 +443,7 @@ $t['slide'][0]['i'] = $dir.'img/slide-dio-an-2.png';
 $t['slide'][0]['d'] = $s['DIo']['t'].', l’an 2 : sortie de 5 nouveaux projets libres<br />
                        pour résister aux géants des services en ligne.';
 
-$t['slide'][1]['l'] = 'https://framavox.org';
+$t['slide'][1]['l'] = 'http://framablog.org/2016/06/07/framavox-discutez-decidez-et-faites-entendre-votre-voix/';
 $t['slide'][1]['i'] = $dir.'img/slide-framavox.jpg';
 $t['slide'][1]['d'] = 'Sortie de '.$s['vox']['t'].'. Discutez, décidez et faites entendre votre voix.';
 
