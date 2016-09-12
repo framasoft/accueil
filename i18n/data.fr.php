@@ -65,7 +65,7 @@ $t['meta']['desc']      = 'Association française de loi 1901, issue du monde é
 $t['meta']['keywords']  = 'Framasoft, logiciels libres, logiciels libres et open source, culture libre, FOSS, promotion et diffusion des logiciels libres, open source';
 $t['meta']['license']   = 'Creative Commons-By-SA sauf mention contraire';
 
-$t['salaries']['n'] = '5'; $t['salaries']['t'] = 'cinq';
+$t['salaries']['n'] = '6'; $t['salaries']['t'] = 'six';
 
 $t['evl'] = 'En Vente Libre';
 
@@ -126,7 +126,7 @@ $s[$k]['pt'] = 'Pratique, sur Framapack on fait son marché des meilleurs
 // Culture
 $c = 'rouge';
 $k = 'blog'; $s[$k]['c'] = $c;
-$s[$k]['l']  = 'http://framablog.org';
+$s[$k]['l']  = 'https://framablog.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">blog</b>';
 $s[$k]['d']  = 'Des infos';
 $s[$k]['i']  = 'fa-pencil';
@@ -223,7 +223,7 @@ $k = 'date'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framadate.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">date</b>';
 $s[$k]['d']  = 'Organiser';
-$s[$k]['i']  = 'fa-calendar';
+$s[$k]['i']  = 'fa-calendar-check-o';
 $s[$k]['pd'] = 'Organiser des rendez-vous et des sondages';
 $s[$k]['pt'] = 'Framadate c’est un peu comme Doodle mais en libre.
                 Rien de plus simple de créer un rendez-vous ou un sondage
@@ -305,6 +305,15 @@ $s[$k]['pt'] = 'Framavox vous aide à prendre des décisions communautaires.
                 Discutez, échangez, mettez-vous d’accord et passez à l’action,
                 le tout dans les délais que vous vous êtes fixés au départ.';
 
+$k = 'memo'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framemo.org';
+$s[$k]['t']  = '<b class="violet">Fra</b><b class="'.$c.'">memo</b>';
+$s[$k]['d']  = 'Cogiter';
+$s[$k]['i']  = 'fa-object-group';
+$s[$k]['pd'] = 'Organisation d’idées';
+$s[$k]['pt'] = 'Framemo vous permet de créer un tableau à colonnes où quiconque peut venir y déposer des notes colorées.
+                Tel Framapad, aucune inscription n´est requise, les modifications se voient et sont enregistrées en direct.';
+
 $k = 'bag'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framabag.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">bag</b>';
@@ -343,6 +352,16 @@ $s[$k]['pd'] = 'Jouer en ligne ou déconnecté';
 $s[$k]['pt'] = 'Framagames est une compilation de jeux libres qui se
                 jouent en ligne, se téléchargent sur son PC, sa tablette…
                 et ne nécessitent aucune installation supplémentaire.';
+
+$k = 'minetest'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framinetest.org';
+$s[$k]['t']  = '<b class="violet">Fra</b><b class="'.$c.'">minetest</b>';
+$s[$k]['d']  = '<span class="sr-only">Jouer</span>';
+$s[$k]['i']  = 'fa-cube';
+$s[$k]['pd'] = 'Le jeu éducatif à creuser';
+$s[$k]['pt'] = 'Framinetestest un serveur du jeu Minetest, un jeu « bac à sable »
+                dont vous construisez et décomposez les blocs pour le modifier et
+                avec lequel vous pouvez réaliser vos propres applications pédagogiques.';
 
 $k = 'drop'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framadrop.org';
@@ -438,33 +457,34 @@ $t['carousel']['pause'] = 'Pause';
 $t['carousel']['prev']  = 'Diapo précédente';
 $t['carousel']['next']  = 'Diapo suivante';
 
-$t['slide'][0]['l'] = 'http://framablog.org/2015/10/05/degooglisons-saison-2-ils-ne-savaient-pas-que-cetait-impossible-alors-ils-lont-fait/';
-$t['slide'][0]['i'] = $dir.'img/slide-dio-an-2.png';
-$t['slide'][0]['d'] = $s['DIo']['t'].', l’an 2 : sortie de 5 nouveaux projets libres<br />
-                       pour résister aux géants des services en ligne.';
+$t['slide'][0]['l'] = 'https://framablog.org/2016/09/09/framemo-un-tableau-pour-vos-tempetes-de-cerveaux/';
+$t['slide'][0]['i'] = $dir.'img/slide-framemo.jpg';
+$t['slide'][0]['d'] = 'Sortie de '.$s['memo']['t'].'. Un tableau pour vos tempêtes de cerveaux.';
 
-$t['slide'][1]['l'] = 'http://framablog.org/2016/06/07/framavox-discutez-decidez-et-faites-entendre-votre-voix/';
-$t['slide'][1]['i'] = $dir.'img/slide-framavox.jpg';
-$t['slide'][1]['d'] = 'Sortie de '.$s['vox']['t'].'. Discutez, décidez et faites entendre votre voix.';
+$t['slide'][1]['l'] = 'https://framablog.org/2016/09/01/framinetest-edu-laissez-microsoft-hors-de-portee-de-nos-enfants/
+';
+$t['slide'][1]['i'] = $dir.'img/slide-framinetest.jpg';
+$t['slide'][1]['d'] = $t['meta']['F'].' sort un serveur Minetest en alternative à Minecraft éducation.<br>
+                      Laissons Microsoft hors de portée de nos enfants.';
 
 $t['slide'][2]['l'] = 'http://framabook.org/logiciels-et-objets-libres/';
 $t['slide'][2]['i'] = $dir.'img/slide-book-lol.jpg';
 $t['slide'][2]['d'] = 'Sortie chez '.$s['book']['t'].' de <cite>Logiciels et objets libres</cite>,<br>
                        un guide de l’Inria pour l’animation des communautés autour d’un projet ouvert ';
 
-$t['slide'][3]['l'] = 'https://framateam.org';
-$t['slide'][3]['i'] = $dir.'img/slide-framateam.jpg';
-$t['slide'][3]['d'] = 'Sortie de '.$s['team']['t'].'. Discutez avec votre équipe sur un tchat boosté aux stéroïdes.';
+$t['slide'][3]['l'] = 'https://framavox.org';
+$t['slide'][3]['i'] = $dir.'img/slide-framavox.jpg';
+$t['slide'][3]['d'] = 'Sortie de '.$s['vox']['t'].'. Discutez, décidez et faites entendre votre voix.';
 
 $t['slide'][4]['l'] = 'http://framabook.org/grise-bouille-tome-1/';
 $t['slide'][4]['i'] = $dir.'img/slide-book-grisebouille1.jpg';
 $t['slide'][4]['d'] = $s['book']['t'].' présente <cite>Grise Bouille</cite>, un recueil de planches BD<br>
                       mêlant humour absurde, vulgarisation scientifique et satire politique.';
 
-$t['slide'][5]['l'] = 'http://framablog.org/2015/02/05/degooglisons-internet-la-conference/';
-$t['slide'][5]['i'] = $dir.'img/slide-dio-conf.png';
-$t['slide'][5]['d'] = $s['DIo']['t'].', LA conférence en vidéo.<br />
-                       « Et si Google était le Skynet de 2024 ? »';
+$t['slide'][5]['l'] = 'https://framateam.org';
+$t['slide'][5]['i'] = $dir.'img/slide-framateam.jpg';
+$t['slide'][5]['d'] = 'Sortie de '.$s['team']['t'].'. Discutez avec votre équipe sur un tchat boosté aux stéroïdes.';
+
 
 // Recherche
 $t['_Rechercher']            = 'Rechercher';

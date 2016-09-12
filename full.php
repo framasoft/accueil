@@ -303,7 +303,7 @@
                     <div class="col-md-3 miniBloc">
                         '; break;
 
-                    // Nlle ligne + Image Framabee
+                    // Nlle ligne Framabee + Stallmanix
                     case 'bee': echo '
                     </div>
                 </div>
@@ -324,11 +324,8 @@
                     <div class="col-md-3 miniBloc">
                         '; break;
 
-                    // Nlle ligne + 2 images Framacarte
+                    // Nlle ligne Framabag + Aaron
                     case 'bag' : echo '
-                    <div class="col-md-3 miniBloc">
-                        <a href="'.$l['DIo'].'"><img src="'.$l['dioCarte'].'" alt="" class="img-responsive"/></a>
-                    </div>
                 </div>
             </div>
             <div class="col-md-12">
@@ -338,9 +335,15 @@
                     </div>
                     <div class="col-md-3 miniBloc">
                         '; break;
-
+                    // Nlle ligne Framadrop + Mini carte DIo
+                    case 'drop' : echo '
+                    <div class="col-md-3 miniBloc">
+                        <a href="'.$l['DIo'].'"><img src="'.$l['dioCarte'].'" alt="" class="img-responsive"/></a>
+                    </div>
+                    <div class="col-md-3 miniBloc">
+                        '; break;
                     // Nlle ligne Framapic
-                    case 'pic' : echo '
+                    case 'drive' : echo '
 
                 </div>
             </div>
@@ -365,9 +368,9 @@
                     ';
             }
         }?>
-                <!--    <div class="col-md-6 miniBloc">
+                    <div class="col-md-6 miniBloc">
                         <a href="<?php echo $l['DIo'] ?>"><img src="<?php echo $l['dioFight'] ?>" alt="" class="img-responsive"/></a>
-                    </div>-->
+                    </div>
 
                 </div>
             </div>
