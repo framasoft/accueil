@@ -219,10 +219,34 @@ $s[$k]['pt'] = 'Framacalc est au tableur ce que Framapad est au
                 d’éditer simplement et collectivement en ligne
                 sur un même document.';
 
+$k = 'forms'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framaforms.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">forms</b>';
+$s[$k]['d']  = 'Enquêter';
+$s[$k]['i']  = 'fa-list-ul';
+$s[$k]['pd'] = 'Création de questionnaires';
+$s[$k]['pt'] = 'Framaforms vous permet de créer les questionaires dont
+                vous avez besoin, que ce soit dans un cadre scolaire,
+                familial ou associatif. Créez vos questions en fonction
+                de vos besoins, des formulaires à choix multiples aux
+                champs de texte libre.';
+
+$k = 'agenda'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framagenda.org';
+$s[$k]['t']  = '<b class="violet">Fram</b><b class="'.$c.'">agenda</b>';
+$s[$k]['d']  = 'Organiser';
+$s[$k]['i']  = 'fa-calendar';
+$s[$k]['pd'] = 'Agenda partagé';
+$s[$k]['pt'] = 'Avec Framagenda vous pouvez créer des agendas personnels,
+                professionnels, le planning d´une salle ou des activités
+                de votre organisation, et les partager librement.
+                Vous restez maîtres de vos données, et vous choisissez
+                auprès de qui, où et quand elles s´affichent.';
+
 $k = 'date'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framadate.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">date</b>';
-$s[$k]['d']  = 'Organiser';
+$s[$k]['d']  = '<span class="sr-only">Organiser</span>';
 $s[$k]['i']  = 'fa-calendar-check-o';
 $s[$k]['pd'] = 'Organiser des rendez-vous et des sondages';
 $s[$k]['pt'] = 'Framadate c’est un peu comme Doodle mais en libre.
@@ -295,6 +319,29 @@ $s[$k]['pt'] = 'Framateam est un service de <b>tchat</b> libre
                 qui permet de communiquer avec son équipe en notifiant ses collègues,
                 de conserver ses conversations et d’y faire des recherches.';
 
+$k = 'listes'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framalistes.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">listes</b>';
+$s[$k]['d']  = '<span class="sr-only">Discuter</span>';
+$s[$k]['i']  = 'fa-group';
+$s[$k]['pd'] = 'Liste de diffusion';
+$s[$k]['pt'] = 'Framalistes vous permet de créer des liste de diffusion
+                emails : toute personne s´abonnant à votre liste pourra
+                recevoir les emails qui y sont envoyés, et y participer
+                à son tour. À vous de choisir si cette liste est
+                publique, semi-privée ou privée.';
+
+$k = 'talk'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framatalk.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">talk</b>';
+$s[$k]['d']  = '<span class="sr-only">Discuter</span>';
+$s[$k]['i']  = 'fa-video-camera';
+$s[$k]['pd'] = 'Visioconférence';
+$s[$k]['pt'] = 'Framatalk vous permet de discuter avec vos amis sans
+                installation complexe de logiciel ni inscription.
+                Tout se passe entre vous et vos amis, directement depuis
+                votre navigateur web.';
+
 $k = 'vox'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framavox.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">vox</b>';
@@ -313,6 +360,15 @@ $s[$k]['i']  = 'fa-object-group';
 $s[$k]['pd'] = 'Organisation d’idées';
 $s[$k]['pt'] = 'Framemo vous permet de créer un tableau à colonnes où quiconque peut venir y déposer des notes colorées.
                 Tel Framapad, aucune inscription n´est requise, les modifications se voient et sont enregistrées en direct.';
+
+$k = 'notes'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framanotes.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">notes</b>';
+$s[$k]['d']  = 'Noter';
+$s[$k]['i']  = 'fa-sticky-note';
+$s[$k]['pd'] = 'Prise de notes';
+$s[$k]['pt'] = 'Avec Framanotes vous pouvez prendre et conserver des notes, images, liens… et même des fichiers ; et les synchroniser avec tous vos appareils (voire les partager avec des ami⋅e⋅s).';
+
 
 $k = 'bag'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framabag.org';
@@ -416,7 +472,7 @@ $s[$k]['pt'] = 'Framadrive vous permet de stocker vos documents en ligne,
                 et de les partager avec qui vous voulez.';
 
 $k = 'git'; $s[$k]['c'] = $c;
-$s[$k]['l']  = 'https://git.framasoft.org';
+$s[$k]['l']  = 'https://framagit.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">git</b>';
 $s[$k]['d']  = 'Coder';
 $s[$k]['i']  = 'fa-git';
@@ -424,6 +480,19 @@ $s[$k]['pd'] = 'Héberger du code libre';
 $s[$k]['pt'] = 'Framagit est un outil qui s’adresse avant tout aux développeurs.
                 Il permet d’héberger vos projets de logiciels libres et
                 de travailler collaborativement dessus.';
+
+$k = 'my'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://my.framasoft.org';
+$s[$k]['t']  = '<b class="violet">My</b><b class="'.$c.'">Frama</b>';
+$s[$k]['d']  = '<span class="sr-only">Stocker</span>';
+$s[$k]['i']  = 'fa-star';
+$s[$k]['pd'] = 'Marque-pages';
+$s[$k]['pt'] = 'MyFrama est un petit fourre-tout numérique, qui vous
+                permet de conserver et retrouver les liens que vous aimez
+                à la manière de del.ico.us ! Avec un système d´étiquettes
+                et de tri automatique, vous pouvez ranger aisément vos
+                onglets et marque-pages, et utiliser le bouton MyFrama
+                pour retrouver les services Framasoft que vous utilisez !';
 
 $c ='jaune';
 $k = 'agora'; $s[$k]['c'] = $c;

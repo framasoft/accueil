@@ -294,19 +294,29 @@
                     <div class="col-md-6 miniBloc2">
                         '; break;
 
-                    // Nlle ligne Framadate
-                    case 'date' : echo '
+                    // Nlle ligne Framaforms
+                    case 'forms' : echo '
                     </div>
                 </div>
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-3 miniBloc">
                         '; break;
-
-                    // Nlle ligne Framabee + Stallmanix
-                    case 'bee': echo '
+                    // Nlle ligne Framindmap
+                    case 'mindmap' : echo '
                     </div>
                 </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3 miniBloc">
+                        '; break;
+                    // Nlle ligne Framabee + Stallmanix
+                    case 'bee': echo '
+                    <div class="col-md-6 miniBloc">
+                        <a href="'.$l['DIo'].'"><img src="'.$l['dioFight'].'" alt="" class="img-responsive"/></a>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-12">
                 <div class="row">
                     <div class="col-md-6 miniBloc">
@@ -324,6 +334,14 @@
                     <div class="col-md-3 miniBloc">
                         '; break;
 
+                    // Nlle ligne Framavox
+                    case 'vox' : echo '
+                    </div>
+                </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-3 miniBloc">
+                        '; break;
                     // Nlle ligne Framabag + Aaron
                     case 'bag' : echo '
                 </div>
@@ -352,6 +370,11 @@
                     <div class="col-md-3 miniBloc">
                         '; break;
 
+                    // MyFrama
+                    case 'my' : echo '
+                    <div class="col-md-6 miniBloc2">
+                        '; break;
+
                     // Par défaut ligne 4 blocs
                     default : echo '
                     <div class="col-md-3 miniBloc">
@@ -368,9 +391,7 @@
                     ';
             }
         }?>
-                    <div class="col-md-6 miniBloc">
-                        <a href="<?php echo $l['DIo'] ?>"><img src="<?php echo $l['dioFight'] ?>" alt="" class="img-responsive"/></a>
-                    </div>
+
 
                 </div>
             </div>
