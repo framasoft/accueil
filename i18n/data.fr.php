@@ -526,34 +526,46 @@ $t['carousel']['pause'] = 'Pause';
 $t['carousel']['prev']  = 'Diapo précédente';
 $t['carousel']['next']  = 'Diapo suivante';
 
-$t['slide'][0]['l'] = 'https://framablog.org/2016/09/09/framemo-un-tableau-pour-vos-tempetes-de-cerveaux/';
-$t['slide'][0]['i'] = $dir.'img/slide-framemo.jpg';
-$t['slide'][0]['d'] = 'Sortie de '.$s['memo']['t'].'. Un tableau pour vos tempêtes de cerveaux.';
+$t['slide'][0]['l'] = 'https://framablog.org/2016/10/03/degooglisons-saison-3-30-services-alternatifs-aux-produits-de-google-co/';
+$t['slide'][0]['i'] = $dir.'img/slide-degooglisons-internet.png';
+$t['slide'][0]['d'] = '<b class="violet">Dégooglisons</b> <b class="orange">Internet</b> saison 3 : six nouveaux services.';
 
-$t['slide'][1]['l'] = 'https://framablog.org/2016/09/01/framinetest-edu-laissez-microsoft-hors-de-portee-de-nos-enfants/
-';
-$t['slide'][1]['i'] = $dir.'img/slide-framinetest.jpg';
-$t['slide'][1]['d'] = $t['meta']['F'].' sort un serveur Minetest en alternative à Minecraft éducation.<br>
+$t['slide'][1]['l'] = 'https://framablog.org/2016/10/03/framalistes-vos-groups-nont-plus-a-appartenir-a-google/';
+$t['slide'][1]['i'] = $dir.'img/slide-framalistes.jpg';
+$t['slide'][1]['d'] = $s['listes']['t'].' : n’offrez plus vos Groups (d’email) à Google !';
+
+$t['slide'][2]['l'] = 'https://framablog.org/2016/10/04/framanotes-vos-notes-vous-appartiennent-for-ever/';
+$t['slide'][2]['i'] = $dir.'img/slide-framanotes.jpg';
+$t['slide'][2]['d'] = $s['notes']['t'].' : quittez Evernote pour plus de liberté et de chiffrement !';
+
+$t['slide'][3]['l'] = 'https://framablog.org/2016/10/05/framaforms-noffrez-plus-les-reponses-que-vous-collectez-a-google/';
+$t['slide'][3]['i'] = $dir.'img/slide-framaforms.jpg';
+$t['slide'][3]['d'] = $s['forms']['t'].' : vos formulaires hors de portée de Google.';
+
+$t['slide'][4]['l'] = 'https://framablog.org/2016/10/06/framatalk-semez-la-discord-sur-skype-et-cie/';
+$t['slide'][4]['i'] = $dir.'img/slide-framatalk.jpg';
+$t['slide'][4]['d'] = $s['talk']['t'].' : un « Skype » sans installation… et sans flicage ;)';
+
+$t['slide'][5]['l'] = 'https://framablog.org/2016/10/07/framagenda-ne-partagez-plus-votre-planning-ni-vos-contacts-avec-la-nsa/';
+$t['slide'][5]['i'] = $dir.'img/slide-framagenda.jpg';
+$t['slide'][5]['d'] = $s['agenda']['t'].' : vos rendez-vous et contacts vous appartiennent.';
+
+$t['slide'][6]['l'] = 'https://framablog.org/2016/10/10/myframa-vos-favoris-et-framasofteries-partout-avec-vous-rien-qua-vous/';
+$t['slide'][6]['i'] = $dir.'img/slide-myframa.jpg';
+$t['slide'][6]['d'] = $s['my']['t'].' : retrouvez aisément vos favoris… et vos services '.strip_tags($t['meta']['F'], '<b>');
+
+$t['slide'][7]['l'] = 'https://framablog.org/2016/10/12/naissance-du-collectif-chatons/';
+$t['slide'][7]['i'] = $dir.'img/slide-chatons.jpg';
+$t['slide'][7]['d'] = 'Naissance des CHATONS, Collectif des Hébergeurs Alternatifs<br>Transparents, Ouverts, Neutres et Solidaires';
+
+$t['slide'][8]['l'] = 'https://framablog.org/2016/09/09/framemo-un-tableau-pour-vos-tempetes-de-cerveaux/';
+$t['slide'][8]['i'] = $dir.'img/slide-framemo.jpg';
+$t['slide'][8]['d'] = 'Sortie de '.$s['memo']['t'].'. Un tableau pour vos tempêtes de cerveaux.';
+
+$t['slide'][9]['l'] = 'https://framablog.org/2016/09/01/framinetest-edu-laissez-microsoft-hors-de-portee-de-nos-enfants/';
+$t['slide'][9]['i'] = $dir.'img/slide-framinetest.jpg';
+$t['slide'][9]['d'] = strip_tags($t['meta']['F'], '<b>').' sort un serveur Minetest en alternative à Minecraft éducation.<br>
                       Laissons Microsoft hors de portée de nos enfants.';
-
-$t['slide'][2]['l'] = 'http://framabook.org/logiciels-et-objets-libres/';
-$t['slide'][2]['i'] = $dir.'img/slide-book-lol.jpg';
-$t['slide'][2]['d'] = 'Sortie chez '.$s['book']['t'].' de <cite>Logiciels et objets libres</cite>,<br>
-                       un guide de l’Inria pour l’animation des communautés autour d’un projet ouvert ';
-
-$t['slide'][3]['l'] = 'https://framavox.org';
-$t['slide'][3]['i'] = $dir.'img/slide-framavox.jpg';
-$t['slide'][3]['d'] = 'Sortie de '.$s['vox']['t'].'. Discutez, décidez et faites entendre votre voix.';
-
-$t['slide'][4]['l'] = 'http://framabook.org/grise-bouille-tome-1/';
-$t['slide'][4]['i'] = $dir.'img/slide-book-grisebouille1.jpg';
-$t['slide'][4]['d'] = $s['book']['t'].' présente <cite>Grise Bouille</cite>, un recueil de planches BD<br>
-                      mêlant humour absurde, vulgarisation scientifique et satire politique.';
-
-$t['slide'][5]['l'] = 'https://framateam.org';
-$t['slide'][5]['i'] = $dir.'img/slide-framateam.jpg';
-$t['slide'][5]['d'] = 'Sortie de '.$s['team']['t'].'. Discutez avec votre équipe sur un tchat boosté aux stéroïdes.';
-
 
 // Recherche
 $t['_Rechercher']            = 'Rechercher';
