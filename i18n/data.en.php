@@ -51,19 +51,18 @@ $l['GeGe']          = $dir.'img/GeGeGenerator.jpg';
 
 // Meta
 $t['meta']['lang']      = 'en';
-$t['meta']['title']     = 'Framasoft ~ Page portail du réseau';
+$t['meta']['title']     = 'Framasoft ~ Portal Homepage';
 $t['meta']['framasoft'] = 'Framasoft';
 $t['meta']['F']         = '<a href="'.$l['F'].'"><b class="violet">Frama</b><b class="orange">soft</b></a>';
-$t['meta']['slogan']    = 'La route est longue mais la voie est libre…';
-$t['meta']['desc']      = 'Association française de loi 1901, issue du monde éducatif, Framasoft est un réseau
-                           d’éducation populaire consacré principalement au logiciel libre.
-                           Le réseau s’organise en trois axes sur un mode collaboratif :
-                           promotion, diffusion et développement de logiciels libres, enrichissement de la culture libre.
-                           Il offre également des services libres en ligne.
-                           La page portail du réseau présente l’ensemble des activités de Framasoft et
-                           propose des liens vers les différents sites et activités du réseau.';
-$t['meta']['keywords']  = 'Framasoft, logiciels libres, logiciels libres et open source, culture libre, FOSS, promotion et diffusion des logiciels libres, open source';
-$t['meta']['license']   = 'Creative Commons-By-SA sauf mention contraire';
+$t['meta']['slogan']    = 'There is a long way to go, but the road is Free…';
+$t['meta']['desc']      = 'A French non-profit (Association française de loi 1901), originating from education, Framasoft is a network aiming at popular education, focussing 
+                            mostly on free and open source software. The network is organized following 3 main directions on a collaborative mode :
+                           promotion, diffusion and development of libre software, enhancement of free (as in free speech) culture.
+                           We also provide free online services.
+                           The portal Homepage is introducing the whole range of actions by Framasoft and 
+                           provide links to various sites and projects of the network.';
+$t['meta']['keywords']  = 'Framasoft, libre software, free and open source sofware, free culture, FOSS, FLOSS,  promotion and diffusion of free software, open source';
+$t['meta']['license']   = 'Creative Commons-By-SA except when notified';
 
 $t['salaries']['n'] = '6'; $t['salaries']['t'] = 'six';
 
@@ -73,7 +72,7 @@ $t['evl'] = 'En Vente Libre';
 $c = 'orange';
 $k = 'DIo'; $s[$k]['c'] = $c;
 $s[$k]['l']  = $l['DIo'];
-$s[$k]['t']  = '<b class="violet">Dégooglisons</b> <b class="'.$c.'">Internet</b>';
+$s[$k]['t']  = '<b class="violet">Let’s degooglize</b> <b class="'.$c.'">Internet</b>';
 $s[$k]['d']  = '';
 $s[$k]['i']  = 'fa-shield';
 
@@ -82,64 +81,56 @@ $c = 'bleu';
 $k = 'libre'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'http://framalibre.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">libre</b>';
-$s[$k]['d']  = 'Un annuaire';
+$s[$k]['d']  = 'A Directory';
 $s[$k]['i']  = 'fa-linux';
-$s[$k]['pd'] = 'Le gros annuaire';
-$s[$k]['pt'] = 'Plus de 1600 logiciels classés, testés et commentés dans
-                le projet historique et fondateur de Framasoft.
-                On y trouve également des tutoriels et des articles de fond.';
+$s[$k]['pd'] = 'The big directory';
+$s[$k]['pt'] = 'More than 1600 software, tested, rated and commented by the historical project
+                which has been root to Framasoft.
+                Includes tutorials and comprehensive docs.';
 
 $k = 'key'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framakey.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">key</b>';
-$s[$k]['d']  = 'Une clé USB';
+$s[$k]['d']  = 'A USB device';
 $s[$k]['i']  = 'fa-usb';
-$s[$k]['pd'] = 'Le plein de liberté dans une simple clé';
-$s[$k]['pt'] = 'Dans une clé USB (ou tout autre support mobile) utiliser
-                en mode nomade une centaine de logiciels libres portables
-                pour Windows, tester voire installer une distribution
-                GNU/Linux ou encore avoir accès hors ligne à toute la
-                Wikipédia francophone.';
+$s[$k]['pd'] = 'Full tank of Freedom in a simple device';
+$s[$k]['pt'] = 'With this USB device (or any mobile device) you can use
+                more than a hundred free programs for mobile, for Windows, 
+                test and install a GNU/Linux distro or have offline access to French-speaking Wikipédia.';
 
 $k = 'dvd'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'http://framadvd.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">dvd</b>';
-$s[$k]['d']  = 'Un DVD';
+$s[$k]['d']  = 'A DVD';
 $s[$k]['i']  = 'fa-play-circle-o';
-$s[$k]['pd'] = 'Le plein de liberté dans un DVD';
-$s[$k]['pt'] = 'Un DVD rempli non seulement des meilleurs logiciels
-                libres pour Windows, Mac et GNU/Linux (avec une distribution dedans)
-                mais aussi de la culture libre (textes, photos, audios et vidéos).
-                Existe en une version spéciale école';
+$s[$k]['pd'] = 'Full tank of Freedom in a DVD';
+$s[$k]['pt'] = 'A DVD stuffed with the best free software for Windows, Mac and 
+                GNU/Linux (distro included) but also fre culture (text, photo, audio and video).
+                Also available as a special School Edition';
 
 $k = 'pack'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'http://framapack.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">pack</b>';
-$s[$k]['d']  = 'Un distributeur';
+$s[$k]['d']  = 'A distributor';
 $s[$k]['i']  = 'fa-download';
-$s[$k]['pd'] = 'Distribution massive';
-$s[$k]['pt'] = 'Pratique, sur Framapack on fait son marché des meilleurs
-                logiciels libres Windows dans leur dernière version.<br>
-                On les sélectionne et ils s’installent tous ensemble
-                d’un simple clic !';
+$s[$k]['pd'] = 'Massive install';
+$s[$k]['pt'] = 'Framapack is a handy tool to pick the best free software for Windows last version.<br>
+                You select whatever you want and all programms install all together!';
 
 // Culture
 $c = 'rouge';
 $k = 'blog'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framablog.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">blog</b>';
-$s[$k]['d']  = 'Des infos';
+$s[$k]['d']  = 'Info';
 $s[$k]['i']  = 'fa-pencil';
-$s[$k]['pd'] = 'L’actualité du « Libre »';
-$s[$k]['pt'] = 'Chroniques quotidiennes autour du Libre en général et du
-                logiciel libre en particulier. De riches débats dans les
-                commentaires, de nombreuses traductions originales et
-                les annonces des nouveautés de l’ensemble du réseau Framasoft.';
-
+$s[$k]['pd'] = 'News from « Libre »';
+$s[$k]['pt'] = 'Weekly column on Libre and libre software. Debate, open comments, many translations
+                and announcements about the whole activities of Framasoft network.';
 $k = 'book'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'http://framabook.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">book</b>';
-$s[$k]['d']  = 'Des livres…';
+$s[$k]['d']  = 'Some books…';
 $s[$k]['i']  = 'fa-book';
 $s[$k]['pd'] = 'Le pari du livre libre';
 $s[$k]['pt'] = 'Notre maison d’édition qui comporte une vingtaine de
