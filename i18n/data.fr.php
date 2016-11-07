@@ -262,7 +262,7 @@ $s[$k]['pd'] = 'Gérer des projets';
 $s[$k]['pt'] = 'Framaboard est un gestionnaire collaboratif de tâches
                 et de projets, en suivant la méthode Kanban.
                 Son système visuel permet de s’y retrouver au premier
-                coup d’œil, quelque soit votre habitude à utiliser
+                coup d’œil, quelle que soit votre habitude à utiliser
                 ce genre d’outil.';
 
 $k = 'mindmap'; $s[$k]['c'] = $c;
