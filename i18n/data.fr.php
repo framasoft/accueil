@@ -701,7 +701,7 @@ $t['pg5']['pres']['h']       = 'Services Libres ?';
 $t['pg5']['pres']['d']       = 'Nom de code : « Framacloud »';
 $t['pg5']['pres']['t1']      = 'Intuitif, sans inscription et à même votre navigateur, un ensemble de services en ligne libres
                                 et respectueux de vos données personnelles. Ces services vous sont proposés dans le cadre de
-                                la notre campagne « '.$s['DIo']['a'].' »';
+                                notre campagne « '.$s['DIo']['a'].' »';
 $t['pg5']['pres']['t2']      = 'Vous pouvez aussi les installer sur votre propre serveur, participant ainsi à décentraliser l’Internet.
                                 Des tutoriels sont là pour vous aider à franchir le pas dans la rubrique
                                 <a href="'.$l['cloud'].'/cultiver-son-jardin">Cultiver son jardin</a>.';
