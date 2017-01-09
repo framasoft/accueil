@@ -704,7 +704,7 @@ $t['pg5']['pres']['t1']      = 'Intuitif, sans inscription et à même votre nav
                                 notre campagne « '.$s['DIo']['a'].' »';
 $t['pg5']['pres']['t2']      = 'Vous pouvez aussi les installer sur votre propre serveur, participant ainsi à décentraliser l’Internet.
                                 Des tutoriels sont là pour vous aider à franchir le pas dans la rubrique
-                                <a href="'.$l['cloud'].'/cultiver-son-jardin">Cultiver son jardin</a>.';
+                                <a href="'.$l['cloud'].'/category/cultiver-son-jardin">Cultiver son jardin</a>.';
 
 // Page 6 Libr’en Vrac
 $t['pg6']['pres']['h']       = 'Les projets transversaux';
