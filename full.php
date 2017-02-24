@@ -312,8 +312,8 @@
                         '; break;
                     // Nlle ligne Framabee + Stallmanix
                     case 'bee': echo '
-                    <div class="col-md-6 miniBloc">
-                        <a href="'.$l['DIo'].'"><img src="'.$l['dioFight'].'" alt="" class="img-responsive"/></a>
+                    <div class="col-md-3 miniBloc">
+                        <a href="'.$l['DIo'].'"><img src="'.$l['dioPinchot'].'" alt="" class="img-responsive"/></a>
                     </div>
                 </div>
             </div>

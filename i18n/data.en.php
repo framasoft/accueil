@@ -47,6 +47,7 @@ $l['dioStallman']   = $dir.'img/stallmanoramix.png';
 $l['dioCarte']      = $dir.'img/carte_petite.png';
 $l['dioVillage']    = $dir.'img/village.png';
 $l['dioFight']      = $dir.'img/fight.png';
+$l['dioPinchot']    = $dir.'img/pinchot_gaulois.png';
 $l['GeGe']          = $dir.'img/GeGeGenerator.jpg';
 
 // Meta
