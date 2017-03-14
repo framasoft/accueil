@@ -266,6 +266,16 @@ $s[$k]['pd'] = 'Vector drawing';
 $s[$k]['pt'] = 'Create and edit pictures easily online using the SVG open format.
                 Kids love this !';
 
+$k = 'maestro'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framaestro.org';
+$s[$k]['t']  = '<b class="violet">Fra</b><b class="'.$c.'">maestro</b>'; 
+$s[$k]['d']  = 'Collaborer';
+$s[$k]['i']  = 'fa-magic'; 
+$s[$k]['pd'] = 'Ochestrez vos projets collaboratifs'; 
+$s[$k]['pt'] = 'Besoin en même temps d’un pad pour prendre des notes,
+                d’un tableau d’organisation, et d’une vidéo-conférence ? 
+                Avec Framaestro, c’est vous qui organisez les outils qu’ils vous faut, sur une seule et unique page web.'; 
+
 $k = 'bee'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framabee.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">bee</b>';
