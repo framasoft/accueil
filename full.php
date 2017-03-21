@@ -44,18 +44,42 @@
                     </ul>
                 </div>
 
-                <div class="row containerActu">
-                    <h3 id="news"><?php echo $t['pg1']['news'] ?></h3>
-                    <?php echo $carousel ?>
-                </div>
-
                 <div class="row" style="margin-top:40px; margin-bottom:20px">
                     <div class="col-xs-10 col-xs-offset-1">
                         <?php echo $search ?>
                     </div>
                 </div>
 
-                <p class="homeAlerte well"><?php echo $t['pg1']['annuaire'] ?></p>
+                <div class="row containerActu">
+                    <h3 id="news"><?php echo $t['pg1']['news'] ?></h3>
+                    <?php echo $carousel ?>
+
+                    <h3><?php echo $t['medias']['presstitle'] ?></h3>
+                    <p><?php echo $t['medias']['pressintro'] ?></p>
+
+                    <div class="col-sm-10 col-sm-offset-1 well">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th><?php echo $t['medias']['pressth1'] ?></th>
+                                    <th><?php echo $t['medias']['pressth2'] ?></th>
+                                    <th><?php echo $t['medias']['pressth3'] ?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <?php foreach ($t['medias']['presslist'] as $v) {
+                                echo '
+                                <tr>
+                                    <td>'.$v[0].'</td>
+                                    <td>'.$v[1].'</td>
+                                    <td><a href="'.$v[2].'">'.$v[3].'</a></td>
+                                </tr>';
+                            }?>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
             </div>
             <div class="col-md-4" id="blocFramatrucs">
             <?php foreach ($t['cat'] as $k => $v) {
@@ -312,9 +336,6 @@
                         '; break;
                     // Nlle ligne Framabee + Stallmanix
                     case 'bee': echo '
-                    <div class="col-md-3 miniBloc">
-                        <a href="'.$l['DIo'].'"><img src="'.$l['dioPinchot'].'" alt="" class="img-responsive"/></a>
-                    </div>
                 </div>
             </div>
             <div class="col-md-12">
@@ -344,6 +365,9 @@
                         '; break;
                     // Nlle ligne Framabag + Aaron
                     case 'bag' : echo '
+                    <div class="col-md-3 miniBloc">
+                        <a href="'.$l['DIo'].'"><img src="'.$l['dioPinchot'].'" alt="" class="img-responsive"/></a>
+                    </div>
                 </div>
             </div>
             <div class="col-md-12">
@@ -435,7 +459,7 @@
         <?php foreach ($s as $k => $v) {
             if ($s[$k]['c'] == 'jaune') {
                 echo '
-            <div class="col-md-6 miniBloc">
+            <div class="col-md-4 miniBloc">
                 <a href="'.$s[$k]['l'].'" ><h4 class="'.$s[$k]['c'].'">'.$s[$k]['t'].'</h4></a>
                 <p class="miniBlocSubTitle '.$s[$k]['i'].'">'.$s[$k]['pd'].'</p>
                 <p class="miniBlocTexte">'.$s[$k]['pt'].'</p>

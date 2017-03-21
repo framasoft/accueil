@@ -56,14 +56,14 @@
                 ';
                 foreach ($s as $j => $u) {
                     if ($s[$j]['c'] == $t['cat'][$k]['c']) {
-                    $fb = ' fb_'.substr($s[$j]['c'],0,1).rand(1,4);
+                    $fb = ' fb_'.str_replace('j5','j6', str_replace('b5', 'b9', substr($s[$j]['c'],0,1).'5'));
                         echo '
                 <li class="col-xs-4 col-sm-3 text-center">
                     <a href="'.$s[$j]['l'].'"
                        data-toggle="popover" data-placement="top" data-container="body"
                        data-content="'.strip_tags($s[$j]['pt']).'"
                        title="'.strip_tags($s[$j]['pd']).'" >
-                        <i class="fa fa-3x fa-fw '.$s[$j]['i'].$fb.' fc_dark"></i>
+                        <i class="fa fa-3x fa-fw '.$s[$j]['i'].$fb.' fc_light"></i>
                         <br/>'.$s[$j]['t'].'
                     </a>
                 </li>';

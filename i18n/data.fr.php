@@ -285,6 +285,16 @@ $s[$k]['pd'] = 'Dessiner en vectoriel';
 $s[$k]['pt'] = 'Pour créer et éditer simplement et rapidement de belles
                 images en ligne au format ouvert SVG. Les enfants adorent !';
 
+$k = 'slides'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framaslides.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">slides</b>';
+$s[$k]['d']  = 'Exposer';
+$s[$k]['i']  = 'fa-pie-chart';
+$s[$k]['pd'] = 'Créer et partager des diaporamas';
+$s[$k]['pt'] = 'Framaslides vous permet de créer directement en ligne un
+                diaporama ou une présentation, d’y accéder avec une
+                simple connexion internet, et de la partager.';
+
 $k = 'maestro'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framaestro.org';
 $s[$k]['t']  = '<b class="violet">Fra</b><b class="'.$c.'">maestro</b>';
@@ -379,7 +389,6 @@ $s[$k]['d']  = 'Noter';
 $s[$k]['i']  = 'fa-sticky-note';
 $s[$k]['pd'] = 'Prise de notes';
 $s[$k]['pt'] = 'Avec Framanotes vous pouvez prendre et conserver des notes, images, liens… et même des fichiers ; et les synchroniser avec tous vos appareils (voire les partager avec des ami⋅e⋅s).';
-
 
 $k = 'bag'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framabag.org';
@@ -482,16 +491,6 @@ $s[$k]['pt'] = 'Framadrive vous permet de stocker vos documents en ligne,
                 de les synchroniser sur vos ordinateurs, mobiles, etc…
                 et de les partager avec qui vous voulez.';
 
-$k = 'git'; $s[$k]['c'] = $c;
-$s[$k]['l']  = 'https://framagit.org';
-$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">git</b>';
-$s[$k]['d']  = 'Coder';
-$s[$k]['i']  = 'fa-git';
-$s[$k]['pd'] = 'Héberger du code libre';
-$s[$k]['pt'] = 'Framagit est un outil qui s’adresse avant tout aux développeurs.
-                Il permet d’héberger vos projets de logiciels libres et
-                de travailler collaborativement dessus.';
-
 $k = 'my'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://my.framasoft.org';
 $s[$k]['t']  = '<b class="violet">My</b><b class="'.$c.'">Frama</b>';
@@ -504,6 +503,16 @@ $s[$k]['pt'] = 'MyFrama est un petit fourre-tout numérique, qui vous
                 et de tri automatique, vous pouvez ranger aisément vos
                 onglets et marque-pages, et utiliser le bouton MyFrama
                 pour retrouver les services Framasoft que vous utilisez !';
+
+$k = 'git'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framagit.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">git</b>';
+$s[$k]['d']  = 'Coder';
+$s[$k]['i']  = 'fa-git';
+$s[$k]['pd'] = 'Héberger du code libre';
+$s[$k]['pt'] = 'Framagit est un outil qui s’adresse avant tout aux développeurs.
+                Il permet d’héberger vos projets de logiciels libres et
+                de travailler collaborativement dessus.';
 
 $c ='jaune';
 $k = 'agora'; $s[$k]['c'] = $c;
@@ -527,6 +536,16 @@ $s[$k]['pt'] = 'L’espace vente des différents produits Framasoft qui
                 peuvent se matérialiser : Framakey, Framabook, Framadvd
                 mais aussi des goodies et des tee-shirts.';
 
+$k = 'docs'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://docs.framasoft.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">docs</b>';
+$s[$k]['d']  = 'Documentations';
+$s[$k]['i']  = 'fa-graduation-cap';
+$s[$k]['pd'] = 'Notre centre de documentation';
+$s[$k]['pt'] = 'Pour tout savoir sur l’utilisation des services en
+                ligne que nous proposons et apprendre à travers nos
+                différents guides comment gagner en autonomie.';
+
 foreach ($s as $k => $v) {
     $s[$k]['a'] = '<a href="'.$s[$k]['l'].'">'.$s[$k]['t'].'</a>';
 }
@@ -537,41 +556,25 @@ $t['carousel']['pause'] = 'Pause';
 $t['carousel']['prev']  = 'Diapo précédente';
 $t['carousel']['next']  = 'Diapo suivante';
 
-$t['slide'][0]['l'] = 'https://framablog.org/2016/10/03/degooglisons-saison-3-30-services-alternatifs-aux-produits-de-google-co/';
-$t['slide'][0]['i'] = $dir.'img/slide-degooglisons-internet.png';
-$t['slide'][0]['d'] = '<b class="violet">Dégooglisons</b> <b class="orange">Internet</b> saison 3 : six nouveaux services.';
+$t['slide'][0]['l'] = 'https://framablog.org/2017/03/21/framalibre-lannuaire-du-libre-renait-entre-vos-mains/';
+$t['slide'][0]['i'] = $dir.'img/slide-framalibre.jpg';
+$t['slide'][0]['d'] = '<b class="violet">Frama</b><b class="bleu">libre</b> : l’annuaire du libre renaît entre vos mains';
+/*
+$t['slide'][1]['l'] = 'https://framablog.org/2017/03/21/framaslides-reprenez-en-main-votre-power-point';
+$t['slide'][1]['i'] = $dir.'img/slide-framaslides.jpg';
+$t['slide'][1]['d'] = 'Sortie de <b class="violet">Frama</b><b class="vert">slides</b> : reprenez en main votre Power, Point !';
+*/
+$t['slide'][2]['l'] = 'https://framablog.org/2017/01/11/framaestro-menez-vos-reunions-et-collaborations-a-la-baguette/';
+$t['slide'][2]['i'] = $dir.'img/slide-framaestro.jpg';
+$t['slide'][2]['d'] = 'Entrée en scène de <b class="violet">Fra</b><b class="vert">maestro</b> : menez vos réunions et collaborations à la baguette !';
 
-$t['slide'][1]['l'] = 'https://framablog.org/2017/01/11/framaestro-menez-vos-reunions-et-collaborations-a-la-baguette/';
-$t['slide'][1]['i'] = $dir.'img/slide-framaestro.jpg';
-$t['slide'][1]['d'] = 'Entrée en scène de <b class="violet">Fra</b><b class="vert">maestro</b> : menez vos réunions et collaborations à la baguette !';
+$t['slide'][3]['l'] = 'https://framablog.org/2016/10/03/degooglisons-saison-3-30-services-alternatifs-aux-produits-de-google-co/';
+$t['slide'][3]['i'] = $dir.'img/slide-degooglisons-internet.png';
+$t['slide'][3]['d'] = '<b class="violet">Dégooglisons</b> <b class="orange">Internet</b> saison 3 : six nouveaux services.';
 
-$t['slide'][2]['l'] = 'https://framablog.org/2016/10/03/framalistes-vos-groups-nont-plus-a-appartenir-a-google/';
-$t['slide'][2]['i'] = $dir.'img/slide-framalistes.jpg';
-$t['slide'][2]['d'] = $s['listes']['t'].' : n’offrez plus vos Groups (d’email) à Google !';
-
-$t['slide'][3]['l'] = 'https://framablog.org/2016/10/04/framanotes-vos-notes-vous-appartiennent-for-ever/';
-$t['slide'][3]['i'] = $dir.'img/slide-framanotes.jpg';
-$t['slide'][3]['d'] = $s['notes']['t'].' : quittez Evernote pour plus de liberté et de chiffrement !';
-
-$t['slide'][4]['l'] = 'https://framablog.org/2016/10/05/framaforms-noffrez-plus-les-reponses-que-vous-collectez-a-google/';
-$t['slide'][4]['i'] = $dir.'img/slide-framaforms.jpg';
-$t['slide'][4]['d'] = $s['forms']['t'].' : vos formulaires hors de portée de Google.';
-
-$t['slide'][5]['l'] = 'https://framablog.org/2016/10/06/framatalk-semez-la-discord-sur-skype-et-cie/';
-$t['slide'][5]['i'] = $dir.'img/slide-framatalk.jpg';
-$t['slide'][5]['d'] = $s['talk']['t'].' : un « Skype » sans installation… et sans flicage ;)';
-
-$t['slide'][6]['l'] = 'https://framablog.org/2016/10/07/framagenda-ne-partagez-plus-votre-planning-ni-vos-contacts-avec-la-nsa/';
-$t['slide'][6]['i'] = $dir.'img/slide-framagenda.jpg';
-$t['slide'][6]['d'] = $s['agenda']['t'].' : vos rendez-vous et contacts vous appartiennent.';
-
-$t['slide'][7]['l'] = 'https://framablog.org/2016/10/10/myframa-vos-favoris-et-framasofteries-partout-avec-vous-rien-qua-vous/';
-$t['slide'][7]['i'] = $dir.'img/slide-myframa.jpg';
-$t['slide'][7]['d'] = $s['my']['t'].' : retrouvez aisément vos favoris… et vos services '.strip_tags($t['meta']['F'], '<b>');
-
-$t['slide'][8]['l'] = 'https://framablog.org/2016/10/12/naissance-du-collectif-chatons/';
-$t['slide'][8]['i'] = $dir.'img/slide-chatons.jpg';
-$t['slide'][8]['d'] = 'Naissance des CHATONS, Collectif des Hébergeurs Alternatifs<br>Transparents, Ouverts, Neutres et Solidaires';
+$t['slide'][4]['l'] = 'https://framablog.org/2016/10/12/naissance-du-collectif-chatons/';
+$t['slide'][4]['i'] = $dir.'img/slide-chatons.jpg';
+$t['slide'][4]['d'] = 'Naissance des CHATONS, Collectif des Hébergeurs Alternatifs<br>Transparents, Ouverts, Neutres et Solidaires';
 
 
 // Recherche
@@ -627,6 +630,50 @@ $t['pg1']['accroche']        = '<li>Un réseau dédié à la promotion du « <s
                                 <li>Une <a href="#'.$t['cat']['communaute']['l'].'">communauté</a> de bénévoles soutenue par une association d’intérêt général.</li>
                                 <li>Une invitation à bâtir ensemble un monde de partage et de coopération.</li>';
 $t['pg1']['news']            = 'Quoi de neuf sur Framasoft ?';
+
+$t['medias']['presstitle']  = 'Revue de presse';
+$t['medias']['pressintro']  = 'On parle de Framasoft et de la campagne « Dégooglisons Internet ». Voici quelques extraits de notre <a href="https://wiki.framasoft.org/speakabout">revue de presse</a>.';
+$t['medias']['pressth1']    = 'Date';
+$t['medias']['pressth2']    = 'Média';
+$t['medias']['pressth3']    = 'Liens';
+$t['medias']['presslist']   = [
+    ['05/02/2017', 'France 24 / Mashable',
+    'http://mashable.france24.com/tech-business/20170204-chatons-collectif-hebergeurs-framasoft?ref=tw_i',
+    'Lien vers l’article'],
+    ['15/12/2016', 'Next Inpact',
+    'http://www.nextinpact.com/news/102539-degooglisons-internet-framasoft-fait-bilan-son-action.htm',
+    'Lien vers l’article'],
+    ['10/12/2016', 'Le Monde',
+    'http://www.lemonde.fr/pixels/article/2016/12/10/framasoft-des-chatons-armes-de-logiciels-libres-pour-contrer-google_5046752_4408996.html?xtmc=framasoft&xtcr=1',
+    'Lien vers l’article'],
+    ['10/12/2016', 'Le Figaro',
+    'http://www.lefigaro.fr/secteur/high-tech/2016/11/30/32001-20161130ARTFIG00001-les-defenseurs-du-logiciel-libre-decourages-par-l-education-nationale.php',
+    'Lien vers l’article'],
+    ['28/11/2016', 'L’Âge de Faire (n°114)',
+    'http://www.lagedefaire-lejournal.fr/geants-net-coupons-cordon/',
+    'Lien vers le sommaire du numéro'],
+    ['05/11/2016', 'France Culture',
+    'https://www.franceculture.fr/emissions/le-numerique-et-nous/surveillance-sur-le-web-comment-retrouver-le-pouvoir-dagir',
+    'Lien vers le podcast'],
+    ['19/10/2016', 'Korben.info',
+    'http://korben.info/framasoft-complete-arsenal-perforer-gafam.html',
+    'Lien vers l’article'],
+    ['03/10/2016', 'Libération',
+    'http://www.liberation.fr/futurs/2016/10/03/framasoft-accelere-la-degooglisation-du-web_1519262',
+    'Lien vers l’article'],
+    ['10/10/2016', 'France Info',
+    'http://www.francetvinfo.fr/replay-radio/nouveau-monde/nouveau-monde-est-il-possible-de-degoogliser-le-web_1854529.html',
+    'Lien vers la page d’écoute'],
+    ['24/05/2015', 'Le Soir (Belgique)',
+    'http://www.lesoir.be/886985/article/economie/vie-du-net/2015-05-23/google-vivre-sans-c-est-parfois-possible',
+    'Lien vers l’article (abonnés)'],
+    ['29/04/2015', 'Canal + (La Nouvelle Édition)',
+    'http://www.canalplus.fr/c-emissions/c-la-nouvelle-edition/pid6850-la-nouvelle-edition.html?vid=1249359',
+    'Lien vers la vidéo'],
+    ['03/02/2015', 'L’Humanité',
+    'http://www.humanite.fr/logiciel-libre-et-ess-une-economie-lintention-de-tous-564379',
+    'Lien vers l’article']
+];
 
 $t['pg1']['annuaire']        = 'Vous cherchez l’annuaire de logiciels libres ? <a href="'.$s['libre']['l'].'">C’est par ici !</a>';
 
