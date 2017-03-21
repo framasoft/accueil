@@ -266,15 +266,25 @@ $s[$k]['pd'] = 'Vector drawing';
 $s[$k]['pt'] = 'Create and edit pictures easily online using the SVG open format.
                 Kids love this !';
 
+$k = 'slides'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framaslides.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">slides</b>';
+$s[$k]['d']  = 'Exposer';
+$s[$k]['i']  = 'fa-pie-chart';
+$s[$k]['pd'] = 'Créer et partager des diaporamas';
+$s[$k]['pt'] = 'Framaslides vous permet de créer directement en ligne un
+                diaporama ou une présentation, d’y accéder avec une
+                simple connexion internet, et de la partager.';
+
 $k = 'maestro'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framaestro.org';
-$s[$k]['t']  = '<b class="violet">Fra</b><b class="'.$c.'">maestro</b>'; 
+$s[$k]['t']  = '<b class="violet">Fra</b><b class="'.$c.'">maestro</b>';
 $s[$k]['d']  = 'Collaborer';
-$s[$k]['i']  = 'fa-magic'; 
-$s[$k]['pd'] = 'Ochestrez vos projets collaboratifs'; 
+$s[$k]['i']  = 'fa-magic';
+$s[$k]['pd'] = 'Ochestrez vos projets collaboratifs';
 $s[$k]['pt'] = 'Besoin en même temps d’un pad pour prendre des notes,
-                d’un tableau d’organisation, et d’une vidéo-conférence ? 
-                Avec Framaestro, c’est vous qui organisez les outils qu’ils vous faut, sur une seule et unique page web.'; 
+                d’un tableau d’organisation, et d’une vidéo-conférence ?
+                Avec Framaestro, c’est vous qui organisez les outils qu’ils vous faut, sur une seule et unique page web.';
 
 $k = 'bee'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framabee.org';
@@ -449,15 +459,6 @@ $s[$k]['pd'] = 'Online storage';
 $s[$k]['pt'] = 'Framadrive allows you to store your files online, synchronize them
                 between your PCs, mobile devices... and share them with whomever you want.';
 
-$k = 'git'; $s[$k]['c'] = $c;
-$s[$k]['l']  = 'https://framagit.org';
-$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">git</b>';
-$s[$k]['d']  = 'Code';
-$s[$k]['i']  = 'fa-git';
-$s[$k]['pd'] = 'Host free code';
-$s[$k]['pt'] = 'Framagit is a tool for developers. It can host your open source
-                software projects and allows to work on it in a collaborative way.';
-
 $k = 'my'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://my.framasoft.org';
 $s[$k]['t']  = '<b class="violet">My</b><b class="'.$c.'">Frama</b>';
@@ -470,6 +471,15 @@ $s[$k]['pt'] = 'MyFrama est un petit fourre-tout numérique, qui vous
                 et de tri automatique, vous pouvez ranger aisément vos
                 onglets et marque-pages, et utiliser le bouton MyFrama
                 pour retrouver les services Framasoft que vous utilisez !';
+
+$k = 'git'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framagit.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">git</b>';
+$s[$k]['d']  = 'Code';
+$s[$k]['i']  = 'fa-git';
+$s[$k]['pd'] = 'Host free code';
+$s[$k]['pt'] = 'Framagit is a tool for developers. It can host your open source
+                software projects and allows to work on it in a collaborative way.';
 
 $c ='jaune';
 $k = 'agora'; $s[$k]['c'] = $c;
@@ -490,6 +500,16 @@ $s[$k]['i']  = 'fa-shopping-cart';
 $s[$k]['pd'] = 'Our free litle shop';
 $s[$k]['pt'] = 'The marketplace for physical Framasoft products: Framakey,
                 Framabook, Framadvd but also goodies and t-shirts.';
+
+$k = 'docs'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://docs.framasoft.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">docs</b>';
+$s[$k]['d']  = 'Documentations';
+$s[$k]['i']  = 'fa-book';
+$s[$k]['pd'] = 'Notre centre de documentation';
+$s[$k]['pt'] = 'Pour tout savoir sur l’utilisation des services en
+                ligne que nous proposons et apprendre à travers nos
+                différents guides comment gagner en autonomie.';
 
 foreach ($s as $k => $v) {
     $s[$k]['a'] = '<a href="'.$s[$k]['l'].'">'.$s[$k]['t'].'</a>';
@@ -595,6 +615,23 @@ $t['pg1']['accroche']        = '<li>A network dedicated to globally promoting "<
                                 <li>A <a href="#'.$t['cat']['communaute']['l'].'">community</a> of volunteers supported by an association of public interest.</li>
                                 <li>An invitation to build together a world of sharing and cooperation.</li>';
 $t['pg1']['news']            = 'What\'s up on Framasoft ?';
+
+$t['medias']['presstitle']  = 'Press Release';
+$t['medias']['pressintro']  = 'Framasoft and the “De-google-ify Internet” campaign received some attention. Here are some extracts from our <a href="https://wiki.framasoft.org/speakabout">Press release</a>.';
+$t['medias']['pressth1']    = 'Date';
+$t['medias']['pressth2']    = 'Media';
+$t['medias']['pressth3']    = 'Link';
+$t['medias']['presslist']   = [
+    ['26/02/2017', 'Konrad Lishka',
+    'https://www.konradlischka.info/2017/02/blog/how-a-french-association-with-6-employees-offers-mainstream-users-free-and-libre-alternatives-to-facebook-groups-slack-skype-and-the-like/'
+    'Link to the article'],
+    ['24/08/2016', 'Opensource.com',
+    'https://opensource.com/business/16/8/open-source-alternatives-office-365',
+    'Link to the article'],
+    ['17/10/2016', 'Worldcrunch',
+    'http://www.worldcrunch.com/tech-science/the-open-source-group-trying-to-quotde-googlequot-the-internet',
+    'Link to the article'],
+];
 
 $t['pg1']['annuaire']        = 'Are you looking for the free software directory ? <a href="'.$s['libre']['l'].'">It\'s this way !</a>';
 
