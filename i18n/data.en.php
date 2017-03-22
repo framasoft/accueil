@@ -623,7 +623,7 @@ $t['medias']['pressth2']    = 'Media';
 $t['medias']['pressth3']    = 'Link';
 $t['medias']['presslist']   = [
     ['26/02/2017', 'Konrad Lishka',
-    'https://www.konradlischka.info/2017/02/blog/how-a-french-association-with-6-employees-offers-mainstream-users-free-and-libre-alternatives-to-facebook-groups-slack-skype-and-the-like/'
+    'https://www.konradlischka.info/2017/02/blog/how-a-french-association-with-6-employees-offers-mainstream-users-free-and-libre-alternatives-to-facebook-groups-slack-skype-and-the-like/',
     'Link to the article'],
     ['24/08/2016', 'Opensource.com',
     'https://opensource.com/business/16/8/open-source-alternatives-office-365',
