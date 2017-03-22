@@ -559,11 +559,11 @@ $t['carousel']['next']  = 'Diapo suivante';
 $t['slide'][0]['l'] = 'https://framablog.org/2017/03/21/framalibre-lannuaire-du-libre-renait-entre-vos-mains/';
 $t['slide'][0]['i'] = $dir.'img/slide-framalibre.jpg';
 $t['slide'][0]['d'] = '<b class="violet">Frama</b><b class="bleu">libre</b> : l’annuaire du libre renaît entre vos mains';
-/*
-$t['slide'][1]['l'] = 'https://framablog.org/2017/03/21/framaslides-reprenez-en-main-votre-power-point';
+
+$t['slide'][1]['l'] = 'https://framablog.org/2017/03/22/framaslides-reprenez-en-main-votre-power-point';
 $t['slide'][1]['i'] = $dir.'img/slide-framaslides.jpg';
 $t['slide'][1]['d'] = 'Sortie de <b class="violet">Frama</b><b class="vert">slides</b> : reprenez en main votre Power, Point !';
-*/
+
 $t['slide'][2]['l'] = 'https://framablog.org/2017/01/11/framaestro-menez-vos-reunions-et-collaborations-a-la-baguette/';
 $t['slide'][2]['i'] = $dir.'img/slide-framaestro.jpg';
 $t['slide'][2]['d'] = 'Entrée en scène de <b class="violet">Fra</b><b class="vert">maestro</b> : menez vos réunions et collaborations à la baguette !';
