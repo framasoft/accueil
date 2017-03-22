@@ -57,7 +57,7 @@
                     <h3><?php echo $t['medias']['presstitle'] ?></h3>
                     <p><?php echo $t['medias']['pressintro'] ?></p>
 
-                    <div class="col-sm-10 col-sm-offset-1 well">
+                    <div class="well">
                         <table class="table">
                             <thead>
                                 <tr>
