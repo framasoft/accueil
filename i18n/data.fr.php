@@ -537,7 +537,7 @@ $s[$k]['pt'] = 'L’espace vente des différents produits Framasoft qui
                 mais aussi des goodies et des tee-shirts.';
 
 $k = 'docs'; $s[$k]['c'] = $c;
-$s[$k]['l']  = 'https://docs.framasoft.org';
+$s[$k]['l']  = 'https://docs.framasoft.org/fr/';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">docs</b>';
 $s[$k]['d']  = 'Documentations';
 $s[$k]['i']  = 'fa-graduation-cap';

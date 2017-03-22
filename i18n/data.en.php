@@ -502,7 +502,7 @@ $s[$k]['pt'] = 'The marketplace for physical Framasoft products: Framakey,
                 Framabook, Framadvd but also goodies and t-shirts.';
 
 $k = 'docs'; $s[$k]['c'] = $c;
-$s[$k]['l']  = 'https://docs.framasoft.org';
+$s[$k]['l']  = 'https://docs.framasoft.org/en/';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">docs</b>';
 $s[$k]['d']  = 'Documentations';
 $s[$k]['i']  = 'fa-book';
