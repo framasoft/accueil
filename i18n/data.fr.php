@@ -303,7 +303,7 @@ $s[$k]['i']  = 'fa-magic';
 $s[$k]['pd'] = 'Ochestrez vos projets collaboratifs';
 $s[$k]['pt'] = 'Besoin en même temps d’un pad pour prendre des notes,
                 d’un tableau d’organisation, et d’une vidéo-conférence ?
-                Avec Framaestro, c’est vous qui organisez les outils qu’ils vous faut, sur une seule et unique page web.';
+                Avec Framaestro, c’est vous qui organisez les outils qu’il vous faut, sur une seule et unique page web.';
 
 $k = 'bee'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framabee.org';
