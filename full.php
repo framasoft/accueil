@@ -355,8 +355,8 @@
                     <div class="col-md-3 miniBloc">
                         '; break;
 
-                    // Nlle ligne Framavox
-                    case 'vox' : echo '
+                    // Nlle ligne Framatalk
+                    case 'talk' : echo '
                     </div>
                 </div>
             <div class="col-md-12">
@@ -365,9 +365,6 @@
                         '; break;
                     // Nlle ligne Framabag + Aaron
                     case 'bag' : echo '
-                    <div class="col-md-3 miniBloc">
-                        <a href="'.$l['DIo'].'"><img src="'.$l['dioPinchot'].'" alt="" class="img-responsive"/></a>
-                    </div>
                 </div>
             </div>
             <div class="col-md-12">

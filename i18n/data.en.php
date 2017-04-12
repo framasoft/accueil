@@ -308,6 +308,17 @@ $s[$k]['pt'] = 'Framasphere is  a free social network based on the decentralised
                 Diaspora software. Find your friends on Framasphere – or other Diaspora pods –
                 and discuss with them without being tracked.';
 
+$k = 'piaf'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framapiaf.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">piaf</b>';
+$s[$k]['d']  = '<span class="sr-only">Networking</span>';
+$s[$k]['i']  = 'fa-retweet';
+$s[$k]['pd'] = 'Réseau social en 500 caractères';
+$s[$k]['pt'] = 'Framapiaf est un service libre de <b>microblogging</b>,
+                basé sur le logiciel décentralisé Mastodon.
+                Retrouvez vos amis sur Framapiaf - ou d’autres instances
+                Mastodon, GNU Social, Friendica - et échangez avec eux sans être pisté.';
+
 $k = 'team'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framateam.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">team</b>';

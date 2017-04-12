@@ -330,6 +330,17 @@ $s[$k]['pt'] = 'Framasphère est un réseau social libre, basé sur le
                 Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* -
                 et échangez avec eux sans être pisté.';
 
+$k = 'piaf'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framapiaf.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">piaf</b>';
+$s[$k]['d']  = '<span class="sr-only">Réseauter</span>';
+$s[$k]['i']  = 'fa-retweet';
+$s[$k]['pd'] = 'Réseau social en 500 caractères';
+$s[$k]['pt'] = 'Framapiaf est un service libre de <b>microblogging</b>,
+                basé sur le logiciel décentralisé Mastodon.
+                Retrouvez vos amis sur Framapiaf - ou d’autres instances
+                Mastodon, GNU Social, Friendica - et échangez avec eux sans être pisté.';
+
 $k = 'team'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framateam.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">team</b>';
@@ -556,25 +567,30 @@ $t['carousel']['pause'] = 'Pause';
 $t['carousel']['prev']  = 'Diapo précédente';
 $t['carousel']['next']  = 'Diapo suivante';
 
-$t['slide'][0]['l'] = 'https://framablog.org/2017/03/21/framalibre-lannuaire-du-libre-renait-entre-vos-mains/';
-$t['slide'][0]['i'] = $dir.'img/slide-framalibre.jpg';
-$t['slide'][0]['d'] = '<b class="violet">Frama</b><b class="bleu">libre</b> : l’annuaire du libre renaît entre vos mains';
+$t['slide'][0]['l'] = 'https://framablog.org/2017/04/12/plus-de-chatons-plus-de-confiance-en-mastodon/';
+$t['slide'][0]['i'] = $dir.'img/slide-framapiaf.jpg';
+$t['slide'][0]['d'] = '<b class="violet">Frama</b><b class="orange">soft</b> ouvre son instance Mastodon,<br>
+                      l’alternative libre à Twitter : <b class="violet">Frama</b><b class="vert">piaf</b>';
 
-$t['slide'][1]['l'] = 'https://framablog.org/2017/03/22/framaslides-reprenez-en-main-votre-power-point';
-$t['slide'][1]['i'] = $dir.'img/slide-framaslides.jpg';
-$t['slide'][1]['d'] = 'Sortie de <b class="violet">Frama</b><b class="vert">slides</b> : reprenez en main votre Power, Point !';
+$t['slide'][1]['l'] = 'https://framablog.org/2017/03/21/framalibre-lannuaire-du-libre-renait-entre-vos-mains/';
+$t['slide'][1]['i'] = $dir.'img/slide-framalibre.jpg';
+$t['slide'][1]['d'] = '<b class="violet">Frama</b><b class="bleu">libre</b> : l’annuaire du libre renaît entre vos mains';
 
-$t['slide'][2]['l'] = 'https://framablog.org/2017/01/11/framaestro-menez-vos-reunions-et-collaborations-a-la-baguette/';
-$t['slide'][2]['i'] = $dir.'img/slide-framaestro.jpg';
-$t['slide'][2]['d'] = 'Entrée en scène de <b class="violet">Fra</b><b class="vert">maestro</b> : menez vos réunions et collaborations à la baguette !';
+$t['slide'][2]['l'] = 'https://framablog.org/2017/03/22/framaslides-reprenez-en-main-votre-power-point';
+$t['slide'][2]['i'] = $dir.'img/slide-framaslides.jpg';
+$t['slide'][2]['d'] = 'Sortie de <b class="violet">Frama</b><b class="vert">slides</b> : reprenez en main votre Power, Point !';
 
-$t['slide'][3]['l'] = 'https://framablog.org/2016/10/03/degooglisons-saison-3-30-services-alternatifs-aux-produits-de-google-co/';
-$t['slide'][3]['i'] = $dir.'img/slide-degooglisons-internet.png';
-$t['slide'][3]['d'] = '<b class="violet">Dégooglisons</b> <b class="orange">Internet</b> saison 3 : six nouveaux services.';
+$t['slide'][3]['l'] = 'https://framablog.org/2017/03/23/internet-pour-les-quarks/';
+$t['slide'][3]['i'] = $dir.'img/slide-framabook-libnum.jpg';
+$t['slide'][3]['d'] = '<b class="violet">Frama</b><b class="rouge">book</b> publie <em>Libertés numériques</em>, un guide de survie pour vos vies numériques';
 
-$t['slide'][4]['l'] = 'https://framablog.org/2016/10/12/naissance-du-collectif-chatons/';
-$t['slide'][4]['i'] = $dir.'img/slide-chatons.jpg';
-$t['slide'][4]['d'] = 'Naissance des CHATONS, Collectif des Hébergeurs Alternatifs<br>Transparents, Ouverts, Neutres et Solidaires';
+$t['slide'][4]['l'] = 'https://framablog.org/2017/01/11/framaestro-menez-vos-reunions-et-collaborations-a-la-baguette/';
+$t['slide'][4]['i'] = $dir.'img/slide-framaestro.jpg';
+$t['slide'][4]['d'] = 'Entrée en scène de <b class="violet">Fra</b><b class="vert">maestro</b> : menez vos réunions et collaborations à la baguette !';
+
+$t['slide'][5]['l'] = 'https://framablog.org/2016/10/12/naissance-du-collectif-chatons/';
+$t['slide'][5]['i'] = $dir.'img/slide-chatons.jpg';
+$t['slide'][5]['d'] = 'Naissance des CHATONS, Collectif des Hébergeurs Alternatifs<br>Transparents, Ouverts, Neutres et Solidaires';
 
 
 // Recherche
