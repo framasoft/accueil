@@ -579,7 +579,7 @@ $t['_sur Framasoft']         = 'on Framasoft\'s websites';
 $t['_sur le web']            = 'on the web';
 
 // Navigation interne
-$t['inav']['lite']           = 'Quick acess';
+$t['inav']['lite']           = 'Quick access';
 $t['inav']['full']           = 'Classic home';
 $t['_Select the language']   = 'Select the language';
 $t['_Change the language']   = 'Change the language';
