@@ -657,7 +657,7 @@ $t['pg2']['asso']['h']       = 'An association';
 $t['pg2']['asso']['d']       = 'A bit of cathedrale';
 $t['pg2']['asso']['t']       = 'Framasoft is based on a law 1901 association (non-profit voluntary association).
                                 Up to her to smooth out any rough edges and to ensure that the community can emulate in good conditions.
-                                There is  '.$t['salaries']['t'].' permanents and it\'s mostly financed by individual donation
+                                There are '.$t['salaries']['t'].' permanents and it\'s mostly financed by individual donation
                                 collected on Internet. You can be a member too,
                                 but careful, it is more a vocation than a sinecure !';
 
@@ -670,8 +670,8 @@ $t['pg2']['participer']['t'] = 'Test, write, moderate, administrate, translate, 
 
 $t['pg2']['soutenir']['h']   = 'Support us ?';
 $t['pg2']['soutenir']['d']   = 'because free is not free like in free beer';
-$t['pg2']['soutenir']['t']   = 'Framasoft will be nothing without  his volunteer\'s community, but cannot run on without
-                                the assistance of the association which have costs and employ vital employees. '.$t['salaries']['t'].'
+$t['pg2']['soutenir']['t']   = 'Framasoft will be nothing without his volunteer\'s community, but cannot run on without
+                                the assistance of the association which have costs and employ '.$t['salaries']['t'].' vital employees.
                                 Our funding relies on you, which means every individual donation.
                                 <a href="'.$l['S'].'">If you think we deserve it…</a>';
 
