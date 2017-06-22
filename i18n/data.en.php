@@ -57,7 +57,7 @@ $t['meta']['framasoft'] = 'Framasoft';
 $t['meta']['F']         = '<a href="'.$l['F'].'"><b class="violet">Frama</b><b class="orange">soft</b></a>';
 $t['meta']['slogan']    = 'There is a long way to go, but the road is Free…';
 $t['meta']['desc']      = 'A French non-profit (Association française de loi 1901), originating from education, Framasoft is a network aiming at popular education, focussing
-                            mostly on free and open source software. The network is organized following 3 main directions on a collaborative mode :
+                            mostly on free and open source software. The network is organized following 3 main directions on a collaborative mode:
                            promotion, diffusion and development of libre software, enhancement of free (as in free speech) culture.
                            We also provide free online services.
                            The portal Homepage is introducing the whole range of actions by Framasoft and
@@ -116,7 +116,7 @@ $s[$k]['d']  = 'A distributor';
 $s[$k]['i']  = 'fa-download';
 $s[$k]['pd'] = 'Massive install';
 $s[$k]['pt'] = 'Framapack is a handy tool to pick the best free software for Windows last version.<br>
-                You select whatever you want and all programms install all together!';
+                You select those you want and all the programs are installed in a single convenient step!';
 
 // Culture
 $c = 'rouge';
@@ -158,7 +158,7 @@ $s[$k]['pd'] = 'Collaborative translation';
 $s[$k]['pt'] = 'Translate together, mainly from English to
                 French, with a sense of community and leveraging the
                 power of the Internet and good will of its inhabitants.
-                It can consist in articles, subtitles or even entire books !';
+                It can consist in articles, subtitles or even entire books!';
 
 $k = 'tube'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framatube.org';
@@ -192,7 +192,7 @@ $s[$k]['i']  = 'fa-align-left';
 $s[$k]['pd'] = 'Edit together';
 $s[$k]['pt'] = 'Let\'s all write together on the same document
                 in a collaborative online editing interface.No registration
-                required, pick a username, a color and let\'s go !';
+                required, pick a username, a color and let\'s go!';
 
 $k = 'calc'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framacalc.org';
@@ -264,7 +264,7 @@ $s[$k]['d']  = 'Drawing';
 $s[$k]['i']  = 'fa-paint-brush';
 $s[$k]['pd'] = 'Vector drawing';
 $s[$k]['pt'] = 'Create and edit pictures easily online using the SVG open format.
-                Kids love this !';
+                Kids love this!';
 
 $k = 'slides'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framaslides.org';
@@ -534,7 +534,7 @@ $t['carousel']['next']  = 'Next slide';
 
 $t['slide'][0]['l'] = 'https://framablog.org/2016/10/03/degooglisons-saison-3-30-services-alternatifs-aux-produits-de-google-co/';
 $t['slide'][0]['i'] = $dir.'img/slide-degooglisons-internet.png';
-$t['slide'][0]['d'] = '<b class="violet">De-google-ify</b> <b class="orange">Internet</b> season 3 : six new services.';
+$t['slide'][0]['d'] = '<b class="violet">De-google-ify</b> <b class="orange">Internet</b> season 3: six new services.';
 
 $t['slide'][1]['l'] = 'https://framablog.org/2016/10/03/framalistes-vos-groups-nont-plus-a-appartenir-a-google/';
 $t['slide'][1]['i'] = $dir.'img/slide-framalistes.jpg';
@@ -625,7 +625,7 @@ $t['pg1']['accroche']        = '<li>A network dedicated to globally promoting "<
                                 <li>Many services and innovative projects freely put at the disposal of the general public.</li>
                                 <li>A <a href="#'.$t['cat']['communaute']['l'].'">community</a> of volunteers supported by an association of public interest.</li>
                                 <li>An invitation to build together a world of sharing and cooperation.</li>';
-$t['pg1']['news']            = 'What\'s up on Framasoft ?';
+$t['pg1']['news']            = 'What\'s up on Framasoft?';
 
 $t['medias']['presstitle']  = 'Press Release';
 $t['medias']['pressintro']  = 'Framasoft and the “De-google-ify Internet” campaign received some attention. Here are some extracts from our <a href="https://wiki.framasoft.org/speakabout">Press release</a>.';
@@ -644,7 +644,7 @@ $t['medias']['presslist']   = [
     'Link to the article'],
 ];
 
-$t['pg1']['annuaire']        = 'Are you looking for the free software directory ? <a href="'.$s['libre']['l'].'">It\'s this way !</a>';
+$t['pg1']['annuaire']        = 'Are you looking for the free software directory? <a href="'.$s['libre']['l'].'">It\'s this way!</a>';
 
 // Page 2 Libre communauté
 $t['pg2']['communaute']['h'] = 'A community';
@@ -659,16 +659,16 @@ $t['pg2']['asso']['t']       = 'Framasoft is based on a law 1901 association (no
                                 Up to it to smooth out any rough edges and to ensure that the community can emulate in good conditions.
                                 There are '.$t['salaries']['t'].' permanents and it\'s mostly financed by individual donations
                                 collected on Internet. You can be a member too,
-                                but careful, it is more a vocation than a sinecure !';
+                                but careful, it is more a vocation than a sinecure!';
 
 $t['pg2']['participer']['h'] = 'Participate?';
 $t['pg2']['participer']['d'] = 'There are lots of ways to participate with us to spread the Free spirit through our numerous projects.';
 $t['pg2']['participer']['t'] = 'Test, write, moderate, administrate, translate, proofread, relay, code,
                                 communicate, promote, raise awareness…
                                 Don\'t hesitate to <a href="'.$l['participer'].'">join in</a>
-                                with us ! And thanks in advance…';
+                                with us! And thanks in advance…';
 
-$t['pg2']['soutenir']['h']   = 'Support us ?';
+$t['pg2']['soutenir']['h']   = 'Support us?';
 $t['pg2']['soutenir']['d']   = 'because free as in free speech, not as in free beer';
 $t['pg2']['soutenir']['t']   = 'Framasoft would nothing without its volunteer community, but cannot operate without the support of
                                 the association which has expenses and employs '.$t['salaries']['t'].' vital employees.
@@ -685,9 +685,9 @@ $t['pg2']['partenaire']['t'] = '<li><a href="http://milliweb.fr/"><img src="'.$l
                                 <li><a href="https://www.ikoula.com/"><img src="'.$l['S'].'/sites/default/files/transparent-png-bleu.png" alt="Ikoula"></a></li>';
 
 // Page 3 Libres logiciels
-$t['pg3']['pres']['h']       = 'Free software ?';
+$t['pg3']['pres']['h']       = 'Free software?';
 $t['pg3']['pres']['d']       = '<a href="https://en.wikipedia.org/wiki/Free_software" target="_blank">Free software</a>
-                                is a software that offers and guarantees the following four liberties : usage, study,
+                                is a software that offers and guarantees the following four liberties: usage, study,
                                 modification and copying in order to spread (free of charge or not).';
 $t['pg3']['pres']['t1']      = 'This is technically permitted thanks to the access to the
                                 <a href="https://en.wikipedia.org/wiki/Source_code" target="_blank">code</a>
@@ -701,7 +701,7 @@ $t['pg3']['key']['evl']      = 'Buy the Framakey in the store '.$t['evl'];
 $t['pg3']['dvd']['evl']      = 'Buy the FramaDVD in the store '.$t['evl'];
 
 // Page 4 Libres cultures
-$t['pg4']['pres']['h']       = 'Free Culture ?';
+$t['pg4']['pres']['h']       = 'Free Culture?';
 $t['pg4']['pres']['d']       = 'Ease by Internet and digitisation,
                                 "<a href="https://en.wikipedia.org/wiki/Libre_culture">free culture</a>"
                                 is a evolving culture inspired directly by free software
@@ -718,8 +718,8 @@ $t['pg4']['quote']['t']      = '"Because it will be one of the biggest missed op
 $t['pg4']['book']['evl']     = 'Buy Framabooks in the store '.$t['evl'];
 
 // Page 5 Libres services
-$t['pg5']['pres']['h']       = 'Free services ?';
-$t['pg5']['pres']['d']       = 'Code name : "Framacloud"';
+$t['pg5']['pres']['h']       = 'Free services?';
+$t['pg5']['pres']['d']       = 'Code name: "Framacloud"';
 $t['pg5']['pres']['t1']      = 'Intuitive, registration-free, and directly in your browser, it is a set of online free services
                                 and respectful of your personal data. These services are offered in the context of our campaign "'.$s['DIo']['a'].'"';
 $t['pg5']['pres']['t2']      = 'You can also install theses on your own server, thus contributing to decentralize Internet.
