@@ -97,7 +97,7 @@ $s[$k]['i']  = 'fa-usb';
 $s[$k]['pd'] = 'Full tank of Freedom in a simple device';
 $s[$k]['pt'] = 'With this USB device (or any mobile device) you can use
                 more than a hundred free programs for mobile, for Windows,
-                test and install a GNU/Linux distro or have offline access to French-speaking Wikipédia.';
+                test and install a GNU/Linux distro or have offline access to Wikipédia in french.';
 
 $k = 'dvd'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'http://framadvd.org';
@@ -106,7 +106,7 @@ $s[$k]['d']  = 'A DVD';
 $s[$k]['i']  = 'fa-play-circle-o';
 $s[$k]['pd'] = 'Full tank of Freedom in a DVD';
 $s[$k]['pt'] = 'A DVD stuffed with the best free software for Windows, Mac and
-                GNU/Linux (distro included) but also fre culture (text, photo, audio and video).
+                GNU/Linux (distro included) but also free culture (text, photo, audio and video).
                 Also available as a special School Edition';
 
 $k = 'pack'; $s[$k]['c'] = $c;
