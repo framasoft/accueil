@@ -731,7 +731,8 @@ $t['pg2']['partenaire']['d'] = 'Framasoft est avant tout une communauté d’uti
                                 associatives) qui permettent aux projets de croître et de se développer.
                                 <a href="'.$l['S'].'/partenaires">Liste de tous nos partenaires</a>';
 $t['pg2']['partenaire']['t'] = '<li><a href="http://milliweb.fr/"><img src="'.$l['S'].'/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
-                                <li><a href="https://www.ikoula.com/"><img src="'.$l['S'].'/sites/default/files/transparent-png-bleu.png" alt="Ikoula"></a></li>';
+                                <li><a href="https://www.ikoula.com/"><img src="'.$l['S'].'/sites/default/files/transparent-png-bleu.png" alt="Ikoula"></a></li>
+                                <li><a href="https://www.flexilivre.com/"><img src="'.$l['S'].'/sites/default/files/flexilivre.png" alt="FlexiLivre"></a></li>';
 
 // Page 3 Libres logiciels
 $t['pg3']['pres']['h']       = 'Logiciel Libre ?';
