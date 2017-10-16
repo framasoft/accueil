@@ -492,6 +492,28 @@ $s[$k]['pd'] = 'Host free code';
 $s[$k]['pt'] = 'Framagit is a tool for developers. It can host your open source
                 software projects and allows to work on it in a collaborative way.';
 
+$k = 'site'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://frama.site';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">site</b>';
+$s[$k]['d']  = 'Publier';
+$s[$k]['i']  = 'fa-globe';
+$s[$k]['pd'] = 'Hébergement de sites';
+$s[$k]['pt'] = 'Framasite vous permet de créer un site web facilement et
+                de l’héberger sur nos serveurs. Aucune publicité ni
+                traquage ne portera atteinte aux données de vos visiteurs
+                et visiteuses.';
+
+$k = 'wiki'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://frama.wiki';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">wiki</b>';
+$s[$k]['d']  = '<span class="sr-only">Publier</span>';
+$s[$k]['i']  = 'fa-puzzle-piece';
+$s[$k]['pd'] = 'Hébergement de wikis';
+$s[$k]['pt'] = 'Framawiki vous permet de créer un wiki facilement et
+                de l’héberger sur nos serveurs. Aucune publicité ni
+                traquage ne portera atteinte aux données de vos visiteurs
+                et visiteuses.';
+
 $c ='jaune';
 $k = 'agora'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://forum.framasoft.org';
@@ -531,47 +553,6 @@ $t['carousel']['play']  = 'Play';
 $t['carousel']['pause'] = 'Pause';
 $t['carousel']['prev']  = 'Previous slide';
 $t['carousel']['next']  = 'Next slide';
-
-$t['slide'][0]['l'] = 'https://framablog.org/2016/10/03/degooglisons-saison-3-30-services-alternatifs-aux-produits-de-google-co/';
-$t['slide'][0]['i'] = $dir.'img/slide-degooglisons-internet.png';
-$t['slide'][0]['d'] = '<b class="violet">De-google-ify</b> <b class="orange">Internet</b> season 3: six new services.';
-
-$t['slide'][1]['l'] = 'https://framablog.org/2016/10/03/framalistes-vos-groups-nont-plus-a-appartenir-a-google/';
-$t['slide'][1]['i'] = $dir.'img/slide-framalistes.jpg';
-$t['slide'][1]['d'] = $s['listes']['t'].' : do not offer your Groups to Google anymore!';
-
-$t['slide'][2]['l'] = 'https://framablog.org/2016/10/04/framanotes-vos-notes-vous-appartiennent-for-ever/';
-$t['slide'][2]['i'] = $dir.'img/slide-framanotes.jpg';
-$t['slide'][2]['d'] = $s['notes']['t'].' : leave Evernote for more freedom and encryption!';
-
-$t['slide'][3]['l'] = 'https://framablog.org/2016/10/05/framaforms-noffrez-plus-les-reponses-que-vous-collectez-a-google/';
-$t['slide'][3]['i'] = $dir.'img/slide-framaforms.jpg';
-$t['slide'][3]['d'] = $s['forms']['t'].' : your forms outside of Google\'s reach.';
-
-$t['slide'][4]['l'] = 'https://framablog.org/2016/10/06/framatalk-semez-la-discord-sur-skype-et-cie/';
-$t['slide'][4]['i'] = $dir.'img/slide-framatalk.jpg';
-$t['slide'][4]['d'] = $s['talk']['t'].' : a "Skype" without installation requirements... and without tracking ;)';
-
-$t['slide'][5]['l'] = 'https://framablog.org/2016/10/07/framagenda-ne-partagez-plus-votre-planning-ni-vos-contacts-avec-la-nsa/';
-$t['slide'][5]['i'] = $dir.'img/slide-framagenda.jpg';
-$t['slide'][5]['d'] = $s['agenda']['t'].' : your appointments and your contacts belong to you.';
-
-$t['slide'][6]['l'] = 'https://framablog.org/2016/10/10/myframa-vos-favoris-et-framasofteries-partout-avec-vous-rien-qua-vous/';
-$t['slide'][6]['i'] = $dir.'img/slide-myframa.jpg';
-$t['slide'][6]['d'] = $s['my']['t'].' : find you bookmarks easily... and your services '.strip_tags($t['meta']['F'], '<b>');
-
-$t['slide'][7]['l'] = 'https://framablog.org/2016/10/12/naissance-du-collectif-chatons/';
-$t['slide'][7]['i'] = $dir.'img/slide-chatons.jpg';
-$t['slide'][7]['d'] = 'Naissance des CHATONS, Collectif des Hébergeurs Alternatifs<br>Transparents, Ouverts, Neutres et Solidaires';
-
-$t['slide'][8]['l'] = 'https://framablog.org/2016/09/09/framemo-un-tableau-pour-vos-tempetes-de-cerveaux/';
-$t['slide'][8]['i'] = $dir.'img/slide-framemo.jpg';
-$t['slide'][8]['d'] = $s['memo']['t'].' released. A board for your brainstorming sessions.';
-
-$t['slide'][9]['l'] = 'https://framablog.org/2016/09/01/framinetest-edu-laissez-microsoft-hors-de-portee-de-nos-enfants/';
-$t['slide'][9]['i'] = $dir.'img/slide-framinetest.jpg';
-$t['slide'][9]['d'] = strip_tags($t['meta']['F'], '<b>').' releases a Minetest server as an alternative to Minecraft education.<br>
-                      Let\'s keep Microsoft outside our kids\' reach.';
 
 // Recherche
 $t['_Rechercher']            = 'Search';
