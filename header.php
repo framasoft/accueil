@@ -30,8 +30,32 @@
         </div>
     ';
 
-
     // Carousel
+
+    // Import des slides directement depuis le Framablog
+    $html = file_get_contents('https://framablog.org');
+
+    libxml_use_internal_errors(true);
+    $page->preserveWhiteSpace = false;
+
+    $dom = new DOMDocument();
+    $dom->loadHTML($html);
+
+    $finder = new DomXPath($dom);
+    $captions = $finder->query("//*[contains(@class, 'captiontitle')]");
+    $images   = $finder->query("//*[contains(@class, 'slides')]/li/a/img");
+    $links   = $finder->query("//*[contains(@class, 'slides')]/li/a");
+
+    foreach ($captions as $k => $node) {
+        $t['slide'][$k]['d'] = $node->textContent;
+    }
+    foreach ($images as $k => $node) {
+        $t['slide'][$k]['i'] = $node->getAttribute('src');
+    }
+    foreach ($links as $k => $node) {
+        $t['slide'][$k]['l'] = $node->getAttribute('href');
+    }
+
     $carousel = '
         <!--  Carousel -->
         <div id="carousel-actus" class="carousel slide">
