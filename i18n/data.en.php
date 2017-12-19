@@ -515,14 +515,14 @@ $s[$k]['pt'] = 'Framawiki vous permet de créer un wiki facilement et
                 et visiteuses.';
 
 $c ='jaune';
-$k = 'agora'; $s[$k]['c'] = $c;
-$s[$k]['l']  = 'https://forum.framasoft.org';
-$s[$k]['t']  = '<b class="violet">Fram</b><b class="'.$c.'">agora</b>';
+$k = 'colibri'; $s[$k]['c'] = $c;
+$s[$k]['l']  = 'https://framacolibri.org';
+$s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">colibri</b>';
 $s[$k]['d']  = 'A forum';
 $s[$k]['i']  = 'fa-comment';
 $s[$k]['pd'] = 'The Framasoft\'s forum';
 $s[$k]['pt'] = 'Do you have any questions? We (might) have an answer!
-                "If you do not know, ask. If you know, share". Framagora is a place
+                "If you do not know, ask. If you know, share". Framacolibri is a place
                 where we can share information about Open source.';
 
 $k = 'evl'; $s[$k]['c'] = $c;
