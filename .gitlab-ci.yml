@@ -9,6 +9,6 @@ deploy:
     - if [ ! -z ${DEPLOYEMENT_KNOWN_HOSTS+x} ]; then echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts; fi
     - eval `ssh-agent -s`
     - if [ ! -z ${DEPLOYEMENT_KEY+x} ]; then ssh-add <(echo "$DEPLOYEMENT_KEY" | base64 --decode); fi
-    - if [ ! -z ${DEPLOYEMENT_KEY+x} ]; then ssh ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST} 'cd ../../web/ && git pull'; fi
+    - if [ ! -z ${DEPLOYEMENT_KEY+x} ]; then ssh ${DEPLOYEMENT_USER}@${DEPLOYEMENT_HOST} 'cd ../../web/accueil/ && git pull'; fi
   only:
     - master
