@@ -1,24 +1,11 @@
     <div class="row" id="internav">
         <div class="container">
-            <form method="post" action="#">
-                <div class="input-group input-group-sm pull-right col-md-2 col-xs-4">
-                    <select name="lang" class="form-control" title="<?php echo $t['_Select the language'] ?>" >
-                        <?php echo $langs_options ?>
-                    </select>
-                    <span class="input-group-btn">
-                        <button type="submit" class="btn btn-default btn-sm" title="<?php echo $t['_Change the language'] ?>"><?php echo $t['_OK'] ?></button>
-                    </span>
-                </div>
-            </form>
 
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?php echo $l['F'] ?>/?m=lite"><?php echo $t['inav']['lite'] ?></a></li>
-            </ul>
         </div>
     </div>
     <!-- accueil Top -->
     <div class="container ombre" id="topPgAccueil">
-        <div class="row header">
+        <div class="clearfix header">
             <div class="col-md-4">
                 <h1 id="framasoft" class="sitename"><?php echo $t['meta']['F'] ?></h1>
             </div>
@@ -26,7 +13,24 @@
                 <p class="headerSubTitle"><?php echo $t['meta']['slogan'] ?></p>
             </div>
             <div class="col-md-3">
-                <ul class="navEntities">
+                <div class="pull-right">
+                    <a href="<?php echo $l['F'] ?>/?m=lite" class="btn btn-default" title="<?php echo $t['inav']['lite'] ?>">
+                        <i class="fa fa-lg fa-th-large" aria-hidden="true"></i>
+                        <span class="sr-only"><?php echo $t['inav']['lite'] ?></span>
+                    </a>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            title="<?php echo $t['_Change the language'] ?>">
+                            <i class="fa fa-lg fa-language" aria-hidden="true"></i> Langue <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <?php echo $langs_options ?>
+                        </ul>
+                    </div>
+                </div>
+                <ul class="row navEntities">
                     <?php echo $navEntities ?>
                 </ul>
             </div>
@@ -109,7 +113,7 @@
 
     <!-- communauté -->
     <div class="container ombre" id="<?php echo $t['cat']['communaute']['l'] ?>">
-        <div class="row header">
+        <div class="clearfix header">
             <div class="col-md-4">
                 <h1 class="sitename"><a href="#<?php echo $t['cat']['communaute']['l'] ?>" class="<?php echo $t['cat']['communaute']['c'] ?>"><?php echo $t['cat']['communaute']['t'] ?></a></h1>
             </div>
@@ -119,7 +123,7 @@
             <?php echo $interNavHeader ?>
         </div>
 
-        <div class="row" id="contentCommunaute">
+        <div class="row partenaires" id="contentCommunaute">
             <div class="col-md-4 blocCommunaute" >
                 <img src="<?php echo $l['team1'] ?>" alt="" />
             </div>
@@ -156,7 +160,7 @@
 
     <!-- Logiciel Libre -->
     <div class="container ombre" id="<?php echo $t['cat']['logiciel']['l'] ?>">
-        <div class="row header">
+        <div class="clearfix header">
             <div class="col-md-4">
                 <h1 class="sitename <?php echo $t['cat']['logiciel']['c'] ?>"><a href="#<?php echo $t['cat']['logiciel']['l'] ?>" class="<?php echo $t['cat']['logiciel']['c'] ?>"><?php echo $t['cat']['logiciel']['t'] ?></a></h1>
             </div>
@@ -211,7 +215,7 @@
 
     <!-- Culture Libre -->
     <div class="container ombre" id="<?php echo $t['cat']['culture']['l'] ?>">
-        <div class="row header">
+        <div class="clearfix header">
             <div class="col-md-4">
                 <h1 class="sitename <?php echo $t['cat']['culture']['c'] ?>"><a href="#<?php echo $t['cat']['culture']['l'] ?>" class="<?php echo $t['cat']['culture']['c'] ?>"><?php echo $t['cat']['culture']['t'] ?></a></h1>
             </div>
@@ -281,7 +285,7 @@
 
     <!-- Cloud libre -->
     <div class="container ombre" id="<?php echo $t['cat']['cloud']['l'] ?>">
-        <div class="row header">
+        <div class="clearfix header">
             <div class="col-md-4">
                 <h1 class="sitename <?php echo $t['cat']['cloud']['c'] ?>"><a href="#<?php echo $t['cat']['cloud']['l'] ?>" class="<?php echo $t['cat']['cloud']['c'] ?>"><?php echo $t['cat']['cloud']['t'] ?></a></h1>
             </div>
@@ -395,7 +399,17 @@
                     case 'my' : echo '
                     <div class="col-md-6 miniBloc2">
                         '; break;
-
+                    // Nlle ligne Framasite + Pif
+                    case 'site' : echo '
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-6 miniBloc">
+                        <a href="'.$l['DIo'].'"><img src="'.$l['dioFight'].'" alt="" class="img-responsive"/></a>
+                    </div>
+                    <div class="col-md-3 miniBloc">
+                        '; break;
                     // Par défaut ligne 4 blocs
                     default : echo '
                     <div class="col-md-3 miniBloc">
@@ -425,7 +439,7 @@
     <!-- Vrac Libre -->
     <div class="container ombre" id="<?php echo $t['cat']['vrac']['l'] ?>">
 
-        <div class="row header">
+        <div class="clearfix header">
             <div class="col-md-4">
                 <h1 class="sitename <?php echo $t['cat']['vrac']['c'] ?>"><a href="#<?php echo $t['cat']['vrac']['l'] ?>" class="<?php echo $t['cat']['vrac']['c'] ?>"><?php echo $t['cat']['vrac']['t'] ?></a></h1>
             </div>

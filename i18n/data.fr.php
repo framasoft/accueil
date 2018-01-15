@@ -649,6 +649,9 @@ $t['medias']['pressth1']    = 'Date';
 $t['medias']['pressth2']    = 'Média';
 $t['medias']['pressth3']    = 'Liens';
 $t['medias']['presslist']   = [
+    ['30/07/2017', 'Usbek & Rica',
+    'https://usbeketrica.com/article/framasoft-une-amap-du-logiciel-libre',
+    'Lien vers l’article'],
     ['05/02/2017', 'France 24 / Mashable',
     'http://mashable.france24.com/tech-business/20170204-chatons-collectif-hebergeurs-framasoft?ref=tw_i',
     'Lien vers l’article'],
@@ -679,9 +682,6 @@ $t['medias']['presslist']   = [
     ['24/05/2015', 'Le Soir (Belgique)',
     'http://www.lesoir.be/886985/article/economie/vie-du-net/2015-05-23/google-vivre-sans-c-est-parfois-possible',
     'Lien vers l’article (abonnés)'],
-    ['29/04/2015', 'Canal + (La Nouvelle Édition)',
-    'http://www.canalplus.fr/c-emissions/c-la-nouvelle-edition/pid6850-la-nouvelle-edition.html?vid=1249359',
-    'Lien vers la vidéo'],
     ['03/02/2015', 'L’Humanité',
     'http://www.humanite.fr/logiciel-libre-et-ess-une-economie-lintention-de-tous-564379',
     'Lien vers l’article']
@@ -728,7 +728,8 @@ $t['pg2']['partenaire']['d'] = 'Framasoft est avant tout une communauté d’uti
                                 <a href="'.$l['S'].'/partenaires">Liste de tous nos partenaires</a>';
 $t['pg2']['partenaire']['t'] = '<li><a href="http://milliweb.fr/"><img src="'.$l['S'].'/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
                                 <li><a href="https://www.ikoula.com/"><img src="'.$l['S'].'/sites/default/files/transparent-png-bleu.png" alt="Ikoula"></a></li>
-                                <li><a href="https://www.flexilivre.com/"><img src="'.$l['S'].'/sites/default/files/flexilivre.png" alt="FlexiLivre"></a></li>';
+                                <li><a href="https://www.flexilivre.com/"><img src="'.$l['S'].'/sites/default/files/flexilivre.png" alt="FlexiLivre"></a></li>
+                                <li><a href="http://linphone.org/"><img src="'.$l['S'].'/sites/default/files/belledonne2.png" alt="Belledonne Communication"></a></li>';
 
 // Page 3 Libres logiciels
 $t['pg3']['pres']['h']       = 'Logiciel Libre ?';
@@ -771,7 +772,7 @@ $t['pg5']['pres']['t1']      = 'Intuitif, sans inscription et à même votre nav
                                 notre campagne « '.$s['DIo']['a'].' »';
 $t['pg5']['pres']['t2']      = 'Vous pouvez aussi les installer sur votre propre serveur, participant ainsi à décentraliser l’Internet.
                                 Des tutoriels sont là pour vous aider à franchir le pas dans la rubrique
-                                <a href="'.$l['cloud'].'/category/cultiver-son-jardin">Cultiver son jardin</a>.';
+                                <a href="'.$l['cloud'].'/fr/cultiver-son-jardin/">Cultiver son jardin</a>.';
 
 // Page 6 Libr’en Vrac
 $t['pg6']['pres']['h']       = 'Les projets transversaux';

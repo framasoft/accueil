@@ -281,6 +281,10 @@ body > .row {
     margin-top: 1.5em;
 }
 
+.partenaires .blocCommunaute img {
+    width: 150px;
+}
+
 #presentationLibre, #presentationServices,
 #presentationLogiciels, #presentationLibrenVrac{
     padding-bottom: 2em;

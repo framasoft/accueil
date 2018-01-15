@@ -664,7 +664,8 @@ $t['pg2']['partenaire']['d'] = 'Framasoft is first and foremost a community of u
                                 <a href="'.$l['S'].'/partenaires">List of all our partners</a>';
 $t['pg2']['partenaire']['t'] = '<li><a href="http://milliweb.fr/"><img src="'.$l['S'].'/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
                                 <li><a href="https://www.ikoula.com/"><img src="'.$l['S'].'/sites/default/files/transparent-png-bleu.png" alt="Ikoula"></a></li>
-                                <li><a href="https://www.flexilivre.com/"><img src="'.$l['S'].'/sites/default/files/flexilivre.png" alt="FlexiLivre"></a></li>';
+                                <li><a href="https://www.flexilivre.com/"><img src="'.$l['S'].'/sites/default/files/flexilivre.png" alt="FlexiLivre"></a></li>
+                                <li><a href="http://linphone.org/"><img src="'.$l['S'].'/sites/default/files/belledonne2.png" alt="Belledonne Communication"></a></li>';
 
 // Page 3 Libres logiciels
 $t['pg3']['pres']['h']       = 'Free software?';
@@ -706,7 +707,7 @@ $t['pg5']['pres']['t1']      = 'Intuitive, registration-free, and directly in yo
                                 and respectful of your personal data. These services are offered in the context of our campaign "'.$s['DIo']['a'].'"';
 $t['pg5']['pres']['t2']      = 'You can also install theses on your own server, thus contributing to decentralize Internet.
                                 Tutorials are availables in the section
-                                <a href="'.$l['cloud'].'/category/cultiver-son-jardin">Cultiver son jardin</a> (in french) to help you to go for it.';
+                                <a href="'.$l['cloud'].'/fr/cultiver-son-jardin/">Cultiver son jardin</a> (only in french actually) to help you to go for it.';
 
 // Page 6 Libr’en Vrac
 $t['pg6']['pres']['h']       = 'Cross-disciplinary projects';

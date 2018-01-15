@@ -3,7 +3,7 @@
     $langs_options = '';
     foreach ($langs as $k => $v) {
         $langs_options .= '
-            <option lang="'.substr($k,0,2).'" value="'.$k.'">'.$v.'</option>';
+            <li><a href="?l='.substr($k,0,2).'">'.$v.'</a></li>';
     }
 
     // NavEntities
@@ -15,7 +15,7 @@
     ';
     $interNavHeader = '
             <div class="col-md-3">
-                <ul class="navEntities">
+                <ul class="row navEntities">
                     '.$navEntities.'
                 </ul>
             </div>

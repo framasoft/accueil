@@ -1,19 +1,5 @@
     <div class="row" id="internav">
         <div class="container">
-            <form method="post" action="#">
-                <div class="input-group input-group-sm pull-right col-md-3 col-xs-4">
-                    <select name="lang" class="form-control" title="<?php echo $t['_Select the language'] ?>" >
-                        <?php echo $langs_options ?>
-                    </select>
-                    <span class="input-group-btn">
-                        <button type="submit" class="btn btn-default btn-sm" title="<?php echo $t['_Change the language'] ?>"><?php echo $t['_OK'] ?></button>
-                    </span>
-                </div>
-            </form>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="<?php echo $l['F'] ?>"><?php echo $t['inav']['full'] ?></a></li>
-            </ul>
         </div>
     </div>
     <style>
@@ -23,15 +9,47 @@
                 width:750px;
             }
         }
+        .sitename {
+            margin-top:0;
+        }
+        .headerSubTitle {
+            padding: 0.5em 0;
+            margin-left: -5px;
+        }
+        .header {
+            border-bottom: none;
+        }
+        .header div.trait {
+            margin: 0 15px;
+            width:calc(100% - 30px);
+        }
     </style>
     <div class="container ombre" id="topPgAccueil">
         <div class="row header">
-            <div class="col-md-4">
+            <div class="col-md-8">
                 <h1 id="framasoft" class="sitename"><?php echo $t['meta']['F'] ?></h1>
-            </div>
-            <div class="col-md-8 text-right">
                 <p class="headerSubTitle"><?php echo $t['meta']['slogan'] ?></p>
             </div>
+            <div class="col-md-4">
+                 <div class="pull-right">
+                    <a href="<?php echo $l['F'] ?>/?m=lite" class="btn btn-default" title="<?php echo $t['inav']['lite'] ?>">
+                        <i class="fa fa-lg fa-th-large" aria-hidden="true"></i>
+                        <span class="sr-only"><?php echo $t['inav']['lite'] ?></span>
+                    </a>
+
+                    <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                            title="<?php echo $t['_Change the language'] ?>">
+                            <i class="fa fa-lg fa-language" aria-hidden="true"></i> Langue <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                            <?php echo $langs_options ?>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 trait"></div>
         </div>
 
         <div class="row" style="margin-top:40px; margin-bottom:20px">
