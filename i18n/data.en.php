@@ -663,7 +663,6 @@ $t['pg2']['partenaire']['d'] = 'Framasoft is first and foremost a community of u
                                 non-profit) allowing our projects to growth and develop.
                                 <a href="'.$l['S'].'/partenaires">List of all our partners</a>';
 $t['pg2']['partenaire']['t'] = '<li><a href="http://milliweb.fr/"><img src="'.$l['S'].'/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
-                                <li><a href="https://www.ikoula.com/"><img src="'.$l['S'].'/sites/default/files/transparent-png-bleu.png" alt="Ikoula"></a></li>
                                 <li><a href="https://www.flexilivre.com/"><img src="'.$l['S'].'/sites/default/files/flexilivre.png" alt="FlexiLivre"></a></li>
                                 <li><a href="http://linphone.org/"><img src="'.$l['S'].'/sites/default/files/belledonne2.png" alt="Belledonne Communication"></a></li>';
 
