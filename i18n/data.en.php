@@ -28,7 +28,7 @@ $l['bsCSS']      = $l['nav'].'lib/bootstrap/css/bootstrap.min.css';
 $l['bsJS']       = $l['nav'].'lib/bootstrap/js/bootstrap.min.js';
 $l['jQuery']     = $l['nav'].'lib/jquery/jquery.min.js';
 $l['favicon']    = $l['nav'].'img/icons/favicon-violet.png';
-$l['faCSS']      = $l['nav'].'lib/font-awesome/css/font-awesome.min.css';
+$l['faCSS']      = $l['nav'].'lib/fork-awesome/css/fork-awesome.min.css';
 $l['fsCSS']      = $dir.'css/framasoft.css';
 
 $l['contact']    = 'https://contact.framasoft.org';
@@ -302,7 +302,7 @@ $k = 'sphere'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framasphere.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">sphère</b>';
 $s[$k]['d']  = 'Networking';
-$s[$k]['i']  = 'fa-asterisk';
+$s[$k]['i']  = 'fa-diaspora';
 $s[$k]['pd'] = 'The free social network';
 $s[$k]['pt'] = 'Framasphere is  a free social network based on the decentralised
                 Diaspora software. Find your friends on Framasphere – or other Diaspora pods –
@@ -312,7 +312,7 @@ $k = 'piaf'; $s[$k]['c'] = $c;
 $s[$k]['l']  = 'https://framapiaf.org';
 $s[$k]['t']  = '<b class="violet">Frama</b><b class="'.$c.'">piaf</b>';
 $s[$k]['d']  = '<span class="sr-only">Networking</span>';
-$s[$k]['i']  = 'fa-retweet';
+$s[$k]['i']  = 'fa-mastodon';
 $s[$k]['pd'] = 'Réseau social en 500 caractères';
 $s[$k]['pt'] = 'Framapiaf est un service libre de <b>microblogging</b>,
                 basé sur le logiciel décentralisé Mastodon.

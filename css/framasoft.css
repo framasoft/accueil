@@ -24,7 +24,7 @@ body {
 a, a:hover, a:focus, a:visited, a h4 {text-decoration: none !important;}
 
 .container.ombre a[target="_blank"]:after {
-    font-family: FontAwesome;
+    font-family: ForkAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
@@ -365,7 +365,7 @@ h4 {
 }
  /* Background icon (complété dans le code html par la classe font-awesome "fa-[nom-de-l-icone]" */
 .miniBlocSubTitle:before {
-    font-family: FontAwesome;
+    font-family: ForkAwesome;
     font-style: normal;
     font-weight: normal;
     text-decoration: none;
