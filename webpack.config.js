@@ -8,7 +8,7 @@ const PrerenderSPAPlugin = require('prerender-spa-plugin');
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const root = (process.env.NODE_ENV === 'preview') ? '/vuefs/' : '/';
+const root = (process.env.NODE_ENV === 'preview') ? '/accueil/' : '/';
 
 let config = {
   entry: './app/index.js',
