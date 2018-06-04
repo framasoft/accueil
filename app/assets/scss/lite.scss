@@ -1,0 +1,115 @@
+.lite {
+  margin: 0px;
+
+  li {
+    margin: 15px 0;
+  }
+
+  a.btn-default {
+    border-color: #fff;
+    font-size: 16px;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: #fafafa;
+      border-color: #ccc;
+      i { color: #fff; font-size: 2.5em; }
+    }
+  }
+
+  i {
+    display: block;
+    margin: 10px auto -10px;
+    line-height: 64px;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    color: #616161;
+  }
+
+ .titreFramaTrucs {
+    margin : 0 0 5px 0;
+  }
+
+  &:last-child {
+    margin-bottom: 20px;
+  }
+}
+
+#lite {
+  @media (min-width:768px) {
+    .container.ombre {
+      width: 750px;
+    }
+  }
+  #framaheader {
+    position: relative;
+    margin: 0;
+  }
+
+  #framaheader .col-md-5 {
+    clear: left;
+    width: auto;
+  }
+
+  #framaheader .col-md-3:last-of-type {
+    position: absolute;
+    width: auto;
+    right: 0;
+  }
+
+  .router-link-active,
+  .navEntities {
+    display: none;
+  }
+
+  .sitename {
+    margin-top: 0;
+  }
+
+  .headerSubTitle {
+    padding: 0.5em 0;
+    margin-left: -5px;
+  }
+
+  .header {
+    border-bottom: none;
+  }
+
+  .header div.trait {
+    margin: 0 15px;
+    width: calc(100% - 30px);
+  }
+
+  .bleu a {
+    &:hover,
+    &:focus,
+    &:active {
+      i { background-color: $bleu; }
+    }
+  }
+
+  .rouge a {
+    &:hover,
+    &:focus,
+    &:active {
+      i { background-color: $rouge; }
+    }
+  }
+
+  .vert a {
+    &:hover,
+    &:focus,
+    &:active {
+      i { background-color: $vert; }
+    }
+  }
+
+  .jaune a {
+    &:hover,
+    &:focus,
+    &:active {
+      i { background-color: $jaune; }
+    }
+  }
+}
