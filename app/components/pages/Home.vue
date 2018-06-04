@@ -363,6 +363,7 @@ import InterNavHead from '../partials/InterNavHead.vue'
 import InterNavFoot from '../partials/InterNavFoot.vue'
 import Carousel from '../partials/Carousel.vue'
 import Search from '../partials/Search.vue'
+
 export default {
   name: 'home',
   components: {
@@ -370,7 +371,7 @@ export default {
     InterNavHead,
     InterNavFoot,
     Carousel,
-    Search
+    Search,
   },
   data() {
     const { lang } = document.getElementsByTagName('html')[0];
@@ -392,13 +393,20 @@ export default {
   }
 }
 
-$(document).ready(() => {
-  $('#f-bee, #f-my').addClass('col-md-6').removeClass('col-md-3');
-  $('#f-bee').before($('#stallmanoramix'));
-  $('#f-bag').before($('#village'));
-  $('#f-drop').before($('#carte'));
-  $('#f-site').before($('#fight'));
-  $(`#f-forms, #f-mindmap, #stallmanoramix, #f-sphere, #f-talk,
-    #village, #f-drop, #f-drive, #fight`).css('clear', 'both');
-});
+document.addEventListener("DOMContentLoaded", () => {
+  const colx2 = ['f-bee', 'f-my'];
+  const clear = ['f-forms', 'f-mindmap', 'stallmanoramix', 'f-sphere', 'f-talk',
+    'village', 'f-drop', 'f-drive', 'fight'];
+  for (let id of colx2) {
+    document.getElementById(id).className = 'col-md-6 miniBloc';
+  }
+  for (let id of clear) {
+    document.getElementById(id).style = 'clear: both';
+  }
+
+  document.querySelector('#f-bee').before(document.querySelector('#stallmanoramix'));
+  document.querySelector('#f-bag').before(document.querySelector('#village'));
+  document.querySelector('#f-drop').before(document.querySelector('#carte'));
+  document.querySelector('#f-site').before(document.querySelector('#fight'));
+})
 </script>
