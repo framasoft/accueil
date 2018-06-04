@@ -11,18 +11,18 @@
     </div>
     <!-- Controls -->
     <p class="text-center" id="play-pause" v-if="playPause === 'pause'">
-      <a href="#carousel-actus" class="carousel-control" :title="$t('msg.carousel.pause')"
+      <button class="carousel-control" :title="$t('msg.carousel.pause')"
         @click="togglePlayPause(); return false;">
         <i class="glyphicon glyphicon-pause"></i>
         <span class="sr-only">{{ $t('msg.carousel.pause') }}</span>
-      </a>
+      </button>
     </p>
     <p class="text-center" id="play-pause" v-else>
-      <a href="#carousel-actus" class="carousel-control" :title="$t('msg.carousel.play')"
+      <button class="carousel-control" :title="$t('msg.carousel.play')"
         @click="togglePlayPause(); return false;">
         <i class="glyphicon glyphicon-play"></i>
         <span class="sr-only">{{ $t('msg.carousel.play') }}</span>
-      </a>
+      </button>
     </p>
     <a class="left carousel-control" href="#carousel-actus" role="button" data-slide="prev"
       :title="$t('msg.carousel.prev')">

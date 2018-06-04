@@ -9,7 +9,9 @@
           </button>
           <ul class="dropdown-menu dropdown-menu-right">
             <li><button type="submit" class="btn btn-link" id="framabee">{{ $t('msg.search.btn') }} {{ $t('msg.search.web') }}</button></li>
-            <li><button type="button" class="btn btn-link" id="framaworld">{{ $t('msg.search.btn') }} {{ $t('msg.search.frama') }}</button></li>
+            <li><button type="button" class="btn btn-link" id="framaworld"
+              @click="searchDDG();"
+            >{{ $t('msg.search.btn') }} {{ $t('msg.search.frama') }}</button></li>
           </ul>
         </div>
       </span>
@@ -18,9 +20,18 @@
 </template>
 
 <script>
-  $(document).ready( () => {
-    $('#framaworld').on('click', () => {
-      window.location.href = `https://duckduckgo.com/?q=${$('#search input[name="q"]').val()} site:framaworld`;
-    });
-  });
+export default {
+  methods: {
+    searchDDG () {
+      const framaworld = [
+        'degooglisons-internet.org', 'contributopia.org',
+        'framalibre.org', 'framablog.org', 'framakey.org', 'framabook.org',
+        'framabookin.org', 'framatube.org', 'framazic.org',
+        'framacolibri.org', 'participer.framasoft.org',
+        'docs.framasoft.org', 'framacloud.org',
+      ];
+      window.location.href = `https://duckduckgo.com/?q=${$('#search input[name="q"]').val()} site:${framaworld.join()}`;
+    },
+  }
+}
 </script>
