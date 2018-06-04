@@ -5,11 +5,11 @@
       <span class="input-group-btn">
         <div class="btn-group">
           <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-fw fa-search"></i> {{ $t('message.search[0]') }} <span class="caret"></span>
+            <i class="fa fa-fw fa-search"></i> {{ $t('msg.search.btn') }} <span class="caret"></span>
           </button>
           <ul class="dropdown-menu dropdown-menu-right">
-            <li><button type="submit" class="btn btn-link" id="framabee">{{ $t('message.search[0]') }} {{ $t('message.search[2]') }}</button></li>
-            <li><button type="button" class="btn btn-link" id="framaworld">{{ $t('message.search[0]') }} {{ $t('message.search[1]') }}</button></li>
+            <li><button type="submit" class="btn btn-link" id="framabee">{{ $t('msg.search.btn') }} {{ $t('msg.search.web') }}</button></li>
+            <li><button type="button" class="btn btn-link" id="framaworld">{{ $t('msg.search.btn') }} {{ $t('msg.search.frama') }}</button></li>
           </ul>
         </div>
       </span>

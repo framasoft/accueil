@@ -1,16 +1,16 @@
 <template lang="html">
   <div class="pull-right">
-    <router-link :to="'/' + switchLanguage + '/lite'" class="btn btn-default" :title="$t('message.lite')">
+    <router-link :to="'/' + switchLanguage + '/lite'" class="btn btn-default" :title="$t('msg.lite')">
       <i class="fa fa-lg fa-th-large" aria-hidden="true"></i>
-      <span class="sr-only">{{ $t("message.lite") }}</span>
+      <span class="sr-only">{{ $t("msg.lite") }}</span>
     </router-link>
-    <div class="btn-group">
-      <button type="button" class="btn btn-default dropdown-toggle"
-        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-        :title="$t('message.nav.langChange')">
-        <i class="fa fa-lg fa-language" aria-hidden="true"></i> {{ $t("message.nav.lang") }} <span class="caret"></span>
-      </button>
-      <ul class="dropdown-menu">
+    <dropdown ref="dropdown" menu-right>
+      <btn type="button" class="btn btn-default dropdown-toggle"
+        aria-haspopup="true" aria-expanded="false"
+        :title="$t('msg.nav.langChange')">
+        <i class="fa fa-lg fa-language" aria-hidden="true"></i> {{ $t("msg.nav.lang") }} <span class="caret"></span>
+      </btn>
+      <template slot="dropdown">
         <li @click="changeLanguage('en')">
           <router-link :to="'/en/' + (this.$route.path.split('/')[2] || '')">
             English
@@ -21,9 +21,30 @@
             Français
           </router-link>
         </li>
-      </ul>
-    </div>
+      </template>
+    </dropdown>
   </div>
 </template>
 
-<script src='./I18n.js'></script>
+<script>
+import { Btn, Dropdown } from 'uiv';
+
+export default {
+  components: {
+    Btn, Dropdown,
+  },
+  data() {
+    return {
+      currentComponent: '',
+      switchLanguage: 'en',
+    };
+  },
+  methods: {
+    changeLanguage(lang) {
+      this.switchLanguage = lang;
+      this.$i18n.locale = lang;
+      this.currentComponent = this.$route.path.split('/')[2]; // eslint-disable-line prefer-destructuring
+    },
+  },
+};
+</script>

@@ -5,11 +5,10 @@ home: Home
 meta:
   lang: en
   title: Framasoft ~ Portal Homepage
-  framasoft:
-  - Framasoft
-  - https://framasoft.org
-  - <a href="https://framasoft.org"><b class="violet">Frama</b><b class="orange">soft</b></a>
-  slogan: There is a long way to go, but the road is Free…
+  name: Framasoft
+  baseURL: https://framasoft.org
+  framaname: <b class="violet">Frama</b><b class="orange">soft</b>
+  lead: There is a long way to go, but the road is Free…
   desc: |
     A French non-profit (Association française de loi 1901), originating from education, Framasoft is a network aiming at popular education, focussing
     mostly on free and open source software. The network is organized following 3 main directions on a collaborative mode:
@@ -19,13 +18,36 @@ meta:
     provide links to various sites and projects of the network.
   keywords: Framasoft, libre software, free and open source sofware, free culture, FOSS, FLOSS,  promotion and diffusion of free software, open source
   license: Creative Commons-By-SA except when notified
-  salaries:
-  - 8
-  - huit
+  salaries: (huit | 8)
 
-  evl:
-  - En Vente Libre
-  - http://www.enventelibre.org/40-framasoft
+# Navigation interne
+nav:
+  lite: Quick access
+  full: Classic home
+  langChange: Change the language
+  lang: Language
+
+  logiciel: Software section
+  logicielTitle: to software section
+  culture: Culture section
+  cultureTitle: to culture section
+  cloud: Cloud section
+  cloudTitle: to cloud section
+  vrac: Bulk free section
+  vracTitle: to bulk free section
+
+# Carousel
+carousel:
+  play: Play
+  pause: Pause
+  prev: Previous slide
+  next: Next slide
+
+# Recherche
+search:
+  btn: Search
+  frama: on Framasoft's websites
+  web: on the web
 
 liens:
   soutenir: https://soutenir.framasoft.org/en/
@@ -579,35 +601,6 @@ cat:
           Pour tout savoir sur l’utilisation des services en
           ligne que nous proposons et apprendre à travers nos
           différents guides comment gagner en autonomie.
-
-# Carousel
-carousel:
-  play: Play
-  pause: Pause
-  prev: Previous slide
-  next: Next slide
-
-# Recherche
-search:
-  - Search
-  - on Framasoft's websites
-  - on the web
-
-# Navigation interne
-nav:
-  lite: Quick access
-  full: Classic home
-  langChange: Change the language
-  lang: Language
-
-  logiciel: Software section
-  logicielTitle: to software section
-  culture: Culture section
-  cultureTitle: to culture section
-  cloud: Cloud section
-  cloudTitle: to cloud section
-  vrac: Bulk free section
-  vracTitle: to bulk free section
 
 # Page 1 Présentation
 pages:

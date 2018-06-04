@@ -1,20 +1,40 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueI18n from 'vue-i18n';
-// i18n
+import vueHeadful from 'vue-headful';
+import jQuery from 'jquery';
+
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import '../node_modules/fork-awesome/css/fork-awesome.css';
+
 import App from './App.vue';
 import Home from './components/pages/Home.vue';
 import Lite from './components/pages/Lite.vue';
 
 import './assets/scss/main.scss';
 
+window.jQuery = jQuery;
+window.$ = jQuery;
+require('bootstrap'); // eslint-disable-line
+
 Vue.use(VueRouter);
 Vue.use(VueI18n);
+Vue.component('vue-headful', vueHeadful);
 
 // Ready translated locale messages
-const locales = ['en', 'fr'];
-const lang = window.location.href.split('/')[3].substr(0, 2).toLowerCase() || 'fr';
+const defaultLocale = 'fr';
+const locales = [];
+// Import locales list
+const req = require.context('./locales/', true, /\.yml$/);
+req.keys().forEach((key) => {
+  locales.push(key.replace(/\.\/(.*)\.yml/, '$1'));
+});
+
+const lang = window.location.href.split('/')[3].substr(0, 2).toLowerCase() || defaultLocale;
 document.getElementsByTagName('html')[0].setAttribute('lang', lang);
+const userLang = navigator.languages ||
+  [root.navigator.language || root.navigator.userLanguage];
+let defaultRouteLang = '';
 
 const messages = {};
 
@@ -23,45 +43,63 @@ const routes = [
 ];
 
 for (let i = 0; i < locales.length; i += 1) {
-  messages[locales[i]] = { message: {} };
+  messages[locales[i]] = { msg: {} };
   // Locales import
-  messages[locales[i]].message = require('./locales/' + locales[i] + '.yml'); // eslint-disable-line
+  /* eslint-disable */
+  import(/* webpackChunkName: "lang-[request]" */`./locales/${locales[i]}.yml`).then((data) => {
+    messages[locales[i]].msg = data;
+  }).catch((err) => {
+    console.error(err);
+  });
+  /* eslint-enable */
 
   // Localized routes
   routes.push(
     { path: `/${locales[i]}`, component: Home },
     { path: `/${locales[i]}/lite`, component: Lite },
   );
+
+  // define defaultRouteLang
+  if (!window.vuefsPrerender) {
+    for (let j = 0; j < userLang.length; j += 1) {
+      if (defaultRouteLang === '' && userLang[j].substring(0, 2).toLowerCase() === locales[i]) {
+        defaultRouteLang = locales[i];
+      }
+    }
+  }
+}
+
+// Home redirection
+const currentURL = window.location.href.replace(/\/+$/, '');
+if (!window.vuefsPrerender &&
+  (currentURL.split('/')[3] === undefined || currentURL.split('/')[3] === process.env.BASE_URL) &&
+  (currentURL.split('/')[4] === undefined)) {
+  if (defaultRouteLang === '') {
+    defaultRouteLang = defaultLocale;
+  }
+  window.location.href = `${currentURL}/${defaultRouteLang}/`;
 }
 
 // Create VueI18n instance with options
 const i18n = new VueI18n({
-  locale: lang, // set locale
-  messages, // set locale messages
+  locale: lang,
+  fallbackLocale: defaultLocale,
+  messages,
+  silentTranslationWarn: true,
 });
 
-// <meta>
-const head = messages[lang].message.meta;
-if (typeof $ !== 'undefined') {
-  $('title').text(head.title);
-  $('head meta[name="description"]').attr('content', head.desc);
-  $('head meta[name="author"]').attr('content', head.framasoft[0]);
-  $('head meta[name="keywords"]').attr('content', head.keywords);
-
-  $('head meta[name="DC.title"]').attr('content', head.title);
-  $('head meta[name="DC.publisher"]').attr('content', head.framasoft[0]);
-  $('head meta[name="DC.contributor"]').attr('content', head.framasoft[0]);
-  $('head meta[name="DC.language"]').attr('content', head.lang);
-  $('head meta[name="DC.subject"]').attr('content', head.keywords);
-  $('head meta[name="DC.rights"]').attr('content', head.license);
-  $('head meta[name="DC.description"]').attr('content', head.desc);
+// Framanav
+if (!window.vuefsPrerender && document.querySelectorAll('script[src$="nav.js"]').length < 1) {
+  const nav = document.createElement('script');
+  nav.src = 'https://framasoft.org/nav/nav.js';
+  document.getElementsByTagName('head')[0].appendChild(nav);
 }
-// </meta>
 
+// Routes
 const router = new VueRouter({
   routes,
   mode: 'history',
-  base: __dirname + ((process.env.NODE_ENV === 'preview') ? 'accueil' : ''), // eslint-disable-line
+  base: `${__dirname}${process.env.BASE_URL}`,
 });
 
 new Vue({ // eslint-disable-line no-new

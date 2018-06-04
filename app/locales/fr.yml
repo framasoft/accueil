@@ -5,11 +5,10 @@ home: Accueil
 meta:
   lang: fr
   title: Framasoft ~ Page portail du réseau
-  framasoft:
-  - Framasoft
-  - https://framasoft.org
-  - <a href="https://framasoft.org"><b class="violet">Frama</b><b class="orange">soft</b></a>
-  slogan: La route est longue mais la voie est libre…
+  name: Framasoft
+  baseURL: https://framasoft.org
+  framaname: <b class="violet">Frama</b><b class="orange">soft</b>
+  lead: La route est longue mais la voie est libre…
   desc: |
     Association française de loi 1901, issue du monde éducatif, Framasoft est un réseau
     d’éducation populaire consacré principalement au logiciel libre.
@@ -20,13 +19,36 @@ meta:
     propose des liens vers les différents sites et activités du réseau.
   keywords: Framasoft, logiciels libres, logiciels libres et open source, culture libre, FOSS, promotion et diffusion des logiciels libres, open source
   license: Creative Commons-By-SA sauf mention contraire
-  salaries:
-  - 8
-  - huit
+  salaries: (huit | 8)
 
-  evl:
-  - En Vente Libre
-  - http://www.enventelibre.org/40-framasoft
+# Navigation interne
+nav:
+  lite: Accès rapide
+  full: Accueil classique
+  langChange: Changer la langue
+  lang: Langue
+
+  logiciel: Rubrique logiciels
+  logicielTitle: vers la rubrique logiciels
+  culture: Rubrique culture
+  cultureTitle: vers la rubrique culture
+  cloud: Rubrique cloud
+  cloudTitle: vers la rubrique cloud
+  vrac: Rubrique libr’en vrac
+  vracTitle: vers la rubrique libr’en vrac
+
+# Carousel
+carousel:
+  play: Lecture
+  pause: Pause
+  prev: Diapo précédente
+  next: Diapo suivante
+
+# Recherche
+search:
+  btn: Rechercher
+  frama: sur les sites de Framasoft
+  web: sur le web
 
 liens:
   soutenir: https://soutenir.framasoft.org
@@ -37,9 +59,6 @@ liens:
   participer: https://participer.framasoft.org/fr/
   cloud: https://framacloud.org/fr/
   gege: https://framalab.org/gknd-creator/
-
-sites:
-
 
 # Catégories
 cat:
@@ -614,35 +633,6 @@ cat:
           Pour tout savoir sur l’utilisation des services en
           ligne que nous proposons et apprendre à travers nos
           différents guides comment gagner en autonomie.
-
-# Carousel
-carousel:
-  play: Lecture
-  pause: Pause
-  prev: Diapo précédente
-  next: Diapo suivante
-
-# Recherche
-search:
-  - Rechercher
-  - sur les sites de Framasoft
-  - sur le web
-
-# Navigation interne
-nav:
-  lite: Accès rapide
-  full: Accueil classique
-  langChange: Changer la langue
-  lang: Langue
-
-  logiciel: Rubrique logiciels
-  logicielTitle: vers la rubrique logiciels
-  culture: Rubrique culture
-  cultureTitle: vers la rubrique culture
-  cloud: Rubrique cloud
-  cloudTitle: vers la rubrique cloud
-  vrac: Rubrique libr’en vrac
-  vracTitle: vers la rubrique libr’en vrac
 
 # Page 1 Présentation
 pages:

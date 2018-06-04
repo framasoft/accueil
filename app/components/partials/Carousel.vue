@@ -2,7 +2,7 @@
   <div id="carousel-actus" class="carousel slide">
     <div class="carousel-inner">
       <div class="item active">
-        <a href="#"><img src="img/slide-degooglisons-internet.png" alt="" />
+        <a href="#"><img :src="img.slide1" alt="" />
           <div class="carousel-caption">
             <p>…</p>
           </div>
@@ -11,25 +11,36 @@
     </div>
     <!-- Controls -->
     <p class="text-center" id="play-pause">
-      <a href="#play-pause" class="carousel-control" :title="$t('message.carousel.pause')">
+      <a href="#play-pause" class="carousel-control" :title="$t('msg.carousel.pause')">
         <i class="glyphicon glyphicon-pause"></i>
-        <span class="sr-only">{{ $t('message.carousel.pause') }}</span>
+        <span class="sr-only">{{ $t('msg.carousel.pause') }}</span>
       </a>
     </p>
     <a class="left carousel-control" href="#carousel-actus" role="button" data-slide="prev"
-      :title="$t('message.carousel.prev')">
+      :title="$t('msg.carousel.prev')">
         <i class="glyphicon glyphicon-chevron-left"></i>
-        <span class="sr-only">{{ $t('message.carousel.prev') }}</span>
+        <span class="sr-only">{{ $t('msg.carousel.prev') }}</span>
     </a>
     <a class="right carousel-control" href="#carousel-actus" role="button" data-slide="next"
-      :title="$t('message.carousel.next')">
+      :title="$t('msg.carousel.next')">
         <i class="glyphicon glyphicon-chevron-right"></i>
-        <span class="sr-only">{{ $t('message.carousel.next') }}</span>
+        <span class="sr-only">{{ $t('msg.carousel.next') }}</span>
     </a>
   </div>
 </template>
 
 <script>
+export default {
+  data() {
+    const { lang } = document.getElementsByTagName('html')[0];
+    const base = (window.location.href.split('/')[3] !== lang) ? `/${window.location.href.split('/')[3]}` : '';
+    return {
+      img: {
+        slide1: `${base}/img/slide-degooglisons-internet.png`,
+      }
+    }
+  }
+}
 $(document).ready(() => {
   $('#carousel-actus').carousel();
   $('#play-pause a').on('click', function playPause() {

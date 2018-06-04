@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-      <router-view></router-view>
-    </div>
+    <vue-headful
+      :title="$t('msg.meta.title')"
+    />
+    <router-view></router-view>
   </div>
 </template>
