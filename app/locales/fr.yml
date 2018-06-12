@@ -7,7 +7,9 @@ meta:
   title: Framasoft ~ Page portail du réseau
   name: Framasoft
   baseURL: https://framasoft.org
-  framaname: <b class="violet">Frama</b><b class="orange">soft</b>
+  framaname:
+    violet: Frama
+    orange: soft
   lead: La route est longue mais la voie est libre…
   desc: |
     Association française de loi 1901, issue du monde éducatif, Framasoft est un réseau
@@ -28,14 +30,19 @@ nav:
   langChange: Changer la langue
   lang: Langue
 
-  logiciel: Rubrique logiciels
-  logicielTitle: vers la rubrique logiciels
-  culture: Rubrique culture
-  cultureTitle: vers la rubrique culture
-  cloud: Rubrique cloud
-  cloudTitle: vers la rubrique cloud
-  vrac: Rubrique libr’en vrac
-  vracTitle: vers la rubrique libr’en vrac
+  parts:
+    logiciel:
+      key: Rubrique logiciels
+      title: vers la rubrique logiciels
+    culture:
+      key: Rubrique culture
+      title: vers la rubrique culture
+    cloud:
+      key: Rubrique cloud
+      title: vers la rubrique cloud
+    vrac:
+      key: Rubrique libr’en vrac
+      title: vers la rubrique libr’en vrac
 
 # Carousel
 carousel:
@@ -63,29 +70,37 @@ liens:
 # Catégories
 cat:
   communaute:
+    no_menu: true
     title: Libre communauté
     desc: Vous êtes libre ce soir ?
 
   campagnes:
+    no_menu: true
     sites:
       dio:
         link: https://degooglisons-internet.org
-        name: <b class="violet">Dégooglisons</b> <b class="orange">Internet</b>
+        name:
+          violet: Dégooglisons
+          orange: Internet
         what: Campagne 2014-2017
         icon: fa-shield
       cuo:
         link: https://contributopia.org
-        name: <b class="violet">Contributopia</b>
+        name:
+          violet: Contributopia
         what: Campagne 2017-2020
         icon: fa-shield
 
   logiciel:
     title: Libres logiciels
     desc: Liberté, égalité, fraternité
+    color: bleu
     sites:
       libre:
         link: http://framalibre.org
-        name: <b class="violet">Frama</b><b class="bleu">libre</b>
+        name:
+          violet: Frama
+          bleu: libre
         what: Un annuaire
         icon: fa-linux
         title: Le gros annuaire
@@ -96,7 +111,9 @@ cat:
 
       key:
         link: https://framakey.org
-        name: <b class="violet">Frama</b><b class="bleu">key</b>
+        name:
+          violet: Frama
+          bleu: key
         what: Une clé USB
         icon: fa-usb
         title: Le plein de liberté dans une simple clé
@@ -109,7 +126,9 @@ cat:
 
       dvd:
         link: http://framadvd.org
-        name: <b class="violet">Frama</b><b class="bleu">dvd</b>
+        name:
+          violet: Frama
+          bleu: dvd
         what: Un DVD
         icon: fa-play-circle-o
         title: Le plein de liberté dans un DVD
@@ -121,7 +140,9 @@ cat:
 
       pack:
         link: http://framapack.org
-        name: <b class="violet">Frama</b><b class="bleu">pack</b>
+        name:
+          violet: Frama
+          bleu: pack
         what: Un distributeur
         icon: fa-download
         title: Distribution massive
@@ -134,10 +155,13 @@ cat:
   culture:
     title: Libres cultures
     desc: Extension du domaine du Libre
+    color: rouge
     sites:
       blog:
         link: https://framablog.org
-        name: <b class="violet">Frama</b><b class="rouge">blog</b>
+        name:
+          violet: Frama
+          rouge: blog
         what: Des infos
         icon: fa-pencil
         title: L’actualité du « Libre »
@@ -149,7 +173,9 @@ cat:
 
       book:
         link: http://framabook.org
-        name: <b class="violet">Frama</b><b class="rouge">book</b>
+        name:
+          violet: Frama
+          rouge: book
         what: Des livres…
         icon: fa-book
         title: Le pari du livre libre
@@ -162,7 +188,9 @@ cat:
 
       bookin:
         link: http://framabookin.org
-        name: <b class="violet">Frama</b><b class="rouge">bookin</b>
+        name:
+          violet: Frama
+          rouge: bookin
         what: …et une bibliothèque
         icon: fa-coffee
         title: Une bibliothèque numérique libre
@@ -175,7 +203,9 @@ cat:
 
       lang:
         link: https://participer.framasoft.org/traduction-rejoignez-framalang/
-        name: <b class="violet">Frama</b><b class="rouge">lang</b>
+        name:
+          violet: Frama
+          rouge: lang
         what: Des traductions
         icon: fa-language
         title: Traduction collaborative
@@ -188,7 +218,9 @@ cat:
 
       tube:
         link: https://framatube.org
-        name: <b class="violet">Frama</b><b class="rouge">tube</b>
+        name:
+          violet: Frama
+          rouge: tube
         what: Des vidéos
         icon: fa-film
         title: Notre « YouTube » du Libre
@@ -200,7 +232,9 @@ cat:
 
       zic:
         link: http://framazic.org
-        name: <b class="violet">Frama</b><b class="rouge">zic</b>
+        name:
+          violet: Frama
+          rouge: zic
         what: De la musique
         icon: fa-music
         title: Quand la musique est libre
@@ -214,10 +248,13 @@ cat:
   cloud:
     title: Libres services
     desc: Du cloud computing libre ? c’est possible !
+    color: vert
     sites:
       pad:
         link: https://framapad.org
-        name: <b class="violet">Frama</b><b class="vert">pad</b>
+        name:
+          violet: Frama
+          vert: pad
         what: Éditer
         icon: fa-align-left
         title: Éditer collaborativement
@@ -229,7 +266,9 @@ cat:
 
       calc:
         link: https://framacalc.org
-        name: <b class="violet">Frama</b><b class="vert">calc</b>
+        name:
+          violet: Frama
+          vert: calc
         what: Calculer
         icon: fa-th
         title: Un tableur collaboratif
@@ -241,7 +280,9 @@ cat:
 
       forms:
         link: https://framaforms.org
-        name: <b class="violet">Frama</b><b class="vert">forms</b>
+        name:
+          violet: Frama
+          vert: forms
         what: Enquêter
         icon: fa-list-ul
         title: Création de questionnaires
@@ -254,7 +295,9 @@ cat:
 
       agenda:
         link: https://framagenda.org
-        name: <b class="violet">Fram</b><b class="vert">agenda</b>
+        name:
+          violet: Fram
+          vert: agenda
         what: Organiser
         icon: fa-calendar
         title: Agenda partagé
@@ -267,8 +310,10 @@ cat:
 
       date:
         link: https://framadate.org
-        name: <b class="violet">Frama</b><b class="vert">date</b>
-        what: <span class="sr-only">Organiser</span>
+        name:
+          violet: Frama
+          vert: date
+        what: Organiser
         icon: fa-calendar-check-o
         title: Organiser des rendez-vous et des sondages
         desc: |
@@ -278,8 +323,10 @@ cat:
 
       board:
         link: https://framaboard.org
-        name: <b class="violet">Frama</b><b class="vert">board</b>
-        what: <span class="sr-only">Organiser</span>
+        name:
+          violet: Frama
+          vert: board
+        what: Organiser
         icon: fa-dashboard
         title: Gérer des projets
         desc: |
@@ -291,7 +338,9 @@ cat:
 
       mindmap:
         link: https://framindmap.org
-        name: <b class="violet">Fra</b><b class="vert">mindmap</b>
+        name:
+          violet: Fra
+          vert: mindmap
         what: Structurer
         icon: fa-sitemap
         title: Créer des cartes mentales
@@ -302,7 +351,9 @@ cat:
 
       vectoriel:
         link: http://framavectoriel.org
-        name: <b class="violet">Frama</b><b class="vert">vectoriel</b>
+        name:
+          violet: Frama
+          vert: vectoriel
         what: Dessiner
         icon: fa-paint-brush
         title: Dessiner en vectoriel
@@ -312,7 +363,9 @@ cat:
 
       slides:
         link: https://framaslides.org
-        name: <b class="violet">Frama</b><b class="vert">slides</b>
+        name:
+          violet: Frama
+          vert: slides
         what: Exposer
         icon: fa-pie-chart
         title: Créer et partager des diaporamas
@@ -323,7 +376,9 @@ cat:
 
       maestro:
         link: https://framaestro.org
-        name: <b class="violet">Fra</b><b class="vert">maestro</b>
+        name:
+          violet: Fra
+          vert: maestro
         what: Collaborer
         icon: fa-magic
         title: Ochestrez vos projets collaboratifs
@@ -334,7 +389,9 @@ cat:
 
       bee:
         link: https://framabee.org
-        name: <b class="violet">Frama</b><b class="vert">bee</b>
+        name:
+          violet: Frama
+          vert: bee
         what: Rechercher
         icon: fa-search
         title: Le moteur qui butine les internets pour vous
@@ -349,7 +406,9 @@ cat:
 
       sphere:
         link: https://framasphere.org
-        name: <b class="violet">Frama</b><b class="vert">sphère</b>
+        name:
+          violet: Frama
+          vert: sphère
         what: Réseauter
         icon: fa-diaspora
         title: Le réseau social libre
@@ -361,8 +420,10 @@ cat:
 
       piaf:
         link: https://framapiaf.org
-        name: <b class="violet">Frama</b><b class="vert">piaf</b>
-        what: <span class="sr-only">Réseauter</span>
+        name:
+          violet: Frama
+          vert: piaf
+        what: Réseauter
         icon: fa-mastodon
         title: Réseau social en 500 caractères
         desc: |
@@ -373,7 +434,9 @@ cat:
 
       team:
         link: https://framateam.org
-        name: <b class="violet">Frama</b><b class="vert">team</b>
+        name:
+          violet: Frama
+          vert: team
         what: Discuter
         icon: fa-comments-o
         title: Communication collaborative
@@ -384,8 +447,10 @@ cat:
 
       listes:
         link: https://framalistes.org
-        name: <b class="violet">Frama</b><b class="vert">listes</b>
-        what: <span class="sr-only">Discuter</span>
+        name:
+          violet: Frama
+          vert: listes
+        what: Discuter
         icon: fa-group
         title: Liste de diffusion
         desc: |
@@ -397,8 +462,10 @@ cat:
 
       talk:
         link: https://framatalk.org
-        name: <b class="violet">Frama</b><b class="vert">talk</b>
-        what: <span class="sr-only">Discuter</span>
+        name:
+          violet: Frama
+          vert: talk
+        what: Discuter
         icon: fa-video-camera
         title: Visioconférence
         desc: |
@@ -409,7 +476,9 @@ cat:
 
       vox:
         link: https://framavox.org
-        name: <b class="violet">Frama</b><b class="vert">vox</b>
+        name:
+          violet: Frama
+          vert: vox
         what: Décider
         icon: fa-bullhorn
         title: Prise de décision
@@ -420,7 +489,9 @@ cat:
 
       memo:
         link: https://framemo.org
-        name: <b class="violet">Fra</b><b class="vert">memo</b>
+        name:
+          violet: Fra
+          vert: memo
         what: Cogiter
         icon: fa-object-group
         title: Organisation d’idées
@@ -430,7 +501,9 @@ cat:
 
       notes:
         link: https://framanotes.org
-        name: <b class="violet">Frama</b><b class="vert">notes</b>
+        name:
+          violet: Frama
+          vert: notes
         what: Noter
         icon: fa-sticky-note
         title: Prise de notes
@@ -439,18 +512,22 @@ cat:
 
       bag:
         link: https://framabag.org
-        name: <b class="violet">Frama</b><b class="vert">bag</b>
+        name:
+          violet: Frama
+          vert: bag
         what: Suivre l’actualité
         icon: fa-briefcase
-        title: Ne ratez plus aucun article !
+        title: Ne ratez plus aucun article !
         desc: |
           Framabag vous permet de mettre de côté les articles
           que vous n’avez pas le temps de lire tout de suite.
 
       news:
         link: https://framanews.org
-        name: <b class="violet">Frama</b><b class="vert">news</b>
-        what: <span class="sr-only">Suivre l’actualité</span>
+        name:
+          violet: Frama
+          vert: news
+        what: Suivre l’actualité
         icon: fa-newspaper-o
         title: Suivre l’actualité
         desc: |
@@ -459,7 +536,9 @@ cat:
 
       carte:
         link: https://framacarte.org
-        name: <b class="violet">Frama</b><b class="vert">carte</b>
+        name:
+          violet: Frama
+          vert: carte
         what: Cartographier
         icon: fa-map
         title: Créer des cartes personnalisées
@@ -471,7 +550,9 @@ cat:
 
       games:
         link: http://framagames.org
-        name: <b class="violet">Frama</b><b class="vert">games</b>
+        name:
+          violet: Frama
+          vert: games
         what: Jouer
         icon: fa-gamepad
         title: Jouer en ligne ou déconnecté
@@ -482,8 +563,10 @@ cat:
 
       minetest:
         link: https://framinetest.org
-        name: <b class="violet">Fra</b><b class="vert">minetest</b>
-        what: <span class="sr-only">Jouer</span>
+        name:
+          violet: Fra
+          vert: minetest
+        what: Jouer
         icon: fa-cube
         title: Le jeu éducatif à creuser
         desc: |
@@ -493,7 +576,9 @@ cat:
 
       drop:
         link: https://framadrop.org
-        name: <b class="violet">Frama</b><b class="vert">drop</b>
+        name:
+          violet: Frama
+          vert: drop
         what: Partager
         icon: fa-send
         title: Partager des fichiers anonymement
@@ -505,8 +590,10 @@ cat:
 
       bin:
         link: https://framabin.org
-        name: <b class="violet">Frama</b><b class="vert">bin</b>
-        what: <span class="sr-only">Partager</span>
+        name:
+          violet: Frama
+          vert: bin
+        what: Partager
         icon: fa-paste
         title: Transmettre des données chiffrées
         desc: |
@@ -516,8 +603,10 @@ cat:
 
       pic:
         link: https://framapic.org
-        name: <b class="violet">Frama</b><b class="vert">pic</b>
-        what: <span class="sr-only">Partager</span>
+        name:
+          violet: Frama
+          vert: pic
+        what: Partager
         icon: fa-photo
         title: Partager des images anonymement
         desc: |
@@ -527,8 +616,10 @@ cat:
 
       link:
         link: https://frama.link
-        name: <b class="violet">Frama</b><b class="vert">link</b>
-        what: <span class="sr-only">Partager</span>
+        name:
+          violet: Frama
+          vert: link
+        what: Partager
         icon: fa-link
         title: Réduire des liens
         desc: |
@@ -539,7 +630,9 @@ cat:
 
       drive:
         link: https://framadrive.org
-        name: <b class="violet">Frama</b><b class="vert">drive</b>
+        name:
+          violet: Frama
+          vert: drive
         what: Stocker
         icon: fa-cloud-upload
         title: Héberger ses documents en ligne
@@ -550,8 +643,10 @@ cat:
 
       my:
         link: https://my.framasoft.org
-        name: <b class="violet">My</b><b class="vert">Frama</b>
-        what: <span class="sr-only">Stocker</span>
+        name:
+          violet: My
+          vert: Frama
+        what: Stocker
         icon: fa-star
         title: Marque-pages
         desc: |
@@ -564,7 +659,9 @@ cat:
 
       git:
         link: https://framagit.org
-        name: <b class="violet">Frama</b><b class="vert">git</b>
+        name:
+          violet: Frama
+          vert: git
         what: Coder
         icon: fa-git
         title: Héberger du code libre
@@ -575,7 +672,9 @@ cat:
 
       site:
         link: https://frama.site
-        name: <b class="violet">Frama</b><b class="vert">site</b>
+        name:
+          violet: Frama
+          vert: site
         what: Publier
         icon: fa-globe
         title: Hébergement de sites
@@ -587,8 +686,10 @@ cat:
 
       wiki:
         link: https://frama.wiki
-        name: <b class="violet">Frama</b><b class="vert">wiki</b>
-        what: <span class="sr-only">Publier</span>
+        name:
+          violet: Frama
+          vert: wiki
+        what: Publier
         icon: fa-puzzle-piece
         title: Hébergement de wikis
         desc: |
@@ -599,10 +700,13 @@ cat:
   vrac:
     title: Libr’en vrac
     desc: Inclassables mais non mal classés !
+    color: jaune
     sites:
       colibri:
         link: https://framacolibri.org
-        name: <b class="violet">Frama</b><b class="jaune">colibri</b>
+        name:
+          violet: Frama
+          jaune: colibri
         what: Un forum
         icon: fa-comment
         title: Le forum du réseau Framasoft
@@ -614,7 +718,9 @@ cat:
 
       evl:
         link: http://enventelibre.org
-        name: <b class="violet">EnVente</b><b class="jaune">Libre</b>
+        name:
+          violet: EnVente
+          jaune: Libre
         what: Une boutique
         icon: fa-shopping-cart
         title: Notre libre petite boutique
@@ -625,7 +731,9 @@ cat:
 
       docs:
         link: https://docs.framasoft.org/fr/
-        name: <b class="violet">Frama</b><b class="jaune">docs</b>
+        name:
+          violet: Frama
+          jaune: docs
         what: Documentations
         icon: fa-graduation-cap
         title: Notre centre de documentation

@@ -2,7 +2,9 @@
   <div id="framaheader" class="clearfix header">
     <div class="col-md-4">
       <h1 id="framasoft" class="sitename"">
-        <a :href="$t('msg.meta.baseURL')" v-html="$t('msg.meta.framaname')"></a>
+        <a :href="$t('msg.meta.baseURL')">
+          <b :key="color" :class="color" v-for="(part, color) in $t('msg.meta.framaname')">{{ part }}</b>
+        </a>
       </h1>
     </div>
     <div class="col-md-5">
@@ -18,6 +20,7 @@
 <script>
 import I18n from './I18n.vue'
 import InterNavHead from './InterNavHead.vue'
+
 export default {
   name: 'framaheader',
   components: {

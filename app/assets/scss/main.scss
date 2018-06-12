@@ -232,48 +232,48 @@ body > .row {
 
 
 /* topPgLogiciel symbole ⇔ sur bleu */
-#topPgLogiciels .navEntities li:nth-child(1) a {        background-position:0 -42px;}
-#topPgLogiciels .navEntities li:nth-child(1) a:hover,
-#topPgLogiciels .navEntities2 li:nth-child(1) a:hover { background-position:0 -63px;}
+#topPglogiciel .navEntities li:nth-child(1) a {        background-position:0 -42px;}
+#topPglogiciel .navEntities li:nth-child(1) a:hover,
+#topPglogiciel .navEntities2 li:nth-child(1) a:hover { background-position:0 -63px;}
 
-/* topPgCulture symbole ⇔ sur rouge */
-#topPgCulture .navEntities li:nth-child(2) a {          background-position:-43px -82px;}
-#topPgCulture .navEntities li:nth-child(2) a:hover,
-#topPgCulture .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -103px;}
+/* topPgculture symbole ⇔ sur rouge */
+#topPgculture .navEntities li:nth-child(2) a {          background-position:-43px -82px;}
+#topPgculture .navEntities li:nth-child(2) a:hover,
+#topPgculture .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -103px;}
 
-/* topPgCloud symbole ⇔ sur vert */
-#topPgCloud .navEntities li:nth-child(3) a {            background-position:-86px -122px;}
-#topPgCloud .navEntities li:nth-child(3) a:hover,
-#topPgCloud .navEntities2 li:nth-child(3) a:hover {     background-position:-86px -142px;}
+/* topPgcloud symbole ⇔ sur vert */
+#topPgcloud .navEntities li:nth-child(3) a {            background-position:-86px -122px;}
+#topPgcloud .navEntities li:nth-child(3) a:hover,
+#topPgcloud .navEntities2 li:nth-child(3) a:hover {     background-position:-86px -142px;}
 
-/* topPgCloud symbole ⇔ sur jaune */
-#topPgVrac .navEntities li:nth-child(4) a {             background-position:-129px -163px;}
-#topPgVrac .navEntities li:nth-child(4) a:hover,
-#topPgVrac .navEntities2 li:nth-child(4) a:hover {      background-position:-129px -182px;}
+/* topPgcloud symbole ⇔ sur jaune */
+#topPgvrac .navEntities li:nth-child(4) a {             background-position:-129px -163px;}
+#topPgvrac .navEntities li:nth-child(4) a:hover,
+#topPgvrac .navEntities2 li:nth-child(4) a:hover {      background-position:-129px -182px;}
 
-/* topPgCulture, Cloud Vrac, symbole ⇑ sur bleu */
-#topPgCulture .navEntities li:nth-child(1) a,
-#topPgCloud .navEntities li:nth-child(1) a,
-#topPgVrac .navEntities li:nth-child(1) a {          background-position:0 -82px;}
-#topPgCulture .navEntities li:nth-child(1) a:hover,
-#topPgCulture .navEntities2 li:nth-child(1) a:hover,
-#topPgCloud .navEntities li:nth-child(1) a:hover,
-#topPgCloud .navEntities2 li:nth-child(1) a:hover,
-#topPgVrac .navEntities li:nth-child(1) a:hover,
-#topPgVrac .navEntities2 li:nth-child(1) a:hover {   background-position:0 -103px;}
+/* topPgculture, Cloud Vrac, symbole ⇑ sur bleu */
+#topPgculture .navEntities li:nth-child(1) a,
+#topPgcloud .navEntities li:nth-child(1) a,
+#topPgvrac .navEntities li:nth-child(1) a {          background-position:0 -82px;}
+#topPgculture .navEntities li:nth-child(1) a:hover,
+#topPgculture .navEntities2 li:nth-child(1) a:hover,
+#topPgcloud .navEntities li:nth-child(1) a:hover,
+#topPgcloud .navEntities2 li:nth-child(1) a:hover,
+#topPgvrac .navEntities li:nth-child(1) a:hover,
+#topPgvrac .navEntities2 li:nth-child(1) a:hover {   background-position:0 -103px;}
 
-/* topPgCloud Vrac, symbole ⇑ sur rouge */
-#topPgCloud .navEntities li:nth-child(2) a,
-#topPgVrac .navEntities li:nth-child(2) a {          background-position:-43px -122px;}
-#topPgCloud .navEntities li:nth-child(2) a:hover,
-#topPgCloud .navEntities2 li:nth-child(2) a:hover,
-#topPgVrac .navEntities li:nth-child(2) a:hover,
-#topPgVrac .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -142px;}
+/* topPgcloud Vrac, symbole ⇑ sur rouge */
+#topPgcloud .navEntities li:nth-child(2) a,
+#topPgvrac .navEntities li:nth-child(2) a {          background-position:-43px -122px;}
+#topPgcloud .navEntities li:nth-child(2) a:hover,
+#topPgcloud .navEntities2 li:nth-child(2) a:hover,
+#topPgvrac .navEntities li:nth-child(2) a:hover,
+#topPgvrac .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -142px;}
 
-/* topPgVrac, symbole ⇑ sur vert */
-#topPgVrac .navEntities li:nth-child(3) a {          background-position:-86px -163px;}
-#topPgVrac .navEntities li:nth-child(3) a:hover,
-#topPgVrac .navEntities2 li:nth-child(3) a:hover {   background-position:-86px -182px;}
+/* topPgvrac, symbole ⇑ sur vert */
+#topPgvrac .navEntities li:nth-child(3) a {          background-position:-86px -163px;}
+#topPgvrac .navEntities li:nth-child(3) a:hover,
+#topPgvrac .navEntities2 li:nth-child(3) a:hover {   background-position:-86px -182px;}
 
 
 /*-------------------- ContentAccueil ---------------*/
@@ -354,7 +354,7 @@ blockquote {
   margin-bottom: 1.5em;
 }
 
-#topPgCulture .miniBloc2:nth-child(2n+1) {
+#topPgculture .miniBloc2:nth-child(2n+1) {
   clear: both;
 }
 
@@ -364,34 +364,34 @@ h4 {
   margin-bottom: 0.5em;
 }
 
-#topPgLogiciels h4,
-#topPgCulture h4,
-#topPgCloud h4,
-#topPgVrac h4 {
+#topPglogiciel h4,
+#topPgculture h4,
+#topPgcloud h4,
+#topPgvrac h4 {
   background: url("../img/widgetsFrama2.png") no-repeat scroll transparent;
 }
-#topPgLogiciels h4 {
+#topPglogiciel h4 {
   background-position: 205px 2px;
 
   &:hover {
     background-position: 205px -23px;
   }
 }
-#topPgCulture h4   {
+#topPgculture h4   {
   background-position: 205px -52px;
 
   &:hover {
     background-position:  205px -80px;
   }
 }
-#topPgCloud h4     {
+#topPgcloud h4     {
   background-position: 205px -110px;
 
   &:hover {
     background-position: 205px -137px;
   }
 }
-#topPgVrac h4      {
+#topPgvrac h4      {
   background-position: 205px -166px;
 
   &:hover {
@@ -443,10 +443,10 @@ h4 {
   transform: rotate(270deg);
 }
 
-#topPgLogiciels .miniBlocSubTitle:before { color: $bleu; }
-#topPgCulture .miniBlocSubTitle:before   { color: $rouge; }
-#topPgCloud .miniBlocSubTitle:before     { color: $vert; }
-#topPgVrac .miniBlocSubTitle:before      { color: $jaune; }
+#topPglogiciel .miniBlocSubTitle:before { color: $bleu; }
+#topPgculture .miniBlocSubTitle:before   { color: $rouge; }
+#topPgcloud .miniBlocSubTitle:before     { color: $vert; }
+#topPgvrac .miniBlocSubTitle:before      { color: $jaune; }
 
 .EnVenteLibre {
   background: none;
