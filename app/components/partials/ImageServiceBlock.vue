@@ -4,7 +4,7 @@
     :class="`col-md-${image.width} miniBloc`">
     <a :href="image.link">
       <img
-        :src="image.src"
+        :src="`${$t('baseImg')}${image.src}`"
         :alt="image.alt"
         class="img-responsive" />
     </a>

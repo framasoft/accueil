@@ -1,31 +1,22 @@
 <template>
   <div :class="`col-md-${serviceWidth(index)} miniBloc ${clearBoth(index)}`">
-    <a :href="frama.link">
-      <h4 class="vert">
-        <b
-          v-for="(part, color) in frama.name"
-          :key="color"
-          :class="color">{{ part }}</b>
-      </h4>
+    <a :href="$t(`data.cat.cloud.sites.${index}.link`)">
+      <h4 class="vert" v-html="$t(`data.cat.cloud.sites.${index}.name`)"></h4>
     </a>
     <p
-      :class="`miniBlocSubTitle ${frama.icon}`"
-      v-html="frama.title"></p>
+      :class="`miniBlocSubTitle ${$t('data.cat.cloud.sites.' + index + '.icon')}`"
+      v-html="$t(`msg.cat.cloud.sites.${index}.title`)"></p>
     <p
       class="miniBlocTexte"
-      v-html="frama.desc"></p>
+      v-html="$t(`msg.cat.cloud.sites.${index}.desc`)"></p>
   </div>
 </template>
 <script>
 export default {
   name: 'ServiceBlock',
   props: {
-    frama: {
-      type: Object,
-      required: true,
-    },
     index: {
-      type: Number,
+      type: String,
       required: true,
     },
   },

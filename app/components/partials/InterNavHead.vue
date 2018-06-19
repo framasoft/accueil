@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <ul class="row navEntities">
     <li
       v-for="(part, key) in $t('msg.nav.parts')"

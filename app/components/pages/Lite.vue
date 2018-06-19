@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div id="lite">
     <div class="container ombre" id="topPgAccueil">
 
@@ -21,12 +21,11 @@
         <ul class="list-inline">
           <li class="col-xs-4 col-sm-3 text-center"
             v-for="(frama, index) in $t('msg.cat.cloud.sites')">
-            <a :href="frama.link" class="btn btn-lg btn-block btn-default"
+            <a :href="$t('data.cat.cloud.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
-              <i :class="`fa fa-3x fa-fw ${frama.icon}`"></i>
-              <br/><span>
-  <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
-</span>
+              <i :class="`fa fa-3x fa-fw ${$t('data.cat.cloud.sites.' + index + '.icon')}`"></i>
+              <br/>
+              <span v-html="$t('data.cat.cloud.sites.' + index + '.name')"></span>
             </a>
           </li>
         </ul>
@@ -36,13 +35,11 @@
         <ul class="list-inline">
           <li class="col-xs-4 col-sm-3 text-center"
             v-for="(frama, index) in $t('msg.cat.logiciel.sites')">
-            <a :href="frama.link" class="btn btn-lg btn-block btn-default"
+            <a :href="$t('data.cat.logiciel.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
-              <i :class="('fa fa-3x fa-fw ' + frama.icon )"></i>
+              <i :class="`fa fa-3x fa-fw ${$t('data.cat.logiciel.sites.' + index + '.icon')}`"></i>
               <br/>
-              <span>
-                <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
-              </span>
+              <span v-html="$t('data.cat.logiciel.sites.' + index + '.name')"></span>
             </a>
           </li>
         </ul>
@@ -52,13 +49,11 @@
         <ul class="list-inline">
           <li class="col-xs-4 col-sm-3 text-center"
             v-for="(frama, index) in $t('msg.cat.culture.sites')">
-            <a :href="frama.link" class="btn btn-lg btn-block btn-default"
+            <a :href="$t('data.cat.culture.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
-              <i :class="('fa fa-3x fa-fw ' + frama.icon )"></i>
+              <i :class="`fa fa-3x fa-fw ${$t('data.cat.culture.sites.' + index + '.icon')}`"></i>
               <br/>
-              <span>
-                <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
-              </span>
+              <span v-html="$t('data.cat.culture.sites.' + index + '.name')"></span>
             </a>
           </li>
         </ul>
@@ -68,13 +63,11 @@
         <ul class="list-inline">
           <li class="col-xs-4 col-sm-3 text-center"
             v-for="(frama, index) in $t('msg.cat.vrac.sites')">
-            <a :href="frama.link" class="btn btn-lg btn-block btn-default"
+            <a :href="$t('data.cat.vrac.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
-              <i :class="('fa fa-3x fa-fw ' + frama.icon )"></i>
+              <i :class="`fa fa-3x fa-fw ${$t('data.cat.vrac.sites.' + index + '.icon')}`"></i>
               <br/>
-              <span>
-                <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
-              </span>
+              <span v-html="$t('data.cat.vrac.sites.' + index + '.name')"></span>
             </a>
           </li>
         </ul>
@@ -83,7 +76,7 @@
       <hr class="trait" role="presentation" style="margin-left:-15px; margin-right:-15px">
 
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-xs-12 containerActu">
           <h3 id="news">{{ $t('msg.pages.news') }}</h3>
           <Carousel/>
         </div>

@@ -1,9 +1,8 @@
-<template lang="html">
+<template>
   <div id="framaheader" class="clearfix header">
     <div class="col-md-4">
       <h1 id="framasoft" class="sitename"">
-        <a :href="$t('msg.meta.baseURL')">
-          <b :key="color" :class="color" v-for="(part, color) in $t('msg.meta.framaname')">{{ part }}</b>
+        <a :href="`${$t('base')}${$t('lang')}/`" v-html="$t('data.meta.framaname')">
         </a>
       </h1>
     </div>

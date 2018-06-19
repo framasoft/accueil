@@ -1,19 +1,19 @@
-#carousel-actus {
+.containerActu {
   .carousel {
-    margin:1em;
+    margin: 1em;
 
     a {
       border-bottom: none;
     }
 
     img {
-      width:100%;
-      margin:0;
+      width: 100%;
+      margin: 0;
     }
   }
 
   .carousel-inner {
-    padding-bottom:75px;
+    padding-bottom: 75px;
     box-shadow: $carousel-ombre;
   }
 
@@ -24,8 +24,8 @@
 
   #play-pause {
     position: absolute;
-    margin-top: -100px;
-    margin-left:30px;
+    margin-top: -110px;
+    margin-left: 60px;
     left: 0%;
 
     button {
@@ -39,8 +39,8 @@
       height: 40px;
       padding-left: 4px;
       padding-top: 0px;
-      position:absolute;
-      opacity:1;
+      position: absolute;
+      opacity: 1;
       text-shadow:none;
       box-shadow: $button-ombre;
       border-color: transparent;
@@ -51,15 +51,19 @@
     }
   }
 
-  .carousel-caption{
+  .carousel-caption {
     background: #f3f3f3;
     bottom:-75px;
     color: #333;
-    left:0;
-    right:0;
-    position:absolute;
-    height:78px ;
-    text-shadow:none;
-    border-top:1px solid #ddd;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 78px ;
+    text-shadow: none;
+    border-top: 1px solid #ddd;
+
+    h4 {
+      border: none;
+    }
   }
 }

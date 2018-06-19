@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <form method="post" id="search" action="https://framabee.org">
     <div class="input-group input-group-lg">
       <input type="search" name="q" class="form-control">

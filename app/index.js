@@ -33,7 +33,7 @@ req.keys().forEach((key) => {
 const lang = window.location.href.split('/')[3].substr(0, 2).toLowerCase() || defaultLocale;
 document.getElementsByTagName('html')[0].setAttribute('lang', lang);
 const userLang = navigator.languages ||
-  [root.navigator.language || root.navigator.userLanguage];
+  [navigator.language || navigator.userLanguage];
 let defaultRouteLang = '';
 
 const messages = {};
@@ -48,6 +48,10 @@ for (let i = 0; i < locales.length; i += 1) {
   /* eslint-disable */
   import(/* webpackChunkName: "lang-[request]" */`./locales/${locales[i]}.yml`).then((data) => {
     messages[locales[i]].msg = data;
+    messages[locales[i]].lang = locales[i];
+    messages[locales[i]].base = `${process.env.BASE_URL}/`;
+    messages[locales[i]].baseImg = `${messages[locales[i]].base}img/`;
+    messages[locales[i]].data = require('./data.yml');
   }).catch((err) => {
     console.error(err);
   });
@@ -58,21 +62,19 @@ for (let i = 0; i < locales.length; i += 1) {
     { path: `/${locales[i]}`, component: Home },
     { path: `/${locales[i]}/lite`, component: Lite },
   );
-
-  // define defaultRouteLang
-  if (!window.vuefsPrerender) {
-    for (let j = 0; j < userLang.length; j += 1) {
-      if (defaultRouteLang === '' && userLang[j].substring(0, 2).toLowerCase() === locales[i]) {
-        defaultRouteLang = locales[i];
-      }
+}
+// define defaultRouteLang
+for (let j = 0; j < userLang.length; j += 1) { // check if user locales
+  for (let i = 0; i < locales.length; i += 1) { // matches with app locales
+    if (defaultRouteLang === '' && userLang[j].substring(0, 2).toLowerCase() === locales[i]) {
+      defaultRouteLang = locales[i];
     }
   }
 }
 
 // Home redirection
 const currentURL = window.location.href.replace(/\/+$/, '');
-if (!window.vuefsPrerender &&
-  (currentURL.split('/')[3] === undefined || currentURL.split('/')[3] === process.env.BASE_URL) &&
+if ((currentURL.split('/')[3] === undefined || currentURL.split('/')[3] === process.env.BASE_URL) &&
   (currentURL.split('/')[4] === undefined)) {
   if (defaultRouteLang === '') {
     defaultRouteLang = defaultLocale;

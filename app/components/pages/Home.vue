@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div id="home">
     <div class="container ombre" id="topPgAccueil">
 
@@ -8,7 +8,7 @@
         <div class="col-md-8">
           <div class="row">
             <figure id="pingouinVolant" class="pull-right" >
-              <img :src="image.pinchot" alt="" />
+              <img :src="$t('baseImg') + 'pingouinVolantRefait.png'" alt="" />
             </figure>
 
             <ul class="accroche" v-html="$t('msg.pages.accroche')"></ul>
@@ -57,7 +57,7 @@
           <h4 class="titreFramaTrucs">
             <a
               :href="`#topPg${titre}`"
-              :class="section.color">{{ section.title }}</a>
+              :class="$t('data.cat.' + titre + '.color')">{{ section.title }}</a>
           </h4>
           <div class="row">
             <ul class="listeFramaTrucs col-md-12">
@@ -69,15 +69,9 @@
                   :class="hideRepeat(index, tradEntries(section.sites))"
                 >{{ frama.what }}</span>
                 <a
-                  :href="frama.link"
+                  :href="$t('data.cat.' + titre + '.sites.' + key + '.link')"
                   :class="section.color">≻&nbsp;&nbsp;
-                  <span>
-                    <b
-                      v-for="(part, color) in frama.name"
-                      :key="color"
-                      :class="color"
-                    >{{ part }}</b>
-                  </span>
+                  <span v-html="$t('data.cat.' + titre + '.sites.' + key + '.name')"></span>
                 </a>
               </li>
             </ul>
@@ -106,7 +100,7 @@
 
       <div class="row partenaires" id="contentCommunaute">
         <div class="col-md-4 blocCommunaute" >
-          <img :src="image.team1" class="img-responsive" alt="" />
+          <img :src="$t('baseImg') + 'framateam1.jpg'" class="img-responsive" alt="" />
         </div>
 
         <div class="col-md-4 blocCommunaute">
@@ -134,13 +128,17 @@
         </div>
 
         <div class="col-md-4 blocCommunaute">
-          <img :src="image.team2" class="img-responsive" alt="" />
+          <img :src="$t('baseImg') + 'framateam2.jpg'" class="img-responsive" alt="" />
         </div>
 
         <div class="col-md-12 blocCommunaute partenaires">
           <h4 class="titreBloc">{{ $t('msg.pages.partenaires.title') }}</h4>
           <p class="miniBlocTexte" v-html="$t('msg.pages.partenaires.desc')"></p>
-          <ul class="list-inline text-center" v-html="$t('msg.pages.partenaires.text')"></ul>
+          <ul class="list-inline text-center">
+            <li><a href="http://milliweb.fr/"><img src="https://soutenir.framasoft.org/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
+            <li><a href="https://www.flexilivre.com/"><img src="https://soutenir.framasoft.org/sites/default/files/flexilivre.png" alt="FlexiLivre"></a></li>
+            <li><a href="http://linphone.org/"><img src="https://soutenir.framasoft.org/sites/default/files/belledonne2.png" alt="Belledonne Communication"></a></li>
+          </ul>
         </div>
       </div>
 
@@ -173,17 +171,15 @@
 
         <div class="col-md-4">
           <figure id="pingouinMuseeWindows">
-            <img :src="image.musee" alt="" />
+            <img :src="$t('baseImg') + 'musee-windows_ll-de-mars_licence-art-libre.jpg'" alt="" />
           </figure>
         </div>
       </div>
 
       <div class="row">
         <div class="col-md-3 miniBloc" v-for="(frama, index) in $t('msg.cat.logiciel.sites')">
-          <a :href="frama.link">
-            <h4 class="bleu">
-              <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
-            </h4>
+          <a :href="$t(`data.cat.logiciel.sites.${index}.link`)">
+            <h4 class="bleu" v-html="$t(`data.cat.logiciel.sites.${index}.name`)"></h4>
           </a>
           <p class="miniBlocSubTitle" v-bind:class="frama.icon" v-html="frama.title"></p>
           <p class="miniBlocTexte" v-html="frama.desc"></p>
@@ -220,7 +216,7 @@
 
           <div class="row col-md-12">
             <figure id="pingouinsQuelquesBriques">
-              <img :src="image.briques" alt="" />
+              <img :src="$t('baseImg') + 'quelques-briques_licence-art-libre.jpg'" alt="" />
             </figure>
           </div>
 
@@ -234,10 +230,8 @@
         <div class="col-md-6">
           <div class="row">
             <div class="col-md-6 miniBloc2" v-for="(frama, index) in $t('msg.cat.culture.sites')">
-              <a :href="frama.link">
-                <h4 class="rouge">
-                  <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
-                </h4>
+              <a :href="$t(`data.cat.culture.sites.${index}.link`)">
+                <h4 class="rouge" v-html="$t(`data.cat.culture.sites.${index}.name`)"></h4>
               </a>
               <p class="miniBlocSubTitle" v-bind:class="frama.icon" v-html="frama.title"></p>
               <p class="miniBlocTexte" v-html="frama.desc"></p>
@@ -281,9 +275,7 @@
             <ImageServiceBlock
               v-if="['bee', 'bag', 'drop', 'site'].includes(index)"
               :image="beforeImage(index)" />
-            <ServiceBlock
-              :frama="frama"
-              :index="index" />
+            <ServiceBlock :index="index" />
           </div>
         </div>
       </div>
@@ -319,7 +311,7 @@
           <h4 class="titreBloc">{{ $t('msg.pages.vrac.une.title') }}</h4>
           <p class="miniBlocSubTitle">{{ $t('msg.pages.vrac.une.desc') }}</p>
           <figure id="GeGeGenerator">
-            <a href="" ><img :src="image.gege" :alt="$t('msg.pages.vrac.une.desc')" /></a>
+            <a href="https://framalab.org/gknd-creator/"><img :src="$t('baseImg') + 'GeGeGenerator.jpg'" :alt="$t('msg.pages.vrac.une.desc')" /></a>
           </figure>
           <p class="legende">{{ $t('msg.pages.vrac.une.desc') }}</p>
         </div>
@@ -332,10 +324,8 @@
           :key="index"
           class="col-md-4 miniBloc"
         >
-          <a :href="frama.link">
-            <h4 class="jaune">
-              <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
-            </h4>
+          <a :href="$t(`data.cat.vrac.sites.${index}.link`)">
+            <h4 class="jaune" v-html="$t(`data.cat.vrac.sites.${index}.name`)"></h4>
           </a>
           <p class="miniBlocSubTitle" :class="frama.icon" v-html="frama.title"></p>
           <p class="miniBlocTexte" v-html="frama.desc"></p>
@@ -370,8 +360,7 @@ export default {
     Search,
   },
   data() {
-    const { lang } = document.getElementsByTagName('html')[0];
-    const base = (window.location.href.split('/')[3] !== lang) ? `/${window.location.href.split('/')[3]}` : '';
+    console.log(this.$i18n.locale); // eslint-disable-line
     return {
       service2image: {
         bee: 'stallmanoramix',
@@ -380,32 +369,26 @@ export default {
         site: 'fight',
       },
       image: {
-        pinchot: `${base}/img/pingouinVolantRefait.png`,
-        team1: `${base}/img/framateam1.jpg`,
-        team2: `${base}/img/framateam2.jpg`,
-        musee: `${base}/img/musee-windows_ll-de-mars_licence-art-libre.jpg`,
-        briques: `${base}/img/quelques-briques_licence-art-libre.jpg`,
-        gege: `${base}/img/GeGeGenerator.jpg`,
         stallmanoramix: {
-          src: `${base}/img/stallmanoramix.png`,
+          src: 'stallmanoramix.png',
           link: 'https://degooglisons-internet.org',
           width: '6',
           alt: '',
         },
         village: {
-          src: `${base}/img/village.png`,
+          src: 'village.png',
           link: 'https://degooglisons-internet.org',
           width: '6',
           alt: '',
         },
         fight: {
-          src: `${base}/img/fight.png`,
+          src: 'fight.png',
           link: 'https://degooglisons-internet.org',
           width: '6',
           alt: '',
         },
         carte: {
-          src: `${base}/img/carte_petite.png`,
+          src: 'carte_petite.png',
           link: 'https://degooglisons-internet.org',
           width: '3',
           alt: '',
@@ -434,16 +417,9 @@ export default {
     },
   },
 };
-
-// document.addEventListener('DOMContentLoaded', () => {
-//   document.querySelector('#f-bee').before(document.querySelector('#stallmanoramix'));
-//   document.querySelector('#f-bag').before(document.querySelector('#village'));
-//   document.querySelector('#f-drop').before(document.querySelector('#carte'));
-//   document.querySelector('#f-site').before(document.querySelector('#fight'));
-// });
 </script>
 <style>
-    .clearBoth{
-        clear: both;
-    }
+  .clearBoth{
+    clear: both;
+  }
 </style>

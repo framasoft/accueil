@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <div class="row finPseudoPage">
     <div class="col-md-2">
       <ul class="navEntities2">

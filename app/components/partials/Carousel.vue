@@ -1,21 +1,32 @@
-<template lang="html">
-  <carousel
-    ref="carousel"
-    :indicators="false"
-  >
-    <slide
-      v-for="(slide, index) in slides"
-      :key="index">
-      <a
-        :href="slide.src"
-      >
-        <img :src="slide.img" />
-      </a>
-      <div class="carousel-caption">
-        <h4>{{ slide.title }}</h4>
-      </div>
-    </slide>
-  </carousel>
+<template>
+  <div id="carousel">
+    <carousel :indicators="false" :controls="true" :interval="interval" ref="carousel">
+      <slide
+        v-for="(slide, index) in slides"
+        :key="index">
+        <a :href="slide.link" >
+          <img :src="slide.img" />
+        </a>
+        <div class="carousel-caption">
+          <h4>{{ slide.title }}</h4>
+        </div>
+      </slide>
+    </carousel>
+    <!-- <p class="text-center" id="play-pause" v-if="interval === 5000">
+      <button class="carousel-control" :title="$t('msg.carousel.pause')"
+        @click="play=0">
+        <i class="glyphicon glyphicon-pause" aria-hidden="true"></i>
+        <span class="sr-only">{{ $t('msg.carousel.pause') }}</span>
+      </button>
+    </p>
+    <p class="text-center" id="play-pause" v-else>
+      <button class="carousel-control" :title="$t('msg.carousel.play')"
+        @click="interval=5000">
+        <i class="glyphicon glyphicon-play" aria-hidden="true"></i>
+        <span class="sr-only">{{ $t('msg.carousel.play') }}</span>
+      </button>
+    </p> -->
+  </div>
 </template>
 
 <script>
@@ -26,16 +37,14 @@ export default {
     Carousel, Slide,
   },
   data() {
-    const { lang } = document.getElementsByTagName('html')[0];
-    const base = (window.location.href.split('/')[3] !== lang) ? `/${window.location.href.split('/')[3]}` : '';
     return {
-      playPause: 'pause',
+      interval: 5000,
       // Slides are loaded from https://rss.framasoft.org/carousel/carousel.json
       slides: [
         {
           link: 'https://…',
           title: '…',
-          img: `${base}/img/…`,
+          img: '',
         },
       ],
     };
@@ -44,23 +53,6 @@ export default {
     this.loadSlides();
   },
   methods: {
-    /**
-     * Le composant Carousel de uiv ne permet pas *facilement* d'intégrer le bouton play/pause
-     */
-    // togglePlayPause() {
-    //   if (this.playPause === 'play') {
-    //     $(document).ready(() => {
-    //       $('#carousel-actus').carousel('cycle');
-    //     });
-    //     this.playPause = 'pause';
-    //   } else {
-    //     $(document).ready(() => {
-    //       $('#carousel-actus').carousel('pause');
-    //     });
-    //     this.playPause = 'play';
-    //   }
-    //   return this.playPause;
-    // },
     loadSlides() {
       fetch('https://rss.framasoft.org/carousel/carousel.json').then(response => response.json()).then((data) => {
         this.slides = data.slides;
