@@ -49,7 +49,7 @@ for (let i = 0; i < locales.length; i += 1) {
   import(/* webpackChunkName: "lang-[request]" */`./locales/${locales[i]}.yml`).then((data) => {
     messages[locales[i]].msg = data;
     messages[locales[i]].lang = locales[i];
-    messages[locales[i]].base = `${process.env.BASE_URL}/`;
+    messages[locales[i]].base = `/${process.env.BASE_URL.replace(/(.+)/, '$1/')}`;
     messages[locales[i]].baseImg = `${messages[locales[i]].base}img/`;
     messages[locales[i]].data = require('./data.yml');
   }).catch((err) => {
