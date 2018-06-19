@@ -24,7 +24,9 @@
             <a :href="frama.link" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
               <i :class="`fa fa-3x fa-fw ${frama.icon}`"></i>
-              <br/><span v-html="frama.name"></span>
+              <br/><span>
+  <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
+</span>
             </a>
           </li>
         </ul>
@@ -37,7 +39,10 @@
             <a :href="frama.link" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
               <i :class="('fa fa-3x fa-fw ' + frama.icon )"></i>
-              <br/><span v-html="frama.name"></span>
+              <br/>
+              <span>
+                <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
+              </span>
             </a>
           </li>
         </ul>
@@ -50,7 +55,10 @@
             <a :href="frama.link" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
               <i :class="('fa fa-3x fa-fw ' + frama.icon )"></i>
-              <br/><span v-html="frama.name"></span>
+              <br/>
+              <span>
+                <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
+              </span>
             </a>
           </li>
         </ul>
@@ -63,7 +71,10 @@
             <a :href="frama.link" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
               <i :class="('fa fa-3x fa-fw ' + frama.icon )"></i>
-              <br/><span v-html="frama.name"></span>
+              <br/>
+              <span>
+                <b :key="color" :class="color" v-for="(part, color) in frama.name">{{ part }}</b>
+              </span>
             </a>
           </li>
         </ul>

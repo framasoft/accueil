@@ -1,8 +1,14 @@
 <template lang="html">
   <ul class="row navEntities">
-    <li><a href="#topPgLogiciels" :title="$t('msg.nav.logicielTitle')"><span class="sr-only">{{ $t('msg.nav.logiciel') }}</span></a></li>
-    <li><a href="#topPgCulture" :title="$t('msg.nav.cultureTitle')"><span class="sr-only">{{ $t('msg.nav.culture') }}</span></a></li>
-    <li><a href="#topPgCloud" :title="$t('msg.nav.cloudTitle')"><span class="sr-only">{{ $t('msg.nav.cloud') }}</span></a></li>
-    <li><a href="#topPgVrac" :title="$t('msg.nav.vracTitle')"><span class="sr-only">{{ $t('msg.nav.vrac') }}</span></a></li>
+    <li
+      v-for="(part, key) in $t('msg.nav.parts')"
+      :key="part.key">
+      <a
+        :href="`#topPg${key}`"
+        :title="part.title"
+      >
+        <span class="sr-only">{{ part.key }}</span>
+      </a>
+    </li>
   </ul>
 </template>
