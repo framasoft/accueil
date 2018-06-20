@@ -30,7 +30,10 @@ req.keys().forEach((key) => {
   locales.push(key.replace(/\.\/(.*)\.yml/, '$1'));
 });
 
-const lang = window.location.href.split('/')[3].substr(0, 2).toLowerCase() || defaultLocale;
+const lang = window.location.href
+  .split('/')[(process.env.BASE_URL === '') ? 3 : 4]
+  .substr(0, 2)
+  .toLowerCase() || defaultLocale;
 document.getElementsByTagName('html')[0].setAttribute('lang', lang);
 const userLang = navigator.languages ||
   [navigator.language || navigator.userLanguage];

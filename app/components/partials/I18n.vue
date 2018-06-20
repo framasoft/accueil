@@ -1,6 +1,6 @@
 <template>
   <div class="pull-right">
-    <router-link :to="'/' + this.$i18n.locale + '/lite'" class="btn btn-default" :title="$t('msg.lite')">
+    <router-link :to="'/' + $t('lang') + '/lite'" class="btn btn-default" :title="$t('msg.lite')">
       <i class="fa fa-lg fa-th-large" aria-hidden="true"></i>
       <span class="sr-only">{{ $t("msg.lite") }}</span>
     </router-link>
