@@ -62,12 +62,10 @@ search:
 # Catégories
 cat:
   communaute:
-    no_menu: true
     title: Libre communauté
     desc: Vous êtes libre ce soir ?
 
   campagnes:
-    no_menu: true
     sites:
       dio:
         name: <b class="violet">Dégooglisons</b> <b class="orange">Internet</b>

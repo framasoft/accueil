@@ -360,7 +360,6 @@ export default {
     Search,
   },
   data() {
-    console.log(this.$i18n.locale); // eslint-disable-line
     return {
       service2image: {
         bee: 'stallmanoramix',
@@ -409,7 +408,7 @@ export default {
     sideMenuCat() {
       const categories = this.$t('msg.cat');
       return Object.assign(...Object.keys(categories)
-        .filter(key => Object.prototype.hasOwnProperty.call(categories[key], 'no_menu') === false)
+        .filter(key => !/(communaute|campagnes)/.test(key))
         .map(key => ({ [key]: categories[key] })));
     },
     beforeImage(service) {

@@ -67,10 +67,8 @@ cat:
   communaute:
     title: Free community
     desc: Are you free tonight?
-    no_menu: true
 
   campagnes:
-    no_menu: true
     sites:
       dio:
         name: <b class="violet">De-googl-ify</b> <b class="orange">Internet</b>
