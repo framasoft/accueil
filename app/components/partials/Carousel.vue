@@ -12,9 +12,9 @@
         </div>
       </slide>
     </carousel>
-    <!-- <p class="text-center" id="play-pause" v-if="interval === 5000">
+    <p class="text-center" id="play-pause" v-if="interval === 5000">
       <button class="carousel-control" :title="$t('msg.carousel.pause')"
-        @click="play=0">
+        @click="interval=0">
         <i class="glyphicon glyphicon-pause" aria-hidden="true"></i>
         <span class="sr-only">{{ $t('msg.carousel.pause') }}</span>
       </button>
@@ -25,7 +25,7 @@
         <i class="glyphicon glyphicon-play" aria-hidden="true"></i>
         <span class="sr-only">{{ $t('msg.carousel.play') }}</span>
       </button>
-    </p> -->
+    </p>
   </div>
 </template>
 
