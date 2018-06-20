@@ -2,7 +2,6 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueI18n from 'vue-i18n';
 import vueHeadful from 'vue-headful';
-import jQuery from 'jquery';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/fork-awesome/css/fork-awesome.css';
@@ -12,10 +11,6 @@ import Home from './components/pages/Home.vue';
 import Lite from './components/pages/Lite.vue';
 
 import './assets/scss/main.scss';
-
-window.jQuery = jQuery;
-window.$ = jQuery;
-require('bootstrap'); // eslint-disable-line
 
 Vue.use(VueRouter);
 Vue.use(VueI18n);

@@ -40,13 +40,7 @@ export default {
     return {
       interval: 5000,
       // Slides are loaded from https://rss.framasoft.org/carousel/carousel.json
-      slides: [
-        {
-          link: 'https://…',
-          title: '…',
-          img: '',
-        },
-      ],
+      slides: [],
     };
   },
   created() {

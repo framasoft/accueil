@@ -275,7 +275,7 @@
             <ImageServiceBlock
               v-if="['bee', 'bag', 'drop', 'site'].includes(index)"
               :image="beforeImage(index)" />
-            <ServiceBlock :index="index" />
+            <ServiceBlock :index="index.toString()" />
           </div>
         </div>
       </div>

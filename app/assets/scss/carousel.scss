@@ -15,6 +15,23 @@
   .carousel-inner {
     padding-bottom: 75px;
     box-shadow: $carousel-ombre;
+
+    > .item {
+      transition: -webkit-transform .6s ease-in-out;
+      transition: transform .6s ease-in-out;
+      transition: transform .6s ease-in-out, -webkit-transform .6s ease-in-out;
+
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-perspective: 1000px;
+      perspective: 1000px;
+      display: none;
+    }
+    > .item.active,
+    > .item.next,
+    > .item.prev {
+      display: block;
+    }
   }
 
   .carousel-control.right, .carousel-control.left{
