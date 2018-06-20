@@ -26,7 +26,7 @@ req.keys().forEach((key) => {
 });
 
 const lang = window.location.href
-  .split('/')[(process.env.BASE_URL === '') ? 3 : 4]
+  .split('/')[(process.env.BASE_URL === '' || (window.location.href.match(/\//g)).length === 3) ? 3 : 4]
   .substr(0, 2)
   .toLowerCase() || defaultLocale;
 document.getElementsByTagName('html')[0].setAttribute('lang', lang);
@@ -90,6 +90,9 @@ const i18n = new VueI18n({
 
 // Framanav
 if (!window.vuefsPrerender && document.querySelectorAll('script[src$="nav.js"]').length < 1) {
+  const navConfig = document.createElement('script');
+  navConfig.innerHTML = 'l$ = { js: { j$: \'noConflict\' } }';
+  document.getElementsByTagName('head')[0].appendChild(navConfig);
   const nav = document.createElement('script');
   nav.src = 'https://framasoft.org/nav/nav.js';
   document.getElementsByTagName('head')[0].appendChild(nav);

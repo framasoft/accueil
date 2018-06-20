@@ -1,4 +1,4 @@
-.containerActu {
+.carousel-container {
   .carousel {
     margin: 1em;
 
@@ -31,6 +31,9 @@
     > .item.next,
     > .item.prev {
       display: block;
+    }
+    > .item.active ~ .item.active {
+      display: none; /* prevent double slides bug */
     }
   }
 

@@ -1,5 +1,5 @@
 <template>
-  <div id="carousel">
+  <div class="carousel-container" v-if="slides.length > 0">
     <carousel :indicators="false" :controls="true" :interval="interval" ref="carousel">
       <slide
         v-for="(slide, index) in slides"
