@@ -11,7 +11,9 @@
               <img :src="$t('baseImg') + 'pingouinVolantRefait.png'" alt="" />
             </figure>
 
-            <ul class="accroche" v-html="$t('msg.pages.accroche')"></ul>
+            <ul class="accroche">
+              <li v-for="item in $t('msg.pages.accroche')" v-html="item"></li>
+            </ul>
           </div>
 
           <div class="row" style="margin-top:40px; margin-bottom:20px">
@@ -38,10 +40,10 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="item in $t('msg.pages.medias.list')" :key="item[2]">
-                    <td>{{ item[0] }}</td>
+                  <tr v-for="item in $t('data.pages.medias.list')" :key="item[3]" v-if="item[0] === $t('lang') || (item[0] === 'en' && $t('lang') !== 'fr')">
                     <td>{{ item[1] }}</td>
-                    <td><a :href="item[2]">{{ item[3] }}</a></td>
+                    <td>{{ item[2] }}</td>
+                    <td><a :href="item[3]" :hreflang="item[0]">{{ $t(item[4]) }}</a></td>
                   </tr>
                 </tbody>
               </table>
@@ -49,32 +51,33 @@
           </div>
         </div>
 
-        <div
-          v-for="(section, titre) in sideMenuCat()"
-          id="blocFramatrucs"
-          :key="titre"
-          class="col-md-4">
-          <h4 class="titreFramaTrucs">
-            <a
-              :href="`#topPg${titre}`"
-              :class="$t('data.cat.' + titre + '.color')">{{ section.title }}</a>
-          </h4>
-          <div class="row">
-            <ul class="listeFramaTrucs col-md-12">
-              <li
-                v-for="([key, frama], index) in tradEntries(section.sites)"
-                :key="frama.link"
-              >
-                <span
-                  :class="hideRepeat(index, tradEntries(section.sites))"
-                >{{ frama.what }}</span>
-                <a
-                  :href="$t('data.cat.' + titre + '.sites.' + key + '.link')"
-                  :class="section.color">≻&nbsp;&nbsp;
-                  <span v-html="$t('data.cat.' + titre + '.sites.' + key + '.name')"></span>
-                </a>
-              </li>
-            </ul>
+        <div id="blocFramatrucs" class="col-md-4">
+          <div
+            v-for="(section, titre) in sideMenuCat()"
+            :key="titre"
+            >
+            <h4 class="titreFramaTrucs">
+              <a
+                :href="`#topPg${titre}`"
+                :class="$t('data.cat.' + titre + '.color')">{{ section.title }}</a>
+            </h4>
+            <div class="row">
+              <ul class="listeFramaTrucs col-md-12">
+                <li
+                  v-for="([key, frama], index) in tradEntries(section.sites)"
+                  :key="frama.link"
+                >
+                  <span
+                    :class="hideRepeat(index, tradEntries(section.sites))"
+                  >{{ frama.what }}</span>
+                  <a
+                    :href="$t('data.cat.' + titre + '.sites.' + key + '.link')"
+                    :class="section.color">≻&nbsp;&nbsp;
+                    <span v-html="$t('data.cat.' + titre + '.sites.' + key + '.name')"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

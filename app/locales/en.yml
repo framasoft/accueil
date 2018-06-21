@@ -655,16 +655,11 @@ cat:
 
 # Page 1 Présentation
 pages:
-  accroche: '
-    <li>A network dedicated to globally promoting "<i>free</i>" and particularly <i>free software</i>.</li>
-
-    <li>Many services and innovative projects freely put at the disposal of the general public.</li>
-
-    <li>A <a href="#topPgcommunaute">community</a> of volunteers supported by an association of public interest.</li>
-
-    <li>An invitation to build together a world of sharing and cooperation.</li>
-
-    '
+  accroche:
+  - A network dedicated to globally promoting "<i>free</i>" and particularly <i>free software</i>.
+  - Many services and innovative projects freely put at the disposal of the general public.
+  - A <a href="#topPgcommunaute">community</a> of volunteers supported by an association of public interest.
+  - An invitation to build together a world of sharing and cooperation.
 
   news: What's up on Framasoft?
   medias:
@@ -673,16 +668,11 @@ pages:
     th1: Date
     th2: Media
     th3: Links
-    list:
-    - ['26/02/2017', 'Konrad Lishka',
-       'https://www.konradlischka.info/2017/02/blog/how-a-french-association-with-6-employees-offers-mainstream-users-free-and-libre-alternatives-to-facebook-groups-slack-skype-and-the-like/',
-       'Link to the article']
-    - ['24/08/2016', 'Opensource.com',
-       'https://opensource.com/business/16/8/open-source-alternatives-office-365',
-       'Link to the article']
-    - ['17/10/2016', 'Worldcrunch',
-       'http://www.worldcrunch.com/tech-science/the-open-source-group-trying-to-quotde-googlequot-the-internet',
-       'Link to the article']
+    lArticle: Link to the article
+    lPaywall: Link to the article (subscribers)
+    lSummary: Link to the summary of the issue
+    lPodcast: Link to the podcast
+    lListen: Link to the listening page
 
 # Page 2 Libre communauté
   communaute:

@@ -719,16 +719,11 @@ cat:
 
 # Page 1 Présentation
 pages:
-  accroche: '
-    <li>Un réseau dédié à la promotion du « <i>libre</i> » en général et du <i>logiciel libre</i> en particulier.</li>
-
-    <li>De nombreux services et projets innovants mis librement à disposition du grand public.</li>
-
-    <li>Une <a href="#topPgcommunaute">communauté</a> de bénévoles soutenue par une association d’intérêt général.</li>
-
-    <li>Une invitation à bâtir ensemble un monde de partage et de coopération.</li>
-
-    '
+  accroche:
+  - Un réseau dédié à la promotion du « <i>libre</i> » en général et du <i>logiciel libre</i> en particulier.
+  - De nombreux services et projets innovants mis librement à disposition du grand public.
+  - Une <a href="#topPgcommunaute">communauté</a> de bénévoles soutenue par une association d’intérêt général.
+  - Une invitation à bâtir ensemble un monde de partage et de coopération.
 
   news: Quoi de neuf sur Framasoft ?
   medias:
@@ -737,43 +732,11 @@ pages:
     th1: Date
     th2: Média
     th3: Liens
-    list:
-    - ['30/07/2017', 'Usbek & Rica',
-       'https://usbeketrica.com/article/framasoft-une-amap-du-logiciel-libre',
-       'Lien vers l’article']
-    - ['05/02/2017', 'France 24 / Mashable',
-       'http://mashable.france24.com/tech-business/20170204-chatons-collectif-hebergeurs-framasoft?ref=tw_i',
-       'Lien vers l’article']
-    - ['15/12/2016', 'Next Inpact',
-       'http://www.nextinpact.com/news/102539-degooglisons-internet-framasoft-fait-bilan-son-action.htm',
-       'Lien vers l’article']
-    - ['10/12/2016', 'Le Monde',
-       'http://www.lemonde.fr/pixels/article/2016/12/10/framasoft-des-chatons-armes-de-logiciels-libres-pour-contrer-google_5046752_4408996.html?xtmc=framasoft&xtcr=1',
-       'Lien vers l’article']
-    - ['10/12/2016', 'Le Figaro',
-       'http://www.lefigaro.fr/secteur/high-tech/2016/11/30/32001-20161130ARTFIG00001-les-defenseurs-du-logiciel-libre-decourages-par-l-education-nationale.php',
-       'Lien vers l’article']
-    - ['28/11/2016', 'L’Âge de Faire (n°114)',
-       'http://www.lagedefaire-lejournal.fr/geants-net-coupons-cordon/',
-       'Lien vers le sommaire du numéro']
-    - ['05/11/2016', 'France Culture',
-        'https://www.franceculture.fr/emissions/le-numerique-et-nous/surveillance-sur-le-web-comment-retrouver-le-pouvoir-dagir',
-        'Lien vers le podcast']
-    - ['19/10/2016', 'Korben.info',
-       'http://korben.info/framasoft-complete-arsenal-perforer-gafam.html',
-       'Lien vers l’article']
-    - ['03/10/2016', 'Libération',
-       'http://www.liberation.fr/futurs/2016/10/03/framasoft-accelere-la-degooglisation-du-web_1519262',
-       'Lien vers l’article']
-    - ['10/10/2016', 'France Info',
-       'http://www.francetvinfo.fr/replay-radio/nouveau-monde/nouveau-monde-est-il-possible-de-degoogliser-le-web_1854529.html',
-       'Lien vers la page d’écoute']
-    - ['24/05/2015', 'Le Soir (Belgique)',
-       'http://www.lesoir.be/886985/article/economie/vie-du-net/2015-05-23/google-vivre-sans-c-est-parfois-possible',
-       'Lien vers l’article (abonnés)']
-    - ['03/02/2015', 'L’Humanité',
-       'http://www.humanite.fr/logiciel-libre-et-ess-une-economie-lintention-de-tous-564379',
-       'Lien vers l’article']
+    lArticle: Lien vers l’article
+    lPaywall: Lien vers l’article (abonnés)
+    lSummary: Lien vers le sommaire du numéro
+    lPodcast: Lien vers le podcast
+    lListen: Lien vers la page d’écoute
 
 # Page 2 Libre communauté
   communaute:
