@@ -2,12 +2,12 @@
   <div id="framaheader" class="clearfix header">
     <div class="col-md-4">
       <h1 id="framasoft" class="sitename"">
-        <a :href="`${$t('base')}${$t('lang')}/`" v-html="$t('data.meta.framaname')">
+        <a :href="`${data['/']}${$t('lang')}/`" v-html="data.meta.framaname">
         </a>
       </h1>
     </div>
     <div class="col-md-5">
-      <p class="headerSubTitle">{{ $t('msg.meta.lead') }}</p>
+      <p class="headerSubTitle">{{ $t('meta.lead') }}</p>
     </div>
     <div class="col-md-3">
       <I18n/>
@@ -24,8 +24,13 @@ export default {
   name: 'framaheader',
   components: {
     I18n,
-    InterNavHead
-  }
+    InterNavHead,
+  },
+  data() {
+    return {
+      data: this.$i18n.messages.data,
+    }
+  },
 }
 
 // Konami code

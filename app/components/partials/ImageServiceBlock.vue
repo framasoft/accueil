@@ -4,7 +4,7 @@
     :class="`col-md-${image.width} miniBloc`">
     <a :href="image.link">
       <img
-        :src="`${$t('baseImg')}${image.src}`"
+        :src="`${data['/img/']}${image.src}`"
         :alt="image.alt"
         class="img-responsive" />
     </a>
@@ -18,6 +18,11 @@ export default {
       type: Object,
       required: true,
     },
+  },
+  data() {
+    return {
+      data: this.$i18n.messages.data,
+    }
   },
 };
 </script>

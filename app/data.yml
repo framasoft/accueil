@@ -10,8 +10,6 @@ meta:
 # Catégories
 cat:
   communaute:
-    title: Libre communauté
-    desc: Vous êtes libre ce soir ?
 
   campagnes:
     sites:
@@ -270,46 +268,46 @@ pages:
     list:
     - ['fr', '30/07/2017', 'Usbek & Rica',
        'https://usbeketrica.com/article/framasoft-une-amap-du-logiciel-libre',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['fr', '05/02/2017', 'France 24 / Mashable',
        'http://mashable.france24.com/tech-business/20170204-chatons-collectif-hebergeurs-framasoft?ref=tw_i',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['fr', '15/12/2016', 'Next Inpact',
        'http://www.nextinpact.com/news/102539-degooglisons-internet-framasoft-fait-bilan-son-action.htm',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['fr', '10/12/2016', 'Le Monde',
        'http://www.lemonde.fr/pixels/article/2016/12/10/framasoft-des-chatons-armes-de-logiciels-libres-pour-contrer-google_5046752_4408996.html?xtmc=framasoft&xtcr=1',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['fr', '10/12/2016', 'Le Figaro',
        'http://www.lefigaro.fr/secteur/high-tech/2016/11/30/32001-20161130ARTFIG00001-les-defenseurs-du-logiciel-libre-decourages-par-l-education-nationale.php',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['fr', '28/11/2016', 'L’Âge de Faire (n°114)',
        'http://www.lagedefaire-lejournal.fr/geants-net-coupons-cordon/',
-       'msg.pages.medias.lSummary']
+       'pages.medias.lSummary']
     - ['fr', '05/11/2016', 'France Culture',
         'https://www.franceculture.fr/emissions/le-numerique-et-nous/surveillance-sur-le-web-comment-retrouver-le-pouvoir-dagir',
-        'msg.pages.medias.lPodcast']
+        'pages.medias.lPodcast']
     - ['fr', '19/10/2016', 'Korben.info',
        'http://korben.info/framasoft-complete-arsenal-perforer-gafam.html',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['fr', '03/10/2016', 'Libération',
        'http://www.liberation.fr/futurs/2016/10/03/framasoft-accelere-la-degooglisation-du-web_1519262',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['fr', '10/10/2016', 'France Info',
        'http://www.francetvinfo.fr/replay-radio/nouveau-monde/nouveau-monde-est-il-possible-de-degoogliser-le-web_1854529.html',
-       'msg.pages.medias.lListen']
+       'pages.medias.lListen']
     - ['fr', '24/05/2015', 'Le Soir (Belgique)',
        'http://www.lesoir.be/886985/article/economie/vie-du-net/2015-05-23/google-vivre-sans-c-est-parfois-possible',
-       'msg.pages.medias.lPaywall']
+       'pages.medias.lPaywall']
     - ['fr', '03/02/2015', 'L’Humanité',
        'http://www.humanite.fr/logiciel-libre-et-ess-une-economie-lintention-de-tous-564379',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['en', '26/02/2017', 'Konrad Lishka',
        'https://www.konradlischka.info/2017/02/blog/how-a-french-association-with-6-employees-offers-mainstream-users-free-and-libre-alternatives-to-facebook-groups-slack-skype-and-the-like/',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['en', '24/08/2016', 'Opensource.com',
        'https://opensource.com/business/16/8/open-source-alternatives-office-365',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']
     - ['en', '17/10/2016', 'Worldcrunch',
        'http://www.worldcrunch.com/tech-science/the-open-source-group-trying-to-quotde-googlequot-the-internet',
-       'msg.pages.medias.lArticle']
+       'pages.medias.lArticle']

@@ -3,26 +3,30 @@ import VueRouter from 'vue-router';
 import VueI18n from 'vue-i18n';
 import vueHeadful from 'vue-headful';
 
-import '../node_modules/bootstrap/dist/css/bootstrap.css';
-import '../node_modules/fork-awesome/css/fork-awesome.css';
-
 import App from './App.vue';
 import Home from './components/pages/Home.vue';
-import Lite from './components/pages/Lite.vue';
 
+import './assets/scss/bootstrap.scss';
+import '../node_modules/fork-awesome/css/fork-awesome.css';
 import './assets/scss/main.scss';
 
 Vue.use(VueRouter);
 Vue.use(VueI18n);
 Vue.component('vue-headful', vueHeadful);
 
-// Ready translated locale messages
 const defaultLocale = 'fr';
 const locales = [];
+const pages = [];
+
 // Import locales list
-const req = require.context('./locales/', true, /\.yml$/);
+let req = require.context('./locales/', false, /\.yml$/);
 req.keys().forEach((key) => {
   locales.push(key.replace(/\.\/(.*)\.yml/, '$1'));
+});
+// Import pages list
+req = require.context('./components/pages', false, /\.vue$/);
+req.keys().forEach((key) => {
+  pages.push(key.replace(/\.\/(.*)\.vue/, '$1'));
 });
 
 const lang = window.location.href
@@ -35,32 +39,42 @@ const userLang = navigator.languages ||
 let defaultRouteLang = '';
 
 const messages = {};
+messages.locales = require('./lang.yml'); // eslint-disable-line
+messages.locales.avalaible = locales;
+
+// Data import
+messages.data = {};
+messages.data = require('./data.yml'); // eslint-disable-line
+messages.data['/'] = `/${process.env.BASE_URL.replace(/(.+)/, '$1/')}`;
+messages.data['/img/'] = `${messages.data['/']}img/`;
 
 const routes = [
   { path: '/', component: Home },
 ];
 
 for (let i = 0; i < locales.length; i += 1) {
-  messages[locales[i]] = { msg: {} };
+  messages[locales[i]] = {};
   // Locales import
   /* eslint-disable */
   import(/* webpackChunkName: "lang-[request]" */`./locales/${locales[i]}.yml`).then((data) => {
-    messages[locales[i]].msg = data;
+    messages[locales[i]] = data;
+    messages[locales[i]].data = messages.data;
     messages[locales[i]].lang = locales[i];
-    messages[locales[i]].base = `/${process.env.BASE_URL.replace(/(.+)/, '$1/')}`;
-    messages[locales[i]].baseImg = `${messages[locales[i]].base}img/`;
-    messages[locales[i]].data = require('./data.yml');
   }).catch((err) => {
     console.error(err);
   });
   /* eslint-enable */
 
   // Localized routes
-  routes.push(
-    { path: `/${locales[i]}`, component: Home },
-    { path: `/${locales[i]}/lite`, component: Lite },
-  );
+  for (let j = 0; j < pages.length; j += 1) {
+    const component = require(`./components/pages/${pages[j]}.vue`); // eslint-disable-line
+    routes.push({
+      path: `/${locales[i]}${pages[j].toLowerCase().replace(/^/, '/').replace('/home', '')}`,
+      component: component.default,
+    });
+  }
 }
+
 // define defaultRouteLang
 for (let j = 0; j < userLang.length; j += 1) { // check if user locales
   for (let i = 0; i < locales.length; i += 1) { // matches with app locales

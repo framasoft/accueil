@@ -17,10 +17,10 @@
       </div>
 
       <div class="row lite vert">
-        <h3 class="titreFramaTrucs vert">{{ $t('msg.cat.cloud.title') }}</h3>
+        <h3 class="titreFramaTrucs vert">{{ $t('cat.cloud.title') }}</h3>
         <ul class="list-inline">
           <li class="col-xs-4 col-sm-3 text-center"
-            v-for="(frama, index) in $t('msg.cat.cloud.sites')">
+            v-for="(frama, index) in $t('cat.cloud.sites')">
             <a :href="$t('data.cat.cloud.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
               <i :class="`fa fa-3x fa-fw ${$t('data.cat.cloud.sites.' + index + '.icon')}`"></i>
@@ -31,10 +31,10 @@
         </ul>
       </div>
       <div class="row lite bleu">
-        <h3 class="titreFramaTrucs bleu">{{ $t('msg.cat.logiciel.title') }}</h3>
+        <h3 class="titreFramaTrucs bleu">{{ $t('cat.logiciel.title') }}</h3>
         <ul class="list-inline">
           <li class="col-xs-4 col-sm-3 text-center"
-            v-for="(frama, index) in $t('msg.cat.logiciel.sites')">
+            v-for="(frama, index) in $t('cat.logiciel.sites')">
             <a :href="$t('data.cat.logiciel.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
               <i :class="`fa fa-3x fa-fw ${$t('data.cat.logiciel.sites.' + index + '.icon')}`"></i>
@@ -45,10 +45,10 @@
         </ul>
       </div>
       <div class="row lite rouge">
-        <h3 class="titreFramaTrucs rouge">{{ $t('msg.cat.culture.title') }}</h3>
+        <h3 class="titreFramaTrucs rouge">{{ $t('cat.culture.title') }}</h3>
         <ul class="list-inline">
           <li class="col-xs-4 col-sm-3 text-center"
-            v-for="(frama, index) in $t('msg.cat.culture.sites')">
+            v-for="(frama, index) in $t('cat.culture.sites')">
             <a :href="$t('data.cat.culture.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
               <i :class="`fa fa-3x fa-fw ${$t('data.cat.culture.sites.' + index + '.icon')}`"></i>
@@ -59,10 +59,10 @@
         </ul>
       </div>
       <div class="row lite jaune">
-        <h3 class="titreFramaTrucs jaune">{{ $t('msg.cat.vrac.title') }}</h3>
+        <h3 class="titreFramaTrucs jaune">{{ $t('cat.vrac.title') }}</h3>
         <ul class="list-inline">
           <li class="col-xs-4 col-sm-3 text-center"
-            v-for="(frama, index) in $t('msg.cat.vrac.sites')">
+            v-for="(frama, index) in $t('cat.vrac.sites')">
             <a :href="$t('data.cat.vrac.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
               :title="frama.title" >
               <i :class="`fa fa-3x fa-fw ${$t('data.cat.vrac.sites.' + index + '.icon')}`"></i>
@@ -77,7 +77,7 @@
 
       <div class="row">
         <div class="col-xs-12 containerActu">
-          <h3 id="news">{{ $t('msg.pages.news') }}</h3>
+          <h3 id="news">{{ $t('pages.news') }}</h3>
           <Carousel/>
         </div>
       </div>

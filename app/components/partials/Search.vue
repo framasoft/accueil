@@ -3,24 +3,30 @@
     <div class="input-group input-group-lg">
       <input type="search" name="q" class="form-control">
       <span class="input-group-btn">
-        <div class="btn-group">
-          <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-fw fa-search"></i> {{ $t('msg.search.btn') }} <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu dropdown-menu-right">
-            <li><button type="submit" class="btn btn-link" id="framabee">{{ $t('msg.search.btn') }} {{ $t('msg.search.web') }}</button></li>
+        <dropdown ref="dropdown" menu-right>
+          <btn type="button" class="btn-default btn-lg dropdown-toggle"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-fw fa-search"></i> {{ $t('search.btn') }} <span class="caret"></span>
+          </btn>
+          <template slot="dropdown">
+            <li><button type="submit" class="btn btn-link" id="framabee">{{ $t('search.btn') }} {{ $t('search.web') }}</button></li>
             <li><button type="button" class="btn btn-link" id="framaworld"
               @click="searchDDG();"
-            >{{ $t('msg.search.btn') }} {{ $t('msg.search.frama') }}</button></li>
-          </ul>
-        </div>
+            >{{ $t('search.btn') }} {{ $t('search.frama') }}</button></li>
+          </template>
+        </dropdown>
       </span>
     </div>
   </form>
 </template>
 
 <script>
+import { Btn, Dropdown } from 'uiv';
+
 export default {
+  components: {
+    Btn, Dropdown,
+  },
   methods: {
     searchDDG () {
       const framaworld = [
