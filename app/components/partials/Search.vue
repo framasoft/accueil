@@ -1,7 +1,8 @@
 <template>
   <form method="post" id="search" action="https://framabee.org">
     <div class="input-group input-group-lg">
-      <input type="search" name="q" class="form-control" v-model="q">
+      <label for="q" class="sr-only">{{ $t('search.btn') }}</label>
+      <input type="search" id="q" name="q" class="form-control" v-model="q">
       <span class="input-group-btn">
         <dropdown ref="dropdown" menu-right>
           <btn type="button" class="btn-default btn-lg dropdown-toggle"

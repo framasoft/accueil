@@ -5,11 +5,11 @@
         v-for="(slide, index) in slides"
         :key="index">
         <a :href="slide.link" >
-          <img :src="slide.img" />
+          <img :src="slide.img" alt=""/>
+          <div class="carousel-caption">
+            <h4>{{ slide.title }}</h4>
+          </div>
         </a>
-        <div class="carousel-caption">
-          <h4>{{ slide.title }}</h4>
-        </div>
       </slide>
     </carousel>
     <p class="text-center play-pause" v-if="interval === 5000">

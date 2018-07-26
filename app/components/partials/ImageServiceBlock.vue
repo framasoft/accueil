@@ -1,7 +1,8 @@
 <template>
   <div
     :id="image.id"
-    :class="`col-md-${image.width} miniBloc`">
+    :class="`col-md-${image.width} miniBloc`"
+    aria-hidden="true">
     <a :href="image.link">
       <img
         :src="`${data['/img/']}${image.src}`"
