@@ -1,0 +1,313 @@
+lite: Accès rapide
+full: Accès classique
+home: Accueil
+
+meta:
+  name: Framasoft
+  baseURL: https://framasoft.org
+  framaname: <b class="violet">Frama</b><b class="orange">soft</b>
+
+# Catégories
+cat:
+  communaute:
+
+  campagnes:
+    sites:
+      dio:
+        link: https://degooglisons-internet.org
+        icon: fa-shield
+      cuo:
+        link: https://contributopia.org
+        name: <b class="violet">Contributopia</b>
+        icon: fa-shield
+
+  logiciel:
+    color: bleu
+    sites:
+      libre:
+        link: http://framalibre.org
+        name: <b class="violet">Frama</b><b class="bleu" lang="fr">libre</b>
+        icon: fa-linux
+
+      key:
+        link: https://framakey.org
+        name: <b class="violet">Frama</b><b class="bleu" lang="en">key</b>
+        icon: fa-usb
+
+      dvd:
+        link: http://framadvd.org
+        name: <b class="violet">Frama</b><b class="bleu"><abbr>dvd</abbr></b>
+        icon: fa-play-circle-o
+
+      pack:
+        link: http://framapack.org
+        name: <b class="violet">Frama</b><b class="bleu">pack</b>
+        icon: fa-download
+
+  culture:
+    color: rouge
+    sites:
+      blog:
+        link: https://framablog.org
+        name: <b class="violet">Frama</b><b class="rouge">blog</b>
+        icon: fa-pencil
+
+      book:
+        link: http://framabook.org
+        name: <b class="violet">Frama</b><b class="rouge" lang="en">book</b>
+        icon: fa-book
+
+      bookin:
+        link: http://framabookin.org
+        name: <b class="violet">Frama</b><b class="rouge" lang="en">bookin</b>
+        icon: fa-coffee
+
+      lang:
+        link: https://participer.framasoft.org/traduction-rejoignez-framalang/
+        name: <b class="violet">Frama</b><b class="rouge" lang="en">lang</b>
+        icon: fa-language
+
+      tube:
+        link: https://framatube.org
+        name: <b class="violet">Frama</b><b class="rouge">tube</b>
+        icon: fa-film
+
+      zic:
+        link: http://framazic.org
+        name: <b class="violet">Frama</b><b class="rouge">zic</b>
+        icon: fa-music
+
+  cloud:
+    color: vert
+    sites:
+      pad:
+        link: https://framapad.org
+        name: <b class="violet">Frama</b><b class="vert">pad</b>
+        icon: fa-align-left
+
+      calc:
+        link: https://framacalc.org
+        name: <b class="violet">Frama</b><b class="vert">calc</b>
+        icon: fa-th
+
+      forms:
+        link: https://framaforms.org
+        name: <b class="violet">Frama</b><b class="vert">forms</b>
+        icon: fa-list-ul
+
+      agenda:
+        link: https://framagenda.org
+        name: <b class="violet">Fram</b><b class="vert">agenda</b>
+        icon: fa-calendar
+
+      date:
+        link: https://framadate.org
+        name: <b class="violet">Frama</b><b class="vert">date</b>
+        icon: fa-calendar-check-o
+
+      board:
+        link: https://framaboard.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">board</b>
+        icon: fa-dashboard
+
+      mindmap:
+        link: https://framindmap.org
+        name: <b class="violet">Fra</b><b class="vert" lang="en">mindmap</b>
+        icon: fa-sitemap
+
+      vectoriel:
+        link: http://framavectoriel.org
+        name: <b class="violet">Frama</b><b class="vert" lang="fr">vectoriel</b>
+        icon: fa-paint-brush
+
+      slides:
+        link: https://framaslides.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">slides</b>
+        icon: fa-pie-chart
+
+      maestro:
+        link: https://framaestro.org
+        name: <b class="violet">Fra</b><b class="vert" lang="it">maestro</b>
+        icon: fa-magic
+
+      bee:
+        link: https://framabee.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">bee</b>
+        icon: fa-search
+
+      sphere:
+        link: https://framasphere.org
+        name: <b class="violet">Frama</b><b class="vert" lang="fr">sphère</b>
+        icon: fa-diaspora
+
+      piaf:
+        link: https://framapiaf.org
+        name: <b class="violet">Frama</b><b class="vert">piaf</b>
+        icon: fa-mastodon
+
+      team:
+        link: https://framateam.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">team</b>
+        icon: fa-comments-o
+
+      listes:
+        link: https://framalistes.org
+        name: <b class="violet">Frama</b><b class="vert" lang="fr">listes</b>
+        icon: fa-group
+
+      talk:
+        link: https://framatalk.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">talk</b>
+        icon: fa-video-camera
+
+      vox:
+        link: https://framavox.org
+        name: <b class="violet">Frama</b><b class="vert">vox</b>
+        icon: fa-bullhorn
+
+      memo:
+        link: https://framemo.org
+        name: <b class="violet">Fra</b><b class="vert" lang="fr">memo</b>
+        icon: fa-object-group
+
+      notes:
+        link: https://framanotes.org
+        name: <b class="violet">Frama</b><b class="vert">notes</b>
+        icon: fa-sticky-note
+
+      bag:
+        link: https://framabag.org
+        name: <b class="violet">Frama</b><b class="vert">bag</b>
+        icon: fa-briefcase
+
+      news:
+        link: https://framanews.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">news</b>
+        icon: fa-newspaper-o
+
+      carte:
+        link: https://framacarte.org
+        name: <b class="violet">Frama</b><b class="vert">carte</b>
+        icon: fa-map
+
+      games:
+        link: http://framagames.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">games</b>
+        icon: fa-gamepad
+
+      minetest:
+        link: https://framinetest.org
+        name: <b class="violet">Fra</b><b class="vert" lang="en">minetest</b>
+        icon: fa-cube
+
+      drop:
+        link: https://framadrop.org
+        name: <b class="violet">Frama</b><b class="vert">drop</b>
+        icon: fa-send
+
+      bin:
+        link: https://framabin.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">bin</b>
+        icon: fa-paste
+
+      pic:
+        link: https://framapic.org
+        name: <b class="violet">Frama</b><b class="vert">pic</b>
+        icon: fa-photo
+
+      link:
+        link: https://frama.link
+        name: <b class="violet">Frama</b><b class="vert" lang="en">link</b>
+        icon: fa-link
+
+      drive:
+        link: https://framadrive.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">drive</b>
+        icon: fa-cloud-upload
+
+      my:
+        link: https://my.framasoft.org
+        name: <b class="violet" lang="en">My</b><b class="vert">Frama</b>
+        icon: fa-star
+
+      git:
+        link: https://framagit.org
+        name: <b class="violet">Frama</b><b class="vert" lang="en">git</b>
+        icon: fa-git
+
+      site:
+        link: https://frama.site
+        name: <b class="violet">Frama</b><b class="vert">site</b>
+        icon: fa-globe
+
+      wiki:
+        link: https://frama.wiki
+        name: <b class="violet">Frama</b><b class="vert">wiki</b>
+        icon: fa-puzzle-piece
+
+  vrac:
+    color: jaune
+    sites:
+      colibri:
+        link: https://framacolibri.org
+        name: <b class="violet">Frama</b><b class="jaune" lang="fr">colibri</b>
+        icon: fa-comment
+
+      evl:
+        link: http://enventelibre.org
+        name: <b class="violet" lang="fr">EnVente</b><b class="jaune" lang="fr">Libre</b>
+        icon: fa-shopping-cart
+
+      docs:
+        link: https://docs.framasoft.org
+        name: <b class="violet">Frama</b><b class="jaune">docs</b>
+        icon: fa-graduation-cap
+
+pages:
+  medias:
+    list:
+    - ['fr', '30/07/2017', 'Usbek & Rica',
+       'https://usbeketrica.com/article/framasoft-une-amap-du-logiciel-libre',
+       'pages.medias.lArticle']
+    - ['fr', '05/02/2017', 'France 24 / Mashable',
+       'http://mashable.france24.com/tech-business/20170204-chatons-collectif-hebergeurs-framasoft?ref=tw_i',
+       'pages.medias.lArticle']
+    - ['fr', '15/12/2016', 'Next Inpact',
+       'http://www.nextinpact.com/news/102539-degooglisons-internet-framasoft-fait-bilan-son-action.htm',
+       'pages.medias.lArticle']
+    - ['fr', '10/12/2016', 'Le Monde',
+       'http://www.lemonde.fr/pixels/article/2016/12/10/framasoft-des-chatons-armes-de-logiciels-libres-pour-contrer-google_5046752_4408996.html?xtmc=framasoft&xtcr=1',
+       'pages.medias.lArticle']
+    - ['fr', '10/12/2016', 'Le Figaro',
+       'http://www.lefigaro.fr/secteur/high-tech/2016/11/30/32001-20161130ARTFIG00001-les-defenseurs-du-logiciel-libre-decourages-par-l-education-nationale.php',
+       'pages.medias.lArticle']
+    - ['fr', '28/11/2016', 'L’Âge de Faire (n°114)',
+       'http://www.lagedefaire-lejournal.fr/geants-net-coupons-cordon/',
+       'pages.medias.lSummary']
+    - ['fr', '05/11/2016', 'France Culture',
+        'https://www.franceculture.fr/emissions/le-numerique-et-nous/surveillance-sur-le-web-comment-retrouver-le-pouvoir-dagir',
+        'pages.medias.lPodcast']
+    - ['fr', '19/10/2016', 'Korben.info',
+       'http://korben.info/framasoft-complete-arsenal-perforer-gafam.html',
+       'pages.medias.lArticle']
+    - ['fr', '03/10/2016', 'Libération',
+       'http://www.liberation.fr/futurs/2016/10/03/framasoft-accelere-la-degooglisation-du-web_1519262',
+       'pages.medias.lArticle']
+    - ['fr', '10/10/2016', 'France Info',
+       'http://www.francetvinfo.fr/replay-radio/nouveau-monde/nouveau-monde-est-il-possible-de-degoogliser-le-web_1854529.html',
+       'pages.medias.lListen']
+    - ['fr', '24/05/2015', 'Le Soir (Belgique)',
+       'http://www.lesoir.be/886985/article/economie/vie-du-net/2015-05-23/google-vivre-sans-c-est-parfois-possible',
+       'pages.medias.lPaywall']
+    - ['fr', '03/02/2015', 'L’Humanité',
+       'http://www.humanite.fr/logiciel-libre-et-ess-une-economie-lintention-de-tous-564379',
+       'pages.medias.lArticle']
+    - ['en', '26/02/2017', 'Konrad Lishka',
+       'https://www.konradlischka.info/2017/02/blog/how-a-french-association-with-6-employees-offers-mainstream-users-free-and-libre-alternatives-to-facebook-groups-slack-skype-and-the-like/',
+       'pages.medias.lArticle']
+    - ['en', '24/08/2016', 'Opensource.com',
+       'https://opensource.com/business/16/8/open-source-alternatives-office-365',
+       'pages.medias.lArticle']
+    - ['en', '17/10/2016', 'Worldcrunch',
+       'http://www.worldcrunch.com/tech-science/the-open-source-group-trying-to-quotde-googlequot-the-internet',
+       'pages.medias.lArticle']

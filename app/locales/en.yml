@@ -1,0 +1,867 @@
+lite: Quick access
+full: Classic home
+home: Home
+
+meta:
+  title: Framasoft ~ Portal Homepage
+  lead: There is a long way to go, but the road is Free…
+  desc: '
+    A French non-profit (Association française de loi 1901), originating
+
+    from education, Framasoft is a network aiming at popular education, focussing
+
+    mostly on free and open source software. The network is organized
+
+    following 3 main directions on a collaborative mode:
+
+    promotion, diffusion and development of libre software, enhancement
+
+    of free (as in free speech) culture. We also provide free online services.
+
+    The portal Homepage is introducing the whole range of actions by Framasoft and
+
+    provide links to various sites and projects of the network.
+
+    '
+
+  keywords: Framasoft, libre software, free and open source sofware, free culture, FOSS, FLOSS,  promotion and diffusion of free software, open source
+  license: Creative Commons-By-SA except when notified
+  salaries: eight
+
+# Navigation interne
+nav:
+  lite: Quick access
+  full: Classic home
+  langChange: Change the language
+  lang: Language
+
+  parts:
+    logiciel:
+      key: Software section
+      title: to software section
+    culture:
+      key: Culture section
+      title: to culture section
+    cloud:
+      key: Cloud section
+      title: to cloud section
+    vrac:
+      key: Bulk free section
+      title: to bulk free section
+
+# Carousel
+carousel:
+  play: Play
+  pause: Pause
+  prev: Previous slide
+  next: Next slide
+
+# Recherche
+search:
+  btn: Search
+  frama: on Framasoft's websites
+  web: on the web
+
+# Catégories
+cat:
+  communaute:
+    title: Free community
+    desc: Are you free tonight?
+
+  campagnes:
+    sites:
+      dio:
+        name: <b class="violet">De-googl-ify</b> <b class="orange">Internet</b>
+        what: Campaign 2014-2017
+      cuo:
+        what: Campaign 2017-2020
+
+  logiciel:
+    title: Free software
+    desc: Liberty, Equality, Fraternity
+    sites:
+      libre:
+        what: A Directory
+        title: The big directory
+        desc: '
+          More than 1600 software, tested, rated and commented by the historical project
+
+          which has been root to Framasoft.
+
+          Includes tutorials and comprehensive docs.
+
+          '
+
+      key:
+        what: A USB device
+        title: Full tank of Freedom in a simple device
+        desc: '
+          With this USB device (or any mobile device) you can use
+
+          more than a hundred free programs for mobile, for Windows,
+
+          test and install a GNU/Linux distro or have offline access to Wikipédia in french.
+
+          '
+
+      dvd:
+        what: Un DVD
+        title: Full tank of Freedom in a DVD
+        desc: '
+          A DVD stuffed with the best free software for Windows, Mac and
+
+          GNU/Linux (distro included) but also free culture (text, photo, audio and video).
+
+          Also available as a special School Edition
+
+          '
+
+      pack:
+        what: A distributor
+        title: Massive install
+        desc: '
+          Framapack is a handy tool to pick the best free software for Windows last version.<br>
+
+          You select those you want and all the programs are installed in a single convenient step!
+
+          '
+
+  culture:
+    title: Free cultures
+    desc: Extending the open source scope
+    sites:
+      blog:
+        what: Info
+        title: News from « Libre »
+        desc: '
+          Weekly column on Libre and libre software. Debate, open comments, many translations
+
+          and news announcements about all the activities of the Framasoft network.
+
+          '
+
+      book:
+        what: Some books…
+        title: Betting on free books
+        desc: '
+          Our publishing house includes around twenty publications
+
+          about free software, programming for beginners, thoughts on copyrights
+
+          but also comics and even a novel.
+
+          A free book provides the reader with the same freedom as free software.
+
+          '
+
+      bookin:
+        what: … and a library
+        title: A free digital library
+        desc: '
+          Our library includes a few hundreds of free or public domain publications.
+
+          It is available online on mobile platforms.
+
+          You can add it directly to an e-book reading application with the <abbr>OPDS</abbr> feed.
+
+          '
+
+      lang:
+        what: Translations
+        title: Collaborative translation
+        desc: '
+          Translate together, mainly from English to
+
+          French, with a sense of community and leveraging the
+
+          power of the Internet and good will of its inhabitants.
+
+          It can consist in articles, subtitles or even entire books!
+
+          '
+
+      tube:
+        what: Videos
+        title: Our free « YouTube »
+        desc: '
+          Videos in French (or with French subtitles) about
+
+          about free softwares and Open source in general.
+
+          Interviews, conferences, documentaries, tv broadcasts…
+
+          to get informed but also inform others.
+
+          '
+
+      zic:
+        what: Music
+        title: When the music is free
+        desc: '
+          A « free music » is a music that provides the music lover
+
+          with the same liberty as free software.
+
+          A dedicated website allows to understand it better,
+
+          along with a selection to show that quality is also present.
+
+          '
+
+  cloud:
+    title: Free services
+    desc: Free cloud computing? It is possible!
+    sites:
+      pad:
+        what: Edit
+        title: Edit together
+        desc: '
+          Let&quot;s all write together on the same document
+
+          in a collaborative online editing interface.No registration
+
+          required, pick a username, a color and let&quot;s go!
+
+          '
+
+      calc:
+        what: Calculate
+        title: A collaborative spreadsheet
+        desc: '
+          Framacalc is to spreadsheet what Framapad
+
+          is to text editing, working together on the same document
+
+          in a simple and collaborative way.
+
+          '
+
+      forms:
+        what: Enquêter
+        title: Création de questionnaires
+        desc: '
+          Framaforms vous permet de créer les questionaires dont
+
+          vous avez besoin, que ce soit dans un cadre scolaire,
+
+          familial ou associatif. Créez vos questions en fonction
+
+          de vos besoins, des formulaires à choix multiples aux
+
+          champs de texte libre.
+
+          '
+
+      agenda:
+        what: Organise
+        title: Agenda partagé
+        desc: '
+          Avec Framagenda vous pouvez créer des agendas personnels,
+
+          professionnels, le planning d´une salle ou des activités
+
+          de votre organisation, et les partager librement.
+
+          Vous restez maîtres de vos données, et vous choisissez
+
+          auprès de qui, où et quand elles s´affichent.
+
+          '
+
+      date:
+        what: Organise
+        title: Organise appointments and surveys
+        desc: '
+          Framadate is like Doodle, but free.
+
+          Nothing is simpler than create an appointment
+
+          or a survey with registration and invite your associates.
+
+          '
+
+      board:
+        what: Organise
+        title: Manage projects
+        desc: '
+          Framaboard is a collaborative project and task
+
+          manager, using the Kanban system. Its visual system makes it
+
+          very easy to feel at home, whether you are used to this kind of tool or not.
+
+          '
+
+      mindmap:
+        what: Structure
+        title: Create mind maps
+        desc: '
+          An fluid and intuitive interface to create mind maps easily from inside your browser.
+
+          Particularly relevant for brainstorming or to take notes.
+
+          '
+
+      vectoriel:
+        what: Drawing
+        title: Vector drawing
+        desc: '
+          Create and edit pictures easily online using the SVG open format.
+
+          Kids love this!
+
+          '
+
+      slides:
+        what: Exposer
+        title: Créer et partager des diaporamas
+        desc: '
+          Framaslides vous permet de créer directement en ligne un
+
+          diaporama ou une présentation, d’y accéder avec une
+
+          simple connexion internet, et de la partager.
+
+          '
+
+      maestro:
+        what: Collaborer
+        title: Ochestrez vos projets collaboratifs
+        desc: '
+          Besoin en même temps d’un pad pour prendre des notes,
+
+          d’un tableau d’organisation, et d’une vidéo-conférence ?
+
+          Avec Framaestro, c’est vous qui organisez les outils
+
+          qu’il vous faut, sur une seule et unique page web.
+
+          '
+
+      bee:
+        what: Searching
+        title: The search engine which explores the Internet around you
+        desc: '
+          Framabee is a free and anonymous meta search engine.
+
+          Your search query is sent to multiple other engines before it is displayed in your browser.
+
+          The point? Our engine act as a middle-man between you and Google (and others),
+
+          so that your personal data (IP address, search history, geolocalization, profile)
+
+          can not be accessed by them.
+
+          '
+
+      sphere:
+        what: Networking
+        title: The free social network
+        desc: '
+          Framasphere is  a free social network based on the decentralised
+
+          Diaspora software. Find your friends on Framasphere – or other Diaspora pods –
+
+          and discuss with them without being tracked.
+
+          '
+
+      piaf:
+        what: Networking
+        title: Réseau social en 500 caractères
+        desc: '
+          Framapiaf est un service libre de <b>microblogging</b>,
+
+          basé sur le logiciel décentralisé Mastodon.
+
+          Retrouvez vos amis sur Framapiaf - ou d’autres instances
+
+          Mastodon, GNU Social, Friendica - et échangez avec eux sans être pisté.
+
+          '
+
+      team:
+        what: Discussing
+        title: Collaborative communication
+        desc: '
+          Framateam is a free <b> chat </b> service which allows for team collaboration,
+
+          notifications, conversations history and research.
+
+          '
+
+      listes:
+        what: Discussing
+        title: Liste de diffusion
+        desc: '
+          Framalistes vous permet de créer des liste de diffusion
+
+          emails : toute personne s´abonnant à votre liste pourra
+
+          recevoir les emails qui y sont envoyés, et y participer
+
+          à son tour. À vous de choisir si cette liste est
+
+          publique, semi-privée ou privée.
+
+          '
+
+      talk:
+        what: Discussing
+        title: Visioconférence
+        desc: '
+          Framatalk vous permet de discuter avec vos amis sans
+
+          installation complexe de logiciel ni inscription.
+
+          Tout se passe entre vous et vos amis, directement depuis
+
+          votre navigateur web.
+
+          '
+
+      vox:
+        what: Decide
+        title: Decide together
+        desc: '
+          Framavox helps you to make group-based decisions.
+
+          Start a discussion, share ideas, come to an agreement.
+
+          Every decision has a clear deadline, so you can be sure to decide on time.
+
+          '
+
+      memo:
+        what: Brainstorm
+        title: Organize ideas
+        desc: '
+          Framemo allows you to create a board with columns on which
+
+          anyone can pin colourful notes. Just like Framapad, no registration is
+
+          required and modifications are made visible and saved continuously.
+
+          '
+
+      notes:
+        what: Noter
+        title: Prise de notes
+        desc: '
+          Avec Framanotes vous pouvez prendre et conserver des notes, images, liens…
+
+          et même des fichiers ; et les synchroniser avec tous vos appareils
+
+          (voire les partager avec des ami⋅e⋅s).
+
+          '
+
+      bag:
+        what: Follow the news
+        title: Never miss an article!
+        desc: '
+          Framabag allows you to save articles which you do not have time to read now.
+
+          '
+
+      news:
+        what: Follow the news
+        title: Follow the news
+        desc: '
+          By subscribing to your favorite sites RSS feeds,
+
+          keep in touch with their latest news with Framanews!
+
+          '
+
+      carte:
+        what: Mapping
+        title: Creat custom maps
+        desc: '
+          Framacarte allows you to draw, label, colour,
+
+          annotate maps from <a href="https://en.wikipedia.org/wiki/Openstreetmap">OpenStreetMap</a>
+
+          in order to display them on your website or print them.
+
+          '
+
+      games:
+        what: Gaming
+        title: Online or offline gaming
+        desc: '
+          Framagames is a compilation of free games,
+
+          some of them online or on PC, tablet, which do not require any installation.
+
+          '
+
+      minetest:
+        what: Gaming
+        title: Mining educational game
+        desc: '
+          Framinetestest is a server for the Minetest game, a "sandbox game"
+
+          in which you build and decompose blocks to modify it
+
+          and with which you can build your own pedagogical apps.
+
+          '
+
+      drop:
+        what: Sharing
+        title: Share files anonymously
+        desc: '
+          With Framadrop, you are done with attachments too large for the e-mail to be sent.
+
+          This service allows you to share files efficiently and in a secure way.
+
+          '
+
+      bin:
+        what: Sharing
+        title: Transmit encrypted data
+        desc: '
+          With Framabin, you can share data which only you
+
+          and the recipient can decrypt, in a very simple way.
+
+          '
+
+      pic:
+        what: Sharing
+        title: Share pictures anonymously
+        desc: '
+          Framapic allows you to easily share pictures, to publish them
+
+          on Twitter, Facebook… or Framasphere for example!
+
+          '
+
+      link:
+        what: Sharing
+        title: Short links
+        desc: '
+          With Frama.link, you can shorten long URLs. On social networks
+
+          or microblogging platforms, a shorter link saves space and is more clear.
+
+          '
+
+      drive:
+        what: Store
+        title: Online storage
+        desc: '
+          Framadrive allows you to store your files online, synchronize them
+
+          between your PCs, mobile devices... and share them with whomever you want.
+
+          '
+
+      my:
+        what: Stocker
+        title: Marque-pages
+        desc: '
+          MyFrama est un petit fourre-tout numérique, qui vous
+
+          permet de conserver et retrouver les liens que vous aimez
+
+          à la manière de del.ico.us ! Avec un système d´étiquettes
+
+          et de tri automatique, vous pouvez ranger aisément vos
+
+          onglets et marque-pages, et utiliser le bouton MyFrama
+
+          pour retrouver les services Framasoft que vous utilisez !
+
+          '
+
+      git:
+        what: Code
+        title: Host free code
+        desc: '
+          Framagit is a tool for developers. It can host your open source
+
+          software projects and allows to work on it in a collaborative way.
+
+          '
+
+      site:
+        what: Publier
+        title: Hébergement de sites
+        desc: '
+          Framasite vous permet de créer un site web facilement et
+
+          de l’héberger sur nos serveurs. Aucune publicité ni
+
+          traquage ne portera atteinte aux données de vos visiteurs
+
+          et visiteuses.
+
+          '
+
+      wiki:
+        what: Publier
+        title: Hébergement de wikis
+        desc: '
+          Framawiki vous permet de créer un wiki facilement et
+
+          de l’héberger sur nos serveurs. Aucune publicité ni
+
+          traquage ne portera atteinte aux données de vos visiteurs
+
+          et visiteuses.
+
+          '
+
+
+  vrac:
+    title: Bulk free
+    desc: Unclassifiable but not badly classified!
+    sites:
+      colibri:
+        what: A forum
+        title: The Framasoft's forum
+        desc: '
+          Do you have any questions? We (might) have an answer!
+
+          "If you do not know, ask. If you know, share". Framacolibri is a place
+
+          where we can share information about Open source.
+
+          '
+
+      evl:
+        what: A shop
+        title: Our free little shop
+        desc: '
+          The marketplace for physical Framasoft products: Framakey,
+
+          Framabook, Framadvd but also goodies and t-shirts.
+
+          '
+
+      docs:
+        what: Documentations
+        title: Notre centre de documentation
+        desc: '
+          Pour tout savoir sur l’utilisation des services en
+
+          ligne que nous proposons et apprendre à travers nos
+
+          différents guides comment gagner en autonomie.
+
+          '
+
+# Page 1 Présentation
+pages:
+  accroche:
+  - A network dedicated to globally promoting "<i>free</i>" and particularly <i>free software</i>.
+  - Many services and innovative projects freely put at the disposal of the general public.
+  - A <a href="#topPgcommunaute">community</a> of volunteers supported by an association of public interest.
+  - An invitation to build together a world of sharing and cooperation.
+
+  news: What's up on Framasoft?
+  medias:
+    title: Press Release
+    intro: Framasoft and the “De-google-ify Internet” campaign received some attention. Here are some extracts from our <a href="@:msg.link.speakabout">Press release</a>.
+    th1: Date
+    th2: Media
+    th3: Links
+    lArticle: Link to the article
+    lPaywall: Link to the article (subscribers)
+    lSummary: Link to the summary of the issue
+    lPodcast: Link to the podcast
+    lListen: Link to the listening page
+
+# Page 2 Libre communauté
+  communaute:
+    title: A community
+    desc: A joyful mess
+    text: '
+      Who is behind Framasoft? Everybody who took part in our projects
+
+      at some point. It is enough to be eager to promote Open source and license your contribution
+
+      as open source. It guarantees that it will be added to common good without any risk of seizure.
+
+      '
+
+  asso:
+    title: An association
+    desc: A bit of cathedrale
+    text: '
+      Framasoft is based on a law 1901 association (non-profit voluntary association).
+
+      Up to it to smooth out any rough edges and to ensure that the community can emulate in good conditions.
+
+      There are @:msg.meta.salaries permanents and it&quot;s mostly financed by individual donations
+
+      collected on Internet. You can be a member too,
+
+      but careful, it is more a vocation than a sinecure!
+
+      '
+
+  participer:
+    title: Participate?
+    desc: There are lots of ways to participate with us to spread the Free spirit through our numerous projects.
+    text: '
+      Test, write, moderate, administrate, translate, proofread, relay, code,
+
+      communicate, promote, raise awareness…
+
+      Don’t hesitate to <a href="@:msg.link.participate">join in</a>
+
+      with us! And thanks in advance…
+
+      '
+
+  soutenir:
+    title: Support us?
+    desc: because free as in free speech, not as in free beer
+    text: '
+      Framasoft would nothing without its volunteer community, but cannot operate without the support of
+
+      the association which has expenses and employs @:msg.meta.salaries vital employees.
+
+      Our funding depends on individual donations, that means on you.
+
+      <a href="@:msg.link.soutenir">If you think we deserve it…</a>
+
+      '
+
+  partenaires:
+    title: Our partners
+    desc: '
+      Framasoft is first and foremost a community of users. Yet, its functioning is
+
+      distinctly that of a network, of projects, but also of partners..<br>
+
+      So, Framasoft receives the support from numerous organisations (public, bussiness,
+
+      non-profit) allowing our projects to growth and develop.
+
+      <a href="@:msg.link.partenaires">List of all our partners</a>
+
+      '
+
+# Page 3 Libres logiciels
+  logiciel:
+    title: Free software?
+    desc: '
+      <a href="@:msg.link.wFreeSoftware">Free software</a>
+
+      is a software that offers and guarantees the following four liberties: usage, study,
+
+      modification and copying in order to spread (free of charge or not).
+
+      '
+    text1: '
+      This is technically permitted thanks to the access to the
+
+      <a href="@:msg.link.wSourceCode">code</a>
+
+      and legally with the <a href="@:msg.link.wFreeLicense">free license</a>
+
+      going with it. Theses <i>four liberties</i> promote transparency,
+
+      trust, exchange, sharing and collaboration inside communities.
+
+      '
+    text2: '
+      Framasoft provides a directory, USB and DVD keys and a Windows installer
+
+      to discover these and use them regularly.
+
+      '
+
+# Page 4 Libres cultures
+  culture:
+    title: Free Culture?
+    desc: '
+      Ease by Internet and digitisation,
+
+      "<a href="@:msg.link.wFreeCulture">free culture</a>"
+
+      is a evolving culture inspired directly by free software
+
+      in its spirit and licenses to promote and spread intellectuals works.
+
+      '
+    text1: '
+      It explores various domains such as arts, education, sciences, hardware...
+
+      These works can then be considered as
+
+      <a href="@:msg.link.wCommons">common goods</a>.
+
+      The most illustrative example is the free encyclopedia Wikipedia.
+
+      '
+    text2: '
+      In this context, Framasoft offers you a blog, a publising house
+
+      a video platform, a website dedicated to free music as well as
+
+      an original collaborative translation service.
+
+      '
+    quote: '
+      "Because it will be one of the biggest missed opportunities of our era
+
+      if the free software doesn&quot;t free anything else than code."
+
+      '
+
+# Page 5 Libres services
+  cloud:
+    title: Free services?
+    desc: 'Code name: "Framacloud"'
+    text1: '
+      Intuitive, registration-free, and directly in your browser, it is a set of online free services
+
+      and respectful of your personal data. These services are offered in the context of our campaign
+
+      <a href="@:msg.link.dio">"<b class="violet">De-googl-ify</b> <b class="orange">Internet</b>"</a>
+
+      '
+    text2: '
+      You can also install theses on your own server, thus contributing to decentralize Internet.
+
+      Tutorials are availables in the section
+
+      <a href="@:msg.link.cloud" lang="fr">Cultiver son jardin</a>
+
+      (only in french actually) to help you to go for it.
+
+      '
+
+# Page 6 Libr’en Vrac
+  vrac:
+    title: Cross-disciplinary projects
+    desc: Discussion areas, purchases, development…
+    text: '
+      Everything about the whole of the network as well as our think tank and projects
+
+      under development are grouped together in this section.
+
+      '
+    une:
+      title: Light on…
+      desc: GéGé, Geektionnerd generator
+      text: Geektionnerd do it yourseff.
+
+link:
+  speakabout: https://wiki.framasoft.org/speakabout
+  participate: https://participer.framasoft.org/en/
+  soutenir: https://soutenir.framasoft.org/en
+  partenaires: https://soutenir.framasoft.org/partenaires
+  wFreeSoftware: https://en.wikipedia.org/wiki/Free_software
+  wSourceCode: https://en.wikipedia.org/wiki/Source_code
+  wFreeLicense: https://en.wikipedia.org/wiki/Free_license
+  wFreeCulture: https://en.wikipedia.org/wiki/Libre_culture
+  wCommons: https://en.wikipedia.org/wiki/Common_good
+  wOSM: https://fr.wikipedia.org/wiki/Openstreetmap
+  dio: https://degooglisons-internet.org/?l=en
+  cloud: https://framacoud.org/fr/cultiver-son-jardin/
