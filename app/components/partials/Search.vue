@@ -1,7 +1,7 @@
 <template>
   <form method="post" id="search" action="https://framabee.org">
     <div class="input-group input-group-lg">
-      <input type="search" name="q" class="form-control">
+      <input type="search" name="q" class="form-control" v-model="q">
       <span class="input-group-btn">
         <dropdown ref="dropdown" menu-right>
           <btn type="button" class="btn-default btn-lg dropdown-toggle"
@@ -27,6 +27,11 @@ export default {
   components: {
     Btn, Dropdown,
   },
+  data() {
+    return {
+      q: '',
+    }
+  },
   methods: {
     searchDDG () {
       const framaworld = [
@@ -36,7 +41,7 @@ export default {
         'framacolibri.org', 'participer.framasoft.org',
         'docs.framasoft.org', 'framacloud.org',
       ];
-      window.location.href = `https://duckduckgo.com/?q=${$('#search input[name="q"]').val()} site:${framaworld.join()}`;
+      window.location.href = `https://duckduckgo.com/?q=${this.q} site:${framaworld.join()}`;
     },
   }
 }
