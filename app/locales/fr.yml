@@ -524,7 +524,7 @@ cat:
         desc: '
           Framacarte vous permet de dessiner, marquer, colorier, annoter…
 
-          les fonds de carte d’<a href="@:msg.link.w.OSM">OpenStreetMap</a>
+          les fonds de carte d’<a href="@:link.w.OSM">OpenStreetMap</a>
 
           pour les afficher ensuite dans votre site web ou les imprimer.
 
@@ -763,7 +763,7 @@ pages:
 
       la communauté puisse s’activer dans les meilleures conditions.
 
-      Elle compte @:msg.meta.salaries permanents et est financée principalement par les dons
+      Elle compte @:meta.salaries permanents et est financée principalement par les dons
 
       individuels collectés sur Internet. Vous pouvez en être vous aussi,
 
@@ -779,7 +779,7 @@ pages:
 
       communiquer, promouvoir, sensibiliser…
 
-      N’hésitez pas à <a href="@:msg.link.participate">mettre la main à la pâte</a>
+      N’hésitez pas à <a href="@:link.participate">mettre la main à la pâte</a>
 
       avec nous ! Et merci d’avance…
 
@@ -791,11 +791,11 @@ pages:
     text: '
       Framasoft ne serait rien sans sa communauté de bénévoles mais ne pourrait pas fonctionner
 
-      non plus sans le service de l’association qui a des frais et emploie @:msg.meta.salaries
+      non plus sans le service de l’association qui a des frais et emploie @:meta.salaries
 
       indispensables permanents. Notre financement dépend de vous, c’est-à-dire des dons individuels
 
-      collectés sur Internet. <a href="@:msg.link.soutenir">Si vous pensez que nous le méritons…</a>
+      collectés sur Internet. <a href="@:link.soutenir">Si vous pensez que nous le méritons…</a>
 
       '
 
@@ -810,7 +810,7 @@ pages:
 
       associatives) qui permettent aux projets de croître et de se développer.
 
-      <a href="@:msg.link.partenaires">Liste de tous nos partenaires</a>
+      <a href="@:link.partenaires">Liste de tous nos partenaires</a>
 
       '
 
@@ -818,7 +818,7 @@ pages:
   logiciel:
     title: Logiciel Libre ?
     desc: '
-      Un <a href="@:msg.link.wFreeSoftware">logiciel libre</a>
+      Un <a href="@:link.wFreeSoftware">logiciel libre</a>
 
       est un logiciel qui offre et garantit les quatre libertés suivantes : utilisation, étude,
 
@@ -829,9 +829,9 @@ pages:
     text1: '
       Ceci est permis techniquement grâce à l’accès au
 
-      <a href="@:msg.link.wSourceCode">code</a>
+      <a href="@:link.wSourceCode">code</a>
 
-      et légalement grâce à la <a href="@:msg.link.wFreeLicense">licence libre</a>
+      et légalement grâce à la <a href="@:link.wFreeLicense">licence libre</a>
 
       qui l’accompagne. Ces <i>quatre libertés</i> favorisent la transparence,
 
@@ -851,7 +851,7 @@ pages:
     desc: '
       Facilitée par Internet et la numérisation, la
 
-      « <a href="@:msg.link.wFreeCulture">culture libre</a> »
+      « <a href="@:link.wFreeCulture">culture libre</a> »
 
       est une culture en mouvement qui s’inspire directement du logiciel libre
 
@@ -864,7 +864,7 @@ pages:
 
       Ces œuvres peuvent alors être considérées comme des
 
-      <a href="@:msg.link.wCommons">biens communs</a>.
+      <a href="@:link.wCommons">biens communs</a>.
 
       L’exemple le plus emblématique est l’encyclopédie libre Wikipédia.
 
@@ -897,7 +897,7 @@ pages:
 
       Ces services vous sont proposés dans le cadre de notre campagne
 
-      <a href="@:msg.link.dio">« <b class="violet">Dégooglisons</b> <b class="orange">Internet</b> »</a>
+      <a href="@:link.dio">« <b class="violet">Dégooglisons</b> <b class="orange">Internet</b> »</a>
 
       '
 
@@ -906,7 +906,7 @@ pages:
 
       Des tutoriels sont là pour vous aider à franchir le pas dans la rubrique
 
-      <a href="@:msg.link.cloud">Cultiver son jardin</a>.
+      <a href="@:link.cloud">Cultiver son jardin</a>.
 
       '
 

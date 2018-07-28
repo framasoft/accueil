@@ -664,7 +664,7 @@ pages:
   news: What's up on Framasoft?
   medias:
     title: Press Release
-    intro: Framasoft and the “De-google-ify Internet” campaign received some attention. Here are some extracts from our <a href="@:msg.link.speakabout">Press release</a>.
+    intro: Framasoft and the “De-google-ify Internet” campaign received some attention. Here are some extracts from our <a href="@:link.speakabout">Press release</a>.
     th1: Date
     th2: Media
     th3: Links
@@ -695,7 +695,7 @@ pages:
 
       Up to it to smooth out any rough edges and to ensure that the community can emulate in good conditions.
 
-      There are @:msg.meta.salaries permanents and it&quot;s mostly financed by individual donations
+      There are @:meta.salaries permanents and it&quot;s mostly financed by individual donations
 
       collected on Internet. You can be a member too,
 
@@ -711,7 +711,7 @@ pages:
 
       communicate, promote, raise awareness…
 
-      Don’t hesitate to <a href="@:msg.link.participate">join in</a>
+      Don’t hesitate to <a href="@:link.participate">join in</a>
 
       with us! And thanks in advance…
 
@@ -723,11 +723,11 @@ pages:
     text: '
       Framasoft would nothing without its volunteer community, but cannot operate without the support of
 
-      the association which has expenses and employs @:msg.meta.salaries vital employees.
+      the association which has expenses and employs @:meta.salaries vital employees.
 
       Our funding depends on individual donations, that means on you.
 
-      <a href="@:msg.link.soutenir">If you think we deserve it…</a>
+      <a href="@:link.soutenir">If you think we deserve it…</a>
 
       '
 
@@ -742,7 +742,7 @@ pages:
 
       non-profit) allowing our projects to growth and develop.
 
-      <a href="@:msg.link.partenaires">List of all our partners</a>
+      <a href="@:link.partenaires">List of all our partners</a>
 
       '
 
@@ -750,7 +750,7 @@ pages:
   logiciel:
     title: Free software?
     desc: '
-      <a href="@:msg.link.wFreeSoftware">Free software</a>
+      <a href="@:link.wFreeSoftware">Free software</a>
 
       is a software that offers and guarantees the following four liberties: usage, study,
 
@@ -760,9 +760,9 @@ pages:
     text1: '
       This is technically permitted thanks to the access to the
 
-      <a href="@:msg.link.wSourceCode">code</a>
+      <a href="@:link.wSourceCode">code</a>
 
-      and legally with the <a href="@:msg.link.wFreeLicense">free license</a>
+      and legally with the <a href="@:link.wFreeLicense">free license</a>
 
       going with it. Theses <i>four liberties</i> promote transparency,
 
@@ -782,7 +782,7 @@ pages:
     desc: '
       Ease by Internet and digitisation,
 
-      "<a href="@:msg.link.wFreeCulture">free culture</a>"
+      "<a href="@:link.wFreeCulture">free culture</a>"
 
       is a evolving culture inspired directly by free software
 
@@ -794,7 +794,7 @@ pages:
 
       These works can then be considered as
 
-      <a href="@:msg.link.wCommons">common goods</a>.
+      <a href="@:link.wCommons">common goods</a>.
 
       The most illustrative example is the free encyclopedia Wikipedia.
 
@@ -823,7 +823,7 @@ pages:
 
       and respectful of your personal data. These services are offered in the context of our campaign
 
-      <a href="@:msg.link.dio">"<b class="violet">De-googl-ify</b> <b class="orange">Internet</b>"</a>
+      <a href="@:link.dio">"<b class="violet">De-googl-ify</b> <b class="orange">Internet</b>"</a>
 
       '
     text2: '
@@ -831,7 +831,7 @@ pages:
 
       Tutorials are availables in the section
 
-      <a href="@:msg.link.cloud" lang="fr">Cultiver son jardin</a>
+      <a href="@:link.cloud" lang="fr">Cultiver son jardin</a>
 
       (only in french actually) to help you to go for it.
 
