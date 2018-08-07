@@ -1,7 +1,6 @@
 lite: Accès rapide
 full: Accès classique
 home: Accueil
-
 meta:
   title: Framasoft ~ Page portail du réseau
   lead: La route est longue mais la voie est libre…
@@ -24,7 +23,6 @@ meta:
   keywords: Framasoft, logiciels libres, logiciels libres et open source, culture libre, FOSS, promotion et diffusion des logiciels libres, open source
   license: Creative Commons-By-SA sauf mention contraire
   salaries: huit
-
 # Navigation interne
 nav:
   lite: Accès rapide
@@ -45,26 +43,22 @@ nav:
     vrac:
       key: Rubrique libr’en vrac
       title: vers la rubrique libr’en vrac
-
 # Carousel
 carousel:
   play: Lecture
   pause: Pause
   prev: Diapo précédente
   next: Diapo suivante
-
 # Recherche
 search:
   btn: Rechercher
   frama: sur les sites de Framasoft
   web: sur le web
-
 # Catégories
 cat:
   communaute:
     title: Libre communauté
     desc: Vous êtes libre ce soir ?
-
   campagnes:
     sites:
       dio:
@@ -72,11 +66,9 @@ cat:
         what: Campagne 2014-2017
       cuo:
         what: Campagne 2017-2020
-
   logiciel:
     title: Libres logiciels
     desc: Liberté, égalité, fraternité
-
     sites:
       libre:
         what: Un annuaire
@@ -87,9 +79,7 @@ cat:
           le projet historique et fondateur de Framasoft.
 
           On y trouve également des tutoriels et des articles de fond.
-
           '
-
       key:
         what: Une clé USB
         title: Le plein de liberté dans une simple clé
@@ -103,9 +93,7 @@ cat:
           GNU/Linux ou encore avoir accès hors ligne à toute la
 
           Wikipédia francophone.
-
           '
-
       dvd:
         what: Un DVD
         title: Le plein de liberté dans un DVD
@@ -117,9 +105,7 @@ cat:
           mais aussi de la culture libre (textes, photos, audios et vidéos).
 
           Existe en une version spéciale école
-
           '
-
       pack:
         what: Un distributeur
         title: Distribution massive
@@ -131,9 +117,7 @@ cat:
           On les sélectionne et ils s’installent tous ensemble
 
           d’un simple clic !
-
           '
-
   culture:
     title: Libres cultures
     desc: Extension du domaine du Libre
@@ -149,9 +133,7 @@ cat:
           commentaires, de nombreuses traductions originales et
 
           les annonces des nouveautés de l’ensemble du réseau Framasoft.
-
           '
-
       book:
         what: Des livres…
         title: Le pari du livre libre
@@ -165,9 +147,7 @@ cat:
           aussi des BD et même un roman. Un livre libre offre au
 
           lecteur les mêmes libertés qu’un logiciel libre.
-
           '
-
       bookin:
         what: …et une bibliothèque
         title: Une bibliothèque numérique libre
@@ -181,9 +161,7 @@ cat:
           directement une application de lecture d’ebook grâce au
 
           flux <abbr>OPDS</abbr>.
-
           '
-
       lang:
         what: Des traductions
         title: Traduction collaborative
@@ -197,9 +175,7 @@ cat:
           Il peut s’agir d’articles, de sous-titrage et même de
 
           livres entiers !
-
           '
-
       tube:
         what: Des vidéos
         title: Notre « YouTube » du Libre
@@ -211,9 +187,7 @@ cat:
           Interviews, conférences, documentaires, extraits télévisés…
 
           pour s’informer mais aussi informer les autres.
-
           '
-
       zic:
         what: De la musique
         title: Quand la musique est libre
@@ -227,9 +201,7 @@ cat:
           d’une petite sélection permettant de constater que la
 
           qualité est au rendez-vous.
-
           '
-
   cloud:
     title: Libres services
     desc: Du cloud computing libre ? c’est possible !
@@ -245,9 +217,7 @@ cat:
           Aucune inscription requise, on se donne un pseudo,
 
           une couleur et on se lance !
-
           '
-
       calc:
         what: Calculer
         title: Un tableur collaboratif
@@ -259,9 +229,7 @@ cat:
           d’éditer simplement et collectivement en ligne
 
           sur un même document.
-
           '
-
       forms:
         what: Enquêter
         title: Création de questionnaires
@@ -275,9 +243,7 @@ cat:
           de vos besoins, des formulaires à choix multiples aux
 
           champs de texte libre.
-
           '
-
       agenda:
         what: Organiser
         title: Agenda partagé
@@ -291,9 +257,7 @@ cat:
           Vous restez maîtres de vos données, et vous choisissez
 
           auprès de qui, où et quand elles s´affichent.
-
           '
-
       date:
         what: Organiser
         title: Organiser des rendez-vous et des sondages
@@ -303,9 +267,7 @@ cat:
           Rien de plus simple de créer un rendez-vous ou un sondage
 
           sans inscription pour y inviter vos collaborateurs.
-
           '
-
       board:
         what: Organiser
         title: Gérer des projets
@@ -319,9 +281,7 @@ cat:
           coup d’œil, quelle que soit votre habitude à utiliser
 
           ce genre d’outil.
-
           '
-
       mindmap:
         what: Structurer
         title: Créer des cartes mentales
@@ -331,9 +291,7 @@ cat:
           simplement des cartes heuristiques à même votre navigateur.
 
           Pertinent en situation de brainstorming ou de prise de notes.
-
           '
-
       vectoriel:
         what: Dessiner
         title: Dessiner en vectoriel
@@ -341,9 +299,7 @@ cat:
           Pour créer et éditer simplement et rapidement de belles
 
           images en ligne au format ouvert SVG. Les enfants adorent !
-
           '
-
       slides:
         what: Exposer
         title: Créer et partager des diaporamas
@@ -353,9 +309,7 @@ cat:
           diaporama ou une présentation, d’y accéder avec une
 
           simple connexion internet, et de la partager.
-
           '
-
       maestro:
         what: Collaborer
         title: Ochestrez vos projets collaboratifs
@@ -367,9 +321,7 @@ cat:
           Avec Framaestro, c’est vous qui organisez les outils
 
           qu’il vous faut, sur une seule et unique page web.
-
           '
-
       bee:
         what: Rechercher
         title: Le moteur qui butine les internets pour vous
@@ -387,9 +339,7 @@ cat:
           (adresse IP, historique de vos recherches, géolocalisation, profil)
 
           ne sont pas enregistrées chez eux.
-
           '
-
       sphere:
         what: Réseauter
         title: Le réseau social libre
@@ -401,9 +351,7 @@ cat:
           Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* -
 
           et échangez avec eux sans être pisté.
-
           '
-
       piaf:
         what: Réseauter
         title: Réseau social en 500 caractères
@@ -415,9 +363,7 @@ cat:
           Retrouvez vos amis sur Framapiaf - ou d’autres instances
 
           Mastodon, GNU Social, Friendica - et échangez avec eux sans être pisté.
-
           '
-
       team:
         what: Discuter
         title: Communication collaborative
@@ -427,9 +373,7 @@ cat:
           qui permet de communiquer avec son équipe en notifiant ses collègues,
 
           de conserver ses conversations et d’y faire des recherches.
-
           '
-
       listes:
         what: Discuter
         title: Liste de diffusion
@@ -443,9 +387,7 @@ cat:
           à son tour. À vous de choisir si cette liste est
 
           publique, semi-privée ou privée.
-
           '
-
       talk:
         what: Discuter
         title: Visioconférence
@@ -457,9 +399,7 @@ cat:
           Tout se passe entre vous et vos amis, directement depuis
 
           votre navigateur web.
-
           '
-
       vox:
         what: Décider
         title: Prise de décision
@@ -469,9 +409,7 @@ cat:
           Discutez, échangez, mettez-vous d’accord et passez à l’action,
 
           le tout dans les délais que vous vous êtes fixés au départ.
-
           '
-
       memo:
         what: Cogiter
         title: Organisation d’idées
@@ -483,9 +421,7 @@ cat:
           Tel Framapad, aucune inscription n´est requise,
 
           les modifications se voient et sont enregistrées en direct.
-
           '
-
       notes:
         what: Noter
         title: Prise de notes
@@ -495,9 +431,7 @@ cat:
           et même des fichiers ; et les synchroniser avec tous vos
 
           appareils (voire les partager avec des ami⋅e⋅s).
-
           '
-
       bag:
         what: Suivre l’actualité
         title: Ne ratez plus aucun article !
@@ -505,9 +439,7 @@ cat:
           Framabag vous permet de mettre de côté les articles
 
           que vous n’avez pas le temps de lire tout de suite.
-
           '
-
       news:
         what: Suivre l’actualité
         title: Suivre l’actualité
@@ -515,9 +447,7 @@ cat:
           En vous abonnant aux flux RSS de vos sites préférés,
 
           restez informés de toutes leurs actualités avec Framanews !
-
           '
-
       carte:
         what: Cartographier
         title: Créer des cartes personnalisées
@@ -527,9 +457,7 @@ cat:
           les fonds de carte d’<a href="@:link.w.OSM">OpenStreetMap</a>
 
           pour les afficher ensuite dans votre site web ou les imprimer.
-
           '
-
       games:
         what: Jouer
         title: Jouer en ligne ou déconnecté
@@ -539,9 +467,7 @@ cat:
           jouent en ligne, se téléchargent sur son PC, sa tablette…
 
           et ne nécessitent aucune installation supplémentaire.
-
           '
-
       minetest:
         what: Jouer
         title: Le jeu éducatif à creuser
@@ -551,9 +477,7 @@ cat:
           dont vous construisez et décomposez les blocs pour le modifier et
 
           avec lequel vous pouvez réaliser vos propres applications pédagogiques.
-
           '
-
       drop:
         what: Partager
         title: Partager des fichiers anonymement
@@ -565,9 +489,7 @@ cat:
           Ce service libre vous permet de partager facilement des
 
           fichiers de manière sécurisé.
-
           '
-
       bin:
         what: Partager
         title: Transmettre des données chiffrées
@@ -577,9 +499,7 @@ cat:
           seuls vous et votre correspondant aurez le pouvoir de
 
           déchiffrer, et ceci de manière très simple.
-
           '
-
       pic:
         what: Partager
         title: Partager des images anonymement
@@ -589,9 +509,7 @@ cat:
           par exemple pour les publier sur Twitter, Facebook,
 
           ou … Framasphère !
-
           '
-
       link:
         what: Partager
         title: Réduire des liens
@@ -603,9 +521,7 @@ cat:
           le microblogging, un lien raccourci permet d’économiser
 
           de l’espace et gagner en clarté.
-
           '
-
       drive:
         what: Stocker
         title: Héberger ses documents en ligne
@@ -615,9 +531,7 @@ cat:
           de les synchroniser sur vos ordinateurs, mobiles, etc…
 
           et de les partager avec qui vous voulez.
-
           '
-
       my:
         what: Stocker
         title: Marque-pages
@@ -633,9 +547,7 @@ cat:
           onglets et marque-pages, et utiliser le bouton MyFrama
 
           pour retrouver les services Framasoft que vous utilisez !
-
           '
-
       git:
         what: Coder
         title: Héberger du code libre
@@ -645,9 +557,7 @@ cat:
           Il permet d’héberger vos projets de logiciels libres et
 
           de travailler collaborativement dessus.
-
           '
-
       site:
         what: Publier
         title: Hébergement de sites
@@ -659,9 +569,7 @@ cat:
           traquage ne portera atteinte aux données de vos visiteurs
 
           et visiteuses.
-
           '
-
       wiki:
         what: Publier
         title: Hébergement de wikis
@@ -673,7 +581,6 @@ cat:
           traquage ne portera atteinte aux données de vos visiteurs
 
           et visiteuses.
-
           '
   vrac:
     title: Libr’en vrac
@@ -690,9 +597,7 @@ cat:
           Framacolibri est notre convivial espace d’échange
 
           d’informations autour du Libre.
-
           '
-
       evl:
         what: Une boutique
         title: Notre libre petite boutique
@@ -702,9 +607,7 @@ cat:
           peuvent se matérialiser : Framakey, Framabook, Framadvd
 
           mais aussi des goodies et des tee-shirts.
-
           '
-
       docs:
         what: Documentations
         title: Notre centre de documentation
@@ -714,9 +617,7 @@ cat:
           ligne que nous proposons et apprendre à travers nos
 
           différents guides comment gagner en autonomie.
-
           '
-
 # Page 1 Présentation
 pages:
   accroche:
@@ -724,7 +625,6 @@ pages:
   - De nombreux services et projets innovants mis librement à disposition du grand public.
   - Une <a href="#topPgcommunaute">communauté</a> de bénévoles soutenue par une association d’intérêt général.
   - Une invitation à bâtir ensemble un monde de partage et de coopération.
-
   news: Quoi de neuf sur Framasoft ?
   medias:
     title: Revue de presse
@@ -737,7 +637,6 @@ pages:
     lSummary: Lien vers le sommaire du numéro
     lPodcast: Lien vers le podcast
     lListen: Lien vers la page d’écoute
-
 # Page 2 Libre communauté
   communaute:
     title: Une communauté
@@ -750,9 +649,7 @@ pages:
       le Libre et de placer sa participation sous licence libre, garantissant qu’elle
 
       sera mise dans le pot des biens communs sans risque d’appropriation.
-
       '
-
   asso:
     title: Une association
     desc: Un peu de cathédrale
@@ -768,9 +665,7 @@ pages:
       individuels collectés sur Internet. Vous pouvez en être vous aussi,
 
       mais attention ça tient plus du sacerdoce que de la sinécure !
-
       '
-
   participer:
     title: Participer ?
     desc: Il y a mille et une façons de participer avec nous à diffuser le Libre au sein de nos nombreux projets.
@@ -782,9 +677,7 @@ pages:
       N’hésitez pas à <a href="@:link.participate">mettre la main à la pâte</a>
 
       avec nous ! Et merci d’avance…
-
       '
-
   soutenir:
     title: Nous soutenir ?
     desc: Parce que libre ne signifie pas gratuit
@@ -796,9 +689,7 @@ pages:
       indispensables permanents. Notre financement dépend de vous, c’est-à-dire des dons individuels
 
       collectés sur Internet. <a href="@:link.soutenir">Si vous pensez que nous le méritons…</a>
-
       '
-
   partenaires:
     title: Nos partenaires
     desc: '
@@ -811,9 +702,7 @@ pages:
       associatives) qui permettent aux projets de croître et de se développer.
 
       <a href="@:link.partenaires">Liste de tous nos partenaires</a>
-
       '
-
 # Page 3 Libres logiciels
   logiciel:
     title: Logiciel Libre ?
@@ -823,9 +712,7 @@ pages:
       est un logiciel qui offre et garantit les quatre libertés suivantes : utilisation, étude,
 
       modification et duplication en vue de sa diffusion (gratuite ou pas).
-
       '
-
     text1: '
       Ceci est permis techniquement grâce à l’accès au
 
@@ -836,15 +723,12 @@ pages:
       qui l’accompagne. Ces <i>quatre libertés</i> favorisent la transparence,
 
       la confiance, l’échange, le partage et la collaboration au sein de communautés.
-
       '
     text2: '
       Framasoft vous propose un annuaire, des clés USB et DVD et un installateur Windows
 
       pour les découvrir et les utiliser régulièrement.
-
       '
-
 # Page 4 Libres cultures
   culture:
     title: Culture Libre ?
@@ -856,9 +740,7 @@ pages:
       est une culture en mouvement qui s’inspire directement du logiciel libre
 
       dans sa philosophie et ses licences pour promouvoir et diffuser des œuvres de l’esprit.
-
       '
-
     text1: '
       Elle explore des domaines aussi variés que les arts, l’éducation, les sciences, le matériel…
 
@@ -867,25 +749,19 @@ pages:
       <a href="@:link.wCommons">biens communs</a>.
 
       L’exemple le plus emblématique est l’encyclopédie libre Wikipédia.
-
       '
-
     text2: '
       Dans ce cadre, Framasoft vous propose un blog, une maison d’édition,
 
       une plateforme vidéo, un site dédié à la musique libre ainsi qu’un
 
       service original de traduction collaborative.
-
       '
-
     quote: '
       « Parce que ce serait l’une des plus grandes opportunités manquées de notre époque
 
       si le logiciel libre ne libérait rien d’autre que du code. »
-
       '
-
 # Page 5 Libres services
   cloud:
     title: Services Libres ?
@@ -898,18 +774,14 @@ pages:
       Ces services vous sont proposés dans le cadre de notre campagne
 
       <a href="@:link.dio">« <b class="violet">Dégooglisons</b> <b class="orange">Internet</b> »</a>
-
       '
-
     text2: '
       Vous pouvez aussi les installer sur votre propre serveur, participant ainsi à décentraliser l’Internet.
 
       Des tutoriels sont là pour vous aider à franchir le pas dans la rubrique
 
       <a href="@:link.cloud">Cultiver son jardin</a>.
-
       '
-
 # Page 6 Libr’en Vrac
   vrac:
     title: Les projets transversaux
@@ -918,14 +790,11 @@ pages:
       Nous regroupons ici tout ce qui touche à l’ensemble du réseau ainsi que
 
       notre laboratoire d’idées et de projets en construction.
-
       '
-
     une:
       title: Lumière sur…
       desc: GéGé, Geektionnerd generator
       text: Le geektionnerd à faire soi-même.
-
 # Link can target to translated pages
 link:
   participate: https://participer.framasoft.org/fr/
@@ -939,3 +808,95 @@ link:
   wOSM: https://fr.wikipedia.org/wiki/Openstreetmap
   dio: https://degooglisons-internet.org
   cloud: https://framacoud.org/fr/cultiver-son-jardin/
+charte:
+  title: Charte
+  intro: '@:data.meta.framaname est un réseau d’éducation populaire,
+
+    issu du monde éducatif, consacré principalement au logiciel libre.
+
+    Il s’organise en trois axes sur un mode collaboratif : promotion, diffusion
+
+    et développement de logiciels libres, enrichissement de la culture libre
+
+    et offre de services libres en ligne.
+    '
+  libre:
+    title: Pour un Internet libre
+    text:
+    - 'L’utilisation des logiciels libres et des standards ouverts sur Internet est
+        l’objectif prioritaire du projet <a href="@:link.dio">@:cat.campagnes.sites.dio.name</a>.'
+    - 'L’accès au code source est au fondement des principes du Libre.
+        Pour chaque application rendue disponible dans ses projets,
+        @:data.meta.name s’engage à ce qu’elle soit placée exclusivement sous
+        <a href="https://www.gnu.org/philosophy/free-sw.fr.html">licence libre</a>.'
+    - 'En cas d’amélioration du code, @:data.meta.name s’engage à placer sa contribution
+        sous licence libre (compatible avec la licence initiale) et encouragera
+        toute contribution volontaire de la part des utilisateurs en les invitant
+        à contacter les auteurs.'
+    - '@:data.meta.name s’engage à rendre accessible le code source soit en publiant un
+        lien vers le site officiel de l’application, soit, si ce dernier n’est plus
+        disponible, en publiant le code utilisé sur un dépôt.'
+    - 'Ce faisant, @:data.meta.name démontre sa probité en permettant à chaque utilisateur
+        de vérifier le code source, éventuellement de l’améliorer, et surtout de
+        s’assurer qu’aucun usage déloyal ne sera fait de ses données, de son identité
+        et de ses droits.'
+    - 'C’est en connaissance de cause que les utilisateurs pourront user des applications
+        disponibles et prendre connaissance des toutes les fonctionnalités,
+        de leur avantages, de leurs limites et de leurs emplois.'
+    - 'Aucune donnée produite à l’aide des applications n’appartient à @:data.meta.name,
+        qui n’y appose aucun droit et n’y pratique aucune censure.
+        En revanche tout contenu contrefaisant ou illégal au regard de la loi française,
+        une fois dûment signalé, sera supprimé immédiatement.'
+  decentralized:
+    title: Pour un Internet décentralisé
+    text:
+    - 'En proposant des applications libres en ligne, @:data.meta.name expose autant
+        d’alternatives aux applications proposées par des entreprises à des fins
+        de monopole et d’usage dévoyé des données personnelles.'
+    - 'Ces alternatives illustrent la diversité des solutions libres disponibles et
+        pouvant être mises à disposition à des fins personnelles ou collectives.
+        À ce titre @:data.meta.name s’engage à favoriser leur essaimage en publiant des
+        tutoriaux explicatifs sur les méthodes employées pour installer
+        ces applications sur vos propres serveurs.'
+    - 'L’égalité de l’accès à ces applications est un engagement fort : en les
+        proposant gratuitement, @:data.meta.name souhaite promouvoir leur usage envers
+        le plus grand nombre et illustrer par l’exemple qu’un Internet décentralisé
+        et égalitaire est possible.'
+  ethic:
+    title: Pour un Internet éthique
+    text:
+    - 'L’éthique du logiciel libre est faite de partage et d’indépendance.
+        @:data.meta.name s’engage à ne pratiquer aucune censure a priori des contenus,
+        aucune surveillance des actions des utilisateurs, et à ne répondre à
+        aucune demande administrative ou d’autorité sans une requête légale
+        présentée en bonne et dûe forme.
+        En retour, les utilisateurs s’engagent, dans la production ou l’hébergement
+        de leurs contenus, à respecter les cadres prévus par la loi.'
+    - 'Aucune discrimination des utilisateurs n’est pratiquée, afin de favoriser
+        la plus grande accessibilité possible.'
+    - 'Aucune donnée personnelle ne sera exploitée à des fins commerciales,
+        transmise à des tiers ou utilisée à des fins non prévues par la présente charte.
+        En revanche, les utilisateurs doivent aussi intégrer le fait que leurs
+        données peuvent parfois être accessibles, en particulier lorsqu’ils rendent
+        leurs données publiques dans le cadre d’une application collaborative.
+        Dans ce cas, les utilisateurs restent responsables de leurs contenus.'
+  solidary:
+    title: Pour un Internet solidaire
+    text:
+    - '@:data.meta.name est une association sans but lucratif.
+        Ses bénévoles et salariés mettent leur temps de travail au service des
+        utilisateurs  pour assurer la pérennité des services.
+        Le modèle économique proposé est basé sur la mutualisation des énergies et des coûts.
+        Si les services sont gratuits, cela ne signifie pas qu’ils ne coûtent rien.
+        Si un grand nombre de personnes encouragent financièrement @:data.meta.name
+        à maintenir ses services, un plus grand nombre encore sera en mesure de
+        les utiliser et ils pourront de même être améliorés.'
+    - 'Dans une démarche d’éducation populaire, @:data.meta.name diffuse un maximum de
+        connaissances pour promouvoir les usages des logiciels libres et
+        apprendre à installer des services libres en ligne.
+        Ce partage des ressources, techniques et cognitives, fait d’Internet un
+        bien commun, disponible pour tous et n’appartenant à personne.'
+  footer:
+    - 'Charte des services Libres, Éthiques, Décentralisés et Solidaires,<br>
+        approuvée par l’association @:data.meta.name le 6 octobre 2014.'
+
