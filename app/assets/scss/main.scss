@@ -542,7 +542,9 @@ h4 {
   text-align: center;
 }
 
-ul, ol {padding-left:0 !important}
+#home, #lite {
+  ul, ol {padding-left: 0;}
+}
 
 @import "lite";
 

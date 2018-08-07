@@ -828,5 +828,183 @@ charte:
     - 'Charter of Free, Ethical, Decentralized and Solidary services,<br>
         approved by  @:data.meta.name on October 6th 2014.'
     - 'Translation by Framalang contributors Théo, #!, goofy, Diane'
-
-
+cgu:
+  title: Terms of Use
+  intro:
+    title: Preamble
+    text: By using this service, you agree to be bound by the following terms.<br>
+      @:data.meta.name reserves the right to update and modify these terms from time to time.
+  short:
+    title: Short version (TL;DR as we say)
+    desc: 'To make it easier to read, without the legal blah-blah, we offer you
+      below a version understandable by a normal human being.'
+    sympa:
+      text: 'We&apos;re nice people:'
+      list:
+      - 'Your content belongs to you (but we encourage you to publish it under free license);'
+      - '@:data.meta.name will not use your personal data, except for statistical purposes
+          (anonymized) or to notify you of a significant change in the service;'
+      - '@:data.meta.name  will not transmit or resell your personal data
+          (your privacy is important to us - really - at heart) ;'
+      - 'The commitments of @:data.meta.name result from an inspired militant approach
+          of the popular education movement, you can find them in our
+          <a href="@:link.charte">Charter of Free, Ethical, Decentralized and Solidarity Services</a>.'
+    terms:
+      text: '<b>But</b> that doesn&apos;t mean you should think we&apos;re kittens:'
+      list:
+      - 'Clause <em>"The law is the law, and we don&apos;t want to end up in jail"</em>:
+          you must respect the law (whether it is well made or silly),
+          otherwise your account will be deleted;'
+      - 'Clause <em>"Thank you for being polite and respectful with your neighbours on duty"</em>:
+          you must respect other users by being civic-minded
+          and politeness, if not your content, even your account,
+          can be deleted, without negotiation;'
+      - 'Clause <em>"If it breaks, we are not obliged to repair"</em>:
+          @:data.meta.name offers this service for free.
+          If you lose data, through your fault or ours, sorry, but it happens.
+          We&apos;ll do what we can to get them back, but we assign no obligation of result.
+          Clearly, avoid putting sensitive or important data on
+          services @:data.meta.name, because in case of loss, we do not guarantee their recovery;'
+      - 'Clause <em>"If you are not happy, you are invited to go elsewhere"</em>:
+          if the service does not suit you, you are free to find some
+          an equivalent (or better) elsewhere, or to mount yours;'
+      - 'Clause <em>"Any abuse will be punished"</em>: if a user abuses the service,
+          for example by monopolizing shared machine resources, or by publishing
+          content considered to be irrelevant, its content or
+          his account can be deleted without warning or negotiation.
+          @:data.meta.name remains the sole judge of this notion of "abuse" in order to
+          provide the best possible service to all its users.
+          If it seems anti-democratic, anti-libristic, anti-free speech to you,
+          please refer to the previous clause;'
+      - 'Clause <em>"Nothing is eternal"</em>: services can close
+          (for example, because of a lack of funds to maintain them), they can be
+          victims of intrusion (the "100% secure" does not exist).
+          We encourage you to keep a copy of the data that is important to you,
+          because @:data.meta.name can not be held responsible for their hosting without time limit.'
+  full:
+    title: Full version
+    conditions:
+      title: Conditions of service
+      list:
+      - 'Use of the service is at your own risk. The service is provided as is.'
+      - 'You must not modify another site in order to falsely signify
+          that it is associated with this service @:data.meta.name.'
+      - 'Accounts can only be created and used by humans.
+          Accounts created by robots or other automated methods
+          may be deleted without notice.'
+      - 'You are responsible for the security of your account and password.
+          @:data.meta.name can not and will not be responsible for any losses
+          or damage resulting from your failure to comply with this safety obligation.'
+      - 'You are responsible for all content posted and activity that occurs under your account.'
+      - 'You may not use the Service for any illegal or unauthorized purpose.
+          You must not break the laws of your country.'
+      - 'You may not sell, trade, resell, or exploit in
+          an unauthorized business purpose an account of the service used.'
+    liabilities:
+      text: 'Violation of any of these agreements will result in termination of your account.
+        You understand and accept that the @:data.meta.name association cannot be held
+        responsible for the content published on this service.'
+      list:
+      - 'You understand that putting the service and your content online involves
+          transmission (in plain text or encrypted, depending on the service) over various networks.'
+      - 'You must not transmit worms, viruses or any other malicious code.'
+      - '@:data.meta.name does not guarantee that
+          <ul>
+            <li>the service will meet your specific needs,</li>
+            <li>the service will be uninterrupted or bug-free,</li>
+            <li>that errors in the service will be corrected.</li>
+          </ul>'
+      - 'You understand and agree that @:data.meta.name cannot be held responsible for
+          any direct, indirect or incidental damages, including damages
+          for loss of profits, customers, access, data or other intangible losses
+          (even if @:data.meta.name is informed of the possibility of such damages) and that would result from :
+          <ol>
+            <li>use or inability to use the service ;</li>
+            <li>unauthorized or altered access to data transmission ;</li>
+            <li> statements or actions of a third party about the service ;</li>
+            <li>cancelling your account ;</li>
+            <li>any other service related question.</li>
+          </ol>'
+      - 'The failure of @:data.meta.name to exercise or enforce any right or provision
+          of the General Conditions of Use does not constitute a waiver
+          to that right or provision.
+          The Terms of Use constitute the entire agreement
+          between you and @:data.meta.name and govern your use of the service,
+          replacing all previous agreements between you and @:data.meta.name
+          (including previous versions of the Terms of Use).'
+      - 'Questions about the conditions of service should be sent via
+          <a href="@:link.contact">this contact form</a>.'
+  modify:
+    title: Modifications of the service
+    list:
+    - '@:data.meta.name reserves the right, at any time, to modify or interrupt,
+        temporarily or permanently, with or without notice.'
+    - '@:data.meta.name will not be liable to you or any third party for any modification,
+        suspension or interruption of service.'
+    copyright:
+      title: Content copyright
+      list:
+      - 'You cannot send, upload, blog, distribute,
+          disseminate any illegal, defamatory, harassing, abusive, fraudulent content,
+          counterfeit, obscene or otherwise objectionable.'
+      - 'We do not claim any rights on your data: text, images, sound, video,
+          or any other element, that you download or transmit from your account.'
+      - 'We will not use your content for any purpose other than to provide the service to you.'
+      - 'You must not download or make available any content that
+          infringes someone else&apos;s rights.'
+      - 'We reserve the right to remove any content we deem necessary.
+          not relevant to the use of the service, in our sole judgment.'
+      - 'We may, if necessary, delete or prevent the distribution of any content
+          on the service that does not comply with these conditions.'
+    share:
+      title: Editing and data sharing
+      list:
+      - 'The files you create with the service can be - if you wish -
+          read, copied, used and redistributed by people you know or not.'
+      - 'By making your data public, you acknowledge and agree that
+          any person using this website may consult them without restrictions.'
+      - 'But the service can also offer you the possibility to authorize
+          restricted access and collaborative work on its documents
+          to one or more other users.'
+      - '@:data.meta.name cannot be held responsible for any problem resulting from the
+          sharing or publishing data between users.'
+    closure:
+      title: Closure
+      text:
+      - '@:data.meta.name, in its sole discretion, has the right to suspend or terminate
+          your account and refuse any current or future use of the service.
+          Termination of the service will result in deactivation of access to your account,
+          and the restitution of all the contents.<br>
+          @:data.meta.name reserves the right to refuse service to anyone
+          for any reason at any time.'
+      - '@:data.meta.name also reserves the right to terminate your account
+          if you do not log into your account for a period longer than 6 months.'
+    private:
+      title: Personal informations
+      text:
+      - 'In accordance with article 34 of the law "Informatique et Libertés",
+          @:data.meta.name guarantees the user a right to opposition, access and
+          of correction on the personal data concerning him.
+          The user has the possibility to exercise this right by using the
+          <a href="@:link.contact">contact form</a> available.'
+      list:
+      - 'To use certain services @:data.meta.name, you must create an account.
+          @:data.meta.name requests some personal information :
+          a valid email address and a password that is used to protect
+          your account against unauthorized access.
+          The "Last Name" and "First Name" fields may be required for the correct
+          operation of the software, but it is not necessary
+          that they reveal your true identity.'
+      - 'Just like other online services, @:data.meta.name automatically saves
+          certain information about your use of the service such as
+          account activity (example: storage space occupied, number of entries, measures taken),
+          the data displayed or clicked (example: links, user interface elements),
+          and other information to identify you (example: browser type, IP address,
+          date and time of access, reference URL).'
+      - 'We use this information internally to improve you
+          the user interface of the @:data.meta.name services and maintain a
+          consistent and reliable user experience.'
+      - 'This data is neither sold nor passed on to third parties.'
+  footer:
+  - 'Terms of Use of the @:data.meta.name association&apos; online services,<br>
+      version 1.0.3 of April 11, 2016.'
