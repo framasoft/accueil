@@ -1022,7 +1022,7 @@ cgu:
       list:
       - 'Vous ne pouvez pas envoyer, télécharger, publier sur un blog, distribuer,
           diffuser tout contenu illégal, diffamatoire, harcelant, abusif, frauduleux,
-          contrefait, obscène ou autrement répréhensible.'
+        contrefait, obscène ou autrement répréhensible.'
       - 'Nous ne revendiquons aucun droit sur vos données : textes, images, son, vidéo,
           ou tout autre élément, que vous téléchargez ou transmettez depuis votre compte.'
       - 'Nous n’utiliserons pas votre contenu pour un autre usage que de vous fournir le service.'
@@ -1041,7 +1041,7 @@ cgu:
           toute personne utilisant ce site web puisse les consulter sans restrictions.'
       - 'Mais le service peut également vous proposer la possibilité d’autoriser
           l’accès et le travail collaboratif sur ses documents de manière restreinte
-          à un ou plusieurs autres utilisateurs.'
+        à un ou plusieurs autres utilisateurs.'
       - '@:data.meta.name ne peut être tenue responsable de tout problème résultant du
           partage ou de la publication de données entre utilisateurs.'
     closure:
@@ -1084,3 +1084,98 @@ cgu:
   footer:
   - 'Conditions Générales d’Utilisation des services en ligne de l’association
       @:data.meta.name,<br>version 1.0.3 du 11 avril 2016.'
+legals:
+  title: Mentions légales
+  editor:
+    title: Éditeur
+    asso: 'Association loi 1901 déclarée en sous-préfecture d’Arles le 2 décembre 2003 sous le n° '
+    siret: 'N° Siret :'
+    siege: Siège social
+    contact: 'Pour nous contacter :'
+    coprez: Co-présidence, direction de la publication
+    host: Hébergeur
+  infoLib:
+    title: Informatique et libertés
+    private:
+      title: Informations personnelles collectées
+      text:
+      - 'En France, les données personnelles sont notamment protégées par
+          <a href="https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460">la
+          loi n° 78-17 du 6 janvier 1978</a>, la loi n° 2004-801 du 6 août 2004,
+          l’article L. 226-13 du Code pénal et la Directive Européenne du 24
+           octobre 1995.'
+      - 'En tout état de cause @:data.meta.name ne collecte des informations
+          personnelles relatives à l’utilisateur (nom, adresse électronique,
+          coordonnées téléphoniques) que pour le besoin des services proposés par
+          les sites du réseau @:data.meta.name, notamment pour l’inscription à des
+          espaces de discussion par le biais de formulaires en ligne ou pour des
+          traitements statistiques. L’utilisateur fournit ces informations en
+          toute connaissance de cause, notamment lorsqu’il procède par lui-même à
+          leur saisie. Il est alors précisé à l’utilisateur des sites du réseau
+          @:data.meta.name le caractère obligatoire ou non des informations qu’il serait
+          amené à fournir.'
+    stats:
+      title: Analyse statistique et confidentialité
+      text:
+      - 'En vue d’adapter le site aux demandes de nos visiteurs, nous analysons le trafic de nos sites avec Matomo.
+          Matomo génère un cookie avec un identifiant unique, dont la durée de conservation est limitée à 13 mois.
+          Les données recueillies (adresse IP, User-Agent…) sont anonymisées et conservées pour une durée de 6 mois.
+          Elles ne sont pas cédées à des tiers ni utilisées à d’autres fins.'
+    modify:
+      title: Rectification des informations nominatives collectées
+      text:
+      - 'Conformément aux dispositions de l’article 34 de la loi n° 48-87 du
+          6 janvier 1978, l’utilisateur dispose d’un droit de modification des
+          données nominatives collectées le concernant. Pour ce faire,
+          l’utilisateur envoie à @:data.meta.name :'
+      - 'La modification interviendra dans des délais raisonnables à compter
+          de la réception de la demande de l’utilisateur.'
+      list:
+      - 'un courrier électronique en utilisant le formulaire de contact'
+      - 'un courrier à l’adresse du siège de l’association (indiquée
+          ci-dessus) en indiquant son nom ou sa raison sociale, ses coordonnées
+          physiques et/ou électroniques, ainsi que le cas échéant la référence
+          dont il disposerait en tant qu’utilisateur du site @:data.meta.name.'
+  liabilities:
+    title: Limitation de responsabilité
+    text:
+    - 'Ce site comporte des informations mises à disposition par des
+        communautés ou sociétés externes ou des liens hypertextes vers d’autres sites qui
+        n’ont pas été développés par le @:data.meta.name. Le contenu mis à disposition
+        sur le site est fourni à titre informatif. L’existence d’un lien de ce
+        site vers un autre site ne constitue pas une validation de ce site ou
+        de son contenu. Il appartient à l’internaute d’utiliser ces
+        informations avec discernement et esprit critique. La responsabilité de
+        @:data.meta.name ne saurait être engagée du fait des informations, opinions et
+        recommandations formulées par des tiers.'
+    - '@:data.meta.name ne pourra être tenue responsable des dommages directs et
+        indirects causés au matériel de l’utilisateur, lors de l’accès au site,
+         et résultant soit de l’utilisation d’un matériel ne répondant pas aux
+        spécifications techniques requises, soit de l’apparition d’un bug ou
+        d’une incompatibilité.'
+    - '@:data.meta.name ne pourra également être tenue responsable des dommages
+        indirects (tels par exemple qu’une perte de marché ou perte d’une
+        chance) consécutifs à l’utilisation du site.'
+    - 'Des espaces interactifs (possibilité de poser des questions dans
+        l’espace contact) sont à la disposition des utilisateurs sur le site
+        @:data.meta.name. @:data.meta.name se réserve le droit de
+        supprimer, sans mise en demeure préalable, tout contenu déposé dans cet
+        espace qui contreviendrait à la législation applicable en France, en
+        particulier aux dispositions relatives à la protection des données. Le
+        cas échéant, @:data.meta.name se réserve également la possibilité de mettre en
+        cause la responsabilité civile et/ou pénale de l’utilisateur, notamment
+        en cas de message à caractère raciste, injurieux, diffamant, ou
+        pornographique, quel que soit le support utilisé (texte, photographie…).'
+    tech:
+      title: Limitations contractuelles sur les données techniques
+      text:
+      - '@:data.meta.name ne pourra être tenue responsable de dommages matériels
+        liés à l’utilisation du site. De plus, l’utilisateur du site s’engage à
+        accéder au site en utilisant un matériel récent, ne contenant pas de
+        virus et avec un navigateur de dernière génération mis-à-jour.'
+    copyright:
+      title: Propriété intellectuelle
+      text:
+      - 'Les contenus sont publiés sous la responsabilité des utilisateurs.'
+  footer:
+  - 'Mentions légales de l’association @:data.meta.name,<br>le 6 octobre 2014.'

@@ -311,3 +311,11 @@ pages:
     - ['en', '17/10/2016', 'Worldcrunch',
        'http://www.worldcrunch.com/tech-science/the-open-source-group-trying-to-quotde-googlequot-the-internet',
        'pages.medias.lArticle']
+
+legals:
+  editor:
+    assoNb: 0132007842
+    siretNb: 500 715 776 00026
+    address: 'Association Framasoft<br>Pierre-Yves Gosset<br>
+      c/o Locaux Motiv<br>10 bis, rue Jangot<br>69007 LYON<br>FRANCE'
+    coprezName: Benjamin Jean, Sandra Guigonis, Christelle Thomas, Fredéric Urbain
