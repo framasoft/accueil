@@ -741,6 +741,11 @@ link:
   wOSM: https://en.wikipedia.org/wiki/Openstreetmap
   dio: https://degooglisons-internet.org/en
   cloud: https://framacoud.org/fr/cultiver-son-jardin/
+  charte: https://framasoft.org/en/charte
+  contact: https://contact.framasoft.org
+  cgu: https://framasoft.org/en/cgu
+  legals: https://framasoft.org/en/legals
+  graphics: https://framasoft.org/en/graphics
 charte:
   title: Charter
   intro: '@:data.meta.framaname is a network of popular education, originated from
