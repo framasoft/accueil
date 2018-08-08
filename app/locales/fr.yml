@@ -810,6 +810,9 @@ link:
   cloud: https://framacoud.org/fr/cultiver-son-jardin/
   charte: https://framasoft.org/fr/charte
   contact: https://contact.framasoft.org
+  cgu: https://framasoft.org/fr/cgu
+  legals: https://framasoft.org/fr/legals
+  graphics: https://framasoft.org/fr/graphics
 # Charte -----------------------------------------------------------------------
 charte:
   title: Charte
@@ -1179,3 +1182,36 @@ legals:
       - 'Les contenus sont publiés sous la responsabilité des utilisateurs.'
   footer:
   - 'Mentions légales de l’association @:data.meta.name,<br>le 6 octobre 2014.'
+credits:
+  title: Crédits
+  main:
+    text:
+    - 'Ce site utilise des éléments libres communs à l’ensemble du réseau @:data.meta.name :'
+    - 'Certains éléments sont déployés via le script qui ajoute la barre de navigation et le pied de page du site.<br>
+        Le code source peut être consulté <a href="https://framagit.org/framasoft/framanav">sur notre dépôt Gitlab</a>.'
+    - '<a href="@:link.graphics">Charte graphique</a> :'
+    tools:
+    - 'la librairie <a href="https://jquery.com/">jQuery</a>
+        et le framework libre <a href="https://getbootstrap.com">Bootstrap</a>'
+    - 'ou bien le framework libre <a href="https://vuejs.org">VueJS</a> et de nombreuses dépendances'
+    - 'les polices d’écriture <a href="https://www.paratype.com/public/">PTSans</a> (titres),
+        <a href="http://dejavu-fonts.org/wiki/Main_Page">Deja Vu Sans</a>
+        et <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a> (icônes)'
+    - 'l’outil de mesure statistique <a href="https://www.matomo.org/">Matomo</a>'
+    license:
+      title: Licence
+      text:
+      - 'Sauf mention contraire, le contenu des sites est placé sous licence libre @:data.license.ccbysa4fr'
+      - 'Notre <a href="@:link.charte">charte</a>,
+          les <a href="@:link.cgu">Conditions Générales d’Utilisation</a> de nos services,
+          les <a href="@:link.legals">mentions légales</a>
+          et l’ensemble des <a href="https://soutenir.framasoft.org/association">
+          documents administratifs de l’association</a> sont également placés sous cette licence.'
+      - 'Les pingouins qui se promènent sur le site nous viennent de
+          <a href="https://www.le-terrier.net/pingouin/pingouin.html">L.L. de Mars</a>
+          et sont placés sous licence @:data.license.lal<br>
+          Les personnages de BD dessinés par
+          <a href="http://ptilouk.net">Simon « Gee » Giraudot</a> sont sous licence @:data.license.ccbysa2fr'
+      - 'Le logo est une œuvre de JosephK sous licence @:data.license.ccbysa4fr<br>
+          Il est inspiré de la mascotte initialement crée par L.L. de Mars.<br>
+          (Framasoft a l’autorisation d’utiliser le logo sans avoir besoin de citer l’auteur).'

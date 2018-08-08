@@ -1102,3 +1102,36 @@ legals:
       - 'The contents are published under the responsibility of the users.'
   footer:
   - 'Legal information of the association @:data.meta.name,<br>October 6, 2014.'
+credits:
+  title: Credits
+  main:
+    text:
+    - 'This site uses free elements common to the entire @:data.meta.name network:'
+    - ' Some elements are deployed via the script that adds the navigation bar and the footer of the site.<br>
+        The source code can be found <a href="https://framagit.org/framasoft/framanav">on our Gitlab repository</a>.'
+    - '<a href="@:link.graphics">Graphic charter</a> :'
+    tools:
+    - 'the library <a href="https://jquery.com/">jQuery</a>
+        and the free <a href="https://getbootstrap.com">Bootstrap</a> framework '
+    - 'or the free <a href="https://vuejs.org">VueJS</a> framework and many dependencies'
+    - 'the fonts <a href="https://www.paratype.com/public/">PTSans</a> (titles),
+        <a href="http://dejavu-fonts.org/wiki/Main_Page">Deja Vu Sans</a>
+        and <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a> (icons)'
+    - 'the statistical measurement tool <a href="https://www.matomo.org/">Matomo</a>'
+    license:
+      title: License
+      text:
+      - 'Unless otherwise stated, the content of the sites is placed under free license @:data.license.ccbysa4fr'
+      - 'Our <a href="@:link.charte">charter</a>,
+          the <a href="@:link.cgu">Terms of Use</a> of our services,
+          the <a href="@:link.legals">legal mentions</a>
+          and all <a href="https://soutenir.framasoft.org/association">
+          administrative documents of the association</a> are also placed under this license.'
+      - 'The penguins who walk around the site come to us from
+          <a href="https://www.le-terrier.net/pingouin/pingouin.html">L.L. de Mars</a>
+          and are under @:data.license.lal license.<br>
+          The comic characters drawn by
+          <a href="http://ptilouk.net">Simon "Gee" Giraudot</a> are licensed @:data.license.ccbysa2fr'
+      - 'The logo is a realization of JosephK under license @:data.license.ccbysa4fr<br>
+          It is inspired by the mascot initially created by L.L. de Mars.<br>
+          (Framasoft is alloweded to use the logo without having to quote the author).'
