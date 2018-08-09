@@ -1,5 +1,5 @@
 <template>
-  <div id="cgu" class="container ombre apropos">
+  <div id="legals" class="container ombre apropos">
     <vue-headful
       :title="$t('data.meta.name') + ' - ' + $t('legals.title')"
     />

@@ -546,6 +546,13 @@ h4 {
   ul, ol {padding-left: 0;}
 }
 
+#asso {
+  .dl-horizontal dt {
+    white-space: normal;
+  }
+}
+
+
 @import "lite";
 
 @import "frama/colors";

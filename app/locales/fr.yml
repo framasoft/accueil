@@ -806,7 +806,8 @@ link:
   wFreeCulture: https://fr.wikipedia.org/wiki/Culture_libre
   wCommons: https://fr.wikipedia.org/wiki/Bien_commun
   wOSM: https://fr.wikipedia.org/wiki/Openstreetmap
-  dio: https://degooglisons-internet.org
+  dio: https://degooglisons-internet.org/fr/
+  cuo: https://contributopia.org/fr/
   cloud: https://framacoud.org/fr/cultiver-son-jardin/
   charte: https://framasoft.org/fr/charte
   contact: https://contact.framasoft.org
@@ -1215,3 +1216,76 @@ credits:
       - 'Le logo est une œuvre de JosephK sous licence @:data.license.ccbysa4fr<br>
           Il est inspiré de la mascotte initialement crée par L.L. de Mars.<br>
           (Framasoft a l’autorisation d’utiliser le logo sans avoir besoin de citer l’auteur).'
+asso:
+  title: Association
+  prez:
+    title: 'Présentation de @:data.meta.name'
+    text:
+    - 'Issu du monde éducatif et désormais tournée vers l’éducation populaire,
+        @:data.meta.framalink est avant tout un réseau de projets, dont le premier,
+        <a href="@:data.cat.logiciel.sites.libre.link">l’annuaire @:data.cat.logiciel.sites.libre.name</a>,
+        remonte à 2001.'
+    - 'Ces projets sont animés par des personnes collaborant autour d’une même
+        volonté : promouvoir les libertés numériques.'
+    - 'Le respect des libertés fondamentales des utilisatrices et utilisateurs,
+        garanties par des contrats légaux (les <a href="@:link.wFreeLicense">licences libres</a>),
+        est au cœur du mouvement libriste et permet de s’assurer que
+        l’humain reste en maîtrise de l’outil numérique.'
+    - 'Le but de @:data.meta.framalink est de proposer, principalement en ligne,
+        un ensemble d’outils concrets et pratiques visant à faciliter l’adoption :'
+    - 'Présenté comme une « porte d’entrée dans le monde du Libre »,
+        le réseau @:data.meta.framalink souhaite se positionner comme
+        un trait d’union entre la communauté des libristes et le grand public.'
+    list:
+    - 'de logiciels libres (annuaire, clés USB, installateur…) ;'
+    - 'de créations culturelles libres (blog, traduction, maison d’édition…) ;'
+    - 'de services libres (plus de 30 dans le projet <a href="@:link.dio">@:cat.campagnes.sites.dio.name</a>).'
+    infography: Infographie <em>Le monde de Framasoft</em> réalisée par
+  infos:
+    title: 'L’association @:data.meta.name'
+    text:
+    - 'Le réseau @:data.meta.framalink
+        repose sur sa vaste communauté de bénévoles mais il ne pourrait exister
+        s’il n’était soutenu par une association, créée en 2004.'
+    - 'L’association @:data.meta.framalink
+        est une association 1901 à but non lucratif dont le caractère d’intérêt général
+        autorise la déduction fiscale. Elle affiche sa volonté de rester
+        une association à taille humaine (moins de quarante membres, moins de
+        dix permanent·e·s).'
+    - 'Vous trouverez ci-dessous un certain nombre d’informations dont nos statuts,
+        le règlement intérieur et les rapports moraux annuels.'
+    statuts: Statuts de l’association
+    ri: Règlement Intérieur
+  data:
+    title: Données administratives et pratiques
+    dt:
+      juridical: Forme juridique
+      coprez: Co-présidence
+      dg: Directeur et Délégué général
+      registration: Enregistrement de l’association
+      staff: Salariat
+      headquarters: Siège
+      org: Organisation
+      id: Identification complète
+      projects: Projets phares
+      charte: Charte de l’association et ses services
+      reports: Rapports moraux
+      newsletter: Bulletin (newsletter)
+      press: Revue de presse, médias
+      graphics: Charte graphique et logos
+      founders: Membres fondateurs
+    dd:
+      juridical: Association loi de 1901, reconnue d’intérêt général
+      staff: '@:meta.salaries permanents'
+      org: Association soutenant des projets libres et contributifs
+      id: Voir la fiche
+      reportsFinancial: Rapport financier
+      reportsWriting: rapport d’activités en cours de rédaction
+      reportsResults: Compte de résultats
+      reportsActivities: Rapport d’activités
+      reportsMAndF: Rapport moral et financier
+      newsletter: inscription et archives
+      press: Tableau annuel
+      graphics: sur cette page
+      banners: Bannières
+      benevalo: Bénévolat valorisé

@@ -6,6 +6,7 @@ meta:
   name: Framasoft
   baseURL: https://framasoft.org
   framaname: <b class="violet">Frama</b><b class="orange">soft</b>
+  framalink: '<a href="@:data.meta.baseURL">@:data.meta.framaname</a>'
 
 # Catégories
 cat:
@@ -319,9 +320,14 @@ legals:
     address: 'Association Framasoft<br>Pierre-Yves Gosset<br>
       c/o Locaux Motiv<br>10 bis, rue Jangot<br>69007 LYON<br>FRANCE'
     coprezName: Benjamin Jean, Sandra Guigonis, Christelle Thomas, Fredéric Urbain
+
 credits:
   main:
     graphics:  Sandra Guigonis (peupleLà), JosephK
+
+asso:
+  files: 'https://soutenir.framasoft.org/sites/default/files/'
+
 license:
   lal: '<a href="http://artlibre.org/">Art Libre</a>'
   cc0: '<a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 0</a>'
