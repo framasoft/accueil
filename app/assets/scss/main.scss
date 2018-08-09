@@ -367,11 +367,12 @@ blockquote {
 #topPgculture .miniBloc2:nth-child(2n+1) {
   clear: both;
 }
-
-h4 {
-  border-bottom: 8px solid #eee;
-  padding-bottom: 6px;
-  margin-bottom: 0.5em;
+#home, #lite {
+  h4 {
+    border-bottom: 8px solid #eee;
+    padding-bottom: 6px;
+    margin-bottom: 0.5em;
+  }
 }
 
 #topPglogiciel h4,
@@ -525,7 +526,7 @@ h4 {
 }
 
 /*--------------------Illustrations -----------------*/
-.row img {
+#home .row img {
   width:80%;
   margin:0.5em 10%;
 }
