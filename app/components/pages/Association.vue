@@ -25,7 +25,7 @@
         <div class="col-sm-10 col-sm-offset-1">
           <img class="img-responsive" alt=""
             title="Clic droit sur l’image et « Enregistrer l’image sous » pour la réutiliser"
-            :src="data['/img/'] + 'infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018-fr.jpg'" />
+            :src="data['/img/'] + 'infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018-' + ($t('lang') === 'fr' ? 'fr' : 'en') + '.jpg'" />
           <p class="text-right">
             <span v-html="$t('asso.prez.infography')"></span>
             <a href="http://geoffreydorne.com">Geoffrey Dorne</a>, <span v-html="data.license.ccbysa4fr"></span>
