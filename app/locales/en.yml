@@ -128,7 +128,7 @@ cat:
 
           about free software, programming for beginners, thoughts on copyrights
 
-          but also comics and even a novel.
+          but also comics and even novels.
 
           A free book provides the reader with the same freedom as free software.
           '
@@ -164,13 +164,13 @@ cat:
 
           Interviews, conferences, documentaries, tv broadcasts…
 
-          to get informed but also inform others.
+          to get informed but also let others be informed.
           '
       zic:
         what: Music
         title: When the music is free
         desc: '
-          A « free music » is a music that provides the music lover
+          A ''free music'' is a music that provides the music lover
 
           with the same liberty as free software.
 
@@ -188,7 +188,7 @@ cat:
         desc: '
           Let&quot;s all write together on the same document
 
-          in a collaborative online editing interface.No registration
+          in a collaborative online editing interface. No registration
 
           required, pick a username, a color and let&quot;s go!
           '
@@ -203,36 +203,27 @@ cat:
           in a simple and collaborative way.
           '
       forms:
-        what: Enquêter
-        title: Création de questionnaires
+        what: Survey
+        title: Survey creation
         desc: '
-          Framaforms vous permet de créer les questionaires dont
+          Framaforms lets you create survey forms you need, whether on an educational context or within family and friends or even for an association.
+          
+          Create your own at will, multiple-choice, free text fileds and more.
 
-          vous avez besoin, que ce soit dans un cadre scolaire,
-
-          familial ou associatif. Créez vos questions en fonction
-
-          de vos besoins, des formulaires à choix multiples aux
-
-          champs de texte libre.
           '
       agenda:
-        what: Organise
-        title: Agenda partagé
+        what: Organize
+        title: Shared Calendar
         desc: '
-          Avec Framagenda vous pouvez créer des agendas personnels,
+          Use Framagenda to create personal or professional calendars,
 
-          professionnels, le planning d´une salle ou des activités
-
-          de votre organisation, et les partager librement.
-
-          Vous restez maîtres de vos données, et vous choisissez
-
-          auprès de qui, où et quand elles s´affichent.
+          schedules for a room or activities of your organization, and share them
+          
+          freely. You remain in control ofyour data and choose to whom, where and when they can be exposed.
           '
       date:
-        what: Organise
-        title: Organise appointments and surveys
+        what: Organize
+        title: Organize appointments and surveys
         desc: '
           Framadate is like Doodle, but free.
 
@@ -241,7 +232,7 @@ cat:
           or a survey with registration and invite your associates.
           '
       board:
-        what: Organise
+        what: Organize
         title: Manage projects
         desc: '
           Framaboard is a collaborative project and task
@@ -254,9 +245,9 @@ cat:
         what: Structure
         title: Create mind maps
         desc: '
-          An fluid and intuitive interface to create mind maps easily from inside your browser.
+          A fluid and intuitive interface to create mind maps easily from inside your browser.
 
-          Particularly relevant for brainstorming or to take notes.
+          Particularly relevant for brainstorming or note taking.
           '
       vectoriel:
         what: Drawing
@@ -267,8 +258,8 @@ cat:
           Kids love this!
           '
       slides:
-        what: Exposer
-        title: Créer et partager des diaporamas
+        what: Demoing
+        title: Create and share slideshows
         desc: '
           Framaslides vous permet de créer directement en ligne un
 
@@ -584,7 +575,7 @@ pages:
     title: An association
     desc: A bit of cathedrale
     text: '
-      Framasoft is based on a law 1901 association (non-profit voluntary association).
+      Framasoft is based on a law 1901 association (non-profit association of volunteers).
 
       Up to it to smooth out any rough edges and to ensure that the community can emulate in good conditions.
 
@@ -625,7 +616,7 @@ pages:
 
       distinctly that of a network, of projects, but also of partners..<br>
 
-      So, Framasoft receives the support from numerous organisations (public, bussiness,
+      So, Framasoft receives the support from numerous organisations (public, business,
 
       non-profit) allowing our projects to growth and develop.
 
