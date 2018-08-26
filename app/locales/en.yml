@@ -7,19 +7,19 @@ meta:
   desc: '
     A French non-profit (Association française de loi 1901), originating
 
-    from education, Framasoft is a network aiming at popular education, focussing
+    as an education project, Framasoft is a network aimed at popular education, focussing
 
     mostly on free and open source software. The network is organized
 
-    following 3 main directions on a collaborative mode:
+    following 3 main themes on a collaborative model:
 
     promotion, diffusion and development of libre software, enhancement
 
     of free (as in free speech) culture. We also provide free online services.
 
-    The portal Homepage is introducing the whole range of actions by Framasoft and
+    The portal Homepage introduces the whole range of actions by Framasoft and
 
-    provide links to various sites and projects of the network.
+    provides links to the various sites and projects of the network.
     '
   keywords: Framasoft, libre software, free and open source sofware, free culture, FOSS, FLOSS,  promotion and diffusion of free software, open source
   license: Creative Commons-By-SA except when notified
@@ -33,16 +33,16 @@ nav:
   parts:
     logiciel:
       key: Software section
-      title: to software section
+      title: to the software section
     culture:
       key: Culture section
-      title: to culture section
+      title: to the culture section
     cloud:
       key: Cloud section
-      title: to cloud section
+      title: to the cloud section
     vrac:
       key: Bulk free section
-      title: to bulk free section
+      title: to the bulk free section
 # Carousel
 carousel:
   play: Play
@@ -52,7 +52,7 @@ carousel:
 # Recherche
 search:
   btn: Search
-  frama: on Framasoft's websites
+  frama: on Framasoft&apos;s websites
   web: on the web
 # Catégories
 cat:
@@ -74,21 +74,21 @@ cat:
         what: A Directory
         title: The big directory
         desc: '
-          More than 1600 software, tested, rated and commented by the historical project
+          More than 1600 peices of software, tested, rated and commented on by the longest running
 
-          which has been root to Framasoft.
+          and Framasoft&apos;s debut project.
 
           Includes tutorials and comprehensive docs.
           '
       key:
-        what: A USB device
+        what: A USB thumb drive
         title: Full tank of Freedom in a simple device
         desc: '
-          With this USB device (or any mobile device) you can use
+          With a USB memory stick (or any other mobile device) use
 
           more than a hundred free programs for mobile, for Windows,
 
-          test and install a GNU/Linux distro or have offline access to Wikipédia in french.
+          test and install a GNU/Linux distro or have offline access to Wikipédia in French.
           '
       dvd:
         what: Un DVD
@@ -104,17 +104,17 @@ cat:
         what: A distributor
         title: Massive install
         desc: '
-          Framapack is a handy tool to pick the best free software for Windows last version.<br>
+          Framapack is a handy tool to pick the best free software for Window&apos;s most recent version.<br>
 
-          You select those you want and all the programs are installed in a single convenient step!
+          You select the software you want and all the programs are installed in a single convenient step!
           '
   culture:
     title: Free cultures
-    desc: Extending the open source scope
+    desc: Extending the scope of open source
     sites:
       blog:
         what: Info
-        title: News from « Libre »
+        title: News from "Libre"
         desc: '
           Weekly column on Libre and libre software. Debate, open comments, many translations
 
@@ -124,19 +124,19 @@ cat:
         what: Some books…
         title: Betting on free books
         desc: '
-          Our publishing house includes around twenty publications
+          Our publishing house includes around twenty publications,
 
-          about free software, programming for beginners, thoughts on copyrights
+          covering free software, programming for beginners, thoughts on copyright
 
           but also comics and even a novel.
 
-          A free book provides the reader with the same freedom as free software.
+          A free book provides the reader with the same freedoms as free software.
           '
       bookin:
         what: … and a library
         title: A free digital library
         desc: '
-          Our library includes a few hundreds of free or public domain publications.
+          Our library includes a few hundred free or public domain publications.
 
           It is available online on mobile platforms.
 
@@ -152,7 +152,7 @@ cat:
 
           power of the Internet and good will of its inhabitants.
 
-          It can consist in articles, subtitles or even entire books!
+          It can consist of articles, subtitles or even entire books!
           '
       tube:
         what: Videos
