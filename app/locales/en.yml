@@ -128,7 +128,7 @@ cat:
 
           about free software, programming for beginners, thoughts on copyrights
 
-          but also comics and even a novel.
+          but also comics and even novels.
 
           A free book provides the reader with the same freedom as free software.
           '
@@ -164,13 +164,13 @@ cat:
 
           Interviews, conferences, documentaries, tv broadcasts…
 
-          to get informed but also inform others.
+          to get informed but also let others be informed.
           '
       zic:
         what: Music
         title: When the music is free
         desc: '
-          A « free music » is a music that provides the music lover
+          A ''free music'' is a music that provides the music lover
 
           with the same liberty as free software.
 
@@ -188,7 +188,7 @@ cat:
         desc: '
           Let&quot;s all write together on the same document
 
-          in a collaborative online editing interface.No registration
+          in a collaborative online editing interface. No registration
 
           required, pick a username, a color and let&quot;s go!
           '
@@ -203,36 +203,27 @@ cat:
           in a simple and collaborative way.
           '
       forms:
-        what: Enquêter
-        title: Création de questionnaires
+        what: Survey
+        title: Survey creation
         desc: '
-          Framaforms vous permet de créer les questionaires dont
+          Framaforms lets you create survey forms you need, whether on an educational context or within family and friends or even for an association.
+          
+          Create your own at will, multiple-choice, free text fileds and more.
 
-          vous avez besoin, que ce soit dans un cadre scolaire,
-
-          familial ou associatif. Créez vos questions en fonction
-
-          de vos besoins, des formulaires à choix multiples aux
-
-          champs de texte libre.
           '
       agenda:
-        what: Organise
-        title: Agenda partagé
+        what: Organize
+        title: Shared Calendar
         desc: '
-          Avec Framagenda vous pouvez créer des agendas personnels,
+          Use Framagenda to create personal or professional calendars,
 
-          professionnels, le planning d´une salle ou des activités
-
-          de votre organisation, et les partager librement.
-
-          Vous restez maîtres de vos données, et vous choisissez
-
-          auprès de qui, où et quand elles s´affichent.
+          schedules for a room or activities of your organization, and share them
+          
+          freely. You remain in control ofyour data and choose to whom, where and when they can be exposed.
           '
       date:
-        what: Organise
-        title: Organise appointments and surveys
+        what: Organize
+        title: Organize appointments and surveys
         desc: '
           Framadate is like Doodle, but free.
 
@@ -241,7 +232,7 @@ cat:
           or a survey with registration and invite your associates.
           '
       board:
-        what: Organise
+        what: Organize
         title: Manage projects
         desc: '
           Framaboard is a collaborative project and task
@@ -254,9 +245,9 @@ cat:
         what: Structure
         title: Create mind maps
         desc: '
-          An fluid and intuitive interface to create mind maps easily from inside your browser.
+          A fluid and intuitive interface to create mind maps easily from inside your browser.
 
-          Particularly relevant for brainstorming or to take notes.
+          Particularly relevant for brainstorming or note taking.
           '
       vectoriel:
         what: Drawing
@@ -267,8 +258,8 @@ cat:
           Kids love this!
           '
       slides:
-        what: Exposer
-        title: Créer et partager des diaporamas
+        what: Demoing
+        title: Create and share slideshows
         desc: '
           Framaslides vous permet de créer directement en ligne un
 
@@ -584,7 +575,7 @@ pages:
     title: An association
     desc: A bit of cathedrale
     text: '
-      Framasoft is based on a law 1901 association (non-profit voluntary association).
+      Framasoft is based on a law 1901 association (non-profit association of volunteers).
 
       Up to it to smooth out any rough edges and to ensure that the community can emulate in good conditions.
 
@@ -625,7 +616,7 @@ pages:
 
       distinctly that of a network, of projects, but also of partners..<br>
 
-      So, Framasoft receives the support from numerous organisations (public, bussiness,
+      So, Framasoft receives the support from numerous organisations (public, business,
 
       non-profit) allowing our projects to growth and develop.
 
@@ -803,7 +794,7 @@ charte:
     - 'The ethics of opensource software is about sharing and independence.
         @:data.meta.name commits itself to never practice any censorship of the contents,
         nor any surveillance of the actions of its users, and to never answer
-        any administrative or authorities&apos; demands without a formal legal request.
+        any administrative or authorities demands without a formal legal request.
         In return, users commit themselves, in production or hosting
         of their contents, to respect the frameworks provided by law.'
     - 'We do not practice any discrimation among users, so as to ensure
@@ -844,7 +835,7 @@ cgu:
     desc: 'To make it easier to read, without the legal blah-blah, we offer you
       below a version understandable by a normal human being.'
     sympa:
-      text: 'We&apos;re nice people:'
+      text: 'We’re nice people:'
       list:
       - 'Your content belongs to you (but we encourage you to publish it under free license);'
       - '@:data.meta.name will not use your personal data, except for statistical purposes
@@ -855,9 +846,9 @@ cgu:
           of the popular education movement, you can find them in our
           <a href="@:link.charte">Charter of Free, Ethical, Decentralized and Solidarity Services</a>.'
     terms:
-      text: '<b>But</b> that doesn&apos;t mean you should think we&apos;re kittens:'
+      text: '<b>But</b> that doesn’t mean you should think we’re kittens:'
       list:
-      - 'Clause <em>"The law is the law, and we don&apos;t want to end up in jail"</em>:
+      - 'Clause <em>"The law is the law, and we don’t want to end up in jail"</em>:
           you must respect the law (whether it is well made or silly),
           otherwise your account will be deleted;'
       - 'Clause <em>"Thank you for being polite and respectful with your neighbours on duty"</em>:
@@ -867,7 +858,7 @@ cgu:
       - 'Clause <em>"If it breaks, we are not obliged to repair"</em>:
           @:data.meta.name offers this service for free.
           If you lose data, through your fault or ours, sorry, but it happens.
-          We&apos;ll do what we can to get them back, but we assign no obligation of result.
+          We’ll do what we can to get them back, but we assign no obligation of result.
           Clearly, avoid putting sensitive or important data on
           services @:data.meta.name, because in case of loss, we do not guarantee their recovery;'
       - 'Clause <em>"If you are not happy, you are invited to go elsewhere"</em>:
@@ -956,7 +947,7 @@ cgu:
           or any other element, that you download or transmit from your account.'
       - 'We will not use your content for any purpose other than to provide the service to you.'
       - 'You must not download or make available any content that
-          infringes someone else&apos;s rights.'
+          infringes someone else’s rights.'
       - 'We reserve the right to remove any content we deem necessary.
           not relevant to the use of the service, in our sole judgment.'
       - 'We may, if necessary, delete or prevent the distribution of any content
@@ -1011,7 +1002,7 @@ cgu:
           consistent and reliable user experience.'
       - 'This data is neither sold nor passed on to third parties.'
   footer:
-  - 'Terms of Use of the @:data.meta.name association&apos; online services,<br>
+  - 'Terms of Use of the @:data.meta.name association’s online services,<br>
       version 1.0.3 of April 11, 2016.'
 legals:
   title: Legals
@@ -1045,7 +1036,7 @@ legals:
     stats:
       title: Statistical analysis and confidentiality
       text:
-      - 'In order to adapt the site to our visitors&apos; requests, we analyze the traffic of our sites with Matomo.
+      - 'In order to adapt the site to our visitors’ requests, we analyze the traffic of our sites with Matomo.
           Matomo generates a cookie with a unique identifier, whose storage period is limited to 13 months.
           The data collected (IP address, User-Agent...) are anonymized and kept for a period of 6 months.
           They are not transferred to third parties or used for any other purpose.'
@@ -1057,10 +1048,10 @@ legals:
           personal data collected concerning him. To do this,
           user sends to @:data.meta.name:'
       - 'The amendment will be made within a reasonable period of time from
-          the date of receiving the user&apos;s request.'
+          the date of receiving the user’s request.'
       list:
       - 'you can send us an e-mail using the contact form'
-      - 'a letter should be sent to the address of the association&apos;s headquarters
+      - 'a letter should be sent to the address of the association’s headquarters
           (indicated above) indicating its name or its corporate name, its coordinates
           physical and/or electronic and, where appropriate, the reference
           that he would have as a user of the @:data.meta.name site.'
@@ -1077,7 +1068,7 @@ legals:
         @:data.meta.name could not be committed because of the information, opinions and
         recommendations made by third parties.'
     - '@:data.meta.name cannot be held liable for direct or consequential damages.
-        indirect caused to the user&apos;s material, when accessing the site,
+        indirect caused to the user’s material, when accessing the site,
          and resulting either from the use of equipment that does not meet the
         technical specifications required, either from the appearance of a bug or
         of incompatibility.'
@@ -1091,7 +1082,7 @@ legals:
         space which would contravene the applicable legislation in France, in
         in particular data protection provisions. The
         If necessary, @:data.meta.name also reserves the possibility of putting in
-        causes the user&apos;s civil and/or criminal liability, in particular
+        causes the user’s civil and/or criminal liability, in particular
         in the event of a racist, insulting, defamatory, or other racist message
         pornographic, whatever the medium used (text, photography…).'
     tech:
@@ -1156,7 +1147,7 @@ asso:
         guaranteed by legal contracts (the <a href="@:link.wFreeLicense">free licenses</a>),
         is at the heart of the librist movement and ensures that
         the human remains in control of the digital tool.'
-    - 'The @:data.meta.framalink&apos; goal is to offer, mainly online,
+    - 'The @:data.meta.framalink’s goal is to offer, mainly online,
         a set of concrete and practical tools to facilitate adoption:'
     - 'Presented as a "gateway to the Free World",
         the network @:data.meta.framalink wants to position itself as
@@ -1171,7 +1162,7 @@ asso:
     text:
     - 'The network @:data.meta.framalink
         relies on its large community of volunteers but there could not exist
-        if it wasn&apos;t supported by an association founded in 2004.'
+        if it wasn’t supported by an association founded in 2004.'
     - 'The @:data.meta.framalink association
         is a 1901 non-profit association whose character of general interest
         authorizes the tax deduction. She shows her willingness to stay
