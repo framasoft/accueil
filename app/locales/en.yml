@@ -186,11 +186,11 @@ cat:
         what: Edit
         title: Edit together
         desc: '
-          Let&quot;s all write together on the same document
+          Let’s all write together on the same document
 
           in a collaborative online editing interface. No registration
 
-          required, pick a username, a color and let&quot;s go!
+          required, pick a username, a color and let’s go!
           '
       calc:
         what: Calculate
@@ -579,7 +579,7 @@ pages:
 
       Up to it to smooth out any rough edges and to ensure that the community can emulate in good conditions.
 
-      There are @:meta.salaries permanents and it&quot;s mostly financed by individual donations
+      There are @:meta.salaries permanents and it’s mostly financed by individual donations
 
       collected on Internet. You can be a member too,
 
@@ -684,7 +684,7 @@ pages:
     quote: '
       "Because it will be one of the biggest missed opportunities of our era
 
-      if the free software doesn&quot;t free anything else than code."
+      if the free software doesn’t free anything else than code."
       '
 # Page 5 Libres services
   cloud:
