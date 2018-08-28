@@ -158,23 +158,23 @@ cat:
         what: Videos
         title: Our free « YouTube »
         desc: '
-          Videos in French (or with French subtitles) about
+          Videos in French (or with French subtitles)
 
-          about free softwares and Open source in general.
+          about free software and Open source in general.
 
           Interviews, conferences, documentaries, tv broadcasts…
 
-          to get informed but also inform others.
+          to get informed but also to inform others.
           '
       zic:
         what: Music
         title: When the music is free
         desc: '
-          A « free music » is a music that provides the music lover
+          « Free music » is music that provides the music lover
 
           with the same liberty as free software.
 
-          A dedicated website allows to understand it better,
+          A dedicated website will help you understand better,
 
           along with a selection to show that quality is also present.
           '
@@ -188,7 +188,7 @@ cat:
         desc: '
           Let&quot;s all write together on the same document
 
-          in a collaborative online editing interface.No registration
+          in a collaborative online editing interface. No registration
 
           required, pick a username, a color and let&quot;s go!
           '
@@ -196,7 +196,7 @@ cat:
         what: Calculate
         title: A collaborative spreadsheet
         desc: '
-          Framacalc is to spreadsheet what Framapad
+          Framacalc is to spreadsheets what Framapad
 
           is to text editing, working together on the same document
 
@@ -236,9 +236,9 @@ cat:
         desc: '
           Framadate is like Doodle, but free.
 
-          Nothing is simpler than create an appointment
+          Nothing is simpler than to create an appointment
 
-          or a survey with registration and invite your associates.
+          or a survey with registration and to invite your associates.
           '
       board:
         what: Organise
@@ -254,7 +254,7 @@ cat:
         what: Structure
         title: Create mind maps
         desc: '
-          An fluid and intuitive interface to create mind maps easily from inside your browser.
+          A fluid and intuitive interface to create mind maps easily from inside your browser.
 
           Particularly relevant for brainstorming or to take notes.
           '
@@ -428,7 +428,7 @@ cat:
 
           in which you build and decompose blocks to modify it
 
-          and with which you can build your own pedagogical apps.
+          and with which you can build your own educational apps.
           '
       drop:
         what: Sharing
@@ -468,7 +468,7 @@ cat:
         desc: '
           Framadrive allows you to store your files online, synchronize them
 
-          between your PCs, mobile devices... and share them with whomever you want.
+          between your PCs, mobile devices... and share them with whoever you want.
           '
       my:
         what: Stocker
@@ -492,7 +492,7 @@ cat:
         desc: '
           Framagit is a tool for developers. It can host your open source
 
-          software projects and allows to work on it in a collaborative way.
+          software projects and allows users to work on it collaboratively.
           '
       site:
         what: Publier
@@ -524,7 +524,7 @@ cat:
     sites:
       colibri:
         what: A forum
-        title: The Framasoft's forum
+        title: The Framasoft forum
         desc: '
           Do you have any questions? We (might) have an answer!
 
@@ -555,7 +555,7 @@ pages:
   accroche:
   - A network dedicated to globally promoting "<i>free</i>" and particularly <i>free software</i>.
   - Many services and innovative projects freely put at the disposal of the general public.
-  - A <a href="#topPgcommunaute">community</a> of volunteers supported by an association of public interest.
+  - A <a href="#topPgcommunaute">community</a> of volunteers supported by a public interest association.
   - An invitation to build together a world of sharing and cooperation.
   news: What's up on Framasoft?
   medias:
@@ -578,17 +578,17 @@ pages:
 
       at some point. It is enough to be eager to promote Open source and license your contribution
 
-      as open source. It guarantees that it will be added to common good without any risk of seizure.
+      as open source. It guarantees that it will be added to the commons without any risk of being seized.
       '
   asso:
     title: An association
-    desc: A bit of cathedrale
+    desc: A bit of cathedral
     text: '
       Framasoft is based on a law 1901 association (non-profit voluntary association).
 
-      Up to it to smooth out any rough edges and to ensure that the community can emulate in good conditions.
+      Up to it to smooth out any rough edges and to ensure that the community can function in good conditions.
 
-      There are @:meta.salaries permanents and it&quot;s mostly financed by individual donations
+      There are @:meta.salaries permanent posts and it&quot;s mostly financed by individual donations
 
       collected on Internet. You can be a member too,
 
@@ -608,9 +608,9 @@ pages:
       '
   soutenir:
     title: Support us?
-    desc: because free as in free speech, not as in free beer
+    desc: because its free as in free speech, not as in free beer
     text: '
-      Framasoft would nothing without its volunteer community, but cannot operate without the support of
+      Framasoft would be nothing without its volunteer community, but cannot operate without the support of
 
       the association which has expenses and employs @:meta.salaries vital employees.
 
@@ -627,7 +627,7 @@ pages:
 
       So, Framasoft receives the support from numerous organisations (public, bussiness,
 
-      non-profit) allowing our projects to growth and develop.
+      non-profit) allowing our projects to grow and develop.
 
       <a href="@:link.partenaires">List of all our partners</a>
       '
@@ -707,13 +707,13 @@ pages:
       <a href="@:link.dio">"<b class="violet">De-googl-ify</b> <b class="orange">Internet</b>"</a>
       '
     text2: '
-      You can also install theses on your own server, thus contributing to decentralize Internet.
+      You can also install these on your own server, thus helping to decentralize Internet.
 
       Tutorials are availables in the section
 
       <a href="@:link.cloud" lang="fr">Cultiver son jardin</a>
 
-      (only in french actually) to help you to go for it.
+      (only in French at the moment) to help you to go for it.
       '
 # Page 6 Libr’en Vrac
   vrac:
