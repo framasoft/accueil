@@ -727,7 +727,7 @@ pages:
     une:
       title: Light on…
       desc: GéGé, Geektionnerd generator
-      text: Geektionnerd do it yourseff.
+      text: Geektionnerd do it yourself.
 link:
   speakabout: https://wiki.framasoft.org/speakabout
   participate: https://participer.framasoft.org/en/
@@ -748,7 +748,7 @@ link:
   graphics: https://framasoft.org/en/graphics
 charte:
   title: Charter
-  intro: '@:data.meta.framaname is a network of popular education, originated from
+  intro: '@:data.meta.framaname is a network of popular education, which has its origins in
 
     the education world, which is principally dedicated to free (as in free speech) software.
 
@@ -795,7 +795,7 @@ charte:
         these applications on your own server.'
     - 'Equal access to these applications is a strong commitment: by
         offering them for free, @:data.meta.name wishes to promote their use to
-        the largest extend, and to give a proof of concept that a decentralized
+        the largest extent, and to give a proof of concept that a decentralized
         and egalitarian Internet is possible.'
   ethic:
     title: For an ethical Internet
@@ -814,7 +814,7 @@ charte:
         especially when they make them public in the context of a collaborative application.
         In this case, users remain responsible for their content.'
   solidary:
-    title: For a solidary Internet
+    title: For an Internet of solidarity
     text:
     - '@:data.meta.name is a non-profit.
         Its volunteers and employees devote their time to ensure the continuity
@@ -827,10 +827,10 @@ charte:
     - '@:data.meta.name has a popular education approach, and thus shares as much
         knowledge as it can in order to promote the use of free software and
         teach users how to install free services on their servers.
-        Sharing technical and cognitive ressources is what makes Internet
+        Sharing technical and cognitive ressources is what makes the Internet
         a common good, available for everyone and belonging to no one.'
   footer:
-    - 'Charter of Free, Ethical, Decentralized and Solidary services,<br>
+    - 'Charter of Free, Ethical, Decentralized and Solidarity Services,<br>
         approved by  @:data.meta.name on October 6th 2014.'
     - 'Translation by Framalang contributors Théo, #!, goofy, Diane'
 cgu:
@@ -867,16 +867,16 @@ cgu:
       - 'Clause <em>"If it breaks, we are not obliged to repair"</em>:
           @:data.meta.name offers this service for free.
           If you lose data, through your fault or ours, sorry, but it happens.
-          We&apos;ll do what we can to get them back, but we assign no obligation of result.
+          We&apos;ll do what we can to get it back, but we assign no obligation of result.
           Clearly, avoid putting sensitive or important data on
           services @:data.meta.name, because in case of loss, we do not guarantee their recovery;'
       - 'Clause <em>"If you are not happy, you are invited to go elsewhere"</em>:
           if the service does not suit you, you are free to find some
-          an equivalent (or better) elsewhere, or to mount yours;'
+          an equivalent (or better) elsewhere, or to install your own;'
       - 'Clause <em>"Any abuse will be punished"</em>: if a user abuses the service,
           for example by monopolizing shared machine resources, or by publishing
           content considered to be irrelevant, its content or
-          his account can be deleted without warning or negotiation.
+          his/her account can be deleted without warning or negotiation.
           @:data.meta.name remains the sole judge of this notion of "abuse" in order to
           provide the best possible service to all its users.
           If it seems anti-democratic, anti-libristic, anti-free speech to you,
@@ -924,10 +924,10 @@ cgu:
           for loss of profits, customers, access, data or other intangible losses
           (even if @:data.meta.name is informed of the possibility of such damages) and that would result from :
           <ol>
-            <li>use or inability to use the service ;</li>
-            <li>unauthorized or altered access to data transmission ;</li>
-            <li> statements or actions of a third party about the service ;</li>
-            <li>cancelling your account ;</li>
+            <li>use or inability to use the service;</li>
+            <li>unauthorized or altered access to data transmission;</li>
+            <li>statements or actions of a third party about the service;</li>
+            <li>cancelling your account;</li>
             <li>any other service related question.</li>
           </ol>'
       - 'The failure of @:data.meta.name to exercise or enforce any right or provision
@@ -1006,7 +1006,7 @@ cgu:
           the data displayed or clicked (example: links, user interface elements),
           and other information to identify you (example: browser type, IP address,
           date and time of access, reference URL).'
-      - 'We use this information internally to improve you
+      - 'We use this information internally to improve for you
           the user interface of the @:data.meta.name services and maintain a
           consistent and reliable user experience.'
       - 'This data is neither sold nor passed on to third parties.'
@@ -1033,15 +1033,15 @@ legals:
            Act No. 78-17 of 6 January 1978</a>, Act No. 2004-801 of 6 August 2004,
           article L. 226-13 of the Penal Code and the European Directive of 24
            October 1995.'
-      - 'In any event @:data.meta.name does collect information
+      - 'In any event @:data.meta.name does collect
           personal information about the user (name, e-mail address,
-          telephone number) that for the need of the services offered by
+          telephone number) that is needed by the services offered by
           the sites of the network @:data.meta.name, in particular for the inscription with
           discussion spaces through online forms or for discussion forums
           statistical processing. The user provides this information in
-          any knowledge of the facts, in particular when he himself proceeds to
-          their seizure. It is then specified to the user of the network sites
-          @:data.meta.name if the information to provide are needed or not.'
+          full knowledge of the facts, in particular when he/she inputs them
+          him/herself. It is specified at this time to the user of the network
+          @:data.meta.name if the information to provide is obligatory or not.'
     stats:
       title: Statistical analysis and confidentiality
       text:
@@ -1061,9 +1061,9 @@ legals:
       list:
       - 'you can send us an e-mail using the contact form'
       - 'a letter should be sent to the address of the association&apos;s headquarters
-          (indicated above) indicating its name or its corporate name, its coordinates
-          physical and/or electronic and, where appropriate, the reference
-          that he would have as a user of the @:data.meta.name site.'
+          (indicated above) indicating your name or business name, your
+          physical and/or electronic address and, where appropriate, the reference
+          that you have as a user of the @:data.meta.name site.'
   liabilities:
     title: Limitation of liability
     text:
@@ -1087,20 +1087,20 @@ legals:
     - 'Interactive spaces (possibility to ask questions in
         the contact area) are available to users on the site
         @:data.meta.name. @:data.meta.name reserves the right to
-        delete, without prior formal notice, any content deposited in this website.
+        delete, without prior formal notice, any content deposited in this
         space which would contravene the applicable legislation in France, in
-        in particular data protection provisions. The
+        in particular data protection provisions.
         If necessary, @:data.meta.name also reserves the possibility of putting in
-        causes the user&apos;s civil and/or criminal liability, in particular
-        in the event of a racist, insulting, defamatory, or other racist message
-        pornographic, whatever the medium used (text, photography…).'
+        cause the user&apos;s civil and/or criminal liability, in particular
+        in the event of a racist, insulting, defamatory, or
+        pornographic message, whatever the medium used (text, photography…).'
     tech:
       title: Contractual limitations on technical data
       text:
       - '@:data.meta.name cannot be held responsible for material damages.
         linked to the use of the site. In addition, the user of the site undertakes to
         access the site using recent material, not containing
-        virus and with an up-to-date browser.'
+        viruses and with an up-to-date browser.'
     copyright:
       title: Intellectual property
       text:
@@ -1139,7 +1139,7 @@ credits:
           <a href="http://ptilouk.net">Simon "Gee" Giraudot</a> are licensed @:data.license.ccbysa2fr'
       - 'The logo is a realization of JosephK under license @:data.license.ccbysa4fr<br>
           It is inspired by the mascot initially created by L.L. de Mars.<br>
-          (Framasoft is alloweded to use the logo without having to quote the author).'
+          (Framasoft is allowed to use the logo without having to quote the author).'
 
 asso:
   title: Association
@@ -1150,8 +1150,8 @@ asso:
         @:data.meta.framalink  is above all a network of projects, of which the first,
         <a href="@:data.cat.logiciel.sites.libre.link">directory @:data.cat.logiciel.sites.libre.name</a>,
         dates back to 2001.'
-    - 'These projects are run by people working together on the same project
-        will: promote digital freedoms.'
+    - 'These projects are run by people working together with the same
+        desire: promote digital freedoms.'
     - 'Respect for the fundamental freedoms of users,
         guaranteed by legal contracts (the <a href="@:link.wFreeLicense">free licenses</a>),
         is at the heart of the librist movement and ensures that
@@ -1170,11 +1170,11 @@ asso:
     title: 'The @:data.meta.name association'
     text:
     - 'The network @:data.meta.framalink
-        relies on its large community of volunteers but there could not exist
+        relies on its large community of volunteers but could not exist
         if it wasn&apos;t supported by an association founded in 2004.'
     - 'The @:data.meta.framalink association
         is a 1901 non-profit association whose character of general interest
-        authorizes the tax deduction. She shows her willingness to stay
+        authorizes a tax deduction. Which shows its willingness to stay
         an association on a human scale (less than forty members, less than
         ten permanent staff)'
     - 'You will find below some information including our statutes,
