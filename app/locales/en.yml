@@ -186,11 +186,11 @@ cat:
         what: Edit
         title: Edit together
         desc: '
-          Let&quot;s all write together on the same document
+          Let&apos;s all write together on the same document
 
           in a collaborative online editing interface. No registration
 
-          required, pick a username, a color and let&quot;s go!
+          required, pick a username, a color and let&apos;s go!
           '
       calc:
         what: Calculate
@@ -203,32 +203,30 @@ cat:
           in a simple and collaborative way.
           '
       forms:
-        what: Enquêter
-        title: Création de questionnaires
+        what: Ask questions
+        title: Creation of questionnaires
         desc: '
-          Framaforms vous permet de créer les questionaires dont
+          Framaforms allows you to create the questionaires that
 
-          vous avez besoin, que ce soit dans un cadre scolaire,
+          you need, whether it's in an education, family or community
 
-          familial ou associatif. Créez vos questions en fonction
+          context. Create your questions based on your needs, using
 
-          de vos besoins, des formulaires à choix multiples aux
-
-          champs de texte libre.
+          multiple choice or free text field forms.
           '
       agenda:
         what: Organise
-        title: Agenda partagé
+        title: Shared agenda
         desc: '
-          Avec Framagenda vous pouvez créer des agendas personnels,
+          With Framagenda you can create personal or
 
-          professionnels, le planning d´une salle ou des activités
+          professional calendas, the agenda for a hall or the activities
 
-          de votre organisation, et les partager librement.
+          of your organization, and share them freely.
 
-          Vous restez maîtres de vos données, et vous choisissez
+          You remain master of your data, and you choose
 
-          auprès de qui, où et quand elles s´affichent.
+          with whom, where and when they are shown.
           '
       date:
         what: Organise
@@ -267,26 +265,26 @@ cat:
           Kids love this!
           '
       slides:
-        what: Exposer
-        title: Créer et partager des diaporamas
+        what: Present
+        title: Create and share slideshows
         desc: '
-          Framaslides vous permet de créer directement en ligne un
+          Framaslides allows you to create directly on line a
 
-          diaporama ou une présentation, d’y accéder avec une
+          slideshow or a presentation, to view it with a simple
 
-          simple connexion internet, et de la partager.
+          internet connection, and to share it.
           '
       maestro:
-        what: Collaborer
-        title: Ochestrez vos projets collaboratifs
+        what: Collaborate
+        title: Ochestrate your collaborative projects
         desc: '
-          Besoin en même temps d’un pad pour prendre des notes,
+          Do you need a pad to take notes, an organisation table,
 
-          d’un tableau d’organisation, et d’une vidéo-conférence ?
+          and a video-conference, at the same time? With Framaestro,
 
-          Avec Framaestro, c’est vous qui organisez les outils
+          you're in charge of the tools that you need, and all on
 
-          qu’il vous faut, sur une seule et unique page web.
+          one single and unique webpage.
           '
       bee:
         what: Searching
