@@ -312,15 +312,15 @@ cat:
           '
       piaf:
         what: Networking
-        title: Réseau social en 500 caractères
+        title: Social network in 500 characters
         desc: '
-          Framapiaf est un service libre de <b>microblogging</b>,
+          Framapiaf is a <b>microblogging</b> libre service,
 
-          basé sur le logiciel décentralisé Mastodon.
+          based on the decentralized Mastodon software.
 
-          Retrouvez vos amis sur Framapiaf - ou d’autres instances
+          Find your friends on Framapiaf - or other instances
 
-          Mastodon, GNU Social, Friendica - et échangez avec eux sans être pisté.
+          Mastodon, GNU Social, Friendica - and exchange with them without being tracked.
           '
       team:
         what: Discussing
@@ -332,29 +332,29 @@ cat:
           '
       listes:
         what: Discussing
-        title: Liste de diffusion
+        title: Email lists
         desc: '
-          Framalistes vous permet de créer des liste de diffusion
+          Framalistes allows you to create email lists:
 
-          emails : toute personne s´abonnant à votre liste pourra
+          anyone subscribed to your list can receive the emails
 
-          recevoir les emails qui y sont envoyés, et y participer
+          which are sent to the list, and participate in turn.
 
-          à son tour. À vous de choisir si cette liste est
+          It's up to you to decide if this list is public, semi-private
 
-          publique, semi-privée ou privée.
+          or private.
           '
       talk:
         what: Discussing
-        title: Visioconférence
+        title: Videoconference
         desc: '
-          Framatalk vous permet de discuter avec vos amis sans
+          Framatalk lets you chat with your friends without any need for
 
-          installation complexe de logiciel ni inscription.
+          complex software installation or registration.
 
-          Tout se passe entre vous et vos amis, directement depuis
+          It all happens directly between you and your friends, from your
 
-          votre navigateur web.
+          web browser.
           '
       vox:
         what: Decide
@@ -377,14 +377,14 @@ cat:
           required and modifications are made visible and saved continuously.
           '
       notes:
-        what: Noter
-        title: Prise de notes
+        what: Note
+        title: Note taking
         desc: '
-          Avec Framanotes vous pouvez prendre et conserver des notes, images, liens…
+          With Framanotes you can take and store notes, images, links…
 
-          et même des fichiers ; et les synchroniser avec tous vos appareils
+          and even files; and synchronise them across all your devices
 
-          (voire les partager avec des ami⋅e⋅s).
+          (or share them with your friends).
           '
       bag:
         what: Follow the news
@@ -469,20 +469,20 @@ cat:
           between your PCs, mobile devices... and share them with whoever you want.
           '
       my:
-        what: Stocker
-        title: Marque-pages
+        what: Stock
+        title: Bookmarks
         desc: '
-          MyFrama est un petit fourre-tout numérique, qui vous
+          MyFrama is a little digital catch all, which allows you to
 
-          permet de conserver et retrouver les liens que vous aimez
+          store and easily find again the links that you like in the
 
-          à la manière de del.ico.us ! Avec un système d´étiquettes
+          style of del.ico.us! With a system of tags and automatic
 
-          et de tri automatique, vous pouvez ranger aisément vos
+          sorting, you can easily tidy up your tabs and bookmarks,
 
-          onglets et marque-pages, et utiliser le bouton MyFrama
+          and use the MyFrama button to find again the Framasoft
 
-          pour retrouver les services Framasoft que vous utilisez !
+          services that you use!
           '
       git:
         what: Code
@@ -493,28 +493,24 @@ cat:
           software projects and allows users to work on it collaboratively.
           '
       site:
-        what: Publier
-        title: Hébergement de sites
+        what: Publish
+        title: Website hosting
         desc: '
-          Framasite vous permet de créer un site web facilement et
+          Framasite allows you to easily create a website and to host it
 
-          de l’héberger sur nos serveurs. Aucune publicité ni
+          on our servers. There's no advertising or tracking posing risk to
 
-          traquage ne portera atteinte aux données de vos visiteurs
-
-          et visiteuses.
+          privacy of your site's visitors.
           '
       wiki:
-        what: Publier
-        title: Hébergement de wikis
+        what: Publish
+        title: Wiki hosting
         desc: '
-          Framawiki vous permet de créer un wiki facilement et
+          Framawiki allows you to easily create a wiki and to host it
 
-          de l’héberger sur nos serveurs. Aucune publicité ni
+          on our servers. There's no advertising or tracking posing risk to
 
-          traquage ne portera atteinte aux données de vos visiteurs
-
-          et visiteuses.
+          privacy of your site's visitors.
           '
   vrac:
     title: Bulk free
@@ -540,13 +536,13 @@ cat:
           '
       docs:
         what: Documentations
-        title: Notre centre de documentation
+        title: Our documentation center
         desc: '
-          Pour tout savoir sur l’utilisation des services en
+          To know everything on the use of the online services
 
-          ligne que nous proposons et apprendre à travers nos
+          that we offer and to learn through our different
 
-          différents guides comment gagner en autonomie.
+          guides how to gain in autonomie.
           '
 # Page 1 Présentation
 pages:
@@ -691,7 +687,7 @@ pages:
     quote: '
       "Because it will be one of the biggest missed opportunities of our era
 
-      if the free software doesn&quot;t free anything else than code."
+      if the free software doesn&apos;t free anything else than code."
       '
 # Page 5 Libres services
   cloud:
