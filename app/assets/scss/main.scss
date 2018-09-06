@@ -46,6 +46,10 @@ a, a:hover, a:focus, a:visited, a h4 {text-decoration: none !important;}
   content: " \f08e";
 }
 
+.apropos header a[href*="lite"] {
+  display: none;
+}
+
 /*----------- titraille général ------------*/
 
 h1, h2, h3, h4, h5, h6 {
@@ -67,6 +71,12 @@ h4 {font-size : 1.3em;}
 
 h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc {
   text-decoration:none !important
+}
+
+.signature {
+  font-style: italic;
+  text-align:right;
+  color:#795548;
 }
 
 /*----------- couleurs ------------*/
@@ -107,7 +117,7 @@ body > .row {
   margin-left:0;
   margin-right:0;
 }
-
+/*
 #internav ul {
   margin-top: 0px;
   margin-bottom: 10px;
@@ -130,7 +140,7 @@ body > .row {
 #internav form div {
   margin-top: 4px;
   margin-left: 25px
-}
+}*/
 
 .col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
 
@@ -358,12 +368,6 @@ blockquote {
   clear: both;
 }
 
-h4 {
-  border-bottom: 8px solid #eee;
-  padding-bottom: 6px;
-  margin-bottom: 0.5em;
-}
-
 #topPglogiciel h4,
 #topPgculture h4,
 #topPgcloud h4,
@@ -515,9 +519,32 @@ h4 {
 }
 
 /*--------------------Illustrations -----------------*/
-.row img {
-  width:80%;
-  margin:0.5em 10%;
+#home #app, #lite #app {
+  img {
+    width:80%;
+    margin:0.5em 10%;
+  }
+
+  h4 {
+    border-bottom: 8px solid #eee;
+    padding-bottom: 6px;
+    margin-bottom: 0.5em;
+  }
+
+  .containerActu {
+    img{
+      width: 100%;
+      margin: 0;
+    }
+    h4 {
+      border-bottom: none;
+      margin-bottom: 0;
+    }
+  }
+
+  ul, ol {padding-left: 0;}
+
+
 }
 
 #pingouinVolant img {
@@ -532,7 +559,11 @@ h4 {
   text-align: center;
 }
 
-ul, ol {padding-left:0 !important}
+#association {
+  .dl-horizontal dt {
+    white-space: normal;
+  }
+}
 
 @import "lite";
 

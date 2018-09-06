@@ -2,6 +2,7 @@
   <div id="app">
     <vue-headful
       :title="$t('meta.title')"
+      :html="{ body: {id: $route.meta.id } }"
       :description="$t('meta.desc')"
       :keywords="$t('meta.keywords')"
       :head="{

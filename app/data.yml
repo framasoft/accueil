@@ -3,9 +3,30 @@ full: Accès classique
 home: Accueil
 
 meta:
+  author: Framasoft
+  canonical: https://framasoft.org
+  i18n: http://trad.framasoft.org/iteration/view/framasoft/master
   name: Framasoft
   baseURL: https://framasoft.org
   framaname: <b class="violet">Frama</b><b class="orange">soft</b>
+  framalink: '<a href="@:data.meta.baseURL">@:data.meta.framaname</a>'
+
+txt:
+  soft: Framasoft
+
+color:
+  soft: <b class="violet">Frama</b><b class="orange">soft</b>
+
+link:
+  soft: https://framasoft.org
+  dio: https://degooglisons-internet.org
+  cuo: https://contributopia.org
+  soutenir: https://soutenir.framasoft.org
+  contact: https://contact.framasoft.org
+  participer: https://participer.framasoft.org
+
+html:
+  soft: <a href="https://framasoft.org"><b class="violet">Frama</b><b class="orange">soft</b></a>
 
 # Catégories
 cat:
@@ -311,3 +332,33 @@ pages:
     - ['en', '17/10/2016', 'Worldcrunch',
        'http://www.worldcrunch.com/tech-science/the-open-source-group-trying-to-quotde-googlequot-the-internet',
        'pages.medias.lArticle']
+
+legals:
+  editor:
+    assoNb: 0132007842
+    siretNb: 500 715 776 00026
+    address: 'Association Framasoft<br>Pierre-Yves Gosset<br>
+      c/o Locaux Motiv<br>10 bis, rue Jangot<br>69007 LYON<br>FRANCE'
+    coprezName: Benjamin Jean, Sandra Guigonis, Christelle Thomas, Fredéric Urbain
+
+credits:
+  main:
+    graphics:  Sandra Guigonis (peupleLà), JosephK
+
+asso:
+  files: 'https://soutenir.framasoft.org/sites/default/files/'
+
+license:
+  lal: '<a href="http://artlibre.org">Art Libre</a>'
+  cc0: '<a href="https://creativecommons.org/publicdomain/zero/1.0">Creative Commons 0</a>'
+  ccby3: '<a href="https://creativecommons.org/licenses/by/3.0"><span lang="en">Creative Commons By</span> 3.0</a>'
+  ccby4: '<a href="https://creativecommons.org/licenses/by/4.0"><span lang="en">Creative Commons By</span> 4.0</a>'
+  ccbysa3: '<a href="https://creativecommons.org/licenses/by-sa/3.0"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 3.0</a>'
+  ccbysa4: '<a href="https://creativecommons.org/licenses/by-sa/4.0"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 4.0</a>'
+  ccbysa2fr: '<a href="https://creativecommons.org/licenses/by-sa/2.0/fr"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 2.0</a>'
+  ccbysa3fr: '<a href="https://creativecommons.org/licenses/by-sa/3.0/fr"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 3.0</a>'
+  ccbysa4fr: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 4.0</a>'
+  gpl2: '<a href="https://www.gnu.org/licenses/gpl-2.0.html">GNU <abbr lang="en" title="General Public License">GPL</abbr> v2</a>'
+  gpl3: '<a href="https://www.gnu.org/licenses/gpl-3.0.txt">GNU <abbr lang="en" title="General Public License">GPL</abbr> v3</a>'
+  gnufdl: '<a href="https://www.gnu.org/copyleft/fdl.html">GNU <abbr lang="en" title="Free Documentation License">FDL</abbr></a>'
+  agpl3: '<a href="https://www.gnu.org/licenses/agpl-3.0.html">GNU <abbr lang="en" title="Affero General Public License">AGPL</abbr> v3</a>'

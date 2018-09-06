@@ -1,0 +1,196 @@
+<template>
+  <div class="container ombre apropos">
+    <vue-headful
+      :title="$t('data.meta.name') + ' - ' + $t('asso.title')"
+    />
+    <header class="clearfix header">
+      <h1 class="pull-left" v-html="$t('asso.title')"></h1>
+      <I18n/>
+    </header>
+    <main>
+      <h2 v-html="$t('asso.prez.title')"></h2>
+      <p
+        v-for="index in 4"
+        v-html="$t('asso.prez.text[' + (index-1) + ']')"
+      ></p>
+      <ul>
+        <li
+          v-for="li, index in $t('asso.prez.list')"
+          v-html="$t('asso.prez.list[' + index + ']')"
+        ></li>
+      </ul>
+      <p v-html="$t('asso.prez.text[4]')"></p>
+
+      <div class="row">
+        <div class="col-sm-10 col-sm-offset-1">
+          <img class="img-responsive" alt=""
+            title="Clic droit sur l’image et « Enregistrer l’image sous » pour la réutiliser"
+            :src="data['/img/'] + 'infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018-' + ($t('lang') === 'fr' ? 'fr' : 'en') + '.jpg'" />
+          <p class="text-right">
+            <span v-html="$t('asso.prez.infography')"></span>
+            <a href="http://geoffreydorne.com">Geoffrey Dorne</a>, <span v-html="data.license.ccbysa4fr"></span>
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2 v-html="$t('asso.infos.title')"></h2>
+      <p
+        v-for="p, index in $t('asso.infos.text')"
+        v-html="$t('asso.infos.text[' + index + ']')"
+      ></p>
+      <ul>
+        <li>
+          <a :href="data.asso.files + 'statuts-Framasoft-2015-v8.pdf'">
+            <strong v-html="$t('asso.infos.statuts')"></strong>
+          </a>
+        </li>
+        <li>
+          <a :href="data.asso.files + 'reglement-interieur-2015-v6c.pdf'">
+            <strong v-html="$t('asso.infos.ri')"></strong>
+          </a>
+        </li>
+      </ul>
+
+      <p class="text-center">
+        <img style="width:180px;" alt="" :src="data['/img/'] + 'biglogo.png'" />
+      </p>
+
+      <hr />
+
+      <h2 v-html="$t('asso.data.title')"></h2>
+      <div class="col-sm-10 col-sm-offset-1 well">
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.juridical')"></dt>
+          <dd v-html="$t('asso.data.dd.juridical')"></dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.coprez')"></dt>
+          <dd v-html="data.legals.editor.coprezName"></dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.dg')"></dt>
+          <dd>Pierre-Yves Gosset</dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.registration')"></dt>
+          <dd>
+            2004
+            (<a :href="data.asso.files + 'statuts-Framasoft-2015-v8.pdf'"
+              rel="nofollow" v-html="$t('asso.infos.statuts')"></a>)
+            (<a :href="data.asso.files + 'reglement-interieur-2015-v6c.pdf'"
+              rel="nofollow" v-html="$t('asso.infos.ri')"></a>)
+          </dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.staff')"></dt>
+          <dd v-html="$t('asso.data.dd.staff')"></dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.headquarters')"></dt>
+          <dd>Lyon, France</dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.org')"></dt>
+          <dd v-html="$t('asso.data.dd.org')"></dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.id')"></dt>
+          <dd>
+            <a :href="data.asso.files + 'fiche_identification_framasoft.pdf'"
+              rel="nofollow"  v-html="$t('asso.data.dd.id')"></a>
+          </dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.projects')"></dt>
+          <dd>
+            <a :href="$t('link.cuo')" v-html="data.cat.campagnes.sites.cuo.name"></a> -
+            <a :href="$t('link.dio')" v-html="$t('cat.campagnes.sites.dio.name')"></a>
+          </dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.charte')"></dt>
+          <dd><a :href="$t('link.charte')" v-html="$t('charte.title')"></a></dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.reports')"></dt>
+          <dd>
+            <ul>
+              <li>
+                2016 : <a :href="data.asso.files + 'rapport_financier_2016.pdf'"
+                rel="nofollow" v-html="$t('asso.data.dd.reportsFinancial')"></a>
+                (<span v-html="$t('asso.data.dd.reportsWriting')"></span>)
+              </li>
+              <li>
+                2015 : <a :href="data.asso.files + 'rapports-moraux/Framasoft_rapport_activite_2015.pdf'"
+                rel="nofollow" v-html="$t('asso.data.dd.reportsFinancial')"></a>
+              </li>
+              <li>
+                2014 : <a :href="data.asso.files + 'rapports-moraux/Framasoft_rapport_activite_2014.pdf'"
+                rel="nofollow" v-html="$t('asso.data.dd.reportsResults')"></a>
+              </li>
+              <li>
+                2013 : <a :href="data.asso.files + 'rapports-moraux/rapport_activites_framasoft_2013-v0.3.pdf'"
+                rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
+              </li>
+              <li>
+                2012 : <a :href="data.asso.files + 'rapport_moral_framasoft_2012-v0.5.pdf'"
+                rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
+              </li>
+              <li>
+                2011 : <a :href="data.asso.files + 'rapport_moral_framasoft_2011-v3.pdf'"
+                rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
+              </li>
+              <li>
+                2010 : <a :href="data.asso.files + 'rapport_moral_framasoft_2010_v3.pdf'"
+                rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
+              </li>
+              <li>
+                2009 : <a :href="data.asso.files + 'rapport_moral_framasoft_2009_v2.4.3_0.pdf'"
+                rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
+              </li>
+            </ul>
+          </dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.newsletter')"></dt>
+          <dd><a href="https://contact.framasoft.org/newsletter/" v-html="$t('asso.data.dd.newsletter')"></a></dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.press')"></dt>
+          <dd><a href="https://wiki.framasoft.org/speakabout"  v-html="$t('asso.data.dd.press')"></a></dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.graphics')"></dt>
+          <dd><a :href="$t('link.graphics')" v-html="$t('asso.data.dd.graphics')"></a></dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dd>
+            <a href="https://soutenir.framasoft.org/afficher-votre-soutien"  v-html="$t('asso.data.dd.banners')"></a> -
+            <a href="https://soutenir.framasoft.org/benevolat" v-html="$t('asso.data.dd.benevalo')"></a>
+          </dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt v-html="$t('asso.data.dt.founders')"></dt>
+          <dd>Alexis Kauffmann, Paul Lunetta, Georges Silva</dd>
+        </dl>
+      </div>
+    </main>
+  </div>
+</template>
+
+<script>
+import I18n from '../partials/I18n.vue'
+
+export default {
+  components: {
+    I18n,
+  },
+  data() {
+    return {
+      data: this.$i18n.messages.data,
+    }
+  },
+}
+</script>

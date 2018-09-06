@@ -1,5 +1,5 @@
 <template>
-  <div id="home">
+  <div>
     <div class="container ombre" id="topPgAccueil">
 
       <Header></Header>
