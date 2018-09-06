@@ -1,5 +1,5 @@
 <template>
-  <div id="asso" class="container ombre apropos">
+  <div class="container ombre apropos">
     <vue-headful
       :title="$t('data.meta.name') + ' - ' + $t('asso.title')"
     />
@@ -88,7 +88,7 @@
           <dd v-html="$t('asso.data.dd.staff')"></dd>
         </dl>
         <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.headquarter')">Siège</dt>
+          <dt v-html="$t('asso.data.dt.headquarters')"></dt>
           <dd>Lyon, France</dd>
         </dl>
         <dl class="dl-horizontal">

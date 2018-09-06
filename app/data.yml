@@ -3,10 +3,30 @@ full: Accès classique
 home: Accueil
 
 meta:
+  author: Framasoft
+  canonical: https://framasoft.org
+  i18n: http://trad.framasoft.org/iteration/view/framasoft/master
   name: Framasoft
   baseURL: https://framasoft.org
   framaname: <b class="violet">Frama</b><b class="orange">soft</b>
   framalink: '<a href="@:data.meta.baseURL">@:data.meta.framaname</a>'
+
+txt:
+  soft: Framasoft
+
+color:
+  soft: <b class="violet">Frama</b><b class="orange">soft</b>
+
+link:
+  soft: https://framasoft.org
+  dio: https://degooglisons-internet.org
+  cuo: https://contributopia.org
+  soutenir: https://soutenir.framasoft.org
+  contact: https://contact.framasoft.org
+  participer: https://participer.framasoft.org
+
+html:
+  soft: <a href="https://framasoft.org"><b class="violet">Frama</b><b class="orange">soft</b></a>
 
 # Catégories
 cat:
@@ -329,13 +349,14 @@ asso:
   files: 'https://soutenir.framasoft.org/sites/default/files/'
 
 license:
-  lal: '<a href="http://artlibre.org/">Art Libre</a>'
-  cc0: '<a href="https://creativecommons.org/publicdomain/zero/1.0/">Creative Commons 0</a>'
-  ccby3: '<a href="https://creativecommons.org/licenses/by/3.0/"><span lang="en">Creative Commons By</span> 3.0</a>'
-  ccbysa3: '<a href="https://creativecommons.org/licenses/by-sa/3.0/"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 3.0</a>'
-  ccbysa4: '<a href="https://creativecommons.org/licenses/by-sa/4.0/"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 4.0</a>'
-  ccbysa2fr: '<a href="https://creativecommons.org/licenses/by-sa/2.0/fr/"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 2.0</a>'
-  ccbysa3fr: '<a href="https://creativecommons.org/licenses/by-sa/3.0/fr/"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 3.0</a>'
+  lal: '<a href="http://artlibre.org">Art Libre</a>'
+  cc0: '<a href="https://creativecommons.org/publicdomain/zero/1.0">Creative Commons 0</a>'
+  ccby3: '<a href="https://creativecommons.org/licenses/by/3.0"><span lang="en">Creative Commons By</span> 3.0</a>'
+  ccby4: '<a href="https://creativecommons.org/licenses/by/4.0"><span lang="en">Creative Commons By</span> 4.0</a>'
+  ccbysa3: '<a href="https://creativecommons.org/licenses/by-sa/3.0"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 3.0</a>'
+  ccbysa4: '<a href="https://creativecommons.org/licenses/by-sa/4.0"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 4.0</a>'
+  ccbysa2fr: '<a href="https://creativecommons.org/licenses/by-sa/2.0/fr"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 2.0</a>'
+  ccbysa3fr: '<a href="https://creativecommons.org/licenses/by-sa/3.0/fr"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 3.0</a>'
   ccbysa4fr: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr"><span lang="en">Creative Commons By</span>-<abbr>SA</abbr> 4.0</a>'
   gpl2: '<a href="https://www.gnu.org/licenses/gpl-2.0.html">GNU <abbr lang="en" title="General Public License">GPL</abbr> v2</a>'
   gpl3: '<a href="https://www.gnu.org/licenses/gpl-3.0.txt">GNU <abbr lang="en" title="General Public License">GPL</abbr> v3</a>'

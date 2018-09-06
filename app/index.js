@@ -40,7 +40,7 @@ let defaultRouteLang = '';
 
 const messages = {};
 messages.locales = require('./lang.yml'); // eslint-disable-line
-messages.locales.avalaible = locales;
+messages.locales.avalaible = Object.keys(messages.locales).filter(n => locales.indexOf(n) > -1);
 
 // Data import
 messages.data = {};
@@ -49,7 +49,7 @@ messages.data['/'] = `/${process.env.BASE_URL.replace(/(.+)/, '$1/')}`;
 messages.data['/img/'] = `${messages.data['/']}img/`;
 
 const routes = [
-  { path: '/', component: Home },
+  { path: '/', component: Home, meta: { id: 'home' } },
 ];
 
 for (let i = 0; i < locales.length; i += 1) {
@@ -71,6 +71,7 @@ for (let i = 0; i < locales.length; i += 1) {
     routes.push({
       path: `/${locales[i]}${pages[j].toLowerCase().replace(/^/, '/').replace('/home', '')}`,
       component: component.default,
+      meta: { id: pages[j].toLowerCase() },
     });
   }
 }
