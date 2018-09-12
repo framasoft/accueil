@@ -662,7 +662,7 @@ cgu:
       list:
       - 'L’utilisation du service se fait à vos propres risques. Le service est fourni tel quel.'
       - 'Vous ne devez pas modifier un autre site afin de signifier faussement
-          qu’il est associé avec ce service @:data.txt.soft.'
+          qu’il est associé avec ce service @:data.txt.soft</>.'
       - 'Les comptes ne peuvent être créés et utilisés que par des humains.
           Les comptes créés par les robots ou autres méthodes automatisées
           pourront être supprimés sans avertissement.'
@@ -833,13 +833,13 @@ legals:
       - 'un courrier à l’adresse du siège de l’association (indiquée
           ci-dessus) en indiquant son nom ou sa raison sociale, ses coordonnées
           physiques et/ou électroniques, ainsi que le cas échéant la référence
-          dont il disposerait en tant qu’utilisateur du site @:data.txt.soft.'
+          dont il disposerait en tant qu’utilisateur du site @:data.txt.soft</>.'
   liabilities:
     title: Limitation de responsabilité
     text:
     - 'Ce site comporte des informations mises à disposition par des
         communautés ou sociétés externes ou des liens hypertextes vers d’autres sites qui
-        n’ont pas été développés par le @:data.txt.soft. Le contenu mis à disposition
+        n’ont pas été développés par @:data.txt.soft</>. Le contenu mis à disposition
         sur le site est fourni à titre informatif. L’existence d’un lien de ce
         site vers un autre site ne constitue pas une validation de ce site ou
         de son contenu. Il appartient à l’internaute d’utiliser ces
@@ -856,7 +856,7 @@ legals:
         chance) consécutifs à l’utilisation du site.'
     - 'Des espaces interactifs (possibilité de poser des questions dans
         l’espace contact) sont à la disposition des utilisateurs sur le site
-        @:data.txt.soft. @:data.txt.soft se réserve le droit de
+        @:data.txt.soft</>. @:data.txt.soft se réserve le droit de
         supprimer, sans mise en demeure préalable, tout contenu déposé dans cet
         espace qui contreviendrait à la législation applicable en France, en
         particulier aux dispositions relatives à la protection des données. Le

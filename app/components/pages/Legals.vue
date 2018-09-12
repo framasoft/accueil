@@ -93,7 +93,7 @@
 
       <div class="signature">
         <hr />
-        <p v-for="p, index in $t('legals.footer')" v-html="$t('legals.footer['+ index +']')""></p>
+        <p v-for="p, index in $t('legals.footer')" v-html="$t('legals.footer['+ index +']')"></p>
       </div>
     </main>
   </div>
