@@ -528,46 +528,46 @@ charte:
         l’objectif prioritaire du projet <a href="@:link.dio">@:cat.campagnes.sites.dio.name</a>.'
     - 'L’accès au code source est au fondement des principes du Libre.
         Pour chaque application rendue disponible dans ses projets,
-        @:data.meta.name s’engage à ce qu’elle soit placée exclusivement sous
+        @:data.txt.soft s’engage à ce qu’elle soit placée exclusivement sous
         <a href="https://www.gnu.org/philosophy/free-sw.fr.html">licence libre</a>.'
-    - 'En cas d’amélioration du code, @:data.meta.name s’engage à placer sa contribution
+    - 'En cas d’amélioration du code, @:data.txt.soft s’engage à placer sa contribution
         sous licence libre (compatible avec la licence initiale) et encouragera
         toute contribution volontaire de la part des utilisateurs en les invitant
         à contacter les auteurs.'
-    - '@:data.meta.name s’engage à rendre accessible le code source soit en publiant un
+    - '@:data.txt.soft s’engage à rendre accessible le code source soit en publiant un
         lien vers le site officiel de l’application, soit, si ce dernier n’est plus
         disponible, en publiant le code utilisé sur un dépôt.'
-    - 'Ce faisant, @:data.meta.name démontre sa probité en permettant à chaque utilisateur
+    - 'Ce faisant, @:data.txt.soft démontre sa probité en permettant à chaque utilisateur
         de vérifier le code source, éventuellement de l’améliorer, et surtout de
         s’assurer qu’aucun usage déloyal ne sera fait de ses données, de son identité
         et de ses droits.'
     - 'C’est en connaissance de cause que les utilisateurs pourront user des applications
         disponibles et prendre connaissance des toutes les fonctionnalités,
         de leur avantages, de leurs limites et de leurs emplois.'
-    - 'Aucune donnée produite à l’aide des applications n’appartient à @:data.meta.name,
+    - 'Aucune donnée produite à l’aide des applications n’appartient à @:data.txt.soft,
         qui n’y appose aucun droit et n’y pratique aucune censure.
         En revanche tout contenu contrefaisant ou illégal au regard de la loi française,
         une fois dûment signalé, sera supprimé immédiatement.'
   decentralized:
     title: Pour un Internet décentralisé
     text:
-    - 'En proposant des applications libres en ligne, @:data.meta.name expose autant
+    - 'En proposant des applications libres en ligne, @:data.txt.soft expose autant
         d’alternatives aux applications proposées par des entreprises à des fins
         de monopole et d’usage dévoyé des données personnelles.'
     - 'Ces alternatives illustrent la diversité des solutions libres disponibles et
         pouvant être mises à disposition à des fins personnelles ou collectives.
-        À ce titre @:data.meta.name s’engage à favoriser leur essaimage en publiant des
+        À ce titre @:data.txt.soft s’engage à favoriser leur essaimage en publiant des
         tutoriaux explicatifs sur les méthodes employées pour installer
         ces applications sur vos propres serveurs.'
     - 'L’égalité de l’accès à ces applications est un engagement fort : en les
-        proposant gratuitement, @:data.meta.name souhaite promouvoir leur usage envers
+        proposant gratuitement, @:data.txt.soft souhaite promouvoir leur usage envers
         le plus grand nombre et illustrer par l’exemple qu’un Internet décentralisé
         et égalitaire est possible.'
   ethic:
     title: Pour un Internet éthique
     text:
     - 'L’éthique du logiciel libre est faite de partage et d’indépendance.
-        @:data.meta.name s’engage à ne pratiquer aucune censure a priori des contenus,
+        @:data.txt.soft s’engage à ne pratiquer aucune censure a priori des contenus,
         aucune surveillance des actions des utilisateurs, et à ne répondre à
         aucune demande administrative ou d’autorité sans une requête légale
         présentée en bonne et dûe forme.
@@ -584,29 +584,29 @@ charte:
   solidary:
     title: Pour un Internet solidaire
     text:
-    - '@:data.meta.name est une association sans but lucratif.
+    - '@:data.txt.soft est une association sans but lucratif.
         Ses bénévoles et salariés mettent leur temps de travail au service des
         utilisateurs  pour assurer la pérennité des services.
         Le modèle économique proposé est basé sur la mutualisation des énergies et des coûts.
         Si les services sont gratuits, cela ne signifie pas qu’ils ne coûtent rien.
-        Si un grand nombre de personnes encouragent financièrement @:data.meta.name
+        Si un grand nombre de personnes encouragent financièrement @:data.txt.soft
         à maintenir ses services, un plus grand nombre encore sera en mesure de
         les utiliser et ils pourront de même être améliorés.'
-    - 'Dans une démarche d’éducation populaire, @:data.meta.name diffuse un maximum de
+    - 'Dans une démarche d’éducation populaire, @:data.txt.soft diffuse un maximum de
         connaissances pour promouvoir les usages des logiciels libres et
         apprendre à installer des services libres en ligne.
         Ce partage des ressources, techniques et cognitives, fait d’Internet un
         bien commun, disponible pour tous et n’appartenant à personne.'
   footer:
   - 'Charte des services Libres, Éthiques, Décentralisés et Solidaires,<br>
-      approuvée par l’association @:data.meta.name le 6 octobre 2014.'
+      approuvée par l’association @:data.txt.soft le 6 octobre 2014.'
 # CGU --------------------------------------------------------------------------
 cgu:
   title: Conditions Générales d’Utilisation
   intro:
     title: Préambule
     text: En utilisant ce service, vous acceptez d’être lié par les conditions suivantes.<br>
-      @:data.meta.name se réserve le droit de mettre à jour et modifier ces conditions de temps à autre.
+      @:data.txt.soft se réserve le droit de mettre à jour et modifier ces conditions de temps à autre.
   short:
     title: Version courte (TL;DR comme on dit chez nous)
     desc: 'Pour en faciliter la lecture, sans le blabla juridique, nous vous en proposons
@@ -615,11 +615,11 @@ cgu:
       text: 'On est sympathiques :'
       list:
       - 'Votre contenu vous appartient (mais nous vous encourageons à le publier sous licence libre) ;'
-      - '@:data.meta.name n’exploitera pas vos données personnelles, sauf à fin de statistiques
+      - '@:data.txt.soft n’exploitera pas vos données personnelles, sauf à fin de statistiques
           internes (anonymisées) ou pour vous prévenir d’un changement important sur le service ;'
-      - '@:data.meta.name ne transmettra ni ne revendra vos données personnelles
+      - '@:data.txt.soft ne transmettra ni ne revendra vos données personnelles
           (votre vie privée nous tient - vraiment - à cœur) ;'
-      - 'Les engagements de @:data.meta.name résultent d’une démarche militante inspirée
+      - 'Les engagements de @:data.txt.soft résultent d’une démarche militante inspirée
           du mouvement de l’éducation populaire, vous pouvez les retrouver dans notre
           <a href="@:link.charte">Charte des services Libres, Ethiques, Décentralisés et Solidaires</a>.'
     terms:
@@ -633,12 +633,12 @@ cgu:
           et de politesse, sinon votre contenu, voire votre compte,
           pourront être supprimés, sans négociation ;'
       - 'Clause <em>« Si ça casse, on n’est pas obligé de réparer »</em> :
-          @:data.meta.name propose ce service gratuitement et librement.
+          @:data.txt.soft propose ce service gratuitement et librement.
           Si vous perdez des données, par votre faute ou par la nôtre, désolé, mais ça arrive.
           Nous ferons ce que nous pouvons pour les récupérer, mais nous ne nous
           assignons aucune obligation de résultat.
           En clair, évitez de mettre des données sensibles ou importantes sur
-          les services @:data.meta.name, car en cas de perte, nous ne garantissons pas leur récupération ;'
+          les services @:data.txt.soft, car en cas de perte, nous ne garantissons pas leur récupération ;'
       - 'Clause <em>« Si vous n’êtes pas contents, vous êtes invités à aller voir ailleurs »</em> :
           si le service ne vous convient pas, libre à vous d’en trouver
           un équivalent (ou meilleur) ailleurs, ou de monter le vôtre ;'
@@ -646,7 +646,7 @@ cgu:
           par exemple en monopolisant des ressources machines partagées, ou en publiant
           des contenus considérés comme non pertinents, son contenu ou
           son compte pourra être supprimé sans avertissement ni négociation.
-          @:data.meta.name reste seul juge de cette notion « d’abus » dans le but de fournir
+          @:data.txt.soft reste seul juge de cette notion « d’abus » dans le but de fournir
           le meilleur service possible à l’ensemble de ses utilisateurs.
           Si cela vous parait anti-démocratique, anti-libriste, anti-liberté-d’expression,
           merci de vous référer à la clause précédente ;'
@@ -654,7 +654,7 @@ cgu:
           (faute de fonds pour les maintenir, par exemple), ils peuvent être
           victimes d’intrusion (le « 100 % sécurisé » n’existe pas).
           Nous vous encourageons donc à conserver une copie des données qui vous importent,
-          car @:data.meta.name ne saurait être tenu pour responsable de leur hébergement sans limite de temps.'
+          car @:data.txt.soft ne saurait être tenu pour responsable de leur hébergement sans limite de temps.'
   full:
     title: Version complète
     conditions:
@@ -662,12 +662,12 @@ cgu:
       list:
       - 'L’utilisation du service se fait à vos propres risques. Le service est fourni tel quel.'
       - 'Vous ne devez pas modifier un autre site afin de signifier faussement
-          qu’il est associé avec ce service @:data.meta.name.'
+          qu’il est associé avec ce service @:data.txt.soft.'
       - 'Les comptes ne peuvent être créés et utilisés que par des humains.
           Les comptes créés par les robots ou autres méthodes automatisées
           pourront être supprimés sans avertissement.'
       - 'Vous êtes responsable de la sécurité de votre compte et de votre mot de passe.<br>
-          @:data.meta.name ne peut pas et ne sera pas responsable de toutes pertes
+          @:data.txt.soft ne peut pas et ne sera pas responsable de toutes pertes
           ou dommages résultant de votre non-respect de cette obligation de sécurité.'
       - 'Vous êtes responsable de tout contenu affiché et de l’activité qui se produit sous votre compte.'
       - 'Vous ne pouvez pas utiliser le service à des fins illégales ou non autorisées.<br>
@@ -676,22 +676,22 @@ cgu:
           un but commercial non autorisé un compte du service utilisé.'
     liabilities:
       text: 'La violation de l’un de ces accords entraînera la résiliation de votre compte.<br>
-        Vous comprenez et acceptez que l’association @:data.meta.name ne puisse être tenue
+        Vous comprenez et acceptez que l’association @:data.txt.soft ne puisse être tenue
         responsable pour les contenus publiés sur ce service.'
       list:
       - 'Vous comprenez que la mise en ligne du service ainsi que de votre contenu implique
           une transmission (en clair ou chiffrée, suivant les services) sur divers réseaux.'
       - 'Vous ne devez pas transmettre des vers, des virus ou tout autre code de nature malveillante.'
-      - '@:data.meta.name ne garantit pas que
+      - '@:data.txt.soft ne garantit pas que
           <ul>
             <li>le service répondra à vos besoins spécifiques,</li>
             <li>le service sera ininterrompu ou exempte de bugs,</li>
             <li>que les erreurs dans le service seront corrigées.</li>
           </ul>'
-      - 'Vous comprenez et acceptez que @:data.meta.name ne puisse être tenue responsable
+      - 'Vous comprenez et acceptez que @:data.txt.soft ne puisse être tenue responsable
           de tous dommages directs, indirects, ou fortuits, comprenant les dommages
           pour perte de profits, de clientèle, d’accès, de données ou d’autres pertes intangibles
-          (même si @:data.meta.name est informé de la possibilité de tels dommages) et qui résulteraient de :
+          (même si @:data.txt.soft est informé de la possibilité de tels dommages) et qui résulteraient de :
           <ol>
             <li>l’utilisation ou de l’impossibilité d’utiliser le service ;</li>
             <li>l’accès non autorisé ou altéré de la transmission des données ;</li>
@@ -699,21 +699,21 @@ cgu:
             <li>la résiliation de votre compte ;</li>
             <li>toute autre question relative au service.</li>
           </ol>'
-      - 'L’échec de @:data.meta.name à exercer ou à appliquer tout droit ou disposition
+      - 'L’échec de @:data.txt.soft à exercer ou à appliquer tout droit ou disposition
           des Conditions Générale d’Utilisation ne constitue pas une renonciation
           à ce droit ou à cette disposition.
           Les Conditions d’utilisation constituent l’intégralité de l’accord
-          entre vous et @:data.meta.name et régissent votre utilisation du service,
-          remplaçant tous les accords antérieurs entre vous et @:data.meta.name
+          entre vous et @:data.txt.soft et régissent votre utilisation du service,
+          remplaçant tous les accords antérieurs entre vous et @:data.txt.soft
           (y compris les versions précédentes des Conditions Générales d’Utilisation).'
       - 'Les questions sur les conditions de service doivent être envoyées via
           <a href="@:link.contact">ce formulaire de contact</a>.'
   modify:
     title: Modifications du service
     list:
-    - '@:data.meta.name se réserve le droit, à tout moment de modifier ou d’interrompre,
+    - '@:data.txt.soft se réserve le droit, à tout moment de modifier ou d’interrompre,
         temporairement ou définitivement, le service avec ou sans préavis.'
-    - '@:data.meta.name ne sera pas responsable envers vous ou tout tiers pour toute modification,
+    - '@:data.txt.soft ne sera pas responsable envers vous ou tout tiers pour toute modification,
         suspension ou interruption du service.'
     copyright:
       title: Droit d’auteur sur le contenu
@@ -740,48 +740,48 @@ cgu:
       - 'Mais le service peut également vous proposer la possibilité d’autoriser
           l’accès et le travail collaboratif sur ses documents de manière restreinte
         à un ou plusieurs autres utilisateurs.'
-      - '@:data.meta.name ne peut être tenue responsable de tout problème résultant du
+      - '@:data.txt.soft ne peut être tenue responsable de tout problème résultant du
           partage ou de la publication de données entre utilisateurs.'
     closure:
       title: Résiliation
       text:
-      - '@:data.meta.name, à sa seule discrétion, a le droit de suspendre ou de résilier
+      - '@:data.txt.soft, à sa seule discrétion, a le droit de suspendre ou de résilier
           votre compte et de refuser toute utilisation actuelle ou future du service.
           Cette résiliation du service entraînera la désactivation de l’accès à votre compte,
           et la restitution de tout le contenu.<br>
-          @:data.meta.name se réserve le droit de refuser le service à n’importe qui
+          @:data.txt.soft se réserve le droit de refuser le service à n’importe qui
           pour n’importe quelle raison à tout moment.'
-      - '@:data.meta.name se réserve également le droit de résilier votre compte
+      - '@:data.txt.soft se réserve également le droit de résilier votre compte
           si vous ne vous connectez pas à votre compte pour une période supérieure à 6 mois.'
     private:
       title: Données personnelles
       text:
       - 'Conformément à l’article 34 de la loi « Informatique et Libertés »,
-          @:data.meta.name garantit à l’utilisateur un droit d’opposition, d’accès et
+          @:data.txt.soft garantit à l’utilisateur un droit d’opposition, d’accès et
           de rectification sur les données nominatives le concernant.
           L’utilisateur a la possibilité d’exercer ce droit en utilisant le
           <a href="@:link.contact">formulaire de contact</a> mis à sa disposition.'
       list:
-      - 'Pour utiliser certains services @:data.meta.name, vous devez créer un compte.
-          @:data.meta.name demande certaines informations personnelles :
+      - 'Pour utiliser certains services @:data.txt.soft, vous devez créer un compte.
+          @:data.txt.soft demande certaines informations personnelles :
           une adresse e-mail valide et un mot de passe qui est utilisé pour protéger
           votre compte contre tout accès non autorisé.
           Les champs « Nom » et « Prénom » peuvent être requis pour le bon
           fonctionnement du logiciel, mais il n’est pas nécessaire
           qu’ils révèlent votre véritable identité.'
-      - 'Tout comme d’autres services en ligne, @:data.meta.name enregistre automatiquement
+      - 'Tout comme d’autres services en ligne, @:data.txt.soft enregistre automatiquement
           certaines informations concernant votre utilisation du service telles que
           l’activité du compte (exemple : espace de stockage occupé, nombre d’entrées, mesures prises),
           les données affichées ou cliquées (exemple : liens, éléments de l’interface utilisateur),
           et d’autres informations pour vous identifier (exemple : type de navigateur, adresse IP,
           date et heure de l’accès, URL de référence).'
       - 'Nous utilisons ces informations en interne pour vous améliorer
-          l’interface utilisateur des services @:data.meta.name et maintenir une
+          l’interface utilisateur des services @:data.txt.soft et maintenir une
           expérience utilisateur cohérente et fiable.'
       - 'Ces données ne sont ni vendues, ni transmises à des tiers.'
   footer:
   - 'Conditions Générales d’Utilisation des services en ligne de l’association
-      @:data.meta.name,<br>version 1.0.3 du 11 avril 2016.'
+      @:data.txt.soft,<br>version 1.0.3 du 11 avril 2016.'
 legals:
   title: Mentions légales
   editor:
@@ -802,15 +802,15 @@ legals:
           loi n° 78-17 du 6 janvier 1978</a>, la loi n° 2004-801 du 6 août 2004,
           l’article L. 226-13 du Code pénal et la Directive Européenne du 24
            octobre 1995.'
-      - 'En tout état de cause @:data.meta.name ne collecte des informations
+      - 'En tout état de cause @:data.txt.soft ne collecte des informations
           personnelles relatives à l’utilisateur (nom, adresse électronique,
           coordonnées téléphoniques) que pour le besoin des services proposés par
-          les sites du réseau @:data.meta.name, notamment pour l’inscription à des
+          les sites du réseau @:data.txt.soft, notamment pour l’inscription à des
           espaces de discussion par le biais de formulaires en ligne ou pour des
           traitements statistiques. L’utilisateur fournit ces informations en
           toute connaissance de cause, notamment lorsqu’il procède par lui-même à
           leur saisie. Il est alors précisé à l’utilisateur des sites du réseau
-          @:data.meta.name le caractère obligatoire ou non des informations qu’il serait
+          @:data.txt.soft le caractère obligatoire ou non des informations qu’il serait
           amené à fournir.'
     stats:
       title: Analyse statistique et confidentialité
@@ -825,7 +825,7 @@ legals:
       - 'Conformément aux dispositions de l’article 34 de la loi n° 48-87 du
           6 janvier 1978, l’utilisateur dispose d’un droit de modification des
           données nominatives collectées le concernant. Pour ce faire,
-          l’utilisateur envoie à @:data.meta.name :'
+          l’utilisateur envoie à @:data.txt.soft :'
       - 'La modification interviendra dans des délais raisonnables à compter
           de la réception de la demande de l’utilisateur.'
       list:
@@ -833,41 +833,41 @@ legals:
       - 'un courrier à l’adresse du siège de l’association (indiquée
           ci-dessus) en indiquant son nom ou sa raison sociale, ses coordonnées
           physiques et/ou électroniques, ainsi que le cas échéant la référence
-          dont il disposerait en tant qu’utilisateur du site @:data.meta.name.'
+          dont il disposerait en tant qu’utilisateur du site @:data.txt.soft.'
   liabilities:
     title: Limitation de responsabilité
     text:
     - 'Ce site comporte des informations mises à disposition par des
         communautés ou sociétés externes ou des liens hypertextes vers d’autres sites qui
-        n’ont pas été développés par le @:data.meta.name. Le contenu mis à disposition
+        n’ont pas été développés par le @:data.txt.soft. Le contenu mis à disposition
         sur le site est fourni à titre informatif. L’existence d’un lien de ce
         site vers un autre site ne constitue pas une validation de ce site ou
         de son contenu. Il appartient à l’internaute d’utiliser ces
         informations avec discernement et esprit critique. La responsabilité de
-        @:data.meta.name ne saurait être engagée du fait des informations, opinions et
+        @:data.txt.soft ne saurait être engagée du fait des informations, opinions et
         recommandations formulées par des tiers.'
-    - '@:data.meta.name ne pourra être tenue responsable des dommages directs et
+    - '@:data.txt.soft ne pourra être tenue responsable des dommages directs et
         indirects causés au matériel de l’utilisateur, lors de l’accès au site,
          et résultant soit de l’utilisation d’un matériel ne répondant pas aux
         spécifications techniques requises, soit de l’apparition d’un bug ou
         d’une incompatibilité.'
-    - '@:data.meta.name ne pourra également être tenue responsable des dommages
+    - '@:data.txt.soft ne pourra également être tenue responsable des dommages
         indirects (tels par exemple qu’une perte de marché ou perte d’une
         chance) consécutifs à l’utilisation du site.'
     - 'Des espaces interactifs (possibilité de poser des questions dans
         l’espace contact) sont à la disposition des utilisateurs sur le site
-        @:data.meta.name. @:data.meta.name se réserve le droit de
+        @:data.txt.soft. @:data.txt.soft se réserve le droit de
         supprimer, sans mise en demeure préalable, tout contenu déposé dans cet
         espace qui contreviendrait à la législation applicable en France, en
         particulier aux dispositions relatives à la protection des données. Le
-        cas échéant, @:data.meta.name se réserve également la possibilité de mettre en
+        cas échéant, @:data.txt.soft se réserve également la possibilité de mettre en
         cause la responsabilité civile et/ou pénale de l’utilisateur, notamment
         en cas de message à caractère raciste, injurieux, diffamant, ou
         pornographique, quel que soit le support utilisé (texte, photographie…).'
     tech:
       title: Limitations contractuelles sur les données techniques
       text:
-      - '@:data.meta.name ne pourra être tenue responsable de dommages matériels
+      - '@:data.txt.soft ne pourra être tenue responsable de dommages matériels
         liés à l’utilisation du site. De plus, l’utilisateur du site s’engage à
         accéder au site en utilisant un matériel récent, ne contenant pas de
         virus et avec un navigateur de dernière génération mis-à-jour.'
@@ -876,12 +876,12 @@ legals:
       text:
       - 'Les contenus sont publiés sous la responsabilité des utilisateurs.'
   footer:
-  - 'Mentions légales de l’association @:data.meta.name,<br>le 6 octobre 2014.'
+  - 'Mentions légales de l’association @:data.txt.soft,<br>le 6 octobre 2014.'
 credits:
   title: Crédits
   main:
     text:
-    - 'Ce site utilise des éléments libres communs à l’ensemble du réseau @:data.meta.name :'
+    - 'Ce site utilise des éléments libres communs à l’ensemble du réseau @:data.txt.soft :'
     - 'Certains éléments sont déployés via le script qui ajoute la barre de navigation et le pied de page du site.<br>
         Le code source peut être consulté <a href="https://framagit.org/framasoft/framanav">sur notre dépôt Gitlab</a>.'
     - '<a href="@:link.graphics">Charte graphique</a> :'
@@ -913,7 +913,7 @@ credits:
 asso:
   title: Association
   prez:
-    title: 'Présentation de @:data.meta.name'
+    title: 'Présentation de @:data.txt.soft'
     text:
     - 'Issu du monde éducatif et désormais tournée vers l’éducation populaire,
         @:data.meta.framalink est avant tout un réseau de projets, dont le premier,
@@ -936,7 +936,7 @@ asso:
     - 'de services libres (plus de 30 dans le projet <a href="@:link.dio">@:cat.campagnes.sites.dio.name</a>).'
     infography: Infographie <em>Le monde de Framasoft</em> réalisée par
   infos:
-    title: 'L’association @:data.meta.name'
+    title: 'L’association @:data.txt.soft'
     text:
     - 'Le réseau @:data.meta.framalink
         repose sur sa vaste communauté de bénévoles mais il ne pourrait exister
