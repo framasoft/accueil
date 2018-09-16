@@ -117,30 +117,6 @@ body > .row {
   margin-left:0;
   margin-right:0;
 }
-/*
-#internav ul {
-  margin-top: 0px;
-  margin-bottom: 10px;
-}
-#internav li a {
-  color: #666;
-  padding: 12px 15px;
-  text-decoration: none;
-  border:none !important;
-  line-height: 14px;
-
-  &:hover,
-  &:focus,
-  .active {
-    background: #767676;
-    color: #fff;
-  }
-}
-
-#internav form div {
-  margin-top: 4px;
-  margin-left: 25px
-}*/
 
 .col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
 
@@ -326,7 +302,7 @@ body > .row {
   margin-top: 1.5em;
 }
 
-.partenaires.blocCommunaute img {
+#home #app .partenaires img {
   width: 150px;
 }
 
@@ -569,16 +545,16 @@ blockquote {
 
 @import "frama/colors";
 @import "frama/links";
-// @import "frama/text";
-// @import "frama/backgrounds";
-// @import "frama/alerts";
-// @import "frama/buttons";
+@import "frama/text";
+@import "frama/backgrounds";
+@import "frama/alerts";
+@import "frama/buttons";
 @import "frama/carousel";
 // @import "frama/internav";
-// @import "frama/labels";
+@import "frama/labels";
 // @import "frama/modals";
 // @import "frama/navs";
-// @import "frama/panels";
+@import "frama/panels";
 // @import "frama/popovers";
 
 @import "frama/cleaning";

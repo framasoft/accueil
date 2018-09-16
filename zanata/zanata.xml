@@ -4,6 +4,6 @@
   <project></project>
   <project-version>master</project-version>
   <project-type>gettext</project-type>
-  <src-dir>po</src-dir>
-  <trans-dir>po</trans-dir>
+  <src-dir>zanata/po</src-dir>
+  <trans-dir>zanata/po</trans-dir>
 </config>

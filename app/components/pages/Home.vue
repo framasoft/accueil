@@ -8,7 +8,7 @@
         <div class="col-md-8">
           <div class="row">
             <figure id="pingouinVolant" class="pull-right" >
-              <img :src="data['/img/'] + 'pingouinVolantRefait.png'" alt="" />
+              <img :src="$root['/'] + 'img/pingouinVolantRefait.png'" alt="" />
             </figure>
 
             <ul class="accroche">
@@ -23,27 +23,30 @@
           </div>
 
           <div class="row containerActu">
-            <h3 id="news">{{ $t('pages.news') }}</h3>
+            <h3 id="news" v-html="$t('pages.news')"></h3>
 
             <Carousel/>
 
-            <h3>{{ $t('pages.medias.title') }}</h3>
+            <h3 v-html="$t('pages.medias.title')"></h3>
             <p v-html="$t('pages.medias.intro')"></p>
 
             <div class="well">
               <table class="table">
                 <thead>
                   <tr>
-                    <th>{{ $t('pages.medias.th1') }}</th>
-                    <th>{{ $t('pages.medias.th2') }}</th>
-                    <th>{{ $t('pages.medias.th3') }}</th>
+                    <th v-html="$t('pages.medias.th1')"></th>
+                    <th v-html="$t('pages.medias.th2')"></th>
+                    <th v-html="$t('pages.medias.th3')"></th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="item in $t('data.pages.medias.list')" :key="item[3]" v-if="item[0] === $t('lang') || (item[0] === 'en' && $t('lang') !== 'fr')">
-                    <td>{{ item[1] }}</td>
-                    <td>{{ item[2] }}</td>
-                    <td><a :href="item[3]" :hreflang="item[0]">{{ $t(item[4]) }}</a></td>
+                  <tr
+                    v-for="item in $root.pages.medias.list"
+                    :key="item[3]"
+                    v-if="item[0] === $t('lang') || (item[0] === 'en' && $t('lang') !== 'fr')">
+                    <td v-html="item[1]"></td>
+                    <td v-html="item[2]"></td>
+                    <td ><a :href="item[3]" :hreflang="item[0]" v-html="$t(item[4])"></a></td>
                   </tr>
                 </tbody>
               </table>
@@ -59,7 +62,9 @@
             <h4 class="titreFramaTrucs">
               <a
                 :href="`#topPg${titre}`"
-                :class="$t('data.cat.' + titre + '.color')">{{ section.title }}</a>
+                :class="$root.cat[titre].color"
+                v-html="section.title"
+              ></a>
             </h4>
             <div class="row">
               <ul class="listeFramaTrucs col-md-12">
@@ -69,11 +74,11 @@
                 >
                   <span
                     :class="hideRepeat(index, tradEntries(section.sites))"
-                  >{{ frama.what }}</span>
+                     v-html="frama.what"></span>
                   <a
-                    :href="$t('data.cat.' + titre + '.sites.' + key + '.link')"
+                    :href="$root.link[key]"
                     :class="section.color">≻&nbsp;&nbsp;
-                    <span v-html="$t('data.cat.' + titre + '.sites.' + key + '.name')"></span>
+                    <span v-html="$root.color[key]"></span>
                   </a>
                 </li>
               </ul>
@@ -89,12 +94,12 @@
     <div class="container ombre" id="topPgCommunaute">
       <div class="clearfix header">
         <div class="col-md-4">
-          <h1 class="sitename"><a href="#topPgCommunaute" class="violet">
-            {{ $t('cat.communaute.title') }}
-          </a></h1>
+          <h1 class="sitename">
+            <a href="#topPgCommunaute" class="violet" v-html="$t('cat.communaute.title')"></a>
+          </h1>
         </div>
         <div class="col-md-5">
-          <p class="headerSubTitle">{{ $t('cat.communaute.desc') }}</p>
+          <p class="headerSubTitle" v-html="$t('cat.communaute.desc')"></p>
         </div>
         <div class="col-md-3">
           <InterNavHead/>
@@ -103,44 +108,50 @@
 
       <div class="row partenaires" id="contentCommunaute">
         <div class="col-md-4 blocCommunaute" >
-          <img :src="data['/img/'] + 'framateam1.jpg'" class="img-responsive" alt="" />
+          <img :src="$root['/'] + 'img/framateam1.jpg'" class="img-responsive" alt="" />
         </div>
 
         <div class="col-md-4 blocCommunaute">
-          <h4 class="titreBloc">{{ $t('pages.communaute.title') }}</h4>
-          <p class="miniBlocSubTitle">{{ $t('pages.communaute.desc ') }}</p>
+          <h4 class="titreBloc" v-html="$t('pages.communaute.title')"></h4>
+          <p class="miniBlocSubTitle" v-html="$t('pages.communaute.desc')"></p>
           <p class="miniBlocTexte" v-html="$t('pages.communaute.text')"></p>
         </div>
 
         <div class="col-md-4 blocCommunaute">
-          <h4 class="titreBloc">{{ $t('pages.asso.title') }}</h4>
-          <p class="miniBlocSubTitle">{{ $t('pages.asso.desc') }}</p>
+          <h4 class="titreBloc" v-html="$t('pages.asso.title')"></h4>
+          <p class="miniBlocSubTitle" v-html="$t('pages.asso.desc')"></p>
           <p class="miniBlocTexte" v-html="$t('pages.asso.text')"></p>
         </div>
 
         <div class="col-md-4 blocCommunaute">
-          <h4 class="titreBloc">{{ $t('pages.participer.title') }}</h4>
-          <p class="miniBlocSubTitle">{{ $t('pages.participer.desc') }}</p>
+          <h4 class="titreBloc" v-html="$t('pages.participer.title')"></h4>
+          <p class="miniBlocSubTitle" v-html="$t('pages.participer.desc')"></p>
           <p class="miniBlocTexte" v-html="$t('pages.participer.text')"></p>
         </div>
 
         <div class="col-md-4 blocCommunaute">
-          <h4 class="titreBloc">{{ $t('pages.soutenir.title') }}</h4>
-          <p class="miniBlocSubTitle">{{ $t('pages.soutenir.desc') }}</p>
+          <h4 class="titreBloc" v-html="$t('pages.soutenir.title')"></h4>
+          <p class="miniBlocSubTitle" v-html="$t('pages.soutenir.desc')"></p>
           <p class="miniBlocTexte" v-html="$t('pages.soutenir.text')"></p>
         </div>
 
         <div class="col-md-4 blocCommunaute">
-          <img :src="data['/img/'] + 'framateam2.jpg'" class="img-responsive" alt="" />
+          <img :src="$root['/'] + 'img/framateam2.jpg'" class="img-responsive" alt="" />
         </div>
 
         <div class="col-md-12 blocCommunaute partenaires">
-          <h4 class="titreBloc">{{ $t('pages.partenaires.title') }}</h4>
+          <h4 class="titreBloc" v-html="$t('pages.partenaires.title')"></h4>
           <p class="miniBlocTexte" v-html="$t('pages.partenaires.desc')"></p>
           <ul class="list-inline text-center">
-            <li><a href="http://milliweb.fr/"><img src="https://soutenir.framasoft.org/sites/default/files/partenaires/logoMilliweb_150.png" alt="Milliweb"></a></li>
-            <li><a href="https://www.flexilivre.com/"><img src="https://soutenir.framasoft.org/sites/default/files/flexilivre.png" alt="FlexiLivre"></a></li>
-            <li><a href="http://linphone.org/"><img src="https://soutenir.framasoft.org/sites/default/files/belledonne2.png" alt="Belledonne Communication"></a></li>
+            <li><a href="http://milliweb.fr">
+              <img src="https://soutenir.framasoft.org/img/partenaires/milliweb.png" alt="Milliweb">
+            </a></li>
+            <li><a href="https://www.flexilivre.com">
+              <img src="https://soutenir.framasoft.org/img/partenaires/flexilivre.png" alt="FlexiLivre">
+            </a></li>
+            <li><a href="http://linphone.org">
+              <img src="https://soutenir.framasoft.org/img/partenaires/belledonne.png" alt="Belledonne Communication">
+            </a></li>
           </ul>
         </div>
       </div>
@@ -152,12 +163,12 @@
     <div class="container ombre" id="topPglogiciel">
       <div class="clearfix header">
         <div class="col-md-4">
-          <h1 class="sitename violet"><a href="#topPglogiciel" class="bleu">
-            {{ $t('cat.logiciel.title') }}
-          </a></h1>
+          <h1 class="sitename violet">
+            <a href="#topPglogiciel" class="bleu" v-html="$t('cat.logiciel.title')"></a>
+          </h1>
         </div>
         <div class="col-md-5">
-          <p class="headerSubTitle">{{ $t('cat.logiciel.desc') }}</p>
+          <p class="headerSubTitle" v-html="$t('cat.logiciel.desc')"></p>
         </div>
         <div class="col-md-3">
           <InterNavHead/>
@@ -166,7 +177,7 @@
 
       <div class="row">
         <div class="col-md-8" id="presentationLogiciels">
-          <h3 class="presentation">{{ $t('pages.logiciel.title') }}</h3>
+          <h3 class="presentation" v-html="$t('pages.logiciel.title')"></h3>
           <p class="blocSubTitle" v-html="$t('pages.logiciel.desc')"></p>
           <p class="blocTexte" v-html="$t('pages.logiciel.text1')"></p>
           <p class="blocTexte" v-html="$t('pages.logiciel.text2')"></p>
@@ -174,18 +185,21 @@
 
         <div class="col-md-4">
           <figure id="pingouinMuseeWindows">
-            <img :src="data['/img/'] + 'musee-windows_ll-de-mars_licence-art-libre.jpg'" alt="" />
+            <img :src="$root['/'] + 'img/musee-windows_ll-de-mars_licence-art-libre.jpg'" alt="" />
           </figure>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3 miniBloc" v-for="(frama, index) in $t('cat.logiciel.sites')">
-          <a :href="$t(`data.cat.logiciel.sites.${index}.link`)">
-            <h4 class="bleu" v-html="$t(`data.cat.logiciel.sites.${index}.name`)"></h4>
+        <div class="col-md-3 miniBloc" v-for="frama in $root.cat.logiciel.sites">
+          <a :href="$root.link[frama]">
+            <h4 class="bleu" v-html="$root.color[frama]"></h4>
           </a>
-          <p class="miniBlocSubTitle" v-bind:class="frama.icon" v-html="frama.title"></p>
-          <p class="miniBlocTexte" v-html="frama.desc"></p>
+          <p
+            :class="`miniBlocSubTitle ${$root.icon[frama]}`"
+            v-html="$t('cat.logiciel.sites.' + frama + '.title')"
+          ></p>
+          <p class="miniBlocTexte" v-html="$t('cat.logiciel.sites.' + frama + '.desc')"></p>
         </div>
       </div>
 
@@ -196,12 +210,12 @@
     <div class="container ombre" id="topPgculture">
       <div class="clearfix header">
         <div class="col-md-4">
-          <h1 class="sitename violet"><a href="#topPgculture" class="rouge">
-            {{ $t('cat.culture.title') }}
-          </a></h1>
+          <h1 class="sitename violet">
+            <a href="#topPgculture" class="rouge" v-html="$t('cat.culture.title')"></a>
+          </h1>
         </div>
         <div class="col-md-5">
-          <p class="headerSubTitle">{{ $t('cat.culture.desc') }}</p>
+          <p class="headerSubTitle" v-html="$t('cat.culture.desc')"></p>
         </div>
         <div class="col-md-3">
           <InterNavHead/>
@@ -211,7 +225,7 @@
       <div class="row">
         <div class="col-md-6" id="presentationServices">
           <div class="row col-md-12" id="blocServices">
-            <h3 class="presentation">{{ $t('pages.culture.title') }}</h3>
+            <h3 class="presentation" v-html="$t('pages.culture.title')"></h3>
             <p class="blocSubTitle" v-html="$t('pages.culture.desc')"></p>
             <p class="blocTexte" v-html="$t('pages.culture.text1')"></p>
             <p class="blocTexte" v-html="$t('pages.culture.text2')"></p>
@@ -219,25 +233,26 @@
 
           <div class="row col-md-12">
             <figure id="pingouinsQuelquesBriques">
-              <img :src="data['/img/'] + 'quelques-briques_licence-art-libre.jpg'" alt="" />
+              <img :src="$root['/'] + 'img/quelques-briques_licence-art-libre.jpg'" alt="" />
             </figure>
           </div>
 
           <div class="row col-md-12">
-            <blockquote class="well">
-              {{ $t('pages.culture.quote') }}
-            </blockquote>
+            <blockquote class="well" v-html="$t('pages.culture.quote')"></blockquote>
           </div>
         </div>
 
         <div class="col-md-6">
           <div class="row">
-            <div class="col-md-6 miniBloc2" v-for="(frama, index) in $t('cat.culture.sites')">
-              <a :href="$t(`data.cat.culture.sites.${index}.link`)">
-                <h4 class="rouge" v-html="$t(`data.cat.culture.sites.${index}.name`)"></h4>
+            <div class="col-md-6 miniBloc2" v-for="frama in $root.cat.culture.sites">
+              <a :href="$root.link[frama]">
+                <h4 class="rouge" v-html="$root.color[frama]"></h4>
               </a>
-              <p class="miniBlocSubTitle" v-bind:class="frama.icon" v-html="frama.title"></p>
-              <p class="miniBlocTexte" v-html="frama.desc"></p>
+              <p
+                :class="`miniBlocSubTitle ${$root.icon[frama]}`"
+                v-html="$t('cat.culture.sites.' + frama + '.title')"
+              ></p>
+              <p class="miniBlocTexte" v-html="$t('cat.culture.sites.' + frama + '.desc')"></p>
             </div>
           </div>
         </div>
@@ -250,12 +265,12 @@
     <div class="container ombre" id="topPgcloud">
       <div class="clearfix header">
         <div class="col-md-4">
-          <h1 class="sitename violet"><a href="#topPgcloud" class="vert">
-            {{ $t('cat.cloud.title') }}
-          </a></h1>
+          <h1 class="sitename violet">
+            <a href="#topPgcloud" class="vert" v-html="$t('cat.cloud.title')"></a>
+          </h1>
         </div>
         <div class="col-md-5">
-          <p class="headerSubTitle">{{ $t('cat.cloud.desc') }}</p>
+          <p class="headerSubTitle" v-html="$t('cat.cloud.desc')"></p>
         </div>
         <div class="col-md-3">
           <InterNavHead/>
@@ -265,20 +280,17 @@
       <div class="row">
         <div id="presentationLibre">
           <div class="col-md-6">
-            <h3 class="presentation">{{ $t('pages.cloud.title') }}</h3>
+            <h3 class="presentation" v-html="$t('pages.cloud.title')"></h3>
             <p class="blocSubTitle" v-html="$t('pages.cloud.desc')"></p>
             <p class="blocTexte" v-html="$t('pages.cloud.text1')"></p>
             <p class="blocTexte" v-html="$t('pages.cloud.text2')"></p>
           </div>
 
-          <div
-            v-for="(frama, index) in $t('cat.cloud.sites')"
-            :key="index"
-            :id="`f-${index}`">
+          <div v-for="frama in $root.cat.cloud.sites" :id="`f-${frama}`">
             <ImageServiceBlock
-              v-if="['bee', 'bag', 'drop', 'site'].includes(index)"
-              :image="beforeImage(index)" />
-            <ServiceBlock :index="index.toString()" />
+              v-if="['bee', 'bag', 'drop', 'site'].includes(frama)"
+              :image="beforeImage(frama)" />
+            <ServiceBlock :frama="frama.toString()" />
           </div>
         </div>
       </div>
@@ -291,12 +303,12 @@
 
       <div class="clearfix header">
         <div class="col-md-4">
-          <h1 class="sitename violet"><a href="#topPgVrac" class="jaune">
-            {{ $t('cat.cloud.title') }}
-          </a></h1>
+          <h1 class="sitename violet">
+            <a href="#topPgVrac" class="jaune" v-html="$t('cat.vrac.title')"></a>
+          </h1>
         </div>
         <div class="col-md-5">
-          <p class="headerSubTitle">{{ $t('cat.vrac.desc') }}</p>
+          <p class="headerSubTitle" v-html="$t('cat.vrac.desc')"></p>
         </div>
         <div class="col-md-3">
           <InterNavHead/>
@@ -305,33 +317,33 @@
 
       <div class="row">
         <div class="col-md-8" id="presentationLibrenVrac">
-          <h3 class="presentation">{{ $t('pages.vrac.title') }}</h3>
+          <h3 class="presentation" v-html="$t('pages.vrac.title')"></h3>
           <p class="blocSubTitle" v-html="$t('pages.vrac.desc')"></p>
           <p class="blocTexte" v-html="$t('pages.vrac.text')"></p>
         </div>
 
         <div class="col-md-4" id="AlaUne">
-          <h4 class="titreBloc">{{ $t('pages.vrac.une.title') }}</h4>
-          <p class="miniBlocSubTitle">{{ $t('pages.vrac.une.desc') }}</p>
+          <h4 class="titreBloc" v-html="$t('pages.vrac.une.title')"></h4>
+          <p class="miniBlocSubTitle" v-html="$t('pages.vrac.une.desc')"></p>
           <figure id="GeGeGenerator">
-            <a href="https://framalab.org/gknd-creator/"><img :src="data['/img/'] + 'GeGeGenerator.jpg'" :alt="$t('pages.vrac.une.desc')" /></a>
+            <a href="https://framalab.org/gknd-creator/">
+              <img :src="$root['/'] + 'img/GeGeGenerator.jpg'" :alt="$t('pages.vrac.une.desc')" />
+            </a>
           </figure>
-          <p class="legende">{{ $t('pages.vrac.une.desc') }}</p>
+          <p class="legende" v-html="$t('pages.vrac.une.desc')"></p>
         </div>
       </div>
 
       <div class="row">
-        <div
-          v-for="(frama, index) in $t('cat.vrac.sites')"
-          :id="'f-' + index"
-          :key="index"
-          class="col-md-4 miniBloc"
-        >
-          <a :href="$t(`data.cat.vrac.sites.${index}.link`)">
-            <h4 class="jaune" v-html="$t(`data.cat.vrac.sites.${index}.name`)"></h4>
+        <div v-for="frama in $root.cat.vrac.sites" class="col-md-4 miniBloc">
+          <a :href="$root.link[frama]">
+            <h4 class="jaune" v-html="$root.color[frama]"></h4>
           </a>
-          <p class="miniBlocSubTitle" :class="frama.icon" v-html="frama.title"></p>
-          <p class="miniBlocTexte" v-html="frama.desc"></p>
+          <p
+            :class="`miniBlocSubTitle ${$root.icon[frama]}`"
+            v-html="$t('cat.vrac.sites.' + frama + '.title')"
+          ></p>
+          <p class="miniBlocTexte" v-html="$t('cat.vrac.sites.' + frama + '.desc')"></p>
         </div>
       </div>
 
@@ -364,7 +376,6 @@ export default {
   },
   data() {
     return {
-      data: this.$i18n.messages.data,
       service2image: {
         bee: 'stallmanoramix',
         bag: 'village',
