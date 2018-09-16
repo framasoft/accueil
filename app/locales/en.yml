@@ -616,7 +616,7 @@ cgu:
       list:
       - 'Use of the service is at your own risk. The service is provided as is.'
       - 'You must not modify another site in order to falsely signify
-          that it is associated with this service @:data.txt.soft.'
+          that it is associated with this service @:data.txt.soft</>.'
       - 'Accounts can only be created and used by humans.
           Accounts created by robots or other automated methods
           may be deleted without notice.'
@@ -792,7 +792,7 @@ legals:
     text:
     - 'This site contains information made available by
         external communities or companies or hypertext links to other sites that
-        were not developed by @:data.txt.soft. Content made available
+        were not developed by @:data.txt.soft</>. Content made available
         on the site is provided for information purposes only. The existence of a link of this
         site to another site does not constitute a validation of that site, or
         of its content. It is up to the Internet user to use these
@@ -809,7 +809,7 @@ legals:
         chance) resulting from the use of the site.'
     - 'Interactive spaces (possibility to ask questions in
         the contact area) are available to users on the site
-        @:data.txt.soft. @:data.txt.soft reserves the right to
+        @:data.txt.soft</>. @:data.txt.soft reserves the right to
         delete, without prior formal notice, any content deposited in this
         space which would contravene the applicable legislation in France, in
         in particular data protection provisions.
