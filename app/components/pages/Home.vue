@@ -106,7 +106,7 @@
         </div>
       </div>
 
-      <div class="row partenaires" id="contentCommunaute">
+      <div class="row" id="contentCommunaute">
         <div class="col-md-4 blocCommunaute" >
           <img :src="$root['/'] + 'img/framateam1.jpg'" class="img-responsive" alt="" />
         </div>
