@@ -3,6 +3,7 @@
     <vue-headful
       :title="$t('meta.title')"
       :html="{ body: {id: $route.meta.id } }"
+      :lang="$route.meta.lang"
       :description="$t('meta.desc')"
       :keywords="$t('meta.keywords')"
       :head="{

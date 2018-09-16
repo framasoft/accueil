@@ -1,21 +1,21 @@
 <template>
-  <div :class="`col-md-${serviceWidth(index)} miniBloc ${clearBoth(index)}`">
-    <a :href="$t(`data.cat.cloud.sites.${index}.link`)">
-      <h4 class="vert" v-html="$t(`data.cat.cloud.sites.${index}.name`)"></h4>
+  <div :class="`col-md-${serviceWidth(frama)} miniBloc ${clearBoth(frama)}`">
+    <a :href="$root.link[frama]">
+      <h4 class="vert" v-html="$root.color[frama]"></h4>
     </a>
     <p
-      :class="`miniBlocSubTitle ${$t('data.cat.cloud.sites.' + index + '.icon')}`"
-      v-html="$t(`cat.cloud.sites.${index}.title`)"></p>
+      :class="`miniBlocSubTitle ${$root.icon[frama]}`"
+      v-html="$t(`cat.cloud.sites.${frama}.title`)"></p>
     <p
       class="miniBlocTexte"
-      v-html="$t(`cat.cloud.sites.${index}.desc`)"></p>
+      v-html="$t(`cat.cloud.sites.${frama}.desc`)"></p>
   </div>
 </template>
 <script>
 export default {
   name: 'ServiceBlock',
   props: {
-    index: {
+    frama: {
       type: String,
       required: true,
     },
@@ -28,11 +28,6 @@ export default {
       return ['forms', 'mindmap', 'stallmanoramix', 'sphere', 'talk',
         'village', 'drop', 'drive', 'fight'].includes(serviceId) ? 'clearBoth' : '';
     },
-  },
-  data() {
-    return {
-      data: this.$i18n.messages.data,
-    }
   },
 };
 </script>

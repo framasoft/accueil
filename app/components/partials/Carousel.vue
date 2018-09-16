@@ -15,15 +15,15 @@
     <p class="text-center play-pause" v-if="interval === 5000">
       <button class="carousel-control" :title="$t('carousel.pause')"
         @click="interval=0">
-        <i class="glyphicon glyphicon-pause" aria-hidden="true"></i>
-        <span class="sr-only">{{ $t('carousel.pause') }}</span>
+        <i class="fa fa-fw fa-pause" aria-hidden="true"></i>
+        <span class="sr-only" v-html="$t('carousel.pause')"></span>
       </button>
     </p>
     <p class="text-center play-pause" v-else>
       <button class="carousel-control" :title="$t('carousel.play')"
         @click="interval=5000">
-        <i class="glyphicon glyphicon-play" aria-hidden="true"></i>
-        <span class="sr-only">{{ $t('carousel.play') }}</span>
+        <i class="fa fa-fw fa-play" aria-hidden="true"></i>
+        <span class="sr-only" v-html="$t('carousel.play')"></span>
       </button>
     </p>
   </div>

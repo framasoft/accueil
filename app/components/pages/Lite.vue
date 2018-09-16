@@ -14,58 +14,18 @@
       </div>
     </div>
 
-    <div class="row lite vert">
-      <h3 class="titreFramaTrucs vert">{{ $t('cat.cloud.title') }}</h3>
+    <div
+      v-for="category in ['cloud', 'logiciel', 'culture', 'vrac']"
+      :class="`row lite ${$root.cat[category].color}`">
+      <h3 class="titreFramaTrucs ${$root.cat[category].color}`" v-html="$t('cat.'+ category +'.title')"></h3>
       <ul class="list-inline">
         <li class="col-xs-4 col-sm-3 text-center"
-          v-for="(frama, index) in $t('cat.cloud.sites')">
-          <a :href="$t('data.cat.cloud.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
-            :title="frama.title" >
-            <i :class="`fa fa-3x fa-fw ${$t('data.cat.cloud.sites.' + index + '.icon')}`"></i>
-            <br/>
-            <span v-html="$t('data.cat.cloud.sites.' + index + '.name')"></span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="row lite bleu">
-      <h3 class="titreFramaTrucs bleu">{{ $t('cat.logiciel.title') }}</h3>
-      <ul class="list-inline">
-        <li class="col-xs-4 col-sm-3 text-center"
-          v-for="(frama, index) in $t('cat.logiciel.sites')">
-          <a :href="$t('data.cat.logiciel.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
-            :title="frama.title" >
-            <i :class="`fa fa-3x fa-fw ${$t('data.cat.logiciel.sites.' + index + '.icon')}`"></i>
-            <br/>
-            <span v-html="$t('data.cat.logiciel.sites.' + index + '.name')"></span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="row lite rouge">
-      <h3 class="titreFramaTrucs rouge">{{ $t('cat.culture.title') }}</h3>
-      <ul class="list-inline">
-        <li class="col-xs-4 col-sm-3 text-center"
-          v-for="(frama, index) in $t('cat.culture.sites')">
-          <a :href="$t('data.cat.culture.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
-            :title="frama.title" >
-            <i :class="`fa fa-3x fa-fw ${$t('data.cat.culture.sites.' + index + '.icon')}`"></i>
-            <br/>
-            <span v-html="$t('data.cat.culture.sites.' + index + '.name')"></span>
-          </a>
-        </li>
-      </ul>
-    </div>
-    <div class="row lite jaune">
-      <h3 class="titreFramaTrucs jaune">{{ $t('cat.vrac.title') }}</h3>
-      <ul class="list-inline">
-        <li class="col-xs-4 col-sm-3 text-center"
-          v-for="(frama, index) in $t('cat.vrac.sites')">
-          <a :href="$t('data.cat.vrac.sites.' + index + '.link')" class="btn btn-lg btn-block btn-default"
-            :title="frama.title" >
-            <i :class="`fa fa-3x fa-fw ${$t('data.cat.vrac.sites.' + index + '.icon')}`"></i>
-            <br/>
-            <span v-html="$t('data.cat.vrac.sites.' + index + '.name')"></span>
+          v-for="frama in $root.cat[category].sites">
+          <a :href="$root.link[frama]" class="btn btn-lg btn-block btn-default"
+            :title="$t('cat.'+ category +'.sites.' + frama + '.title')" >
+            <i :class="`fa fa-3x fa-fw ${$root.icon[frama]}`"></i>
+            <br>
+            <span v-html="$root.color[frama]"></span>
           </a>
         </li>
       </ul>
@@ -75,7 +35,7 @@
 
     <div class="row">
       <div class="col-xs-12 containerActu">
-        <h3 id="news">{{ $t('pages.news') }}</h3>
+        <h3 id="news" v-html="$t('pages.news')"></h3>
         <Carousel/>
       </div>
     </div>

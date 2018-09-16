@@ -2,19 +2,18 @@ lite: Accès rapide
 full: Accès classique
 home: Accueil
 meta:
-  title: Framasoft ~ Page portail du réseau
+  title: '@:data.txt.soft ~ Page portail du réseau'
   lead: La route est longue mais la voie est libre…
-  desc: 'Association française de loi 1901, issue du monde éducatif, Framasoft est un réseau
-    d’éducation populaire consacré principalement au logiciel libre.
-    Le réseau s’organise en trois axes sur un mode collaboratif:
-    promotion, diffusion et développement de logiciels libres, enrichissement de la culture libre.
-    Il offre également des services libres en ligne.
-    La page portail du réseau présente l’ensemble des activités de Framasoft et
-    propose des liens vers les différents sites et activités du réseau.'
-  keywords: Framasoft, logiciels libres, logiciels libres et open source, culture libre, FOSS, promotion et diffusion des logiciels libres, open source
-  license: Creative Commons-By-SA sauf mention contraire
-  salaries: huit
-# Navigation interne
+  desc: 'Association française de loi 1901, issue du monde éducatif, @:data.txt.soft
+    est un réseau d’éducation populaire consacré principalement au logiciel libre.
+    Le réseau s’organise en trois axes sur un mode collaboratif: promotion, diffusion
+    et développement de logiciels libres, enrichissement de la culture libre. Il offre
+    également des services libres en ligne. La page portail du réseau présente l’ensemble
+    des activités de @:data.txt.soft et propose des liens vers les différents sites
+    et activités du réseau.'
+  keywords: '@:data.txt.soft, logiciels libres, logiciels libres et open source, culture
+    libre, FOSS, promotion et diffusion des logiciels libres, open source'
+  license: '@:data.license.ccbysa4 sauf mention contraire'
 nav:
   lite: Accès rapide
   full: Accueil classique
@@ -34,18 +33,28 @@ nav:
     vrac:
       key: Rubrique libr’en vrac
       title: vers la rubrique libr’en vrac
-# Carousel
+txt:
+  dio: Dégooglisons Internet
+color:
+  dio: <b class="violet">Dégooglisons</b> <b class="orange">Internet</b>
+link:
+  partenaires: '@:data.link.soutenir/fr/partenaires'
+  wFreeSoftware: https://fr.wikipedia.org/wiki/Logiciel_libre
+  wSourceCode: https://fr.wikipedia.org/wiki/Code_source
+  wFreeLicense: https://fr.wikipedia.org/wiki/Licence_libre
+  wFreeCulture: https://fr.wikipedia.org/wiki/Culture_libre
+  wCommons: https://fr.wikipedia.org/wiki/Bien_commun
+  wOSM: https://fr.wikipedia.org/wiki/Openstreetmap
+  garden: '@:data.link.cloud/fr/cultiver-son-jardin'
 carousel:
   play: Lecture
   pause: Pause
   prev: Diapo précédente
   next: Diapo suivante
-# Recherche
 search:
   btn: Rechercher
-  frama: sur les sites de Framasoft
+  frama: sur les sites de @:data.txt.soft
   web: sur le web
-# Catégories
 cat:
   communaute:
     title: Libre communauté
@@ -53,7 +62,6 @@ cat:
   campagnes:
     sites:
       dio:
-        name: <b class="violet">Dégooglisons</b> <b class="orange">Internet</b>
         what: Campagne 2014-2017
       cuo:
         what: Campagne 2017-2020
@@ -64,31 +72,29 @@ cat:
       libre:
         what: Un annuaire
         title: Le gros annuaire
-        desc: 'Plus de 1600 logiciels classés, testés et commentés dans
-          le projet historique et fondateur de Framasoft.
-          On y trouve également des tutoriels et des articles de fond.'
+        desc: Plus de 1600 logiciels classés, testés et commentés dans le projet historique
+          et fondateur de @:data.txt.soft</>. On y trouve également des tutoriels
+          et des articles de fond.
       key:
         what: Une clé USB
         title: Le plein de liberté dans une simple clé
-        desc: 'Dans une clé USB (ou tout autre support mobile) utiliser
-          en mode nomade une centaine de logiciels libres portables
-          pour Windows, tester voire installer une distribution
-          GNU/Linux ou encore avoir accès hors ligne à toute la
-          Wikipédia francophone.'
+        desc: Dans une clé USB (ou tout autre support mobile) utiliser en mode nomade
+          une centaine de logiciels libres portables pour Windows, tester voire installer
+          une distribution GNU/Linux ou encore avoir accès hors ligne à toute la Wikipédia
+          francophone.
       dvd:
         what: Un DVD
         title: Le plein de liberté dans un DVD
-        desc: 'Un DVD rempli non seulement des meilleurs logiciels
-          libres pour Windows, Mac et GNU/Linux (avec une distribution dedans)
-          mais aussi de la culture libre (textes, photos, audios et vidéos).
-          Existe en une version spéciale école'
+        desc: Un DVD rempli non seulement des meilleurs logiciels libres pour Windows,
+          Mac et GNU/Linux (avec une distribution dedans) mais aussi de la culture
+          libre (textes, photos, audios et vidéos). Existe en une version spéciale
+          école
       pack:
         what: Un distributeur
         title: Distribution massive
-        desc: 'Pratique, sur Framapack on fait son marché des meilleurs
-          logiciels libres Windows dans leur dernière version.<br>
-          On les sélectionne et ils s’installent tous ensemble
-          d’un simple clic !'
+        desc: Pratique, sur @:data.txt.pack on fait son marché des meilleurs logiciels
+          libres Windows dans leur dernière version.<br> On les sélectionne et ils
+          s’installent tous ensemble d’un simple clic !
   culture:
     title: Libres cultures
     desc: Extension du domaine du Libre
@@ -96,49 +102,43 @@ cat:
       blog:
         what: Des infos
         title: L’actualité du « Libre »
-        desc: 'Chroniques quotidiennes autour du Libre en général et du
-          logiciel libre en particulier. De riches débats dans les
-          commentaires, de nombreuses traductions originales et
-          les annonces des nouveautés de l’ensemble du réseau Framasoft.'
+        desc: Chroniques quotidiennes autour du Libre en général et du logiciel libre
+          en particulier. De riches débats dans les commentaires, de nombreuses traductions
+          originales et les annonces des nouveautés de l’ensemble du réseau @:data.txt.soft</>.
       book:
         what: Des livres…
         title: Le pari du livre libre
-        desc: 'Notre maison d’édition qui comporte une vingtaine de
-          titres autour du logiciel libre, initiation à la
-          programmation, réflexion sur le droit d’auteur mais
-          aussi des BD et même un roman. Un livre libre offre au
-          lecteur les mêmes libertés qu’un logiciel libre.'
+        desc: Notre maison d’édition qui comporte une vingtaine de titres autour du
+          logiciel libre, initiation à la programmation, réflexion sur le droit d’auteur
+          mais aussi des BD et même un roman. Un livre libre offre au lecteur les
+          mêmes libertés qu’un logiciel libre.
       bookin:
         what: …et une bibliothèque
         title: Une bibliothèque numérique libre
-        desc: 'Notre bibliothèque contient quelques centaines d’ouvrages
-          libres ou du domaine public. Elle est consultable en ligne
-          sur les plateformes mobiles. Vous pouvez l’ajouter
-          directement une application de lecture d’ebook grâce au
-          flux <abbr>OPDS</abbr>.'
+        desc: Notre bibliothèque contient quelques centaines d’ouvrages libres ou
+          du domaine public. Elle est consultable en ligne sur les plateformes mobiles.
+          Vous pouvez l’ajouter directement une application de lecture d’ebook grâce
+          au flux <abbr>OPDS</abbr>.
       lang:
         what: Des traductions
         title: Traduction collaborative
-        desc: 'Traduire tous ensemble, principalement de l’anglais vers
-          le français, dans la convivialité en bénéficiant de la
-          force d’Internet et de la bonne volonté de ses habitants.
-          Il peut s’agir d’articles, de sous-titrage et même de
-          livres entiers !'
+        desc: Traduire tous ensemble, principalement de l’anglais vers le français,
+          dans la convivialité en bénéficiant de la force d’Internet et de la bonne
+          volonté de ses habitants. Il peut s’agir d’articles, de sous-titrage et
+          même de livres entiers !
       tube:
         what: Des vidéos
         title: Notre « YouTube » du Libre
-        desc: 'Vidéos en français (ou sous-titrées en français) autour
-          du logiciel libre en particulier et du Libre en général.
-          Interviews, conférences, documentaires, extraits télévisés…
-          pour s’informer mais aussi informer les autres.'
+        desc: Vidéos en français (ou sous-titrées en français) autour du logiciel
+          libre en particulier et du Libre en général. Interviews, conférences, documentaires,
+          extraits télévisés… pour s’informer mais aussi informer les autres.
       zic:
         what: De la musique
         title: Quand la musique est libre
-        desc: 'Une « musique libre » est une musique qui offre au
-          mélomane les mêmes libertés qu’un logiciel libre.
-          Un site dédié permettant de mieux la comprendre accompagné
-          d’une petite sélection permettant de constater que la
-          qualité est au rendez-vous.'
+        desc: Une « musique libre » est une musique qui offre au mélomane les mêmes
+          libertés qu’un logiciel libre. Un site dédié permettant de mieux la comprendre
+          accompagné d’une petite sélection permettant de constater que la qualité
+          est au rendez-vous.
   cloud:
     title: Libres services
     desc: Du cloud computing libre ? c’est possible !
@@ -146,258 +146,242 @@ cat:
       pad:
         what: Éditer
         title: Éditer collaborativement
-        desc: 'Écrivons tous ensemble sur le même document dans une
-          interface de rédaction collective en ligne.
-          Aucune inscription requise, on se donne un pseudo,
-          une couleur et on se lance !'
+        desc: Écrivons tous ensemble sur le même document dans une interface de rédaction
+          collective en ligne. Aucune inscription requise, on se donne un pseudo,
+          une couleur et on se lance !
       calc:
         what: Calculer
         title: Un tableur collaboratif
-        desc: 'Framacalc est au tableur ce que Framapad est au
-          traitement de texte, autrement dit la possibilité
-          d’éditer simplement et collectivement en ligne
-          sur un même document.'
+        desc: '@:data.txt.calc est au tableur ce que @:data.txt.pad est au traitement
+          de texte, autrement dit la possibilité d’éditer simplement et collectivement
+          en ligne sur un même document.'
       forms:
         what: Enquêter
         title: Création de questionnaires
-        desc: 'Framaforms vous permet de créer les questionaires dont
-          vous avez besoin, que ce soit dans un cadre scolaire,
-          familial ou associatif. Créez vos questions en fonction
-          de vos besoins, des formulaires à choix multiples aux
-          champs de texte libre.'
+        desc: '@:data.txt.forms vous permet de créer les questionaires dont vous avez
+          besoin, que ce soit dans un cadre scolaire, familial ou associatif. Créez
+          vos questions en fonction de vos besoins, des formulaires à choix multiples
+          aux champs de texte libre.'
       agenda:
         what: Organiser
         title: Agenda partagé
-        desc: 'Avec Framagenda vous pouvez créer des agendas personnels,
-          professionnels, le planning d´une salle ou des activités
-          de votre organisation, et les partager librement.
-          Vous restez maîtres de vos données, et vous choisissez
-          auprès de qui, où et quand elles s´affichent.'
+        desc: Avec @:data.txt.agenda vous pouvez créer des agendas personnels, professionnels,
+          le planning d´une salle ou des activités de votre organisation, et les partager
+          librement. Vous restez maîtres de vos données, et vous choisissez auprès
+          de qui, où et quand elles s´affichent.
       date:
         what: Organiser
         title: Organiser des rendez-vous et des sondages
-        desc: 'Framadate c’est un peu comme Doodle mais en libre.
-          Rien de plus simple de créer un rendez-vous ou un sondage
-          sans inscription pour y inviter vos collaborateurs.'
+        desc: '@:data.txt.date c’est un peu comme Doodle mais en libre. Rien de plus
+          simple de créer un rendez-vous ou un sondage sans inscription pour y inviter
+          vos collaborateurs.'
       board:
         what: Organiser
         title: Gérer des projets
-        desc: 'Framaboard est un gestionnaire collaboratif de tâches
-          et de projets, en suivant la méthode Kanban.
-          Son système visuel permet de s’y retrouver au premier
-          coup d’œil, quelle que soit votre habitude à utiliser
-          ce genre d’outil.'
+        desc: '@:data.txt.board est un gestionnaire collaboratif de tâches et de projets,
+          en suivant la méthode Kanban. Son système visuel permet de s’y retrouver
+          au premier coup d’œil, quelle que soit votre habitude à utiliser ce genre
+          d’outil.'
       mindmap:
         what: Structurer
         title: Créer des cartes mentales
-        desc: 'Interface fluide et intuitive pour créer rapidement et
-          simplement des cartes heuristiques à même votre navigateur.
-          Pertinent en situation de brainstorming ou de prise de notes.'
+        desc: Interface fluide et intuitive pour créer rapidement et simplement des
+          cartes heuristiques à même votre navigateur. Pertinent en situation de brainstorming
+          ou de prise de notes.
       vectoriel:
         what: Dessiner
         title: Dessiner en vectoriel
-        desc: 'Pour créer et éditer simplement et rapidement de belles
-          images en ligne au format ouvert SVG. Les enfants adorent !'
+        desc: Pour créer et éditer simplement et rapidement de belles images en ligne
+          au format ouvert SVG. Les enfants adorent !
       slides:
         what: Exposer
         title: Créer et partager des diaporamas
-        desc: 'Framaslides vous permet de créer directement en ligne un
-          diaporama ou une présentation, d’y accéder avec une
-          simple connexion internet, et de la partager.'
+        desc: '@:data.txt.slides vous permet de créer directement en ligne un diaporama
+          ou une présentation, d’y accéder avec une simple connexion internet, et
+          de la partager.'
       maestro:
         what: Collaborer
         title: Ochestrez vos projets collaboratifs
-        desc: 'Besoin en même temps d’un pad pour prendre des notes,
-          d’un tableau d’organisation, et d’une vidéo-conférence ?
-          Avec Framaestro, c’est vous qui organisez les outils
-          qu’il vous faut, sur une seule et unique page web.'
+        desc: Besoin en même temps d’un pad pour prendre des notes, d’un tableau d’organisation,
+          et d’une vidéo-conférence ? Avec @:data.txt.maestro, c’est vous qui organisez
+          les outils qu’il vous faut, sur une seule et unique page web.
       bee:
         what: Rechercher
         title: Le moteur qui butine les internets pour vous
-        desc: 'Framabee est un meta-moteur de recherche libre et anonyme.
-          Vos recherches effectuées au travers de ce moteur sont envoyées
-          à différents moteurs avant d’être affichées dans votre navigateur.
-          L’intérêt ? Notre moteur est alors un intermédiaire entre
-          vous et Google (et autres), ainsi vos données personnelles
-          (adresse IP, historique de vos recherches, géolocalisation, profil)
-          ne sont pas enregistrées chez eux.'
+        desc: '@:data.txt.bee est un meta-moteur de recherche libre et anonyme. Vos
+          recherches effectuées au travers de ce moteur sont envoyées à différents
+          moteurs avant d’être affichées dans votre navigateur. L’intérêt ? Notre
+          moteur est alors un intermédiaire entre vous et Google (et autres), ainsi
+          vos données personnelles (adresse IP, historique de vos recherches, géolocalisation,
+          profil) ne sont pas enregistrées chez eux.'
       sphere:
         what: Réseauter
         title: Le réseau social libre
-        desc: 'Framasphère est un réseau social libre, basé sur le
-          logiciel décentralisé Diaspora*.
-          Retrouvez vos amis sur Framasphère - ou d’autres pods Diaspora* -
-          et échangez avec eux sans être pisté.'
+        desc: '@:data.txt.sphere est un réseau social libre, basé sur le logiciel
+          décentralisé Diaspora*. Retrouvez vos amis sur @:data.txt.sphere - ou d’autres
+          pods Diaspora* - et échangez avec eux sans être pisté.'
       piaf:
         what: Réseauter
         title: Réseau social en 500 caractères
-        desc: 'Framapiaf est un service libre de <b>microblogging</b>,
-          basé sur le logiciel décentralisé Mastodon.
-          Retrouvez vos amis sur Framapiaf - ou d’autres instances
-          Mastodon, GNU Social, Friendica - et échangez avec eux sans être pisté.'
+        desc: '@:data.txt.piaf est un service libre de <b>microblogging</b>, basé
+          sur le logiciel décentralisé Mastodon. Retrouvez vos amis sur @:data.txt.piaf
+          - ou d’autres instances Mastodon, GNU Social, Friendica - et échangez avec
+          eux sans être pisté.'
       team:
         what: Discuter
         title: Communication collaborative
-        desc: 'Framateam est un service de <b>tchat</b> libre
-          qui permet de communiquer avec son équipe en notifiant ses collègues,
-          de conserver ses conversations et d’y faire des recherches.'
+        desc: '@:data.txt.team est un service de <b>tchat</b> libre qui permet de
+          communiquer avec son équipe en notifiant ses collègues, de conserver ses
+          conversations et d’y faire des recherches.'
       listes:
         what: Discuter
         title: Liste de diffusion
-        desc: 'Framalistes vous permet de créer des liste de diffusion
-          emails : toute personne s´abonnant à votre liste pourra
-          recevoir les emails qui y sont envoyés, et y participer
-          à son tour. À vous de choisir si cette liste est
-          publique, semi-privée ou privée.'
+        desc: '@:data.txt.listes vous permet de créer des liste de diffusion emails :
+          toute personne s´abonnant à votre liste pourra recevoir les emails qui y
+          sont envoyés, et y participer à son tour. À vous de choisir si cette liste
+          est publique, semi-privée ou privée.'
       talk:
         what: Discuter
         title: Visioconférence
-        desc: 'Framatalk vous permet de discuter avec vos amis sans
-          installation complexe de logiciel ni inscription.
-          Tout se passe entre vous et vos amis, directement depuis
-          votre navigateur web.'
+        desc: '@:data.txt.talk vous permet de discuter avec vos amis sans installation
+          complexe de logiciel ni inscription. Tout se passe entre vous et vos amis,
+          directement depuis votre navigateur web.'
       vox:
         what: Décider
         title: Prise de décision
-        desc: 'Framavox vous aide à prendre des décisions communautaires.
-          Discutez, échangez, mettez-vous d’accord et passez à l’action,
-          le tout dans les délais que vous vous êtes fixés au départ.'
+        desc: '@:data.txt.vox vous aide à prendre des décisions communautaires. Discutez,
+          échangez, mettez-vous d’accord et passez à l’action, le tout dans les délais
+          que vous vous êtes fixés au départ.'
       memo:
         what: Cogiter
         title: Organisation d’idées
-        desc: 'Framemo vous permet de créer un tableau à colonnes où
-          quiconque peut venir y déposer des notes colorées.
-          Tel Framapad, aucune inscription n´est requise,
-          les modifications se voient et sont enregistrées en direct.'
+        desc: '@:data.txt.memo vous permet de créer un tableau à colonnes où quiconque
+          peut venir y déposer des notes colorées. Tel @:data.txt.pad, aucune inscription
+          n´est requise, les modifications se voient et sont enregistrées en direct.'
       notes:
         what: Noter
         title: Prise de notes
-        desc: 'Avec Framanotes vous pouvez prendre et conserver des notes, images, liens…
-          et même des fichiers ; et les synchroniser avec tous vos
-          appareils (voire les partager avec des ami⋅e⋅s).'
+        desc: Avec @:data.txt.notes vous pouvez prendre et conserver des notes, images,
+          liens… et même des fichiers ; et les synchroniser avec tous vos appareils
+          (voire les partager avec des ami⋅e⋅s).
       bag:
         what: Suivre l’actualité
         title: Ne ratez plus aucun article !
-        desc: 'Framabag vous permet de mettre de côté les articles
-          que vous n’avez pas le temps de lire tout de suite.'
+        desc: '@:data.txt.bag vous permet de mettre de côté les articles que vous
+          n’avez pas le temps de lire tout de suite.'
       news:
         what: Suivre l’actualité
         title: Suivre l’actualité
-        desc: 'En vous abonnant aux flux RSS de vos sites préférés,
-          restez informés de toutes leurs actualités avec Framanews !'
+        desc: En vous abonnant aux flux RSS de vos sites préférés, restez informés
+          de toutes leurs actualités avec @:data.txt.news !
       carte:
         what: Cartographier
         title: Créer des cartes personnalisées
-        desc: 'Framacarte vous permet de dessiner, marquer, colorier, annoter…
-          les fonds de carte d’<a href="@:link.w.OSM">OpenStreetMap</a>
-          pour les afficher ensuite dans votre site web ou les imprimer.'
+        desc: '@:data.txt.carte vous permet de dessiner, marquer, colorier, annoter…
+          les fonds de carte d’<a href="@:link.wOSM">OpenStreetMap</a> pour les afficher
+          ensuite dans votre site web ou les imprimer.'
       games:
         what: Jouer
         title: Jouer en ligne ou déconnecté
-        desc: 'Framagames est une compilation de jeux libres qui se
-          jouent en ligne, se téléchargent sur son PC, sa tablette…
-          et ne nécessitent aucune installation supplémentaire.'
+        desc: '@:data.txt.games est une compilation de jeux libres qui se jouent en
+          ligne, se téléchargent sur son PC, sa tablette… et ne nécessitent aucune
+          installation supplémentaire.'
       minetest:
         what: Jouer
         title: Le jeu éducatif à creuser
-        desc: 'Framinetestest un serveur du jeu Minetest, un jeu « bac à sable »
-          dont vous construisez et décomposez les blocs pour le modifier et
-          avec lequel vous pouvez réaliser vos propres applications pédagogiques.'
+        desc: '@:data.txt.minetest un serveur du jeu Minetest, un jeu « bac à sable »
+          dont vous construisez et décomposez les blocs pour le modifier et avec lequel
+          vous pouvez réaliser vos propres applications pédagogiques.'
       drop:
         what: Partager
         title: Partager des fichiers anonymement
-        desc: 'Avec Framadrop, fini les pièces jointes trop lourdes qui
-          empêchent l’envoi d’un <span lang="en">email</span>.
-          Ce service libre vous permet de partager facilement des
-          fichiers de manière sécurisé.'
+        desc: Avec @:data.txt.drop, fini les pièces jointes trop lourdes qui empêchent
+          l’envoi d’un <span lang="en">email</span>. Ce service libre vous permet
+          de partager facilement des fichiers de manière sécurisé.
       bin:
         what: Partager
         title: Transmettre des données chiffrées
-        desc: 'Avec Framabin, vous pouvez partager des informations que
-          seuls vous et votre correspondant aurez le pouvoir de
-          déchiffrer, et ceci de manière très simple.'
+        desc: Avec @:data.txt.bin, vous pouvez partager des informations que seuls
+          vous et votre correspondant aurez le pouvoir de déchiffrer, et ceci de manière
+          très simple.
       pic:
         what: Partager
         title: Partager des images anonymement
-        desc: 'Framapic vous permet de partager facilement des images,
-          par exemple pour les publier sur Twitter, Facebook,
-          ou … Framasphère !'
+        desc: '@:data.txt.pic vous permet de partager facilement des images, par exemple
+          pour les publier sur Twitter, Facebook, ou … @:data.txt.sphere !'
       link:
         what: Partager
         title: Réduire des liens
-        desc: 'Avec Frama.link, il est possible de raccourcir des
-          adresses web trop longues. Sur les réseaux sociaux et
-          le microblogging, un lien raccourci permet d’économiser
-          de l’espace et gagner en clarté.'
+        desc: Avec @:data.txt.link, il est possible de raccourcir des adresses web
+          trop longues. Sur les réseaux sociaux et le microblogging, un lien raccourci
+          permet d’économiser de l’espace et gagner en clarté.
       drive:
         what: Stocker
         title: Héberger ses documents en ligne
-        desc: 'Framadrive vous permet de stocker vos documents en ligne,
-          de les synchroniser sur vos ordinateurs, mobiles, etc…
-          et de les partager avec qui vous voulez.'
+        desc: '@:data.txt.drive vous permet de stocker vos documents en ligne, de
+          les synchroniser sur vos ordinateurs, mobiles, etc… et de les partager avec
+          qui vous voulez.'
       my:
         what: Stocker
         title: Marque-pages
-        desc: 'MyFrama est un petit fourre-tout numérique, qui vous
-          permet de conserver et retrouver les liens que vous aimez
-          à la manière de del.ico.us ! Avec un système d´étiquettes
-          et de tri automatique, vous pouvez ranger aisément vos
-          onglets et marque-pages, et utiliser le bouton MyFrama
-          pour retrouver les services Framasoft que vous utilisez !'
+        desc: '@:data.txt.my est un petit fourre-tout numérique, qui vous permet de
+          conserver et retrouver les liens que vous aimez à la manière de del.ico.us !
+          Avec un système d´étiquettes et de tri automatique, vous pouvez ranger aisément
+          vos onglets et marque-pages, et utiliser le bouton @:data.txt.my pour retrouver
+          les services @:data.txt.soft que vous utilisez !'
       git:
         what: Coder
         title: Héberger du code libre
-        desc: 'Framagit est un outil qui s’adresse avant tout aux développeurs.
-          Il permet d’héberger vos projets de logiciels libres et
-          de travailler collaborativement dessus.'
+        desc: '@:data.txt.git est un outil qui s’adresse avant tout aux développeurs.
+          Il permet d’héberger vos projets de logiciels libres et de travailler collaborativement
+          dessus.'
       site:
         what: Publier
         title: Hébergement de sites
-        desc: 'Framasite vous permet de créer un site web facilement et
-          de l’héberger sur nos serveurs. Aucune publicité ni
-          traquage ne portera atteinte aux données de vos visiteurs
-          et visiteuses.'
+        desc: '@:data.txt.site vous permet de créer un site web facilement et de l’héberger
+          sur nos serveurs. Aucune publicité ni traquage ne portera atteinte aux données
+          de vos visiteurs et visiteuses.'
       wiki:
         what: Publier
         title: Hébergement de wikis
-        desc: 'Framawiki vous permet de créer un wiki facilement et
-          de l’héberger sur nos serveurs. Aucune publicité ni
-          traquage ne portera atteinte aux données de vos visiteurs
-          et visiteuses.'
+        desc: '@:data.txt.wiki vous permet de créer un wiki facilement et de l’héberger
+          sur nos serveurs. Aucune publicité ni traquage ne portera atteinte aux données
+          de vos visiteurs et visiteuses.'
   vrac:
     title: Libr’en vrac
     desc: Inclassables mais non mal classés !
     sites:
       colibri:
         what: Un forum
-        title: Le forum du réseau Framasoft
-        desc: 'Vous avez une question ? Nous avons (peut-être) une réponse !
-          « Si tu ne sais pas, demande. Si tu sais, partage. »
-          Framacolibri est notre convivial espace d’échange
-          d’informations autour du Libre.'
+        title: Le forum du réseau @:data.txt.soft
+        desc: Vous avez une question ? Nous avons (peut-être) une réponse ! « Si tu
+          ne sais pas, demande. Si tu sais, partage. » @:data.txt.colibri est notre
+          convivial espace d’échange d’informations autour du Libre.
       evl:
         what: Une boutique
         title: Notre libre petite boutique
-        desc: 'L’espace vente des différents produits Framasoft qui
-          peuvent se matérialiser : Framakey, Framabook, Framadvd
-          mais aussi des goodies et des tee-shirts.'
+        desc: 'L’espace vente des différents produits @:data.txt.soft qui peuvent
+          se matérialiser : @:data.txt.key, @:data.txt.book, @:data.txt.dvd mais aussi
+          des goodies et des tee-shirts.'
       docs:
         what: Documentations
         title: Notre centre de documentation
-        desc: 'Pour tout savoir sur l’utilisation des services en
-          ligne que nous proposons et apprendre à travers nos
-          différents guides comment gagner en autonomie.'
-# Page 1 Présentation
+        desc: Pour tout savoir sur l’utilisation des services en ligne que nous proposons
+          et apprendre à travers nos différents guides comment gagner en autonomie.
 pages:
   accroche:
-  - Un réseau dédié à la promotion du « <i>libre</i> » en général et du <i>logiciel libre</i> en particulier.
-  - De nombreux services et projets innovants mis librement à disposition du grand public.
-  - Une <a href="#topPgcommunaute">communauté</a> de bénévoles soutenue par une association d’intérêt général.
+  - Un réseau dédié à la promotion du « <i>libre</i> » en général et du <i>logiciel
+    libre</i> en particulier.
+  - De nombreux services et projets innovants mis librement à disposition du grand
+    public.
+  - Une <a href="#topPgCommunaute">communauté</a> de bénévoles soutenue par une association
+    d’intérêt général.
   - Une invitation à bâtir ensemble un monde de partage et de coopération.
-  news: Quoi de neuf sur Framasoft ?
+  news: Quoi de neuf sur @:data.txt.soft ?
   medias:
     title: Revue de presse
-    intro: On parle de Framasoft et de la campagne « Dégooglisons Internet ». Voici quelques extraits de notre <a href="https://wiki.framasoft.org/speakabout">revue de presse</a>.
+    intro: On parle de @:data.txt.soft et de la campagne « @:txt.dio ». Voici quelques
+      extraits de notre <a href="@:data.link.press">revue de presse</a>.
     th1: Date
     th2: Média
     th3: Liens
@@ -406,387 +390,365 @@ pages:
     lSummary: Lien vers le sommaire du numéro
     lPodcast: Lien vers le podcast
     lListen: Lien vers la page d’écoute
-# Page 2 Libre communauté
   communaute:
     title: Une communauté
     desc: Un joyeux bazar
-    text: 'Qui se cache derrière Framasoft ? Tous ceux qui ont participé ou participent
+    text: Qui se cache derrière @:data.txt.soft ? Tous ceux qui ont participé ou participent
       de près ou de loin à nos différents projets. Il suffit de vouloir promouvoir
       le Libre et de placer sa participation sous licence libre, garantissant qu’elle
-      sera mise dans le pot des biens communs sans risque d’appropriation.'
+      sera mise dans le pot des biens communs sans risque d’appropriation.
   asso:
     title: Une association
     desc: Un peu de cathédrale
-    text: 'Framasoft repose sur une association 1901 d’intérêt général.
-      À charge pour elle de mettre de l’huile dans les rouages et de s’assurer que
-      la communauté puisse s’activer dans les meilleures conditions.
-      Elle compte @:meta.salaries permanents et est financée principalement par les dons
-      individuels collectés sur Internet. Vous pouvez en être vous aussi,
-      mais attention ça tient plus du sacerdoce que de la sinécure !'
+    text: '@:data.txt.soft repose sur une association 1901 d’intérêt général. À charge
+      pour elle de mettre de l’huile dans les rouages et de s’assurer que la communauté
+      puisse s’activer dans les meilleures conditions. Elle compte @:data.meta.employees
+      permanents et est financée principalement par les dons individuels collectés
+      sur Internet. Vous pouvez en être vous aussi, mais attention ça tient plus du
+      sacerdoce que de la sinécure !'
   participer:
     title: Participer ?
-    desc: Il y a mille et une façons de participer avec nous à diffuser le Libre au sein de nos nombreux projets.
-    text: 'Tester, rédiger, modérer, administrer, traduire, relire, relayer, coder,
-      communiquer, promouvoir, sensibiliser…
-      N’hésitez pas à <a href="@:link.participate">mettre la main à la pâte</a>
-      avec nous ! Et merci d’avance…'
+    desc: Il y a mille et une façons de participer avec nous à diffuser le Libre au
+      sein de nos nombreux projets.
+    text: Tester, rédiger, modérer, administrer, traduire, relire, relayer, coder,
+      communiquer, promouvoir, sensibiliser… N’hésitez pas à <a href="@:data.link.participer">mettre
+      la main à la pâte</a> avec nous ! Et merci d’avance…
   soutenir:
     title: Nous soutenir ?
     desc: Parce que libre ne signifie pas gratuit
-    text: 'Framasoft ne serait rien sans sa communauté de bénévoles mais ne pourrait pas fonctionner
-      non plus sans le service de l’association qui a des frais et emploie @:meta.salaries
-      indispensables permanents. Notre financement dépend de vous, c’est-à-dire des dons individuels
-      collectés sur Internet. <a href="@:link.soutenir">Si vous pensez que nous le méritons…</a>'
+    text: '@:data.txt.soft ne serait rien sans sa communauté de bénévoles mais ne
+      pourrait pas fonctionner non plus sans le service de l’association qui a des
+      frais et emploie @:data.meta.employees indispensables permanents. Notre financement
+      dépend de vous, c’est-à-dire des dons individuels collectés sur Internet. <a
+      href="@:data.link.soutenir">Si vous pensez que nous le méritons…</a>'
   partenaires:
     title: Nos partenaires
-    desc: 'Framasoft est avant tout une communauté d’utilisateurs. Cependant, son fonctionnement est
-      clairement celui d’un réseau, non seulement de projets, mais aussi de partenaires.<br>
-      Ainsi, Framasoft bénéficie du soutien de nombreuses organisations (publiques, commerciales,
-      associatives) qui permettent aux projets de croître et de se développer.
-      <a href="@:link.partenaires">Liste de tous nos partenaires</a>'
-# Page 3 Libres logiciels
+    desc: '@:data.txt.soft est avant tout une communauté d’utilisateurs. Cependant,
+      son fonctionnement est clairement celui d’un réseau, non seulement de projets,
+      mais aussi de partenaires.<br> Ainsi, @:data.txt.soft bénéficie du soutien de
+      nombreuses organisations (publiques, commerciales, associatives) qui permettent
+      aux projets de croître et de se développer. <a href="@:link.partenaires">Liste
+      de tous nos partenaires</a>'
   logiciel:
     title: Logiciel Libre ?
-    desc: 'Un <a href="@:link.wFreeSoftware">logiciel libre</a>
-      est un logiciel qui offre et garantit les quatre libertés suivantes : utilisation, étude,
-      modification et duplication en vue de sa diffusion (gratuite ou pas).'
-    text1: 'Ceci est permis techniquement grâce à l’accès au
-      <a href="@:link.wSourceCode">code</a>
-      et légalement grâce à la <a href="@:link.wFreeLicense">licence libre</a>
-      qui l’accompagne. Ces <i>quatre libertés</i> favorisent la transparence,
-      la confiance, l’échange, le partage et la collaboration au sein de communautés.'
-    text2: 'Framasoft vous propose un annuaire, des clés USB et DVD et un installateur Windows
-      pour les découvrir et les utiliser régulièrement.'
-# Page 4 Libres cultures
+    desc: 'Un <a href="@:link.wFreeSoftware">logiciel libre</a> est un logiciel qui
+      offre et garantit les quatre libertés suivantes : utilisation, étude, modification
+      et duplication en vue de sa diffusion (gratuite ou pas).'
+    text1: Ceci est permis techniquement grâce à l’accès au <a href="@:link.wSourceCode">code</a>
+      et légalement grâce à la <a href="@:link.wFreeLicense">licence libre</a> qui
+      l’accompagne. Ces <i>quatre libertés</i> favorisent la transparence, la confiance,
+      l’échange, le partage et la collaboration au sein de communautés.
+    text2: '@:data.txt.soft vous propose un annuaire, des clés USB et DVD et un installateur
+      Windows pour les découvrir et les utiliser régulièrement.'
   culture:
     title: Culture Libre ?
-    desc: 'Facilitée par Internet et la numérisation, la
-      « <a href="@:link.wFreeCulture">culture libre</a> »
-      est une culture en mouvement qui s’inspire directement du logiciel libre
-      dans sa philosophie et ses licences pour promouvoir et diffuser des œuvres de l’esprit.'
-    text1: 'Elle explore des domaines aussi variés que les arts, l’éducation, les sciences, le matériel…
-      Ces œuvres peuvent alors être considérées comme des
-      <a href="@:link.wCommons">biens communs</a>.
-      L’exemple le plus emblématique est l’encyclopédie libre Wikipédia.'
-    text2: 'Dans ce cadre, Framasoft vous propose un blog, une maison d’édition,
-      une plateforme vidéo, un site dédié à la musique libre ainsi qu’un
-      service original de traduction collaborative.'
-    quote: '« Parce que ce serait l’une des plus grandes opportunités manquées de notre époque
-      si le logiciel libre ne libérait rien d’autre que du code. »'
-# Page 5 Libres services
+    desc: Facilitée par Internet et la numérisation, la « <a href="@:link.wFreeCulture">culture
+      libre</a> » est une culture en mouvement qui s’inspire directement du logiciel
+      libre dans sa philosophie et ses licences pour promouvoir et diffuser des œuvres
+      de l’esprit.
+    text1: Elle explore des domaines aussi variés que les arts, l’éducation, les sciences,
+      le matériel… Ces œuvres peuvent alors être considérées comme des <a href="@:link.wCommons">biens
+      communs</a>. L’exemple le plus emblématique est l’encyclopédie libre Wikipédia.
+    text2: Dans ce cadre, @:data.txt.soft vous propose un blog, une maison d’édition,
+      une plateforme vidéo, un site dédié à la musique libre ainsi qu’un service original
+      de traduction collaborative.
+    quote: « Parce que ce serait l’une des plus grandes opportunités manquées de notre
+      époque si le logiciel libre ne libérait rien d’autre que du code. »
   cloud:
     title: Services Libres ?
-    desc: 'Nom de code : « Framacloud »'
-    text1: 'Intuitif, sans inscription et à même votre navigateur, un ensemble
-      de services en ligne libres et respectueux de vos données personnelles.
-      Ces services vous sont proposés dans le cadre de notre campagne
-      <a href="@:link.dio">« <b class="violet">Dégooglisons</b> <b class="orange">Internet</b> »</a>'
-    text2: 'Vous pouvez aussi les installer sur votre propre serveur, participant ainsi à décentraliser l’Internet.
-      Des tutoriels sont là pour vous aider à franchir le pas dans la rubrique
-      <a href="@:link.cloud">Cultiver son jardin</a>.'
-# Page 6 Libr’en Vrac
+    desc: 'Nom de code : « @:data.txt.cloud »'
+    text1: Intuitif, sans inscription et à même votre navigateur, un ensemble de services
+      en ligne libres et respectueux de vos données personnelles. Ces services vous
+      sont proposés dans le cadre de notre campagne <a href="@:data.link.dio">« @:color.dio »</a>
+    text2: Vous pouvez aussi les installer sur votre propre serveur, participant ainsi
+      à décentraliser l’Internet. Des tutoriels sont là pour vous aider à franchir
+      le pas dans la rubrique <a href="@:link.garden">Cultiver son jardin</a>.
   vrac:
     title: Les projets transversaux
     desc: Espaces d’échanges, d’achats, de développements…
-    text: 'Nous regroupons ici tout ce qui touche à l’ensemble du réseau ainsi que
-      notre laboratoire d’idées et de projets en construction.'
+    text: Nous regroupons ici tout ce qui touche à l’ensemble du réseau ainsi que
+      notre laboratoire d’idées et de projets en construction.
     une:
       title: Lumière sur…
       desc: GéGé, Geektionnerd generator
       text: Le geektionnerd à faire soi-même.
-# Link can target to translated pages
-link:
-  participate: https://participer.framasoft.org/fr/
-  soutenir: https://soutenir.framasoft.org
-  partenaires: https://soutenir.framasoft.org/partenaires
-  wFreeSoftware: https://fr.wikipedia.org/wiki/Logiciel_libre
-  wSourceCode: https://fr.wikipedia.org/wiki/Code_source
-  wFreeLicense: https://fr.wikipedia.org/wiki/Licence_libre
-  wFreeCulture: https://fr.wikipedia.org/wiki/Culture_libre
-  wCommons: https://fr.wikipedia.org/wiki/Bien_commun
-  wOSM: https://fr.wikipedia.org/wiki/Openstreetmap
-  dio: https://degooglisons-internet.org/fr/
-  cuo: https://contributopia.org/fr/
-  cloud: https://framacoud.org/fr/cultiver-son-jardin/
-  charte: https://framasoft.org/fr/charte
-  contact: https://contact.framasoft.org
-  cgu: https://framasoft.org/fr/cgu
-  legals: https://framasoft.org/fr/legals
-  graphics: https://framasoft.org/fr/graphics
-# Charte -----------------------------------------------------------------------
 charte:
   title: Charte
-  intro: '@:data.meta.framaname est un réseau d’éducation populaire,
-    issu du monde éducatif, consacré principalement au logiciel libre.
-    Il s’organise en trois axes sur un mode collaboratif : promotion, diffusion
-    et développement de logiciels libres, enrichissement de la culture libre
-    et offre de services libres en ligne.'
+  intro: '@:data.color.soft est un réseau d’éducation populaire, issu du monde éducatif,
+    consacré principalement au logiciel libre. Il s’organise en trois axes sur un
+    mode collaboratif : promotion, diffusion et développement de logiciels libres,
+    enrichissement de la culture libre et offre de services libres en ligne.'
   libre:
     title: Pour un Internet libre
     text:
-    - 'L’utilisation des logiciels libres et des standards ouverts sur Internet est
-        l’objectif prioritaire du projet <a href="@:link.dio">@:cat.campagnes.sites.dio.name</a>.'
-    - 'L’accès au code source est au fondement des principes du Libre.
-        Pour chaque application rendue disponible dans ses projets,
-        @:data.txt.soft s’engage à ce qu’elle soit placée exclusivement sous
-        <a href="https://www.gnu.org/philosophy/free-sw.fr.html">licence libre</a>.'
-    - 'En cas d’amélioration du code, @:data.txt.soft s’engage à placer sa contribution
-        sous licence libre (compatible avec la licence initiale) et encouragera
-        toute contribution volontaire de la part des utilisateurs en les invitant
-        à contacter les auteurs.'
-    - '@:data.txt.soft s’engage à rendre accessible le code source soit en publiant un
-        lien vers le site officiel de l’application, soit, si ce dernier n’est plus
-        disponible, en publiant le code utilisé sur un dépôt.'
-    - 'Ce faisant, @:data.txt.soft démontre sa probité en permettant à chaque utilisateur
-        de vérifier le code source, éventuellement de l’améliorer, et surtout de
-        s’assurer qu’aucun usage déloyal ne sera fait de ses données, de son identité
-        et de ses droits.'
-    - 'C’est en connaissance de cause que les utilisateurs pourront user des applications
-        disponibles et prendre connaissance des toutes les fonctionnalités,
-        de leur avantages, de leurs limites et de leurs emplois.'
-    - 'Aucune donnée produite à l’aide des applications n’appartient à @:data.txt.soft,
-        qui n’y appose aucun droit et n’y pratique aucune censure.
-        En revanche tout contenu contrefaisant ou illégal au regard de la loi française,
-        une fois dûment signalé, sera supprimé immédiatement.'
+    - L’utilisation des logiciels libres et des standards ouverts sur Internet est
+      l’objectif prioritaire du projet <a href="@:data.link.dio">@:color.dio</a>.
+    - L’accès au code source est au fondement des principes du Libre. Pour chaque
+      application rendue disponible dans ses projets, @:data.color.soft s’engage à
+      ce qu’elle soit placée exclusivement sous <a href="https://www.gnu.org/philosophy/free-sw.fr.html">licence
+      libre</a>.
+    - En cas d’amélioration du code, @:data.color.soft s’engage à placer sa contribution
+      sous licence libre (compatible avec la licence initiale) et encouragera toute
+      contribution volontaire de la part des utilisateurs en les invitant à contacter
+      les auteurs.
+    - '@:data.color.soft s’engage à rendre accessible le code source soit en publiant
+      un lien vers le site officiel de l’application, soit, si ce dernier n’est plus
+      disponible, en publiant le code utilisé sur un dépôt.'
+    - Ce faisant, @:data.color.soft démontre sa probité en permettant à chaque utilisateur
+      de vérifier le code source, éventuellement de l’améliorer, et surtout de s’assurer
+      qu’aucun usage déloyal ne sera fait de ses données, de son identité et de ses
+      droits.
+    - C’est en connaissance de cause que les utilisateurs pourront user des applications
+      disponibles et prendre connaissance des toutes les fonctionnalités, de leur
+      avantages, de leurs limites et de leurs emplois.
+    - Aucune donnée produite à l’aide des applications n’appartient à @:data.color.soft,
+      qui n’y appose aucun droit et n’y pratique aucune censure. En revanche tout
+      contenu contrefaisant ou illégal au regard de la loi française, une fois dûment
+      signalé, sera supprimé immédiatement.
   decentralized:
     title: Pour un Internet décentralisé
     text:
-    - 'En proposant des applications libres en ligne, @:data.txt.soft expose autant
-        d’alternatives aux applications proposées par des entreprises à des fins
-        de monopole et d’usage dévoyé des données personnelles.'
-    - 'Ces alternatives illustrent la diversité des solutions libres disponibles et
-        pouvant être mises à disposition à des fins personnelles ou collectives.
-        À ce titre @:data.txt.soft s’engage à favoriser leur essaimage en publiant des
-        tutoriaux explicatifs sur les méthodes employées pour installer
-        ces applications sur vos propres serveurs.'
-    - 'L’égalité de l’accès à ces applications est un engagement fort : en les
-        proposant gratuitement, @:data.txt.soft souhaite promouvoir leur usage envers
-        le plus grand nombre et illustrer par l’exemple qu’un Internet décentralisé
-        et égalitaire est possible.'
+    - En proposant des applications libres en ligne, @:data.color.soft expose autant
+      d’alternatives aux applications proposées par des entreprises à des fins de
+      monopole et d’usage dévoyé des données personnelles.
+    - Ces alternatives illustrent la diversité des solutions libres disponibles et
+      pouvant être mises à disposition à des fins personnelles ou collectives. À ce
+      titre @:data.color.soft s’engage à favoriser leur essaimage en publiant des
+      tutoriaux explicatifs sur les méthodes employées pour installer ces applications
+      sur vos propres serveurs.
+    - 'L’égalité de l’accès à ces applications est un engagement fort : en les proposant
+      gratuitement, @:data.color.soft souhaite promouvoir leur usage envers le plus
+      grand nombre et illustrer par l’exemple qu’un Internet décentralisé et égalitaire
+      est possible.'
   ethic:
     title: Pour un Internet éthique
     text:
-    - 'L’éthique du logiciel libre est faite de partage et d’indépendance.
-        @:data.txt.soft s’engage à ne pratiquer aucune censure a priori des contenus,
-        aucune surveillance des actions des utilisateurs, et à ne répondre à
-        aucune demande administrative ou d’autorité sans une requête légale
-        présentée en bonne et dûe forme.
-        En retour, les utilisateurs s’engagent, dans la production ou l’hébergement
-        de leurs contenus, à respecter les cadres prévus par la loi.'
-    - 'Aucune discrimination des utilisateurs n’est pratiquée, afin de favoriser
-        la plus grande accessibilité possible.'
-    - 'Aucune donnée personnelle ne sera exploitée à des fins commerciales,
-        transmise à des tiers ou utilisée à des fins non prévues par la présente charte.
-        En revanche, les utilisateurs doivent aussi intégrer le fait que leurs
-        données peuvent parfois être accessibles, en particulier lorsqu’ils rendent
-        leurs données publiques dans le cadre d’une application collaborative.
-        Dans ce cas, les utilisateurs restent responsables de leurs contenus.'
+    - L’éthique du logiciel libre est faite de partage et d’indépendance. @:data.color.soft
+      s’engage à ne pratiquer aucune censure a priori des contenus, aucune surveillance
+      des actions des utilisateurs, et à ne répondre à aucune demande administrative
+      ou d’autorité sans une requête légale présentée en bonne et dûe forme. En retour,
+      les utilisateurs s’engagent, dans la production ou l’hébergement de leurs contenus,
+      à respecter les cadres prévus par la loi.
+    - Aucune discrimination des utilisateurs n’est pratiquée, afin de favoriser la
+      plus grande accessibilité possible.
+    - Aucune donnée personnelle ne sera exploitée à des fins commerciales, transmise
+      à des tiers ou utilisée à des fins non prévues par la présente charte. En revanche,
+      les utilisateurs doivent aussi intégrer le fait que leurs données peuvent parfois
+      être accessibles, en particulier lorsqu’ils rendent leurs données publiques
+      dans le cadre d’une application collaborative. Dans ce cas, les utilisateurs
+      restent responsables de leurs contenus.
   solidary:
     title: Pour un Internet solidaire
     text:
-    - '@:data.txt.soft est une association sans but lucratif.
-        Ses bénévoles et salariés mettent leur temps de travail au service des
-        utilisateurs  pour assurer la pérennité des services.
-        Le modèle économique proposé est basé sur la mutualisation des énergies et des coûts.
-        Si les services sont gratuits, cela ne signifie pas qu’ils ne coûtent rien.
-        Si un grand nombre de personnes encouragent financièrement @:data.txt.soft
-        à maintenir ses services, un plus grand nombre encore sera en mesure de
-        les utiliser et ils pourront de même être améliorés.'
-    - 'Dans une démarche d’éducation populaire, @:data.txt.soft diffuse un maximum de
-        connaissances pour promouvoir les usages des logiciels libres et
-        apprendre à installer des services libres en ligne.
-        Ce partage des ressources, techniques et cognitives, fait d’Internet un
-        bien commun, disponible pour tous et n’appartenant à personne.'
+    - '@:data.color.soft est une association sans but lucratif. Ses bénévoles et salariés
+      mettent leur temps de travail au service des utilisateurs  pour assurer la pérennité
+      des services. Le modèle économique proposé est basé sur la mutualisation des
+      énergies et des coûts. Si les services sont gratuits, cela ne signifie pas qu’ils
+      ne coûtent rien. Si un grand nombre de personnes encouragent financièrement
+      @:data.color.soft à maintenir ses services, un plus grand nombre encore sera
+      en mesure de les utiliser et ils pourront de même être améliorés.'
+    - Dans une démarche d’éducation populaire, @:data.color.soft diffuse un maximum
+      de connaissances pour promouvoir les usages des logiciels libres et apprendre
+      à installer des services libres en ligne. Ce partage des ressources, techniques
+      et cognitives, fait d’Internet un bien commun, disponible pour tous et n’appartenant
+      à personne.
   footer:
-  - 'Charte des services Libres, Éthiques, Décentralisés et Solidaires,<br>
-      approuvée par l’association @:data.txt.soft le 6 octobre 2014.'
-# CGU --------------------------------------------------------------------------
+  - Charte des services Libres, Éthiques, Décentralisés et Solidaires,<br> approuvée
+    par l’association @:data.color.soft le 6 octobre 2014.
+  - 'Translation by Framalang contributors Théo, #!, goofy, Diane'
 cgu:
   title: Conditions Générales d’Utilisation
   intro:
     title: Préambule
     text: En utilisant ce service, vous acceptez d’être lié par les conditions suivantes.<br>
-      @:data.txt.soft se réserve le droit de mettre à jour et modifier ces conditions de temps à autre.
+      @:data.color.soft se réserve le droit de mettre à jour et modifier ces conditions
+      de temps à autre.
   short:
     title: Version courte (TL;DR comme on dit chez nous)
-    desc: 'Pour en faciliter la lecture, sans le blabla juridique, nous vous en proposons
-      ci-dessous une version compréhensible par un être humain normal.'
+    desc: Pour en faciliter la lecture, sans le blabla juridique, nous vous en proposons
+      ci-dessous une version compréhensible par un être humain normal.
     sympa:
       text: 'On est sympathiques :'
       list:
-      - 'Votre contenu vous appartient (mais nous vous encourageons à le publier sous licence libre) ;'
-      - '@:data.txt.soft n’exploitera pas vos données personnelles, sauf à fin de statistiques
-          internes (anonymisées) ou pour vous prévenir d’un changement important sur le service ;'
-      - '@:data.txt.soft ne transmettra ni ne revendra vos données personnelles
-          (votre vie privée nous tient - vraiment - à cœur) ;'
-      - 'Les engagements de @:data.txt.soft résultent d’une démarche militante inspirée
-          du mouvement de l’éducation populaire, vous pouvez les retrouver dans notre
-          <a href="@:link.charte">Charte des services Libres, Ethiques, Décentralisés et Solidaires</a>.'
+      - Votre contenu vous appartient (mais nous vous encourageons à le publier sous
+        licence libre) ;
+      - '@:data.color.soft n’exploitera pas vos données personnelles, sauf à fin de
+        statistiques internes (anonymisées) ou pour vous prévenir d’un changement
+        important sur le service ;'
+      - '@:data.color.soft ne transmettra ni ne revendra vos données personnelles
+        (votre vie privée nous tient - vraiment - à cœur) ;'
+      - Les engagements de @:data.color.soft résultent d’une démarche militante inspirée
+        du mouvement de l’éducation populaire, vous pouvez les retrouver dans notre
+        <a href="../charte">Charte des services Libres, Ethiques, Décentralisés et
+        Solidaires</a>.
     terms:
       text: '<b>Mais</b> il ne faut pas nous prendre pour autant pour des chatons :'
       list:
       - 'Clause <em>« La loi est la loi, et on ne veut pas finir en taule »</em> :
-          vous devez respecter la loi (que celle-ci soit bien faite ou idiote),
-          sinon votre compte sera supprimé ;'
+        vous devez respecter la loi (que celle-ci soit bien faite ou idiote), sinon
+        votre compte sera supprimé ;'
       - 'Clause <em>« Merci d’être poli et respectueux avec ses voisins de service »</em> :
-          vous devez respecter les autres utilisateurs en faisant preuve de civisme
-          et de politesse, sinon votre contenu, voire votre compte,
-          pourront être supprimés, sans négociation ;'
-      - 'Clause <em>« Si ça casse, on n’est pas obligé de réparer »</em> :
-          @:data.txt.soft propose ce service gratuitement et librement.
-          Si vous perdez des données, par votre faute ou par la nôtre, désolé, mais ça arrive.
-          Nous ferons ce que nous pouvons pour les récupérer, mais nous ne nous
-          assignons aucune obligation de résultat.
-          En clair, évitez de mettre des données sensibles ou importantes sur
-          les services @:data.txt.soft, car en cas de perte, nous ne garantissons pas leur récupération ;'
-      - 'Clause <em>« Si vous n’êtes pas contents, vous êtes invités à aller voir ailleurs »</em> :
-          si le service ne vous convient pas, libre à vous d’en trouver
-          un équivalent (ou meilleur) ailleurs, ou de monter le vôtre ;'
+        vous devez respecter les autres utilisateurs en faisant preuve de civisme
+        et de politesse, sinon votre contenu, voire votre compte, pourront être supprimés,
+        sans négociation ;'
+      - 'Clause <em>« Si ça casse, on n’est pas obligé de réparer »</em> : @:data.color.soft
+        propose ce service gratuitement et librement. Si vous perdez des données,
+        par votre faute ou par la nôtre, désolé, mais ça arrive. Nous ferons ce que
+        nous pouvons pour les récupérer, mais nous ne nous assignons aucune obligation
+        de résultat. En clair, évitez de mettre des données sensibles ou importantes
+        sur les services @:data.color.soft, car en cas de perte, nous ne garantissons
+        pas leur récupération ;'
+      - 'Clause <em>« Si vous n’êtes pas contents, vous êtes invités à aller voir
+        ailleurs »</em> : si le service ne vous convient pas, libre à vous d’en trouver
+        un équivalent (ou meilleur) ailleurs, ou de monter le vôtre ;'
       - 'Clause <em>« Tout abus sera puni »</em> : si un utilisateur abuse du service,
-          par exemple en monopolisant des ressources machines partagées, ou en publiant
-          des contenus considérés comme non pertinents, son contenu ou
-          son compte pourra être supprimé sans avertissement ni négociation.
-          @:data.txt.soft reste seul juge de cette notion « d’abus » dans le but de fournir
-          le meilleur service possible à l’ensemble de ses utilisateurs.
-          Si cela vous parait anti-démocratique, anti-libriste, anti-liberté-d’expression,
-          merci de vous référer à la clause précédente ;'
-      - 'Clause <em>« Rien n’est éternel »</em> : les services peuvent fermer
-          (faute de fonds pour les maintenir, par exemple), ils peuvent être
-          victimes d’intrusion (le « 100 % sécurisé » n’existe pas).
-          Nous vous encourageons donc à conserver une copie des données qui vous importent,
-          car @:data.txt.soft ne saurait être tenu pour responsable de leur hébergement sans limite de temps.'
+        par exemple en monopolisant des ressources machines partagées, ou en publiant
+        des contenus considérés comme non pertinents, son contenu ou son compte pourra
+        être supprimé sans avertissement ni négociation. @:data.color.soft reste seul
+        juge de cette notion « d’abus » dans le but de fournir le meilleur service
+        possible à l’ensemble de ses utilisateurs. Si cela vous parait anti-démocratique,
+        anti-libriste, anti-liberté-d’expression, merci de vous référer à la clause
+        précédente ;'
+      - 'Clause <em>« Rien n’est éternel »</em> : les services peuvent fermer (faute
+        de fonds pour les maintenir, par exemple), ils peuvent être victimes d’intrusion
+        (le « 100 % sécurisé » n’existe pas). Nous vous encourageons donc à conserver
+        une copie des données qui vous importent, car @:data.color.soft ne saurait
+        être tenu pour responsable de leur hébergement sans limite de temps.'
   full:
     title: Version complète
     conditions:
       title: Conditions du service
       list:
-      - 'L’utilisation du service se fait à vos propres risques. Le service est fourni tel quel.'
-      - 'Vous ne devez pas modifier un autre site afin de signifier faussement
-          qu’il est associé avec ce service @:data.txt.soft</>.'
-      - 'Les comptes ne peuvent être créés et utilisés que par des humains.
-          Les comptes créés par les robots ou autres méthodes automatisées
-          pourront être supprimés sans avertissement.'
-      - 'Vous êtes responsable de la sécurité de votre compte et de votre mot de passe.<br>
-          @:data.txt.soft ne peut pas et ne sera pas responsable de toutes pertes
-          ou dommages résultant de votre non-respect de cette obligation de sécurité.'
-      - 'Vous êtes responsable de tout contenu affiché et de l’activité qui se produit sous votre compte.'
-      - 'Vous ne pouvez pas utiliser le service à des fins illégales ou non autorisées.<br>
-          Vous ne devez pas transgresser les lois de votre pays.'
-      - 'Vous ne pouvez pas vendre, échanger, revendre, ou exploiter dans
-          un but commercial non autorisé un compte du service utilisé.'
+      - L’utilisation du service se fait à vos propres risques. Le service est fourni
+        tel quel.
+      - Vous ne devez pas modifier un autre site afin de signifier faussement qu’il
+        est associé avec ce service @:data.color.soft</>.
+      - Les comptes ne peuvent être créés et utilisés que par des humains. Les comptes
+        créés par les robots ou autres méthodes automatisées pourront être supprimés
+        sans avertissement.
+      - Vous êtes responsable de la sécurité de votre compte et de votre mot de passe.<br>
+        @:data.color.soft ne peut pas et ne sera pas responsable de toutes pertes
+        ou dommages résultant de votre non-respect de cette obligation de sécurité.
+      - Vous êtes responsable de tout contenu affiché et de l’activité qui se produit
+        sous votre compte.
+      - Vous ne pouvez pas utiliser le service à des fins illégales ou non autorisées.<br>
+        Vous ne devez pas transgresser les lois de votre pays.
+      - Vous ne pouvez pas vendre, échanger, revendre, ou exploiter dans un but commercial
+        non autorisé un compte du service utilisé.
     liabilities:
-      text: 'La violation de l’un de ces accords entraînera la résiliation de votre compte.<br>
-        Vous comprenez et acceptez que l’association @:data.txt.soft ne puisse être tenue
-        responsable pour les contenus publiés sur ce service.'
+      text: La violation de l’un de ces accords entraînera la résiliation de votre
+        compte.<br> Vous comprenez et acceptez que l’association @:data.color.soft
+        ne puisse être tenue responsable pour les contenus publiés sur ce service.
       list:
-      - 'Vous comprenez que la mise en ligne du service ainsi que de votre contenu implique
-          une transmission (en clair ou chiffrée, suivant les services) sur divers réseaux.'
-      - 'Vous ne devez pas transmettre des vers, des virus ou tout autre code de nature malveillante.'
-      - '@:data.txt.soft ne garantit pas que
-          <ul>
-            <li>le service répondra à vos besoins spécifiques,</li>
-            <li>le service sera ininterrompu ou exempte de bugs,</li>
-            <li>que les erreurs dans le service seront corrigées.</li>
-          </ul>'
-      - 'Vous comprenez et acceptez que @:data.txt.soft ne puisse être tenue responsable
-          de tous dommages directs, indirects, ou fortuits, comprenant les dommages
-          pour perte de profits, de clientèle, d’accès, de données ou d’autres pertes intangibles
-          (même si @:data.txt.soft est informé de la possibilité de tels dommages) et qui résulteraient de :
-          <ol>
-            <li>l’utilisation ou de l’impossibilité d’utiliser le service ;</li>
-            <li>l’accès non autorisé ou altéré de la transmission des données ;</li>
-            <li>les déclarations ou les agissements d’un tiers sur le service ;</li>
-            <li>la résiliation de votre compte ;</li>
-            <li>toute autre question relative au service.</li>
-          </ol>'
-      - 'L’échec de @:data.txt.soft à exercer ou à appliquer tout droit ou disposition
-          des Conditions Générale d’Utilisation ne constitue pas une renonciation
-          à ce droit ou à cette disposition.
-          Les Conditions d’utilisation constituent l’intégralité de l’accord
-          entre vous et @:data.txt.soft et régissent votre utilisation du service,
-          remplaçant tous les accords antérieurs entre vous et @:data.txt.soft
-          (y compris les versions précédentes des Conditions Générales d’Utilisation).'
-      - 'Les questions sur les conditions de service doivent être envoyées via
-          <a href="@:link.contact">ce formulaire de contact</a>.'
+      - Vous comprenez que la mise en ligne du service ainsi que de votre contenu
+        implique une transmission (en clair ou chiffrée, suivant les services) sur
+        divers réseaux.
+      - Vous ne devez pas transmettre des vers, des virus ou tout autre code de nature
+        malveillante.
+      - '@:data.color.soft ne garantit pas que <ul> <li>le service répondra à vos
+        besoins spécifiques,</li> <li>le service sera ininterrompu ou exempte de bugs,</li>
+        <li>que les erreurs dans le service seront corrigées.</li> </ul>'
+      - 'Vous comprenez et acceptez que @:data.color.soft ne puisse être tenue responsable
+        de tous dommages directs, indirects, ou fortuits, comprenant les dommages
+        pour perte de profits, de clientèle, d’accès, de données ou d’autres pertes
+        intangibles (même si @:data.color.soft est informé de la possibilité de tels
+        dommages) et qui résulteraient de : <ol> <li>l’utilisation ou de l’impossibilité
+        d’utiliser le service ;</li> <li>l’accès non autorisé ou altéré de la transmission
+        des données ;</li> <li>les déclarations ou les agissements d’un tiers sur
+        le service ;</li> <li>la résiliation de votre compte ;</li> <li>toute autre
+        question relative au service.</li> </ol>'
+      - L’échec de @:data.color.soft à exercer ou à appliquer tout droit ou disposition
+        des Conditions Générale d’Utilisation ne constitue pas une renonciation à
+        ce droit ou à cette disposition. Les Conditions d’utilisation constituent
+        l’intégralité de l’accord entre vous et @:data.color.soft et régissent votre
+        utilisation du service, remplaçant tous les accords antérieurs entre vous
+        et @:data.color.soft (y compris les versions précédentes des Conditions Générales
+        d’Utilisation).
+      - Les questions sur les conditions de service doivent être envoyées via <a href="@:data.link.contact">ce
+        formulaire de contact</a>.
   modify:
     title: Modifications du service
     list:
-    - '@:data.txt.soft se réserve le droit, à tout moment de modifier ou d’interrompre,
-        temporairement ou définitivement, le service avec ou sans préavis.'
-    - '@:data.txt.soft ne sera pas responsable envers vous ou tout tiers pour toute modification,
-        suspension ou interruption du service.'
+    - '@:data.color.soft se réserve le droit, à tout moment de modifier ou d’interrompre,
+      temporairement ou définitivement, le service avec ou sans préavis.'
+    - '@:data.color.soft ne sera pas responsable envers vous ou tout tiers pour toute
+      modification, suspension ou interruption du service.'
     copyright:
       title: Droit d’auteur sur le contenu
       list:
-      - 'Vous ne pouvez pas envoyer, télécharger, publier sur un blog, distribuer,
-          diffuser tout contenu illégal, diffamatoire, harcelant, abusif, frauduleux,
-        contrefait, obscène ou autrement répréhensible.'
+      - Vous ne pouvez pas envoyer, télécharger, publier sur un blog, distribuer,
+        diffuser tout contenu illégal, diffamatoire, harcelant, abusif, frauduleux,
+        contrefait, obscène ou autrement répréhensible.
       - 'Nous ne revendiquons aucun droit sur vos données : textes, images, son, vidéo,
-          ou tout autre élément, que vous téléchargez ou transmettez depuis votre compte.'
-      - 'Nous n’utiliserons pas votre contenu pour un autre usage que de vous fournir le service.'
-      - 'Vous ne devez pas télécharger ou rendre disponible tout contenu qui
-          porte atteinte aux droits de quelqu’un d’autre.'
-      - 'Nous nous réservons le droit de supprimer tout contenu nous paraissant
-          non pertinent pour l’usage du service, selon notre seul jugement.'
-      - 'Nous pouvons, si nécessaire, supprimer ou empêcher la diffusion de tout contenu
-          sur le service qui ne respecterait pas les présentes conditions.'
+        ou tout autre élément, que vous téléchargez ou transmettez depuis votre compte.'
+      - Nous n’utiliserons pas votre contenu pour un autre usage que de vous fournir
+        le service.
+      - Vous ne devez pas télécharger ou rendre disponible tout contenu qui porte
+        atteinte aux droits de quelqu’un d’autre.
+      - Nous nous réservons le droit de supprimer tout contenu nous paraissant non
+        pertinent pour l’usage du service, selon notre seul jugement.
+      - Nous pouvons, si nécessaire, supprimer ou empêcher la diffusion de tout contenu
+        sur le service qui ne respecterait pas les présentes conditions.
     share:
       title: Édition et partage de données
       list:
-      - 'Les fichiers que vous créez avec le service peuvent être - si vous le souhaitez -
-          lus, copiés, utilisés et redistribués par des gens que vous connaissez ou non.'
-      - 'En rendant publiques vos données, vous reconnaissez et acceptez que
-          toute personne utilisant ce site web puisse les consulter sans restrictions.'
-      - 'Mais le service peut également vous proposer la possibilité d’autoriser
-          l’accès et le travail collaboratif sur ses documents de manière restreinte
-        à un ou plusieurs autres utilisateurs.'
-      - '@:data.txt.soft ne peut être tenue responsable de tout problème résultant du
-          partage ou de la publication de données entre utilisateurs.'
+      - Les fichiers que vous créez avec le service peuvent être - si vous le souhaitez
+        - lus, copiés, utilisés et redistribués par des gens que vous connaissez ou
+        non.
+      - En rendant publiques vos données, vous reconnaissez et acceptez que toute
+        personne utilisant ce site web puisse les consulter sans restrictions.
+      - Mais le service peut également vous proposer la possibilité d’autoriser l’accès
+        et le travail collaboratif sur ses documents de manière restreinte à un ou
+        plusieurs autres utilisateurs.
+      - '@:data.color.soft ne peut être tenue responsable de tout problème résultant
+        du partage ou de la publication de données entre utilisateurs.'
     closure:
       title: Résiliation
       text:
-      - '@:data.txt.soft, à sa seule discrétion, a le droit de suspendre ou de résilier
-          votre compte et de refuser toute utilisation actuelle ou future du service.
-          Cette résiliation du service entraînera la désactivation de l’accès à votre compte,
-          et la restitution de tout le contenu.<br>
-          @:data.txt.soft se réserve le droit de refuser le service à n’importe qui
-          pour n’importe quelle raison à tout moment.'
-      - '@:data.txt.soft se réserve également le droit de résilier votre compte
-          si vous ne vous connectez pas à votre compte pour une période supérieure à 6 mois.'
+      - '@:data.color.soft, à sa seule discrétion, a le droit de suspendre ou de résilier
+        votre compte et de refuser toute utilisation actuelle ou future du service.
+        Cette résiliation du service entraînera la désactivation de l’accès à votre
+        compte, et la restitution de tout le contenu.<br> @:data.color.soft se réserve
+        le droit de refuser le service à n’importe qui pour n’importe quelle raison
+        à tout moment.'
+      - '@:data.color.soft se réserve également le droit de résilier votre compte
+        si vous ne vous connectez pas à votre compte pour une période supérieure à
+        6 mois.'
     private:
       title: Données personnelles
       text:
-      - 'Conformément à l’article 34 de la loi « Informatique et Libertés »,
-          @:data.txt.soft garantit à l’utilisateur un droit d’opposition, d’accès et
-          de rectification sur les données nominatives le concernant.
-          L’utilisateur a la possibilité d’exercer ce droit en utilisant le
-          <a href="@:link.contact">formulaire de contact</a> mis à sa disposition.'
+      - Conformément à l’article 34 de la loi « Informatique et Libertés », @:data.color.soft
+        garantit à l’utilisateur un droit d’opposition, d’accès et de rectification
+        sur les données nominatives le concernant. L’utilisateur a la possibilité
+        d’exercer ce droit en utilisant le <a href="@:data.link.contact">formulaire
+        de contact</a> mis à sa disposition.
       list:
-      - 'Pour utiliser certains services @:data.txt.soft, vous devez créer un compte.
-          @:data.txt.soft demande certaines informations personnelles :
-          une adresse e-mail valide et un mot de passe qui est utilisé pour protéger
-          votre compte contre tout accès non autorisé.
-          Les champs « Nom » et « Prénom » peuvent être requis pour le bon
-          fonctionnement du logiciel, mais il n’est pas nécessaire
-          qu’ils révèlent votre véritable identité.'
-      - 'Tout comme d’autres services en ligne, @:data.txt.soft enregistre automatiquement
-          certaines informations concernant votre utilisation du service telles que
-          l’activité du compte (exemple : espace de stockage occupé, nombre d’entrées, mesures prises),
-          les données affichées ou cliquées (exemple : liens, éléments de l’interface utilisateur),
-          et d’autres informations pour vous identifier (exemple : type de navigateur, adresse IP,
-          date et heure de l’accès, URL de référence).'
-      - 'Nous utilisons ces informations en interne pour vous améliorer
-          l’interface utilisateur des services @:data.txt.soft et maintenir une
-          expérience utilisateur cohérente et fiable.'
-      - 'Ces données ne sont ni vendues, ni transmises à des tiers.'
+      - 'Pour utiliser certains services @:data.color.soft, vous devez créer un compte.
+        @:data.color.soft demande certaines informations personnelles : une adresse
+        e-mail valide et un mot de passe qui est utilisé pour protéger votre compte
+        contre tout accès non autorisé. Les champs « Nom » et « Prénom » peuvent être
+        requis pour le bon fonctionnement du logiciel, mais il n’est pas nécessaire
+        qu’ils révèlent votre véritable identité.'
+      - 'Tout comme d’autres services en ligne, @:data.color.soft enregistre automatiquement
+        certaines informations concernant votre utilisation du service telles que
+        l’activité du compte (exemple : espace de stockage occupé, nombre d’entrées,
+        mesures prises), les données affichées ou cliquées (exemple : liens, éléments
+        de l’interface utilisateur), et d’autres informations pour vous identifier
+        (exemple : type de navigateur, adresse IP, date et heure de l’accès, URL de
+        référence).'
+      - Nous utilisons ces informations en interne pour vous améliorer l’interface
+        utilisateur des services @:data.color.soft et maintenir une expérience utilisateur
+        cohérente et fiable.
+      - Ces données ne sont ni vendues, ni transmises à des tiers.
   footer:
-  - 'Conditions Générales d’Utilisation des services en ligne de l’association
-      @:data.txt.soft,<br>version 1.0.3 du 11 avril 2016.'
+  - Conditions Générales d’Utilisation des services en ligne de l’association @:data.color.soft,<br>version
+    1.0.3 du 11 avril 2016.
 legals:
   title: Mentions légales
   editor:
     title: Éditeur
-    asso: 'Association loi 1901 déclarée en sous-préfecture d’Arles le 2 décembre 2003 sous le n° '
+    asso: Association loi 1901 déclarée en sous-préfecture d’Arles le 2 décembre 2003
+      sous le n° 
     siret: 'N° Siret :'
     siege: Siège social
     contact: 'Pour nous contacter :'
@@ -797,157 +759,148 @@ legals:
     private:
       title: Informations personnelles collectées
       text:
-      - 'En France, les données personnelles sont notamment protégées par
-          <a href="https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460">la
-          loi n° 78-17 du 6 janvier 1978</a>, la loi n° 2004-801 du 6 août 2004,
-          l’article L. 226-13 du Code pénal et la Directive Européenne du 24
-           octobre 1995.'
-      - 'En tout état de cause @:data.txt.soft ne collecte des informations
-          personnelles relatives à l’utilisateur (nom, adresse électronique,
-          coordonnées téléphoniques) que pour le besoin des services proposés par
-          les sites du réseau @:data.txt.soft, notamment pour l’inscription à des
-          espaces de discussion par le biais de formulaires en ligne ou pour des
-          traitements statistiques. L’utilisateur fournit ces informations en
-          toute connaissance de cause, notamment lorsqu’il procède par lui-même à
-          leur saisie. Il est alors précisé à l’utilisateur des sites du réseau
-          @:data.txt.soft le caractère obligatoire ou non des informations qu’il serait
-          amené à fournir.'
+      - En France, les données personnelles sont notamment protégées par <a href="https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460">la
+        loi n° 78-17 du 6 janvier 1978</a>, la loi n° 2004-801 du 6 août 2004, l’article
+        L. 226-13 du Code pénal et la Directive Européenne du 24  octobre 1995.
+      - En tout état de cause @:data.txt.soft ne collecte des informations personnelles
+        relatives à l’utilisateur (nom, adresse électronique, coordonnées téléphoniques)
+        que pour le besoin des services proposés par les sites du réseau @:data.txt.soft,
+        notamment pour l’inscription à des espaces de discussion par le biais de formulaires
+        en ligne ou pour des traitements statistiques. L’utilisateur fournit ces informations
+        en toute connaissance de cause, notamment lorsqu’il procède par lui-même à
+        leur saisie. Il est alors précisé à l’utilisateur des sites du réseau @:data.txt.soft
+        le caractère obligatoire ou non des informations qu’il serait amené à fournir.
     stats:
       title: Analyse statistique et confidentialité
       text:
-      - 'En vue d’adapter le site aux demandes de nos visiteurs, nous analysons le trafic de nos sites avec Matomo.
-          Matomo génère un cookie avec un identifiant unique, dont la durée de conservation est limitée à 13 mois.
-          Les données recueillies (adresse IP, User-Agent…) sont anonymisées et conservées pour une durée de 6 mois.
-          Elles ne sont pas cédées à des tiers ni utilisées à d’autres fins.'
+      - En vue d’adapter le site aux demandes de nos visiteurs, nous analysons le
+        trafic de nos sites avec Matomo. Matomo génère un cookie avec un identifiant
+        unique, dont la durée de conservation est limitée à 13 mois. Les données recueillies
+        (adresse IP, User-Agent…) sont anonymisées et conservées pour une durée de
+        6 mois. Elles ne sont pas cédées à des tiers ni utilisées à d’autres fins.
     modify:
       title: Rectification des informations nominatives collectées
       text:
-      - 'Conformément aux dispositions de l’article 34 de la loi n° 48-87 du
-          6 janvier 1978, l’utilisateur dispose d’un droit de modification des
-          données nominatives collectées le concernant. Pour ce faire,
-          l’utilisateur envoie à @:data.txt.soft :'
-      - 'La modification interviendra dans des délais raisonnables à compter
-          de la réception de la demande de l’utilisateur.'
+      - 'Conformément aux dispositions de l’article 34 de la loi n° 48-87 du 6 janvier
+        1978, l’utilisateur dispose d’un droit de modification des données nominatives
+        collectées le concernant. Pour ce faire, l’utilisateur envoie à @:data.txt.soft :'
+      - La modification interviendra dans des délais raisonnables à compter de la
+        réception de la demande de l’utilisateur.
       list:
-      - 'un courrier électronique en utilisant le formulaire de contact'
-      - 'un courrier à l’adresse du siège de l’association (indiquée
-          ci-dessus) en indiquant son nom ou sa raison sociale, ses coordonnées
-          physiques et/ou électroniques, ainsi que le cas échéant la référence
-          dont il disposerait en tant qu’utilisateur du site @:data.txt.soft</>.'
+      - un courrier électronique en utilisant le formulaire de contact
+      - un courrier à l’adresse du siège de l’association (indiquée ci-dessus) en
+        indiquant son nom ou sa raison sociale, ses coordonnées physiques et/ou électroniques,
+        ainsi que le cas échéant la référence dont il disposerait en tant qu’utilisateur
+        du site @:data.txt.soft</>.
   liabilities:
     title: Limitation de responsabilité
     text:
-    - 'Ce site comporte des informations mises à disposition par des
-        communautés ou sociétés externes ou des liens hypertextes vers d’autres sites qui
-        n’ont pas été développés par @:data.txt.soft</>. Le contenu mis à disposition
-        sur le site est fourni à titre informatif. L’existence d’un lien de ce
-        site vers un autre site ne constitue pas une validation de ce site ou
-        de son contenu. Il appartient à l’internaute d’utiliser ces
-        informations avec discernement et esprit critique. La responsabilité de
-        @:data.txt.soft ne saurait être engagée du fait des informations, opinions et
-        recommandations formulées par des tiers.'
-    - '@:data.txt.soft ne pourra être tenue responsable des dommages directs et
-        indirects causés au matériel de l’utilisateur, lors de l’accès au site,
-         et résultant soit de l’utilisation d’un matériel ne répondant pas aux
-        spécifications techniques requises, soit de l’apparition d’un bug ou
-        d’une incompatibilité.'
-    - '@:data.txt.soft ne pourra également être tenue responsable des dommages
-        indirects (tels par exemple qu’une perte de marché ou perte d’une
-        chance) consécutifs à l’utilisation du site.'
-    - 'Des espaces interactifs (possibilité de poser des questions dans
-        l’espace contact) sont à la disposition des utilisateurs sur le site
-        @:data.txt.soft</>. @:data.txt.soft se réserve le droit de
-        supprimer, sans mise en demeure préalable, tout contenu déposé dans cet
-        espace qui contreviendrait à la législation applicable en France, en
-        particulier aux dispositions relatives à la protection des données. Le
-        cas échéant, @:data.txt.soft se réserve également la possibilité de mettre en
-        cause la responsabilité civile et/ou pénale de l’utilisateur, notamment
-        en cas de message à caractère raciste, injurieux, diffamant, ou
-        pornographique, quel que soit le support utilisé (texte, photographie…).'
+    - Ce site comporte des informations mises à disposition par des communautés ou
+      sociétés externes ou des liens hypertextes vers d’autres sites qui n’ont pas
+      été développés par @:data.txt.soft</>. Le contenu mis à disposition sur le site
+      est fourni à titre informatif. L’existence d’un lien de ce site vers un autre
+      site ne constitue pas une validation de ce site ou de son contenu. Il appartient
+      à l’internaute d’utiliser ces informations avec discernement et esprit critique.
+      La responsabilité de @:data.txt.soft ne saurait être engagée du fait des informations,
+      opinions et recommandations formulées par des tiers.
+    - '@:data.txt.soft ne pourra être tenue responsable des dommages directs et indirects
+      causés au matériel de l’utilisateur, lors de l’accès au site, et résultant soit
+      de l’utilisation d’un matériel ne répondant pas aux spécifications techniques
+      requises, soit de l’apparition d’un bug ou d’une incompatibilité.'
+    - '@:data.txt.soft ne pourra également être tenue responsable des dommages indirects
+      (tels par exemple qu’une perte de marché ou perte d’une chance) consécutifs
+      à l’utilisation du site.'
+    - Des espaces interactifs (possibilité de poser des questions dans l’espace contact)
+      sont à la disposition des utilisateurs sur le site @:data.txt.soft</>. @:data.txt.soft
+      se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu
+      déposé dans cet espace qui contreviendrait à la législation applicable en France,
+      en particulier aux dispositions relatives à la protection des données. Le cas
+      échéant, @:data.txt.soft se réserve également la possibilité de mettre en cause
+      la responsabilité civile et/ou pénale de l’utilisateur, notamment en cas de
+      message à caractère raciste, injurieux, diffamant, ou pornographique, quel que
+      soit le support utilisé (texte, photographie…).
     tech:
       title: Limitations contractuelles sur les données techniques
       text:
-      - '@:data.txt.soft ne pourra être tenue responsable de dommages matériels
-        liés à l’utilisation du site. De plus, l’utilisateur du site s’engage à
-        accéder au site en utilisant un matériel récent, ne contenant pas de
-        virus et avec un navigateur de dernière génération mis-à-jour.'
+      - '@:data.txt.soft ne pourra être tenue responsable de dommages matériels liés
+        à l’utilisation du site. De plus, l’utilisateur du site s’engage à accéder
+        au site en utilisant un matériel récent, ne contenant pas de virus et avec
+        un navigateur de dernière génération mis-à-jour.'
     copyright:
       title: Propriété intellectuelle
       text:
-      - 'Les contenus sont publiés sous la responsabilité des utilisateurs.'
+      - Les contenus sont publiés sous la responsabilité des utilisateurs.
   footer:
-  - 'Mentions légales de l’association @:data.txt.soft,<br>le 6 octobre 2014.'
+  - Mentions légales de l’association @:data.txt.soft,<br>le 6 octobre 2014.
 credits:
   title: Crédits
   main:
     text:
     - 'Ce site utilise des éléments libres communs à l’ensemble du réseau @:data.txt.soft :'
-    - 'Certains éléments sont déployés via le script qui ajoute la barre de navigation et le pied de page du site.<br>
-        Le code source peut être consulté <a href="https://framagit.org/framasoft/framanav">sur notre dépôt Gitlab</a>.'
-    - '<a href="@:link.graphics">Charte graphique</a> :'
+    - Certains éléments sont déployés via le script qui ajoute la barre de navigation
+      et le pied de page du site.<br> Le code source peut être consulté <a href="https://framagit.org/framasoft/framanav">sur
+      notre dépôt Gitlab</a>.
+    - '<a href="../graphics">Charte graphique</a> :'
     tools:
-    - 'la librairie <a href="https://jquery.com/">jQuery</a>
-        et le framework libre <a href="https://getbootstrap.com">Bootstrap</a>'
-    - 'ou bien le framework libre <a href="https://vuejs.org">VueJS</a> et de nombreuses dépendances'
-    - 'les polices d’écriture <a href="https://www.paratype.com/public/">PTSans</a> (titres),
-        <a href="http://dejavu-fonts.org/wiki/Main_Page">Deja Vu Sans</a>
-        et <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a> (icônes)'
-    - 'l’outil de mesure statistique <a href="https://www.matomo.org/">Matomo</a>'
+    - la librairie <a href="https://jquery.com/">jQuery</a> et le framework libre
+      <a href="https://getbootstrap.com">Bootstrap</a>
+    - ou bien le framework libre <a href="https://vuejs.org">VueJS</a> et de nombreuses
+      dépendances
+    - les polices d’écriture <a href="https://www.paratype.com/public/">PTSans</a>
+      (titres), <a href="http://dejavu-fonts.org/wiki/Main_Page">Deja Vu Sans</a>
+      et <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a> (icônes)
+    - l’outil de mesure statistique <a href="https://www.matomo.org/">Matomo</a>
     license:
       title: Licence
       text:
-      - 'Sauf mention contraire, le contenu des sites est placé sous licence libre @:data.license.ccbysa4fr'
-      - 'Notre <a href="@:link.charte">charte</a>,
-          les <a href="@:link.cgu">Conditions Générales d’Utilisation</a> de nos services,
-          les <a href="@:link.legals">mentions légales</a>
-          et l’ensemble des <a href="https://soutenir.framasoft.org/association">
-          documents administratifs de l’association</a> sont également placés sous cette licence.'
-      - 'Les pingouins qui se promènent sur le site nous viennent de
-          <a href="https://www.le-terrier.net/pingouin/pingouin.html">L.L. de Mars</a>
-          et sont placés sous licence @:data.license.lal<br>
-          Les personnages de BD dessinés par
-          <a href="http://ptilouk.net">Simon « Gee » Giraudot</a> sont sous licence @:data.license.ccbysa2fr'
-      - 'Le logo est une œuvre de JosephK sous licence @:data.license.ccbysa4fr<br>
-          Il est inspiré de la mascotte initialement crée par L.L. de Mars.<br>
-          (Framasoft a l’autorisation d’utiliser le logo sans avoir besoin de citer l’auteur).'
+      - Sauf mention contraire, le contenu des sites est placé sous licence libre
+        @:data.license.ccbysa4fr
+      - Notre <a href="../charte">charte</a>, les <a href="../cgu">Conditions Générales
+        d’Utilisation</a> de nos services, les <a href="../legals">mentions légales</a>
+        et l’ensemble des <a href="../association"> documents administratifs de l’association</a>
+        sont également placés sous cette licence.
+      - Les pingouins qui se promènent sur le site nous viennent de <a href="https://www.le-terrier.net/pingouin/pingouin.html">@:data.people.lldemars</a>
+        et sont placés sous licence @:data.license.lal<br> Les personnages de BD dessinés
+        par <a href="http://ptilouk.net">@:data.people.gee</a> sont sous licence @:data.license.ccbysa2fr
+      - Le logo est une œuvre de @:data.people.jo sous licence @:data.license.ccbysa4fr<br>
+        Il est inspiré de la mascotte initialement crée par @:data.people.lldemars</>.<br>
+        (@:data.txt.soft a l’autorisation d’utiliser le logo sans avoir besoin de
+        citer l’auteur).
 asso:
   title: Association
   prez:
-    title: 'Présentation de @:data.txt.soft'
+    title: Présentation de @:data.txt.soft
     text:
-    - 'Issu du monde éducatif et désormais tournée vers l’éducation populaire,
-        @:data.meta.framalink est avant tout un réseau de projets, dont le premier,
-        <a href="@:data.cat.logiciel.sites.libre.link">l’annuaire @:data.cat.logiciel.sites.libre.name</a>,
-        remonte à 2001.'
-    - 'Ces projets sont animés par des personnes collaborant autour d’une même
-        volonté : promouvoir les libertés numériques.'
-    - 'Le respect des libertés fondamentales des utilisatrices et utilisateurs,
-        garanties par des contrats légaux (les <a href="@:link.wFreeLicense">licences libres</a>),
-        est au cœur du mouvement libriste et permet de s’assurer que
-        l’humain reste en maîtrise de l’outil numérique.'
-    - 'Le but de @:data.meta.framalink est de proposer, principalement en ligne,
-        un ensemble d’outils concrets et pratiques visant à faciliter l’adoption :'
-    - 'Présenté comme une « porte d’entrée dans le monde du Libre »,
-        le réseau @:data.meta.framalink souhaite se positionner comme
-        un trait d’union entre la communauté des libristes et le grand public.'
+    - Issu du monde éducatif et désormais tournée vers l’éducation populaire, @:data.html.soft
+      est avant tout un réseau de projets, dont le premier, <a href="@:data.link.libre">l’annuaire
+      @:data.color.libre</a>, remonte à 2001.
+    - 'Ces projets sont animés par des personnes collaborant autour d’une même volonté :
+      promouvoir les libertés numériques.'
+    - Le respect des libertés fondamentales des utilisatrices et utilisateurs, garanties
+      par des contrats légaux (les <a href="@:link.wFreeLicense">licences libres</a>),
+      est au cœur du mouvement libriste et permet de s’assurer que l’humain reste
+      en maîtrise de l’outil numérique.
+    - 'Le but de @:data.html.soft est de proposer, principalement en ligne, un ensemble
+      d’outils concrets et pratiques visant à faciliter l’adoption :'
+    - Présenté comme une « porte d’entrée dans le monde du Libre », le réseau @:data.html.soft
+      souhaite se positionner comme un trait d’union entre la communauté des libristes
+      et le grand public.
     list:
-    - 'de logiciels libres (annuaire, clés USB, installateur…) ;'
-    - 'de créations culturelles libres (blog, traduction, maison d’édition…) ;'
-    - 'de services libres (plus de 30 dans le projet <a href="@:link.dio">@:cat.campagnes.sites.dio.name</a>).'
-    infography: Infographie <em>Le monde de Framasoft</em> réalisée par
+    - de logiciels libres (annuaire, clés USB, installateur…) ;
+    - de créations culturelles libres (blog, traduction, maison d’édition…) ;
+    - de services libres (plus de 30 dans le projet <a href="@:data.link.dio">@:color.dio</a>).
+    infography: Infographie <em>Le monde de @:data.txt.soft</em> réalisée par
   infos:
-    title: 'L’association @:data.txt.soft'
+    title: L’association @:data.txt.soft
     text:
-    - 'Le réseau @:data.meta.framalink
-        repose sur sa vaste communauté de bénévoles mais il ne pourrait exister
-        s’il n’était soutenu par une association, créée en 2004.'
-    - 'L’association @:data.meta.framalink
-        est une association 1901 à but non lucratif dont le caractère d’intérêt général
-        autorise la déduction fiscale. Elle affiche sa volonté de rester
-        une association à taille humaine (moins de quarante membres, moins de
-        dix permanent·e·s).'
-    - 'Vous trouverez ci-dessous un certain nombre d’informations dont nos statuts,
-        le règlement intérieur et les rapports moraux annuels.'
+    - Le réseau @:data.html.soft repose sur sa vaste communauté de bénévoles mais
+      il ne pourrait exister s’il n’était soutenu par une association, créée en 2004.
+    - L’association @:data.html.soft est une association 1901 à but non lucratif dont
+      le caractère d’intérêt général autorise la déduction fiscale. Elle affiche sa
+      volonté de rester une association à taille humaine (moins de quarante membres,
+      moins de dix permanent·e·s).
+    - Vous trouverez ci-dessous un certain nombre d’informations dont nos statuts,
+      le règlement intérieur et les rapports moraux annuels.
     statuts: Statuts de l’association
     ri: Règlement Intérieur
   data:
@@ -970,7 +923,7 @@ asso:
       founders: Membres fondateurs
     dd:
       juridical: Association loi de 1901, reconnue d’intérêt général
-      staff: '@:meta.salaries permanents'
+      staff: '@:data.meta.employees permanents'
       org: Association soutenant des projets libres et contributifs
       id: Voir la fiche
       reportsFinancial: Rapport financier

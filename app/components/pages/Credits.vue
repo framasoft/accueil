@@ -1,10 +1,10 @@
 <template>
   <div class="container ombre apropos">
     <vue-headful
-      :title="$t('data.meta.name') + ' - ' + $t('credits.title')"
+      :title="$root.meta.title + ' - ' + $t('credits.title')"
     />
     <header class="clearfix header">
-      <h1 class="pull-left">{{ $t('credits.title') }}</h1>
+      <h1 class="pull-left" v-html="$t('credits.title')"></h1>
       <I18n/>
     </header>
     <main>
@@ -16,40 +16,44 @@
           ></li>
       </ul>
       <p v-html="$t('credits.main.text[1]')"></p>
-      <p><span v-html="$t('credits.main.text[2]')"></span> {{ $t('data.credits.main.graphics') }}</p>
+      <p><span v-html="$t('credits.main.text[2]')"></span> {{ $root.people.sandra }}, {{ $root.people.jo }}</p>
 
-      <h2>{{ $t('credits.main.license.title') }}</h2>
+      <h2 v-html="$t('credits.main.license.title')"></h2>
       <p
         v-for="p, index in $t('credits.main.license.text')"
         v-html="$t('credits.main.license.text['+ index +']')"
       ></p>
 
       <div id="site-credits" class="well" v-if="site !== ''">
-        <section v-show="site === 'blog'">
-          <h1>Framablog</h1>
-          <p>Le Framablog est propulsé par <a href="https://wordpress.org/">Wordpress</a>.</p>
+        <section v-show="$root.hash === 'blog'">
+          <h1 v-html="$root.html.blog"></h1>
+          <p>Le <span v-html="$root.html.blog"></span> est propulsé par <a href="https://wordpress.org/">Wordpress</a>.</p>
           <p>
             Sauf mention contraire, comme certaines traductions et documents multimédias,
-            sa licence est la <span v-html="data.license.ccbysa4fr"></span>.
+            sa licence est la <span v-html="$root.license.ccbysa4fr"></span>.
           </p>
         </section>
-        <section v-show="site === 'calc'">
-          <h1>Framacalc</h1>
+        <section v-show="$root.hash === 'calc'">
+          <h1 v-html="$root.html.calc"></h1>
           <p>
-            Framacalc est basé sur le logiciel libre <a href="https://www.ethercalc.org/">EtherCalc</a>,
-            lui-même basé sur le logiciel libre <a href="https://www.socialtext.net/open/socialcalc">SocialCalc</a>.
+            <span v-html="$root.html.calc"></span> est basé sur le logiciel libre
+            <a href="https://www.ethercalc.org/">EtherCalc</a>,
+            lui-même basé sur le logiciel libre
+            <a href="https://www.socialtext.net/open/socialcalc">SocialCalc</a>.
           </p>
           <p>
-            Framacalc a été traduit par Martin Gubri lors de son stage pour Framasoft.
+            <span v-html="$root.html.calc"></span> a été traduit par
+            {{ $root.people.martin }} lors de son stage pour
+            <span v-html="$root.html.soft"></span>.
             Une partie de la traduction est issue du travail de traduction de
             la valeureuse équipe du <a href="http://www.crdp.ac-versailles.fr/">CRDP de Versailles</a>.
           </p>
         </section>
-        <section v-show="site === 'connard'">
+        <section v-show="$root.hash === 'connard'">
           <h1>Bastard, Inc</h1>
           <p>
-            Dessins : <a href="http://ptilouk.net">Gee</a><br>
-            Textes : <a href="http://pouhiou.com">Pouhiou</a>
+            Dessins : <a href="http://ptilouk.net" v-html="$root.people.gee"></a><br>
+            Textes : <a href="http://pouhiou.com" v-html="$root.people.pouhiou"></a>
           </p>
           <p>
             Ce blog et ses contenus sont directement élevés par leurs auteurs
@@ -58,11 +62,11 @@
           </p>
           <p>
             Image de couverture et d'entête : versions dérivées de
-            <a href="https://secure.flickr.com/photos/thomasleuthard/8253943837/">Business as usual...</a>
-            (CC By Thomas Leuthard)
+            <a href="https://secure.flickr.com/photos/thomasleuthard/8253943837/">Business as usual…</a>
+            (<span v-html="$root.license.ccby3"></span> Thomas Leuthard)
           </p>
         </section>
-        <section v-show="site === 'contact'">
+        <section v-show="$root.hash === 'contact'">
           <h1>Site de contact</h1>
           <p>Ce site est propulsé par <a href="https://wordpress.org/">WordPress</a>.</p>
           <p>
@@ -70,21 +74,21 @@
             et <a href="https://framagit.org/framasoft/framavirtue">quelques retouches</a>.
           </p>
         </section>
-        <section v-show="site === 'date'">
-          <h1>Framadate</h1>
+        <section v-show="$root.hash === 'date'">
+          <h1 v-html="$root.html.date"></h1>
           <h2>Application d'origine</h2>
           <p>
-            L'application Framadate est une instance du logiciel <b><a href="http://studs.u-strasbg.fr">STUdS !</a></b>
+            L'application <span v-html="$root.html.date"></span> est une instance du logiciel <b><a href="http://studs.u-strasbg.fr">STUdS !</a></b>
             développé à l'Université de Strasbourg depuis 2008.
           </p>
           <p>
-            Pour les besoins de Framadate, STUdS a fait l'objet d'un fork par l'équipe Framasoft.
+            Pour les besoins de <span v-html="$root.html.date"></span>, STUdS a fait l'objet d'un fork par l'équipe <span v-html="$root.html.soft"></span>.
             Les sources sont disponibles sur <a href="https://framagit.org/framasoft/framadate">notre Gitlab</a>.
           </p>
           <p>
             Si vous souhaitez installer le logiciel pour votre propre usage,
-            vous trouverez <a href="http://framacloud.org/cultiver-son-jardin/installation-de-framadate/">
-            un tutoriel détaillé sur Framacloud</a>.
+            vous trouverez <a :href="$root.link.cloud +'/fr/cultiver-son-jardin/framadate.html'">
+            un tutoriel détaillé sur <span v-html="$root.color.cloud"></span></a>.
           </p>
 
           <h2>Remerciements</h2>
@@ -95,56 +99,56 @@
 
           <h3><a href="https://framagit.org/framasoft/framadate">Framadate</a></h3>
           <p>
-            Simon Leblanc, Pierre-Yves Gosset, JosephK, Olivier Perez,
-            Antonin, Thomas Citharel et la communauté Framasoft.
+            {{ $root.people.simonl }}, {{ $root.people.pyg }}, {{ $root.people.jo }}, Olivier Perez,
+            Antonin, {{ $root.people.tcit }} et la communauté <span v-html="$root.html.soft"></span>.
           </p>
 
           <h2>Licence</h2>
           <p>
-            Framadate est placé, comme <b><a href="http://studs.u-strasbg.fr">STUdS !</a>,</b>
-            sous la licence libre <a href="http://www.cecill.info/licences.fr.html">CeCILL-B</a>.
+            <span v-html="$root.html.date"></span> est placé, comme <b><a href="http://studs.u-strasbg.fr">STUdS !</a>,</b>
+            sous la licence libre <span v-html="$root.license.cecillb"></span>.
           </p>
         </section>
-        <section v-show="site === 'degooglisons-internet'">
+        <section v-show="$root.hash === 'degooglisons-internet'">
           <h1>Dégooglisons Internet</h1>
-          <p>Maquette, intégration et développement : Pierre-Yves Gosset, Christophe Masutti, Flaburgan, JosephK</p>
+          <p>Maquette, intégration et développement : {{ $root.people.pyg }}, Christophe Masutti, Flaburgan, {{ $root.people.jo }}</p>
           <p>Carte et illustrations : Simon « Gee » Giraudot</p>
           <p>Le site utilise le framework libre VueJS.</p>
 
           <h2>Licence</h2>
           <p>
             Sauf mention contraire, cette page et tous les contenus qui y figurent
-            sont placés sous licence libre <span v-html="data.license.ccbysa2fr"></span>.</p>
+            sont placés sous licence libre <span v-html="$root.license.ccbysa2fr"></span>.</p>
           <p>Sources :</p>
           <ul>
             <li>
               <a href="https://wiki.framasoft.org/visuels_plm">
                 <em>Dégooglisons Internet</em>
-              </a>, Simon « Gee » Giraudot, <span v-html="data.license.ccbysa2fr"></span>
+              </a>, Simon « Gee » Giraudot, <span v-html="$root.license.ccbysa2fr"></span>
 
             </li>
             <li>
               <a href="https://commons.wikimedia.org/wiki/File:France_map_Lambert-93_topographic-blank.svg">
                 <em>France map Lambert-93</em>
-              </a>, Eric Gaba, <span v-html="data.license.gnufdl"></span>/<span v-html="data.license.ccbysa4"></span>
+              </a>, Eric Gaba, <span v-html="$root.license.gnufdl"></span>/<span v-html="$root.license.ccbysa4"></span>
             </li>
             <li><a href="https://framagit.org/framasoft/degooglisons">Dépôt git</a></li>
           </ul>
         </section>
-        <section v-show="site === 'drive'">
-          <h1>Framadrive</h1>
+        <section v-show="$root.hash === 'drive'">
+          <h1 v-html="$root.html.drive">Framadrive</h1>
           <p>
-            <b class="violet">Frama</b><b class="vert">drive</b> est animé par
+            <span v-html="$root.html.drive"></span> est animé par
             le logiciel libre <a href="https://nextcloud.org">Nextcloud</a>.<br>
-            Le code source du thème conçu par JosephK se trouve sur
-            <a href="https://framagit.org/framasoft/framadrive"><b class="violet">Frama</b><b class="vert">git</b></a>.
+            Le code source du thème conçu par {{ $root.people.jo }} se trouve sur
+            <a href="https://framagit.org/framasoft/framadrive"><span v-html="$root.color.git"></span></a>.
           </p>
         </section>
-        <section v-show="site === 'games'">
-          <h1>Framagames</h1>
+        <section v-show="$root.hash === 'games'">
+          <h1 v-html="$root.html.games"></h1>
           <p>
-            Framagames regroupe différents logiciels libres développés
-            par différentes personnes extérieurs à Framasoft.
+            <span v-html="$root.html.games"></span> regroupe différents logiciels libres développés
+            par différentes personnes extérieurs à <span v-html="$root.html.soft"></span>.
           </p>
           <p>Séléction, traduction et empaquetage : Cyrille Largillier</p>
           <p>
@@ -152,16 +156,16 @@
             en cliquant sur leur bouton « Crédits » respectifs.
           </p>
         </section>
-        <section v-show="site === 'key'">
-          <h1>Framakey</h1>
-          <p>La Framakey est réalisée par une équipe de bénévoles du réseau Framasoft :</p>
+        <section v-show="$root.hash === 'key'">
+          <h1 v-html="$root.html.key"></h1>
+          <p>La <span v-html="$root.html.key"></span> est réalisée par une équipe de bénévoles du réseau <span v-html="$root.html.soft"></span> :</p>
           <dl class="dl-horizontal">
             <dt>Réalisation</dt>
-            <dd>pp (Pascal Parraud) (v1), pyg (Pierre-Yves Gosset) (v1), fat115 (v2)</dd>
+            <dd>pp (Pascal Parraud) (v1), pyg ({{ $root.people.pyg }}) (v1), {{ $root.people.fat115 }} (v2)</dd>
           </dl>
           <dl class="dl-horizontal">
             <dt>Packaging<br>et mise à jours</dt>
-            <dd>pyg (Pierre-Yves Gosset), fat115 (v1.12+), Cyrille (v1.12+), JosephK (v1.12+)</dd>
+            <dd>pyg ({{ $root.people.pyg }}), {{ $root.people.fat115 }} (v1.12+), {{ $root.people.cyrille }} (v1.12+), {{ $root.people.jo }} (v1.12+)</dd>
           </dl>
           <dl class="dl-horizontal">
             <dt>Graphisme<br>et thème</dt>
@@ -169,62 +173,62 @@
           </dl>
           <dl class="dl-horizontal">
             <dt>Rédaction</dt>
-            <dd>Pierre-Yves Gosset, Julien Tayon, Eric-Marie Gabalda, Gaëtan Maison, fatt115, Cyrille, JosephK</dd>
+            <dd>{{ $root.people.pyg }}, Julien Tayon, Eric-Marie Gabalda, Gaëtan Maison, {{ $root.people.fat115 }}, {{ $root.people.cyrille }}, {{ $root.people.jo }}</dd>
           </dl>
           <dl class="dl-horizontal">
             <dt>Communication</dt>
             <dd>Tbernard (Thierry Bernard)</dd>
           </dl>
           <p>
-            La Framakey et son équipe doivent beaucoup au projet TheOpenCD
-            sans lequel la Framakey n’aurait probablement pas vu le jour.
+            La <span v-html="$root.html.key"></span> et son équipe doivent beaucoup au projet TheOpenCD
+            sans lequel la <span v-html="$root.html.key"></span> n’aurait probablement pas vu le jour.
           </p>
           <p>
-            L’idée de la FramaKey doit énormément au travail de John T.Haller,
+            L’idée de la <span v-html="$root.html.key"></span> doit énormément au travail de John T.Haller,
             sur les versions portables de certains logiciels initalement
             développés pour <a href="https://portableapps.com/">PortableApps.com</a>.
           </p>
           <p>
-            Le contenu (texte) de l’interface de la FramaKey est publié sous
-            licence <span v-html="data.license.ccbysa2fr"></span>.
+            Le contenu (texte) de l’interface de la <span v-html="$root.html.key"></span> est publié sous
+            licence <span v-html="$root.license.ccbysa2fr"></span>.
           </p>
           <p>
-            Les logiciels incluses dans la Framakey sont sous des licences libres diverses.
+            Les logiciels incluses dans la <span v-html="$root.html.key"></span> sont sous des licences libres diverses.
             Les crédits sont indiqués dans leur interface respective.
             Il en va de même pour les œuvres culturelles (musique, livre…)
           </p>
         </section>
-        <section v-show="site === 'lab'">
-          <h1>Framalab</h1>
+        <section v-show="$root.hash === 'lab'">
+          <h1 v-html="$root.html.lab"></h1>
           <p>
-            Framalab est le laboratoire de projets de Framasoft.
-            Vous y trouverez de nombreux sites web développés - plus ou moins récemment - par Framasoft.
+            <span v-html="$root.html.lab"></span> est le laboratoire de projets de <span v-html="$root.html.soft"></span>.
+            Vous y trouverez de nombreux sites web développés - plus ou moins récemment - par <span v-html="$root.html.soft"></span>.
           </p>
           <p>
             Ces derniers peuvent être relativement expérimentaux,
             c'est pourquoi ils ne sont pas nécessairement listés parmi
-            <a href="https://fr.wikipedia.org/wiki/Framasoft">les principaux projets du réseau Framasoft</a>.
+            <a href="https://fr.wikipedia.org/wiki/Framasoft">les principaux projets du réseau <span v-html="$root.color.soft"></span></a>.
           </p>
-          <p>Réalisation du site : Cyrille Largillier, Pierre-Yves Gosset et JosephK.</p>
+          <p>Réalisation du site : {{ $root.people.cyrille }}, {{ $root.people.pyg }} et {{ $root.people.jo }}.</p>
         </section>
-        <section v-show="site === 'libre'">
-          <h1>Framalibre</h1>
+        <section v-show="$root.hash === 'libre'">
+          <h1 v-html="$root.html.libre"></h1>
           <p>
-            L'annuaire de Framasoft est propulsé par
+            L'annuaire de <span v-html="$root.html.soft"></span> est propulsé par
             <a href="https://www.drupal.org/">Drupal</a>,
-            logiciel libre sous licence <span v-html="data.license.gpl2"></span>.
+            logiciel libre sous licence <span v-html="$root.license.gpl2"></span>.
           </p>
           <h2>Licence</h2>
           <p>
             Les articles de l'annuaire sont sous double licence
-            <span v-html="data.license.ccbysa2fr"></span>
-            et <span v-html="data.license.gnufdl"></span>.
+            <span v-html="$root.license.ccbysa2fr"></span>
+            et <span v-html="$root.license.gnufdl"></span>.
           </p>
         </section>
-        <section v-show="site === 'mindmap'">
-          <h1>Framindmap</h1>
-          <p>Framindmap repose sur le logciel libre <a href="http://www.wisemapping.com">Wisemapping</a>.</p>
-          <p>Intégration : JosephK</p>
+        <section v-show="$root.hash === 'mindmap'">
+          <h1 v-html="$root.html.mindmap"></h1>
+          <p><span v-html="$root.html.mindmap"></span> repose sur le logciel libre <a href="http://www.wisemapping.com">Wisemapping</a>.</p>
+          <p>Intégration : {{ $root.people.jo }}</p>
           <h2>Licence</h2>
           <p>
             Wisemapping est sous
@@ -233,81 +237,87 @@
             </a>.
           </p>
           <p>
-            Auparavant, Framindmap reposait sur le logiciel
+            Auparavant, <span v-html="$root.html.mindmap"></span> reposait sur le logiciel
             <a href="https://github.com/drichard/mindmaps">Mindmaps</a> de David Richard.
           </p>
         </section>
-        <section v-show="site === 'pack'">
-          <h1>Framapack</h1>
-          <p>Framapack est un logiciel libre réalisé par Simon Leblanc composé :</p>
+        <section v-show="$root.hash === 'pack'">
+          <h1 v-html="$root.html.pack"></h1>
+          <p><span v-html="$root.html.pack"></span> est un logiciel libre réalisé par {{ $root.people.simonl }} composé :</p>
           <ul>
-            <li>d'un site Internet sous licence libre <span v-html="data.license.agpl3"></span>.</li>
-            <li>d'un installateur sous licence libre <span v-html="data.license.gpl2"></span>.</li>
+            <li>d'un site Internet sous licence libre <span v-html="$root.license.agpl3"></span>.</li>
+            <li>d'un installateur sous licence libre <span v-html="$root.license.gpl2"></span>.</li>
           </ul>
           <p>
-            Les sources de Framapack sont disponibles selon les termes de
+            Les sources de <span v-html="$root.html.pack"></span> sont disponibles selon les termes de
             leur licence respective sur <a href="https://framagit.org/framasoft/framapack/">notre dépôt git</a>.
           </p>
         </section>
-        <section v-show="site === 'pad'">
-          <h1>Framapad</h1>
-          <p>Framapad est animé par le logiciel libre <a href="http://etherpad.org">Etherpad</a>.</p>
+        <section v-show="$root.hash === 'pad'">
+          <h1 v-html="$root.html.pad"></h1>
+          <p>
+            <span v-html="$root.html.pad"></span> est animé par le logiciel libre
+            <a href="http://etherpad.org">Etherpad</a>.
+          </p>
         </section>
-        <section v-show="site === 'soft'">
-          <h1>Framasoft - Accueil</h1>
-          <p>Cette page est un portail qui présente l’ensemble des activités et des sites web du réseau Framasoft.</p>
+        <section v-show="$root.hash === 'soft'">
+          <h1><span v-html="$root.html.soft"></span> - Accueil</h1>
+          <p>Cette page est un portail qui présente l’ensemble des activités et des sites web du réseau <span v-html="$root.html.soft"></span>.</p>
           <dl class="dl-horizontal">
             <dt>Maquette</dt>
-            <dd>peupleLà (Sandra Guigonis)</dd>
+            <dd>{{ $root.people.sandra }}</dd>
           </dl>
           <dl class="dl-horizontal">
             <dt>Intégration</dt>
-            <dd>peupleLà (Sandra Guigonis), JosephK</dd>
+            <dd>{{ $root.people.sandra }}, {{ $root.people.jo }}</dd>
           </dl>
         </section>
-        <section v-show="site === 'soutenir'">
+        <section v-show="$root.hash === 'soutenir'">
           <h1>Site Soutenir</h1>
           <dl class="dl-horizontal">
             <dt>Maquette</dt>
-            <dd>peupleLà (Sandra Guigonis) et Gabriel Dejeante sur la base d’un travail de <a href="http://www.smile.fr/">Smile</a></dd>
+            <dd>{{ $root.people.sandra }} et {{ $root.people.gab }} sur la base d’un travail de <a href="http://www.smile.fr/">Smile</a></dd>
           </dl>
           <dl class="dl-horizontal">
             <dt>Intégration</dt>
-            <dd>Pierre-Yves Gosset et JosephK</dd>
+            <dd>{{ $root.people.pyg }} et {{ $root.people.jo }}</dd>
           </dl>
           <p>Le site est propulsé par le logiciel libre <a href="https://www.drupal.org/">Drupal</a>.</p>
 
           <h2>Licence</h2>
           <p>Sources des images utilisées dans le carrousel :</p>
           <ul>
-              <li><a href="https://flic.kr/p/i6ysF1"><em>Dolmen at Mougau-Bihan, Brittany - France</em></a>, Eric Huybrechts, Creative Commons By-SA</li>
-              <li><a href="http://vol.framasoft.org/dokuwiki/doku.php?id=conception_affiche">Affiche VOL</a>, Creative Commons By-SA</li>
-              <li>Stand Framasoft au RMLL2014, Lamessen, Creative Commons By-SA</li>
-              <li><a href="https://flic.kr/p/i6ysF1"><em>Gigabit Switches</em></a>, Michael Himbeault, Creative Commons By</li>
-              <li><a href="https://www.framablog.org/index.php/post/2013/11/21/framasoft-campagne-soutien-2013"><em>Framasoft - Campagne 2013</em></a>, LL de Mars, Licence Art Libre</li>
-              <li><a href="https://twitter.com/framasoft/status/421956457861353473">AG à Locaux Motiv'</a>, aKa, Creative Commons By-SA</li>
-              <li><a href="https://flic.kr/p/k1Wjhe"><em>Merci / Thank you</em></a>, Frédérique Voisin-Demery, Creative Commons By</li>
+              <li><a href="https://flic.kr/p/i6ysF1"><em>Dolmen at Mougau-Bihan, Brittany - France</em></a>, Eric Huybrechts, <span v-html="$root.license.ccbysa4"></span></li>
+              <li><a href="http://vol.framasoft.org/dokuwiki/doku.php?id=conception_affiche">Affiche VOL</a>, <span v-html="$root.license.ccbysa4"></span></li>
+              <li>Stand Framasoft au RMLL2014, {{ $root.people.lam }}, <span v-html="$root.license.ccbysa4"></span></li>
+              <li><a href="https://flic.kr/p/i6ysF1"><em>Gigabit Switches</em></a>, Michael Himbeault, <span v-html="$root.license.ccby4"></span></li>
+              <li><a href="https://www.framablog.org/index.php/post/2013/11/21/framasoft-campagne-soutien-2013"><em>Framasoft - Campagne 2013</em></a>, {{ $root.people.lldemars }}, licence <span v-html="$root.license.lal"></span></li>
+              <li><a href="https://twitter.com/framasoft/status/421956457861353473">AG à Locaux Motiv'</a>, {{ $root.people.aka }}, <span v-html="$root.license.ccbysa4"></span></li>
+              <li><a href="https://flic.kr/p/k1Wjhe"><em>Merci / Thank you</em></a>, Frédérique Voisin-Demery, <span v-html="$root.license.ccby4"></span></li>
           </ul>
         </section>
-        <section v-show="site === 'sphere'">
-          <h1>Framasphère</h1>
-          <p>Framasphère repose sur le logiciel libre <a href="https://diasporafoundation.org">Diaspora*</a></p>
+        <section v-show="$root.hash === 'sphere'">
+          <h1 v-html="$root.html.sphere"></h1>
+          <p>
+            <span v-html="$root.html.sphere"></span> repose sur le logiciel libre
+            <a href="https://diasporafoundation.org">Diaspora*</a>
+          </p>
           <p>
             Il est compatible avec la majorité des navigateurs web et
             ne requiert aucune installation spécifique pour être utilisé sur mobile.
           </p>
-          <p>Il est sous licence <span v-html="data.license.agpl3"></span>.</p>
+          <p>Il est sous licence <span v-html="$root.license.agpl3"></span>.</p>
         </section>
-        <section v-show="site === 'vectoriel'">
-          <h1>Framavectoriel</h1>
+        <section v-show="$root.hash === 'vectoriel'">
+          <h1 v-html="$root.html.vectoriel"></h1>
           <p>
-            Framavectoriel est une application permettant de réalisser des dessins au format vectoriel (SVG).<br>
-            Il s'agit de la version française, traduite par l'association Framasoft,
+            <span v-html="$root.html.vectoriel"></span> est une application permettant de réalisser des dessins au format vectoriel (SVG).<br>
+            Il s'agit de la version française, traduite par l'association <span v-html="$root.html.soft"></span>,
             de l'application <a href="https://code.google.com/p/svg-edit/">"svg-edit"</a>
           </p>
-          <p>Framavectoriel est placé sous licence libre <span v-html="data.license.ccbysa3"></span></p>
+          <p><span v-html="$root.html.vectoriel"></span> est placé sous licence libre <span v-html="$root.license.ccbysa3"></span></p>
         </section>
-        <section v-show="site === 'wiki'">
+        <section v-show="$root.hash === 'wiki'">
           <h1>Wiki</h1>
           <p>
             Le wiki de Framasoft est propulsé par le logiciel libre
@@ -316,20 +326,20 @@
           <h2>Licence</h2>
           <p>
             Sauf mention contraire, le contenu de ce wiki est placé sous licence
-            <span v-html="data.license.ccbysa3"></span>
+            <span v-html="$root.license.ccbysa3"></span>
           </p>
         </section>
-        <section v-show="site === 'zic'">
-          <h1>Framazic</h1>
+        <section v-show="$root.hash === 'zic'">
+          <h1 v-html="$root.html.zic"></h1>
           <p>
-            Framazic, ou Framaz♪c, est une initiative de l’association à but non-lucratif
-            <a href="https://framasoft.org/">Framasoft</a> ayant pour objectif
+            <span v-html="$root.html.zic"></span>, ou Framaz♪c, est une initiative de l’association à but non-lucratif
+            <a href="https://framasoft.org/"><span v-html="$root.html.soft"></span></a> ayant pour objectif
             la promotion du logiciel et de la culture libres.
           </p>
 
           <h2>Contexte</h2>
           <p>
-            Framazic a été réalisé dans un contexte plutôt morose pour la musique non-libre :
+            <span v-html="$root.html.zic"></span> a été réalisé dans un contexte plutôt morose pour la musique non-libre :
             de grands groupes monopolistiques dominent ce domaine artistique
             et utilisent leurs pouvoirs contre l’intérêt de la majorité :
             des artistes d’abord, qui soit n’arrivent pas à percer dans ce système fermé,
@@ -349,34 +359,34 @@
             Le but est d’ouvrir ce domaine de la culture au plus grand nombre pour
             à la fois faire connaître, et montrer qu’effectivement une alternative
             est possible et fonctionne.<br>
-            Ce projet apparaît aussi chez Framasoft, association à but non-lucrative,
+            Ce projet apparaît aussi chez <span v-html="$root.html.soft"></span>, association à but non-lucrative,
             dans le cadre d’un but de long terme d’élargir les perceptives.
-            Framasoft qui a commencé par la promotion du logiciel libre cherche
+            <span v-html="$root.html.soft"></span> qui a commencé par la promotion du logiciel libre cherche
             maintenant à faire également découvrir la culture libre
             (musiques, films, livres,  connaissances, etc).
           </p>
 
           <h2>Réalisation</h2>
           <p>
-            Framazic est un projet de la galaxie Framasoft, ayant pour but la promotion de la musique libre :
+            <span v-html="$root.html.zic"></span> est un projet de la galaxie <span v-html="$root.html.soft"></span>, ayant pour but la promotion de la musique libre :
             définition, explication des enjeux liés, de son fonctionnement,
             écoute d’une sélection, liens vers des plateformes d’hébergement de musique.
-            Framazic n’est donc pas une plateforme hébergeant de la musique sous licence libre,
+            <span v-html="$root.html.zic"></span> n’est donc pas une plateforme hébergeant de la musique sous licence libre,
             mais une porte d’entrée vers la musique libre, c’est à dire
             un site servant de référence pour tout ceux souhaitant la découvrir.
           </p>
           <p>
-            Le contenu de ce site a été rédigé et mis en forme par Martin Gubri
-            dans le cadre de son stage chez Framasoft en 2012.
+            Le contenu de ce site a été rédigé et mis en forme par {{ $root.people.martin }}
+            dans le cadre de son stage chez <span v-html="$root.html.soft"></span> en 2012.
           </p>
 
           <h2>Remerciements</h2>
           <p>
             Nous remercions chaleureusement <a href="https://aisyk.blogspot.fr/">Aisyk</a>
             pour ses explications détaillées et l’intérêt qu’il a consacré au projet,
-            Pierre-Yves Gosset pour sa disponibilité et pour le travail technique et ses conseils avisés,
-            Benjamin Jean pour son écoute et ses réponses pertinentes aux questions posées,
-            JosephK pour son aide fort précieuse à l’intégration des vidéos sur le site,
+            {{ $root.people.pyg }} pour sa disponibilité et pour le travail technique et ses conseils avisés,
+            {{ $root.people.ben }} pour son écoute et ses réponses pertinentes aux questions posées,
+            {{ $root.people.jo }} pour son aide fort précieuse à l’intégration des vidéos sur le site,
             et à tous les membres de l’association pour avoir initié le projet,
             permis et suivis sa réalisation.
           </p>
@@ -384,11 +394,11 @@
           <h2>Licence</h2>
           <p>
             Sentez vous libre de copier, diffuser, adapter le contenu de ce site,
-            tant que vous attribuez clairement et visiblement la paternité à Framartin et Framasoft.
+            tant que vous attribuez clairement et visiblement la paternité à {{ $root.people.martin }} et <span v-html="$root.html.soft"></span>.
             Sauf mention contraire (dans les notes de bas de page) pour certains paragraphes
             (contenant des parties reprises de sources externes) et certains médias (images,
             vidéos, etc) le contenu de ce site est mis à disposition selon les termes de la licence
-            <span v-html="data.license.ccbysa3fr"></span>.
+            <span v-html="$root.license.ccbysa3fr"></span>.
           </p>
           <p>
             N’hésitez pas à nous contacter pour toutes questions, problèmes,
@@ -398,17 +408,17 @@
           <p>
             Le <a href="https://thenounproject.com/noun/headphones/#icon-No1850">logo du casque</a>
             symbolisant les mélomanes a été fait par Dara Ullrich, sous licence
-            <span v-html="data.license.ccby3"></span>.
+            <span v-html="$root.license.ccby3"></span>.
           </p>
           <p>
             Le <a href="https://openclipart.org/detail/171161/acoustic-guitar-silhouette-by-j_alves-171161">logo de guitare</a>
             symbolisant les musiciens a été fait par J_Alves, sous licence
-            <span v-html="data.license.cc0"></span>.
+            <span v-html="$root.license.cc0"></span>.
           </p>
           <p>
             Le <a href="https://openclipart.org/detail/150715/megaphone-by-worker">logo du mégaphone</a>
             symbolisant les diffuseurs a été fait par worker, sous licence
-            <span v-html="data.license.cc0"></span>.
+            <span v-html="$root.license.cc0"></span>.
           </p>
 
           <h2>Technique</h2>
@@ -435,12 +445,6 @@ import I18n from '../partials/I18n.vue'
 export default {
   components: {
     I18n,
-  },
-  data() {
-    return {
-      site: window.location.hash.replace('#', ''),
-      data: this.$i18n.messages.data,
-    }
   },
 }
 </script>

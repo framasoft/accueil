@@ -5,7 +5,7 @@
     aria-hidden="true">
     <a :href="image.link">
       <img
-        :src="`${data['/img/']}${image.src}`"
+        :src="`${$root['/']}img/${image.src}`"
         :alt="image.alt"
         class="img-responsive" />
     </a>
@@ -19,11 +19,6 @@ export default {
       type: Object,
       required: true,
     },
-  },
-  data() {
-    return {
-      data: this.$i18n.messages.data,
-    }
   },
 };
 </script>

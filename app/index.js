@@ -43,22 +43,41 @@ messages.locales = require('./lang.yml'); // eslint-disable-line
 messages.locales.avalaible = Object.keys(messages.locales).filter(n => locales.indexOf(n) > -1);
 
 // Data import
-messages.data = {};
-messages.data = require('./data.yml'); // eslint-disable-line
-messages.data['/'] = `/${process.env.BASE_URL.replace(/(.+)/, '$1/')}`;
-messages.data['/img/'] = `${messages.data['/']}img/`;
+let data = {};
+data = require('./data.yml'); // eslint-disable-line
+data['/'] = `/${process.env.BASE_URL.replace(/(.+)/, '$1/')}`;
+data.hash = window.location.hash.replace('#', '');
+data.txt = data.txt || {};
+data.html = data.html || {};
+Object.keys(data.color).forEach((k) => {
+  if (data.txt[k] === undefined) {
+    const tmp = document.createElement('div');
+    tmp.innerHTML = data.color[k];
+    data.txt[k] = tmp.textContent || tmp.innerText;
+  }
+});
+
+Object.keys(data.link).forEach((k) => {
+  if (data.html[k] === undefined) {
+    if (data.color[k] !== undefined) {
+      data.html[k] = `<a href="${data.link[k]}">${data.color[k]}</a>`;
+    } else if (data.txt[k] !== undefined) {
+      data.html[k] = `<a href="${data.link[k]}">${data.txt[k]}</a>`;
+    }
+  }
+});
 
 const routes = [
-  { path: '/', component: Home, meta: { id: 'home' } },
+  { path: '/', component: Home, meta: { id: 'home', lang: defaultLocale } },
 ];
 
 for (let i = 0; i < locales.length; i += 1) {
   messages[locales[i]] = {};
   // Locales import
   /* eslint-disable */
-  import(/* webpackChunkName: "lang-[request]" */`./locales/${locales[i]}.yml`).then((data) => {
-    messages[locales[i]] = data;
-    messages[locales[i]].data = messages.data;
+  import(/* webpackChunkName: "lang-[request]" */`./locales/${locales[i]}.yml`).then((locale) => {
+    messages[locales[i]] = locale;
+    messages[locales[i]].data = data;
     messages[locales[i]].lang = locales[i];
   }).catch((err) => {
     console.error(err);
@@ -71,7 +90,7 @@ for (let i = 0; i < locales.length; i += 1) {
     routes.push({
       path: `/${locales[i]}${pages[j].toLowerCase().replace(/^/, '/').replace('/home', '')}`,
       component: component.default,
-      meta: { id: pages[j].toLowerCase() },
+      meta: { id: pages[j].toLowerCase(), lang: locales[i] },
     });
   }
 }
@@ -124,6 +143,7 @@ new Vue({ // eslint-disable-line no-new
   el: '#app',
   router,
   i18n,
+  data,
   mounted() {
     // You'll need this for renderAfterDocumentEvent.
     document.dispatchEvent(new Event('render-event'));
