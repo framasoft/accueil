@@ -5,7 +5,7 @@
     aria-hidden="true">
     <a :href="image.link">
       <img
-        :src="`${$root['/']}img/${image.src}`"
+        :src="`${$root['/']}img/${$t('lang')}/${image.src}`"
         :alt="image.alt"
         class="img-responsive" />
     </a>

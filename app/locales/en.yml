@@ -842,6 +842,7 @@ asso:
     - of free software (directory, USB sticks, installer…);
     - of free cultural creations (blog, translation, publishing house…);
     - of free services (more than 30 free services in the project <a href="@:data.link.dio">@:color.dio</a>).
+    saveas: Right click on the image and “Save image as” to reuse it
     infography: Infography <em lang="fr">Le monde de @:data.txt.soft</em> made by
   infos:
     title: The @:data.txt.soft association
