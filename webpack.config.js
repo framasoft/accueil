@@ -187,7 +187,7 @@ if (process.env.NODE_ENV === 'development') {
 // Create ./public/img/lg/* symlinks only if images need translation
 if (fs.existsSync('./app/assets/img/fr')) {
   if (!fs.existsSync('./public')){ fs.mkdirSync('./public'); }
-  if (!fs.existsSync(`./public${root}`)){ fs.mkdirSync(`./public${root}img`); }
+  if (!fs.existsSync(`./public${root}`)){ fs.mkdirSync(`./public${root}`); }
   if (!fs.existsSync(`./public${root}img`)){ fs.mkdirSync(`./public${root}img`); }
   for (let i = 0; i < locales.length; i += 1) {
     if (!fs.existsSync(`./public${root}img/${locales[i]}`)){
