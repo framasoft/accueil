@@ -889,6 +889,7 @@ asso:
     - de logiciels libres (annuaire, clés USB, installateur…) ;
     - de créations culturelles libres (blog, traduction, maison d’édition…) ;
     - de services libres (plus de 30 dans le projet <a href="@:data.link.dio">@:color.dio</a>).
+    saveas: Clic droit sur l’image et « Enregistrer l’image sous » pour la réutiliser
     infography: Infographie <em>Le monde de @:data.txt.soft</em> réalisée par
   infos:
     title: L’association @:data.txt.soft

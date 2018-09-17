@@ -109,15 +109,29 @@ let config = {
 
 module.exports = config;
 
-if (process.env.NODE_ENV !== 'development') {
-  // NODE_ENV === 'production|preview'
+const locales = [];
+// Import locales list
+fs.readdirSync('./app/locales').forEach(file => {
+  locales.push(file.replace(/(.*)\.yml/, '$1'));
+});
+
+if (process.env.NODE_ENV === 'development') {
+  module.exports.plugins = (module.exports.plugins || []).concat([
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: '"development"',
+        BASE_URL: '""',
+      },
+    }),
+    new HtmlWebpackPlugin({
+      title: 'DEVELOPMENT prerender-spa-plugin',
+      template: 'index.html',
+      filename: 'index.html',
+    }),
+  ]);
+} else { // NODE_ENV === 'production|preview'
   const routes = [root];
-  const locales = [];
   const pages = [];
-  // Import locales list
-  fs.readdirSync('./app/locales').forEach(file => {
-    locales.push(file.replace(/(.*)\.yml/, '$1'));
-  });
   // Import pages list
   fs.readdirSync('./app/components/pages').forEach(file => {
     pages.push(file.replace(/(.*)\.vue/, '$1'));
@@ -168,20 +182,26 @@ if (process.env.NODE_ENV !== 'development') {
       }),
     }),
   );
-} else {
-  // NODE_ENV === 'development'
-  module.exports.plugins = (module.exports.plugins || []).concat([
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: '"development"',
-        BASE_URL: '""',
-      },
-    }),
-    new HtmlWebpackPlugin({
-      title: 'DEVELOPMENT prerender-spa-plugin',
-      template: 'index.html',
-      filename: 'index.html',
-    }),
-  ]);
 }
 
+// Create ./public/img/lg/* symlinks only if images need translation
+if (fs.existsSync('./app/assets/img/fr')) {
+  if (!fs.existsSync('./public')){ fs.mkdirSync('./public'); }
+  if (!fs.existsSync(`./public${root}`)){ fs.mkdirSync(`./public${root}`); }
+  if (!fs.existsSync(`./public${root}img`)){ fs.mkdirSync(`./public${root}img`); }
+  for (let i = 0; i < locales.length; i += 1) {
+    if (!fs.existsSync(`./public${root}img/${locales[i]}`)){
+      fs.mkdirSync(`./public${root}img/${locales[i]}`);
+    }
+    fs.readdirSync('./app/assets/img/fr').forEach(file => {
+      if (!fs.existsSync(`./app/assets/img/${locales[i]}/${file}`)) {
+        const symlinkOrigin = (process.env.NODE_ENV === 'development')
+          ? `../../../app/assets/img/fr/${file}` // [dev] relative to assets
+          : `../fr/${file}` // [prod] relative to public
+        fs.symlink(symlinkOrigin, `./public${root}img/${locales[i]}/${file}`,
+          function (err) { console.log(err); } // eslint-disable-line
+        );
+      }
+    });
+  }
+}

@@ -233,7 +233,7 @@
 
           <div class="row col-md-12">
             <figure id="pingouinsQuelquesBriques">
-              <img :src="$root['/'] + 'img/quelques-briques_licence-art-libre.jpg'" alt="" />
+              <img :src="`${$root['/']}img/${$t('lang')}/quelques-briques_licence-art-libre.jpg`" alt="" />
             </figure>
           </div>
 
