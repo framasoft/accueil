@@ -187,17 +187,18 @@ if (process.env.NODE_ENV === 'development') {
 // Create ./public/img/lg/* symlinks only if images need translation
 if (fs.existsSync('./app/assets/img/fr')) {
   if (!fs.existsSync('./public')){ fs.mkdirSync('./public'); }
-  if (!fs.existsSync('./public/img')){ fs.mkdirSync('./public/img'); }
+  if (!fs.existsSync(`./public${root}`)){ fs.mkdirSync(`./public${root}img`); }
+  if (!fs.existsSync(`./public${root}img`)){ fs.mkdirSync(`./public${root}img`); }
   for (let i = 0; i < locales.length; i += 1) {
-    if (!fs.existsSync(`./public/img/${locales[i]}`)){
-      fs.mkdirSync(`./public/img/${locales[i]}`);
+    if (!fs.existsSync(`./public${root}img/${locales[i]}`)){
+      fs.mkdirSync(`./public${root}img/${locales[i]}`);
     }
     fs.readdirSync('./app/assets/img/fr').forEach(file => {
       if (!fs.existsSync(`./app/assets/img/${locales[i]}/${file}`)) {
         const symlinkOrigin = (process.env.NODE_ENV === 'development')
           ? `../../../app/assets/img/fr/${file}` // [dev] relative to assets
           : `../fr/${file}` // [prod] relative to public
-        fs.symlink(symlinkOrigin, `./public/img/${locales[i]}/${file}`,
+        fs.symlink(symlinkOrigin, `./public${root}img/${locales[i]}/${file}`,
           function (err) { console.log(err); } // eslint-disable-line
         );
       }
