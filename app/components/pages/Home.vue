@@ -8,7 +8,7 @@
         <div class="col-md-8">
           <div class="row">
             <figure id="pingouinVolant" class="pull-right" >
-              <img :src="$root['/'] + 'img/pingouinVolantRefait.png'" alt="" />
+              <img :src="$root['/'] + 'img/biglogo-home.png'" alt="" />
             </figure>
 
             <ul class="accroche">

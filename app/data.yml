@@ -224,6 +224,21 @@ cat:
 pages:
   medias:
     list:
+    - ['fr', '31/08/2018', 'De l’autre côté des livres',
+       'https://www.outrelivres.fr/working-class-heroic-fantasy/',
+       'pages.medias.lArticle']
+    - ['fr', '12/07/2018', 'Télérama',
+       'https://www.telerama.fr/medias/peertube,-la-plateforme-qui-defie-youtube-avec-lethique,n5715829.php',
+       'pages.medias.lArticle']
+    - ['fr', '13/06/2018', 'France Culture',
+       'https://www.franceculture.fr/emissions/du-grain-a-moudre/que-reste-t-il-du-logiciel-libre',
+       'pages.medias.lListen']
+    - ['fr', '15/02/2018', 'NextInpact',
+       'https://www.nextinpact.com/news/106150-framasoft-lance-pages-framasite-pour-faciliter-creation-sites-monopages.htm',
+       'pages.medias.lArticle']
+    - ['fr', '29/11/2017', 'France Inter',
+       'https://www.franceinter.fr/emissions/c-est-deja-demain/c-est-deja-demain-28-novembre-2017',
+       'pages.medias.lListen']
     - ['fr', '30/07/2017', 'Usbek & Rica',
        'https://usbeketrica.com/article/framasoft-une-amap-du-logiciel-libre',
        'pages.medias.lArticle']
