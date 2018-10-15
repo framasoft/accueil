@@ -1,6 +1,6 @@
 #!/bin/bash
 cp app/locales/*.yml zanata/yml/
-yaml2po -P --progress=none -i zanata/yml/en.yml -o zanata/po/${PWD##*/}.pot
+yaml2po -P --progress=none -i zanata/yml/en.yml -o zanata/po/${PWD##*/}.pot --duplicates merge
 for i in app/locales/*.yml
 do
   j=$(echo $i | cut -d '.' -f 1   | cut -d '/' -f 3)
