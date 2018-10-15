@@ -86,7 +86,7 @@ home:
       Démonstration en <strong>{count} exemples</strong>.
     btn: Soutenir l'existence de ces services et aider à en développer de nouveaux
     footer: L’ensemble de nos services, avec la documentation pour les maîtriser,
-      se trouve sur le site <a href=@:data.link.dio">@:txt.dio</a>
+      se trouve sur le site <a href=@:data.link.dio>@:txt.dio</a>
   peertube:
     title: 'PeerTube : l’alternative à YouTube qui se fait avec et grâce à vous'
     text: Découvrez la version 1 de PeerTube, qui vous permet de créer <strong>votre</strong>
