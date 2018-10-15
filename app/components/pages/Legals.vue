@@ -30,6 +30,13 @@
         <p>Code APE 6202A - N° TVA : FR 22 424 761 419</p>
         <p>Siège social : 2 rue Kellermann 59100 Roubaix - France.</p>
       </div>
+      <div id="modal-legals-host" v-if="$root.hash === 'soyoustart'">
+        <p>So You Start</p>
+        <p>OVH SAS au capital de 10 069 020€</p>
+        <p>RCS Roubaix – Tourcoing 424 761 419 00045</p>
+        <p>Code APE 2620Z — N° TVA : FR 22 424 761 419</p>
+        <p>Siège social&nbsp;: 2 rue Kellermann 59100 Roubaix - France.</p>
+      </div>
       <div id="modal-legals-host" v-else>
         <p>Hetzner Online AG<br>
         Stuttgarter St. 1<br>
