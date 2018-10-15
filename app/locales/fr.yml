@@ -59,10 +59,10 @@ search:
 home:
   intro:
     subtitle: Changer le monde,<br>un octet à la fois
-    text: Framasoft, c’est une association d’<strong>éducation populaire</strong>,
+    text: '@:data.txt.soft, c’est une association d’<strong>éducation populaire</strong>,
       un groupe d’<span aria-label="amies">ami·es</span> <span aria-label="convaincues">convaincu·es</span> qu’un monde numérique
       <strong>émancipateur</strong> est possible, <span aria-label="persuadées">persuadé·es</span> qu’il adviendra grâce à des
-      <strong>actions concrètes</strong> sur le terrain et en ligne avec vous et pour vous !
+      <strong>actions concrètes</strong> sur le terrain et en ligne avec vous et pour vous !'
     btn: Soutenez nos actions
   more:
     title: Framasoft c'est…
