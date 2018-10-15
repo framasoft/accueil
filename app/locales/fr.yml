@@ -112,8 +112,8 @@ home:
     title: Contributopia
     subtitle: La feuille de route de Framasoft, <br>c'est parti pour l'an 2
     meet:
-      title: Frama<br>hub
-      text: 'Au départ une alternative à Meetup ou aux événements Facebook, FramaHub
+      title: Frama<br>meet
+      text: 'Au départ une alternative à Meetup ou aux événements Facebook, Framameet
         se veut un outil de mobilisation : pour l’anniversaire surprise de votre cousine,
         un colloque de 300 <span aria-label="invités">invité⋅es</span> ou une manifestation de 15 000 personnes.'
     petitions:
