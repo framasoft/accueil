@@ -11,7 +11,7 @@
       </div>
       <div class="container">
         <div class="clearfix">
-          <!-- <I18n/> Remove i18n until translation is ready -->
+          <I18n/>
         </div>
         <div class="clearfix">
           <div class="col-sm-5">
@@ -245,8 +245,11 @@
           <p>
             <a href="#why" v-html="$t('home.soutenir.why')"></a><br>
             <a href="#money" v-html="$t('home.soutenir.money')"></a><br>
-            <a href="https://framasoft.org/img/fr/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018.jpg" 
-              v-html="$t('home.soutenir.numbers')" target="_blank"></a><br>
+            <a v-if="$t('lang') === 'fr'" href="https://framasoft.org/img/fr/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018.jpg"
+              v-html="$t('home.soutenir.numbers')" target="_blank"></a>
+            <a v-else-if="$t('lang') === 'en'" href="https://framasoft.org/img/en/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018.jpg"
+              v-html="$t('home.soutenir.numbers')" target="_blank"></a>
+            <br>
             <a href="#timeline" v-html="$t('home.soutenir.timeline')" @click="modal.openTL = true;"></a>
           </p>
 
