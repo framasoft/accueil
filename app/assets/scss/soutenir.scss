@@ -1,0 +1,408 @@
+$monthly: #DBA306; // $jaune foncé
+$onetime: #366F86; // $bleu foncé
+
+#soutenir {
+  .container {
+    padding: 30px 0;
+    background: transparent url('../img/dots.png') no-repeat 5% 95%;
+  }
+
+  .ombre {
+    padding: 1em 2em 0;
+  }
+
+  .col-md-7, .col-md-5 {
+    padding: 1em 0.5em;
+  }
+
+  h2 {
+    font-size: 46px;
+  }
+
+  h3 {
+    color: #616161;
+  }
+
+  #why, #timeline, #money { /* = scroll to #soutenir */
+    position: absolute;
+  }
+
+  #why ~ .container .why,
+  #timeline ~ .container .timeline,
+  #money ~ .container .money, {
+    display: none;
+  }
+
+  #why:target ~ .container .why,
+  #timeline:target ~ .container .timeline,
+  #money:target ~ .container .money {
+    display: block;
+  }
+
+  .panel-group {
+    background: #fff;
+    box-shadow: $ombre;
+  }
+
+  .panel {
+    margin-top: -1px;
+    border-radius: 0;
+  }
+
+  .panel-heading h4 {
+    color: #555;
+
+    &:first-letter {
+      color: #dba306;
+    }
+  }
+
+  #modalTL {
+    .modal-header {
+      background: #fff;
+    }
+    .modal-footer {
+      border: none;
+    }
+    .modal-content {
+      border-radius: 0;
+    }
+  }
+}
+
+.money img {
+  display: block;
+  margin: auto;
+}
+
+#howmuch {
+  .active, :active {
+    box-shadow: none;
+  }
+
+  .btn i { color: #757575; }
+
+  .btn:nth-of-type(2).active {
+    span { border-bottom: 3px solid $monthly; }
+    i { color: $monthly; }
+  }
+
+  .btn:nth-of-type(1).active {
+    span { border-bottom: 3px solid $onetime; }
+    i { color: $onetime; }
+  }
+
+  .amount {
+    line-height: 2em;
+    padding: 1em 0;
+  }
+}
+
+.amount {
+  .btn {
+    display: inline-block;
+    font-size: 1.2em;
+    line-height: 20px;
+    margin-bottom: 10px;
+    padding: 0.65em 0;
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    width: 100%;
+
+    &.selected {
+      color: #fff;
+
+      &:hover, &:focus {
+        opacity: 0.9;
+      }
+    }
+  }
+
+  .input-group input {
+    margin-left: -1px;
+    width: 100%;
+  }
+
+  .input-group span,
+  .input-group input {
+    line-height: 20px;
+    font-size: 1.2em;
+    padding: 0.65em 0.8em;
+    border: 1px solid #ccc;
+    box-shadow: none;
+    height: auto;
+    border-radius: 0;
+  }
+}
+
+.monthly .amount {
+  .btn {
+    &.selected {
+      background-color: $monthly;
+      border-color: $monthly;
+    }
+
+    &:hover, &:focus {
+      border-color: $monthly;
+    }
+  }
+
+  .input-group {
+    &.selected {
+      span {
+        background-color: $monthly;
+        color: #fff;
+      }
+      span, input {
+        border-color: $monthly;
+      }
+    }
+
+    &:hover, &:focus {
+      span,
+      input {
+        border-color: $monthly;
+      }
+    }
+  }
+}
+
+.onetime .amount {
+  .btn {
+    &.selected {
+      background-color: $onetime;
+      border-color: $onetime;
+    }
+
+    &:hover, &:focus {
+      border-color: $onetime;
+    }
+  }
+
+  .input-group {
+    &.selected {
+      span {
+        background-color: $onetime;
+        color: #fff;
+      }
+      span, input {
+        border-color: $onetime;
+      }
+    }
+
+    &:hover, &:focus {
+      span,
+      input {
+        border-color: $onetime;
+      }
+    }
+  }
+}
+
+.modal .modal-header {
+  background: $onetime;
+}
+
+.modal.monthly .modal-header {
+  background: $monthly;
+}
+
+#whoAreYou {
+  p.pull-left {
+    line-height: 30px;
+    margin: 0;
+  }
+
+  .btn-group {
+    .active, :active {
+      box-shadow: none;
+    }
+    i { color: #757575; }
+  }
+
+
+  .well {
+    margin:0;
+  }
+
+  .input-group-addon {
+    color: #757575;
+    background: #fff;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 6px;
+  }
+
+  input, select {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .lastname, .society, .firstname,
+  .address1, .address2, .zip, .city {
+    margin-bottom: 0;
+  }
+
+  .address1 input {
+    border-bottom-style: dashed;
+  }
+
+  .email input,
+  .country select {
+    border-bottom-color: #fff;
+  }
+
+  .email.has-error input  {
+    border-bottom-color: #a94442;
+  }
+
+  .email.has-success input  {
+    border-bottom-color: #3c763d;
+  }
+
+  .address2, .zip, .city, .country {
+    .fa { visibility: hidden; }
+  }
+
+  .email, .address1, .address2, .zip, .city, .country {
+    .input-group-addon {
+      border-bottom-color: #fff !important;
+    }
+  }
+
+ .society, .lastname, .adress1 {
+    .input-group-addon {
+      border-bottom-color: #ccc !important;
+    }
+  }
+
+  .lastname, .zip {
+    padding-right: 0;
+  }
+
+  .firstname, .city {
+    padding-left: 0;
+    border-left: 1px solid #ccc !important;
+  }
+
+  .email .input-group-addon {
+    border-radius: 4px 0px 0px 4px;
+  }
+
+  .email input {
+    border-radius: 0px 4px 4px 0px;
+  }
+
+  .lastname .input-group-addon,
+  .society .input-group-addon {
+    border-radius: 4px 0px 0px 0px;
+  }
+
+  .firstname input,
+  .society input {
+    border-radius: 0px 4px 0px 0px;
+  }
+
+  .country select {
+    border-radius: 0px 0px 4px 0px;
+  }
+
+  .country .input-group-addon {
+    border-radius: 0px 0px 0px 4px;
+  }
+}
+
+.monthly #whoAreYou {
+  .btn.active {
+    span { border-bottom: 3px solid $monthly; }
+    i { color: $monthly; }
+  }
+}
+
+.onetime #whoAreYou {
+  .btn.active {
+    span { border-bottom: 3px solid $onetime; }
+    i { color: $onetime; }
+  }
+}
+
+#defiscalise {
+  padding: 0 1em;
+  font-size: 14px;
+}
+
+#payment{
+  margin-top: 0em;
+
+  label.btn {
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-bottom-width: 3px;
+    i { color: #757575; }
+  }
+
+  .active, :active {
+    box-shadow: none;
+  }
+
+  .col-xs-3:nth-of-type(1) { padding: 0 10px 0 15px; }
+  .col-xs-3:nth-of-type(2) { padding: 0 10px 0 5px; }
+  .col-xs-3:nth-of-type(3) { padding: 0 10px 0 5px; }
+  .col-xs-3:nth-of-type(4) { padding: 0 15px 0 5px; }
+}
+
+.monthly #payment {
+  .btn.active {
+    border-color: $monthly;
+    i { color: $monthly; }
+  }
+}
+
+.onetime #payment {
+  .btn.active {
+    border-color: $onetime;
+    i { color: $onetime; }
+  }
+}
+
+#btnVerif {
+  font-size: 24px;
+  padding: 0.6em 2em;
+  margin: 1em 0 0.75em;
+  color: #fff;
+  background-color: $onetime;
+  border: 1px solid $onetime;
+
+  &:hover, &:focus {
+    opacity: 0.9;
+  }
+}
+
+.monthly #btnVerif {
+  background-color: $monthly;
+  border: 1px solid $monthly;
+}
+
+.help-block li {
+  font-size: 12px;
+}
+
+.clearfix.help-block {
+  margin-left: -2em;
+  margin-right: -2em;
+  margin-bottom: -1em;
+  margin-top: 0;
+  padding: 1em 2em;
+  background: #f5f5f5;
+  border-top: 1px solid #eee;
+}

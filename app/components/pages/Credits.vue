@@ -141,7 +141,7 @@
             <span v-html="$root.html.drive"></span> est animé par
             le logiciel libre <a href="https://nextcloud.org">Nextcloud</a>.<br>
             Le code source du thème conçu par {{ $root.people.jo }} se trouve sur
-            <a href="https://framagit.org/framasoft/nextcloud-theme"><span v-html="$root.color.git"></span></a>.
+            <a href="https://framagit.org/framasoft/framadrive"><span v-html="$root.color.git"></span></a>.
           </p>
         </section>
         <section v-show="$root.hash === 'games'">

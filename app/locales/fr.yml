@@ -1,8 +1,8 @@
 lite: Accès rapide
 full: Accès classique
-home: Accueil
+
 meta:
-  title: '@:data.txt.soft ~ Page portail du réseau'
+  title: '@:data.txt.soft - Changer le monde, un octet à la fois.'
   lead: La route est longue mais la voie est libre…
   desc: 'Association française de loi 1901, issue du monde éducatif, @:data.txt.soft
     est un réseau d’éducation populaire consacré principalement au logiciel libre.
@@ -55,6 +55,263 @@ search:
   btn: Rechercher
   frama: sur les sites de @:data.txt.soft
   web: sur le web
+
+home:
+  intro:
+    subtitle: Changer le monde,<br>un octet à la fois
+    text: Framasoft, c’est une association d’<strong>éducation populaire</strong>,
+      un groupe d’<span aria-label="amies">ami·es</span> <span aria-label="convaincues">convaincu·es</span> qu’un monde numérique
+      <strong>émancipateur</strong> est possible, <span aria-label="persuadées">persuadé·es</span> qu’il adviendra grâce à des
+      <strong>actions concrètes</strong> sur le terrain et en ligne avec vous et pour vous !
+    btn: Soutenez nos actions
+  more:
+    title: Framasoft c'est…
+    libre:
+      title: '@:data.txt.libre, l’annuaire du Libre'
+      text: 'Le projet historique de Framasoft : des centaines de logiciels et de contenus culturels libres, classés, testés et présentés dans des fiches synthétiques.'
+    book:
+      title: '@:data.txt.book, la maison d’édition'
+      text: Les livres libres offrent la même liberté que les logiciels libres. Nous publions des manuels, des livres techniques, mais aussi des romans et même des bandes dessinées.
+    blog:
+      title: '@:data.txt.blog, l’actualité du Libre'
+      text: 'L’actualité de Framasoft, de la culture libre et des communs : des chroniques, une revue de presse, des traductions, des interviews.'
+    confs:
+      title: Des conférences, des ateliers
+      text: Plus d'une centaine de conférences, ateliers et interventions par an. Dans toute la francophonie, essentiellement à destination du grand public.
+    footer: 'Framasoft, c’est près d’une cinquantaine de projets.'
+    link: Voir la présentation complète.
+  dio:
+    title: Dégooglisez votre Internet<br> avec nos 32 services
+    subtitle: Des <strong>alternatives éthiques</strong> sont possibles.<br>
+      Démonstration en <strong>{count} exemples</strong>.
+    btn: Soutenir l'existence de ces services et aider à en développer de nouveaux
+    footer: L’ensemble de nos services, avec la documentation pour les maîtriser,
+      se trouve sur le site <a href=@:data.link.dio">@:txt.dio</a>
+  peertube:
+    title: 'PeerTube : l’alternative à YouTube qui se fait avec et grâce à vous'
+    text: Découvrez la version 1 de PeerTube, qui vous permet de créer <strong>votre</strong>
+      alternative à YouTube. Ce logiciel a été développé grâce à vos contributions.<br>
+      Ensemble, inventons la plateforme vidéo qui nous ressemble.
+    btn: Parcourir les principales fonctionnalités
+    footer: 'Pour en savoir plus sur le logiciel PeerTube, découvrir comment il s’organise en
+      <abbr title="Appelée aussi fédivers, c’est l’ensemble des instances fédérées.">fédération</abbr>
+      et comprendre la façon de créer son <abbr title="Installation décentralisée sur un serveur,
+      accessible grâce à une adresse Web spécifique.">instance</abbr> :
+      <a href="https://joinpeertube.org" lang="en">JoinPeertube</a>'
+    modal:
+      title: Principales fonctionnalités de PeerTube
+      text: PeerTube est un logiciel complet, dont voici quelques possibilités.
+      features:
+      - Import depuis Youtube
+      - Import de fichiers .torrent
+      - Sous-titres
+      - Recherche avancée
+      - Abonnement des utilisateurs
+      - Flux RSS
+  cuo:
+    title: Contributopia
+    subtitle: La feuille de route de Framasoft, <br>c'est parti pour l'an 2
+    meet:
+      title: Frama<br>hub
+      text: 'Au départ une alternative à Meetup ou aux événements Facebook, FramaHub
+        se veut un outil de mobilisation : pour l’anniversaire surprise de votre cousine,
+        un colloque de 300 <span aria-label="invités">invité⋅es</span> ou une manifestation de 15 000 personnes.'
+    petitions:
+      title: Frama<br>pétitions
+      text: 'Organiser la sensibilisation à une cause qui vous tient à cœur. Alerter l’opinion.
+        Regrouper les personnes qui veulent mener une action commune.'
+    mooc:
+      title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts, Neutres et Solidaires">CHATONS</abbr>
+      text: Un parcours pédagogique complet, débordant de ressources utiles,
+        pour sensibiliser aux enjeux du numérique et organiser la résistance.
+    btn: Contribuez à une nouvelle année de Contributopia
+    footer: 'Ceci n’est qu’un échantillon de l’ensemble des actions que nous menons actuellement…
+      Découvrez l’intégralité de notre feuille de route : <a href="@:data.link.cuo">@:data.txt.cuo</a> !'
+  soutenir:
+    title: Soutenir Framasoft
+    text: L'association Framasoft ne vit <strong>que</strong> de vos dons.<br>
+      Ce qu'on a fait vous a plu ? Vous pensez que nous allons dans le bon sens ?
+      Alors, si vous en avez l'envie et les moyens, nous vous invitons à faire un don.
+    why: Pourquoi soutenir Framasoft ?
+    money: Où va votre argent ?
+    numbers: Framasoft en quelques chiffres
+    timeline: Historique des actions
+form:
+  step1:
+    title: 1. Je donne pour le libre
+    privilegie: '@:data.txt.soft privilégie les dons récurrents pour continuer son action de façon sereine et pérenne.'
+    count: Actuellement, @:data.txt.soft compte
+    donators: donateurs récurrents.
+    monthly: tous les mois
+    oneshot: une fois
+    monthly_ex: 'ex. 42'
+    oneshot_ex: 'ex. 133.7'
+    other: Autre montant
+    or: OU
+
+  step2:
+    title: 2. Je complète mes informations
+    private: Confidentialité
+    private_tip:
+    - 'Ces informations sont nécessaires pour des raisons pratiques et
+      légales afin de pouvoir délivrer un reçu fiscal.'
+    - 'Si vous ne souhaitez pas ou ne pouvez pas défiscaliser votre don,
+      vous pouvez tout à fait '
+    - 'remplir ce formulaire avec de fausses informations'
+    - '(attention, n’utilisez pas votre compte Paypal dans ce cas).'
+    - 'Sachez également que vous pouvez vérifier si votre don a bien été
+      effectué dans la page « <a href="@:data.link.soutenir/@:lang/stats">Liste des donateurs</a> ».'
+    - 'Bien évidemment, vos nom et prénom y sont anonymisés.'
+
+    type: Je représente
+    part: un particulier
+    corp: une société
+    corp_tip: Entreprise, association, collectivité…
+    mecenat: Si vous souhaitez devenir partenaire de @:data.txt.soft et <a href="@:data.link.soutenir/@:lang/partenaires">apparaître sur cette page</a>, <a href="@:data.link.contact/#soutenir">contactez-nous</a>.
+    society: Raison sociale
+    society_ex: 'ex : Free Software Fondation'
+    society_email_ex: 'ex : contact@fsf.org'
+    lastname: Nom
+    lastname_ex: 'ex : Stallman'
+    firstname: Prénom
+    firstname_ex: 'ex : Richard'
+    email: E-mail
+    email_ex: 'ex : r.stallman@outlock.com'
+    address1: Adresse
+    address1_ex: 'ex : 12 rue de la liberté'
+    address2: Complément
+    address2_ex: 'ex : Bâtiment VI'
+    zip: Code postal
+    zip_ex: 'ex : 69007'
+    city: Ville
+    city_ex: 'ex : Lyon'
+    country: Pays
+    error_empty: Ce champ doit être renseigné.
+    error_email: Vous devez saisir une adresse email valide.
+  step3:
+    title: 3. J’accède au paiement
+    defisc: Infos sur la défiscalisation
+    defisc_title: Défiscalisation
+    defisc_tip: '
+      @:data.txt.soft est une association reconnue d’intérêt général<br>
+      A ce titre, si vous êtes soumis à l’impôt sur le revenu, vous pourrez déduire 66% du montant de votre don.
+      Ainsi, si vous avez donné 10€ x 12 mois (120€), vous pourrez déduire 120x66% (79,20€) de votre prochaine déclaration.<br>
+      Le reçu fiscal vous sera envoyé automatiquement par e-mail avant la déclaration.<br>
+      Pour des informations plus détaillées, cliquez afin d’accéder à notre page explicative.'
+
+    defisc_text:
+    - 'En France, grâce à la déduction d’impôts de '
+    - ', <b>votre don de </b>'
+    - ' ne vous coûtera que '
+    - ' par mois'
+    cb: Carte bancaire
+    vir: Virement
+    chq: Chèque
+    pp: Paypal
+    i_give: Je donne
+    monthly: par mois
+    now: maintenant
+    coord: Vos coordonnées sont notées.
+    email_send:
+    - 'Un email vient de vous être envoyé à l’adresse'
+    - 'contenant un rappel des instructions ci-dessous.'
+    ok: Ok, j’ai compris
+
+    modal_vir:
+      by: par virement bancaire
+      no_sepa: '
+        @:data.txt.soft ne propose pas de formulaire SEPA pour des prélèvements bancaires,
+        mais vous pouvez nous faire un don par virement directement.<br>
+        Ainsi vous décidez de la somme, de la fréquence et vous pouvez le modifier à tout moment.'
+      to_finish: '
+        Pour finaliser votre don, merci de noter nos coordonnées bancaires :'
+      ref: '
+        Notez aussi cette <b>référence de paiement</b> qu’il faudra ajouter à la description du virement :'
+      to_bank: '
+        Voyez ensuite avec votre banque comment planifier le virement.
+        Certaines banques permettent de gérer ça en ligne.'
+
+    modal_chq:
+      by: par chèque
+      to_finish: '
+        Pour finaliser votre don, merci de remplir votre chèque
+        <b>à l’ordre de « Association @:data.txt.soft »</b> et de
+        noter cette <b>référence de paiement au dos</b> :'
+      to_post: '
+        Envoyez ensuite votre chèque au siège l’association
+        à cette adresse postale :'
+
+  ask:
+    title: Questions
+    stop: 'Les dons récurrents peuvent être stoppés à tout moment <a href="@:data.link.contact/#soutenir">sur simple demande</a>.'
+    edit: 'Si vous souhaitez modifier votre don récurrent, <a href="@:data.link.contact/#soutenir">contactez-nous</a>, nous stopperons les prélèvements et vous pourrez refaire un don.'
+    send: 'Les reçus fiscaux (en France uniquement) sont envoyés par courriel en mars/avril @:data.year.next
+      (avant la déclaration d’impôt) pour les dons versés en @:data.year.current'
+    moral: Les rapports d’activité et financier de l’association peuvent être consultés depuis notre page de <a href="@:data.link.soft/@:lang/association">présentation de l’association</a>
+    alter1: Pour <a href="@:data.link.contact/foire-aux-questions/#dons-alternatifs">des raisons pratiques</a>, nous n’acceptons pas les dons depuis les plateformes de micro paiement (Lilo, Flattr, Tipeee…) à l’exception de Liberapay
+    lp: Faire un don via Liberapay
+    alter2: Nous n’acceptons pas non plus les dons en crypto-monnaie (Bitcoin, Ether, Monero…) mais nous observons avec attention <a href="https://duniter.org/fr/comprendre/">la monnaie libre Ğ1</a>.
+    other: Si vous avez d’autres questions, <a href="@:data.link.soutenir/@:lang/questions">les réponses se trouvent peut-être là</a>…
+
+why:
+  timeline:
+    title: Historique de ce qui a déjà été fait
+  money:
+    title: Découvrez où va votre argent
+    list:
+      - 'Ressources humaines : @:data.money.rh%'
+      - 'Serveurs et domaines : @:data.money.servers%'
+      - 'Frais de fonctionnement : @:data.money.running%'
+      - 'Interventions et projets ext. : @:data.money.interventions%'
+      - 'Communication : @:data.money.comm%'
+      - 'Achats de marchandise : @:data.money.goods%'
+      - 'Frais bancaires : @:data.money.bank%'
+  reasons:
+    title: 6 bonnes raisons de nous soutenir
+    list:
+    - ['1. Parce que l’enfermement, c’est maintenant',
+      'La NSA (et la DGSE), Facebook, Google, Amazon, Microsoft et Apple…
+      les révélations d’E. Snowden ont montré que les pires cauchemars des informaticien·nes
+      se sont réalisés. Nous sommes enfermé·es dans des services, des outils et une culture
+      qui centralisent nos données et s’en servent allègrement. La seule solution réside dans
+      l’usage et l’éducation aux logiciels et services qui respectent NOS libertés fondamentales.']
+    - ['2. Pour plus d’alternatives libres.',
+      'Depuis 16 ans, @:data.txt.soft est une porte d’entrée francophone dans le monde
+      du logiciel et de la culture libres, un trait d’union entre les développeur·euses
+      de solutions libres et le grand public. Le succès des services alternatifs
+      de « Dégooglisons Internet » montre qu’il est possible de respecter les
+      personnes et leurs données. Nous voulons aller beaucoup plus loin et seul
+      votre soutien nous permettra de proposer davantage de services et de les améliorer.']
+    - ['3. Parce que les gentils, c’est nous !',
+      '@:data.txt.soft, ce sont des retraité·es, des salarié·es, des chômeur·euses, des artistes, des profs
+      et des étudiant·es… Pas forcément spécialisé·es dans l’informatique, mais suffisamment sensibilisé·es
+      pour savoir que le Libre fait partie de la solution. Alors on s’engage à une éthique par
+      <a href="@:data.link.soft/fr/charte">une charte</a> et on prend sur notre temps pour mettre en valeur
+      et proposer plus de solutions libres à un public de plus en plus large.']
+    - ['4. Pour décider où vont vos impôts (avec défiscalisation).',
+      'Pour mieux gérer ses projets, @:data.txt.soft s’est dotée d’une association loi 1901,
+      reconnue d’intérêt général. Vos dons peuvent donc être déduits de vos impôts (en France uniquement).
+      Ainsi, par exemple, pour un don récurrent de 120 € (soit 10 € par mois pendant un an),
+      la réduction est de 79,20 € et donc le coût réel de votre don est de 40,80 €.
+      Ainsi, vous participez directement à nos initiatives, nos productions,
+      nos frais de structures et l’emploi de plusieurs salariés.']
+    - ['5. Parce que l’économie du don rend indépendant.',
+      'Dès que vous cliquez, partagez, utilisez un logiciel ou un site/service : vous lui donnez de la valeur.
+      C’est l’économie de l’attention. Cette attention est ensuite monétisée sour forme de publicité
+      et de vente de vos données (Facebook, Google, Twiter, Microsoft, etc.) ou sous forme
+      d’achats enfermants (Apple, Amazon). Cette attention peut aussi créer de la valeur sous forme
+      de dons, partages et participations (Wikipédia). Nous avons choisi ce dernier modèle pour
+      notre fonctionnement. Cela nous rend indépendant·es des lois du marché tout en laissant
+      libres nos donateur·ices.']
+    - ['6. Pour changer le monde ensemble.',
+      'Oui : rien de moins. Projet après projet, nous démontrons que des alternatives libres,
+      simples, respectueuses et communautaires sont possibles. Dans <a href="https://framabook.org">
+      notre maison d’édition collaborative</a> les auteur·ices ne brident pas leurs livres numériques
+      proposés en libre téléchargement et sont rémunéré·es sur les ventes papier ou par votre soutien direct.
+      Nos <a href="@:data.link.dio/fr/list">services Dégooglisons</a> sont de plus en plus utilisés…
+      Il reste du chemin à faire et nous pouvons le poursuivre avec votre soutien : « la route est longue mais la voie est libre ».']
+
+
 cat:
   communaute:
     title: Libre communauté
@@ -158,23 +415,23 @@ cat:
       forms:
         what: Enquêter
         title: Création de questionnaires
-        desc: '@:data.txt.forms vous permet de créer les questionaires dont vous avez
-          besoin, que ce soit dans un cadre scolaire, familial ou associatif. Créez
-          vos questions en fonction de vos besoins, des formulaires à choix multiples
-          aux champs de texte libre.'
+        desc: '@:data.txt.forms vous permet de créer les questionnaires en fonction
+        de vos besoins, à l’aide de formulaires à choix multiples ou de champs
+        de texte libre.'
       agenda:
         what: Organiser
         title: Agenda partagé
-        desc: Avec @:data.txt.agenda vous pouvez créer des agendas personnels, professionnels,
-          le planning d´une salle ou des activités de votre organisation, et les partager
-          librement. Vous restez maîtres de vos données, et vous choisissez auprès
-          de qui, où et quand elles s´affichent.
+        desc: 'Avec @:data.txt.agenda vous pouvez gérer des agendas personnels
+        ou professionnels, le planning d´une salle ou les activités de votre organisation et
+        les partager librement. Vous restez maîtres de vos données et vous choisissez
+        auprès de qui, où et quand elles s´affichent.'
       date:
         what: Organiser
         title: Organiser des rendez-vous et des sondages
-        desc: '@:data.txt.date c’est un peu comme Doodle mais en libre. Rien de plus
-          simple de créer un rendez-vous ou un sondage sans inscription pour y inviter
-          vos collaborateurs.'
+        desc: '@:data.txt.date c’est un peu comme Doodle, mais en libre. Rien de plus
+        simple que de créer un rendez-vous ou un sondage sans inscription pour y
+        inviter <span aria-label="amis">ami⋅es</abbr> ou <span aria-label="collaboratrices
+        et collaborateurs">collaborateur⋅ices</abbr>.'
       board:
         what: Organiser
         title: Gérer des projets
@@ -255,15 +512,15 @@ cat:
       memo:
         what: Cogiter
         title: Organisation d’idées
-        desc: '@:data.txt.memo vous permet de créer un tableau à colonnes où quiconque
-          peut venir y déposer des notes colorées. Tel @:data.txt.pad, aucune inscription
-          n´est requise, les modifications se voient et sont enregistrées en direct.'
+        desc: '@:data.txt.memo vous permet de créer un tableau à colonnes où tout le monde
+        peut venir déposer des notes colorées. Comme pour Framapad, aucune inscription
+        n’est requise, les modifications se voient et sont enregistrées en direct.'
       notes:
         what: Noter
         title: Prise de notes
         desc: Avec @:data.txt.notes vous pouvez prendre et conserver des notes, images,
           liens… et même des fichiers ; et les synchroniser avec tous vos appareils
-          (voire les partager avec des ami⋅e⋅s).
+          (voire les partager avec des <span aria-label="amis">ami⋅e⋅s</span>).
       bag:
         what: Suivre l’actualité
         title: Ne ratez plus aucun article !
@@ -296,8 +553,8 @@ cat:
         what: Partager
         title: Partager des fichiers anonymement
         desc: Avec @:data.txt.drop, fini les pièces jointes trop lourdes qui empêchent
-          l’envoi d’un <span lang="en">email</span>. Ce service libre vous permet
-          de partager facilement des fichiers de manière sécurisé.
+          l’envoi d’un <span lang="en">email</span>. Ce service libre vous permet de
+          partager facilement des fichiers de façon sécurisée.
       bin:
         what: Partager
         title: Transmettre des données chiffrées

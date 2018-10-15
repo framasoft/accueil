@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import VueI18n from 'vue-i18n';
 import vueHeadful from 'vue-headful';
+import checkView from 'vue-check-view';
 
 import App from './App.vue';
 import Home from './components/pages/Home.vue';
@@ -12,6 +13,7 @@ import './assets/scss/main.scss';
 
 Vue.use(VueRouter);
 Vue.use(VueI18n);
+Vue.use(checkView);
 Vue.component('vue-headful', vueHeadful);
 
 const defaultLocale = 'fr';
@@ -66,6 +68,10 @@ Object.keys(data.link).forEach((k) => {
     }
   }
 });
+data.year = {
+  current: (new Date().getFullYear()).toString(),
+  next: (new Date().getFullYear() + 1).toString(),
+};
 
 const routes = [
   { path: '/', component: Home, meta: { id: 'home', lang: defaultLocale } },
@@ -123,7 +129,9 @@ const i18n = new VueI18n({
 });
 
 // Framanav
-if (!window.vuefsPrerender && document.querySelectorAll('script[src$="nav.js"]').length < 1) {
+if (!window.vuefsPrerender
+  && document.querySelectorAll('script[src$="nav.js"]').length < 1
+  && process.env.NODE_ENV !== 'development') {
   const navConfig = document.createElement('script');
   navConfig.innerHTML = 'l$ = { js: { j$: \'noConflict\' } }';
   document.getElementsByTagName('head')[0].appendChild(navConfig);
@@ -135,6 +143,9 @@ if (!window.vuefsPrerender && document.querySelectorAll('script[src$="nav.js"]')
 // Routes
 const router = new VueRouter({
   routes,
+  scrollBehavior() {
+    return { x: 0, y: 0 };
+  },
   mode: 'history',
   base: `${__dirname}${process.env.BASE_URL}`,
 });

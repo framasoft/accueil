@@ -44,7 +44,9 @@ export default {
     };
   },
   created() {
-    this.loadSlides();
+    if (!window.vuefsPrerender) {
+      this.loadSlides();
+    }
   },
   methods: {
     loadSlides() {

@@ -14,6 +14,7 @@ $carousel-ombre: 0px 3px 3px rgba(50, 50, 50, 0.5);
 $button-ombre: 0px 1px 1px rgba(50, 50, 50, 0.5);
 
 /*---------- général ----------------------*/
+@import "../fonts/ptsans_caption";
 
 /* Correctif padding Bootstrap 15px → 25px */
 .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {padding-right:25px;padding-left:25px;}
@@ -53,7 +54,7 @@ a, a:hover, a:focus, a:visited, a h4 {text-decoration: none !important;}
 /*----------- titraille général ------------*/
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: PTSansCaption, GillSans, sans-serif;
+  font-family: "PTSansCaption", sans-serif;
   font-weight: bold;
   margin-left: 0;
   margin-right: 0;
@@ -302,7 +303,7 @@ body > .row {
   margin-top: 1.5em;
 }
 
-#home #app .partenaires img {
+#full #app .partenaires img {
   width: 150px;
 }
 
@@ -495,7 +496,7 @@ blockquote {
 }
 
 /*--------------------Illustrations -----------------*/
-#home #app, #lite #app {
+#full #app, #lite #app {
   img {
     width:80%;
     margin:0.5em 10%;
@@ -552,12 +553,13 @@ blockquote {
 @import "frama/carousel";
 // @import "frama/internav";
 @import "frama/labels";
-// @import "frama/modals";
+@import "frama/modals";
 // @import "frama/navs";
 @import "frama/panels";
-// @import "frama/popovers";
+@import "frama/popovers";
 
 @import "frama/cleaning";
 @import "frama/a11y";
 
-
+@import "soutenir";
+@import "home";

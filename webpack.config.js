@@ -174,7 +174,7 @@ if (process.env.NODE_ENV === 'development') {
       renderer: new Renderer({
         headless: true,
         renderAfterDocumentEvent: 'render-event',
-        maxConcurrentRoutes: 4,
+        maxConcurrentRoutes: 1,
         injectProperty: 'vuefsPrerender',
         inject: {
           prerender: true,
