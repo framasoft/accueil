@@ -143,8 +143,11 @@ if (!window.vuefsPrerender
 // Routes
 const router = new VueRouter({
   routes,
-  scrollBehavior() {
-    return { x: 0, y: 0 };
+  scrollBehavior(to) {
+    if (to.path.match(/full/)) {
+      return { x: 0, y: 0 };
+    }
+    return {};
   },
   mode: 'history',
   base: `${__dirname}${process.env.BASE_URL}`,
