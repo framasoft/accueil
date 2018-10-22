@@ -576,21 +576,24 @@
     height:32px;
     box-shadow:1393px 340px $bbbleu,1983px 570px $bbbleu,1786px 1532px $bbbleu,886px 1010px $bbbleu,541px 898px $bbbleu,860px 47px $bbbleu,1935px 480px $bbbleu,1758px 843px $bbbleu,1822px 758px $bbbleu,217px 215px $bbbleu,1229px 1103px $bbbleu,1228px 859px $bbbleu,1677px 1086px $bbbleu,597px 173px $bbbleu,691px 1758px $bbbleu,1669px 893px $bbbleu,99px 1320px $bbbleu,879px 637px $bbbleu,1788px 1810px $bbbleu,1914px 1045px $bbbleu,582px 225px $bbbleu,1313px 242px $bbbleu,455px 19px $bbbleu,364px 1062px $bbbleu,820px 1989px $bbbleu,254px 329px $bbbleu,757px 1086px $bbbleu,1047px 629px $bbbleu,887px 1812px $bbbleu,384px 1427px $bbbleu,1459px 996px $bbbleu,1154px 1093px $bbbleu,1923px 681px $bbbleu,998px 56px $bbbleu,57px 969px $bbbleu,185px 285px $bbbleu,1731px 1696px $bbbleu,1593px 1818px $bbbleu,834px 247px $bbbleu,708px 764px $bbbleu,1311px 82px $bbbleu,655px 366px $bbbleu,1878px 1787px $bbbleu,1633px 820px $bbbleu,244px 1235px $bbbleu,367px 1703px $bbbleu,455px 358px $bbbleu,358px 1984px $bbbleu,786px 573px $bbbleu,512px 1991px $bbbleu,839px 781px $bbbleu,865px 1073px $bbbleu,369px 1339px $bbbleu,457px 762px $bbbleu,1162px 360px $bbbleu,1499px 218px $bbbleu
   }
-  #bubbles {
-    animation:animBubble 300s linear infinite
-  }
-  #bubbles2 {
-    animation:animBubble 200s linear infinite
-  }
-  #bubbles3 {
-    animation:animBubble 150s linear infinite
-  }
-  @keyframes animBubble {
-    from {
-      transform:translateY(0)
-    }
-    to {
-      transform:translateY(-950px)
-    }
-  }
+  /**
+   * Bubbles are deactivated since 22/10/18 since they consome too much CPU
+   */
+  // #bubbles {
+  //   animation:animBubble 300s linear infinite
+  // }
+  // #bubbles2 {
+  //   animation:animBubble 200s linear infinite
+  // }
+  // #bubbles3 {
+  //   animation:animBubble 150s linear infinite
+  // }
+  // @keyframes animBubble {
+  //   from {
+  //     transform:translateY(0)
+  //   }
+  //   to {
+  //     transform:translateY(-950px)
+  //   }
+  // }
 }
