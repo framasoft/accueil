@@ -135,7 +135,7 @@
         <h2 v-html="$t('home.peertube.title')"></h2>
         <p v-html="$t('home.peertube.text')"></p>
         <p>
-          <a href="#peertube" @click="modal.openPT = true;"
+          <a href="#peertube" @click="openPeertubeModal();"
             class="btn btn-default"
             v-html="$t('home.peertube.btn')">
           </a>
@@ -176,7 +176,7 @@
                 <iframe v-if="peertube"
                   width="560" height="315"
                   sandbox="allow-same-origin allow-scripts"
-                  :src="peertubeFeatures[index]"
+                  :src="loadedPeertubeFeatures[index]"
                   frameborder="0" allowfullscreen
                 ></iframe>
               </div>
@@ -858,6 +858,7 @@ export default {
   data() {
     return {
       peertube: !window.vuefsPrerender && process.env.NODE_ENV !== 'development',
+      loadedPeertubeFeatures: [],
       peertubeFeatures: [
         'https://framatube.org/videos/embed/59d306c0-fc5b-493a-956a-43785693346b',
         'https://framatube.org/videos/embed/dcad56d9-9fe6-45bc-96aa-3d778f6804c1',
@@ -942,7 +943,16 @@ export default {
     loadPeertube(e) {
       if (e.type === 'enter') {
         this.videoBackground = 'https://framatube.org/videos/embed/12b7c838-84f6-4b7d-98c6-686e4adce61d?autoplay=1&loop=1&muted=1&controls=0';
+
+        // Load the first modal iframe
+        this.loadedPeertubeFeatures = [ this.peertubeFeatures[0] ]
       }
+    },
+    openPeertubeModal() {
+      // Load all modal iframes
+      this.loadedPeertubeFeatures = this.peertubeFeatures;
+
+      this.modal.openPT = true;
     },
     onAfterSlideChange(index) {
       this.vcf.index = index;
