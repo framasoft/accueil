@@ -135,7 +135,7 @@
         <h2 v-html="$t('home.peertube.title')"></h2>
         <p v-html="$t('home.peertube.text')"></p>
         <p>
-          <a href="#peertube" @click="modal.openPT = true;"
+          <a href="#peertube" @click="openPeertubeModal();"
             class="btn btn-default"
             v-html="$t('home.peertube.btn')">
           </a>
@@ -858,14 +858,7 @@ export default {
   data() {
     return {
       peertube: !window.vuefsPrerender && process.env.NODE_ENV !== 'development',
-      peertubeFeatures: [
-        'https://framatube.org/videos/embed/59d306c0-fc5b-493a-956a-43785693346b',
-        'https://framatube.org/videos/embed/dcad56d9-9fe6-45bc-96aa-3d778f6804c1',
-        'https://framatube.org/videos/embed/edd7a468-08d5-4877-b62b-61c5f3f83ceb',
-        'https://framatube.org/videos/embed/60c4bea4-6bb2-4fce-8d9f-8a522575419d',
-        'https://framatube.org/videos/embed/8968dbe1-a387-433b-a20f-37fe9f3ca8d5',
-        'https://framatube.org/videos/embed/f57da309-6b92-4fe0-9267-ff8188cc050c',
-      ],
+      peertubeFeatures: [],
       videoBackground: 'about:blank',
       donators: 0,
       form: {
@@ -943,6 +936,18 @@ export default {
       if (e.type === 'enter') {
         this.videoBackground = 'https://framatube.org/videos/embed/12b7c838-84f6-4b7d-98c6-686e4adce61d?autoplay=1&loop=1&muted=1&controls=0';
       }
+    },
+    openPeertubeModal() {
+      this.peertubeFeatures = [
+        'https://framatube.org/videos/embed/59d306c0-fc5b-493a-956a-43785693346b',
+        'https://framatube.org/videos/embed/dcad56d9-9fe6-45bc-96aa-3d778f6804c1',
+        'https://framatube.org/videos/embed/edd7a468-08d5-4877-b62b-61c5f3f83ceb',
+        'https://framatube.org/videos/embed/60c4bea4-6bb2-4fce-8d9f-8a522575419d',
+        'https://framatube.org/videos/embed/8968dbe1-a387-433b-a20f-37fe9f3ca8d5',
+        'https://framatube.org/videos/embed/f57da309-6b92-4fe0-9267-ff8188cc050c',
+      ];
+
+      this.modal.openPT = true;
     },
     onAfterSlideChange(index) {
       this.vcf.index = index;
