@@ -767,9 +767,9 @@
             <p v-html="$t('form.step3.modal_vir.to_finish')"></p>
             <cite>
               Titulaire : Framasoft  <br>
-              Domiciliation : CCM DOUAI, 92 rue de Paris 59500 DOUAI<br>
-              RIB : 15629 02701 00044323901 01  <br>
-              IBAN : FR76 1562 9027 0100 0443 2390 101  <br>
+              Domiciliation : CCM LYON GAMBETTA, 52 COURS GAMBETTA, 69007 LYON<br>
+              RIB : 10278 07346 00020495901 82  <br>
+              IBAN : FR76 1027 8073 4600 0204 9590 182  <br>
               BIC : CMCIFR2A <br>
             </cite>
             <p v-html="$t('form.step3.modal_vir.ref')">
@@ -817,7 +817,7 @@
             <p v-html="$t('form.step3.modal_chq.to_post')"></p>
             <cite>
               Association Framasoft<br>
-              c/o Pierre-Yves GOSSET<br>
+              Locaux Motiv<br>
               10 bis, rue Jangot<br>
               69007 LYON
             </cite>
