@@ -6,8 +6,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
 const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 const CopyWebpackPlugin = require('copy-webpack-plugin');
-const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const VueLoaderPlugin = require('vue-loader/lib/plugin')
 
 let root = (process.env.NODE_ENV === 'preview') ? `/${process.env.INIT_CWD.match(/([^\/]*)\/*$/)[1]}/` : '/';
 for (let i = 0; i < process.argv.length; i += 1) {
@@ -50,6 +51,7 @@ let config = {
       {
         test: /\.scss$/,
         use: [
+          'vue-style-loader',
           'css-hot-loader',
           MiniCssExtractPlugin.loader,
           'css-loader',
@@ -85,6 +87,7 @@ let config = {
     },
   },
   plugins: [
+    new VueLoaderPlugin(),
     new MiniCssExtractPlugin({
       filename: '[name].css',
       chunkFilename: '[id].css',
@@ -148,7 +151,7 @@ if (process.env.NODE_ENV === 'development') {
   module.exports.devtool = '#source-map';
   module.exports.optimization = {
     minimizer: [
-      new UglifyJsPlugin({
+      new TerserPlugin({
         cache: true,
         parallel: true,
         sourceMap: true, // set to true if you want JS source maps
