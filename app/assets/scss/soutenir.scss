@@ -208,6 +208,10 @@ $onetime: #366F86; // $bleu foncé
   background: $onetime;
 }
 
+.modal cite.alert {
+  display: block;
+}
+
 .modal.monthly .modal-header {
   background: $monthly;
 }

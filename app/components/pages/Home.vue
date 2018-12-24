@@ -765,7 +765,7 @@
             </p>
             <p v-html="$t('form.step3.modal_vir.no_sepa')"></p>
             <p v-html="$t('form.step3.modal_vir.to_finish')"></p>
-            <cite>
+            <cite class="alert alert-success">
               Titulaire : Framasoft  <br>
               Domiciliation : CCM LYON GAMBETTA, 52 COURS GAMBETTA, 69007 LYON<br>
               RIB : 10278 07346 00020495901 82  <br>
@@ -774,7 +774,7 @@
             </cite>
             <p v-html="$t('form.step3.modal_vir.ref')">
             </p>
-            <cite class="">{{ form.pay_ref }}</cite>
+            <cite class="alert alert-success">{{ form.pay_ref }}</cite>
             <p v-html="$t('form.step3.modal_vir.to_bank')"></p>
 
             <div slot="footer">
@@ -813,9 +813,9 @@
               <span v-html="$t('form.step3.email_send[1]')"></span>
             </p>
             <p v-html="$t('form.step3.modal_chq.to_finish')"></p>
-            <cite>{{ form.pay_ref }}</cite>
+            <cite class="alert alert-success">{{ form.pay_ref }}</cite>
             <p v-html="$t('form.step3.modal_chq.to_post')"></p>
-            <cite>
+            <cite class="alert alert-success">
               Association Framasoft<br>
               Locaux Motiv<br>
               10 bis, rue Jangot<br>
