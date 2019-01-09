@@ -130,8 +130,9 @@ home:
       Discover the whole roadmap: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
   soutenir:
     title: Support Framasoft
-    text: The non-profit Framasoft is alive <strong>only</strong> through to your donations<br>
-      Did you like what we did? Do you think we are going in the right direction? If so, if you have the desire and the means, we invite you to make a donation.
+    text: Framasoft is a non-profit which can only keep running thanks to your donations.
+      Do you like what we do? Do you think we’re going in the right direction?
+      If so, and you’re able to make a donation, we’d very much appreciate it!
     why: Why support @:data.txt.soft?
     money: Where is your money going to?
     numbers: '@:data.txt.soft in a few numbers'
@@ -167,7 +168,7 @@ form:
     part: an individual
     corp: a company
     corp_tip: Company, association, community…
-    mecenat: If you would like to become a partner of @:data.txt.soft and <a href="partenaires">appear on this page</a>, <a href="@:link.contact">contact us</a>.
+    mecenat: If you would like to become a partner of @:data.txt.soft and <a href="@:data.link.soutenir/@:lang/partenaires">appear on this page</a>, <a href="@:data.link.contact/#soutenir">contact us</a>.
     society: Legal entity
     society_ex: 'ex : Free Software Fondation'
     society_email_ex: 'ex : contact@fsf.org'
