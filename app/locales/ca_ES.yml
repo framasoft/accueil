@@ -1,126 +1,130 @@
-lite: Quick access
-full: Classic home
+lite: Accés ràpid
+full: Portada clàssica
 home:
   intro:
-    subtitle: Change the world<br>one byte at a time
-    text: '@:data.txt.soft is a non-profit <strong>popular educational organization</strong>,
-      a group of friends convinced that an <strong>emancipatory</strong> digital world
-      is possible, convinced that it will arise through <strong>actual actions</strong>
-      on real world and online with and for you !'
-    btn: Support our actions
+    subtitle: Canvia el món<br>byte a byte
+    text: '@:data.txt.soft és una <strong>organització educativa popular</strong>
+      no lucrativa, un grup d''amics convençuts que és possible crear un món digital
+      <strong>emancipat</strong>, convençuts que és possible construir-lo a través
+      d''<strong>accions reals</strong> en el món real i en el món en línia, amb vós
+      i per a vós!'
+    btn: Financeu les nostres iniciatives
   more:
-    title: Framasoft is…
+    title: Framasoft és...
     libre:
-      title: '@:data.txt.libre, the free culture directory'
-      text: '@:data.txt.soft historical project: hundreds of free softwares and cultural
-        contents organized and tested, displayed with short notices'
+      title: '@:data.txt.libre, el directori de la cultura lliure'
+      text: '@:data.txt.soft projecte històric: descobriu centenars de programes lliures
+        i continguts culturals, degudament organitzats i comprovats, acompanyats d''una
+        breu descripció'
     book:
-      title: '@:data.txt.book, the publishing house'
-      text: Free books share the same freedom as free software. We publish manuals,
-        technical books, but also novels and even comics
+      title: '@:data.txt.book, el segell editorial'
+      text: Els Llibres Lliures comparteixen la llibertat del Programari Lliure. Publiquem
+        manuals, llibres tècnics, però també novel·les i, fins i tot, còmics
     blog:
-      title: '@:data.txt.blog, the news about free culture'
-      text: 'News about @:data.txt.soft, free culture and commons : chronicles, press
-        reviews, translations, interviews'
+      title: '@:data.txt.blog, les notícies sobre la cultura lliure'
+      text: 'Notícies sobre @:data.txt.soft, cultura lliure i comunitària: cròniques,
+        resums de premsa, traduccions, entrevistes'
     confs:
-      title: Conferences, workshops
-      text: More than one hundred conferences, workshops and interventions per year
-    footer: '@:data.txt.soft has more thant 50 projects. Check all of them.'
-    link: See the full presentation.
+      title: Conferències, tallers
+      text: Més d'un centenar de conferències, tallers i activitats anuals
+    footer: '@:data.txt.soft compta amb més de 50 projectes. Reviseu-los.'
+    link: Mireu-ne la presentació completa.
   dio:
-    title: Degooglize your Internet<br> with our 32 services
-    subtitle: <strong>Ethical alternatives</strong> are possible.<br> Demonstration
-      with <strong>{count} examples</strong>.
-    btn: Help us maintain these services and help us to develop new ones
-    footer: The complete list of our services, with the whole documentation to master
-      them, can be found on the <a href=@:data.link.dio>@:txt.dio</a> website
+    title: Desgooglitzeu la vostra Internet<br> amb els nostres 32 serveis
+    subtitle: <strong>Les alternatives ètiques</strong> són possibles.<br> Us ho mostrem
+      amb <strong>{count} exemples</strong>.
+    btn: Ajudeu-nos a mantenir aquests serveis i a desenvolupar-ne de nous
+    footer: La llista completa dels nostres serveis, amb tota la documentació que
+      cal per dominar-los, es pot trobar a la pàgina <a href=@:data.link.dio>@:txt.dio</a>
   peertube:
-    title: 'PeerTube : the alternative to YouTube, made with you and for you'
-    text: Have a look to 1.0 version of PeerTube, which lets you to create <strong>your</strong>
-      own alternative to YouTube. This software has been developped thanks to your
-      contriibutions.<br> All together, let’s build a smilar to us video platform
-    btn: Browse the main features
-    footer: 'To learn about the PeerTube software, discover how it’s organized into
-      a <abbr title="Also known as fediverse, the whole group of federated instances.">federation</abbr>
-      and understand how to create your own <abbr title="Decentralized installation
-      on a server, accessible through a web address.">instance</abbr>: <a href="https://joinpeertube.org"
-      lang="en">JoinPeertube</a>'
+    title: 'PeerTube: l''alternativa a YouTube, feta amb vós i per a vós'
+    text: Feu un cop d'ull a la versió 1.0 de PeerTube, que us permet crear <strong>la
+      vostra</strong> alternativa a YouTube. Aquest programari s'ha desenvolupat gràcies
+      a les vostres contribucions.<br> Entre tots, anem a construir una plataforma
+      de vídeo que ens somrigui.
+    btn: Feu una ullada a les característiques principals
+    footer: 'Per aprendre sobre PeerTube, descobriu com s''organitza mitjançant una
+      <abbr title="Coneguda també com a Fedivers, el conjunt complet d''instàncies
+      federades.">federació</abbr> i com podeu crear la vostra <abbr title="Instal·lació
+      descentralitzada en un servidor, accessible a través d''una adreça web.">instància</abbr>:
+      <a href="https://joinpeertube.org" lang="en">JoinPeertube</a>'
     modal:
-      title: Main features of PeerTube
-      text: PeerTube is a fully featured software. Here is some of its abilities.
+      title: Característiques principals de PeerTube
+      text: PeerTube és un programari amb totes les funcionalitats. Aquí tens algunes
+        de les seves possibilitats.
       features:
-      - Import from YouTube
-      - Import .torrent files
-      - Subtitles
-      - Advanced search
-      - Subscription for users
-      - RSS feeds
+      - Importa des de YouTube
+      - Importa fitxers .torrent
+      - Subtítols
+      - Cerca avançada
+      - Subscripció d'usuaris
+      - Fils RSS
   cuo:
     title: Contributopia
-    subtitle: the @:data.txt.soft roadmap,<br>let’s go for year 2
+    subtitle: el full de ruta de @:data.txt.soft<br>va pel segon any
     meet:
-      title: Frama<br>meet
-      text: 'At the beginning an alternative to Meetup or Facebook events, Framameet
-        aims to be a mobilization tool : for your cousin’s birthday, a 300 attendants
-        symposium or a 15,000 people demonstration.'
+      title: Frama<br>reunions
+      text: 'Al començament, era una alternativa a Meetup o als esdeveniments de Facebook;
+        ara, Framameet vol ser una eina per a la mobilització: per a una festa d''aniversari,
+        per a un col·loqui amb 300 <span aria-label="convidats">convidats</span> o
+        per a una manifestació de 15.000 persones.'
     petitions:
-      title: Frama<br>petitions
-      text: Organize the awareness to an important cause for you. Alert the people.
-        Group people interested in a common action.
+      title: Frama<br>peticions
+      text: Organitzar la sensibilització envers una causa que considereu important.
+        Alertar l'opinió pública. Reunir les persones que volen dur a terme una acció
+        en comú.
     mooc:
       title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
-        lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
-        Neutres et Solidaires">CHATONS</abbr>
-      text: A complete educational path, full of useful resources, to raise awareness
-        of the challenges of digital technology and organize resistance.
-    btn: Contribute to another year of Contributopia
-    footer: 'All this is just a sample of all the actions we are currently working
-      on… Discover the whole roadmap: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
+        lang="ca" title="Col·lectiu d'Amfitrions Transparents, Oberts, Neutrals i
+        Solidaris">CATONS</abbr>
+      text: Un recorregut pedagògic complet, curull de recursos útils, per donar a
+        conèixer els problemes digitals i organitzar la resistència.
+    btn: Contribuïu a un nou any de Contributopia
+    footer: 'Això és només una mostra de les accions que fem actualment ... Descobriu-ne
+      el full de ruta complet: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
   soutenir:
-    title: Support Framasoft
-    text: The non-profit Framasoft is alive <strong>only</strong> through to your
-      donations<br> Did you like what we did? Do you think we are going in the right
-      direction? If so, if you have the desire and the means, we invite you to make
-      a donation.
-    why: Why support @:data.txt.soft?
-    money: Where is your money going to?
-    numbers: '@:data.txt.soft in a few numbers'
-    timeline: Actions timeline
+    title: Contribuïu a Framasoft
+    text: L'associació no lucrativa Framasoft es manté <strong>només</strong> amb
+      les vostres donacions. <br>Us agrada el que fem? Creieu que anem en la bona
+      direcció? Si teniu el desig i els mitjans, us convidem a fer-hi una donació.
+    why: Per què donar suport a @:data.txt.soft?
+    money: A què es dediquen els vostres diners?
+    numbers: '@:data.txt.soft, breument, en xifres'
+    timeline: Cronologia d'actuacions
 meta:
-  title: '@:data.txt.soft ~ Change the world one byte at a time'
-  lead: There is a long way to go, but the road is Free…
-  desc: 'A French non-profit (Association française de loi 1901), originating as an
-    education project, @:data.txt.soft is a network aimed at popular education, focussing
-    mostly on free and open source software. The network is organized following 3
-    main themes on a collaborative model: promotion, diffusion and development of
-    libre software, enhancement of free (as in free speech) culture. We also provide
-    free online services. The portal Homepage introduces the whole range of actions
-    by @:data.txt.soft and provides links to the various sites and projects of the
-    network.'
-  keywords: '@:data.txt.soft, libre software, free and open source sofware, free culture,
-    FOSS, FLOSS,  promotion and diffusion of free software, open source'
-  license: '@:data.license.ccbysa4 except when notified'
+  title: '@:data.txt.soft ~ Canvia el món byte a byte'
+  lead: El camí és llarg, però la via és lliure...
+  desc: 'Associació francesa que s''acull a la llei 1901, centrada originàriament
+    en el món educatiu, @:data.txt.soft és una xarxa educativa popular dedicada principalment
+    al programari lliure. La xarxa s''organitza en tres eixos de manera col·laborativa:
+    promoció, difusió i desenvolupament del programari lliure, enriquiment de la cultura
+    lliure. També ofereix serveis gratuïts en línia. La pàgina del portal de la xarxa
+    presenta totes les activitats de @:data.txt.soft i ofereix enllaços als diferents
+    llocs i activitats de la xarxa.'
+  keywords: '@:data.txt.soft, programari lliure, programari gratuït i de codi obert,
+    cultura lliure, FOSS, FLOSS, promoció i difusió de programari lliure, codi obert'
+  license: '@:data.license.ccbysa4 tret que si hi indiqui una altra cosa'
 nav:
-  langChange: Change the language
-  lang: Language
-  translate: Translate
+  langChange: Canvia de llengua
+  lang: Llengua
+  translate: Tradueix
   parts:
     logiciel:
-      key: Software section
-      title: to the software section
+      key: Secció de programari
+      title: cap a la secció de programari
     culture:
-      key: Culture section
-      title: to the culture section
+      key: Secció de cultura
+      title: cap a la secció de cultura
     cloud:
-      key: Cloud section
-      title: to the cloud section
+      key: Secció del núvol
+      title: cap a la secció del núvol
     vrac:
-      key: Bulk free section
-      title: to the bulk free section
+      key: Secció gratuïta a l'engrós
+      title: cap a la secció gratuïta a l'engrós
 txt:
-  dio: De-google-ify Internet
+  dio: Desgooglitzem Internet
 color:
-  dio: <b class="violet">De-google-ify</b> <b class="orange">Internet</b>
+  dio: <b class="violet">Desgooglitzem</b> <b class="orange">Internet</b>
 link:
   partenaires: '@:data.link.soutenir/en/partenaires'
   wFreeSoftware: https://en.wikipedia.org/wiki/Logiciel_libre
@@ -131,40 +135,40 @@ link:
   wOSM: https://en.wikipedia.org/wiki/Openstreetmap
   garden: '@:data.link.cloud/fr/cultiver-son-jardin'
 carousel:
-  play: Play
-  pause: Pause
-  prev: Previous slide
-  next: Next slide
+  play: Lectura
+  pause: Pausa
+  prev: Diapositiva anterior
+  next: Diapositiva següent
 search:
-  btn: Search
-  frama: on @:data.txt.soft’s websites
-  web: on the web
+  btn: Cerca
+  frama: en les pàgines de @:data.txt.soft
+  web: en la web
 form:
   step1:
-    title: 1. I give for the freedom
-    privilegie: '@:data.txt.soft favours recurring donations to continue its action
-      in a serene and lasting way.'
-    count: Currently @:data.txt.soft counts
-    donators: recurrent donators.
-    monthly: Monthly recurring donation
-    oneshot: One-time donation
-    monthly_ex: 'ex: 42'
-    oneshot_ex: 'ex: 133.7'
-    other: Other amount
-    or: OR
+    title: 1. Faig un donatiu per la llibertat
+    privilegie: '@:data.txt.soft afavoreix les donacions periòdiques per continuar
+      amb la seva acció de manera tranquil·la i continuada.'
+    count: Actualment, @:data.txt.soft compta
+    donators: donants periòdics.
+    monthly: Donació mensual
+    oneshot: Donació puntual
+    monthly_ex: 'exemple: 42'
+    oneshot_ex: 'exemple: 133,7'
+    other: Una quantitat diferent
+    or: O
   step2:
-    title: 2. I complete my information
-    private: Confidentiality
+    title: 2. Completo les meves dades
+    private: Confidencialitat
     private_tip:
-    - This information is necessary for practical reasons and in order to issue a
-      tax receipt.
-    - 'If you do not want or cannot untax your donation, you can completely '
-    - fill in this form with false informations
-    - ' (warning, do not use Paypal in this case).'
-    - You should also know that you can check whether your donation has been received.
-      in the “<a href="stats">donor list</a>” page.
-    - Of course, your firtname and lastname are anonymized.
-    type: I represent
+    - Aquesta informació és necessària per raons pràctiques i legals, per poder emetre
+      un rebut fiscal.
+    - Si no voleu o no podeu deduir la vostra donació, podeu
+    - omplir aquest formulari amb informació falsa
+    - (en aquest cas, no utilitzeu el vostre compte de Paypal).
+    - Podreu comprovar si la vostra donació ha tingut èxit a la pàgina  «<a href="stats">Llista
+      de donants</a>».
+    - Per descomptat, el vostre nom i cognoms hi romanen anònims.
+    type: Represento
     part: an individual
     corp: a company
     corp_tip: Company, association, community…

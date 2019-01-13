@@ -1,245 +1,242 @@
-lite: Quick access
+lite: Snabbåtkomst
 full: Classic home
 home:
   intro:
-    subtitle: Change the world<br>one byte at a time
-    text: '@:data.txt.soft is a non-profit <strong>popular educational organization</strong>,
-      a group of friends convinced that an <strong>emancipatory</strong> digital world
-      is possible, convinced that it will arise through <strong>actual actions</strong>
-      on real world and online with and for you !'
-    btn: Support our actions
+    subtitle: Förändra världen<br>en byte i taget
+    text: '@:data.txt.soft är en ideell <strong>folkbildningsorganisation</strong>,
+      en grupp vänner övertygade om att en <strong>frigörande</strong> digital värld
+      är möjlig och övertygade om att det kan förverkligas <strong>genom handling</strong>
+      både i världen och online med och för dig!'
+    btn: Stöd vårt arbete
   more:
-    title: Framasoft is…
+    title: Framasoft är …
     libre:
-      title: '@:data.txt.libre, the free culture directory'
-      text: '@:data.txt.soft historical project: hundreds of free softwares and cultural
-        contents organized and tested, displayed with short notices'
+      title: '@:data.txt.libre, den fria kulturkatalogen'
+      text: '@:data.txt.soft historiskt projekt: hundratals fria mjukvaror och kulturellt
+        innehåll, sorterade och testade, presenterade med kortfattade beskrivningar'
     book:
-      title: '@:data.txt.book, the publishing house'
-      text: Free books share the same freedom as free software. We publish manuals,
-        technical books, but also novels and even comics
+      title: '@:data.txt.book, förlaget'
+      text: Fria böcker delar samma frihet som fri programvara. Vi publicerar manualer,
+        tekniska böcker, romaner och även serier
     blog:
-      title: '@:data.txt.blog, the news about free culture'
-      text: 'News about @:data.txt.soft, free culture and commons : chronicles, press
-        reviews, translations, interviews'
+      title: '@:data.txt.blog, nyheterna om fri kultur'
+      text: 'Nyheter om @:data.txt.soft, fri kultur och gemenskapsprojekt: krönikor,
+        pressrecensioner, översättningar och intervjuer'
     confs:
-      title: Conferences, workshops
-      text: More than one hundred conferences, workshops and interventions per year
-    footer: '@:data.txt.soft has more thant 50 projects. Check all of them.'
-    link: See the full presentation.
+      title: Konferenser, workshops
+      text: Fler än etthundra konferenser, workshops och andra åtaganden per år
+    footer: '@:data.txt.soft har fler än 50 projekt. Utforska dem alla.'
+    link: Läs den fullständiga presentationen.
   dio:
-    title: Degooglize your Internet<br> with our 32 services
-    subtitle: <strong>Ethical alternatives</strong> are possible.<br> Demonstration
-      with <strong>{count} examples</strong>.
-    btn: Help us maintain these services and help us to develop new ones
-    footer: The complete list of our services, with the whole documentation to master
-      them, can be found on the <a href=@:data.link.dio>@:txt.dio</a> website
+    title: Avgooglifiera ditt Internet<br> med våra 32 tjänster
+    subtitle: <strong>Etiska alternativ</strong> existerar.<br> Demonstration med
+      <strong>{count} exempel</strong>.
+    btn: Hjälp oss underhålla dessa tjänster och utveckla nya
+    footer: Den fullständiga listan över våra tjänster, med hela dokumentationen för
+      att bemästra dem, hittar du på webbplatsen <a href=@:data.link.dio>@:txt.dio</a>.
   peertube:
-    title: 'PeerTube : the alternative to YouTube, made with you and for you'
-    text: Have a look to 1.0 version of PeerTube, which lets you to create <strong>your</strong>
-      own alternative to YouTube. This software has been developped thanks to your
-      contriibutions.<br> All together, let’s build a smilar to us video platform
-    btn: Browse the main features
-    footer: 'To learn about the PeerTube software, discover how it’s organized into
-      a <abbr title="Also known as fediverse, the whole group of federated instances.">federation</abbr>
-      and understand how to create your own <abbr title="Decentralized installation
-      on a server, accessible through a web address.">instance</abbr>: <a href="https://joinpeertube.org"
-      lang="en">JoinPeertube</a>'
+    title: 'PeerTube : alternativet till YouTube, skapat med dig och för dig'
+    text: Ta en titt på version 1.0 av PeerTube, som låter dig skapa <strong>ditt</strong>
+      eget alternativ till YouTube. Den här programvaran har kunnat utveckats tack
+      vare era bidrag.<br> Tillsammans bygger vi en videoplattform som speglar oss
+    btn: Utforska funktionerna
+    footer: Besök <a href="https://joinpeertube.org" lang="en">JoinPeertube</a> för
+      att lära dig mer om mjukvaran bakom PeerTube, se hur den är organiserad som
+      en<abbr title="Även känt som fediversumet, en grupp federerade instanser.">federation</abbr>
+      och se hur du kan skapa din egen <abbr title="Decentraliserad installation på
+      en server, som går att nå med en webbadress.">instans</abbr>.
     modal:
-      title: Main features of PeerTube
-      text: PeerTube is a fully featured software. Here is some of its abilities.
+      title: PeerTubes huvudfunktioner
+      text: PeerTube är en fullfjädrad programvara. Här är några av dess finesser.
       features:
-      - Import from YouTube
-      - Import .torrent files
-      - Subtitles
-      - Advanced search
-      - Subscription for users
-      - RSS feeds
+      - Importera från YouTube
+      - Importera torrent-filer
+      - Undertexter
+      - Avancerad sökfunktion
+      - Prenumerationer för användare
+      - RSS-flöden
   cuo:
-    title: Contributopia
-    subtitle: the @:data.txt.soft roadmap,<br>let’s go for year 2
+    title: Bidragsutopi
+    subtitle: vägkarta för @:data.txt.soft<br>nu siktar vi mot år två
     meet:
       title: Frama<br>meet
-      text: 'At the beginning an alternative to Meetup or Facebook events, Framameet
-        aims to be a mobilization tool : for your cousin’s birthday, a 300 attendants
-        symposium or a 15,000 people demonstration.'
+      text: 'Framameet började som ett alternativ till Meetup och Facebook-evenemang
+        och siktar på att bli ett verktyg för folkrörelser: till din kusins födelsedag,
+        en konferens med 300 deltagare eller en demonstration för 15&nbsp;000'
     petitions:
       title: Frama<br>petitions
-      text: Organize the awareness to an important cause for you. Alert the people.
-        Group people interested in a common action.
+      text: Organisera uppmärksammandet av någonting du brinner för. Varna människor.
+        Samla personer med intresse för en gemensam sak.
     mooc:
       title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
         lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
         Neutres et Solidaires">CHATONS</abbr>
-      text: A complete educational path, full of useful resources, to raise awareness
-        of the challenges of digital technology and organize resistance.
-    btn: Contribute to another year of Contributopia
-    footer: 'All this is just a sample of all the actions we are currently working
-      on… Discover the whole roadmap: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
+      text: En fullständig kursplan, med praktiska resurser, som uppmärksammar utmaningarna
+        som digital teknik medför och organiserar motstånd.
+    btn: Bidra till ännu ett år för bidragsutopin
+    footer: 'Allt detta är endast ett litet smakprov av vad vi arbetar på för tillfället
+      … Utforska hela omfattningen: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
   soutenir:
-    title: Support Framasoft
-    text: The non-profit Framasoft is alive <strong>only</strong> through to your
-      donations<br> Did you like what we did? Do you think we are going in the right
-      direction? If so, if you have the desire and the means, we invite you to make
-      a donation.
-    why: Why support @:data.txt.soft?
-    money: Where is your money going to?
-    numbers: '@:data.txt.soft in a few numbers'
-    timeline: Actions timeline
+    title: Stöd Framasoft
+    text: Den ideella föreningen Framasoft lever <strong>endast</strong> vidare genom
+      era donationer.<br> Gillar du det vi gör? Tror du vi är på väg åt rätt håll?
+      Om så är fallet, och du har lust och möjlighet, inbjuder vi dig att ge en gåva.
+    why: Varför stöda @:data.txt.soft?
+    money: Vart går dina pengar?
+    numbers: '@:data.txt.soft i några siffror'
+    timeline: Tidslinje
 meta:
-  title: '@:data.txt.soft ~ Change the world one byte at a time'
-  lead: There is a long way to go, but the road is Free…
-  desc: 'A French non-profit (Association française de loi 1901), originating as an
-    education project, @:data.txt.soft is a network aimed at popular education, focussing
-    mostly on free and open source software. The network is organized following 3
-    main themes on a collaborative model: promotion, diffusion and development of
-    libre software, enhancement of free (as in free speech) culture. We also provide
-    free online services. The portal Homepage introduces the whole range of actions
-    by @:data.txt.soft and provides links to the various sites and projects of the
-    network.'
-  keywords: '@:data.txt.soft, libre software, free and open source sofware, free culture,
-    FOSS, FLOSS,  promotion and diffusion of free software, open source'
-  license: '@:data.license.ccbysa4 except when notified'
+  title: '@:data.txt.soft ~ Förändra världen en byte i taget'
+  lead: Det fortfarande långt dit, men vägen är fri …
+  desc: '@:data.txt.soft är en fransk ideell förening, grundad som ett utbildningsprojekt,
+    som satsar på folkbildning med fokus på fri mjukvara med öppen källkod. Nätverket
+    är strukturerat i tre samarbetande huvudgrupper: marknadsföring, spridning och
+    utveckling av fri programvara, vilket berikar den fria kulturen. Vi tillhandahåller
+    även ett flertal webbtjänster. Vår hemsida är en portal som introducerar bredden
+    av @:data.txt.softs åtaganden och tillhandahåller länkar till webbplatser och
+    projekt knutna till nätverket.'
+  keywords: '@:data.txt.soft, fri mjukvara, fri programvara, libre mjukvara, libre
+    programvara, öppen källkod, fri kultur, FOSS, FLOSS,  marknadsförin och spridning
+    av fri mjukvara'
+  license: '@:data.license.ccbysa4 om inget annat anges'
 nav:
-  langChange: Change the language
-  lang: Language
-  translate: Translate
+  langChange: Byt språk
+  lang: Språk
+  translate: Översätt
   parts:
     logiciel:
-      key: Software section
-      title: to the software section
+      key: Mjukvaruavdelning
+      title: till mjukvaruavdelningen
     culture:
-      key: Culture section
-      title: to the culture section
+      key: Kulturavdelning
+      title: till kulturavdelningen
     cloud:
-      key: Cloud section
-      title: to the cloud section
+      key: Molnavdelning
+      title: till molnavdelningen
     vrac:
-      key: Bulk free section
-      title: to the bulk free section
+      key: Sektion med övrigt fritt
+      title: till sektionen med övrigt fritt
 txt:
-  dio: De-google-ify Internet
+  dio: Avgooglifiera Internet
 color:
-  dio: <b class="violet">De-google-ify</b> <b class="orange">Internet</b>
+  dio: <b class="violet">Avgooglifiera</b> <b class="orange">Internet</b>
 link:
-  partenaires: '@:data.link.soutenir/en/partenaires'
-  wFreeSoftware: https://en.wikipedia.org/wiki/Logiciel_libre
-  wSourceCode: https://en.wikipedia.org/wiki/Code_source
-  wFreeLicense: https://en.wikipedia.org/wiki/Licence_libre
-  wFreeCulture: https://en.wikipedia.org/wiki/Culture_libre
-  wCommons: https://en.wikipedia.org/wiki/Bien_commun
-  wOSM: https://en.wikipedia.org/wiki/Openstreetmap
-  garden: '@:data.link.cloud/fr/cultiver-son-jardin'
+  partenaires: '@:data.link.soutenir/sv/partenaires'
+  wFreeSoftware: https://sv.wikipedia.org/wiki/Fri_programvara
+  wSourceCode: https://sv.wikipedia.org/wiki/K%C3%A4llkod
+  wFreeLicense: https://sv.wikipedia.org/wiki/Fri_licens
+  wFreeCulture: https://sv.wikipedia.org/wiki/R%C3%B6relsen_f%C3%B6r_fri_kultur
+  wCommons: https://en.wikipedia.org/wiki/Common_good
+  wOSM: https://sv.wikipedia.org/wiki/Open_Street_Map
+  garden: '@:data.link.cloud/sv/cultiver-son-jardin'
 carousel:
-  play: Play
-  pause: Pause
-  prev: Previous slide
-  next: Next slide
+  play: Spela
+  pause: Pausa
+  prev: Föregående bild
+  next: Nästa bild
 search:
-  btn: Search
-  frama: on @:data.txt.soft’s websites
-  web: on the web
+  btn: Sök
+  frama: på @:data.txt.softs webbplatser
+  web: på webben
 form:
   step1:
-    title: 1. I give for the freedom
-    privilegie: '@:data.txt.soft favours recurring donations to continue its action
-      in a serene and lasting way.'
-    count: Currently @:data.txt.soft counts
-    donators: recurrent donators.
-    monthly: Monthly recurring donation
-    oneshot: One-time donation
-    monthly_ex: 'ex: 42'
-    oneshot_ex: 'ex: 133.7'
-    other: Other amount
-    or: OR
+    title: 1. Jag ger för friheten
+    privilegie: '@:data.txt.soft uppmuntrar regelbundna donationer att fortsätta på
+      ett uppriktigt och trofast vis.'
+    count: Just nu har @:data.txt.soft
+    donators: återkommande donatorer.
+    monthly: Månatlig gåva
+    oneshot: Engångsgåva
+    monthly_ex: t.ex. 42
+    oneshot_ex: t.ex. 133.7
+    other: Annat belopp
+    or: ELLER
   step2:
-    title: 2. I complete my information
-    private: Confidentiality
+    title: 2. Jag fyller min kontaktinformation
+    private: Sekretess
     private_tip:
-    - This information is necessary for practical reasons and in order to issue a
-      tax receipt.
-    - 'If you do not want or cannot untax your donation, you can completely '
-    - fill in this form with false informations
-    - ' (warning, do not use Paypal in this case).'
-    - You should also know that you can check whether your donation has been received.
-      in the “<a href="stats">donor list</a>” page.
-    - Of course, your firtname and lastname are anonymized.
-    type: I represent
-    part: an individual
-    corp: a company
-    corp_tip: Company, association, community…
-    mecenat: If you would like to become a partner of @:data.txt.soft and <a href="partenaires">appear
-      on this page</a>, <a href="@:link.contact">contact us</a>.
-    society: Legal entity
-    society_ex: 'ex : Free Software Fondation'
-    society_email_ex: 'ex : contact@fsf.org'
-    lastname: Last name
-    lastname_ex: 'ex: Stallman'
-    firstname: First name
-    firstname_ex: 'ex: Richard'
-    email: E-mail
-    email_ex: 'ex: r.stallman@outlock.com'
-    address1: Address
-    address1_ex: 'ex: 12 rue de la liberté'
-    address2: Addition of address
-    address2_ex: 'ex: Building VI'
-    zip: Postal code
-    zip_ex: 'ex: 69007'
-    city: City
-    city_ex: 'ex: Lyon'
-    country: Country
-    error_empty: This field must be filled in.
-    error_email: You must enter a valid email address.
+    - Den här informationen är nödvändig av praktiska skäl och för att kunna begära
+      ett beskattningskvitto.
+    - 'Om du inte vill eller kan begära skattereduktion, kan du '
+    - 'fylla formuläret med nonsens '
+    - '(varning: använd i så fall inte Paypal).'
+    - Du kan se om din gåva har nått oss på vår “<a href="stats">lista över gåvogivare</a>”.
+    - Självklart är ditt för- och efternamn anonymiserat.
+    type: Jag representerar
+    part: en person
+    corp: ett företag
+    corp_tip: Företag, förening, gemenskap …
+    mecenat: <a href="@:link.contact">Kontakta oss</a> om du vill bli @:data.txt.softs
+      partner och synas på <a href="partenaires">den här sidan</a>.
+    society: Juridisk person
+    society_ex: t.ex . Free Software Fondation
+    society_email_ex: t.ex. contact@fsf.org
+    lastname: Efternamn
+    lastname_ex: t.ex. Stallman
+    firstname: Förnamn
+    firstname_ex: t.ex. Richard
+    email: E-post
+    email_ex: t.ex. r.stallman@outlock.com
+    address1: Adress
+    address1_ex: t.ex. Storgatan 12
+    address2: Adresstillägg
+    address2_ex: t.ex. Byggnad 4
+    zip: Postkod
+    zip_ex: t.ex. 690 70
+    city: Postort
+    city_ex: t.ex. Härnösand
+    country: Land
+    error_empty: Detta fält måste fyllas i.
+    error_email: Du måste ange en giltig e-postadress.
   step3:
-    title: 3. I access the payment
-    defisc: Information on tax exemption
-    defisc_title: Tax exemption
-    defisc_tip: ' @:data.txt.soft is a recognised association of general interest.<br>
-      As such, if you are subject to income tax, you can deduct 66% of the amount
-      of your donation. Thus, if you have given €10 x 12 months (€120), you will be
-      able to deduct 120x66% (€79,20) from your next return.<br> The tax receipt will
-      be sent to you automatically by e-mail before the declaration.<br> For more
-      detailed information, click here to access our explanation page.'
+    title: 3. Jag godkänner överföringen
+    defisc: Information om skatteavdrag
+    defisc_title: Skatteavdrag
+    defisc_tip: ' @:data.txt.soft är registrerad som en förening av allmänt intresse.<br>
+      Därför kan du, om du måste betala inkomstskatt, dra från 66&nbsp;% av donationen.
+      Om du till exempel ger €10 i tolv månader (€120), kommer du kunna dra av 120
+      × 66&nbsp;% (€79,20) från kommande retur.<br> Skattekvittot kommer skickas till
+      dig automatiskt via e-post innan deklarationen.<br> För mer utförlig information,
+      klicka här för att komma till vår förklaringssida.'
     defisc_text:
-    - 'In France, thanks to the tax deduction of '
-    - ', <b>your donation of </b>'
-    - ' will cost you only '
-    - ' monthly'
-    cb: Credit card
-    vir: Transfer
+    - 'Tack vare den franska skattereduktionen om '
+    - ', <b>kommer din gåva på</b> '
+    - ' endast kosta dig '
+    - ' per månad'
+    cb: Kreditkort
+    vir: Överför
     chq: Check
     pp: Paypal
-    i_give: I give
-    monthly: monthly
-    now: now
-    coord: Your personal details are noted.
+    i_give: Jag ger
+    monthly: månatligt
+    now: nu
+    coord: Dina personuppgifter har sparats.
     email_send:
-    - An email has just been sent to you at the address
-    - containing a reminder of the instructions below.
-    ok: Ok, I get it.
+    - Ett e-postmeddelande har skickats till dig på adressen
+    - med en påminnelse om instruktionerna nedan.
+    ok: Jag förstår.
     modal_vir:
-      by: by bank transfer
+      by: genom banköverföring
       no_sepa: ' @:data.txt.soft does not offer a SEPA form for direct debits, but
         you can make a donation by bank transfer directly to us.<br> So you decide
         the sum, the frequency and you can change it at any time.'
-      to_finish: ' To finalize your donation, please note our bank details:'
+      to_finish: 'Fyll i dina bankuppgifter för att genomföra donationen:'
       ref: ' Also note this <b>payment reference</b> which must be added to the description
         of the transfer:'
       to_bank: ' Then discuss with your bank how to plan the transfer. Some banks
         can handle this online.'
     modal_chq:
-      by: by check
+      by: via check
       to_finish: ' To finalize your donation, please complete your cheque to the order
         of <b>“Association @:data.txt.soft”</b> and note this <b>payment reference
         at the back</b>:'
-      to_post: ' Then send your cheque to the head office of the association to this
-        mailing address:'
+      to_post: 'Skicka sedan din check till föreningens huvudkontor via den här e-postadressen:'
   ask:
-    title: Questions
-    stop: Recurring donations can be stopped anytime, just <a href="@:data.link.contact/#soutenir">ask
-      us</a>.
-    edit: If you want to modify your recurring donation, please <a href="@:data.link.contact/#soutenir">contact
-      us</a>, we will stop the current one and you will be able to make a new one.
+    title: Frågor
+    stop: Återkommande donationer kan avbrytas när som helst, det är bara att <a href="@:data.link.contact/#soutenir">fråga
+      oss</a>.
+    edit: Om du vill justera din stående donation, får du gärna <a href="@:data.link.contact/#soutenir">kontakta
+      oss</a> så avbryter vi den nuvarande och låter dig göra en ny.
     send: Tax receipts (in France only) are sent by postal mail in March/April @:data.year.next
       (before tax declaration) for @:data.year.current donations
     moral: Financial and activity reports can be found on the <a href="@:data.link.soft/@:lang/association">non-profit
@@ -247,27 +244,27 @@ form:
     alter1: For <a href="@:data.link.contact/foire-aux-questions/#dons-alternatifs">practical
       reasons</a>, we do not accept donations from micro-payment platforms (Lilo,
       Flattr, Tipeee...) except Liberapay
-    lp: Make a donation via Liberapay
+    lp: Ge en gåva med Liberapay
     alter2: We also do not accept donations in crypto-currency (Bitcoin, Ether, Monero...)
       but we carefully observe <a href="https://duniter.org/fr/comprendre/">the Ğ1
       free currency</a>.
-    other: If you have more questions, <a href="@:data.link.soutenir/@:lang/questions">you
-      may find answers there…</a>…
+    other: Om du har ytterligare frågor <a href="@:data.link.soutenir/@:lang/questions">kan
+      du kanske hitta svaret där</a>…
 why:
   timeline:
-    title: History of what has already been done
+    title: Historik över vad vi redan har gjort
   money:
-    title: Discover where your money goes
+    title: Se vart dina pengar går
     list:
-    - 'Human resources: @:data.money.rh%'
-    - 'Servers and domain names: @:data.money.servers%'
-    - 'Operating expenses: @:data.money.running%'
-    - 'Interventions and ext. projects: @:data.money.interventions%'
-    - 'Communication: @:data.money.comm%'
-    - 'Purchases: @:data.money.goods%'
-    - 'Bank charges: @:data.money.bank%'
+    - 'Personal: @:data.money.rh%'
+    - 'Servrar och domännamn: @:data.money.servers%'
+    - 'Driftkostnader: @:data.money.running%'
+    - 'Ingripanden och externa projekt: @:data.money.interventions%'
+    - 'Kommunikation: @:data.money.comm%'
+    - 'Köp: @:data.money.goods%'
+    - 'Bankavgifter: @:data.money.bank%'
   reasons:
-    title: 6 good reasons to support us
+    title: 6 bra anledningar att stöda oss
     list:
     - '[''1. Because enclosure is now'', ''NSA, Facebook, Google, Amazon, Microsoft
       and Apple… E. Snowden revelations have shown that the worst nightmares of computer
@@ -312,74 +309,72 @@ why:
       Free".'']'
 cat:
   communaute:
-    title: Free community
-    desc: Are you free tonight?
+    title: Fri gemenskap
+    desc: Är du fri ikväll?
   campagnes:
     sites:
       dio:
-        what: Campaign 2014-2017
+        what: Kampanj 2014–2017
       cuo:
-        what: Campaign 2017-2020
+        what: Kampanj 2017–2020
   logiciel:
-    title: Free software
-    desc: Liberty, Equality, Fraternity
+    title: Fri mjukvara
+    desc: Frihet, jämlikhet, broderskap
     sites:
       libre:
-        what: A Directory
-        title: The big directory
-        desc: More than 1600 peices of software, tested, rated and commented on by
-          the longest running and @:data.txt.soft’s debut project. Includes tutorials
-          and comprehensive docs.
+        what: En katalog
+        title: Den stora katalogen
+        desc: Fler än 1600 olika programvaror, testade, betygsatta och bedömda av
+          vårt första och äldsta projekt. Inklusive instruktioner och noggrann dokumentation.
       key:
-        what: A USB thumb drive
-        title: Full tank of Freedom in a simple device
-        desc: With a USB memory stick (or any other mobile device) use more than a
-          hundred free programs for mobile, for Windows, test and install a GNU/Linux
-          distro or have offline access to Wikipédia in French.
+        what: Ett USB-minne
+        title: Full tank av frihet i en enkel enhet
+        desc: Använd fler än etthundra fria program för mobiltelefonen eller för Windows,
+          testa och installera en GNU/Linux-distribution eller få offline-åtkomst
+          till Wikipedia på franska genom ett USB-minne (eller annan portabel enhet).
       dvd:
-        what: Un DVD
-        title: Full tank of Freedom in a DVD
-        desc: A DVD stuffed with the best free software for Windows, Mac and GNU/Linux
-          (distro included) but also free culture (text, photo, audio and video).
-          Also available as a special School Edition
+        what: En DVD
+        title: Full tank av frihet på en DVD
+        desc: En DVD fullpackad med den bästa fria mjukvaran för  Windows, Mac och
+          GNU/Linux (distribution medföljer) men också fri kultur (texter, fotografier,
+          ljud and video). Finns också i en skolutgåva
       pack:
-        what: A distributor
-        title: Massive install
-        desc: '@:data.txt.pack is a handy tool to pick the best free software for
-          Window’s most recent version.<br> You select the software you want and all
-          the programs are installed in a single convenient step!'
+        what: En distributör
+        title: Massinstallation
+        desc: '@:data.txt.pack är ett praktiskt verktyg för att välja den bästa fria
+          mjukvaran till den senaste Windows-versionen.<br> Du väljer vilka program
+          du vill ha och allt installeras samtidigt i ett enkelt steg!'
   culture:
-    title: Free cultures
-    desc: Extending the scope of open source
+    title: Fria kulturer
+    desc: Vidga omfånget för öppen källkod
     sites:
       blog:
         what: Info
-        title: News from "Libre"
-        desc: Weekly column on Libre and libre software. Debate, open comments, many
-          translations and news announcements about all the activities of the @:data.txt.soft
-          network.
+        title: Nyheter från "Libre"
+        desc: En ledarartikel om libre och libre-mjukvara varje vecka. Debattera,
+          öppna kommentarer, många översättningar och nyheter från samtliga aktiviteter
+          i @:data.txt.soft-nätverket.
       book:
-        what: Some books…
-        title: Betting on free books
-        desc: Our publishing house includes around twenty publications, covering free
-          software, programming for beginners, thoughts on copyright but also comics
-          and even novels. A free book provides the reader with the same freedoms
-          as free software.
+        what: Några böcker …
+        title: Satsar på fria böcker
+        desc: Vårt förlag omfattar ett tjugotal publikationer om fri mjukvara, programmering
+          för nybörjare, tankar om upphovsrätt men även serier och romaner. En fri
+          bok ger läsaren samma friheter som fri mjukvara.
       bookin:
-        what: … and a library
-        title: A free digital library
-        desc: Our library includes a few hundred free or public domain publications.
-          It is available online on mobile platforms. You can add it directly to an
-          e-book reading application with the <abbr>OPDS</abbr> feed.
+        what: … och ett bibliotek
+        title: Ett fritt digitalt bibliotek
+        desc: Vårt bibliotek omfattar flera hundra publikationer, publicerade fritt
+          eller allmän egendom. Det är tillgängligt online på mobila plattformar.
+          Du kan lägga till det direkt i en e-boksapplikation med <abbr>OPDS</abbr>-flödet.
       lang:
-        what: Translations
-        title: Collaborative translation
-        desc: Translate together, mainly from English to French, with a sense of community
-          and leveraging the power of the Internet and good will of its inhabitants.
-          It can consist of articles, subtitles or even entire books!
+        what: Översättningar
+        title: Gemensam översättning
+        desc: Översätt tillsammans, huvudsakligen från engelska till franska, med
+          en gemenskapskänsla tack vare internets kraft och dess medborgares goda
+          vilja. Det kan handla om artiklar, undertexter och även hela böcker!
       tube:
-        what: Videos
-        title: Our free « YouTube »
+        what: Videor
+        title: Vårt fria ”YouTube”
         desc: Videos in French (or with French subtitles) about free software and
           Open source in general. Interviews, conferences, documentaries, tv broadcasts…
           to get informed but also to inform others.
@@ -390,56 +385,56 @@ cat:
           liberty as free software. A dedicated website will help you understand better,
           along with a selection to show that quality is also present.
   cloud:
-    title: Free services
-    desc: Free cloud computing? It is possible!
+    title: Fria tjänster
+    desc: Fri molntjänst? Det är möjligt!
     sites:
       pad:
-        what: Edit
-        title: Edit together
+        what: Redigera
+        title: Redigera tillsammans
         desc: Let’s all write together on the same document in a collaborative online
           editing interface. No registration required, pick a username, a color and
           let’s go!
       calc:
-        what: Calculate
-        title: A collaborative spreadsheet
+        what: Beräkna
+        title: Ett samarbetsvänligt kalkylark
         desc: '@:data.txt.calc is to spreadsheets what @:data.txt.pad is to text editing,
           working together on the same document in a simple and collaborative way.'
       forms:
-        what: Ask questions
-        title: Creation of questionnaires
+        what: Ställ frågor
+        title: Skapa enkäter
         desc: '@:data.txt.forms allows you to create the questionaires that you need,
           whether it’s in an education, family or community context. Create your questions
           based on your needs, using multiple choice or free text field forms.'
       agenda:
-        what: Organise
-        title: Shared agenda
+        what: Organisera
+        title: Gemensam kalender
         desc: With @:data.txt.agenda you can create personal or professional calendas,
           the agenda for a hall or the activities of your organization, and share
           them freely. You remain master of your data, and you choose with whom, where
           and when they are shown.
       date:
         what: Organize
-        title: Organize appointments and surveys
+        title: Organisera möten och undersökningar
         desc: '@:data.txt.date is like Doodle, but free. Nothing is simpler than to
           create an appointment or a survey with registration and to invite your associates.'
       board:
-        title: Manage projects
+        title: Hantera projekt
         desc: '@:data.txt.board is a collaborative project and task manager, using
           the Kanban system. Its visual system makes it very easy to feel at home,
           whether you are used to this kind of tool or not.'
       mindmap:
-        what: Structure
-        title: Create mind maps
+        what: Struktur
+        title: Skapa tankekartor
         desc: A fluid and intuitive interface to create mind maps easily from inside
           your browser. Particularly relevant for brainstorming or note taking.
       vectoriel:
-        what: Drawing
-        title: Vector drawing
+        what: Grafik
+        title: Skapa vektorgrafik
         desc: Create and edit pictures easily online using the SVG open format. Kids
           love this!
       slides:
-        what: Present
-        title: Create and share slideshows
+        what: Presentera
+        title: Skapa och dela presentationer
         desc: '@:data.txt.slides allows you to create directly on line a slideshow
           or a presentation, to view it with a simple internet connection, and to
           share it.'
@@ -450,8 +445,8 @@ cat:
           at the same time? With @:data.txt.maestro, you’re in charge of the tools
           that you need, and all on one single and unique webpage.
       bee:
-        what: Searching
-        title: The search engine which explores the Internet around you
+        what: Sökning
+        title: Sökmotorn som utforskar Internet omkring dig
         desc: '@:data.txt.bee is a free and anonymous meta search engine. Your search
           query is sent to multiple other engines before it is displayed in your browser.
           The point? Our engine act as a middle-man between you and Google (and others),
@@ -459,7 +454,7 @@ cat:
           profile) can not be accessed by them.'
       sphere:
         what: Networking
-        title: The free social network
+        title: Det fria sociala nätverket
         desc: '@:data.txt.sphere is  a free social network based on the decentralised
           Diaspora software. Find your friends on @:data.txt.sphere – or other Diaspora
           pods – and discuss with them without being tracked.'
@@ -475,51 +470,51 @@ cat:
         desc: '@:data.txt.team is a free <b> chat </b> service which allows for team
           collaboration, notifications, conversations history and research.'
       listes:
-        title: Email lists
+        title: E-postlista
         desc: '@:data.txt.listes allows you to create email lists: anyone subscribed
           to your list can receive the emails which are sent to the list, and participate
           in turn. It’s up to you to decide if this list is public, semi-private or
           private.'
       talk:
-        title: Videoconference
+        title: Videokonferens
         desc: '@:data.txt.talk lets you chat with your friends without any need for
           complex software installation or registration. It all happens directly between
           you and your friends, from your web browser.'
       vox:
-        what: Decide
-        title: Decide together
+        what: Bestäm
+        title: Bestäm tillsammans
         desc: '@:data.txt.vox helps you to make group-based decisions. Start a discussion,
           share ideas, come to an agreement. Every decision has a clear deadline,
           so you can be sure to decide on time.'
       memo:
-        what: Brainstorm
-        title: Organize ideas
+        what: Brainstorma
+        title: Organisera idéer
         desc: '@:data.txt.memo allows you to create a board with columns on which
           anyone can pin colourful notes. Just like @:data.txt.pad, no registration
           is required and modifications are made visible and saved continuously.'
       notes:
-        what: Note
-        title: Note taking
+        what: Anteckna
+        title: För anteckningar
         desc: With @:data.txt.notes you can take and store notes, images, links… and
           even files; and synchronise them across all your devices (or share them
           with your friends).
       bag:
         what: Follow the news
-        title: Never miss an article!
+        title: Missa aldrig en artikel!
         desc: '@:data.txt.bag allows you to save articles which you do not have time
           to read now.'
       news:
         desc: By subscribing to your favorite sites RSS feeds, keep in touch with
           their latest news with @:data.txt.news!
       carte:
-        what: Mapping
-        title: Creat custom maps
+        what: Kartläggning
+        title: Skapa egna kartor
         desc: Framacarte allows you to draw, label, colour, annotate maps from <a
           href="@:link.wOSM">OpenStreetMap</a> in order to display them on your website
           or print them.
       games:
         what: Gaming
-        title: Online or offline gaming
+        title: Online- eller offlinespel
         desc: '@:data.txt.games is a compilation of free games, some of them online
           or on PC, tablet, which do not require any installation.'
       minetest:
@@ -529,102 +524,102 @@ cat:
           can build your own educational apps.'
       drop:
         what: Sharing
-        title: Share files anonymously
+        title: Dela filer anonymt
         desc: With @:data.txt.drop, you are done with attachments too large for the
           e-mail to be sent. This service allows you to share files efficiently and
           in a secure way.
       bin:
-        title: Transmit encrypted data
+        title: Skicka krypterad data
         desc: With @:data.txt.bin, you can share data which only you and the recipient
           can decrypt, in a very simple way.
       pic:
-        title: Share pictures anonymously
+        title: Dela bilder anonymt
         desc: '@:data.txt.pic allows you to easily share pictures, to publish them
           on Twitter, Facebook… or @:data.txt.sphere for example!'
       link:
-        title: Short links
+        title: Korta länkar
         desc: With @:data.txt.link, you can shorten long URLs. On social networks
           or microblogging platforms, a shorter link saves space and is more clear.
       drive:
-        what: Store
-        title: Online storage
+        what: Spara
+        title: Spara online
         desc: '@:data.txt.drive allows you to store your files online, synchronize
           them between your PCs, mobile devices… and share them with whoever you want.'
       my:
         what: Stock
-        title: Bookmarks
+        title: Bokmärken
         desc: '@:data.txt.my is a little digital catch all, which allows you to store
           and easily find again the links that you like in the style of del.ico.us!
           With a system of tags and automatic sorting, you can easily tidy up your
           tabs and bookmarks, and use the @:data.txt.my button to find again the @:data.txt.soft
           services that you use!'
       git:
-        what: Code
-        title: Host free code
+        what: Programmera
+        title: Bli värd för fri kod
         desc: '@:data.txt.git is a tool for developers. It can host your open source
           software projects and allows users to work on it collaboratively.'
       site:
-        what: Publish
-        title: Website hosting
+        what: Publicera
+        title: Hosting av webbplatser
         desc: '@:data.txt.site allows you to easily create a website and to host it
           on our servers. There’s no advertising or tracking posing risk to privacy
           of your site’s visitors.'
       wiki:
-        title: Wiki hosting
+        title: Wiki-hosting
         desc: '@:data.txt.wiki allows you to easily create a wiki and to host it on
           our servers. There’s no advertising or tracking posing risk to privacy of
           your site’s visitors.'
   vrac:
-    title: Bulk free
-    desc: Unclassifiable but not badly classified!
+    title: Övrigt fritt
+    desc: Inte klassificerbart, men inte felaktigt klassificerat!
     sites:
       colibri:
-        what: A forum
+        what: Ett forum
         title: The @:data.txt.soft forum
         desc: Do you have any questions? We (might) have an answer! "If you do not
           know, ask. If you know, share". @:data.txt.colibri is a place where we can
           share information about Open source.
       evl:
-        what: A shop
-        title: Our free little shop
+        what: En butik
+        title: Vår lilla fria butik
         desc: 'The marketplace for physical @:data.txt.soft products: @:data.txt.key,
           @:data.txt.book, @:data.txt.dvd but also goodies and t-shirts.'
       docs:
-        what: Documentations
-        title: Our documentation center
+        what: Dokumentationer
+        title: Vårt dokumentationscentra
         desc: To know everything on the use of the online services that we offer and
           to learn through our different guides how to gain in autonomie.
 pages:
   accroche:
-  - A network dedicated to globally promoting "<i>free</i>" and particularly <i>free
-    software</i>.
-  - Many services and innovative projects freely put at the disposal of the general
-    public.
+  - Ett nätverk med målet att främja <i>gratis</i> och speciellt <i>fri mjukvara</i>
+    över hela världen.
+  - Många tjänster och innovativa projekt som helt fritt ställts till allmänhetens
+    förfogande.
   - A <a href="#topPgCommunaute">community</a> of volunteers supported by a public
     interest association.
-  - An invitation to build together a world of sharing and cooperation.
-  news: What’s up on @:data.txt.soft?
+  - En inbjudan att tillsammans bygga en värld av delande och samarbete.
+  news: Vad händer på @:data.txt.soft?
   medias:
-    title: Press Release
+    title: Pressmeddelande
     intro: '@:data.txt.soft and the “@:txt.dio” campaign received some attention.
       Here are some extracts from our <a href="@:data.link.press">Press release</a>.'
-    th1: Date
+    th1: Datum
     th2: Media
-    th3: Links
-    lArticle: Link to the article
-    lPaywall: Link to the article (subscribers)
-    lSummary: Link to the summary of the issue
-    lPodcast: Link to the podcast
+    th3: Länkar
+    lArticle: Länk till artikeln
+    lPaywall: Länk till artikeln (prenumeranter)
+    lSummary: Länk till sammanfattningen av frågan
+    lPodcast: Länk till podden
     lListen: Link to the listening page
   communaute:
-    title: A community
-    desc: A joyful mess
-    text: Who is behind @:data.txt.soft? Everybody who took part in our projects at
-      some point. It is enough to be eager to promote Open source and license your
-      contribution as open source. It guarantees that it will be added to the commons
-      without any risk of being seized.
+    title: En gemenskap
+    desc: En salig röra
+    text: Vem står bakom @:data.txt.soft? Alla som någon gång bidragit till våra projekt.
+      Det är tillräckligt att vara ivrig att marknadsföra öppen källkod och licensera
+      sina egna bidrag som sådan. Det garanterar att det läggs till allmänhetens egendom
+      utan att kunna stjälas.
   asso:
-    title: An association
+    title: En förening
     desc: A bit of cathedral
     text: '@:data.txt.soft is based on a law 1901 association (non-profit association
       of volunteers). Up to it to smooth out any rough edges and to ensure that the
@@ -632,28 +627,28 @@ pages:
       posts and it’s mostly financed by individual donations collected on Internet.
       You can be a member too, but careful, it is more a vocation than a sinecure!'
   participer:
-    title: Participate?
+    title: Hjälpa till?
     desc: There are lots of ways to participate with us to spread the Free spirit
       through our numerous projects.
     text: Test, write, moderate, administrate, translate, proofread, relay, code,
       communicate, promote, raise awareness… Don’t hesitate to <a href="@:data.link.participer">join
       in</a> with us! And thanks in advance…
   soutenir:
-    title: Support us?
-    desc: because its free as in free speech, not as in free beer
+    title: Stödja oss?
+    desc: eftersom det är fritt, som i yttrandefrihet, inte som fri öl
     text: '@:data.txt.soft would be nothing without its volunteer community, but cannot
       operate without the support of the association which has expenses and employs
       @:data.meta.employees vital employees. Our funding depends on individual donations,
       that means on you. <a href="@:data.link.soutenir">If you think we deserve it…</a>'
   partenaires:
-    title: Our partners
+    title: Våra partners
     desc: '@:data.txt.soft is first and foremost a community of users. Yet, its functioning
       is distinctly that of a network, of projects, but also of partners..<br> So,
       @:data.txt.soft receives the support from numerous organisations (public, business,
       non-profit) allowing our projects to grow and develop. <a href="@:link.partenaires">List
       of all our partners</a>'
   logiciel:
-    title: Free software?
+    title: Fri mjukvara?
     desc: '<a href="@:link.wFreeSoftware">Free software</a> is a software that offers
       and guarantees the following four liberties: usage, study, modification and
       copying in order to spread (free of charge or not).'
@@ -664,7 +659,7 @@ pages:
     text2: '@:data.txt.soft provides a directory, USB and DVD keys and a Windows installer
       to discover these and use them regularly.'
   culture:
-    title: Free Culture?
+    title: Fri kultur?
     desc: Ease by Internet and digitisation, "<a href="@:link.wFreeCulture">free culture</a>"
       is a evolving culture inspired directly by free software in its spirit and licenses
       to promote and spread intellectuals works.
@@ -677,8 +672,8 @@ pages:
     quote: “Because it will be one of the biggest missed opportunities of our era
       if the free software doesn’t free anything else than code.”
   cloud:
-    title: Free services?
-    desc: 'Code name: “@:data.txt.cloud”'
+    title: Fria tjänster?
+    desc: 'Kodname: ”@:data.txt.cloud”'
     text1: Intuitive, registration-free, and directly in your browser, it is a set
       of online free services and respectful of your personal data. These services
       are offered in the context of our campaign <a href="@:link.dio">“@:color.dio”</a>
@@ -686,26 +681,25 @@ pages:
       Internet. Tutorials are availables in the section <a href="@:link.garden" lang="fr">Cultiver
       son jardin</a> (only in French at the moment) to help you to go for it.
   vrac:
-    title: Cross-disciplinary projects
-    desc: Discussion areas, purchases, development…
+    title: Gränsöverskridande projekt
+    desc: Diskussionsforum, köp, utveckling …
     text: Everything about the whole of the network as well as our think tank and
       projects under development are grouped together in this section.
     une:
-      title: Light on…
+      title: I rampljuset …
       desc: GéGé, Geektionnerd generator
       text: Geektionnerd do it yourself.
 charte:
   title: Charter
-  intro: '@:data.color.soft is a network of popular education, which has its origins
-    in the education world, which is principally dedicated to free (as in free speech)
-    software. It is collaboratively organized around three main issues: promotion,
-    dissemination and development of free software, enhancement of open source culture,
-    and an online platform of open services.'
+  intro: '@:data.color.soft är ett folkbildningsnätverk, med ursprung i utbildningsvärlden,
+    hängiven till fri mjukvara. Det är samlat kring en tredelad kärna: marknadsföring,
+    spridning och utveckling av fri mjukvara, berikning av den fria kulturen samt
+    en webbplattform med öppna tjänster.'
   libre:
-    title: For an open Internet
+    title: För ett öppet Internet
     text:
-    - The use of free software and open standards on the Internet is the main purpose
-      of our project <a href="@:data.link.dio">@:color.dio</a>.
+    - Användandet av fri mjukvara och öppna standarder på internet är huvudsyftet
+      med vårt projekt <a href="@:data.link.dio">@:color.dio</a>.
     - Access to source code is the cornerstone of open source principles. @:data.color.soft
       commits itself to place each application available in its projects under <a
       href="https://www.gnu.org/philosophy/free-sw.fr.html">free license</a>.
@@ -727,7 +721,7 @@ charte:
       that would be considered infringing or illegal by French law, once duly signaled,
       will be immediately deleted.
   decentralized:
-    title: For a decentralized Internet
+    title: För ett decentraliserat internet
     text:
     - By offering open applications online, @:data.color.soft intends to promote alternative
       solutions to proprietary applications that some companies propose in order to
@@ -741,7 +735,7 @@ charte:
       and to give a proof of concept that a decentralized and egalitarian Internet
       is possible.'
   ethic:
-    title: For an ethical Internet
+    title: För ett etiskt internet
     text:
     - The ethics of opensource software is about sharing and independence. @:data.color.soft
       commits itself to never practice any censorship of the contents, nor any surveillance
@@ -757,7 +751,7 @@ charte:
       when they make them public in the context of a collaborative application. In
       this case, users remain responsible for their content.
   solidary:
-    title: For an Internet of solidarity
+    title: För ett solidariskt Internet
     text:
     - '@:data.color.soft is a non-profit. Its volunteers and employees devote their
       time to ensure the continuity of the services offered to users. Our business
@@ -775,9 +769,9 @@ charte:
     by  @:data.color.soft on October 6th 2014.
   - 'Translation by Framalang contributors Théo, #!, goofy, Diane'
 cgu:
-  title: Terms of Use
+  title: Användarvillkor
   intro:
-    title: Preamble
+    title: Förord
     text: By using this service, you agree to be bound by the following terms.<br>
       @:data.color.soft reserves the right to update and modify these terms from time
       to time.
@@ -971,7 +965,7 @@ legals:
         It is specified at this time to the user of the network @:data.color.soft
         if the information to provide is obligatory or not.
     stats:
-      title: Statistical analysis and confidentiality
+      title: Statistisk analys och sekretess
       text:
       - In order to adapt the site to our visitors’ requests, we analyze the traffic
         of our sites with Matomo. Matomo generates a cookie with a unique identifier,
@@ -1046,12 +1040,12 @@ credits:
     - the fonts <a href="https://www.paratype.com/public/">PTSans</a> (titles), <a
       href="http://dejavu-fonts.org/wiki/Main_Page">Deja Vu Sans</a> and <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a>
       (icons)
-    - the statistical measurement tool <a href="https://www.matomo.org/">Matomo</a>
+    - det statistiska mätverktyget <a href="https://www.matomo.org/">Matomo</a>
     license:
-      title: License
+      title: Licens
       text:
-      - Unless otherwise stated, the content of the sites is placed under free license
-        @:data.license.ccbysa4fr
+      - Om inget annat uppges är den här webbplatsens innehåll publicerat under den
+        fria licensen @:data.license.ccbysa4fr
       - Our <a href="../charte">charter</a>, the <a href="../cgu">Terms of Use</a>
         of our services, the <a href="../legals">legal mentions</a> and all <a href="../association">
         administrative documents of the association</a> are also placed under this
@@ -1063,9 +1057,9 @@ credits:
         It is inspired by the mascot initially created by @:data.people.lldemars.<br>
         (@:data.txt.soft is allowed to use the logo without having to quote the author).
 asso:
-  title: Association
+  title: Förening
   prez:
-    title: Presentation of @:data.txt.soft
+    title: Presentation av @:data.txt.soft
     text:
     - From the educational world and now turned towards popular education, @:data.html.soft
       is above all a network of projects, of which the first, <a href="@:data.link.libre">directory
@@ -1098,39 +1092,39 @@ asso:
       ten permanent staff)
     - You will find below some information including our statutes, the rules of procedure
       and the annual moral reports.
-    statuts: Statutes of the association
-    ri: Internal Regulations
+    statuts: Föreningens stadgar
+    ri: Interna bestämmelser
   data:
-    title: Administrative and practical data
+    title: Administrativa och praktiska data
     dt:
-      juridical: Legal form
-      coprez: Co-chair
-      dg: Director and Managing Director
-      registration: Registration of the association
-      staff: Salaried
-      org: Organization
-      id: Full identification
-      projects: Main projects
-      charte: Charter of the association and its services
-      reports: Moral reports
-      newsletter: Newsletter
-      press: Press and media review
-      graphics: Graphic charter and logos
-      founders: Founders
+      juridical: Juridisk form
+      coprez: Ledamöter
+      dg: Styrelseordförande och verkställande direktör
+      registration: Föreningens instiftelse
+      staff: Avlönade
+      org: Organisation
+      id: Fullständig identifikation
+      projects: Huvudprojekt
+      charte: Målsättning för föreningen och dess tjänster
+      reports: Årsberättelser och -redovisningar
+      newsletter: Nyhetsbrev
+      press: Omnämnanden i press och media
+      graphics: Grafisk profil och logotyper
+      founders: Grundare
     dd:
-      juridical: Association law of 1901, recognized of general interest
-      staff: '@:data.meta.employees employees'
-      org: Association supporting free and contributing projects
-      id: See the file
-      reportsFinancial: Financial report
-      reportsWriting: activity report in progress
-      reportsResults: Income statement
-      reportsActivities: Activity report
-      reportsMAndF: Moral and financial report
-      newsletter: registration and archives
-      press: Annual table
-      graphics: on this page
+      juridical: 1901 års föreningslag, registrerad som av allmänt intresse
+      staff: '@:data.meta.employees anställda'
+      org: Förening stödjande fria och medhjälpande projekt
+      id: Se filen
+      reportsFinancial: Årsredovisning
+      reportsWriting: Årsredovisning på väg
+      reportsResults: Inkomstdeklaration
+      reportsActivities: Årsredovisning
+      reportsMAndF: Årsberättelse och -redovisning
+      newsletter: Registrering och arkiv
+      press: Årsvis sammanställning
+      graphics: På den här sidan
       banners: Banners
-      benevalo: Valued volunteerism
+      benevalo: Prisat volontärskap
 graphics:
-  title: Graphic charter
+  title: Grafisk profil

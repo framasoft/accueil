@@ -1,70 +1,70 @@
-lite: Quick access
-full: Classic home
+lite: Acesso rápido
+full: Home clássica
 home:
   intro:
-    subtitle: Change the world<br>one byte at a time
+    subtitle: Mude o mundo<br> um byte por vez
     text: '@:data.txt.soft is a non-profit <strong>popular educational organization</strong>,
       a group of friends convinced that an <strong>emancipatory</strong> digital world
       is possible, convinced that it will arise through <strong>actual actions</strong>
       on real world and online with and for you !'
-    btn: Support our actions
+    btn: Apoie nossas ações
   more:
-    title: Framasoft is…
+    title: Framasoft é...
     libre:
-      title: '@:data.txt.libre, the free culture directory'
+      title: '@:data.txt.libre, o diretório da cultura livre'
       text: '@:data.txt.soft historical project: hundreds of free softwares and cultural
         contents organized and tested, displayed with short notices'
     book:
-      title: '@:data.txt.book, the publishing house'
+      title: '@:data.txt.book, a casa editora'
       text: Free books share the same freedom as free software. We publish manuals,
         technical books, but also novels and even comics
     blog:
-      title: '@:data.txt.blog, the news about free culture'
+      title: '@:data.txt.blog, novidades sobre a cultura livre'
       text: 'News about @:data.txt.soft, free culture and commons : chronicles, press
         reviews, translations, interviews'
     confs:
-      title: Conferences, workshops
-      text: More than one hundred conferences, workshops and interventions per year
-    footer: '@:data.txt.soft has more thant 50 projects. Check all of them.'
-    link: See the full presentation.
+      title: Conferências, workshops
+      text: Mais de uma centena de conferências, workshops e intervenções por ano
+    footer: '@:data.txt.soft tem mais de 50 projetos. Veja todos eles.'
+    link: Veja a apresentação completa.
   dio:
-    title: Degooglize your Internet<br> with our 32 services
-    subtitle: <strong>Ethical alternatives</strong> are possible.<br> Demonstration
-      with <strong>{count} examples</strong>.
-    btn: Help us maintain these services and help us to develop new ones
-    footer: The complete list of our services, with the whole documentation to master
-      them, can be found on the <a href=@:data.link.dio>@:txt.dio</a> website
+    title: Degooglise sua Internet<br> com nossos 32 serviços
+    subtitle: <strong>Alternativas éticas</strong> são possíveis.<br> Demonstração
+      com<strong>{count} exemplos</strong>.
+    btn: Ajude-nos a manter e a desenvolver novos serviços
+    footer: 'A lista completa dos nossos serviços, com toda a documentação para compreendê-los,
+      pode ser encontrado no site<a href=@:data.link.dio>@:txt.dio</a> '
   peertube:
-    title: 'PeerTube : the alternative to YouTube, made with you and for you'
+    title: 'PeerTube : a alternativa ao YouTube, criado com você e para você'
     text: Have a look to 1.0 version of PeerTube, which lets you to create <strong>your</strong>
       own alternative to YouTube. This software has been developped thanks to your
       contriibutions.<br> All together, let’s build a smilar to us video platform
-    btn: Browse the main features
+    btn: Consulte as funcionalidades principais
     footer: 'To learn about the PeerTube software, discover how it’s organized into
       a <abbr title="Also known as fediverse, the whole group of federated instances.">federation</abbr>
       and understand how to create your own <abbr title="Decentralized installation
       on a server, accessible through a web address.">instance</abbr>: <a href="https://joinpeertube.org"
       lang="en">JoinPeertube</a>'
     modal:
-      title: Main features of PeerTube
+      title: Principais funcionalidades do PeerTube
       text: PeerTube is a fully featured software. Here is some of its abilities.
       features:
-      - Import from YouTube
-      - Import .torrent files
-      - Subtitles
-      - Advanced search
-      - Subscription for users
+      - Importar do Youtube
+      - Importar arquivos .torrent
+      - 'Subtítulos '
+      - Pesquisa avançada
+      - 'Inscrição para usuários '
       - RSS feeds
   cuo:
     title: Contributopia
     subtitle: the @:data.txt.soft roadmap,<br>let’s go for year 2
     meet:
       title: Frama<br>meet
-      text: 'At the beginning an alternative to Meetup or Facebook events, Framameet
-        aims to be a mobilization tool : for your cousin’s birthday, a 300 attendants
-        symposium or a 15,000 people demonstration.'
+      text: 'Alternativa ao Meetup ou Facebook Eventos, o Framameet é uma ferramenta
+        de mobilização: seja para o aniversario do seu primo, ou para um simpósio
+        com 300 participantes ou até uma apresentação para 15.000 pessoas. '
     petitions:
-      title: Frama<br>petitions
+      title: Frama<br>petições
       text: Organize the awareness to an important cause for you. Alert the people.
         Group people interested in a common action.
     mooc:
@@ -73,22 +73,22 @@ home:
         Neutres et Solidaires">CHATONS</abbr>
       text: A complete educational path, full of useful resources, to raise awareness
         of the challenges of digital technology and organize resistance.
-    btn: Contribute to another year of Contributopia
-    footer: 'All this is just a sample of all the actions we are currently working
-      on… Discover the whole roadmap: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
+    btn: Contribua para mais um ano de Contributopia
+    footer: 'Tudo isso é apenas uma mostra de todas as ações sobre as quais estamos
+      trabalhando atualmente... Descubra todo o nosso roteiro: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
   soutenir:
-    title: Support Framasoft
-    text: The non-profit Framasoft is alive <strong>only</strong> through to your
-      donations<br> Did you like what we did? Do you think we are going in the right
-      direction? If so, if you have the desire and the means, we invite you to make
-      a donation.
-    why: Why support @:data.txt.soft?
-    money: Where is your money going to?
-    numbers: '@:data.txt.soft in a few numbers'
-    timeline: Actions timeline
+    title: Apoie Framasoft
+    text: 'A Framasoft, que é sem fins lucrativos, sobrevive <strong>somente</strong>
+      através de doações. <br>Você gosta do nosso trabalho? Você acha que estamos
+      indo na direção certa? Se sim, e se você desejar e tiver condições, nós te pedimos
+      uma doação. '
+    why: Por que apoiar @:data.txt.soft?
+    money: 'Para onde o seu dinheiro está indo? '
+    numbers: '@:data.txt.soft em poucos números'
+    timeline: 'Linha do tempo '
 meta:
-  title: '@:data.txt.soft ~ Change the world one byte at a time'
-  lead: There is a long way to go, but the road is Free…
+  title: '@:data.txt.soft ~ Mude o mundo um byte por vez'
+  lead: Hà um longo caminho pela frente, mas a estrada é Livre...
   desc: 'A French non-profit (Association française de loi 1901), originating as an
     education project, @:data.txt.soft is a network aimed at popular education, focussing
     mostly on free and open source software. The network is organized following 3
@@ -101,19 +101,19 @@ meta:
     FOSS, FLOSS,  promotion and diffusion of free software, open source'
   license: '@:data.license.ccbysa4 except when notified'
 nav:
-  langChange: Change the language
-  lang: Language
-  translate: Translate
+  langChange: Mudar o idioma
+  lang: Idioma
+  translate: Traduzir
   parts:
     logiciel:
-      key: Software section
-      title: to the software section
+      key: Seção softwares
+      title: para a seção software
     culture:
-      key: Culture section
-      title: to the culture section
+      key: Seção Cultura
+      title: para a seção cultura
     cloud:
-      key: Cloud section
-      title: to the cloud section
+      key: Seção cloud
+      title: para a seção cloud
     vrac:
       key: Bulk free section
       title: to the bulk free section
@@ -126,74 +126,76 @@ link:
   wFreeSoftware: https://en.wikipedia.org/wiki/Logiciel_libre
   wSourceCode: https://en.wikipedia.org/wiki/Code_source
   wFreeLicense: https://en.wikipedia.org/wiki/Licence_libre
-  wFreeCulture: https://en.wikipedia.org/wiki/Culture_libre
-  wCommons: https://en.wikipedia.org/wiki/Bien_commun
-  wOSM: https://en.wikipedia.org/wiki/Openstreetmap
+  wFreeCulture: https://pt.wikipedia.org/wiki/Movimento_pela_cultura_livre
+  wCommons: https://pt.wikipedia.org/wiki/Bem_comum
+  wOSM: https://pt.wikipedia.org/wiki/OpenStreetMap
   garden: '@:data.link.cloud/fr/cultiver-son-jardin'
 carousel:
-  play: Play
-  pause: Pause
-  prev: Previous slide
-  next: Next slide
+  play: Reproduzir
+  pause: Pausar
+  prev: Slide anterior
+  next: Próximo slide
 search:
-  btn: Search
-  frama: on @:data.txt.soft’s websites
-  web: on the web
+  btn: Pesquisar
+  frama: nos sites @:data.txt.soft
+  web: na web
 form:
   step1:
-    title: 1. I give for the freedom
-    privilegie: '@:data.txt.soft favours recurring donations to continue its action
-      in a serene and lasting way.'
-    count: Currently @:data.txt.soft counts
-    donators: recurrent donators.
-    monthly: Monthly recurring donation
-    oneshot: One-time donation
+    title: 1. Eu forneço livremente
+    privilegie: '@:data.txt.soft prefere doações recorrentes para poder continuar
+      suas ações de forma serena e duradoura. '
+    count: Atualmente @:data.txt.soft contabiliza
+    donators: doadores periódicos.
+    monthly: Doação mensal recorrente
+    oneshot: Pagamento único
     monthly_ex: 'ex: 42'
     oneshot_ex: 'ex: 133.7'
-    other: Other amount
-    or: OR
+    other: Outro valor
+    or: OU
   step2:
-    title: 2. I complete my information
-    private: Confidentiality
+    title: 2. Eu completo minhas informações
+    private: Confidencialidade
     private_tip:
-    - This information is necessary for practical reasons and in order to issue a
-      tax receipt.
-    - 'If you do not want or cannot untax your donation, you can completely '
-    - fill in this form with false informations
-    - ' (warning, do not use Paypal in this case).'
-    - You should also know that you can check whether your donation has been received.
-      in the “<a href="stats">donor list</a>” page.
-    - Of course, your firtname and lastname are anonymized.
-    type: I represent
-    part: an individual
-    corp: a company
-    corp_tip: Company, association, community…
-    mecenat: If you would like to become a partner of @:data.txt.soft and <a href="partenaires">appear
-      on this page</a>, <a href="@:link.contact">contact us</a>.
-    society: Legal entity
-    society_ex: 'ex : Free Software Fondation'
-    society_email_ex: 'ex : contact@fsf.org'
-    lastname: Last name
-    lastname_ex: 'ex: Stallman'
-    firstname: First name
-    firstname_ex: 'ex: Richard'
+    - 'Essa informação é necessária por razões práticas e para podermos emitir um
+      recibo fiscal. '
+    - Se você não quiser ou não é isento de tributação sobre a sua doação, você pode
+      completamente
+    - preencher esse formulário com informações falsas
+    - (atenção, não use Paypal nesse caso)
+    - Você pode verificar se a sua doação foi recebida na página “<a href="stats">lista
+      de doadores</a>”.
+    - 'Claro, seu nome e sobrenome são anonimizados. '
+    type: Eu represento
+    part: uma pessoa física
+    corp: uma empresa
+    corp_tip: Empresa, associação, comunidade...
+    mecenat: "Se você gostaria de se tornar um parceiro da \n @:data.txt.soft e <a\
+      \ href=\"partenaires\">aparecer nessa página</a>, <a href=\"@:link.contact\"\
+      >contate-nos</a>."
+    society: Pessoa jurídica
+    society_ex: 'ex: Fundação Software Livre'
+    society_email_ex: 'ex: contato@site.com'
+    lastname: Sobrenome
+    lastname_ex: 'ex: Silva'
+    firstname: Nome
+    firstname_ex: 'ex: Ricardo'
     email: E-mail
-    email_ex: 'ex: r.stallman@outlock.com'
-    address1: Address
-    address1_ex: 'ex: 12 rue de la liberté'
-    address2: Addition of address
-    address2_ex: 'ex: Building VI'
-    zip: Postal code
+    email_ex: 'ex: nome@email.com'
+    address1: Endereço
+    address1_ex: 'ex: Rue da Liberdade n° 12'
+    address2: Complemento do endereço
+    address2_ex: 'ex: Prédio VI'
+    zip: Código postal
     zip_ex: 'ex: 69007'
-    city: City
-    city_ex: 'ex: Lyon'
-    country: Country
-    error_empty: This field must be filled in.
-    error_email: You must enter a valid email address.
+    city: Cidade
+    city_ex: ex. Lyon
+    country: País
+    error_empty: Esse campo deve ser preenchido.
+    error_email: Você deve informar um endereço de e-mail válido.
   step3:
-    title: 3. I access the payment
+    title: 3. Eu acesso o pagamento
     defisc: Information on tax exemption
-    defisc_title: Tax exemption
+    defisc_title: Dedução de imposto
     defisc_tip: ' @:data.txt.soft is a recognised association of general interest.<br>
       As such, if you are subject to income tax, you can deduct 66% of the amount
       of your donation. Thus, if you have given €10 x 12 months (€120), you will be
@@ -201,73 +203,73 @@ form:
       be sent to you automatically by e-mail before the declaration.<br> For more
       detailed information, click here to access our explanation page.'
     defisc_text:
-    - 'In France, thanks to the tax deduction of '
-    - ', <b>your donation of </b>'
-    - ' will cost you only '
-    - ' monthly'
-    cb: Credit card
-    vir: Transfer
-    chq: Check
+    - Na França, graças à dedução fiscal da
+    - ', <b>sua doação de</b>'
+    - vai te custar somente
+    - mensalmente
+    cb: Cartão de crédito
+    vir: Transferência
+    chq: Cheque
     pp: Paypal
-    i_give: I give
-    monthly: monthly
-    now: now
-    coord: Your personal details are noted.
+    i_give: Eu dou
+    monthly: mensalmente
+    now: agora
+    coord: Seus dados pessoais foram salvos.
     email_send:
-    - An email has just been sent to you at the address
-    - containing a reminder of the instructions below.
-    ok: Ok, I get it.
+    - Um e-mail acabou de ser enviado para o endereço
+    - contendo um lembrete das instruções abaixo.
+    ok: Ok, eu entendi.
     modal_vir:
-      by: by bank transfer
-      no_sepa: ' @:data.txt.soft does not offer a SEPA form for direct debits, but
-        you can make a donation by bank transfer directly to us.<br> So you decide
-        the sum, the frequency and you can change it at any time.'
-      to_finish: ' To finalize your donation, please note our bank details:'
-      ref: ' Also note this <b>payment reference</b> which must be added to the description
-        of the transfer:'
-      to_bank: ' Then discuss with your bank how to plan the transfer. Some banks
-        can handle this online.'
+      by: por transferência bancária
+      no_sepa: ' @:data.txt.soft não oferece um formulário SEPA para débitos diretos,
+        mas você pode fazer uma doação via transferência bancária diretamente para
+        nós.<br> Assim você decide o valor, a frequência e você pode modificar quando
+        quiser. '
+      to_finish: 'Para finalizar sua doação, por favor anote nossos dados bancários: '
+      ref: ' Anote o <b>código de referência do pagamento</b> que deve ser informado
+        no campo de descrição da transferência bancária : '
+      to_bank: 'Verifique com o seu banco como planejar a transferência. Alguns bancos
+        possibilitam fazê-lo diretamente online. '
     modal_chq:
-      by: by check
-      to_finish: ' To finalize your donation, please complete your cheque to the order
-        of <b>“Association @:data.txt.soft”</b> and note this <b>payment reference
-        at the back</b>:'
-      to_post: ' Then send your cheque to the head office of the association to this
-        mailing address:'
+      by: via cheque
+      to_finish: 'Para finalizar sua doação, por favor destine o cheque à <b>“Associação
+        @:data.txt.soft”</b> e anote esse <b>codigo de referência do pagamento no
+        verso</b>:'
+      to_post: 'Envie o cheque para o escritório da associação nesse endereço:'
   ask:
-    title: Questions
-    stop: Recurring donations can be stopped anytime, just <a href="@:data.link.contact/#soutenir">ask
-      us</a>.
-    edit: If you want to modify your recurring donation, please <a href="@:data.link.contact/#soutenir">contact
-      us</a>, we will stop the current one and you will be able to make a new one.
-    send: Tax receipts (in France only) are sent by postal mail in March/April @:data.year.next
-      (before tax declaration) for @:data.year.current donations
-    moral: Financial and activity reports can be found on the <a href="@:data.link.soft/@:lang/association">non-profit
-      page</a>
-    alter1: For <a href="@:data.link.contact/foire-aux-questions/#dons-alternatifs">practical
-      reasons</a>, we do not accept donations from micro-payment platforms (Lilo,
-      Flattr, Tipeee...) except Liberapay
-    lp: Make a donation via Liberapay
-    alter2: We also do not accept donations in crypto-currency (Bitcoin, Ether, Monero...)
-      but we carefully observe <a href="https://duniter.org/fr/comprendre/">the Ğ1
-      free currency</a>.
-    other: If you have more questions, <a href="@:data.link.soutenir/@:lang/questions">you
-      may find answers there…</a>…
+    title: Questões
+    stop: Doações recorrentes podem ser canceladas a qualquer momento, é só <a href="@:data.link.contact/#soutenir">nos
+      pedir</a>.
+    edit: Se você quiser modificar sua doação recorrente, por favor <a href="@:data.link.contact/#soutenir">contate-nos</a>,
+      nós iremos cancelar a doação em curso e você poderá então fazer uma nova.
+    send: 'Recibos fiscais (na França somente) são enviados por correio em março/abril
+      @:data.year.next (antes da declaração de imposto de renda) para as doações de  @:data.year.current '
+    moral: Relatorios financeiros e de nossas atividades podem ser encontrados na
+      página <a href="@:data.link.soft/@:lang/association">sem fins lucrativos</a>
+    alter1: 'Por <a href="@:data.link.contact/foire-aux-questions/#dons-alternatifs">razões
+      práticas</a>, nós não aceitamos doações via micro-plataformas de pagamento (Lilo,
+      Flattr, Tipeee...), exceto Liberapay '
+    lp: Faça uma doação via Liberapay
+    alter2: Nàos também não aceitamos doações em cripto-moedas (Bitcoin, Ether, Monero...)
+      mas nos observamos atentamente<a href="https://duniter.org/fr/comprendre/">
+      a moeda-livre Ğ1</a>.
+    other: Se você tiver mais perguntas, <a href="@:data.link.soutenir/@:lang/questions">você
+      pode encontrar as respostas aqui…</a>…
 why:
   timeline:
-    title: History of what has already been done
+    title: 'História do que já foi feito '
   money:
-    title: Discover where your money goes
+    title: Descubra para onde vai seu dinheiro
     list:
-    - 'Human resources: @:data.money.rh%'
-    - 'Servers and domain names: @:data.money.servers%'
-    - 'Operating expenses: @:data.money.running%'
+    - 'Recursos Humanos: @:data.money.rh%'
+    - 'Servidores e nomes de domínio: @:data.money.servers%'
+    - 'Despesas de funcionamento: @:data.money.running%'
     - 'Interventions and ext. projects: @:data.money.interventions%'
-    - 'Communication: @:data.money.comm%'
-    - 'Purchases: @:data.money.goods%'
-    - 'Bank charges: @:data.money.bank%'
+    - 'Comunicações: @:data.money.comm%'
+    - 'Compras: @:data.money.goods%'
+    - 'Encargos bancários: @:data.money.bank%'
   reasons:
-    title: 6 good reasons to support us
+    title: 6 boas razões para nos apoiar
     list:
     - '[''1. Because enclosure is now'', ''NSA, Facebook, Google, Amazon, Microsoft
       and Apple… E. Snowden revelations have shown that the worst nightmares of computer
@@ -312,146 +314,147 @@ why:
       Free".'']'
 cat:
   communaute:
-    title: Free community
-    desc: Are you free tonight?
+    title: Comunidade livre
+    desc: Você está livre hoje à noite?
   campagnes:
     sites:
       dio:
-        what: Campaign 2014-2017
+        what: Campanha 2014-2017
       cuo:
-        what: Campaign 2017-2020
+        what: Campanha 2017-2020
   logiciel:
-    title: Free software
-    desc: Liberty, Equality, Fraternity
+    title: Software livre
+    desc: Liberdade, Igualdade, Fraternidade
     sites:
       libre:
-        what: A Directory
-        title: The big directory
+        what: Diretório
+        title: O grande diretório
         desc: More than 1600 peices of software, tested, rated and commented on by
           the longest running and @:data.txt.soft’s debut project. Includes tutorials
           and comprehensive docs.
       key:
-        what: A USB thumb drive
+        what: Dispositivo USB
         title: Full tank of Freedom in a simple device
         desc: With a USB memory stick (or any other mobile device) use more than a
           hundred free programs for mobile, for Windows, test and install a GNU/Linux
           distro or have offline access to Wikipédia in French.
       dvd:
-        what: Un DVD
+        what: Um DVD
         title: Full tank of Freedom in a DVD
         desc: A DVD stuffed with the best free software for Windows, Mac and GNU/Linux
           (distro included) but also free culture (text, photo, audio and video).
           Also available as a special School Edition
       pack:
-        what: A distributor
-        title: Massive install
+        what: Um distribuidor
+        title: Instalação massiva
         desc: '@:data.txt.pack is a handy tool to pick the best free software for
           Window’s most recent version.<br> You select the software you want and all
           the programs are installed in a single convenient step!'
   culture:
-    title: Free cultures
-    desc: Extending the scope of open source
+    title: Culturas livres
+    desc: Estendendo o alcance do código aberto
     sites:
       blog:
         what: Info
-        title: News from "Libre"
+        title: Notícias do "Libre"
         desc: Weekly column on Libre and libre software. Debate, open comments, many
           translations and news announcements about all the activities of the @:data.txt.soft
           network.
       book:
-        what: Some books…
-        title: Betting on free books
-        desc: Our publishing house includes around twenty publications, covering free
-          software, programming for beginners, thoughts on copyright but also comics
-          and even novels. A free book provides the reader with the same freedoms
-          as free software.
+        what: Alguns livros...
+        title: Apostando em livros gratuitos
+        desc: 'Nossa casa editora possui cerca de vinte publicações que tratam de
+          software livre, programação para iniciantes, direitos autorais mas também
+          historias em quadrinhos e até mesmo romances. Um livro livre dá ao leitor
+          a mesma liberdade dada pelo software livre. '
       bookin:
-        what: … and a library
-        title: A free digital library
+        what: '...e uma biblioteca'
+        title: Uma biblioteca digital gratuita
         desc: Our library includes a few hundred free or public domain publications.
           It is available online on mobile platforms. You can add it directly to an
           e-book reading application with the <abbr>OPDS</abbr> feed.
       lang:
-        what: Translations
-        title: Collaborative translation
+        what: Traduções
+        title: Tradução colaborativa
         desc: Translate together, mainly from English to French, with a sense of community
           and leveraging the power of the Internet and good will of its inhabitants.
           It can consist of articles, subtitles or even entire books!
       tube:
-        what: Videos
-        title: Our free « YouTube »
-        desc: Videos in French (or with French subtitles) about free software and
-          Open source in general. Interviews, conferences, documentaries, tv broadcasts…
-          to get informed but also to inform others.
+        what: Vídeos
+        title: Nosso « YouTube » gratuito
+        desc: 'Vídeos em francês (ou com legendas em francês) sobre software livre
+          e open source em geral. Entrevistas, conferências, documentários, programas
+          da TV... para se informar e também informar os outros. '
       zic:
-        what: Music
-        title: When the music is free
+        what: Música
+        title: Quando a música é livre
         desc: « Free music » is music that provides the music lover with the same
           liberty as free software. A dedicated website will help you understand better,
           along with a selection to show that quality is also present.
   cloud:
-    title: Free services
+    title: Serviços gratuitos
     desc: Free cloud computing? It is possible!
     sites:
       pad:
-        what: Edit
-        title: Edit together
-        desc: Let’s all write together on the same document in a collaborative online
-          editing interface. No registration required, pick a username, a color and
-          let’s go!
+        what: Editar
+        title: Editar em grupo
+        desc: Vamos escrever todos juntos no mesmo documento em uma ferramenta online
+          de edição de documentos. Não precisa se registrar, é só escolher um nome
+          de usuário, uma cor e vamos lá!
       calc:
-        what: Calculate
-        title: A collaborative spreadsheet
-        desc: '@:data.txt.calc is to spreadsheets what @:data.txt.pad is to text editing,
-          working together on the same document in a simple and collaborative way.'
+        what: Calcular
+        title: 'Uma planilha colaborativa '
+        desc: '@:data.txt.calc é para as planilhas o que o @:data.txt.pad é para a
+          edição de textos. O trabalho coletivo no mesmo documento é feito de uma
+          maneira simples e colaborativa.'
       forms:
-        what: Ask questions
-        title: Creation of questionnaires
+        what: Faça perguntas
+        title: Criação de questionários
         desc: '@:data.txt.forms allows you to create the questionaires that you need,
           whether it’s in an education, family or community context. Create your questions
           based on your needs, using multiple choice or free text field forms.'
       agenda:
-        what: Organise
-        title: Shared agenda
+        what: Organizar
+        title: Agenda compartilhada
         desc: With @:data.txt.agenda you can create personal or professional calendas,
           the agenda for a hall or the activities of your organization, and share
           them freely. You remain master of your data, and you choose with whom, where
           and when they are shown.
       date:
-        what: Organize
-        title: Organize appointments and surveys
-        desc: '@:data.txt.date is like Doodle, but free. Nothing is simpler than to
-          create an appointment or a survey with registration and to invite your associates.'
+        what: Organização
+        title: Organize compromissos e enquetes
+        desc: '@:data.txt.date é como o Doodle, mas gratuito. Nada é mais simples
+          do que criar e registrar um compromisso ou uma enquete e convidar seus participantes. '
       board:
-        title: Manage projects
+        title: Gestão de projetos
         desc: '@:data.txt.board is a collaborative project and task manager, using
           the Kanban system. Its visual system makes it very easy to feel at home,
           whether you are used to this kind of tool or not.'
       mindmap:
-        what: Structure
-        title: Create mind maps
-        desc: A fluid and intuitive interface to create mind maps easily from inside
-          your browser. Particularly relevant for brainstorming or note taking.
+        what: Estrutura
+        title: Criar mapas mentais
+        desc: Uma ferramenta intuitiva para criar mapas mentais facilmente a partir
+          do seu navegador. Particularmente relevante para fazer brainstorming ou
+          fazer anotações.
       vectoriel:
-        what: Drawing
-        title: Vector drawing
-        desc: Create and edit pictures easily online using the SVG open format. Kids
-          love this!
+        what: Desenho
+        title: Desenho vetorial
+        desc: Crie e edite imagens facilmente online usando o formato aberto SVG.
+          As crianças adoram!
       slides:
-        what: Present
-        title: Create and share slideshows
-        desc: '@:data.txt.slides allows you to create directly on line a slideshow
-          or a presentation, to view it with a simple internet connection, and to
-          share it.'
+        what: Presente
+        title: Crie e compartilhe slides
+        desc: '@:data.txt.slides permite a criação online de slides ou de apresentações,
+          que pode ser visualizado com uma simples conexão à Internet, e compartilhado.'
       maestro:
-        what: Collaborate
-        title: Ochestrate your collaborative projects
+        what: Colabore
+        title: Organize seus projetos coletivos
         desc: Do you need a pad to take notes, an organisation table, and a video-conference,
           at the same time? With @:data.txt.maestro, you’re in charge of the tools
           that you need, and all on one single and unique webpage.
       bee:
-        what: Searching
-        title: The search engine which explores the Internet around you
+        what: Pesquisar
+        title: O sistema de busca que explora a Internet à sua volta
         desc: '@:data.txt.bee is a free and anonymous meta search engine. Your search
           query is sent to multiple other engines before it is displayed in your browser.
           The point? Our engine act as a middle-man between you and Google (and others),
@@ -459,118 +462,120 @@ cat:
           profile) can not be accessed by them.'
       sphere:
         what: Networking
-        title: The free social network
+        title: A rede social livre
         desc: '@:data.txt.sphere is  a free social network based on the decentralised
           Diaspora software. Find your friends on @:data.txt.sphere – or other Diaspora
           pods – and discuss with them without being tracked.'
       piaf:
-        title: Social network in 500 characters
+        title: 'Rede social em 500 caracteres '
         desc: '@:data.txt.piaf is a <b>microblogging</b> libre service, based on the
           decentralized Mastodon software. Find your friends on @:data.txt.piaf -
           or other instances Mastodon, GNU Social, Friendica - and exchange with them
           without being tracked.'
       team:
-        what: Discussing
-        title: Collaborative communication
-        desc: '@:data.txt.team is a free <b> chat </b> service which allows for team
-          collaboration, notifications, conversations history and research.'
+        what: Discussões
+        title: Comunicação colaborativa
+        desc: '@:data.txt.team é um serviço de <b> chat </b> gratuito que permite
+          as discussões online em equipe, envio de notificações, histórico de conversas
+          e pesquisa. '
       listes:
-        title: Email lists
+        title: Listas de e-mails
         desc: '@:data.txt.listes allows you to create email lists: anyone subscribed
           to your list can receive the emails which are sent to the list, and participate
           in turn. It’s up to you to decide if this list is public, semi-private or
           private.'
       talk:
-        title: Videoconference
+        title: Vídeo-conferência
         desc: '@:data.txt.talk lets you chat with your friends without any need for
           complex software installation or registration. It all happens directly between
           you and your friends, from your web browser.'
       vox:
-        what: Decide
-        title: Decide together
+        what: Decidir
+        title: Decidir coletivamente
         desc: '@:data.txt.vox helps you to make group-based decisions. Start a discussion,
           share ideas, come to an agreement. Every decision has a clear deadline,
           so you can be sure to decide on time.'
       memo:
         what: Brainstorm
-        title: Organize ideas
+        title: Organizar ideias
         desc: '@:data.txt.memo allows you to create a board with columns on which
           anyone can pin colourful notes. Just like @:data.txt.pad, no registration
           is required and modifications are made visible and saved continuously.'
       notes:
-        what: Note
-        title: Note taking
-        desc: With @:data.txt.notes you can take and store notes, images, links… and
-          even files; and synchronise them across all your devices (or share them
-          with your friends).
+        what: Anotações
+        title: Tomar notas
+        desc: Com @:data.txt.notes você pode fazer e salvar anotações com imagens,
+          links e até arquivos, e sincronizar em todos os seus aparelhos (ou compartilhar
+          com seus amigos).
       bag:
-        what: Follow the news
-        title: Never miss an article!
-        desc: '@:data.txt.bag allows you to save articles which you do not have time
-          to read now.'
+        what: Siga as notícias
+        title: Nunca perda um artigo!
+        desc: '@:data.txt.bag possibilita salvar os artigos que você não tem tempo
+          para ler agora. '
       news:
         desc: By subscribing to your favorite sites RSS feeds, keep in touch with
           their latest news with @:data.txt.news!
       carte:
-        what: Mapping
-        title: Creat custom maps
-        desc: Framacarte allows you to draw, label, colour, annotate maps from <a
-          href="@:link.wOSM">OpenStreetMap</a> in order to display them on your website
-          or print them.
+        what: Mapas
+        title: Criação de mapas personalizados
+        desc: 'Framacarte possibilita desenhar, classificar, colorir e fazer anotações
+          nos mapas do <a href="@:link.wOSM">OpenStreetMap</a> com o objetivo de mostrá-los
+          em seu site ou imprimi-los. '
       games:
-        what: Gaming
-        title: Online or offline gaming
-        desc: '@:data.txt.games is a compilation of free games, some of them online
-          or on PC, tablet, which do not require any installation.'
+        what: Jogos
+        title: Jogos online ou offline
+        desc: '@:data.txt.games é uma compilação de jogos gratuitos, alguns online
+          ou que podem ser jogados no PC ou tablet, et que não precisam de instalação. '
       minetest:
         title: Mining educational game
         desc: '@:data.txt.minetest is a server for the Minetest game, a "sandbox game"
           in which you build and decompose blocks to modify it and with which you
           can build your own educational apps.'
       drop:
-        what: Sharing
-        title: Share files anonymously
+        what: Compartilhar
+        title: Compartilhe arquivos anonimamente
         desc: With @:data.txt.drop, you are done with attachments too large for the
           e-mail to be sent. This service allows you to share files efficiently and
           in a secure way.
       bin:
-        title: Transmit encrypted data
+        title: Transmita informações criptografadas
         desc: With @:data.txt.bin, you can share data which only you and the recipient
           can decrypt, in a very simple way.
       pic:
-        title: Share pictures anonymously
+        title: Compartilhe imagens anonimamente
         desc: '@:data.txt.pic allows you to easily share pictures, to publish them
           on Twitter, Facebook… or @:data.txt.sphere for example!'
       link:
-        title: Short links
+        title: Encurte links
         desc: With @:data.txt.link, you can shorten long URLs. On social networks
           or microblogging platforms, a shorter link saves space and is more clear.
       drive:
-        what: Store
-        title: Online storage
-        desc: '@:data.txt.drive allows you to store your files online, synchronize
-          them between your PCs, mobile devices… and share them with whoever you want.'
+        what: Estocagem
+        title: Armazenamento virtual
+        desc: '@:data.txt.drive possibilita armazenar seus arquivos online, sincronizá-los
+          entre seu PC, aparelho celular... e compartilhá-los com quem você quiser. '
       my:
-        what: Stock
-        title: Bookmarks
+        what: Estocagem
+        title: Favoritos
         desc: '@:data.txt.my is a little digital catch all, which allows you to store
           and easily find again the links that you like in the style of del.ico.us!
           With a system of tags and automatic sorting, you can easily tidy up your
           tabs and bookmarks, and use the @:data.txt.my button to find again the @:data.txt.soft
           services that you use!'
       git:
-        what: Code
-        title: Host free code
-        desc: '@:data.txt.git is a tool for developers. It can host your open source
-          software projects and allows users to work on it collaboratively.'
+        what: Código
+        title: Hospede código livre
+        desc: '@:data.txt.git é uma ferramenta para programadores. Ele pode hospedar
+          seu projeto de software de código aberto e permite que os usuários trabalhem
+          de forma colaborativa. '
       site:
-        what: Publish
-        title: Website hosting
-        desc: '@:data.txt.site allows you to easily create a website and to host it
-          on our servers. There’s no advertising or tracking posing risk to privacy
-          of your site’s visitors.'
+        what: Publique
+        title: Hospedagem de site
+        desc: '@:data.txt.site permite criar um site e hospedá-lo nos nossos servidores.
+          Sem anúncios ou rastreamento que coloquem em risco a privacidade dos visitantes
+          do site '
       wiki:
-        title: Wiki hosting
+        title: Hospedagem wiki
         desc: '@:data.txt.wiki allows you to easily create a wiki and to host it on
           our servers. There’s no advertising or tracking posing risk to privacy of
           your site’s visitors.'
@@ -579,52 +584,51 @@ cat:
     desc: Unclassifiable but not badly classified!
     sites:
       colibri:
-        what: A forum
-        title: The @:data.txt.soft forum
+        what: Fórum
+        title: O fórum @:data.txt.soft
         desc: Do you have any questions? We (might) have an answer! "If you do not
           know, ask. If you know, share". @:data.txt.colibri is a place where we can
           share information about Open source.
       evl:
-        what: A shop
-        title: Our free little shop
-        desc: 'The marketplace for physical @:data.txt.soft products: @:data.txt.key,
-          @:data.txt.book, @:data.txt.dvd but also goodies and t-shirts.'
+        what: Loja
+        title: Nossa pequena loja livre
+        desc: 'Um marketplace para produtos físicos da @:data.txt.soft: @:data.txt.key,
+          @:data.txt.book, @:data.txt.dvd mas também lembrancinhas e camisetas.'
       docs:
-        what: Documentations
-        title: Our documentation center
+        what: Documentação
+        title: Nosso centro de documentação
         desc: To know everything on the use of the online services that we offer and
           to learn through our different guides how to gain in autonomie.
 pages:
   accroche:
-  - A network dedicated to globally promoting "<i>free</i>" and particularly <i>free
-    software</i>.
-  - Many services and innovative projects freely put at the disposal of the general
-    public.
-  - A <a href="#topPgCommunaute">community</a> of volunteers supported by a public
-    interest association.
-  - An invitation to build together a world of sharing and cooperation.
+  - Uma rede dedicada a promover globalmente o "<i>livre</i>" e particularmente o
+    <i>software livre</i>.
+  - 'Muitos serviços e projetos inovadores colocados à disposição do público em geral. '
+  - 'Uma <a href="#topPgCommunaute">comunidade</a>  de voluntários apoiados por uma
+    associação de interesse publico. '
+  - Um convite para construir juntos um mundo de compartilhamento e cooperação.
   news: What’s up on @:data.txt.soft?
   medias:
-    title: Press Release
+    title: Comunicado de imprensa
     intro: '@:data.txt.soft and the “@:txt.dio” campaign received some attention.
       Here are some extracts from our <a href="@:data.link.press">Press release</a>.'
-    th1: Date
-    th2: Media
+    th1: Data
+    th2: Mídia
     th3: Links
-    lArticle: Link to the article
-    lPaywall: Link to the article (subscribers)
+    lArticle: Link para o artigo
+    lPaywall: Link para o artigo (assinantes)
     lSummary: Link to the summary of the issue
-    lPodcast: Link to the podcast
+    lPodcast: Link para o podcast
     lListen: Link to the listening page
   communaute:
-    title: A community
-    desc: A joyful mess
+    title: Comunidade
+    desc: Uma feliz bagunça
     text: Who is behind @:data.txt.soft? Everybody who took part in our projects at
       some point. It is enough to be eager to promote Open source and license your
       contribution as open source. It guarantees that it will be added to the commons
       without any risk of being seized.
   asso:
-    title: An association
+    title: Uma associação
     desc: A bit of cathedral
     text: '@:data.txt.soft is based on a law 1901 association (non-profit association
       of volunteers). Up to it to smooth out any rough edges and to ensure that the
@@ -632,28 +636,28 @@ pages:
       posts and it’s mostly financed by individual donations collected on Internet.
       You can be a member too, but careful, it is more a vocation than a sinecure!'
   participer:
-    title: Participate?
-    desc: There are lots of ways to participate with us to spread the Free spirit
-      through our numerous projects.
-    text: Test, write, moderate, administrate, translate, proofread, relay, code,
-      communicate, promote, raise awareness… Don’t hesitate to <a href="@:data.link.participer">join
-      in</a> with us! And thanks in advance…
+    title: Participar?
+    desc: 'Existem muitas maneiras de participar conosco para difundir o espirito
+      Livre através dos nossos inúmeros projetos. '
+    text: Testar, escrever, moderar, administrar, traduzir, revisar, transmitir, programar,
+      comunicar, promover, conscientizar... Não hesite em <a href="@:data.link.participer">se
+      juntar</a> à nós! E obrigado desde já…
   soutenir:
-    title: Support us?
+    title: Ajudar-nos?
     desc: because its free as in free speech, not as in free beer
     text: '@:data.txt.soft would be nothing without its volunteer community, but cannot
       operate without the support of the association which has expenses and employs
       @:data.meta.employees vital employees. Our funding depends on individual donations,
       that means on you. <a href="@:data.link.soutenir">If you think we deserve it…</a>'
   partenaires:
-    title: Our partners
+    title: Nossos parceiros
     desc: '@:data.txt.soft is first and foremost a community of users. Yet, its functioning
       is distinctly that of a network, of projects, but also of partners..<br> So,
       @:data.txt.soft receives the support from numerous organisations (public, business,
       non-profit) allowing our projects to grow and develop. <a href="@:link.partenaires">List
       of all our partners</a>'
   logiciel:
-    title: Free software?
+    title: Software livre?
     desc: '<a href="@:link.wFreeSoftware">Free software</a> is a software that offers
       and guarantees the following four liberties: usage, study, modification and
       copying in order to spread (free of charge or not).'
@@ -664,7 +668,7 @@ pages:
     text2: '@:data.txt.soft provides a directory, USB and DVD keys and a Windows installer
       to discover these and use them regularly.'
   culture:
-    title: Free Culture?
+    title: Cultura livre?
     desc: Ease by Internet and digitisation, "<a href="@:link.wFreeCulture">free culture</a>"
       is a evolving culture inspired directly by free software in its spirit and licenses
       to promote and spread intellectuals works.
@@ -677,7 +681,7 @@ pages:
     quote: “Because it will be one of the biggest missed opportunities of our era
       if the free software doesn’t free anything else than code.”
   cloud:
-    title: Free services?
+    title: Serviços livres ?
     desc: 'Code name: “@:data.txt.cloud”'
     text1: Intuitive, registration-free, and directly in your browser, it is a set
       of online free services and respectful of your personal data. These services
@@ -686,8 +690,8 @@ pages:
       Internet. Tutorials are availables in the section <a href="@:link.garden" lang="fr">Cultiver
       son jardin</a> (only in French at the moment) to help you to go for it.
   vrac:
-    title: Cross-disciplinary projects
-    desc: Discussion areas, purchases, development…
+    title: Projetos interdisciplinares
+    desc: Áreas de discussão, compras, desenvolvimento
     text: Everything about the whole of the network as well as our think tank and
       projects under development are grouped together in this section.
     une:
@@ -695,14 +699,14 @@ pages:
       desc: GéGé, Geektionnerd generator
       text: Geektionnerd do it yourself.
 charte:
-  title: Charter
+  title: Estatuto
   intro: '@:data.color.soft is a network of popular education, which has its origins
     in the education world, which is principally dedicated to free (as in free speech)
     software. It is collaboratively organized around three main issues: promotion,
     dissemination and development of free software, enhancement of open source culture,
     and an online platform of open services.'
   libre:
-    title: For an open Internet
+    title: Por uma Internet aberta
     text:
     - The use of free software and open standards on the Internet is the main purpose
       of our project <a href="@:data.link.dio">@:color.dio</a>.
@@ -727,7 +731,7 @@ charte:
       that would be considered infringing or illegal by French law, once duly signaled,
       will be immediately deleted.
   decentralized:
-    title: For a decentralized Internet
+    title: Por uma Internet descentralizada
     text:
     - By offering open applications online, @:data.color.soft intends to promote alternative
       solutions to proprietary applications that some companies propose in order to
@@ -741,7 +745,7 @@ charte:
       and to give a proof of concept that a decentralized and egalitarian Internet
       is possible.'
   ethic:
-    title: For an ethical Internet
+    title: Para uma Internet ética
     text:
     - The ethics of opensource software is about sharing and independence. @:data.color.soft
       commits itself to never practice any censorship of the contents, nor any surveillance
@@ -757,7 +761,7 @@ charte:
       when they make them public in the context of a collaborative application. In
       this case, users remain responsible for their content.
   solidary:
-    title: For an Internet of solidarity
+    title: Por uma Internet solidária
     text:
     - '@:data.color.soft is a non-profit. Its volunteers and employees devote their
       time to ensure the continuity of the services offered to users. Our business
@@ -775,9 +779,9 @@ charte:
     by  @:data.color.soft on October 6th 2014.
   - 'Translation by Framalang contributors Théo, #!, goofy, Diane'
 cgu:
-  title: Terms of Use
+  title: Termos de Utilização
   intro:
-    title: Preamble
+    title: Preâmbulo
     text: By using this service, you agree to be bound by the following terms.<br>
       @:data.color.soft reserves the right to update and modify these terms from time
       to time.
@@ -786,10 +790,10 @@ cgu:
     desc: To make it easier to read, without the legal blah-blah, we offer you below
       a version understandable by a normal human being.
     sympa:
-      text: 'We’re nice people:'
+      text: 'Nós somos pessoas legais:'
       list:
-      - Your content belongs to you (but we encourage you to publish it under free
-        license);
+      - O conteúdo que você produz pertence à você (mas nós o encorajamos à publicá-lo
+        sob uma licença livre)
       - '@:data.color.soft will not use your personal data, except for statistical
         purposes (anonymized) or to notify you of a significant change in the service;'
       - '@:data.color.soft  will not transmit or resell your personal data (your privacy
@@ -828,9 +832,9 @@ cgu:
         that is important to you, because @:data.color.soft can not be held responsible
         for their hosting without time limit.'
   full:
-    title: Full version
+    title: Versão completa
     conditions:
-      title: Conditions of service
+      title: Condições de serviço
       list:
       - Use of the service is at your own risk. The service is provided as is.
       - You must not modify another site in order to falsely signify that it is associated
@@ -840,8 +844,8 @@ cgu:
       - You are responsible for the security of your account and password. @:data.color.soft
         can not and will not be responsible for any losses or damage resulting from
         your failure to comply with this safety obligation.
-      - You are responsible for all content posted and activity that occurs under
-        your account.
+      - 'Você é responsável por todo o conteúdo postado e a atividade ocorrida a partir
+        da sua conta. '
       - You may not use the Service for any illegal or unauthorized purpose. You must
         not break the laws of your country.
       - You may not sell, trade, resell, or exploit in an unauthorized business purpose
@@ -871,17 +875,17 @@ cgu:
         and @:data.color.soft and govern your use of the service, replacing all previous
         agreements between you and @:data.color.soft (including previous versions
         of the Terms of Use).
-      - Questions about the conditions of service should be sent via <a href="@:data.link.contact">this
-        contact form</a>.
+      - Questões sobre as condições do serviço devem ser enviadas através <a href="@:data.link.contact">deste
+        formulário de contato</a>.
   modify:
-    title: Modifications of the service
+    title: Mudanças nos serviços
     list:
     - '@:data.color.soft reserves the right, at any time, to modify or interrupt,
       temporarily or permanently, with or without notice.'
     - '@:data.color.soft will not be liable to you or any third party for any modification,
       suspension or interruption of service.'
     copyright:
-      title: Content copyright
+      title: Direitos autorais sob o conteúdo
       list:
       - You cannot send, upload, blog, distribute, disseminate any illegal, defamatory,
         harassing, abusive, fraudulent content, counterfeit, obscene or otherwise
@@ -897,7 +901,7 @@ cgu:
       - We may, if necessary, delete or prevent the distribution of any content on
         the service that does not comply with these conditions.
     share:
-      title: Editing and data sharing
+      title: Edição e compartilhamento de dados
       list:
       - The files you create with the service can be - if you wish - read, copied,
         used and redistributed by people you know or not.
@@ -918,7 +922,7 @@ cgu:
       - '@:data.color.soft also reserves the right to terminate your account if you
         do not log into your account for a period longer than 6 months.'
     private:
-      title: Personal information
+      title: Informações pessoais
       text:
       - In accordance with article 34 of the law "Informatique et Libertés", @:data.color.soft
         guarantees the user a right to opposition, access and of correction on the
@@ -946,18 +950,18 @@ cgu:
 legals:
   title: Legals
   editor:
-    title: Publisher
-    asso: Association law 1901 declared in sub-prefecture of Arles on December 2,
-      2003 under the number 
-    siret: 'N° Siret :'
-    siege: Headquarters
-    contact: 'To contact us:'
+    title: Editor
+    asso: Associação lei 1901 declarada na sub-prefeitura de Arles em 2 de dezembro
+      de 2003 sob número
+    siret: 'N° Siret:'
+    siege: Sede
+    contact: 'Para contatar-nos: '
     coprez: Co-chair, publication management
-    host: Hosting company
+    host: Empresa de hospedagem
   infoLib:
-    title: Computers and liberties
+    title: Computadores e liberdades
     private:
-      title: Personal information collected
+      title: Dados pessoais coletados
       text:
       - In France, personal data is protected by <a href="https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460">
         Act No. 78-17 of 6 January 1978</a>, Act No. 2004-801 of 6 August 2004, article
@@ -971,7 +975,7 @@ legals:
         It is specified at this time to the user of the network @:data.color.soft
         if the information to provide is obligatory or not.
     stats:
-      title: Statistical analysis and confidentiality
+      title: Análises estatísticas e confidencialidade
       text:
       - In order to adapt the site to our visitors’ requests, we analyze the traffic
         of our sites with Matomo. Matomo generates a cookie with a unique identifier,
@@ -979,7 +983,7 @@ legals:
         User-Agent…) are anonymized and kept for a period of 6 months. They are not
         transferred to third parties or used for any other purpose.
     modify:
-      title: Rectification of personal information collected
+      title: Retificação de dados pessoais coletados
       text:
       - 'In accordance with the provisions of Article 34 of Act No 48-87 of January
         6, 1978, the user has a right of modification of the personal data collected
@@ -987,13 +991,13 @@ legals:
       - The amendment will be made within a reasonable period of time from the date
         of receiving the user’s request.
       list:
-      - you can send us an e-mail using the contact form
+      - você pode nos enviar um e-mail utilizando o formulário de contato
       - a letter should be sent to the address of the association’s headquarters (indicated
         above) indicating your name or business name, your physical and/or electronic
         address and, where appropriate, the reference that you have as a user of the
         @:data.color.soft site.
   liabilities:
-    title: Limitation of liability
+    title: Limitação de responsabilidade
     text:
     - This site contains information made available by external communities or companies
       or hypertext links to other sites that were not developed by @:data.color.soft</>.
@@ -1025,13 +1029,13 @@ legals:
         the site using recent material, not containing viruses and with an up-to-date
         browser.'
     copyright:
-      title: Intellectual property
+      title: Propriedade intelectual
       text:
       - The contents are published under the responsibility of the users.
   footer:
   - Legal information of the association @:data.color.soft,<br>October 6, 2014.
 credits:
-  title: Credits
+  title: Créditos
   main:
     text:
     - 'This site uses free elements common to the entire @:data.txt.soft network:'
@@ -1040,15 +1044,15 @@ credits:
       our Gitlab repository</a>.
     - '<a href="../graphics">Graphic charter</a> :'
     tools:
-    - 'the library <a href="https://jquery.com/">jQuery</a> and the free <a href="https://getbootstrap.com">Bootstrap</a>
-      framework '
-    - or the free <a href="https://vuejs.org">VueJS</a> framework and many dependencies
-    - the fonts <a href="https://www.paratype.com/public/">PTSans</a> (titles), <a
-      href="http://dejavu-fonts.org/wiki/Main_Page">Deja Vu Sans</a> and <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a>
-      (icons)
+    - a biblioteca <a href="https://jquery.com/">jQuery</a> e o framework gratuito
+      <a href="https://getbootstrap.com">Bootstrap</a>
+    - ou o framework gratuito <a href="https://vuejs.org">VueJS</a> e muitas dependências
+    - as fontes <a href="https://www.paratype.com/public/">PTSans</a> (títulos), <a
+      href="http://dejavu-fonts.org/wiki/Main_Page">Deja Vu Sans</a> e<a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a>
+      (ícones)
     - the statistical measurement tool <a href="https://www.matomo.org/">Matomo</a>
     license:
-      title: License
+      title: Licença
       text:
       - Unless otherwise stated, the content of the sites is placed under free license
         @:data.license.ccbysa4fr
@@ -1063,9 +1067,9 @@ credits:
         It is inspired by the mascot initially created by @:data.people.lldemars.<br>
         (@:data.txt.soft is allowed to use the logo without having to quote the author).
 asso:
-  title: Association
+  title: Associação
   prez:
-    title: Presentation of @:data.txt.soft
+    title: Apresentação de @:data.txt.soft
     text:
     - From the educational world and now turned towards popular education, @:data.html.soft
       is above all a network of projects, of which the first, <a href="@:data.link.libre">directory
@@ -1085,10 +1089,11 @@ asso:
     - of free software (directory, USB sticks, installer…);
     - of free cultural creations (blog, translation, publishing house…);
     - of free services (more than 30 free services in the project <a href="@:data.link.dio">@:color.dio</a>).
-    saveas: Right click on the image and “Save image as” to reuse it
-    infography: Infography <em lang="fr">Le monde de @:data.txt.soft</em> made by
+    saveas: Clique com o botão direito sobre a imagem e selecione "Salvar imagem como"
+      para poder reutilizá-la
+    infography: Infogràfico <em lang="fr">O mundo de @:data.txt.soft</em> feito por
   infos:
-    title: The @:data.txt.soft association
+    title: 'A associação @:data.txt.soft '
     text:
     - The network @:data.html.soft relies on its large community of volunteers but
       could not exist if it wasn’t supported by an association founded in 2004.
@@ -1098,38 +1103,38 @@ asso:
       ten permanent staff)
     - You will find below some information including our statutes, the rules of procedure
       and the annual moral reports.
-    statuts: Statutes of the association
-    ri: Internal Regulations
+    statuts: Estatutos da associação
+    ri: Regulamentos Internos
   data:
     title: Administrative and practical data
     dt:
       juridical: Legal form
-      coprez: Co-chair
-      dg: Director and Managing Director
-      registration: Registration of the association
-      staff: Salaried
-      org: Organization
-      id: Full identification
-      projects: Main projects
+      coprez: Co-presidente
+      dg: Diretor e Diretor Executivo
+      registration: Registro da associação
+      staff: Assalariados
+      org: Organização
+      id: Identificação completa
+      projects: Projetos principais
       charte: Charter of the association and its services
       reports: Moral reports
       newsletter: Newsletter
       press: Press and media review
-      graphics: Graphic charter and logos
-      founders: Founders
+      graphics: Carta gráfica e logotipos
+      founders: Fundadores
     dd:
-      juridical: Association law of 1901, recognized of general interest
-      staff: '@:data.meta.employees employees'
+      juridical: Associação lei de 1901, reconhecimento de interesse geral
+      staff: '@:data.meta.employees funcionários'
       org: Association supporting free and contributing projects
-      id: See the file
-      reportsFinancial: Financial report
+      id: Veja o arquivo
+      reportsFinancial: Relatório financeiro
       reportsWriting: activity report in progress
-      reportsResults: Income statement
-      reportsActivities: Activity report
-      reportsMAndF: Moral and financial report
+      reportsResults: Demonstração de resultados
+      reportsActivities: Relatório de atividades
+      reportsMAndF: Relatório financeiro e moral
       newsletter: registration and archives
       press: Annual table
-      graphics: on this page
+      graphics: nesta página
       banners: Banners
       benevalo: Valued volunteerism
 graphics:

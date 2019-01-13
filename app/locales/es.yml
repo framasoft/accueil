@@ -1,52 +1,53 @@
-lite: Quick access
+lite: Acceso rápido
 full: Classic home
 home:
   intro:
-    subtitle: Change the world<br>one byte at a time
-    text: '@:data.txt.soft is a non-profit <strong>popular educational organization</strong>,
-      a group of friends convinced that an <strong>emancipatory</strong> digital world
-      is possible, convinced that it will arise through <strong>actual actions</strong>
-      on real world and online with and for you !'
-    btn: Support our actions
+    subtitle: Cambia el mundo<br>byte a byte
+    text: '@:data.txt.soft es una <strong>organización educativa popular</strong>
+      sin ánimo de lucro, un grupo de amigos convencidos de que un mundo digital<strong>liberado
+      del control</strong> es posible, convencidos de que surgirá, <strong>de accionas
+      reales</strong> en el mundo real y on line, ¡contigo y para ti!'
+    btn: Apoya nuestras acciones
   more:
-    title: Framasoft is…
+    title: Framasoft es…
     libre:
-      title: '@:data.txt.libre, the free culture directory'
-      text: '@:data.txt.soft historical project: hundreds of free softwares and cultural
-        contents organized and tested, displayed with short notices'
+      title: '@:data.txt.libre, el directorio de cultura libre'
+      text: 'El proyecto histórico de @:data.txt.soft: cientos de programas y contenidos
+        culturales libres, organizados y probados, mostrados con anotaciones cortas'
     book:
-      title: '@:data.txt.book, the publishing house'
-      text: Free books share the same freedom as free software. We publish manuals,
-        technical books, but also novels and even comics
+      title: '@:data.txt.book, la editorial'
+      text: Los libros libres comparten la misma libertad que el software libre. Publicamos
+        manuales y libros técnicos, pero también novelas, e incluso comics
     blog:
-      title: '@:data.txt.blog, the news about free culture'
-      text: 'News about @:data.txt.soft, free culture and commons : chronicles, press
-        reviews, translations, interviews'
+      title: '@:data.txt.blog, las noticias acerca de la cultura libre'
+      text: 'Noticias sobre @:data.txt.soft, cultura libre y lo que es de todos: crónicas,
+        una revista de prensa, traducciones, entrevistas.'
     confs:
-      title: Conferences, workshops
-      text: More than one hundred conferences, workshops and interventions per year
-    footer: '@:data.txt.soft has more thant 50 projects. Check all of them.'
-    link: See the full presentation.
+      title: Conferencias, talleres
+      text: Más de cien conferencias, talleres e intervenciones al año
+    footer: '@:data.txt.soft tiene más de 50 proyectos. Compruébalo.'
+    link: Ver la presentación completa.
   dio:
-    title: Degooglize your Internet<br> with our 32 services
-    subtitle: <strong>Ethical alternatives</strong> are possible.<br> Demonstration
-      with <strong>{count} examples</strong>.
-    btn: Help us maintain these services and help us to develop new ones
-    footer: The complete list of our services, with the whole documentation to master
-      them, can be found on the <a href=@:data.link.dio>@:txt.dio</a> website
+    title: Desgoogliza tu Internet<br> con nuestros 32 servicioa
+    subtitle: <strong>Las alternativas éticas</strong> son posibles.<br> Demonstración
+      con <strong>{count} ejemplos</strong>.
+    btn: Ayúdanos a mantener estos servicios y a desarrollar otros nuevos
+    footer: 'Puedes encontrar la lista completa de nuestros servicios, con toda la
+      documentación necesaria para dominarlos, en la página  <a href=@:data.link.dio>@:txt.dio</a> '
   peertube:
-    title: 'PeerTube : the alternative to YouTube, made with you and for you'
-    text: Have a look to 1.0 version of PeerTube, which lets you to create <strong>your</strong>
-      own alternative to YouTube. This software has been developped thanks to your
-      contriibutions.<br> All together, let’s build a smilar to us video platform
-    btn: Browse the main features
-    footer: 'To learn about the PeerTube software, discover how it’s organized into
-      a <abbr title="Also known as fediverse, the whole group of federated instances.">federation</abbr>
-      and understand how to create your own <abbr title="Decentralized installation
-      on a server, accessible through a web address.">instance</abbr>: <a href="https://joinpeertube.org"
+    title: 'PeerTube : la alternativa a YouTube, hecho contigo y para ti'
+    text: Echa una ojeada a la versión 1.0 de PeerTube, que permite que crees <strong>tu</strong>
+      propia alternativa a YouTube. Este software ha sido desarrollado gracias a contribuidores
+      como tú.<br> Construyamos entre todos una plataforma de vídeo que se parezca
+      a nosotros
+    btn: Navega por sus principales características
+    footer: 'Para saber más acerca de PeerTube, descubre cómo está organizado como
+      una <abbr title="Also known as fediverse, the whole group of federated instances.">federación</abbr>  y
+      comprende cómo crear tu propia <abbr title="Decentralized installation on a
+      server, accessible through a web address.">instancia</abbr>: <a href="https://joinpeertube.org"
       lang="en">JoinPeertube</a>'
     modal:
-      title: Main features of PeerTube
+      title: Principales características de  PeerTube
       text: PeerTube is a fully featured software. Here is some of its abilities.
       features:
       - Import from YouTube
@@ -88,7 +89,7 @@ home:
     timeline: Actions timeline
 meta:
   title: '@:data.txt.soft ~ Change the world one byte at a time'
-  lead: There is a long way to go, but the road is Free…
+  lead: El camino es largo, pero sin obstaculos...
   desc: 'A French non-profit (Association française de loi 1901), originating as an
     education project, @:data.txt.soft is a network aimed at popular education, focussing
     mostly on free and open source software. The network is organized following 3
@@ -101,19 +102,19 @@ meta:
     FOSS, FLOSS,  promotion and diffusion of free software, open source'
   license: '@:data.license.ccbysa4 except when notified'
 nav:
-  langChange: Change the language
-  lang: Language
-  translate: Translate
+  langChange: Cambiar idioma
+  lang: Idioma
+  translate: Traducir
   parts:
     logiciel:
-      key: Software section
-      title: to the software section
+      key: Seccion Software
+      title: A la seccion Software
     culture:
-      key: Culture section
-      title: to the culture section
+      key: Seccion Cultura
+      title: A la seccion Cultura
     cloud:
-      key: Cloud section
-      title: to the cloud section
+      key: Seccion Nube
+      title: A la seccion Nube
     vrac:
       key: Bulk free section
       title: to the bulk free section
@@ -133,12 +134,12 @@ link:
 carousel:
   play: Play
   pause: Pause
-  prev: Previous slide
-  next: Next slide
+  prev: Anterior
+  next: Siguiente
 search:
-  btn: Search
+  btn: Buscar
   frama: on @:data.txt.soft’s websites
-  web: on the web
+  web: A la web
 form:
   step1:
     title: 1. I give for the freedom
@@ -312,17 +313,17 @@ why:
       Free".'']'
 cat:
   communaute:
-    title: Free community
-    desc: Are you free tonight?
+    title: Comunidad libre
+    desc: ¿Estas libre esta noche?
   campagnes:
     sites:
       dio:
-        what: Campaign 2014-2017
+        what: Temporada 2014-2017
       cuo:
-        what: Campaign 2017-2020
+        what: Temporada 2017-2020
   logiciel:
-    title: Free software
-    desc: Liberty, Equality, Fraternity
+    title: Software libre
+    desc: Libertad, Igualdad, Fraternidad
     sites:
       libre:
         what: A Directory
@@ -332,108 +333,109 @@ cat:
           and comprehensive docs.
       key:
         what: A USB thumb drive
-        title: Full tank of Freedom in a simple device
-        desc: With a USB memory stick (or any other mobile device) use more than a
-          hundred free programs for mobile, for Windows, test and install a GNU/Linux
-          distro or have offline access to Wikipédia in French.
+        title: Toda la Libertad en un solo dispositivo
+        desc: Con un dispositivo USB (u otro dispositivo portatil) puede disfrutar
+          de cientos de programas libres para telefono movil, para Windows, para probar
+          e instalar una distribucion GNU/Linux o tener acceso offline a la Wikipedia
+          en frances.
       dvd:
         what: Un DVD
-        title: Full tank of Freedom in a DVD
-        desc: A DVD stuffed with the best free software for Windows, Mac and GNU/Linux
-          (distro included) but also free culture (text, photo, audio and video).
-          Also available as a special School Edition
+        title: Toda la Libertad en un DVD
+        desc: Un disco DVD con el mejor software libre para Windows, Mac y GNU/Linux
+          (distros incluidas) ademas de textos, fotos, audios y videos libres y gratuitos.
+          Tambien disponible en una especial Edicion Escolar
       pack:
-        what: A distributor
+        what: Distribuidor
         title: Massive install
         desc: '@:data.txt.pack is a handy tool to pick the best free software for
           Window’s most recent version.<br> You select the software you want and all
           the programs are installed in a single convenient step!'
   culture:
-    title: Free cultures
-    desc: Extending the scope of open source
+    title: Culturas libres
+    desc: Expandiendo el alcance del codigo abierto
     sites:
       blog:
         what: Info
-        title: News from "Libre"
+        title: Noticias de "Libre"
         desc: Weekly column on Libre and libre software. Debate, open comments, many
           translations and news announcements about all the activities of the @:data.txt.soft
           network.
       book:
-        what: Some books…
-        title: Betting on free books
-        desc: Our publishing house includes around twenty publications, covering free
-          software, programming for beginners, thoughts on copyright but also comics
-          and even novels. A free book provides the reader with the same freedoms
-          as free software.
+        what: Algunos libros...
+        title: Apostando por los libros gratis
+        desc: Nuestras publicaciones incluyen alrededor de veinte textos, abarcando
+          software libre, programacion para principiantes, conocimientos sobre copyright,
+          comics e incluso novelas. Un free book se proporciona a la lectora o lector
+          con la misma libertad que el software libre.
       bookin:
-        what: … and a library
-        title: A free digital library
+        what: '... y una biblioteca'
+        title: Una libreria digital libre
         desc: Our library includes a few hundred free or public domain publications.
           It is available online on mobile platforms. You can add it directly to an
           e-book reading application with the <abbr>OPDS</abbr> feed.
       lang:
-        what: Translations
-        title: Collaborative translation
+        what: Traducciones
+        title: Traduccion colaborativa
         desc: Translate together, mainly from English to French, with a sense of community
           and leveraging the power of the Internet and good will of its inhabitants.
           It can consist of articles, subtitles or even entire books!
       tube:
         what: Videos
-        title: Our free « YouTube »
-        desc: Videos in French (or with French subtitles) about free software and
-          Open source in general. Interviews, conferences, documentaries, tv broadcasts…
-          to get informed but also to inform others.
+        title: Nuestro "YouTube" libre
+        desc: Videos en frances (o subtitulados en frances) sobre software libre o
+          Codigo abierto en general. Entrevistas, conferencias, documentales, programas
+          de tv... para estar informadx o para informar a otrxs.
       zic:
-        what: Music
-        title: When the music is free
+        what: Musica
+        title: Cuando la musica es libre
         desc: « Free music » is music that provides the music lover with the same
           liberty as free software. A dedicated website will help you understand better,
           along with a selection to show that quality is also present.
   cloud:
-    title: Free services
-    desc: Free cloud computing? It is possible!
+    title: Servicios Libres
+    desc: ¿Computerizando en la nube libre? ¡Si es posible!
     sites:
       pad:
-        what: Edit
-        title: Edit together
-        desc: Let’s all write together on the same document in a collaborative online
-          editing interface. No registration required, pick a username, a color and
-          let’s go!
+        what: Edicion
+        title: Edicion juntos
+        desc: Permite escribir todxs en un mismo documento a traves de una interface
+          colaborativa de edicion online. Sin registrarse, escoge un nombre de usuario,
+          un color y adelante!
       calc:
-        what: Calculate
-        title: A collaborative spreadsheet
+        what: Calcular
+        title: Una hoja de calculo colaborativa
         desc: '@:data.txt.calc is to spreadsheets what @:data.txt.pad is to text editing,
           working together on the same document in a simple and collaborative way.'
       forms:
-        what: Ask questions
-        title: Creation of questionnaires
-        desc: '@:data.txt.forms allows you to create the questionaires that you need,
-          whether it’s in an education, family or community context. Create your questions
-          based on your needs, using multiple choice or free text field forms.'
+        what: Preguntas
+        title: Creacion de cuestionarios
+        desc: '@:data.txt.forms permite crear cuestionarios bien para educacion, familiares,
+          trabajo o comunidades. Crea tus preguntas segun tus necesidades, usando
+          diferentes formatos de elecciones multiples o campos de texto libre.'
       agenda:
-        what: Organise
-        title: Shared agenda
+        what: Organizar
+        title: Agenda compartida
         desc: With @:data.txt.agenda you can create personal or professional calendas,
           the agenda for a hall or the activities of your organization, and share
           them freely. You remain master of your data, and you choose with whom, where
           and when they are shown.
       date:
         what: Organize
-        title: Organize appointments and surveys
+        title: Organizar citas y encuestas
         desc: '@:data.txt.date is like Doodle, but free. Nothing is simpler than to
           create an appointment or a survey with registration and to invite your associates.'
       board:
-        title: Manage projects
+        title: Gestionar proyectos
         desc: '@:data.txt.board is a collaborative project and task manager, using
           the Kanban system. Its visual system makes it very easy to feel at home,
           whether you are used to this kind of tool or not.'
       mindmap:
-        what: Structure
-        title: Create mind maps
+        what: Estructura
+        title: Crear mapas mentales
         desc: A fluid and intuitive interface to create mind maps easily from inside
           your browser. Particularly relevant for brainstorming or note taking.
       vectoriel:
-        what: Drawing
+        what: Dibujar
         title: Vector drawing
         desc: Create and edit pictures easily online using the SVG open format. Kids
           love this!
