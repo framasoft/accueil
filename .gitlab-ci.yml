@@ -21,6 +21,7 @@ production:
   - npm install
   - npm run prod
   - cp ./public/fr/index.html ./public/index.html
+  - for f in $(find -type l);do cp --remove-destination $(readlink -f $f) $f;done;
   - mkdir "${HOME}/.ssh"
   - chmod 700 "${HOME}/.ssh"
   - if [ ! -z ${DEPLOYEMENT_KNOWN_HOSTS+x} ]; then echo -e "${DEPLOYEMENT_KNOWN_HOSTS}" > ${HOME}/.ssh/known_hosts; fi
