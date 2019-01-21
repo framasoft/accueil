@@ -1,0 +1,1178 @@
+lite: Accesso rapido
+full: Home classica
+home:
+  intro:
+    subtitle: Cambiare il mondo<br>un byte alla volta
+    text: '@:data.txt.soft è una  <strong>organizzazione no-profit per l''educazione
+      popolare</strong> un gruppo di amici convinti che un mondo digitale <strong>emancipatore</strong>
+      è possibile, convinti che nascerà attraverso delle <strong>azioni concrete</strong>
+      nel mondo reale e online con te e per te!'
+    btn: Sostieni i nostri progetti
+  more:
+    title: Framasoft è...
+    libre:
+      title: '@:data.txt.soft, l''annuario della cultura libera'
+      text: '@:data.txt.soft, il progetto storico: centinaia di software liberi e
+        contenuti culturali classificati e testati, presentati con brevi articoli'
+    book:
+      title: '@:data.txt.book, la casa editrice'
+      text: Libri liberi condivisi nello stesso modo del software libero. Pubblichiamo
+        manuali, libri tecnici, ma anche racconti e qualche fumetto.
+    blog:
+      title: '@:data.txt.blog, le notizie dal mondo della cultura libera'
+      text: 'Notizie su @:data.txt.soft, cultura libera e commons: cronache, rassegne
+        stampa, traduzioni, interviste'
+    confs:
+      title: Conferenze, laboratori
+      text: Più di cento conferenze, workshops e interventi ogni anno
+    footer: '@:data.txt.soft ha più di  50 progetti. Vai a vederli tutti.'
+    link: Guarda la presentazione completa.
+  dio:
+    title: Degoogolizza la tua Internet<br> con i nostri 32 servizi
+    subtitle: <strong>Le alternative etiche</strong> sono possibili.<br> La dimostrazione
+      con <strong>{count} esempi</strong>.
+    btn: Aiutaci a mantenere questi servizi e a svilupparne di nuovi
+    footer: 'Puoi trovare l''elenco completo dei nostri servizi, con l''intera documentazione
+      per imparare ad usarli, nel sito <a href=@:data.link.dio>@:txt.dio</a>   '
+  peertube:
+    title: 'PeerTube: l''alternativa a YouTube, fatta con te e per te'
+    text: Dai un'occhiata alla versione 1.0 di PeerTube che ti permette di creare
+      la <strong>tua</strong> alternativa a YouTube. Questo software è stato sviluppato
+      grazie al tuo contributo. <br> Tutti insieme costruiamo una  piattaforma video
+      che ci assomigli
+    btn: Vai a vedere le caratteristiche principali
+    footer: 'Per saperne di più su PeerTube, scopri com''è organizzato in una  <abbr
+      title="Also known as fediverse, the whole group of federated instances.">federazione</abbr>
+      e capisci come creare una tua <abbr title="Decentralized installation on a server,
+      accessible through a web address.">istanza</abbr>: <a href="https://joinpeertube.org"
+      lang="en">JoinPeertube</a>'
+    modal:
+      title: Caratteristiche principali di PeerTube
+      text: PeerTube è un software completo. Ecco alcune delle sue caratteristiche.
+      features:
+      - Importa da YouTube
+      - Importa file .torrent
+      - Sottotitoli
+      - Ricerca avanzata
+      - Iscrizione per gli utenti
+      - Feed RSS
+  cuo:
+    title: Contributopia
+    subtitle: La tabella di marcia di @:data.txt.soft, <br> verso il secondo anno
+    meet:
+      title: Frama<br>meet
+      text: 'All''inizio un''alternativa a Meetup o agli eventi Facebook, Framameet
+        vuole essere uno strumento per la mobilitazione: per il compleanno di tuo
+        cugino, per un convegno con 300 partecipanti o una dimostrazione di 15000
+        persone.'
+    petitions:
+      title: Frama<br>petitions
+      text: Organizza la sensibilizzazione per una causa che per te è importante.
+        Avvisa le persone. Riunisce le persone interessate ad un'azione comune.
+    mooc:
+      title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
+        lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
+        Neutres et Solidaires">CHATONS</abbr>
+      text: Un percorso educativo completo, pieno di utili risorse, per far crescere
+        la consapevolezza delle sfide della tecnologia digitale e per organizzare
+        la resistenza.
+    btn: Dai il tuo contributo per un altro anno di Contributopia
+    footer: 'Tutto questo è solo un esempio di tutte le azioni a cui attualmente stiamo
+      lavorando... Scopri l''intera tabella di marcia: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
+  soutenir:
+    title: Sostieni Framasoft
+    text: Framasoft è un'organizzazione no-profit e vive <strong>solo</strong> attraverso
+      le tue donazioni.<br> Ti è piaciuto quello che abbiamo fatto? Pensi che stiamo
+      andando nella giusta direzione? Se è così  ne hai la voglia e i mezzi, ti invitiamo
+      a fare una donazione.
+    why: Perchè sostenere @:data.txt.soft?
+    money: Dove vanno a finire i tuoi soldi?
+    numbers: '@:data.txt.soft in qualche cifra'
+    timeline: Cronologia delle azioni
+meta:
+  title: '@:data.txt.soft ~ Cambiare il mondo un byte alla volta'
+  lead: La strada è lunga, ma la via è libera...
+  desc: 'Associazione no-profit francese (Association française de loi 1901), nata
+    come progetto educativo: @:data.txt.soft è una rete rivolta all''educazione popolare,
+    incentrata principalmente sul software libero e open source. La rete è organizzata
+    su un modello collaborativo incentrato su 3 tematiche principali: promozione,
+    diffusione e sviluppo del software libero, rafforzamento della cultura libera.
+    Forniamo anche servizi gratuiti online. La home page del portale introduce all''intera
+    gamma di azioni @:data.txt.soft e fornisce collegamenti ai vari siti e progetti
+    della rete.'
+  keywords: '@:data.txt.soft, software libero, gratuito e open source, cultura libera,
+    FOSS, FLOSS, promozione e diffusione di software libero, open source'
+  license: '@:data.license.ccbysa4 ad eccezione di casi diversamente notificati'
+nav:
+  langChange: Cambia lingua
+  lang: Lingua
+  translate: Traduci
+  parts:
+    logiciel:
+      key: Sezione programmi
+      title: alla sezione programmi
+    culture:
+      key: Sezione cultura
+      title: alla sezione cultura
+    cloud:
+      key: Sezione cloud
+      title: alla sezione cloud
+    vrac:
+      key: Sezione materiale gratuito
+      title: Vai alla sezione materiale gratuito
+txt:
+  dio: De-googl-izzare internet
+color:
+  dio: <b class="violet">De-googl-izzare</b> <b class="orange">internet</b>
+link:
+  partenaires: '@:data.link.soutenir/en/partenaires'
+  wFreeSoftware: https://it.wikipedia.org/wiki/Software_libero
+  wSourceCode: https://it.wikipedia.org/wiki/Codice_sorgente
+  wFreeLicense: https://it.wikipedia.org/wiki/Licenza_libera
+  wFreeCulture: https://it.wikipedia.org/wiki/Cultura_libera_(libro)
+  wCommons: https://it.wikipedia.org/wiki/Bene_comune
+  wOSM: https://it.wikipedia.org/wiki/OpenStreetMap
+  garden: '@:data.link.cloud/fr/cultiver-son-jardin'
+carousel:
+  play: Riproduci
+  pause: Pausa
+  prev: Slide precedente
+  next: Slide seguente
+search:
+  btn: Cerca
+  frama: sui siti di @:data.txt.soft
+  web: sul web
+form:
+  step1:
+    title: Dono per la cultura libera
+    privilegie: '@:data.txt.soft  preferisce le donazioni ricorrenti per continuare
+      la sua azione in modo sereno e duraturo'
+    count: Attualmente @:data.txt.soft conta
+    donators: donatori ricorrenti.
+    monthly: Donazione tutti i mesi
+    oneshot: Donazione una sola volta
+    monthly_ex: 'es: 42'
+    oneshot_ex: 'es: 133.7'
+    other: Altra cifra
+    or: O
+  step2:
+    title: Completo le mie informazioni
+    private: Privacy
+    private_tip:
+    - Queste informazioni sono necessarie per motivi pratici e per poter emettere
+      una ricevuta fiscale
+    - Se non vuoi o non puoi detassare la tua donazione, puoi comunque
+    - riempi questo modulo con false informazioni
+    - (avvertenza, in questo caso non usare Paypal).
+    - 'Devi anche sapere che tu puoi verificare se la tua donazione è stata ricevuta
+      alla pagina “<a href="stats">elenco dei donatori</a>” '
+    - Naturalmente il tuo nome e cognome non vengono resi pubblici.
+    type: Io rappresento
+    part: un individuo
+    corp: un'azienda
+    corp_tip: Azienda, associazione, comunità...
+    mecenat: Se vuoi diventare un partner di @:data.txt.softe <a href="partenaires">comparire
+      su questa pagina</a>, <a href="@:link.contact">contattaci</a>.
+    society: Ragione sociale
+    society_ex: 'es: Free Software Fondation'
+    society_email_ex: 'es: contact@fsf.org'
+    lastname: Cognome
+    lastname_ex: 'es: Stallman'
+    firstname: Nome
+    firstname_ex: 'es: Richard'
+    email: E-mail
+    email_ex: 'es: r.stallman@outlock.com'
+    address1: Indirizzo
+    address1_ex: 'es: via Libertà 12'
+    address2: Aggiunte all'indirizzo
+    address2_ex: 'es: edificio VI'
+    zip: Codice postale
+    zip_ex: 'es: 69007'
+    city: Città
+    city_ex: 'es: Milano'
+    country: Nazione
+    error_empty: Questo campo deve essere riempito
+    error_email: Devi inserire un indirizzo email valido.
+  step3:
+    title: Accedo al pagamento
+    defisc: Informazioni sull'esenzione fiscale
+    defisc_title: Esenzione fiscale
+    defisc_tip: '@:data.txt.soft  è un''associazione riconosciuta di interesse generale.<br>
+      Come tale, se sei soggetto all''imposta sul reddito, puoi dedurre il 66% dell''ammontare
+      della tua donazione. Cioè, se tu hai donato €10 x 12 mesi (€120), potrai dedurre
+      120x66% (€79,20) dalla tua prossima dichiarazione. <br> La ricevuta fiscale
+      ti verrà inviata automaticamente via email prima della dichiarazione. <br> Per
+      informazioni più dettagliate clicca qui per accedere alla nostra pagina di spiegazioni.'
+    defisc_text:
+    - In Francia grazie alla detrazione fiscale della
+    - <b>tua donazione di </b>
+    - ti costerà soltanto
+    - al mese
+    cb: Carta di credito
+    vir: Bonifico
+    chq: Assegno
+    pp: Paypal
+    i_give: Dono
+    monthly: al mese
+    now: ora
+    coord: I tuoi dati personali sono stati registrati
+    email_send:
+    - È stata appena inviata un'email al tuo indirizzo
+    - contenente un promemoria delle istruzioni qui sotto.
+    ok: OK, ho capito
+    modal_vir:
+      by: con bonifico bancario
+      no_sepa: '@:data.txt.soft  non offre un modulo SEPA per un addebito diretto,
+        ma tu puoi fare una donazione via bonifico bancario direttamente a noi.<br>
+        Così tu puoi decidere la somma e la frequenza e puoi cambiarle quando vuoi.'
+      to_finish: 'Per completare la tua donazione, prendi nota delle nostre coordinate
+        bancarie:'
+      ref: 'Prendi nota anche di questo <b>riferimento al pagamento</b> che dovrà
+        essere aggiunto alla descrizione del bonifico:'
+      to_bank: Poi concorda con la tua banca come pianificare il bonifico. Alcune
+        banche possono gestirlo anche online.
+    modal_chq:
+      by: con assegno
+      to_finish: 'Per concludere la tua donazione, completa per favore l''assegno
+        all''ordine di <b>“Associazione @:data.txt.soft”</b> e annota questo <b>riferimento
+        di pagamento sul retro</b>:'
+      to_post: 'Poi invia il tuo assegno alla sede dell''associazione a questo indirizzo
+        di posta:'
+  ask:
+    title: Domande
+    stop: Le donazioni ricorrenti possono essere interrotte in qualsiasi momento,
+      basta <a href="@:data.link.contact/#soutenir">chiedecelo</a>.
+    edit: Se vuoi modificare la tua donazione ricorrente, per favore <a href="@:data.link.contact/#soutenir">contattaci</a>,
+      noi interromperemo quella in corso e tu potrai farne una nuova.
+    send: Le rivcevute fiscali (solo in Francia) sono inviate via posta in Marzo/Aprile
+      @:data.year.next  (prima della dichiarazione delle tasse) per le donazioni fatte
+      in @:data.year.current
+    moral: I rapporti sulle attività e le finanze dell'associazione si possono trovare
+      sulla <a href="@:data.link.soft/@:lang/association">pagina no-profit</a>
+    alter1: Per <a href="@:data.link.contact/foire-aux-questions/#dons-alternatifs">ragioni
+      pratiche</a>, non accettiamo donazioni da piattaforme di micro pagamenti (Lilo,
+      Flattr, Tipeee...) ad eccezione di Liberapay
+    lp: Fai una donazione via Liberapay
+    alter2: Non accettiamo nemmeno  donazioni in cripto-valute (Bitcoin, Ether, Monero...)
+      ma osserviamo con attenzione <a href="https://duniter.org/fr/comprendre/">la
+      moneta libera Ğ1 </a>.
+    other: Se hai altre domande <a href="@:data.link.soutenir/@:lang/questions">puoi
+      trovare delle risposte qui…</a>…
+why:
+  timeline:
+    title: Cronologia di quello che è già stato fatto
+  money:
+    title: Scopri dove vanno a finire i tuoi soldi
+    list:
+    - 'Risorse umane: @:data.money.rh%'
+    - 'Server e nomi di dominio: @:data.money.servers%'
+    - 'Spese di funzionamento: @:data.money.running%'
+    - 'Interventi e progetti esterni: @:data.money.interventions%'
+    - 'Comunicazione: @:data.money.comm%'
+    - 'Acquisti: @:data.money.goods%'
+    - 'Spese bancarie: @:data.money.bank%'
+  reasons:
+    title: 6 buone ragioni per sostenerci
+    list:
+    - '[ ''1. Perché la reclusione è adesso '', '' NSA, Facebook, Google, Amazon,
+      Microsoft e Apple ...  Le rivelazioni di E. Snowden hanno dimostrato che i peggiori
+      incubi degli informatici sono vivi. Siamo confinati in servizi, strumenti e
+      una cultura che centralizza i nostri dati e li utilizza senza limiti. L''unica
+      via d''uscita passa attraverso l''utilizzo e l''educazione al software e ai
+      servizi liberi, rispettosi dei nostri diritti fondamentali.'']'
+    - '[ ''2. Per altre alternative libere '','' Per 16 anni, @: data.txt.soft è stata
+      una porta d''ingresso in lingua francese al software e alla cultura liberi.
+      Un collegamento tra gli sviluppatori di soluzioni aperte e il pubblico in generale.
+      Il successo dei servizi alternativi di "@: txt.dio" dimostra che è possibile
+      rispettare le persone e i loro dati. Vogliamo andare oltre e solo il vostro
+      sostegno ci permetterà di proporre o migliorare altri servizi.'']'
+    - '[ ''3. Perché siamo dei bravi ragazzi!'','' @: data.txt.soft è un gruppo di
+      pensionati, impiegati, disoccupati, artisti, insegnanti e studenti ... Non proprio
+      specializzati in informatica, ma abbastanza bene informati per sapere che il
+      software libero è una parte della soluzione. Quindi ci impegniamo a rispettare
+      alcuni principi etici attraverso una <a href="@:data.link.soft/en/charte"> carta
+      </a> e abbiamo dedicato il nostro tempo a mettere in evidenza o introdurre sempre
+      più soluzioni libere per un pubblico più ampio.'']'
+    - '[ ''4. Per decidere dove vanno le tue tasse '', ''Per gestire meglio i suoi
+      progetti, @: data.txt.soft ha creato un'' associazione no-profit (legge 1901
+      in Francia), riconosciuta di interesse generale. Le tue donazioni possono essere
+      dedotte dalle tue tasse (solo in Francia). Ad esempio, con una donazione ricorrente
+      di € 120 (€ 10 al mese per un anno), la riduzione è di € 79,20 e quindi la spesa
+      effettiva è di € 40,80. In questo modo, partecipi direttamente ai nostri progetti,
+      alle produzioni, alle spese strutturali e allo stipendio di diversi dipendenti.'']'
+    - '[ ''5. Perché l''economia del dono ci rende indipendenti '', '' Non appena
+      fai clic, condividi, utilizzi un software o un sito web / un servizio, gli dai
+      un certo valore. Questa è l''economia dell''attenzione. Questa attenzione viene
+      quindi monetizzata con la pubblicità e la vendita di dati (Facebook, Google,
+      Twitter, Microsoft, ecc.) O con modalità di vendita (Apple, Amazon). Questa
+      attenzione può anche creare un certo valore sotto forma di donazioni, condivisione
+      e partecipazione (Wikipedia). Noi abbiamo scelto questo  modello. Ci offre l''indipendenza
+      dalle leggi del mercato e la totale libertà dei nostri donatori.'']'
+    - '[ ''6. Per cambiare il mondo insieme '', '' Sì, niente di meno. Un progetto
+      dopo l''altro, dimostriamo che sono possibili alternative libere, semplici,
+      rispettose e comunitarie. Nella nostra <a href="https://framabook.org"> casa
+      editrice collaborativa </a>, i nostri scrittori ti permettono di ottenere liberamente
+      i loro ebook digitali e di essere pagati attraverso le vendite dei libri di
+      carta o le tue donazioni dirette. I nostri <a href="@:data.link.dio/en/list">
+      servizi di De-google-ify </a> sono sempre più usati ... C''è ancora molto da
+      fare e possiamo continuare grazie al tuo sostegno: "C''è ancora molta strada
+      da fare, ma la strada è libera".'']'
+cat:
+  communaute:
+    title: Comunità libera
+    desc: Sei libero stasera?
+  campagnes:
+    sites:
+      dio:
+        what: Campagna 2014-2017
+      cuo:
+        what: Campagna 2017-2020
+  logiciel:
+    title: Software libero
+    desc: Liberté, Égalité, Fraternité
+    sites:
+      libre:
+        what: Un annuario
+        title: Il grande annuario
+        desc: Oltre 1600 programmi classificati, testati e commentati nel progetto
+          creato per primo e di più lunga durata di @:data.txt.soft. Include tutorial
+          e articoli di approfondimento.
+      key:
+        what: Una chiavetta USB
+        title: Il pieno di libertà in una semplice chiavetta
+        desc: Con una chiavetta USB (o qualsiasi altro dispositivo mobile) puoi utilizzare
+          più di cento programmi gratuiti per dispositivi mobili, Windows, testare
+          e installare una distribuzione GNU/Linux o avere accesso offline a Wikipédia
+          in francese.
+      dvd:
+        what: Un DVD
+        title: Il pieno di libertà in un DVD
+        desc: Un DVD contenente i migliori programmi gratuiti per Windows, Mac e GNU/Linux
+          (distribuzione inclusa) ma anche di cultura libera (testo, foto, audio e
+          video). Disponibile anche nella speciale edizione scuola
+      pack:
+        what: Un distributore
+        title: Installazione massiva
+        desc: '@:data.txt.pack è uno strumento utile a scegliere il miglior software
+          libero per la versione più recente di Windows. <br> Selezioni il software
+          che desideri e tutti i programmi verranno installati in un unico comodo
+          passaggio!'
+  culture:
+    title: Cultura libera
+    desc: Amplia il campo dell'open source
+    sites:
+      blog:
+        what: Info
+        title: Novità dal mondo del "libero"
+        desc: Colonna settimanale sul mondo del "libero" e in particolare sul software
+          libero. Dibattiti, commenti, traduzioni e news sulle attività di @:data.txt.soft.
+      book:
+        what: Alcuni libri...
+        title: Scommettere sui libri liberi
+        desc: 'La nostra casa editrice presenta circa venti titoli, che spaziano dal
+          software libero alla programmazione per principianti, opinioni sul copyright
+          ma anche fumetti e addirittura romanzi. Un libro libero offre al lettore
+          le stesse libertà di un software libero. '
+      bookin:
+        what: '... e una biblioteca'
+        title: Una biblioteca digitale libera
+        desc: La nostra biblioteca include qualche centinaio di pubblicazioni libere
+          o di pubblico dominio. È fruibile online da piattaforme mobili. Puoi aggiungerla
+          direttamente alla tua applicazione di lettura digitale attraverso il feed
+          <abbr>OPDS</abbr>.
+      lang:
+        what: Traduzioni
+        title: Traduzioni collaborative
+        desc: Tradurre insieme, principalmente dall'inglese al francese, con un senso
+          di comunità, sfruttando la potenza di Internet e la buona volontà dei suoi
+          abitanti. Può trattarsi di articoli, sottotitoli o anche interi libri!
+      tube:
+        what: Video
+        title: Il nostro «YouTube» libero
+        desc: Video in francese (o con sottotitoli in francese) sul software libero
+          e open source in generale. Interviste, conferenze, documentari, trasmissioni
+          televisive... per informarsi ed informare.
+      zic:
+        what: Musica
+        title: Quando la musica è libera
+        desc: La «musica libera» è quella che offre agli amanti della musica la stessa
+          libertà del software libero. Un sito web dedicato ti aiuterà a capire meglio
+          di cosa si parla. All'interno troverai una piccola selezione di brani che
+          potrà mostrarti anche la qualità offerta.
+  cloud:
+    title: Servizi liberi
+    desc: Cloud computing gratuito? È possibile!
+    sites:
+      pad:
+        what: Modificare
+        title: Modificare insieme
+        desc: Scriviamo tutti insieme sullo stesso documento con un'interfaccia di
+          editing online collaborativa. Non è richiesta registrazione, scegli un nome
+          utente, un colore e inizia!
+      calc:
+        what: Calcolare
+        title: Un foglio di calcolo collaborativo
+        desc: '@:data.txt.calc sta ai fogli elettronici come @:data.txt.pad sta all''editing,
+          lavorare insieme sullo stesso documento in modo semplice e collaborativo.'
+      forms:
+        what: Fare domande
+        title: Creazione di questionari
+        desc: '@:data.txt.forms ti consente di creare i questionari di cui necessiti,
+          sia che si tratti di un contesto scolastico,  familiare o comunitario. Crea
+          le tue domande in base alle tue esigenze, utilizzando campi di testo liberi
+          o a scelta multipla per le risposte.'
+      agenda:
+        what: Organizzare
+        title: Agenda condivisa
+        desc: Con @:data.txt.agenda puoi creare calendari personali o di lavoro, puoi
+          pianificare l'agenda di un convegno o le attività della tua organizzazione
+          e condividere il tutto liberamente. Rimani padrone dei tuoi dati scegliendo
+          con chi, dove e quando mostrarli.
+      date:
+        what: Organizzare
+        title: Organizza appuntamenti e sondaggi
+        desc: '@:data.txt.date è come Doodle, ma gratuito. Non c''è niente di più
+          semplice che creare un appuntamento o un sondaggio con registrazione e invitare
+          i tuoi colleghi o collaboratori.'
+      board:
+        title: Gestisci i progetti
+        desc: '@:data.txt.board è un gestore collaborativo di attività e progetti,
+          che utilizza il sistema Kanban. La sua interfaccia grafica ti mette facilmente
+          a tuo agio, anche se non usi abitualmente questo tipo di strumento.'
+      mindmap:
+        what: Strutturare
+        title: Crea mappe mentali
+        desc: Un'interfaccia fluida e intuitiva per creare con facilità mappe mentali
+          direttamente dal tuo browser. Particolarmente interessante per prendere
+          appunti o fare brainstorming.
+      vectoriel:
+        what: Disegnare
+        title: Disegno vettoriale
+        desc: Crea e modifica immagini online con facilità utilizzando il formato
+          libero SVG. I bambini lo adorano!
+      slides:
+        what: Presentare
+        title: Crea e condividi delle presentazioni
+        desc: '@:data.txt.slides ti consente di creare direttamente online una presentazione,
+          di vederla con una semplice connessione internet, e di condividerla.'
+      maestro:
+        what: Collaborare
+        title: Orchestra i tuoi progetti collaborativi
+        desc: Hai bisogno di un blocco su cui prendere appunti, di una tabella per
+          organizzare e di una videoconferenza allo stesso tempo? Con @:data.txt.maestro
+          hai a disposizione tutti gli strumenti di cui hai bisogno, e tutto su di
+          un'unica pagina web.
+      bee:
+        what: Ricercare
+        title: Il motore di ricerca che esplora la rete attorno a te
+        desc: '@:data.txt.bee è un meta motore di ricerca libero e anonimo. La tua
+          ricerca viene inviata a più motori prima che venga visualizzata nel tuo
+          browser. Perché è interessante? Il nostro motore funge da intermediario
+          tra te e Google (ed altri), in modo che i tuoi dati personali (indirizzo
+          IP, cronologia delle ricerche, geolocalizzazione, profilo) non siano a loro
+          accessibili.'
+      sphere:
+        what: Networking
+        title: Il social network gratuito
+        desc: '@:data.txt.sphere è un social network gratuito basato sul software
+          decentralizzato Diaspora. Trova i tuoi amici su @:data.txt.sphere – o altri
+          pod Diaspora – e discuti con loro senza essere tracciato.'
+      piaf:
+        title: Social network in 500 caratteri
+        desc: '@:data.txt.piaf è un servizio di <b>microblogging</b>, basato sul software
+          decentralizzato Mastodon. Cerca i tuoi amici su @:data.txt.piaf - o altre
+          istanze Mastodon, GNU Social, Friendica - e dialoga con loro senza essere
+          tracciato.'
+      team:
+        what: Discutere
+        title: Comunicazione collaborativa
+        desc: '@:data.txt.team è un servizio di <b> chat </b> gratuito che consente
+          lavori di gruppo, invio di notifiche, la cronologia delle conversazioni
+          e funzioni di ricerca.'
+      listes:
+        title: Mailing list
+        desc: '@:data.txt.listes ti consente di crearemailing list: tutti gli iscritti
+          alla tua lista possono ricevere le email inviate al gruppo, e partecipare
+          a loro volta. Sta a te decidere se la lista è pubblica, semi-privata o privata.'
+      talk:
+        title: Videoconferenza
+        desc: '@:data.txt.talk ti consente di chattare con i tuoi amici senza la necessità
+          di installare programmi complessi o di registrarti. Avviene tutto direttamente
+          fra te e i tuoi amici, usando il browser web.'
+      vox:
+        what: Decidere
+        title: 'Decidere insieme '
+        desc: '@:data.txt.vox ti aiuta a prendere decisioni di gruppo. Inizia una
+          discussione, condividi opinioni, arriva ad un accordo. Ogni decisione ha
+          una data di scadenza chiara, di modo che puoi essere certo di decidere per
+          tempo.'
+      memo:
+        what: Brainstorming
+        title: Organizzare idee
+        desc: '@:data.txt.memo ti consente di creare una bacheca con colonne sulle
+          quali ognuno può segnare appunti di vari colori. Proprio come @:data.txt.pad,
+          non è richiesta alcuna registrazione e le modifiche sono visibili e salvate
+          in automatico continuamente.'
+      notes:
+        what: Appunti
+        title: Prendere appunti
+        desc: Con @:data.txt.notes puoi prendere appunti, salvare immagini, link…
+          e addirittura dei file; e sincronizzarli su tutti i ruoi dispositivi (o
+          condividerli con i tuoi amici).
+      bag:
+        what: Segui le news
+        title: Non perdere mai un articolo!
+        desc: '@:data.txt.bag ti permette di salvare gli articoli che non hai tempo
+          di leggere in questo momento.'
+      news:
+        desc: 'Sottoscrivi i tuoi RSS preferiti e resta aggiornato sulle ultime notizie
+          con @:data.txt.news! '
+      carte:
+        what: Creare mappe
+        title: Crea mappe personalizzate
+        desc: Framacarte ti consente di disegnare, etichettare, colorare, annotare
+          mappe da  <a href="@:link.wOSM">OpenStreetMap</a>per consultarle sul tuo
+          sito web o  stamparle.
+      games:
+        what: Giocare
+        title: Giocare online o offline
+        desc: '@:data.txt.games è una collezione di giochi gratuiti, alcuni di loro
+          online, su PC o tablet, che non richiedono alcuna istallazione.'
+      minetest:
+        title: Gioco educativo di mining
+        desc: '@:data.txt.minetest è un server Minetest, un gioco "sandbox" in cui
+          costruisci e scomponi blocchi per poi modificarli e costruire le tue applicazioni  educative.'
+      drop:
+        what: Condividere
+        title: Condividi file in maniera anonima
+        desc: Con @:data.txt.drop, hai finito con allegati troppo grandi per essere
+          inviati via mail. Questo servizio ti permette di condividere file in maniera
+          efficiente e sicura.
+      bin:
+        title: Trasmettere dati criptati
+        desc: Con @:data.txt.bin, puoi condividere dati che solo tu e il destinatario
+          potete decifrare, in maniera davvero semplice.
+      pic:
+        title: Condividi immagini in maniera anonima
+        desc: '@:data.txt.picti permette di condividere immagini facilmente, di pubblicarle
+          su Twitter, Facebook... o @:data.txt.sphere ad esempio!'
+      link:
+        title: Link abbreviati
+        desc: Con @;data.txt.link, puoi accorciare lunghi URL. Sui social network
+          o su piattaforme di microblogging, un link abbreviato salva spazio ed è
+          più chiaro.
+      drive:
+        what: Salvare
+        title: Salva online
+        desc: '@:data.txt.drive ti permette di salvare i tuoi file online, sincronizzarli
+          fra i tuoi PC, dispositivi mobili... e condividerli con chiunque tu voglia.'
+      my:
+        what: Salvare
+        title: Segnalibri
+        desc: '@:data.txt.my è uno strumento di cattura digitale, che ti permettere
+          di salvare e ricercare facilmente i link che ti piacciono nello stile di
+          del.ico.us! Con un sistema di tag e ordinamento automatico, puoi facilmente
+          sistemare le tue schede e segnalibri, e usare il tasto @:data.txt.my per
+          ricercare i servizi @:data.txt.soft che utilizzi!'
+      git:
+        what: Codice
+        title: Ospitare codice libero
+        desc: '@:data.txt.git è uno strumento per sviluppatori. Può ospitare i tuoi
+          progetti software open source e permetterere agli utenti di lavorare su
+          di essi in modo collaborativo.'
+      site:
+        what: Pubblicare
+        title: Creare siti web
+        desc: '@:data.txt.site ti consente di creare con facilità un sito web e di
+          ospitarlo sui nostri server. Non ci sono pubblicità o rilevamenti di posizione
+          rischiosi per la privacy di chi visita il tuo sito.'
+      wiki:
+        title: Creare wiki
+        desc: '@:data.txt.wiki ti permette di creare facilmente una wiki e ospitarla
+          sui nostri server. Non ci sono pubblicità e tracciamenti di posizione che
+          mettono a rischio la privacy di chi visita il tuo sito web.'
+  vrac:
+    title: Dal mondo del "libero"
+    desc: Inclassificabile ma non classificato male
+    sites:
+      colibri:
+        what: Un forum
+        title: Il forum @:data.txt.soft
+        desc: Hai qualche domanda? (Forse) abbiamo la risposta! "Se non sai, chiedi.
+          Se sai, condividi". @:data.text.colibri è il luogo in cui scambiamo informazioni
+          sull'open source.
+      evl:
+        what: Un market
+        title: Il nostro piccolo market libero
+        desc: 'Il market dei prodotti @:data.txt.soft: @:data.txt.key. @:data.txt.book,
+          @:data.txt.dvd ma anche chicche e magliette.'
+      docs:
+        what: Documentazione
+        title: Il nostro centro di documentazione
+        desc: Per sapere tutto sui servizi online che offriamo e imparare attraverso
+          le nostre differenti guide ad acquisire autonomia.
+pages:
+  accroche:
+  - Una rete dedicata alla promozione del "<i>libero</i>" e in particolare del <i>software
+    libero</i>.
+  - Tanti servizi e progetti innovativi messi liberamente a disposizione del pubblico
+    generale.
+  - Una <a href="#topPgCommunaute">comunità</a> di volontari supportata da un'associazione
+    di interesse pubblico.
+  - Un invito a costruire assieme un mondo di condivisione e cooperazione.
+  news: Che succede su @:data.txt.soft?
+  medias:
+    title: Comunicati stampa
+    intro: '@:data.txt.soft e la campagna “@:txt.dio” hanno ricevuto un po'' di attenzione.
+      Ecco alcuni estratti dai nostri <a href="@:data.link.press">Comunicati stampa</a>.'
+    th1: Data
+    th2: Media
+    th3: Link
+    lArticle: Link all'articolo
+    lPaywall: Link all'articolo (sottoscrittori)
+    lSummary: Link al sommario del numero
+    lPodcast: ' Link al podcast'
+    lListen: ' Link alla pagina di ascolto'
+  communaute:
+    title: Una comunità
+    desc: Un gioioso bazar
+    text: Chi c'è dietro @:data.txt.soft? Chiunque a un certo punto decida di prendere
+      parte ai nostri progetti. È sufficiente avere voglia di promuovere l'open source
+      e distribuire  il proprio contributo con licenza open source. Ciò garantisce
+      che venga aggiunto ai beni comuni senza  rischio di appropriazione.
+  asso:
+    title: Un'associazione
+    desc: Un po' di cattedrale
+    text: '@:data.txt.soft è basata su un''associazione 1901 (associazione no- profit
+      senza scopo di lucro). Ha per compito di appianare le difficoltà e garantire
+      che la comunità possa funzionare nelle migliori condizioni. Ci sono @:data.meta.employees
+      dei dipendenti fissi ed è in gran parte finanziata da singole donazioni raccolte
+      su internet. Anche tu puoi farne parte, ma attenzione è più una vocazione che
+      una sinecura!'
+  participer:
+    title: Partecipare?
+    desc: Ci sono molti modi per partecipare e  diffondere lo spirito libero attraverso
+      i nostri numerosi progetti.
+    text: Testare, scrivere, moderare, amministrare, tradurre, correggere le bozze,
+      trasmettere, codificare, comunicare, promuovere, sensibilizzare ... Non esitare
+      a <a href="@:data.link.participer"> partecipare </a>! E grazie in anticipo ...
+  soutenir:
+    title: Sostenerci?
+    desc: perché è "free" intesa  nel senso di libera e non di gratuita
+    text: '@:data.txt.soft non sarebbe nulla senza la sua comunità di volontari, ma
+      non può funzionare senza il sostegno dell''associazione che ha spese e impiega
+      @:data.meta.employees lavoratori indispensabili. Ci finanziamo attraverso donazioni
+      individuali, ovvero attraverso tutti voi. <a href="@:data.link.soutenir"> Se
+      pensi che lo meritiamo ... </a>'
+  partenaires:
+    title: I nostri partner
+    desc: '@:data.txt.soft è prima di tutto una comunità di utenti. Tuttavia, il suo
+      funzionamento è chiaramente quello di una rete, di progetti, ma anche di partner
+      .. <br> Così, @:data.txt.soft riceve il supporto di numerose organizzazioni
+      (pubbliche, aziendali, no-profit) che consentono ai nostri progetti di crescere
+      e svilupparsi. <a href="@:link.partenaires"> Elenco di tutti i nostri partner
+      </a>'
+  logiciel:
+    title: Software libero?
+    desc: '<a href="@:link.wFreeSoftware"> Il software libero </a> è un software che
+      offre e garantisce le seguenti quattro libertà: utilizzo, studio, modifica e
+      copia al fine di diffonderlo (gratuitamente o meno). '
+    text1: A livello tecnico, ciò è reso possibile tramite l'accesso al <a href="@:link.wSourceCode">
+      codice </a>. A livello legale, con l'adozione di una <a href="@:link.wFreeLicense">
+      licenza libera </a>. Queste <i> quattro libertà </i> promuovono la trasparenza,
+      la fiducia, lo scambio, la condivisione e la collaborazione all'interno delle
+      comunità.
+    text2: '@:data.txt.soft fornisce un annuario, chiavette USB, DVD e un programma
+      di installazione Windows per scoprirle e usarle regolarmente.'
+  culture:
+    title: Cultura libera?
+    desc: Facilitata da Internet e dalla digitalizzazione, la "<a href="@:link.wFreeCulture">
+      cultura libera </a>" è un movimento in evoluzione direttamente ispirato dal
+      software libero nel suo spirito e nelle sue licenze per promuovere e diffondere
+      opere intellettuali.
+    text1: ' Esplora diversi settori quali arte, educazione, scienze, hardware ...
+      Queste opere possono quindi essere considerate come <a href="@:link.wCommons">
+      beni comuni </a>. L''esempio più emblematico è l''enciclopedia libera Wikipedia.'
+    text2: In questo contesto, @:data.txt.soft offre un blog, una casa editrice, una
+      piattaforma video, un sito web dedicato alla musica libera e un originale servizio
+      di traduzione collaborativa.
+    quote: '"Perché sarà una delle più grandi opportunità mancate della nostra era
+      se il software libero non libera altro che il codice."'
+  cloud:
+    title: Servizi liberi?
+    desc: 'Nome in codice: "@:data.txt.cloud" '
+    text1: 'Intuitivo, senza registrazione e direttamente nel tuo browser, è un insieme
+      di servizi gratuiti online, rispettoso dei tuoi dati personali. Questi servizi
+      sono offerti nel contesto della nostra campagna <a href="@:link.dio"> "@:color.dio"
+      </a> '
+    text2: Puoi anche installarli sul tuo server, contribuendo così a decentralizzare
+      internet. I tutorial per aiutarti a farlo sono disponibili nella sezione <a
+      href="@:link.garden" lang="fr"> Cultiver son jardin </a> (solo in francese al
+      momento).
+  vrac:
+    title: Progetti trasversali
+    desc: Aree di discussione, acquisti, sviluppo ...
+    text: 'Tutto ciò che riguarda l''intera rete così come il nostro gruppo di esperti
+      e i progetti in fase di sviluppo sono raggruppati in questa sezione. '
+    une:
+      title: Luce su...
+      desc: 'GéGé, Generatore Geekzionario '
+      text: Geekzionario fai da te.
+charte:
+  title: La Carta
+  intro: ' @:data.color.soft è una rete di educazione popolare, che ha le sue origini
+    nel mondo dell''educazione, ed è principalmente dedicata al software libero. È
+    organizzata in modo collaborativo attorno a tre argomenti principali: promozione,
+    diffusione e sviluppo del software libero, miglioramento della cultura open source
+    e  una piattaforma online di servizi open.'
+  libre:
+    title: Per un' internet aperta
+    text:
+    - L'uso del software libero e degli standard aperti su Internet è lo scopo principale
+      del nostro progetto <a href="@:data.link.dio"> @:color.dio </a>.
+    - L'accesso al codice sorgente è la pietra angolare dei principi dell'open source.
+      @:data.color.soft si impegna a porre ogni applicazione disponibile nei suoi
+      progetti sotto <a href="https://www.gnu.org/philosophy/free-sw.fr.html"> licenza
+      libera </a> .
+    - In caso di miglioramento del codice, @:data.color.soft si impegna a porre il
+      contributo sotto licenza libera (compatibile con la licenza originale) e incoraggerà
+      qualsiasi contributo volontario degli utenti invitandoli a entrare in contatto
+      con l'autore.
+    - '@:data.color.soft si impegna a rendere accessibile il codice sorgente, sia
+      pubblicando un link che rimanda al sito web ufficiale dell''applicazione, sia,
+      se quest''ultimo non è più disponibile, pubblicando il codice in questione su
+      un repository.'
+    - Così facendo, @:data.color.soft dimostra la sua onestà consentendo a ciascun
+      utente di verificare il codice sorgente, potenzialmente migliorarlo e soprattutto  garantire
+      che non venga fatto un uso scorretto dei suoi dati, identità o diritti.
+    - Gli utenti saranno quindi in grado di utilizzare consapevolmente le applicazioni
+      disponibili e conoscere tutte le loro caratteristiche, vantaggi, limiti e possibili
+      usi.
+    - Nessuno dei dati prodotti con l'aiuto di queste applicazioni appartiene a @:data.color.soft,
+      che non applica alcun copyright né censura i tuoi contenuti. Tuttavia, qualsiasi
+      contenuto che possa essere considerato illegale dalla legge francese, dopo essere
+      stato debitamente segnalato, verrà immediatamente cancellato.
+  decentralized:
+    title: Per un' Internet decentralizzata
+    text:
+    - ' Offrendo online applicazioni aperte , @:data.color.soft intende promuovere
+      soluzioni alternative alle applicazioni proprietarie che alcune aziende propongono
+      per ottenere una posizione di monopolio e fare un utilizzo abusivo dei dati
+      personali.'
+    - Queste alternative sono esempi della diversità delle soluzioni open source disponibili
+      che possono essere utilizzate per scopi personali o collettivi. In questa prospettiva,
+      @:data.color.soft è impegnata a promuovere la loro diffusione pubblicando tutorial
+      che spiegano come installare queste applicazioni sul proprio server.
+    - 'La parità di accesso a queste applicazioni è un forte impegno: offrendole gratuitamente,
+      @:data.color.soft desidera promuovere il loro uso nella massima misura possibile
+      e fornire una dimostrazione del fatto che è possibile una rete internet decentralizzata
+      ed egualitaria.'
+  ethic:
+    title: Per un' internet etica
+    text:
+    - L'etica del software open source riguarda la condivisione e l'indipendenza.
+      @:data.color.soft si impegna a non esercitare alcuna censura sui contenuti,
+      né a sorvegliare le azioni dei suoi utenti e a non rispondere mai a richieste
+      amministrative o di autorità senza una richiesta legale formale. In cambio,
+      gli utenti si impegnano, nella produzione o nell'hosting dei loro contenuti,
+      a rispettare le regole previste dalla legge.
+    - Non esercitiamo alcuna discriminazione tra gli utenti, in modo da garantire
+      la massima accessibilità.
+    - 'I dati personali non saranno sfruttati per fini commerciali, né trasmessi a
+      terzi, né utilizzati per scopi non specificati nel presente statuto. Tuttavia,
+      gli utenti devono essere consapevoli che i loro dati potrebbero essere resi
+      accessibili, specialmente quando li rendono pubblici nel contesto di un''applicazione
+      collaborativa. In questo caso, gli utenti rimangono responsabili dei loro contenuti. '
+  solidary:
+    title: Per un' internet solidale
+    text:
+    - '@:data.color.soft è un''associazione no-profit. I suoi volontari e dipendenti
+      dedicano il loro tempo a garantire la continuità dei servizi offerti agli utenti.
+      Il nostro modello di business si basa sulla mutualizzazione delle energie e
+      dei costi. I nostri servizi sono gratuiti, ma non significa che non costano
+      nulla. Se un gran numero di sostenitori incoraggiano finanziariamente @:data.color.soft
+      a mantenere i propri servizi, un numero ancora maggiore di persone sarebbe in
+      grado di utilizzarli e questi potrebbero anche essere migliorati.'
+    - ' @:data.color.soft ha un approccio educativo popolare, e quindi condivide il
+      maggior numero di conoscenze possibili al fine di promuovere l''uso del software
+      libero e insegnare agli utenti come installare servizi gratuiti sui propri server.
+      La condivisione di risorse tecniche e conoscitive è ciò che rende internet un
+      bene comune, disponibile per tutti e che non appartiene a nessuno.'
+  footer:
+  - Carta dei servizi gratuiti, etici, decentralizzati e solidali, <br> approvata
+    da @:data.color.soft il 6 ottobre 2014.
+  - 'Traduzione a cura dei contributori di Framalang Théo, # !, goofy, Diane'
+cgu:
+  title: 'Termini d''uso '
+  intro:
+    title: Preambolo
+    text: Utilizzando questo servizio, accetti di essere vincolato dai seguenti termini.
+      <br> @:data.color.soft si riserva il diritto di aggiornare e modificare questi
+      termini di volta in volta.
+  short:
+    title: 'Versione breve (TL;DR come siamo soliti dire) '
+    desc: Per facilitare la lettura, senza il burocratico bla-bla, ti offriamo una
+      versione comprensibile a un normale essere umano.
+    sympa:
+      text: 'Siamo brave persone:'
+      list:
+      - i tuoi contenuti ti appartengono (ma ti incoraggiamo a pubblicarli sotto licenza
+        gratuita);
+      - '@:data.color.soft non userà i tuoi dati personali, tranne che per scopi statistici
+        (resi anonimi) o per notificare un cambiamento significativo nel servizio;'
+      - '@:data.color.soft non trasmetterà o rivenderà i tuoi dati personali (la tua
+        privacy ci sta - davvero - a cuore);'
+      - Gli impegni di @:data.color.soft derivano da un  approccio militante ispirato
+        al movimento di educazione popolare. Li puoi trovare nella nostra <a href="../charte">
+        Carta dei servizi gratuiti, etici, decentralizzati e solidali </a>.
+    terms:
+      text: '<b> Ma </b> questo non significa che tu debba pensare che siamo gattini:'
+      list:
+      - 'Clausola <em> "La legge è la legge e non vogliamo finire in prigione" </em>:
+        devi rispettare la legge (che sia giusta o meno giusta), altrimenti il ​​tuo
+        account verrà cancellato;'
+      - 'Clausola <em> "Grazie per essere gentile e rispettoso nei confronti dei tuoi
+        vicini del servizio" </em>: devi rispettare gli altri utenti con civismo e
+        cortesia, altrimenti i tuoi contenuti, anche il tuo account, potranno essere
+        cancellati, senza negoziazione;'
+      - 'Clausola <em> "Se si rompe, non siamo obbligati a riparare" </em>: @:data.color.soft
+        offre questo servizio gratuitamente. Se perdi dati, per colpa tua o nostra,
+        ci dispiace, ma può succedere. Faremo il possibile per recuperarli, ma non
+        assicuriamo alcun risultato. Ovviamente, evita di mettere dati sensibili o
+        importanti sui servizi @:data.color.soft, perché in caso di perdita, non garantiamo
+        il loro recupero;'
+      - 'Clausola <em> "Se non sei contento, sei invitato ad andare altrove" </em>:
+        se il servizio non ti soddisfa, sei libero di trovarne uno equivalente (o
+        migliore) altrove, o di installarne uno tuo;'
+      - 'Clausola <em> "Qualsiasi abuso verrà punito" </em>: se un utente abusa del
+        servizio, ad esempio monopolizzando risorse di macchine condivise, o pubblicando
+        contenuti considerati irrilevanti, il suo contenuto o il suo account possono
+        essere eliminati senza preavviso o negoziazione. @:data.color.soft rimane
+        il solo giudice di questa nozione di "abuso" al fine di fornire il miglior
+        servizio possibile a tutti i suoi utenti. Se ti sembra un discorso anti-democratico,
+        anti-libertario, anti-free, fai riferimento alla clausola precedente;'
+      - 'Clausola <em> "Niente è eterno" </em>: i servizi possono chiudere (ad esempio,
+        a causa della mancanza di fondi per mantenerli), possono essere vittima di
+        intrusioni (nulla è sicuro al 100%). Ti invitiamo a conservare una copia dei
+        dati che per te sono importanti, perché @:data.color.soft non può essere ritenuta
+        responsabile del loro hosting senza limiti di tempo.'
+  full:
+    title: Versione completa
+    conditions:
+      title: Condizioni di servizio
+      list:
+      - ' L''utilizzo del servizio è a tuo rischio. Il servizio è fornito così com''è.'
+      - Non devi modificare un altro sito per indicare falsamente che è associato
+        a questo servizio @:data.color.soft </>.
+      - Gli account possono essere creati e utilizzati solo dagli utenti umani. Gli
+        account creati da robot o altri metodi automatizzati possono essere cancellati
+        senza preavviso.
+      - Sei responsabile della sicurezza del tuo account e della tua password. @:data.color.soft
+        non può e non sarà responsabile per eventuali perdite o danni derivanti dal
+        mancato rispetto di questo obbligo di sicurezza.
+      - Sei responsabile di tutti i contenuti pubblicati e delle attività che avvengono
+        con il tuo account.
+      - Non è possibile utilizzare il Servizio per scopi illegali o non autorizzati.
+        Non devi infrangere le leggi del tuo paese.
+      - Non è possibile vendere, commerciare, rivendere o sfruttare in modo non autorizzato
+        un account del servizio utilizzato.
+    liabilities:
+      text: La violazione di uno qualsiasi di questi accordi comporterà la chiusura
+        del tuo account. Comprendi e accetti che l'associazione @:data.color.soft
+        non può essere ritenuta responsabile del contenuto pubblicato su questo servizio.
+      list:
+      - Comprendi che la messa online del servizio e dei tuoi contenuti ne implica
+        la trasmissione (in testo normale o crittografato, a seconda del servizio)
+        su varie reti.
+      - Non devi trasmettere malware, virus o qualsiasi altro codice dannoso.
+      - ' @:data.color.soft non garantisce che <ul> <li> il servizio soddisfi le tue
+        esigenze specifiche, </li> <li> il servizio sia senza interruzioni o privo
+        di errori, </li> <li> che gli errori nel servizio verranno corretti. </li>
+        </ul>'
+      - 'L''utente comprende e accetta che @:data.color.soft non può essere ritenuta
+        responsabile di eventuali danni diretti, indiretti o incidentali, inclusi
+        i danni per la perdita di profitti, clienti, accesso, dati o altre perdite
+        intangibili (anche se @:data.color.soft è informata della possibilità di tali
+        danni) e che deriverebbe da: <ol> <li> uso o incapacità di utilizzare il servizio;
+        </li> <li> accesso non autorizzato o alterato alla trasmissione di dati; </li>
+        <li> dichiarazioni o azioni di terzi sul servizio; </li> <li> cancellazione
+        del tuo account; </li> <li> qualsiasi altra questione correlata al servizio.</li>
+        </ol>'
+      - L'incapacità di @:data.color.soft di esercitare o far valere qualsiasi diritto
+        o disposizione delle Condizioni Generali d'Uso non costituisce una rinuncia
+        a tale diritto o disposizione. Le Condizioni d'uso costituiscono l'intero
+        accordo tra te e @:data.color.soft e regolano l'utilizzo del servizio, in
+        sostituzione a tutti gli accordi precedenti tra te e @:data.color.soft (comprese
+        le versioni precedenti dei Termini di utilizzo).
+      - Le domande relative alle condizioni del servizio devono essere inviate tramite
+        <a href="@:data.link.contact"> questo modulo di contatto </a>.
+  modify:
+    title: ' Modifiche del servizio'
+    list:
+    - ' @:data.color.soft si riserva il diritto, in qualsiasi momento, di modificare
+      o interrompere, temporaneamente o permanentemente, con o senza preavviso i suoi
+      servizi.'
+    - '@:data.color.soft non sarà responsabile nei confronti dell''utente o di terzi
+      per qualsiasi modifica, sospensione o interruzione del servizio.'
+    copyright:
+      title: Copyright dei contenuti
+      list:
+      - Non è possibile inviare, caricare, bloggare, distribuire, diffondere contenuti
+        illegali, diffamatori, molesti, offensivi, fraudolenti, contraffatti, osceni
+        o altrimenti discutibili.
+      - 'Non rivendichiamo alcun diritto sui tuoi dati: testo, immagini, audio, video
+        o qualsiasi altro elemento, che scarichi o trasmetti dal tuo account.'
+      - Non useremo i tuoi contenuti per scopi diversi dal fornirti il servizio.
+      - Non devi scaricare o rendere disponibile alcun contenuto che violi i diritti
+        di qualcun altro.
+      - Ci riserviamo il diritto di rimuovere qualsiasi contenuto riterremo necessario
+        rimuovere. non rilevante per l'utilizzo del servizio, a nostro esclusivo giudizio.
+      - Possiamo, se necessario, eliminare o impedire la distribuzione di qualsiasi
+        contenuto sul servizio che non rispetti queste condizioni.
+    share:
+      title: Modifica e condivisione dei dati
+      list:
+      - I file creati con il servizio possono essere - se desideri - letti, copiati,
+        usati e ridistribuiti da persone che conosci o meno.
+      - Rendendo pubblici i tuoi dati, riconosci e accetti che chiunque usi questo
+        sito web possa consultarli senza restrizioni.
+      - Ma il servizio può anche offrirti la possibilità di autorizzare un accesso
+        limitato e un lavoro collaborativo sui documenti a uno o più utenti.
+      - '@:data.color.soft non può essere ritenuto responsabile di qualsiasi problema
+        derivante dalla condivisione o dalla pubblicazione di dati tra utenti.'
+    closure:
+      title: 'Chiusura '
+      text:
+      - '@:data.color.soft, a sua esclusiva discrezione, ha il diritto di sospendere
+        o chiudere il tuo account e rifiutare qualsiasi utilizzo attuale o futuro
+        del servizio. La cessazione del servizio comporterà la disattivazione dell''accesso
+        al tuo account e la restituzione di tutti i contenuti. <br> @:data.color.soft
+        si riserva il diritto di rifiutare il servizio a chiunque, per qualsiasi motivo,
+        in qualsiasi momento.'
+      - '@:data.color.soft si riserva inoltre il diritto di chiudere un account se
+        non vi si accede per un periodo superiore a 6 mesi.'
+    private:
+      title: Informazioni personali
+      text:
+      - ' Ai sensi dell''articolo 34 della legge "Informatique et Libertés", @:data.color.soft
+        garantisce all''utente il diritto di opposizione, accesso e correzione dei
+        dati personali che lo riguardano. L''utente ha la possibilità di esercitare
+        questo diritto utilizzando il <a href="@:data.link.contact"> modulo di contatto
+        </a> disponibile.'
+      list:
+      - 'Per utilizzare determinati servizi @:data.color.soft, è necessario creare
+        un account. @:data.color.soft richiede alcune informazioni personali: un indirizzo
+        email valido e una password che viene utilizzata per proteggere il tuo account
+        da accessi non autorizzati. I campi "Cognome" e "Nome" potrebbero essere necessari
+        per il corretto funzionamento del software, ma non è necessario che rivelino
+        la tua vera identità.'
+      - 'Proprio come altri servizi online, @:data.color.soft salva automaticamente
+        alcune informazioni sull''utilizzo del servizio come l''attività dell''account
+        (ad esempio: spazio di archiviazione occupato, numero di voci, misure prese),
+        i dati visualizzati o cliccati (esempio: collegamenti, elementi dell''interfaccia
+        utente) e altre informazioni per identificarti (esempio: tipo di browser,
+        indirizzo IP, data e ora di accesso, URL di riferimento).'
+      - Utilizziamo internamente queste informazioni per migliorare l'interfaccia
+        utente dei servizi @:data.color.soft e mantenere un'esperienza utente coerente
+        e affidabile.
+      - Questi dati non vengono né venduti né trasmessi a terzi.
+  footer:
+  - Condizioni d'uso dei servizi online dell'associazione @:data.color.soft, ,<br>  versione
+    1.0.3 dell'11 aprile 2016.
+legals:
+  title: Note legali
+  editor:
+    title: Editore
+    asso: Associazione legge 1901 dichiarata nella sub-prefettura di Arles il 2 dicembre
+      2003 con il numero
+    siret: 'N ° Siret:'
+    siege: Sede sociale
+    contact: Per contattarci
+    coprez: Copresidenza, gestione delle pubblicazioni
+    host: Hosting
+  infoLib:
+    title: Computer e libertà
+    private:
+      title: Dati personali raccolti
+      text:
+      - In Francia, i dati personali sono protetti dalla <a href="https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460">
+        legge n. 78-17 del 6 gennaio 1978 </a>, legge n. 2004-801 del 6 agosto 2004,
+        articolo L. 226-13 del codice penale e direttiva europea del 24 ottobre 1995.
+      - In ogni caso @:data.color.soft raccoglie informazioni personali sull'utente
+        (nome, indirizzo e-mail, numero di telefono) necessarie ai servizi offerti
+        dai siti della rete @:data.color.soft, in particolare per l'iscrizione su
+        spazi di discussione tramite moduli online o per procedure statistiche su
+        forum di discussione. L'utente fornisce queste informazioni con cognizione
+        di causa, in particolare quando le immette da sé. Viene specificato in questo
+        momento all'utente della rete @:data.color.soft se l'informazione da fornire
+        è obbligatoria o meno.
+    stats:
+      title: Analisi statistica e riservatezza
+      text:
+      - Per adattare il sito alle richieste dei nostri visitatori, analizziamo il
+        traffico dei nostri siti con Matomo. Matomo genera un cookie con un identificativo
+        univoco, il cui periodo di archiviazione è limitato a 13 mesi. I dati raccolti
+        (indirizzo IP, user-agent...) sono resi anonimi e conservati per un periodo
+        di 6 mesi. Non vengono trasferiti a terzi o utilizzati per altri scopi.
+    modify:
+      title: Rettifica delle informazioni personali raccolte
+      text:
+      - 'Conformemente alle disposizioni dell''articolo 34 della legge n. 48-87 del
+        6 gennaio 1978, l''utente ha il diritto di modificare i dati personali raccolti
+        che lo riguardano. Per fare ciò, l''utente scrive a @:data.color.soft:'
+      - La modifica verrà apportata entro un ragionevole periodo di tempo dalla data
+        di ricezione della richiesta dell'utente.
+      list:
+      - potete inviarci una e-mail utilizzando il modulo di contatto
+      - una lettera dovrebbe essere inviata all'indirizzo della sede dell'associazione
+        (indicato sopra) indicando il vostro nome o la ragione sociale, il vostro
+        indirizzo fisico e/o elettronico e, se necessario, il riferimento che si ha
+        come utente del sito @:data.color.soft.
+  liabilities:
+    title: Limitazione di responsabilità
+    text:
+    - Questo sito contiene informazioni rese disponibili da comunità o società esterne
+      o collegamenti ipertestuali ad altri siti che non sono stati sviluppati da @:data.color.soft
+      </>. I contenuti resi disponibili sul sito sono forniti a solo scopo informativo.
+      L'esistenza di un collegamento da questo sito a un altro sito non costituisce
+      una convalida di quel sito o del suo contenuto. Spetta all'utente della rete
+      utilizzare queste informazioni con discernimento e pensiero critico. La responsabilità
+      di @:data.color.soft non può essere correlata ad informazioni, opinioni e raccomandazioni
+      formulate da terze parti.
+    - '@:data.color.soft non può essere ritenuta responsabile di danni diretti o indiretti
+      causati al materiale dell''utente, quando accede al sito, e risultante dall''uso
+      di apparecchiature che non soddisfano le specifiche tecniche richieste, o dalla
+      presenza di un bug o di problemi di incompatibilità.'
+    - '@:data.color.soft non può essere ritenuta responsabile di danni. indiretti
+      (come una perdita di mercato o una perdita di una possibilità) derivanti dall''uso
+      del sito.'
+    - Gli spazi interattivi (possibilità di porre domande nell'area di contatto) sono
+      disponibili per gli utenti sul sito @:data.color.soft </>. @:data.color.soft
+      si riserva il diritto di cancellare, senza preavviso formale, qualsiasi contenuto
+      depositato in questo spazio che possa violare la legislazione applicabile in
+      Francia, in particolare le disposizioni sulla protezione dei dati. Se necessario,
+      @:data.color.soft si riserva inoltre la possibilità di mettere in causa la responsabilità
+      civile e/o penale dell'utente, in particolare in caso di messaggio razzista,
+      offensivo, diffamatorio o pornografico, qualunque sia il mezzo utilizzato (testo
+      , fotografia ...).
+    tech:
+      title: Limitazioni contrattuali sui dati tecnici
+      text:
+      - '@:data.color.soft non può essere ritenuta responsabile di danni materiali.
+        collegati all''uso del sito. Inoltre, l''utente del sito si impegna ad accedere
+        al sito utilizzando materiale recente, non contenente virus e con un browser
+        aggiornato.'
+    copyright:
+      title: Proprietà intellettuale
+      text:
+      - I contenuti sono pubblicati sotto la responsabilità degli utenti.
+  footer:
+  - Informazioni legali dell'associazione @:data.color.soft, <br> 6 ottobre 2014.
+credits:
+  title: Crediti
+  main:
+    text:
+    - 'Questo sito utilizza elementi liberi comuni all''intera rete @:data.txt.soft:'
+    - Alcuni elementi vengono distribuiti tramite lo script che aggiunge la barra
+      di navigazione e il piè di pagina del sito. <br> Il codice sorgente può essere
+      trovato <a href="https://framagit.org/framasoft/framanav"> sul nostro repository
+      Gitlab </a>
+    - ' <a href="../graphics"> Layout grafico </a>:'
+    tools:
+    - 'la libreria <a href="https://jquery.com/">jQuery</a> e il framework gratuito
+      <a href="https://getbootstrap.com">Bootstrap</a> '
+    - o il framework gratuito <a href="https://vuejs.org">VueJS</a> e molto dipendenze
+    - i font <a href="https://www.paratype.com/public/">PTSans</a> (titles), <a href="http://dejavu-fonts.org/wiki/Main_Page">Deja
+      Vu Sans</a> e <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a>
+      (icone)
+    - lo strumento di misurazione statistica <a href="https://www.matomo.org/">Matomo</a>
+    license:
+      title: Licenza
+      text:
+      - Quando non diversamente espresso, il contenuto dei siti è sottoposto a licenza
+        libera @:data.license.ccbysa4fr
+      - la nostra <a href="../charte">carta</a>, i <a href="../cgu">Termini d'uso
+        </a> dei nostri servizi, le <a href="../legals">menzioni legali</a> e tutti
+        i <a href="../association"> documenti amministrativi dell'associazione</a>
+        sotto sottoposti a questa licenza.
+      - I pinguini che camminano in giro per il sito provengono da <a href="https://www.le-terrier.net/pingouin/pingouin.html">@:data.people.lldemars</a>
+        e sono sottoposti a licenza @:data.license.lal.<br> I fumetti disegnati da
+        <a href="http://ptilouk.net">@:data.people.gee</a> sono sotto licenza @:data.license.ccbysa2fr.
+      - Il logo è opera di @:data.people.jo sotto licenza @:data.license.ccbysa4fr.<br>
+        È ispirato alla mascotte creata inizialmente da @:data.people.lldemars.<br>
+        (@:data.txt.soft è autorizzata ad utilizzare il logo senza dover citare l'autore).
+asso:
+  title: Associazione
+  prez:
+    title: Presentazione di @:data.txt.soft
+    text:
+    - Nata dal mondo dell'istruzione e ora rivolta   verso l'istruzione popolare,
+      @:data.html.soft è soprattutto una rete di progetti, di cui il primo, <a href="@:data.link.libre">
+      l'annuario @:data.link.libre </a>, risale al 2001.
+    - 'Questi progetti sono gestiti da persone che lavorano insieme con lo stesso
+      desiderio: promuovere le libertà digitali.'
+    - Il rispetto delle libertà fondamentali degli utenti, garantite da contratti
+      legali (le <a href="@:link.wFreeLicense"> licenze gratuite </a>), è al centro
+      del movimento libero e garantisce che l'elemento umano mantenga il controllo
+      sullo strumento digitale.
+    - 'L''obbiettivo di @:data.html.soft è offrire, soprattutto online, un insieme
+      di strumenti concreti e pratici per facilitare l''adozione:'
+    - Presentato come un "portale verso il Mondo Libero", la rete @:data.html.soft
+      vuole collocarsi come un ponte tra la comunità dei bibliotecari e il pubblico
+      generale.
+    list:
+    - del software libero (annuarioy, chiavette USB, programma di installazione ...);
+    - di creazioni culturali gratuite (blog, traduzione, casa editrice ...);
+    - di servizi liberii (più di 30 servizi liberi nel progetto <a href="@:data.link.dio">
+      @:color.dio </a>).
+    saveas: Clicca col tasto destro sull'immagine e "Salva immagine come" per riutilizzarla
+    infography: Infografica <em lang="fr">Il mondo di @:data.txt.soft</em> realizzata
+      da
+  infos:
+    title: L'associazione @:data.txt.soft
+    text:
+    - 'La rete @: data.html.soft fa affidamento sulla sua vasta comunità di volontari,
+      ma non potrebbe esistere se non fosse sostenuta da un''associazione fondata
+      nel 2004.'
+    - L'associazione @:data.html.soft è un'associazione no-profit 1901 il cui carattere
+      di interesse generale autorizza ad una detrazione fiscale. Il che mostra la
+      sua volontà di rimanere un'associazione a misura d'uomo (meno di quaranta membri,
+      meno di dieci impiegati permanenti)
+    - Troverai in basso alcune informazioni che includono i nostri statuti, le regole
+      procedurali e i rapporti etici annuali.
+    statuts: Statuti dell'associazione
+    ri: Regolamenti interni
+  data:
+    title: Dati amministrativi e pratici
+    dt:
+      juridical: Status giuridico
+      coprez: Copresidenza
+      dg: Direttore e amministratore delegato
+      registration: Registrazione dell'associazione
+      staff: Dipendenti
+      org: Organizzazione
+      id: Identificazione completa
+      projects: Progetti proncipali
+      charte: Atto costitutivo dell'associazione e suoi servizi
+      reports: Rapporto etico
+      newsletter: Newsletter
+      press: Rassegna stampa e media
+      graphics: Layout grafico e logo
+      founders: Fondatori
+    dd:
+      juridical: Associatzione legge 1901, riconosciuta di interesse generale
+      staff: '@:data.meta.employees dipendenti'
+      org: Associazione che sostiene progetti liberi e collaborativi
+      id: Vedi il file
+      reportsFinancial: Rapporto finanziario
+      reportsWriting: Rapporto di attività in corso di elaborazione
+      reportsResults: Conto economico
+      reportsActivities: Rapporto sulle attività
+      reportsMAndF: Rapporto etico e finanziario
+      newsletter: registrazione e archivi
+      press: Piano annuale
+      graphics: su questa pagina
+      banners: Banner
+      benevalo: Volontariato valorizzato
+graphics:
+  title: Layout  grafico
