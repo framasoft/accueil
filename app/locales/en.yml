@@ -191,8 +191,8 @@ form:
     title: 3. I access the payment
     defisc: Information on tax exemption
     defisc_title: Tax exemption
-    defisc_tip: ' @:data.txt.soft is a recognised association of general interest.<br>
-      As such, if you are subject to income tax, you can deduct 66% of the amount
+    defisc_tip: ' @:data.txt.soft is a recognized association of general interest.<br>
+      As such, if you are subject to income tax in France, you can deduct 66% of the amount
       of your donation. Thus, if you have given €10 x 12 months (€120), you will be
       able to deduct 120x66% (€79,20) from your next return.<br> The tax receipt will
       be sent to you automatically by e-mail before the declaration.<br> For more
@@ -285,7 +285,7 @@ why:
       and we spent our time highlighting or introducing more and more free solutions to a wider audience.']
     - ['4. To choose how you taxes are used',
       'To manage properly the projects, @:data.txt.soft is based upon a non-profit (1901 law in France),
-      recognized as of general interest. Your donations can be deducetd from your taxes (in France only).
+      recognized of general interest. Your donations can be deduced from your taxes (in France only).
       For instance, with a recurring donation of €120 (€10 per month for one year), the reduction is €79.20
       and so the actual expense is €40.80. Doing so, you participate directly to our projects,
       productions, structural expenses and the salary of several employees.']
