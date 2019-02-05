@@ -59,21 +59,24 @@ home:
   intro:
     subtitle: Change the world<br>one byte at a time
     text: '@:data.txt.soft is a non-profit <strong>popular educational organization</strong>,
-      a group of friends convinced that an <strong>emancipatory</strong> digital world is possible,
-      convinced that it will arise through <strong>actual actions</strong> on real world and online
-      with and for you!'
+      a group of friends convinced that an <strong>emancipatory</strong> digital world
+      is possible, convinced that it will arise through <strong>actual actions</strong>
+      on real world and online with and for you!'
     btn: Support our actions
   more:
     title: Framasoft is…
     libre:
       title: '@:data.txt.libre, the free culture directory'
-      text: '@:data.txt.soft historical project: hundreds of free softwares and cultural contents organized and tested, displayed with short notices'
+      text: '@:data.txt.soft historical project: hundreds of free softwares and cultural
+        contents organized and tested, displayed with short notices'
     book:
       title: '@:data.txt.book, the publishing house'
-      text: Free books share the same freedom as free software. We publish manuals, technical books, but also novels and even comics
+      text: Free books share the same freedom as free software. We publish manuals,
+        technical books, but also novels and even comics
     blog:
       title: '@:data.txt.blog, the news about free culture'
-      text: 'News about @:data.txt.soft, free culture and commons : chronicles, press reviews, translations, interviews'
+      text: 'News about @:data.txt.soft, free culture and commons : chronicles, press
+        reviews, translations, interviews'
     confs:
       title: Conferences, workshops
       text: More than one hundred conferences, workshops and interventions per year
@@ -81,21 +84,22 @@ home:
     link: See the full presentation.
   dio:
     title: Degooglize your Internet<br> with our 32 services
-    subtitle: <strong>Ethical alternatives</strong> are possible.<br>
-      Demonstration with <strong>{count} examples</strong>.
+    subtitle: <strong>Ethical alternatives</strong> are possible.<br> Demonstration
+      with <strong>{count} examples</strong>.
     btn: Help us maintain these services and help us to develop new ones
-    footer: The complete list of our services, with the whole documentation
-      to master them, can be found on the <a href=@:data.link.dio>@:txt.dio</a> website
+    footer: The complete list of our services, with the whole documentation to master
+      them, can be found on the <a href=@:data.link.dio>@:txt.dio</a> website
   peertube:
     title: 'PeerTube : the alternative to YouTube, made with you and for you'
     text: Have a look to 1.0 version of PeerTube, which lets you to create <strong>your</strong>
-      own alternative to YouTube. This software has been developped thanks to your contriibutions.<br>
-      All together, let’s build a smilar to us video platform
+      own alternative to YouTube. This software has been developped thanks to your
+      contriibutions.<br> All together, let’s build a smilar to us video platform
     btn: Browse the main features
-    footer: 'To learn about the PeerTube software, discover how it’s organized into a
-      <abbr title="Also known as fediverse, the whole group of federated instances.">federation</abbr>
-      and understand how to create your own <abbr title="Decentralized installation on a server,
-      accessible through a web address.">instance</abbr>: <a href="https://joinpeertube.org" lang="en">JoinPeertube</a>'
+    footer: 'To learn about the PeerTube software, discover how it’s organized into
+      a <abbr title="Also known as fediverse, the whole group of federated instances.">federation</abbr>
+      and understand how to create your own <abbr title="Decentralized installation
+      on a server, accessible through a web address.">instance</abbr>: <a href="https://joinpeertube.org"
+      lang="en">JoinPeertube</a>'
     modal:
       title: Main features of PeerTube
       text: PeerTube is a fully featured software. Here is some of its abilities.
@@ -111,26 +115,28 @@ home:
     subtitle: the @:data.txt.soft roadmap,<br>let’s go for year 2
     meet:
       title: Frama<br>meet
-      text: 'At the beginning an alternative to Meetup or Facebook events, Framameet aims to be
-        a mobilization tool : for your cousin’s birthday, a 300 attendants symposium
-        or a 15,000 people demonstration.'
+      text: 'At the beginning an alternative to Meetup or Facebook events, Framameet
+        aims to be a mobilization tool : for your cousin’s birthday, a 300 attendants
+        symposium or a 15,000 people demonstration.'
     petitions:
       title: Frama<br>petitions
-      text: 'Organize the awareness to an important cause for you. Alert the people.
-        Group people interested in a common action.'
+      text: Organize the awareness to an important cause for you. Alert the people.
+        Group people interested in a common action.
     mooc:
-      title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts, Neutres et Solidaires">CHATONS</abbr>
-      text: A complete educational path, full of useful resources,
-        to raise awareness of the challenges of digital technology
-        and organize resistance.
+      title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
+        lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
+        Neutres et Solidaires">CHATONS</abbr>
+      text: A complete educational path, full of useful resources, to raise awareness
+        of the challenges of digital technology and organize resistance.
     btn: Contribute to another year of Contributopia
-    footer: 'All this is just a sample of all the actions we are currently working on…
-      Discover the whole roadmap: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
+    footer: 'All this is just a sample of all the actions we are currently working
+      on… Discover the whole roadmap: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
   soutenir:
     title: Support Framasoft
-    text: Framasoft is a non-profit which can <strong>only</strong> keep running thanks to your donations.
-      Do you like what we do? Do you think we’re going in the right direction?
-      If so, and you’re able to make a donation, we’d very much appreciate it!
+    text: Framasoft is a non-profit which can <strong>only</strong> keep running thanks
+      to your donations. Do you like what we do? Do you think we’re going in the right
+      direction? If so, and you’re able to make a donation, we’d very much appreciate
+      it!
     why: Why support @:data.txt.soft?
     money: Where is your money going to?
     numbers: '@:data.txt.soft in a few numbers'
@@ -164,9 +170,8 @@ form:
     part: an individual
     corp: a company
     corp_tip: Company, association, community…
-    mecenat: If you would like to become a partner of @:data.txt.soft and
-      <a href="@:data.link.soutenir/@:lang/partenaires">appear on this page</a>,
-      <a href="@:data.link.contact/#soutenir">contact us</a>.
+    mecenat: If you would like to become a partner of @:data.txt.soft and <a href="@:data.link.soutenir/@:lang/partenaires">appear
+      on this page</a>, <a href="@:data.link.contact/#soutenir">contact us</a>.
     society: Legal entity
     society_ex: 'ex : Free Software Fondation'
     society_email_ex: 'ex : contact@fsf.org'
@@ -192,11 +197,11 @@ form:
     defisc: Information on tax exemption
     defisc_title: Tax exemption
     defisc_tip: ' @:data.txt.soft is a recognized association of general interest.<br>
-      As such, if you are subject to income tax in France, you can deduct 66% of the amount
-      of your donation. Thus, if you have given €10 x 12 months (€120), you will be
-      able to deduct 120x66% (€79,20) from your next return.<br> The tax receipt will
-      be sent to you automatically by e-mail before the declaration.<br> For more
-      detailed information, click here to access our explanation page.'
+      As such, if you are subject to income tax in France, you can deduct 66% of the
+      amount of your donation. Thus, if you have given €10 x 12 months (€120), you
+      will be able to deduct 120x66% (€79,20) from your next return.<br> The tax receipt
+      will be sent to you automatically by e-mail before the declaration.<br> For
+      more detailed information, click here to access our explanation page.'
     defisc_text:
     - 'In France, thanks to the tax deduction of '
     - ', <b>your donation of </b>'
@@ -266,47 +271,49 @@ why:
   reasons:
     title: 6 good reasons to support us
     list:
-    - ['1. Because enclosure is now',
-      'NSA, Facebook, Google, Amazon, Microsoft and Apple… E. Snowden revelations have shown
-      that the worst nightmares of computer scientists are alive. We are confined into services,
-      tools and a culture centralising our data and using them with no limits. The only way
-      out goes through using and educating to free softwares and services, respectful
-      of OUR fundamental rights.']
-    - ['2. For more free alternatives',
-      'For 16 years, @:data.txt.soft has been a french-speaking doorway to free software and culture.
-      A link between developers of open solutions and the general public. The success of alternative
-      services from "@:txt.dio" shows that it’s possible to respect people
-      and their data. We want to go further and only your support will will allow us
-      to propose or refine more services.']
-    - ['3. Because we are the good guys!',
-      '@:data.txt.soft is a group of retired people, employees, unemployed, artists, teachers and students…
-      Not really spealized in computer science, but well enough informed to know that Free software is a part
-      of the solution. So we commit ourselves to some ethics through a <a href="@:data.link.soft/en/charte">charter</a>
-      and we spent our time highlighting or introducing more and more free solutions to a wider audience.']
-    - ['4. To choose how you taxes are used',
-      'To manage properly the projects, @:data.txt.soft is based upon a non-profit (1901 law in France),
-      recognized of general interest. Your donations can be deduced from your taxes (in France only).
-      For instance, with a recurring donation of €120 (€10 per month for one year), the reduction is €79.20
-      and so the actual expense is €40.80. Doing so, you participate directly to our projects,
-      productions, structural expenses and the salary of several employees.']
-    - ['5. Because the gift economy make us independent',
-      'As soon as you click, share, use a software or a website/service, you give it some value.
-      This is attention economy. This attention is then financiarized with advertising and the
-      sale of data (Facebook, Google, Twitter, Microsoft, etc.) or with enclosing type of sales
-      (Apple, Amazon). This attention can also create some value absed upon donation, sharing
-      and participation (Wikipedia). We have chosen this last model for us. This gives us
-      independency from the market laws and total freedom to our donators.']
-    - ['6. To change the world altogether',
-      'Yes, no less. One project after another, we demonstrate that free, simple, respectful
-      and community-driven alternatives are possible. In our
-      <a href="https://framabook.org">collaborative publishing house</a>, our writers let you
-      get freely their digital ebooks and get paid through paper sales or your direct donations.
-      Our <a href="@:data.link.dio/en/list">De-google-ify services</a> are more and more used…
-      There is still a long road to do and we can go on thanks to your support:
-      "There is a long way to go, but the road is Free".']
-
-
-
+    - 1. Because enclosure is now
+    - 2. For more free alternatives
+    - 3. Because we are the good guys!
+    - 4. To choose how you taxes are used
+    - 5. Because the gift economy make us independent
+    - 6. To change the world altogether
+    desc:
+    - NSA, Facebook, Google, Amazon, Microsoft and Apple… E. Snowden revelations have
+      shown that the worst nightmares of computer scientists are alive. We are confined
+      into services, tools and a culture centralising our data and using them with
+      no limits. The only way out goes through using and educating to free softwares
+      and services, respectful of OUR fundamental rights.
+    - For 16 years, @:data.txt.soft has been a french-speaking doorway to free software
+      and culture. A link between developers of open solutions and the general public.
+      The success of alternative services from "@:txt.dio" shows that it’s possible
+      to respect people and their data. We want to go further and only your support
+      will will allow us to propose or refine more services.
+    - '@:data.txt.soft is a group of retired people, employees, unemployed, artists,
+      teachers and students… Not really spealized in computer science, but well enough
+      informed to know that Free software is a part of the solution. So we commit
+      ourselves to some ethics through a <a href="@:data.link.soft/en/charte">charter</a>
+      and we spent our time highlighting or introducing more and more free solutions
+      to a wider audience.'
+    - To manage properly the projects, @:data.txt.soft is based upon a non-profit
+      (1901 law in France), recognized of general interest. Your donations can be
+      deduced from your taxes (in France only). For instance, with a recurring donation
+      of €120 (€10 per month for one year), the reduction is €79.20 and so the actual
+      expense is €40.80. Doing so, you participate directly to our projects, productions,
+      structural expenses and the salary of several employees.
+    - As soon as you click, share, use a software or a website/service, you give it
+      some value. This is attention economy. This attention is then financiarized
+      with advertising and the sale of data (Facebook, Google, Twitter, Microsoft,
+      etc.) or with enclosing type of sales (Apple, Amazon). This attention can also
+      create some value absed upon donation, sharing and participation (Wikipedia).
+      We have chosen this last model for us. This gives us independency from the market
+      laws and total freedom to our donators.
+    - 'Yes, no less. One project after another, we demonstrate that free, simple,
+      respectful and community-driven alternatives are possible. In our <a href="https://framabook.org">collaborative
+      publishing house</a>, our writers let you get freely their digital ebooks and
+      get paid through paper sales or your direct donations. Our <a href="@:data.link.dio/en/list">De-google-ify
+      services</a> are more and more used… There is still a long road to do and we
+      can go on thanks to your support: "There is a long way to go, but the road is
+      Free".'
 cat:
   communaute:
     title: Free community

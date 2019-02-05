@@ -260,11 +260,11 @@
                 v-for="reason, index in $t('why.reasons.list')"
                 v-if="!(index === 3 && $t('lang') !== 'fr')">
                 <div class="panel-heading" role="button" @click="toggleAccordion(index)">
-                  <h4 class="panel-title" v-html="$t('why.reasons.list[' + index + '][0]')"></h4>
+                  <h4 class="panel-title" v-html="$t('why.reasons.list[' + index + ']')"></h4>
                 </div>
                 <collapse v-model="showAccordion[index]">
                   <div class="panel-body">
-                    <p v-html="$t('why.reasons.list[' + index + '][1]')"></p>
+                    <p v-html="$t('why.reasons.desc[' + index + ']')"></p>
                   </div>
                 </collapse>
               </div>
