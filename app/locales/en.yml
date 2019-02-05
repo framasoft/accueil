@@ -77,7 +77,7 @@ home:
     confs:
       title: Conferences, workshops
       text: More than one hundred conferences, workshops and interventions per year
-    footer: '@:data.txt.soft has more thant 50 projects. Check all of them.'
+    footer: '@:data.txt.soft has more than 50 projects. Check all of them.'
     link: See the full presentation.
   dio:
     title: Degooglize your Internet<br> with our 32 services
