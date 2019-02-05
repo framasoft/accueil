@@ -8,7 +8,7 @@ const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const VueLoaderPlugin = require('vue-loader/lib/plugin')
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 let root = (process.env.NODE_ENV === 'preview') ? `/${process.env.INIT_CWD.match(/([^\/]*)\/*$/)[1]}/` : '/';
 for (let i = 0; i < process.argv.length; i += 1) {
