@@ -120,12 +120,10 @@
               <li>
                 2017 : <a :href="$root.asso.files + 'rapport_financier_2017.pdf'"
                 rel="nofollow" v-html="$t('asso.data.dd.reportsFinancial')"></a>
-                (<span v-html="$t('asso.data.dd.reportsWriting')"></span>)
               </li>
               <li>
                 2016 : <a :href="$root.asso.files + 'rapport_financier_2016.pdf'"
                 rel="nofollow" v-html="$t('asso.data.dd.reportsFinancial')"></a>
-                (<span v-html="$t('asso.data.dd.reportsWriting')"></span>)
               </li>
               <li>
                 2015 : <a :href="$root.asso.files + 'rapports-moraux/Framasoft_rapport_activite_2015.pdf'"
