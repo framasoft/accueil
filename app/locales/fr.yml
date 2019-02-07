@@ -1141,7 +1141,7 @@ asso:
   prez:
     title: Présentation de @:data.txt.soft
     text:
-    - Issu du monde éducatif et désormais tournée vers l’éducation populaire, @:data.html.soft
+    - Issue du monde éducatif et désormais tournée vers l’éducation populaire, l’association @:data.html.soft
       est avant tout un réseau de projets, dont le premier, <a href="@:data.link.libre">l’annuaire
       @:data.color.libre</a>, remonte à 2001.
     - 'Ces projets sont animés par des personnes collaborant autour d’une même volonté :
