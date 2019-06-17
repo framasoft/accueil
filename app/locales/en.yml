@@ -89,7 +89,7 @@ home:
       with <strong>{count} examples</strong>.
     btn: Help us maintain these services and help us to develop new ones
     footer: The complete list of our services, with the whole documentation to master
-      them, can be found on the <a href=@:data.link.dio>@:txt.dio</a> website
+      them, can be found on the <a href=@:data.link.dio/en>@:txt.dio</a> website
   peertube:
     title: 'PeerTube : the alternative to YouTube, made with you and for you'
     text: Have a look to 1.0 version of PeerTube, which lets you to create <strong>your</strong>
@@ -99,7 +99,7 @@ home:
     footer: 'To learn about the PeerTube software, discover how it’s organized into
       a <abbr title="Also known as fediverse, the whole group of federated instances.">federation</abbr>
       and understand how to create your own <abbr title="Decentralized installation
-      on a server, accessible through a web address.">instance</abbr>: <a href="https://joinpeertube.org"
+      on a server, accessible through a web address.">instance</abbr>: <a href="https://joinpeertube.org/en"
       lang="en">JoinPeertube</a>'
     modal:
       title: Main features of PeerTube
@@ -131,7 +131,7 @@ home:
         of the challenges of digital technology and organize resistance.
     btn: Contribute to another year of Contributopia
     footer: 'All this is just a sample of all the actions we are currently working
-      on… Discover the whole roadmap: <a href="@:data.link.cuo">@:data.txt.cuo</a>!'
+      on… Discover the whole roadmap: <a href="@:data.link.cuo/en">@:data.txt.cuo</a>!'
   soutenir:
     title: Support Framasoft
     text: Framasoft is a non-profit which can <strong>only</strong> keep running thanks
@@ -239,9 +239,9 @@ form:
         mailing address:'
   ask:
     title: Questions
-    stop: Recurring donations can be stopped anytime, just <a href="@:data.link.contact/#soutenir">ask
+    stop: Recurring donations can be stopped anytime, just <a href="@:data.link.contact/en/#soutenir">ask
       us</a>.
-    edit: If you want to modify your recurring donation, please <a href="@:data.link.contact/#soutenir">contact
+    edit: If you want to modify your recurring donation, please <a href="@:data.link.contact/en/#soutenir">contact
       us</a>, we will stop the current one and you will be able to make a new one.
     send: Tax receipts (in France only) are sent by postal mail in March/April @:data.year.next
       (before tax declaration) for @:data.year.current donations
