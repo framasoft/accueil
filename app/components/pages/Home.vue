@@ -31,18 +31,6 @@
         </div>
       </div>
     </section>
-    <section id="mobilizon-campagign" class="clearfix">
-      <div class="container-fluid">
-        <div class="container">
-          <div class="text-center">
-            <p>
-              <i aria-hidden="true" class="fa fa-fw fa-lg fa-calendar"></i>
-              <span v-html="$t('home.mobilizonCampaign')"></span>
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <section id="more" class="clearfix">
       <div class="container-fluid">
