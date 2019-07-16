@@ -1,5 +1,5 @@
 <template>
-  <div class="container ombre" id="topPgAccueil">
+  <div id="topPgAccueil" class="container ombre">
     <Header/>
 
     <div class="row">
@@ -16,14 +16,21 @@
 
     <div
       v-for="category in ['cloud', 'logiciel', 'culture', 'vrac']"
+      :key="category"
       :class="`row lite ${$root.cat[category].color}`">
-      <h3 class="titreFramaTrucs ${$root.cat[category].color}`" v-html="$t('cat.'+ category +'.title')"></h3>
+      <h3
+        class="titreFramaTrucs ${$root.cat[category].color}`"
+        v-html="$t(`cat.${category}.title`)">
+      </h3>
       <ul class="list-inline">
-        <li class="col-xs-4 col-sm-3 text-center"
-          v-for="frama in $root.cat[category].sites">
-          <a :href="$root.link[frama]" class="btn btn-lg btn-block btn-default"
-            :title="$t('cat.'+ category +'.sites.' + frama + '.title')" >
-            <i :class="`fa fa-3x fa-fw ${$root.icon[frama]}`"></i>
+        <li v-for="frama in $root.cat[category].sites"
+          :key="frama"
+          class="col-xs-4 col-sm-3 text-center">
+          <a
+            :href="$root.link[frama]"
+            class="btn btn-lg btn-block btn-default"
+            :title="$t(`cat.${category}.sites.${frama}.title`)">
+            <i :class="`fa fa-3x fa-fw ${$root.icon[frama]}`" aria-hidden="true"></i>
             <br>
             <span v-html="$root.color[frama]"></span>
           </a>

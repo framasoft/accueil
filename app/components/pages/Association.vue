@@ -1,60 +1,51 @@
 <template>
   <div class="container ombre apropos">
     <vue-headful
-      :title="$root.meta.title + ' - ' + $t('asso.title')"
+      :title="`${$root.meta.title} - ${$t('asso.title')}`"
     />
     <header class="clearfix header">
       <h1 class="pull-left" v-html="$t('asso.title')"></h1>
       <I18n/>
     </header>
     <main>
-      <h2 v-html="$t('asso.prez.title')"></h2>
-      <p
-        v-for="index in 4"
-        v-html="$t('asso.prez.text[' + (index-1) + ']')"
-      ></p>
-      <ul>
-        <li
-          v-for="li, index in $t('asso.prez.list')"
-          v-html="$t('asso.prez.list[' + index + ']')"
-        ></li>
-      </ul>
-      <p v-html="$t('asso.prez.text[4]')"></p>
+      <v-text section="asso.prez" />
 
       <div class="row">
         <div class="col-sm-10 col-sm-offset-1">
-          <img class="img-responsive" alt=""
+          <img
+            class="img-responsive"
+            alt=""
             :title="$t('asso.prez.saveas')"
             :src="`${$root['/']}img/${$route.meta.lang}/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018.jpg`" />
           <p class="text-right">
             <span v-html="$t('asso.prez.infography')"></span>
-            <a href="http://geoffreydorne.com" v-html="$root.people.dorme"></a>, <span v-html="$root.license.ccbysa4fr"></span>
+            <a href="http://geoffreydorne.com" v-html="$root.people.dorme"></a>,
+            <span v-html="$root.license.ccbysa4fr"></span>
           </p>
         </div>
       </div>
 
       <hr />
 
-      <h2 v-html="$t('asso.infos.title')"></h2>
-      <p
-        v-for="p, index in $t('asso.infos.text')"
-        v-html="$t('asso.infos.text[' + index + ']')"
-      ></p>
+      <v-text section="asso.infos" />
       <ul>
         <li>
-          <a :href="$root.asso.files + 'statuts-Framasoft-2015-v8.pdf'">
+          <a :href="`${$root.asso.files}statuts-Framasoft-2015-v8.pdf`">
             <strong v-html="$t('asso.infos.statuts')"></strong>
           </a>
         </li>
         <li>
-          <a :href="$root.asso.files + 'reglement-interieur-2015-v6c.pdf'">
+          <a :href="`${$root.asso.files}reglement-interieur-2015-v6c.pdf`">
             <strong v-html="$t('asso.infos.ri')"></strong>
           </a>
         </li>
       </ul>
 
       <p class="text-center">
-        <img style="width:180px;" alt="" :src="$root['/'] + 'img/biglogo.png'" />
+        <img
+          style="width:180px;"
+          alt=""
+          :src="`${$root['/']}img/biglogo.png`">
       </p>
 
       <hr />
@@ -77,9 +68,9 @@
           <dt v-html="$t('asso.data.dt.registration')"></dt>
           <dd>
             2004
-            (<a :href="$root.asso.files + 'statuts-Framasoft-2015-v8.pdf'"
+            (<a :href="`${$root.asso.files}statuts-Framasoft-2015-v8.pdf`"
               rel="nofollow" v-html="$t('asso.infos.statuts')"></a>)
-            (<a :href="$root.asso.files + 'reglement-interieur-2015-v6c.pdf'"
+            (<a :href="`${$root.asso.files}reglement-interieur-2015-v6c.pdf`"
               rel="nofollow" v-html="$t('asso.infos.ri')"></a>)
           </dd>
         </dl>
@@ -98,7 +89,7 @@
         <dl class="dl-horizontal">
           <dt v-html="$t('asso.data.dt.id')"></dt>
           <dd>
-            <a :href="$root.asso.files + 'fiche_identification_framasoft.pdf'"
+            <a :href="`${$root.asso.files}fiche_identification_framasoft.pdf`"
               rel="nofollow"  v-html="$t('asso.data.dd.id')"></a>
           </dd>
         </dl>
@@ -118,40 +109,64 @@
           <dd>
             <ul>
               <li>
-                2017 : <a :href="$root.asso.files + 'rapport_financier_2017.pdf'"
-                rel="nofollow" v-html="$t('asso.data.dd.reportsFinancial')"></a>
+                2017 :
+                <a :href="`${$root.asso.files}rapport_financier_2017.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsFinancial')">
+                </a>
               </li>
               <li>
-                2016 : <a :href="$root.asso.files + 'rapport_financier_2016.pdf'"
-                rel="nofollow" v-html="$t('asso.data.dd.reportsFinancial')"></a>
+                2016 :
+                <a :href="`${$root.asso.files}rapport_financier_2016.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsFinancial')">
+                </a>
               </li>
               <li>
-                2015 : <a :href="$root.asso.files + 'rapports-moraux/Framasoft_rapport_activite_2015.pdf'"
-                rel="nofollow" v-html="$t('asso.data.dd.reportsFinancial')"></a>
+                2015 :
+                <a :href="`${$root.asso.files}rapports-moraux/Framasoft_rapport_activite_2015.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsFinancial')">
+                </a>
               </li>
               <li>
-                2014 : <a :href="$root.asso.files + 'rapports-moraux/Framasoft_rapport_activite_2014.pdf'"
-                rel="nofollow" v-html="$t('asso.data.dd.reportsResults')"></a>
+                2014 :
+                <a :href="`${$root.asso.files}rapports-moraux/Framasoft_rapport_activite_2014.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsResults')">
+                </a>
               </li>
               <li>
-                2013 : <a :href="$root.asso.files + 'rapports-moraux/rapport_activites_framasoft_2013-v0.3.pdf'"
+                2013 :
+                <a :href="`${$root.asso.files}rapports-moraux/rapport_activites_framasoft_2013-v0.3.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsMAndF')">
+                </a>
+              </li>
+              <li>
+                2012 :
+                <a :href="`${$root.asso.files}rapport_moral_framasoft_2012-v0.5.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsMAndF')">
+                </a>
+              </li>
+              <li>
+                2011 :
+                <a :href="`${$root.asso.files}rapport_moral_framasoft_2011-v3.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsMAndF')">
+                </a>
+              </li>
+              <li>
+                2010 : <a :href="`${$root.asso.files}rapport_moral_framasoft_2010_v3.pdf`"
                 rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
               </li>
               <li>
-                2012 : <a :href="$root.asso.files + 'rapport_moral_framasoft_2012-v0.5.pdf'"
-                rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
-              </li>
-              <li>
-                2011 : <a :href="$root.asso.files + 'rapport_moral_framasoft_2011-v3.pdf'"
-                rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
-              </li>
-              <li>
-                2010 : <a :href="$root.asso.files + 'rapport_moral_framasoft_2010_v3.pdf'"
-                rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
-              </li>
-              <li>
-                2009 : <a :href="$root.asso.files + 'rapport_moral_framasoft_2009_v2.4.3_0.pdf'"
-                rel="nofollow" v-html="$t('asso.data.dd.reportsMAndF')"></a>
+                2009 :
+                <a :href="`${$root.asso.files}rapport_moral_framasoft_2009_v2.4.3_0.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsMAndF')">
+                </a>
               </li>
             </ul>
           </dd>
@@ -184,11 +199,13 @@
 </template>
 
 <script>
-import I18n from '../partials/I18n.vue'
+import I18n from '../partials/I18n.vue';
+import VText from '../partials/V-Text.vue';
 
 export default {
   components: {
     I18n,
+    VText,
   },
 }
 </script>

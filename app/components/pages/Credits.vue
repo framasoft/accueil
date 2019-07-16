@@ -1,30 +1,18 @@
-<template>
+g mariejulien.com/<template>
   <div class="container ombre apropos">
     <vue-headful
-      :title="$root.meta.title + ' - ' + $t('credits.title')"
+      :title="`${$root.meta.title} - ${$t('credits.title')}`"
     />
     <header class="clearfix header">
       <h1 class="pull-left" v-html="$t('credits.title')"></h1>
       <I18n/>
     </header>
     <main>
-      <p v-html="$t('credits.main.text[0]')"></p>
-      <ul>
-          <li
-            v-for="li, index in $t('credits.main.tools')"
-            v-html="$t('credits.main.tools['+ index +']')"
-          ></li>
-      </ul>
-      <p v-html="$t('credits.main.text[1]')"></p>
-      <p><span v-html="$t('credits.main.text[2]')"></span> {{ $root.people.sandra }}, {{ $root.people.jo }}</p>
+      <v-text section="credits.main" />
 
-      <h2 v-html="$t('credits.main.license.title')"></h2>
-      <p
-        v-for="p, index in $t('credits.main.license.text')"
-        v-html="$t('credits.main.license.text['+ index +']')"
-      ></p>
-
-      <div id="site-credits" class="well" v-if="site !== ''">
+      <div v-if="$root.hash !== ''"
+        id="site-credits"
+        class="well">
         <section v-show="$root.hash === 'blog'">
           <h1 v-html="$root.html.blog"></h1>
           <p>Le <span v-html="$root.html.blog"></span> est propulsé par <a href="https://wordpress.org/">Wordpress</a>.</p>
@@ -440,11 +428,13 @@
 </template>
 
 <script>
-import I18n from '../partials/I18n.vue'
+import I18n from '../partials/I18n.vue';
+import VText from '../partials/V-Text.vue';
 
 export default {
   components: {
     I18n,
+    VText,
   },
 }
 </script>
