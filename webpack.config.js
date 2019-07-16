@@ -11,14 +11,14 @@ const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const PreloadWebpackPlugin = require('preload-webpack-plugin');
 
-let root = (process.env.NODE_ENV === 'preview') ? `/${process.env.INIT_CWD.match(/([^\/]*)\/*$/)[1]}/` : '/';
+let root = (process.env.NODE_ENV === 'preview') ? `/${process.env.INIT_CWD.match(/([^/]*)\/*$/)[1]}/` : '/';
 for (let i = 0; i < process.argv.length; i += 1) {
   if (process.argv[i].indexOf('--root=') > -1) {
     root = `/${process.argv[i].split('=')[1]}/`;
   }
 }
 
-let config = {
+const config = {
   entry: './app/index.js',
   output: {
     path: path.resolve(__dirname, `public${root}`),
@@ -85,7 +85,7 @@ let config = {
   },
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
+      vue$: 'vue/dist/vue.esm.js',
     },
   },
   plugins: [
@@ -128,40 +128,36 @@ module.exports = config;
 
 const locales = [];
 // Import locales list
-fs.readdirSync('./app/locales').forEach(file => {
-  locales.push(file.replace(/(.*)\.yml/, '$1'));
-});
+fs.readdirSync('./app/locales')
+  .forEach(file => locales.push(file.replace(/(.*)\.yml/, '$1')));
 
 if (process.env.NODE_ENV === 'development') {
-  module.exports.plugins = (module.exports.plugins || []).concat([
-    new webpack.DefinePlugin({
-      'process.env': {
-        NODE_ENV: '"development"',
-        BASE_URL: '""',
-      },
-    }),
-    new HtmlWebpackPlugin({
-      title: 'DEVELOPMENT prerender-spa-plugin',
-      template: 'index.html',
-      filename: 'index.html',
-    }),
-  ]);
+  module.exports.plugins = (module.exports.plugins || [])
+    .concat([
+      new webpack.DefinePlugin({
+        'process.env': {
+          NODE_ENV: '"development"',
+          BASE_URL: '""',
+        },
+      }),
+      new HtmlWebpackPlugin({
+        title: 'DEVELOPMENT prerender-spa-plugin',
+        template: 'index.html',
+        filename: 'index.html',
+      }),
+    ]);
 } else { // NODE_ENV === 'production|preview'
   const routes = [];
   const pages = [];
   // Import pages list
-  fs.readdirSync('./app/components/pages').forEach(file => {
-    pages.push(file.replace(/(.*)\.vue/, '$1'));
-  });
+  fs.readdirSync('./app/components/pages')
+    .forEach(file => pages.push(file.replace(/(.*)\.vue/, '$1')));
+
   for (let j = 0; j < pages.length; j += 1) {
-    routes.push(
-      `${root}${pages[j].toLowerCase().replace('home', '')}`
-    );
+    routes.push(`${root}${pages[j].toLowerCase().replace('home', '')}`);
     // Localized routes
     for (let i = 0; i < locales.length; i += 1) {
-      routes.push(
-        `${root}${locales[i]}${pages[j].toLowerCase().replace(/^/, '/').replace('/home', '')}`
-      );
+      routes.push(`${root}${locales[i]}${pages[j].toLowerCase().replace(/^/, '/').replace('/home', '')}`);
     }
   }
 
@@ -217,21 +213,21 @@ if (process.env.NODE_ENV === 'development') {
 
 // Create ./public/img/lg/* symlinks only if images need translation
 if (fs.existsSync('./app/assets/img/fr')) {
-  if (!fs.existsSync('./public')){ fs.mkdirSync('./public'); }
-  if (!fs.existsSync(`./public${root}`)){ fs.mkdirSync(`./public${root}`); }
-  if (!fs.existsSync(`./public${root}img`)){ fs.mkdirSync(`./public${root}img`); }
+  if (!fs.existsSync('./public')) { fs.mkdirSync('./public'); }
+  if (!fs.existsSync(`./public${root}`)) { fs.mkdirSync(`./public${root}`); }
+  if (!fs.existsSync(`./public${root}img`)) { fs.mkdirSync(`./public${root}img`); }
   for (let i = 0; i < locales.length; i += 1) {
-    if (!fs.existsSync(`./public${root}img/${locales[i]}`)){
+    if (!fs.existsSync(`./public${root}img/${locales[i]}`)) {
       fs.mkdirSync(`./public${root}img/${locales[i]}`);
     }
-    fs.readdirSync('./app/assets/img/fr').forEach(file => {
+    fs.readdirSync('./app/assets/img/fr').forEach((file) => {
       if (!fs.existsSync(`./app/assets/img/${locales[i]}/${file}`)) {
         const symlinkOrigin = (process.env.NODE_ENV === 'development')
           ? `../../../app/assets/img/fr/${file}` // [dev] relative to assets
-          : `../fr/${file}` // [prod] relative to public
-        fs.symlink(symlinkOrigin, `./public${root}img/${locales[i]}/${file}`,
-          function (err) { console.log(err); } // eslint-disable-line
-        );
+          : `../fr/${file}`; // [prod] relative to public
+        fs.symlink(symlinkOrigin,
+          `./public${root}img/${locales[i]}/${file}`,
+          (err) => { console.log(err) }); // eslint-disable-line
       }
     });
   }
