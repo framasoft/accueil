@@ -1,18 +1,18 @@
 <template>
   <div class="container ombre apropos">
     <vue-headful
-      :title="`${$root.meta.title} - ${$t('charte.title')}`"
+      :title="`${$root.meta.title} - ${$t('moderation.title')}`"
     />
     <header class="clearfix header">
-      <h1 class="pull-left" v-html="$t('charte.title')"></h1>
+      <h1 class="pull-left" v-html="$t('moderation.title')"></h1>
       <I18n/>
     </header>
     <main>
-      <v-text section="charte" />
+      <v-text section="moderation" />
 
       <div class="signature">
         <hr />
-        <v-text section="charte.footer" />
+        <v-text section="moderation.footer" />
       </div>
     </main>
   </div>

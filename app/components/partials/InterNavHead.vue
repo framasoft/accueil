@@ -5,8 +5,7 @@
       :key="part.key">
       <a
         :href="`#topPg${key}`"
-        :title="part.title"
-      >
+        :title="part.title">
         <span class="sr-only">{{ part.key }}</span>
       </a>
     </li>

@@ -5,10 +5,12 @@
     </a>
     <p
       :class="`miniBlocSubTitle ${$root.icon[frama]}`"
-      v-html="$t(`cat.cloud.sites.${frama}.title`)"></p>
+      v-html="$t(`cat.cloud.sites.${frama}.title`)">
+    </p>
     <p
       class="miniBlocTexte"
-      v-html="$t(`cat.cloud.sites.${frama}.desc`)"></p>
+      v-html="$t(`cat.cloud.sites.${frama}.desc`)">
+    </p>
   </div>
 </template>
 <script>

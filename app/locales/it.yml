@@ -3,7 +3,7 @@ full: Home classica
 meta:
   title: '@:data.txt.soft ~ Cambiare il mondo un byte alla volta'
   lead: La strada è lunga, ma la via è libera…
-  desc: 'Associazione no-profit francese (Association française de loi 1901), nata
+  description: 'Associazione no-profit francese (Association française de loi 1901), nata
     come progetto educativo: @:data.txt.soft è una rete rivolta all’educazione popolare,
     incentrata principalmente sul software libero e open source. La rete è organizzata
     su un modello collaborativo incentrato su 3 tematiche principali: promozione,
@@ -17,9 +17,6 @@ meta:
 nav:
   lite: Quick access
   full: Classic home
-  langChange: Cambia lingua
-  lang: Lingua
-  translate: Traduci
   parts:
     logiciel:
       key: Sezione programmi
@@ -33,10 +30,6 @@ nav:
     vrac:
       key: Sezione materiale gratuito
       title: Vai alla sezione materiale gratuito
-txt:
-  dio: De-googl-izzare internet
-color:
-  dio: <b class="violet">De-googl-izzare</b> <b class="orange">internet</b>
 link:
   partenaires: '@:data.link.soutenir/en/partenaires'
   wFreeSoftware: https://it.wikipedia.org/wiki/Software_libero
@@ -46,11 +39,6 @@ link:
   wCommons: https://it.wikipedia.org/wiki/Bene_comune
   wOSM: https://it.wikipedia.org/wiki/OpenStreetMap
   garden: '@:data.link.cloud/fr/cultiver-son-jardin'
-carousel:
-  play: Riproduci
-  pause: Pausa
-  prev: Slide precedente
-  next: Slide seguente
 search:
   btn: Cerca
   frama: sui siti di @:data.txt.soft
@@ -736,88 +724,85 @@ pages:
       text: Geekzionario fai da te.
 charte:
   title: La Carta
-  intro: ' @:data.color.soft è una rete di educazione popolare, che ha le sue origini
+  p-intro:
+  - ' @:data.color.soft è una rete di educazione popolare, che ha le sue origini
     nel mondo dell’educazione, ed è principalmente dedicata al software libero. È
     organizzata in modo collaborativo attorno a tre argomenti principali: promozione,
     diffusione e sviluppo del software libero, miglioramento della cultura open source
     e  una piattaforma online di servizi open.'
-  libre:
-    title: Per un' internet aperta
-    text:
-    - L'uso del software libero e degli standard aperti su Internet è lo scopo principale
-      del nostro progetto <a href="@:data.link.dio"> @:color.dio </a>.
-    - L'accesso al codice sorgente è la pietra angolare dei principi dell'open source.
-      @:data.color.soft si impegna a porre ogni applicazione disponibile nei suoi
-      progetti sotto <a href="https://www.gnu.org/philosophy/free-sw.fr.html"> licenza
-      libera </a> .
-    - In caso di miglioramento del codice, @:data.color.soft si impegna a porre il
-      contributo sotto licenza libera (compatibile con la licenza originale) e incoraggerà
-      qualsiasi contributo volontario degli utenti invitandoli a entrare in contatto
-      con l'autore.
-    - '@:data.color.soft si impegna a rendere accessibile il codice sorgente, sia
-      pubblicando un link che rimanda al sito web ufficiale dell’applicazione, sia,
-      se quest’ultimo non è più disponibile, pubblicando il codice in questione su
-      un repository.'
-    - Così facendo, @:data.color.soft dimostra la sua onestà consentendo a ciascun
-      utente di verificare il codice sorgente, potenzialmente migliorarlo e soprattutto  garantire
-      che non venga fatto un uso scorretto dei suoi dati, identità o diritti.
-    - Gli utenti saranno quindi in grado di utilizzare consapevolmente le applicazioni
-      disponibili e conoscere tutte le loro caratteristiche, vantaggi, limiti e possibili
-      usi.
-    - Nessuno dei dati prodotti con l'aiuto di queste applicazioni appartiene a @:data.color.soft,
-      che non applica alcun copyright né censura i tuoi contenuti. Tuttavia, qualsiasi
-      contenuto che possa essere considerato illegale dalla legge francese, dopo essere
-      stato debitamente segnalato, verrà immediatamente cancellato.
-  decentralized:
-    title: Per un' Internet decentralizzata
-    text:
-    - ' Offrendo online applicazioni aperte , @:data.color.soft intende promuovere
-      soluzioni alternative alle applicazioni proprietarie che alcune aziende propongono
-      per ottenere una posizione di monopolio e fare un utilizzo abusivo dei dati
-      personali.'
-    - Queste alternative sono esempi della diversità delle soluzioni open source disponibili
-      che possono essere utilizzate per scopi personali o collettivi. In questa prospettiva,
-      @:data.color.soft è impegnata a promuovere la loro diffusione pubblicando tutorial
-      che spiegano come installare queste applicazioni sul proprio server.
-    - 'La parità di accesso a queste applicazioni è un forte impegno: offrendole gratuitamente,
-      @:data.color.soft desidera promuovere il loro uso nella massima misura possibile
-      e fornire una dimostrazione del fatto che è possibile una rete internet decentralizzata
-      ed egualitaria.'
-  ethic:
-    title: Per un' internet etica
-    text:
-    - L'etica del software open source riguarda la condivisione e l'indipendenza.
-      @:data.color.soft si impegna a non esercitare alcuna censura sui contenuti,
-      né a sorvegliare le azioni dei suoi utenti e a non rispondere mai a richieste
-      amministrative o di autorità senza una richiesta legale formale. In cambio,
-      gli utenti si impegnano, nella produzione o nell'hosting dei loro contenuti,
-      a rispettare le regole previste dalla legge.
-    - Non esercitiamo alcuna discriminazione tra gli utenti, in modo da garantire
-      la massima accessibilità.
-    - 'I dati personali non saranno sfruttati per fini commerciali, né trasmessi a
-      terzi, né utilizzati per scopi non specificati nel presente statuto. Tuttavia,
-      gli utenti devono essere consapevoli che i loro dati potrebbero essere resi
-      accessibili, specialmente quando li rendono pubblici nel contesto di un’applicazione
-      collaborativa. In questo caso, gli utenti rimangono responsabili dei loro contenuti. '
-  solidary:
-    title: Per un' internet solidale
-    text:
-    - '@:data.color.soft è un’associazione no-profit. I suoi volontari e dipendenti
-      dedicano il loro tempo a garantire la continuità dei servizi offerti agli utenti.
-      Il nostro modello di business si basa sulla mutualizzazione delle energie e
-      dei costi. I nostri servizi sono gratuiti, ma non significa che non costano
-      nulla. Se un gran numero di sostenitori incoraggiano finanziariamente @:data.color.soft
-      a mantenere i propri servizi, un numero ancora maggiore di persone sarebbe in
-      grado di utilizzarli e questi potrebbero anche essere migliorati.'
-    - ' @:data.color.soft ha un approccio educativo popolare, e quindi condivide il
-      maggior numero di conoscenze possibili al fine di promuovere l’uso del software
-      libero e insegnare agli utenti come installare servizi gratuiti sui propri server.
-      La condivisione di risorse tecniche e conoscitive è ciò che rende internet un
-      bene comune, disponibile per tutti e che non appartiene a nessuno.'
+  h2-libre: Per un' internet aperta
+  p-libre:
+  - L'uso del software libero e degli standard aperti su Internet è lo scopo principale
+    del nostro progetto <a href="@:data.link.dio"> @:color.dio </a>.
+  - L'accesso al codice sorgente è la pietra angolare dei principi dell'open source.
+    @:data.color.soft si impegna a porre ogni applicazione disponibile nei suoi
+    progetti sotto <a href="https://www.gnu.org/philosophy/free-sw.fr.html"> licenza
+    libera </a> .
+  - In caso di miglioramento del codice, @:data.color.soft si impegna a porre il
+    contributo sotto licenza libera (compatibile con la licenza originale) e incoraggerà
+    qualsiasi contributo volontario degli utenti invitandoli a entrare in contatto
+    con l'autore.
+  - '@:data.color.soft si impegna a rendere accessibile il codice sorgente, sia
+    pubblicando un link che rimanda al sito web ufficiale dell’applicazione, sia,
+    se quest’ultimo non è più disponibile, pubblicando il codice in questione su
+    un repository.'
+  - Così facendo, @:data.color.soft dimostra la sua onestà consentendo a ciascun
+    utente di verificare il codice sorgente, potenzialmente migliorarlo e soprattutto  garantire
+    che non venga fatto un uso scorretto dei suoi dati, identità o diritti.
+  - Gli utenti saranno quindi in grado di utilizzare consapevolmente le applicazioni
+    disponibili e conoscere tutte le loro caratteristiche, vantaggi, limiti e possibili
+    usi.
+  - Nessuno dei dati prodotti con l'aiuto di queste applicazioni appartiene a @:data.color.soft,
+    che non applica alcun copyright né censura i tuoi contenuti. Tuttavia, qualsiasi
+    contenuto che possa essere considerato illegale dalla legge francese, dopo essere
+    stato debitamente segnalato, verrà immediatamente cancellato.
+  h2-decentralized: Per un' Internet decentralizzata
+  p-decentralized:
+  - ' Offrendo online applicazioni aperte , @:data.color.soft intende promuovere
+    soluzioni alternative alle applicazioni proprietarie che alcune aziende propongono
+    per ottenere una posizione di monopolio e fare un utilizzo abusivo dei dati
+    personali.'
+  - Queste alternative sono esempi della diversità delle soluzioni open source disponibili
+    che possono essere utilizzate per scopi personali o collettivi. In questa prospettiva,
+    @:data.color.soft è impegnata a promuovere la loro diffusione pubblicando tutorial
+    che spiegano come installare queste applicazioni sul proprio server.
+  - 'La parità di accesso a queste applicazioni è un forte impegno: offrendole gratuitamente,
+    @:data.color.soft desidera promuovere il loro uso nella massima misura possibile
+    e fornire una dimostrazione del fatto che è possibile una rete internet decentralizzata
+    ed egualitaria.'
+  h2-ethic: Per un' internet etica
+  p-ethic:
+  - L'etica del software open source riguarda la condivisione e l'indipendenza.
+    @:data.color.soft si impegna a non esercitare alcuna censura sui contenuti,
+    né a sorvegliare le azioni dei suoi utenti e a non rispondere mai a richieste
+    amministrative o di autorità senza una richiesta legale formale. In cambio,
+    gli utenti si impegnano, nella produzione o nell'hosting dei loro contenuti,
+    a rispettare le regole previste dalla legge.
+  - Non esercitiamo alcuna discriminazione tra gli utenti, in modo da garantire
+    la massima accessibilità.
+  - 'I dati personali non saranno sfruttati per fini commerciali, né trasmessi a
+    terzi, né utilizzati per scopi non specificati nel presente statuto. Tuttavia,
+    gli utenti devono essere consapevoli che i loro dati potrebbero essere resi
+    accessibili, specialmente quando li rendono pubblici nel contesto di un’applicazione
+    collaborativa. In questo caso, gli utenti rimangono responsabili dei loro contenuti. '
+  h2-solidary: Per un' internet solidale
+  p-solidary:
+  - '@:data.color.soft è un’associazione no-profit. I suoi volontari e dipendenti
+    dedicano il loro tempo a garantire la continuità dei servizi offerti agli utenti.
+    Il nostro modello di business si basa sulla mutualizzazione delle energie e
+    dei costi. I nostri servizi sono gratuiti, ma non significa che non costano
+    nulla. Se un gran numero di sostenitori incoraggiano finanziariamente @:data.color.soft
+    a mantenere i propri servizi, un numero ancora maggiore di persone sarebbe in
+    grado di utilizzarli e questi potrebbero anche essere migliorati.'
+  - ' @:data.color.soft ha un approccio educativo popolare, e quindi condivide il
+    maggior numero di conoscenze possibili al fine di promuovere l’uso del software
+    libero e insegnare agli utenti come installare servizi gratuiti sui propri server.
+    La condivisione di risorse tecniche e conoscitive è ciò che rende internet un
+    bene comune, disponibile per tutti e che non appartiene a nessuno.'
   footer:
-  - Carta dei servizi gratuiti, etici, decentralizzati e solidali, <br> approvata
-    da @:data.color.soft il 6 ottobre 2014.
-  - 'Traduzione a cura dei contributori di Framalang Théo, # !, goofy, Diane'
+    p:
+    - Carta dei servizi gratuiti, etici, decentralizzati e solidali, <br> approvata
+      da @:data.color.soft il 6 ottobre 2014.
 cgu:
   title: 'Termini d’uso '
   intro:
@@ -873,127 +858,122 @@ cgu:
         dati che per te sono importanti, perché @:data.color.soft non può essere ritenuta
         responsabile del loro hosting senza limiti di tempo.'
   full:
-    title: Versione completa
-    conditions:
-      title: Condizioni di servizio
-      list:
-      - L’utilizzo del servizio è a tuo rischio. Il servizio è fornito così com’è.
-      - Non devi modificare un altro sito per indicare falsamente che è associato
-        a questo servizio @:data.color.soft</>.
-      - Gli account possono essere creati e utilizzati solo dagli utenti umani. Gli
-        account creati da robot o altri metodi automatizzati possono essere cancellati
-        senza preavviso.
-      - Sei responsabile della sicurezza del tuo account e della tua password. @:data.color.soft
-        non può e non sarà responsabile per eventuali perdite o danni derivanti dal
-        mancato rispetto di questo obbligo di sicurezza.
-      - Sei responsabile di tutti i contenuti pubblicati e delle attività che avvengono
-        con il tuo account.
-      - Non è possibile utilizzare il Servizio per scopi illegali o non autorizzati.
-        Non devi infrangere le leggi del tuo paese.
-      - Non è possibile vendere, commerciare, rivendere o sfruttare in modo non autorizzato
-        un account del servizio utilizzato.
-    liabilities:
-      text: La violazione di uno qualsiasi di questi accordi comporterà la chiusura
-        del tuo account. Comprendi e accetti che l'associazione @:data.color.soft
-        non può essere ritenuta responsabile del contenuto pubblicato su questo servizio.
-      list:
-      - Comprendi che la messa online del servizio e dei tuoi contenuti ne implica
-        la trasmissione (in testo normale o crittografato, a seconda del servizio)
-        su varie reti.
-      - Non devi trasmettere malware, virus o qualsiasi altro codice dannoso.
-      - '@:data.color.soft non garantisce che <ul><li>il servizio soddisfi le tue
-        esigenze specifiche,</li><li>il servizio sia senza interruzioni o privo di
-        errori,</li><li>che gli errori nel servizio verranno corretti.</li> </ul>'
-      - 'L’utente comprende e accetta che @:data.color.soft non può essere ritenuta
-        responsabile di eventuali danni diretti, indiretti o incidentali, inclusi
-        i danni per la perdita di profitti, clienti, accesso, dati o altre perdite
-        intangibili (anche se @:data.color.soft è informata della possibilità di tali
-        danni) e che deriverebbe da: <ol> <li> uso o incapacità di utilizzare il servizio;
-        </li> <li> accesso non autorizzato o alterato alla trasmissione di dati; </li>
-        <li> dichiarazioni o azioni di terzi sul servizio; </li> <li> cancellazione
-        del tuo account; </li> <li> qualsiasi altra questione correlata al servizio.</li>
-        </ol>'
-      - L'incapacità di @:data.color.soft di esercitare o far valere qualsiasi diritto
-        o disposizione delle Condizioni Generali d'Uso non costituisce una rinuncia
-        a tale diritto o disposizione. Le Condizioni d'uso costituiscono l'intero
-        accordo tra te e @:data.color.soft e regolano l'utilizzo del servizio, in
-        sostituzione a tutti gli accordi precedenti tra te e @:data.color.soft (comprese
-        le versioni precedenti dei Termini di utilizzo).
-      - Le domande relative alle condizioni del servizio devono essere inviate tramite
-        <a href="@:data.link.contact"> questo modulo di contatto </a>.
-  modify:
-    title: ' Modifiche del servizio'
-    list:
-    - ' @:data.color.soft si riserva il diritto, in qualsiasi momento, di modificare
+    h2: Versione completa
+    h3-conditions: Condizioni di servizio
+    ol-conditions:
+    - L’utilizzo del servizio è a tuo rischio. Il servizio è fornito così com’è.
+    - Non devi modificare un altro sito per indicare falsamente che è associato
+      a questo servizio @:data.color.soft</>.
+    - Gli account possono essere creati e utilizzati solo dagli utenti umani. Gli
+      account creati da robot o altri metodi automatizzati possono essere cancellati
+      senza preavviso.
+    - Sei responsabile della sicurezza del tuo account e della tua password. @:data.color.soft
+      non può e non sarà responsabile per eventuali perdite o danni derivanti dal
+      mancato rispetto di questo obbligo di sicurezza.
+    - Sei responsabile di tutti i contenuti pubblicati e delle attività che avvengono
+      con il tuo account.
+    - Non è possibile utilizzare il Servizio per scopi illegali o non autorizzati.
+      Non devi infrangere le leggi del tuo paese.
+    - Non è possibile vendere, commerciare, rivendere o sfruttare in modo non autorizzato
+      un account del servizio utilizzato.
+    p-liabilities:
+    - La violazione di uno qualsiasi di questi accordi comporterà la chiusura
+      del tuo account. Comprendi e accetti che l'associazione @:data.color.soft
+      non può essere ritenuta responsabile del contenuto pubblicato su questo servizio.
+    ol-liabilities:
+    - Comprendi che la messa online del servizio e dei tuoi contenuti ne implica
+      la trasmissione (in testo normale o crittografato, a seconda del servizio)
+      su varie reti.
+    - Non devi trasmettere malware, virus o qualsiasi altro codice dannoso.
+    - '@:data.color.soft non garantisce che <ul><li>il servizio soddisfi le tue
+      esigenze specifiche,</li><li>il servizio sia senza interruzioni o privo di
+      errori,</li><li>che gli errori nel servizio verranno corretti.</li> </ul>'
+    - 'L’utente comprende e accetta che @:data.color.soft non può essere ritenuta
+      responsabile di eventuali danni diretti, indiretti o incidentali, inclusi
+      i danni per la perdita di profitti, clienti, accesso, dati o altre perdite
+      intangibili (anche se @:data.color.soft è informata della possibilità di tali
+      danni) e che deriverebbe da: <ol> <li> uso o incapacità di utilizzare il servizio;
+      </li> <li> accesso non autorizzato o alterato alla trasmissione di dati; </li>
+      <li> dichiarazioni o azioni di terzi sul servizio; </li> <li> cancellazione
+      del tuo account; </li> <li> qualsiasi altra questione correlata al servizio.</li>
+      </ol>'
+    - L'incapacità di @:data.color.soft di esercitare o far valere qualsiasi diritto
+      o disposizione delle Condizioni Generali d'Uso non costituisce una rinuncia
+      a tale diritto o disposizione. Le Condizioni d'uso costituiscono l'intero
+      accordo tra te e @:data.color.soft e regolano l'utilizzo del servizio, in
+      sostituzione a tutti gli accordi precedenti tra te e @:data.color.soft (comprese
+      le versioni precedenti dei Termini di utilizzo).
+    - Le domande relative alle condizioni del servizio devono essere inviate tramite
+      <a href="@:data.link.contact"> questo modulo di contatto </a>.
+    h2-modify: ' Modifiche del servizio'
+    ol-modify:
+    - '@:data.color.soft si riserva il diritto, in qualsiasi momento, di modificare
       o interrompere, temporaneamente o permanentemente, con o senza preavviso i suoi
       servizi.'
     - '@:data.color.soft non sarà responsabile nei confronti dell’utente o di terzi
       per qualsiasi modifica, sospensione o interruzione del servizio.'
-    copyright:
-      title: Copyright dei contenuti
-      list:
-      - Non è possibile inviare, caricare, bloggare, distribuire, diffondere contenuti
-        illegali, diffamatori, molesti, offensivi, fraudolenti, contraffatti, osceni
-        o altrimenti discutibili.
-      - 'Non rivendichiamo alcun diritto sui tuoi dati: testo, immagini, audio, video
-        o qualsiasi altro elemento, che scarichi o trasmetti dal tuo account.'
-      - Non useremo i tuoi contenuti per scopi diversi dal fornirti il servizio.
-      - Non devi scaricare o rendere disponibile alcun contenuto che violi i diritti
-        di qualcun altro.
-      - Ci riserviamo il diritto di rimuovere qualsiasi contenuto riterremo necessario
-        rimuovere. non rilevante per l'utilizzo del servizio, a nostro esclusivo giudizio.
-      - Possiamo, se necessario, eliminare o impedire la distribuzione di qualsiasi
-        contenuto sul servizio che non rispetti queste condizioni.
-    share:
-      title: Modifica e condivisione dei dati
-      list:
-      - I file creati con il servizio possono essere - se desideri - letti, copiati,
-        usati e ridistribuiti da persone che conosci o meno.
-      - Rendendo pubblici i tuoi dati, riconosci e accetti che chiunque usi questo
-        sito web possa consultarli senza restrizioni.
-      - Ma il servizio può anche offrirti la possibilità di autorizzare un accesso
-        limitato e un lavoro collaborativo sui documenti a uno o più utenti.
-      - '@:data.color.soft non può essere ritenuto responsabile di qualsiasi problema
-        derivante dalla condivisione o dalla pubblicazione di dati tra utenti.'
-    closure:
-      title: 'Chiusura '
-      text:
-      - '@:data.color.soft, a sua esclusiva discrezione, ha il diritto di sospendere
-        o chiudere il tuo account e rifiutare qualsiasi utilizzo attuale o futuro
-        del servizio. La cessazione del servizio comporterà la disattivazione dell’accesso
-        al tuo account e la restituzione di tutti i contenuti. <br> @:data.color.soft
-        si riserva il diritto di rifiutare il servizio a chiunque, per qualsiasi motivo,
-        in qualsiasi momento.'
-      - '@:data.color.soft si riserva inoltre il diritto di chiudere un account se
-        non vi si accede per un periodo superiore a 6 mesi.'
-    private:
-      title: Informazioni personali
-      text:
-      - ' Ai sensi dell’articolo 34 della legge "Informatique et Libertés", @:data.color.soft
-        garantisce all’utente il diritto di opposizione, accesso e correzione dei
-        dati personali che lo riguardano. L’utente ha la possibilità di esercitare
-        questo diritto utilizzando il <a href="@:data.link.contact"> modulo di contatto
-        </a> disponibile.'
-      list:
-      - 'Per utilizzare determinati servizi @:data.color.soft, è necessario creare
-        un account. @:data.color.soft richiede alcune informazioni personali: un indirizzo
-        email valido e una password che viene utilizzata per proteggere il tuo account
-        da accessi non autorizzati. I campi "Cognome" e "Nome" potrebbero essere necessari
-        per il corretto funzionamento del software, ma non è necessario che rivelino
-        la tua vera identità.'
-      - 'Proprio come altri servizi online, @:data.color.soft salva automaticamente
-        alcune informazioni sull’utilizzo del servizio come l’attività dell’account
-        (ad esempio: spazio di archiviazione occupato, numero di voci, misure prese),
-        i dati visualizzati o cliccati (esempio: collegamenti, elementi dell’interfaccia
-        utente) e altre informazioni per identificarti (esempio: tipo di browser,
-        indirizzo IP, data e ora di accesso, URL di riferimento).'
-      - Utilizziamo internamente queste informazioni per migliorare l'interfaccia
-        utente dei servizi @:data.color.soft e mantenere un'esperienza utente coerente
-        e affidabile.
-      - Questi dati non vengono né venduti né trasmessi a terzi.
+    h3-copyright: Copyright dei contenuti
+    ol-copyright:
+    - Non è possibile inviare, caricare, bloggare, distribuire, diffondere contenuti
+      illegali, diffamatori, molesti, offensivi, fraudolenti, contraffatti, osceni
+      o altrimenti discutibili.
+    - 'Non rivendichiamo alcun diritto sui tuoi dati: testo, immagini, audio, video
+      o qualsiasi altro elemento, che scarichi o trasmetti dal tuo account.'
+    - Non useremo i tuoi contenuti per scopi diversi dal fornirti il servizio.
+    - Non devi scaricare o rendere disponibile alcun contenuto che violi i diritti
+      di qualcun altro.
+    - Ci riserviamo il diritto di rimuovere qualsiasi contenuto riterremo necessario
+      rimuovere. non rilevante per l'utilizzo del servizio, a nostro esclusivo giudizio.
+    - Possiamo, se necessario, eliminare o impedire la distribuzione di qualsiasi
+      contenuto sul servizio che non rispetti queste condizioni.
+    h3-share: Modifica e condivisione dei dati
+    ul-share:
+    - I file creati con il servizio possono essere - se desideri - letti, copiati,
+      usati e ridistribuiti da persone che conosci o meno.
+    - Rendendo pubblici i tuoi dati, riconosci e accetti che chiunque usi questo
+      sito web possa consultarli senza restrizioni.
+    - Ma il servizio può anche offrirti la possibilità di autorizzare un accesso
+      limitato e un lavoro collaborativo sui documenti a uno o più utenti.
+    - '@:data.color.soft non può essere ritenuto responsabile di qualsiasi problema
+      derivante dalla condivisione o dalla pubblicazione di dati tra utenti.'
+    h3-closure: 'Chiusura '
+    p-closure:
+    - '@:data.color.soft, a sua esclusiva discrezione, ha il diritto di sospendere
+      o chiudere il tuo account e rifiutare qualsiasi utilizzo attuale o futuro
+      del servizio. La cessazione del servizio comporterà la disattivazione dell’accesso
+      al tuo account e la restituzione di tutti i contenuti. <br> @:data.color.soft
+      si riserva il diritto di rifiutare il servizio a chiunque, per qualsiasi motivo,
+      in qualsiasi momento.'
+    - '@:data.color.soft si riserva inoltre il diritto di chiudere un account se
+      non vi si accede per un periodo superiore a 6 mesi.'
+    h3-privacy: Informazioni personali
+    p-privacy:
+    - ' Ai sensi dell’articolo 34 della legge "Informatique et Libertés", @:data.color.soft
+      garantisce all’utente il diritto di opposizione, accesso e correzione dei
+      dati personali che lo riguardano. L’utente ha la possibilità di esercitare
+      questo diritto utilizzando il <a href="@:data.link.contact"> modulo di contatto
+      </a> disponibile.'
+    ul-privacy:
+    - 'Per utilizzare determinati servizi @:data.color.soft, è necessario creare
+      un account. @:data.color.soft richiede alcune informazioni personali: un indirizzo
+      email valido e una password che viene utilizzata per proteggere il tuo account
+      da accessi non autorizzati. I campi "Cognome" e "Nome" potrebbero essere necessari
+      per il corretto funzionamento del software, ma non è necessario che rivelino
+      la tua vera identità.'
+    - 'Proprio come altri servizi online, @:data.color.soft salva automaticamente
+      alcune informazioni sull’utilizzo del servizio come l’attività dell’account
+      (ad esempio: spazio di archiviazione occupato, numero di voci, misure prese),
+      i dati visualizzati o cliccati (esempio: collegamenti, elementi dell’interfaccia
+      utente) e altre informazioni per identificarti (esempio: tipo di browser,
+      indirizzo IP, data e ora di accesso, URL di riferimento).'
+    - Utilizziamo internamente queste informazioni per migliorare l'interfaccia
+      utente dei servizi @:data.color.soft e mantenere un'esperienza utente coerente
+      e affidabile.
+    - Questi dati non vengono né venduti né trasmessi a terzi.
   footer:
-  - Condizioni d'uso dei servizi online dell'associazione @:data.color.soft,<br> versione
-    1.0.3 dell'11 aprile 2016.
+    p:
+    - Condizioni d'uso dei servizi online dell'associazione @:data.color.soft,<br> versione
+      1.0.3 dell'11 aprile 2016.
 legals:
   title: Note legali
   editor:
@@ -1006,46 +986,45 @@ legals:
     coprez: Copresidenza, gestione delle pubblicazioni
     host: Hosting
   infoLib:
-    title: Computer e libertà
-    private:
-      title: Dati personali raccolti
-      text:
-      - In Francia, i dati personali sono protetti dalla <a href="https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460">
-        legge n. 78-17 del 6 gennaio 1978 </a>, legge n. 2004-801 del 6 agosto 2004,
-        articolo L. 226-13 del codice penale e direttiva europea del 24 ottobre 1995.
-      - In ogni caso @:data.color.soft raccoglie informazioni personali sull'utente
-        (nome, indirizzo e-mail, numero di telefono) necessarie ai servizi offerti
-        dai siti della rete @:data.color.soft, in particolare per l'iscrizione su
-        spazi di discussione tramite moduli online o per procedure statistiche su
-        forum di discussione. L'utente fornisce queste informazioni con cognizione
-        di causa, in particolare quando le immette da sé. Viene specificato in questo
-        momento all'utente della rete @:data.color.soft se l'informazione da fornire
-        è obbligatoria o meno.
-    stats:
-      title: Analisi statistica e riservatezza
-      text:
-      - Per adattare il sito alle richieste dei nostri visitatori, analizziamo il
-        traffico dei nostri siti con Matomo. Matomo genera un cookie con un identificativo
-        univoco, il cui periodo di archiviazione è limitato a 13 mesi. I dati raccolti
-        (indirizzo IP, user-agent…) sono resi anonimi e conservati per un periodo
-        di 6 mesi. Non vengono trasferiti a terzi o utilizzati per altri scopi.
+    h2: Computer e libertà
+    h3-privacy: Dati personali raccolti
+    p-privacy:
+    - In Francia, i dati personali sono protetti dalla <a href="https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460">
+      legge n. 78-17 del 6 gennaio 1978 </a>, legge n. 2004-801 del 6 agosto 2004,
+      articolo L. 226-13 del codice penale e direttiva europea del 24 ottobre 1995.
+    - In ogni caso @:data.color.soft raccoglie informazioni personali sull'utente
+      (nome, indirizzo e-mail, numero di telefono) necessarie ai servizi offerti
+      dai siti della rete @:data.color.soft, in particolare per l'iscrizione su
+      spazi di discussione tramite moduli online o per procedure statistiche su
+      forum di discussione. L'utente fornisce queste informazioni con cognizione
+      di causa, in particolare quando le immette da sé. Viene specificato in questo
+      momento all'utente della rete @:data.color.soft se l'informazione da fornire
+      è obbligatoria o meno.
+    h3-stats: Analisi statistica e riservatezza
+    p-stats:
+    - Per adattare il sito alle richieste dei nostri visitatori, analizziamo il
+      traffico dei nostri siti con Matomo. Matomo genera un cookie con un identificativo
+      univoco, il cui periodo di archiviazione è limitato a 13 mesi. I dati raccolti
+      (indirizzo IP, user-agent…) sono resi anonimi e conservati per un periodo
+      di 6 mesi. Non vengono trasferiti a terzi o utilizzati per altri scopi.
     modify:
-      title: Rettifica delle informazioni personali raccolte
-      text:
+      h3-modify: Rettifica delle informazioni personali raccolte
+      p-modify:
       - 'Conformemente alle disposizioni dell’articolo 34 della legge n. 48-87 del
         6 gennaio 1978, l’utente ha il diritto di modificare i dati personali raccolti
         che lo riguardano. Per fare ciò, l’utente scrive a @:data.color.soft:'
-      - La modifica verrà apportata entro un ragionevole periodo di tempo dalla data
-        di ricezione della richiesta dell'utente.
-      list:
+      ul-modify:
       - potete inviarci una e-mail utilizzando il modulo di contatto
       - una lettera dovrebbe essere inviata all'indirizzo della sede dell'associazione
         (indicato sopra) indicando il vostro nome o la ragione sociale, il vostro
         indirizzo fisico e/o elettronico e, se necessario, il riferimento che si ha
         come utente del sito @:data.color.soft.
+      p1-modify:
+      - La modifica verrà apportata entro un ragionevole periodo di tempo dalla data
+        di ricezione della richiesta dell'utente.
   liabilities:
-    title: Limitazione di responsabilità
-    text:
+    h2: Limitazione di responsabilità
+    p:
     - Questo sito contiene informazioni rese disponibili da comunità o società esterne
       o collegamenti ipertestuali ad altri siti che non sono stati sviluppati da @:data.color.soft</>.
       I contenuti resi disponibili sul sito sono forniti a solo scopo informativo.
@@ -1070,30 +1049,29 @@ legals:
       civile e/o penale dell'utente, in particolare in caso di messaggio razzista,
       offensivo, diffamatorio o pornografico, qualunque sia il mezzo utilizzato (testo,
       fotografia…).
-    tech:
-      title: Limitazioni contrattuali sui dati tecnici
-      text:
-      - '@:data.color.soft non può essere ritenuta responsabile di danni materiali.
-        collegati all’uso del sito. Inoltre, l’utente del sito si impegna ad accedere
-        al sito utilizzando materiale recente, non contenente virus e con un browser
-        aggiornato.'
-    copyright:
-      title: Proprietà intellettuale
-      text:
-      - I contenuti sono pubblicati sotto la responsabilità degli utenti.
+    h3-tech: Limitazioni contrattuali sui dati tecnici
+    p-tech:
+    - '@:data.color.soft non può essere ritenuta responsabile di danni materiali.
+      collegati all’uso del sito. Inoltre, l’utente del sito si impegna ad accedere
+      al sito utilizzando materiale recente, non contenente virus e con un browser
+      aggiornato.'
+    h3-copyright: Proprietà intellettuale
+    p-copyright:
+    - I contenuti sono pubblicati sotto la responsabilità degli utenti.
   footer:
-  - Informazioni legali dell'associazione @:data.color.soft, <br> 6 ottobre 2014.
+    p:
+    - Informazioni legali dell'associazione @:data.color.soft, <br> 6 ottobre 2014.
 credits:
   title: Crediti
   main:
-    text:
+    p-intro:
     - 'Questo sito utilizza elementi liberi comuni all’intera rete @:data.txt.soft:'
     - Alcuni elementi vengono distribuiti tramite lo script che aggiunge la barra
       di navigazione e il piè di pagina del sito. <br> Il codice sorgente può essere
       trovato <a href="https://framagit.org/framasoft/framanav"> sul nostro repository
       Gitlab </a>
     - ' <a href="../graphics"> Layout grafico </a>:'
-    tools:
+    ul-tools:
     - 'la libreria <a href="https://jquery.com/">jQuery</a> e il framework gratuito
       <a href="https://getbootstrap.com">Bootstrap</a> '
     - o il framework gratuito <a href="https://vuejs.org">VueJS</a> e molto dipendenze
@@ -1101,26 +1079,25 @@ credits:
       Vu Sans</a> e <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a>
       (icone)
     - lo strumento di misurazione statistica <a href="https://www.matomo.org/">Matomo</a>
-    license:
-      title: Licenza
-      text:
-      - Quando non diversamente espresso, il contenuto dei siti è sottoposto a licenza
-        libera @:data.license.ccbysa4fr
-      - la nostra <a href="../charte">carta</a>, i <a href="../cgu">Termini d'uso
-        </a> dei nostri servizi, le <a href="../legals">menzioni legali</a> e tutti
-        i <a href="../association"> documenti amministrativi dell'associazione</a>
-        sotto sottoposti a questa licenza.
-      - I pinguini che camminano in giro per il sito provengono da <a href="https://www.le-terrier.net/pingouin/pingouin.html">@:data.people.lldemars</a>
-        e sono sottoposti a licenza @:data.license.lal.<br> I fumetti disegnati da
-        <a href="http://ptilouk.net">@:data.people.gee</a> sono sotto licenza @:data.license.ccbysa2fr.
-      - Il logo è opera di @:data.people.jo sotto licenza @:data.license.ccbysa4fr.<br>
-        È ispirato alla mascotte creata inizialmente da @:data.people.lldemars.<br>
-        (@:data.txt.soft è autorizzata ad utilizzare il logo senza dover citare l'autore).
+    h2-license: Licenza
+    p-license:
+    - Quando non diversamente espresso, il contenuto dei siti è sottoposto a licenza
+      libera @:data.license.ccbysa4fr
+    - la nostra <a href="../charte">carta</a>, i <a href="../cgu">Termini d'uso
+      </a> dei nostri servizi, le <a href="../legals">menzioni legali</a> e tutti
+      i <a href="../association"> documenti amministrativi dell'associazione</a>
+      sotto sottoposti a questa licenza.
+    - I pinguini che camminano in giro per il sito provengono da <a href="https://www.le-terrier.net/pingouin/pingouin.html">@:data.people.lldemars</a>
+      e sono sottoposti a licenza @:data.license.lal.<br> I fumetti disegnati da
+      <a href="http://ptilouk.net">@:data.people.gee</a> sono sotto licenza @:data.license.ccbysa2fr.
+    - Il logo è opera di @:data.people.jo sotto licenza @:data.license.ccbysa4fr.<br>
+      È ispirato alla mascotte creata inizialmente da @:data.people.lldemars.<br>
+      (@:data.txt.soft è autorizzata ad utilizzare il logo senza dover citare l'autore).
 asso:
   title: Associazione
   prez:
-    title: Presentazione di @:data.txt.soft
-    text:
+    h2: Presentazione di @:data.txt.soft
+    p-intro:
     - Nata dal mondo dell'istruzione e ora rivolta   verso l'istruzione popolare,
       @:data.html.soft è soprattutto una rete di progetti, di cui il primo, <a href="@:data.link.libre">
       l'annuario @:data.link.libre </a>, risale al 2001.
@@ -1132,20 +1109,21 @@ asso:
       sullo strumento digitale.
     - 'L’obbiettivo di @:data.html.soft è offrire, soprattutto online, un insieme
       di strumenti concreti e pratici per facilitare l’adozione:'
-    - Presentato come un "portale verso il Mondo Libero", la rete @:data.html.soft
-      vuole collocarsi come un ponte tra la comunità dei bibliotecari e il pubblico
-      generale.
-    list:
+    ul-axis:
     - del software libero (annuarioy, chiavette USB, programma di installazione…);
     - di creazioni culturali gratuite (blog, traduzione, casa editrice…);
     - di servizi liberii (più di 30 servizi liberi nel progetto <a href="@:data.link.dio">
       @:color.dio </a>).
+    p-gate:
+    - Presentato come un "portale verso il Mondo Libero", la rete @:data.html.soft
+      vuole collocarsi come un ponte tra la comunità dei bibliotecari e il pubblico
+      generale.
     saveas: Clicca col tasto destro sull'immagine e "Salva immagine come" per riutilizzarla
     infography: Infografica <em lang="fr">Il mondo di @:data.txt.soft</em> realizzata
       da
   infos:
-    title: L'associazione @:data.txt.soft
-    text:
+    h2: L'associazione @:data.txt.soft
+    p-asso:
     - La rete @:data.html.soft fa affidamento sulla sua vasta comunità di volontari,
       ma non potrebbe esistere se non fosse sostenuta da un’associazione fondata nel
       2004.

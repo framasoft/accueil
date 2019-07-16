@@ -1,7 +1,7 @@
 <template>
   <div class="container ombre apropos">
     <vue-headful
-      :title="$root.meta.title + ' - ' + $t('graphics.title')"
+      :title="`${$root.meta.title} - ${$t('graphics.title')}`"
     />
     <header class="clearfix header">
       <h1 class="pull-left" v-html="$t('graphics.title')"></h1>
@@ -271,7 +271,7 @@
           1 de contraste dans les gris pour le pinchot :
         </p>
         <p class="text-center" aria-hidden="true">
-          <img src="https://framasoft.org/accueil/img/slide-thermo.jpg" alt="" />
+          <img src="https://framasoft.org/img/slide-thermo.jpg" alt="" />
         </p>
 
         <h2>Accessibilité</h2>
@@ -341,11 +341,11 @@
 
       <div class="row">
         <div class="col-md-5">
-          <h1><img :src="$root['/'] + 'img/logo.png'" alt="" /> <b class="violet">Frama</b><b class="orange">soft</b></h1>
-          <h1><img :src="$root['/'] + 'img/logo-bleu.png'" alt="" /> <b class="violet">Frama</b><b class="bleu">libre</b></h1>
-          <h1><img :src="$root['/'] + 'img/logo-rouge.png'" alt="" /> <b class="violet">Frama</b><b class="rouge">blog</b></h1>
-          <h1><img :src="$root['/'] + 'img/logo-vert.png'" alt="" /> <b class="violet">Frama</b><b class="vert">date</b></h1>
-          <h1><img :src="$root['/'] + 'img/logo-jaune.png'" alt="" /> <b class="violet">Frama</b><b class="jaune">colibri</b></h1>
+          <h1><img :src="`${$root['/']}img/logo.png`" alt="" /> <b class="violet">Frama</b><b class="orange">soft</b></h1>
+          <h1><img :src="`${$root['/']}img/logo-bleu.png`" alt="" /> <b class="violet">Frama</b><b class="bleu">libre</b></h1>
+          <h1><img :src="`${$root['/']}img/logo-rouge.png`" alt="" /> <b class="violet">Frama</b><b class="rouge">blog</b></h1>
+          <h1><img :src="`${$root['/']}img/logo-vert.png`" alt="" /> <b class="violet">Frama</b><b class="vert">date</b></h1>
+          <h1><img :src="`${$root['/']}img/logo-jaune.png`" alt="" /> <b class="violet">Frama</b><b class="jaune">colibri</b></h1>
           <h1>Titre h1</h1>
           <hr class="trait" />
           <h2>Titre h2</h2>
@@ -485,7 +485,7 @@
         <h1>Images</h1>
         <p>
           Les sources de toutes ces images se trouvent dans
-          <a :href="$root['/'] + 'img/sources-logo-set.svg'">ce fichier <abbr>.svg</abbr></a>.
+          <a :href="`${$root['/']}img/sources-logo-set.svg`">ce fichier <abbr>.svg</abbr></a>.
           Les emblèmes sont créés à partir des icônes de
           <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a>
           pour les utiliser dans Inkscape, il faut ajouter le fichier <abbr>.ttf</abbr>
@@ -493,20 +493,20 @@
         </p>
         <div class="col-sm-8 clearfix">
           <h2>Logo</h2>
-          <p class="col-sm-6 text-center"><img :src="$root['/'] + 'img/biglogo.png'" alt="" style="width:300px"/></p>
-          <p class="col-sm-6 text-center"><img :src="$root['/'] + 'img/biglogo-noir.png'" alt="" style="width:300px"/></p>
-          <p class="row col-sm-12 alert" v-html="$t('credits.main.license.text[3]')"></p>
+          <p class="col-sm-6 text-center"><img :src="`${$root['/']}img/biglogo.png`" alt="" style="width:300px"/></p>
+          <p class="col-sm-6 text-center"><img :src="`${$root['/']}img/biglogo-noir.png`" alt="" style="width:300px"/></p>
+          <p class="row col-sm-12 alert" v-html="$t('credits.main.p1[3]')"></p>
           <ul class="list-inline text-center">
-            <li><img :src="$root['/'] + 'img/logo.png'" alt="" /></li>
-            <li><img :src="$root['/'] + 'img/logo-bleu.png'" alt="" /></li>
-            <li><img :src="$root['/'] + 'img/logo-rouge.png'" alt="" /></li>
-            <li><img :src="$root['/'] + 'img/logo-vert.png'" alt="" /></li>
-            <li><img :src="$root['/'] + 'img/logo-jaune.png'" alt="" /></li>
+            <li><img :src="`${$root['/']}img/logo.png`" alt="" /></li>
+            <li><img :src="`${$root['/']}img/logo-bleu.png`" alt="" /></li>
+            <li><img :src="`${$root['/']}img/logo-rouge.png`" alt="" /></li>
+            <li><img :src="`${$root['/']}img/logo-vert.png`" alt="" /></li>
+            <li><img :src="`${$root['/']}img/logo-jaune.png`" alt="" /></li>
           </ul>
         </div>
         <div class="col-sm-4 clearfix well">
           <p>Historiquement, les <cite>Pingouins</cite> de {{ $root.people.lldemars }} sont des manchots : ils ne peuvent pas voler.</p>
-          <p class="text-center"><img :src="$root['/'] + 'img/pingouinVolantRefait.png'" alt="" style="width:120px"/></p>
+          <p class="text-center"><img :src="`${$root['/']}img/pingouinVolantRefait.png`" alt="" style="width:120px"/></p>
           <p>
             Ce manchot (<a href="http://tofz.org/?displaypic=.priv8%2Fpingouins%2F42.jpg&amp;non_lr=">planche originale</a>)
             a été choisi car il sort de sa condition en agissant différemment de ses congénères.
@@ -518,31 +518,31 @@
           <h2>Icônes</h2>
           <h3>Apple Touch Icons</h3>
           <ul class="list-inline">
-            <li><img :src="$root['/'] + 'img/apple-violet.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/apple-orange.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/apple-bleu.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/apple-rouge.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/apple-vert.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/apple-jaune.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/apple-gris.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/apple-rose.png'" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/apple-violet.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/apple-orange.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/apple-bleu.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/apple-rouge.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/apple-vert.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/apple-jaune.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/apple-gris.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/apple-rose.png`" alt="" width="120" height="120"/></li>
           </ul>
           <ul class="list-inline">
-            <li><img :src="$root['/'] + 'img/fa-ati-bleu.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/fa-ati-rouge.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/fa-ati-vert.png'" alt="" width="120" height="120"/></li>
-            <li><img :src="$root['/'] + 'img/fa-ati-jaune.png'" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/fa-ati-bleu.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/fa-ati-rouge.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/fa-ati-vert.png`" alt="" width="120" height="120"/></li>
+            <li><img :src="`${$root['/']}img/fa-ati-jaune.png`" alt="" width="120" height="120"/></li>
           </ul>
           <h3>Favicons</h3>
           <ul class="list-inline">
-            <li><img :src="$root['/'] + 'img/favicon-violet.png'" alt=""/></li>
-            <li><img :src="$root['/'] + 'img/favicon-orange.png'" alt=""/></li>
-            <li><img :src="$root['/'] + 'img/favicon-bleu.png'" alt=""/></li>
-            <li><img :src="$root['/'] + 'img/favicon-rouge.png'" alt=""/></li>
-            <li><img :src="$root['/'] + 'img/favicon-vert.png'" alt=""/></li>
-            <li><img :src="$root['/'] + 'img/favicon-jaune.png'" alt=""/></li>
-            <li><img :src="$root['/'] + 'img/favicon-gris.png'" alt=""/></li>
-            <li><img :src="$root['/'] + 'img/favicon-rose.png'" alt=""/></li>
+            <li><img :src="`${$root['/']}img/favicon-violet.png`" alt=""/></li>
+            <li><img :src="`${$root['/']}img/favicon-orange.png`" alt=""/></li>
+            <li><img :src="`${$root['/']}img/favicon-bleu.png`" alt=""/></li>
+            <li><img :src="`${$root['/']}img/favicon-rouge.png`" alt=""/></li>
+            <li><img :src="`${$root['/']}img/favicon-vert.png`" alt=""/></li>
+            <li><img :src="`${$root['/']}img/favicon-jaune.png`" alt=""/></li>
+            <li><img :src="`${$root['/']}img/favicon-gris.png`" alt=""/></li>
+            <li><img :src="`${$root['/']}img/favicon-rose.png`" alt=""/></li>
           </ul>
 
           <h3>Par service avec emblème Fork Awesome</h3>
@@ -555,8 +555,11 @@
             <div class="form-group">
               <label for="icon" class="col-sm-2 control-label">Icône</label>
               <div class="col-sm-6">
-                <i id="framicon" ref="framicon" :class="'hidden fa fa-' + ati.icon" aria-hidden="true"></i>
-                <input type="text" class="form-control" id="icon" v-model="ati.icon"
+                <i id="framicon" ref="framicon" :class="`hidden fa fa-${ati.icon}`" aria-hidden="true"></i>
+                <input id="icon"
+                  v-model="ati.icon"
+                  type="text"
+                  class="form-control"
                   @focusout="setUnicode" />
               </div>
             </div>

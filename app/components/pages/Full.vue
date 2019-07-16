@@ -7,12 +7,18 @@
       <div class="row">
         <div class="col-md-8">
           <div class="row">
-            <figure id="pingouinVolant" class="pull-right" >
-              <img :src="$root['/'] + 'img/biglogo-notxt.png'" style="max-width: 250px;margin: 0;" alt="" />
+            <figure id="pingouinVolant" class="pull-right">
+              <img :src="`${$root['/']}img/biglogo-notxt.png`"
+                style="max-width: 250px;margin: 0;"
+                alt="" />
             </figure>
 
             <ul class="accroche">
-              <li v-for="item in $t('pages.accroche')" v-html="item"></li>
+              <li
+                v-for="item in $t('pages.accroche')"
+                :key="item"
+                v-html="item">
+              </li>
             </ul>
           </div>
 
@@ -43,10 +49,10 @@
                   <tr
                     v-for="item in $root.pages.medias.list"
                     :key="item[3]"
-                    v-if="item[0] === $t('lang') || (item[0] === 'en' && $t('lang') !== 'fr')">
+                    :class="!(item[0] === $t('lang') || (item[0] === 'en' && $t('lang') !== 'fr')) ? 'hidden' : ''">
                     <td v-html="item[1]"></td>
                     <td v-html="item[2]"></td>
-                    <td ><a :href="item[3]" :hreflang="item[0]" v-html="$t(item[4])"></a></td>
+                    <td><a :href="item[3]" :hreflang="item[0]" v-html="$t(item[4])"></a></td>
                   </tr>
                 </tbody>
               </table>
@@ -57,21 +63,19 @@
         <div id="blocFramatrucs" class="col-md-4">
           <div
             v-for="(section, titre) in sideMenuCat()"
-            :key="titre"
-            >
+            :key="titre">
             <h4 class="titreFramaTrucs">
               <a
                 :href="`#topPg${titre}`"
                 :class="$root.cat[titre].color"
-                v-html="section.title"
-              ></a>
+                v-html="section.title">
+              </a>
             </h4>
             <div class="row">
               <ul class="listeFramaTrucs col-md-12">
                 <li
                   v-for="([key, frama], index) in tradEntries(section.sites)"
-                  :key="frama.link"
-                >
+                  :key="frama.link">
                   <span
                     :class="hideRepeat(index, tradEntries(section.sites))"
                      v-html="frama.what"></span>
@@ -91,7 +95,7 @@
 
     </div>
 
-    <div class="container ombre" id="topPgCommunaute">
+    <div id="topPgCommunaute" class="container ombre">
       <div class="clearfix header">
         <div class="col-md-4">
           <h1 class="sitename">
@@ -107,8 +111,8 @@
       </div>
 
       <div class="row" id="contentCommunaute">
-        <div class="col-md-4 blocCommunaute" >
-          <img :src="$root['/'] + 'img/framateam1.jpg'" class="img-responsive" alt="" />
+        <div class="col-md-4 blocCommunaute">
+          <img :src="`${$root['/']}img/framateam1.jpg`" class="img-responsive" alt="" />
         </div>
 
         <div class="col-md-4 blocCommunaute">
@@ -136,23 +140,12 @@
         </div>
 
         <div class="col-md-4 blocCommunaute">
-          <img :src="$root['/'] + 'img/framateam2.jpg'" class="img-responsive" alt="" />
+          <img :src="`${$root['/']}img/framateam2.jpg`" class="img-responsive" alt="" />
         </div>
 
         <div class="col-md-12 blocCommunaute partenaires">
           <h4 class="titreBloc" v-html="$t('pages.partenaires.title')"></h4>
           <p class="miniBlocTexte" v-html="$t('pages.partenaires.desc')"></p>
-          <ul class="list-inline text-center">
-            <li><a href="http://milliweb.fr">
-              <img src="https://soutenir.framasoft.org/img/partenaires/milliweb.png" alt="Milliweb">
-            </a></li>
-            <li><a href="https://www.flexilivre.com">
-              <img src="https://soutenir.framasoft.org/img/partenaires/flexilivre.png" alt="FlexiLivre">
-            </a></li>
-            <li><a href="http://linphone.org">
-              <img src="https://soutenir.framasoft.org/img/partenaires/belledonne.png" alt="Belledonne Communication">
-            </a></li>
-          </ul>
         </div>
       </div>
 
@@ -185,21 +178,23 @@
 
         <div class="col-md-4">
           <figure id="pingouinMuseeWindows">
-            <img :src="$root['/'] + 'img/musee-windows_ll-de-mars_licence-art-libre.jpg'" alt="" />
+            <img :src="`${$root['/']}img/musee-windows_ll-de-mars_licence-art-libre.jpg`" alt="" />
           </figure>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-3 miniBloc" v-for="frama in $root.cat.logiciel.sites">
+        <div v-for="frama in $root.cat.logiciel.sites"
+          :key="frama"
+          class="col-md-3 miniBloc">
           <a :href="$root.link[frama]">
             <h4 class="bleu" v-html="$root.color[frama]"></h4>
           </a>
           <p
             :class="`miniBlocSubTitle ${$root.icon[frama]}`"
-            v-html="$t('cat.logiciel.sites.' + frama + '.title')"
-          ></p>
-          <p class="miniBlocTexte" v-html="$t('cat.logiciel.sites.' + frama + '.desc')"></p>
+            v-html="$t(`cat.logiciel.sites.${frama}.title`)">
+          </p>
+          <p class="miniBlocTexte" v-html="$t(`cat.logiciel.sites.${frama}.desc`)"></p>
         </div>
       </div>
 
@@ -207,7 +202,7 @@
 
     </div>
 
-    <div class="container ombre" id="topPgculture">
+    <div id="topPgculture" class="container ombre">
       <div class="clearfix header">
         <div class="col-md-4">
           <h1 class="sitename violet">
@@ -223,8 +218,8 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6" id="presentationServices">
-          <div class="row col-md-12" id="blocServices">
+        <div id="presentationServices" class="col-md-6">
+          <div id="blocServices" class="row col-md-12">
             <h3 class="presentation" v-html="$t('pages.culture.title')"></h3>
             <p class="blocSubTitle" v-html="$t('pages.culture.desc')"></p>
             <p class="blocTexte" v-html="$t('pages.culture.text1')"></p>
@@ -244,15 +239,17 @@
 
         <div class="col-md-6">
           <div class="row">
-            <div class="col-md-6 miniBloc2" v-for="frama in $root.cat.culture.sites">
+            <div v-for="frama in $root.cat.culture.sites"
+              :key="frama"
+              class="col-md-6 miniBloc2">
               <a :href="$root.link[frama]">
                 <h4 class="rouge" v-html="$root.color[frama]"></h4>
               </a>
               <p
                 :class="`miniBlocSubTitle ${$root.icon[frama]}`"
-                v-html="$t('cat.culture.sites.' + frama + '.title')"
-              ></p>
-              <p class="miniBlocTexte" v-html="$t('cat.culture.sites.' + frama + '.desc')"></p>
+                v-html="$t(`cat.culture.sites.${frama}.title`)">
+              </p>
+              <p class="miniBlocTexte" v-html="$t(`cat.culture.sites.${frama}.desc`)"></p>
             </div>
           </div>
         </div>
@@ -262,7 +259,7 @@
 
     </div>
 
-    <div class="container ombre" id="topPgcloud">
+    <div id="topPgcloud" class="container ombre">
       <div class="clearfix header">
         <div class="col-md-4">
           <h1 class="sitename violet">
@@ -286,7 +283,9 @@
             <p class="blocTexte" v-html="$t('pages.cloud.text2')"></p>
           </div>
 
-          <div v-for="frama in $root.cat.cloud.sites" :id="`f-${frama}`">
+          <div v-for="frama in $root.cat.cloud.sites"
+            :id="`f-${frama}`"
+            :key="frama">
             <ImageServiceBlock
               v-if="['bee', 'bag', 'drop', 'site'].includes(frama)"
               :image="beforeImage(frama)" />
@@ -299,7 +298,7 @@
 
     </div>
 
-    <div class="container ombre" id="topPgvrac">
+    <div id="topPgvrac" class="container ombre">
 
       <div class="clearfix header">
         <div class="col-md-4">
@@ -316,18 +315,18 @@
       </div>
 
       <div class="row">
-        <div class="col-md-8" id="presentationLibrenVrac">
+        <div id="presentationLibrenVrac" class="col-md-8">
           <h3 class="presentation" v-html="$t('pages.vrac.title')"></h3>
           <p class="blocSubTitle" v-html="$t('pages.vrac.desc')"></p>
           <p class="blocTexte" v-html="$t('pages.vrac.text')"></p>
         </div>
 
-        <div class="col-md-4" id="AlaUne">
+        <div id="AlaUne" class="col-md-4">
           <h4 class="titreBloc" v-html="$t('pages.vrac.une.title')"></h4>
           <p class="miniBlocSubTitle" v-html="$t('pages.vrac.une.desc')"></p>
           <figure id="GeGeGenerator">
             <a href="https://framalab.org/gknd-creator/">
-              <img :src="$root['/'] + 'img/GeGeGenerator.jpg'" :alt="$t('pages.vrac.une.desc')" />
+              <img :src="`${$root['/']}img/GeGeGenerator.jpg`" :alt="$t('pages.vrac.une.desc')" />
             </a>
           </figure>
           <p class="legende" v-html="$t('pages.vrac.une.desc')"></p>
@@ -335,15 +334,17 @@
       </div>
 
       <div class="row">
-        <div v-for="frama in $root.cat.vrac.sites" class="col-md-4 miniBloc">
+        <div v-for="frama in $root.cat.vrac.sites"
+          :key="frama"
+          class="col-md-4 miniBloc">
           <a :href="$root.link[frama]">
             <h4 class="jaune" v-html="$root.color[frama]"></h4>
           </a>
           <p
             :class="`miniBlocSubTitle ${$root.icon[frama]}`"
-            v-html="$t('cat.vrac.sites.' + frama + '.title')"
-          ></p>
-          <p class="miniBlocTexte" v-html="$t('cat.vrac.sites.' + frama + '.desc')"></p>
+            v-html="$t(`cat.vrac.sites.${frama}.title`)">
+          </p>
+          <p class="miniBlocTexte" v-html="$t(`cat.vrac.sites.${frama}.desc`)"></p>
         </div>
       </div>
 
@@ -433,7 +434,7 @@ export default {
 };
 </script>
 <style>
-  .clearBoth{
+  .clearBoth {
     clear: both;
   }
 </style>

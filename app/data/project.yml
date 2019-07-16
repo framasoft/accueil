@@ -1,0 +1,114 @@
+meta:
+  title: Framasoft
+  author: Framasoft
+  canonical: https://framasoft.org
+  i18n: https://trad.framasoft.org/iteration/view/framasoft/master
+  employees: '8'
+
+# Catégories
+cat:
+  communaute:
+
+  campagnes:
+    sites: ['dio', 'cuo']
+
+  logiciel:
+    color: bleu
+    sites: ['libre', 'key', 'dvd', 'pack']
+
+  culture:
+    color: rouge
+    sites: ['blog', 'book', 'bookin', 'lang', 'tube', 'zic']
+
+  cloud:
+    color: vert
+    sites: [
+      'pad', 'calc', 'forms', 'agenda', 'date', 'board',
+      'mindmap', 'vectoriel', 'slides', 'maestro', 'bee', 'sphere',
+      'piaf', 'team', 'listes', 'talk', 'vox', 'memo',
+      'notes', 'bag', 'news', 'carte', 'games', 'minetest',
+      'drop', 'bin', 'pic', 'link', 'drive', 'my',
+      'git', 'site', 'wiki'
+    ]
+
+  vrac:
+    color: jaune
+    sites: ['colibri', 'evl', 'docs']
+
+pages:
+  medias:
+    list:
+    - ['fr', '31/08/2018', 'De l’autre côté des livres',
+       'https://www.outrelivres.fr/working-class-heroic-fantasy/',
+       'pages.medias.lArticle']
+    - ['fr', '12/07/2018', 'Télérama',
+       'https://www.telerama.fr/medias/peertube,-la-plateforme-qui-defie-youtube-avec-lethique,n5715829.php',
+       'pages.medias.lArticle']
+    - ['fr', '13/06/2018', 'France Culture',
+       'https://www.franceculture.fr/emissions/du-grain-a-moudre/que-reste-t-il-du-logiciel-libre',
+       'pages.medias.lListen']
+    - ['fr', '15/02/2018', 'NextInpact',
+       'https://www.nextinpact.com/news/106150-framasoft-lance-pages-framasite-pour-faciliter-creation-sites-monopages.htm',
+       'pages.medias.lArticle']
+    - ['fr', '29/11/2017', 'France Inter',
+       'https://www.franceinter.fr/emissions/c-est-deja-demain/c-est-deja-demain-28-novembre-2017',
+       'pages.medias.lListen']
+    - ['fr', '30/07/2017', 'Usbek & Rica',
+       'https://usbeketrica.com/article/framasoft-une-amap-du-logiciel-libre',
+       'pages.medias.lArticle']
+    - ['fr', '05/02/2017', 'France 24 / Mashable',
+       'http://mashable.france24.com/tech-business/20170204-chatons-collectif-hebergeurs-framasoft?ref=tw_i',
+       'pages.medias.lArticle']
+    - ['fr', '15/12/2016', 'Next Inpact',
+       'http://www.nextinpact.com/news/102539-degooglisons-internet-framasoft-fait-bilan-son-action.htm',
+       'pages.medias.lArticle']
+    - ['fr', '10/12/2016', 'Le Monde',
+       'http://www.lemonde.fr/pixels/article/2016/12/10/framasoft-des-chatons-armes-de-logiciels-libres-pour-contrer-google_5046752_4408996.html?xtmc=framasoft&xtcr=1',
+       'pages.medias.lArticle']
+    - ['fr', '10/12/2016', 'Le Figaro',
+       'http://www.lefigaro.fr/secteur/high-tech/2016/11/30/32001-20161130ARTFIG00001-les-defenseurs-du-logiciel-libre-decourages-par-l-education-nationale.php',
+       'pages.medias.lArticle']
+    - ['fr', '28/11/2016', 'L’Âge de Faire (n°114)',
+       'http://www.lagedefaire-lejournal.fr/geants-net-coupons-cordon/',
+       'pages.medias.lSummary']
+    - ['fr', '05/11/2016', 'France Culture',
+        'https://www.franceculture.fr/emissions/le-numerique-et-nous/surveillance-sur-le-web-comment-retrouver-le-pouvoir-dagir',
+        'pages.medias.lPodcast']
+    - ['fr', '19/10/2016', 'Korben.info',
+       'http://korben.info/framasoft-complete-arsenal-perforer-gafam.html',
+       'pages.medias.lArticle']
+    - ['fr', '03/10/2016', 'Libération',
+       'http://www.liberation.fr/futurs/2016/10/03/framasoft-accelere-la-degooglisation-du-web_1519262',
+       'pages.medias.lArticle']
+    - ['fr', '10/10/2016', 'France Info',
+       'http://www.francetvinfo.fr/replay-radio/nouveau-monde/nouveau-monde-est-il-possible-de-degoogliser-le-web_1854529.html',
+       'pages.medias.lListen']
+    - ['en', '26/02/2017', 'Konrad Lishka',
+       'https://www.konradlischka.info/2017/02/blog/how-a-french-association-with-6-employees-offers-mainstream-users-free-and-libre-alternatives-to-facebook-groups-slack-skype-and-the-like/',
+       'pages.medias.lArticle']
+    - ['en', '24/08/2016', 'Opensource.com',
+       'https://opensource.com/business/16/8/open-source-alternatives-office-365',
+       'pages.medias.lArticle']
+    - ['en', '17/10/2016', 'Worldcrunch',
+       'http://www.worldcrunch.com/tech-science/the-open-source-group-trying-to-quotde-googlequot-the-internet',
+       'pages.medias.lArticle']
+
+legals:
+  editor:
+    assoNb: 0132007842
+    siretNb: 500 715 776 00026
+    address: 'Association Framasoft<br>Pierre-Yves Gosset<br>
+      c/o Locaux Motiv<br>10 bis, rue Jangot<br>69007 LYON<br>FRANCE'
+    coprezName: Benjamin Jean, Sandra Guigonis, Christelle Thomas, Fredéric Urbain
+
+asso:
+  files: https://soutenir.framasoft.org/sites/default/files/
+
+money:
+  rh: '70'
+  servers: '6'
+  running: '6'
+  interventions: '10'
+  comm: '2'
+  goods: '3'
+  bank: '3'
