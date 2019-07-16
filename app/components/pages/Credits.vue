@@ -1,4 +1,4 @@
-g mariejulien.com/<template>
+<template>
   <div class="container ombre apropos">
     <vue-headful
       :title="`${$root.meta.title} - ${$t('credits.title')}`"
