@@ -254,13 +254,13 @@ why:
   money:
     title: Découvrez où va votre argent
     list:
-    - 'Ressources humaines : @:data.money.rh%'
-    - 'Serveurs et domaines : @:data.money.servers%'
-    - 'Frais de fonctionnement : @:data.money.running%'
-    - 'Interventions et projets ext. : @:data.money.interventions%'
-    - 'Communication : @:data.money.comm%'
-    - 'Achats de marchandise : @:data.money.goods%'
-    - 'Frais bancaires : @:data.money.bank%'
+    - 'Ressources humaines :'
+    - 'Serveurs et domaines :'
+    - 'Frais de fonctionnement :'
+    - 'Interventions et projets ext. :'
+    - 'Communication :'
+    - 'Achats de marchandise :'
+    - 'Frais bancaires :'
   reasons:
     title: 6 bonnes raisons de nous soutenir
     list:

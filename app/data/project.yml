@@ -103,12 +103,3 @@ legals:
 
 asso:
   files: https://soutenir.framasoft.org/sites/default/files/
-
-money:
-  rh: '70'
-  servers: '6'
-  running: '6'
-  interventions: '10'
-  comm: '2'
-  goods: '3'
-  bank: '3'

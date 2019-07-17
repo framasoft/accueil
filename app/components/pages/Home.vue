@@ -41,10 +41,10 @@
             <h3 class="blocLarge" v-html="$t('why.reasons.title')"></h3>
             <div class="panel-group">
               <div
-                v-for="index in Object.keys($t('why.reasons.list'))"
+                v-for="(reason, index) in $t('why.reasons.list')"
                 :key="index"
                 class="panel panel-default"
-                :style="(!(index === 3 && $t('lang') !== 'fr')) ? 'display : none' : ''">
+                :style="(index === 3 && $t('lang') !== 'fr') ? 'display : none' : ''">
                 <div class="panel-heading" role="button" @click="toggleAccordion(index)">
                   <h4 class="panel-title" v-html="$t(`why.reasons.list[${index}]`)"></h4>
                 </div>
@@ -60,12 +60,7 @@
           <div class="money">
             <h3 class="blocLarge" v-html="$t('why.money.title')"></h3>
             <div class="panel panel-default">
-              <img :src="`${$root['/']}img/graphe_depenses_2015.png`" />
-              <ul>
-                <li v-for="index in Object.keys($t('why.money.list'))"
-                  :key="index"
-                  v-html="$t(`why.money.list[${index}]`)"></li>
-              </ul>
+              <Chart />
             </div>
           </div>
 
@@ -699,12 +694,16 @@ import Degooglisons from './home/Degooglisons.vue';
 import Peertube from './home/Peertube.vue';
 import Contributopia from './home/Contributopia.vue';
 
+import Chart from '../partials/Chart.vue';
+
 export default {
   components: {
     Modal,
     Collapse,
     Popover,
     Tooltip,
+
+    Chart,
 
     Intro,
     More,

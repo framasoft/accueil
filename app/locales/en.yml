@@ -249,13 +249,13 @@ why:
   money:
     title: Discover where your money goes
     list:
-    - 'Human resources: @:data.money.rh%'
-    - 'Servers and domain names: @:data.money.servers%'
-    - 'Operating expenses: @:data.money.running%'
-    - 'Interventions and ext. projects: @:data.money.interventions%'
-    - 'Communication: @:data.money.comm%'
-    - 'Purchases: @:data.money.goods%'
-    - 'Bank charges: @:data.money.bank%'
+    - 'Employees:'
+    - 'Servers and domains:'
+    - 'Operating expanses:'
+    - 'Events and meetings:'
+    - 'Communication:'
+    - 'Goods:'
+    - 'Banking fees:'
   reasons:
     title: 6 good reasons to support us
     list:

@@ -254,13 +254,13 @@ why:
   money:
     title: Scopri dove vanno a finire i tuoi soldi
     list:
-    - 'Risorse umane: @:data.money.rh%'
-    - 'Server e nomi di dominio: @:data.money.servers%'
-    - 'Spese di funzionamento: @:data.money.running%'
-    - 'Interventi e progetti esterni: @:data.money.interventions%'
-    - 'Comunicazione: @:data.money.comm%'
-    - 'Acquisti: @:data.money.goods%'
-    - 'Spese bancarie: @:data.money.bank%'
+    - 'Risorse umane:'
+    - 'Server e nomi di dominio:'
+    - 'Spese di funzionamento:'
+    - 'Interventi e progetti esterni:'
+    - 'Comunicazione:'
+    - 'Acquisti:'
+    - 'Spese bancarie:'
   reasons:
     title: 6 buone ragioni per sostenerci
     list:
