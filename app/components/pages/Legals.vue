@@ -41,7 +41,7 @@
         <p>Hetzner Online AG<br>
         Stuttgarter St. 1<br>
         91710 Gunzenhausen<br>
-        Allemagne</p>
+        Germany</p>
         <p>Tél.: +49 – 9831 - 610061</p>
       </div>
 
@@ -79,4 +79,3 @@ export default {
   },
 }
 </script>
-
