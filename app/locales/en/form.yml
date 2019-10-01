@@ -1,0 +1,113 @@
+step1:
+  title: 1. I give for the freedom
+  privilegie: '@:txt.soft favours recurring donations to continue its action
+    in a serene and lasting way.'
+  count: Currently @:txt.soft counts
+  donators: recurrent donators.
+  monthly: Monthly recurring donation
+  oneshot: One-time donation
+  monthly_ex: 'ex: 42'
+  oneshot_ex: 'ex: 133.7'
+  other: Other amount
+  or: OR
+step2:
+  title: 2. I complete my information
+  private: Confidentiality
+  private_tip:
+  - This information is necessary for practical reasons and in order to issue a
+    tax receipt.
+  - 'If you do not want or cannot untax your donation, you can completely '
+  - fill in this form with false informations
+  - ' (warning, do not use Paypal in this case).'
+  - You should also know that you can check whether your donation has been received.
+    in the “<a href="stats">donor list</a>” page.
+  - Of course, your firtname and lastname are anonymized.
+  type: I represent
+  part: an individual
+  corp: a company
+  corp_tip: Company, association, community…
+  mecenat: If you would like to become a partner of @:txt.soft and <a href="@:link.soutenir/@:lang/partenaires">appear
+    on this page</a>, <a href="@:link.contact/#soutenir">contact us</a>.
+  society: Legal entity
+  society_ex: 'ex : Free Software Fondation'
+  society_email_ex: 'ex : contact@fsf.org'
+  lastname: Last name
+  lastname_ex: 'ex: Stallman'
+  firstname: First name
+  firstname_ex: 'ex: Richard'
+  email: E-mail
+  email_ex: 'ex: r.stallman@outlock.com'
+  address1: Address
+  address1_ex: 'ex: 12 rue de la liberté'
+  address2: Addition of address
+  address2_ex: 'ex: Building VI'
+  zip: Postal code
+  zip_ex: 'ex: 69007'
+  city: City
+  city_ex: 'ex: Lyon'
+  country: Country
+  error_empty: This field must be filled in.
+  error_email: You must enter a valid email address.
+step3:
+  title: 3. I access the payment
+  defisc: Information on tax exemption
+  defisc_title: Tax exemption
+  defisc_tip: ' @:txt.soft is a recognized association of general interest.<br>
+    As such, if you are subject to income tax in France, you can deduct 66% of the
+    amount of your donation. Thus, if you have given €10 x 12 months (€120), you
+    will be able to deduct 120x66% (€79,20) from your next return.<br> The tax receipt
+    will be sent to you automatically by e-mail before the declaration.<br> For
+    more detailed information, click here to access our explanation page.'
+  defisc_text:
+  - 'In France, thanks to the tax deduction of '
+  - ', <b>your donation of </b>'
+  - ' will cost you only '
+  - ' monthly'
+  cb: Credit card
+  vir: Transfer
+  chq: Check
+  pp: Paypal
+  i_give: I give
+  monthly: monthly
+  now: now
+  coord: Your personal details are noted.
+  email_send:
+  - An email has just been sent to you at the address
+  - containing a reminder of the instructions below.
+  ok: Ok, I get it.
+  modal_vir:
+    by: by bank transfer
+    no_sepa: ' @:txt.soft does not offer a SEPA form for direct debits, but
+      you can make a donation by bank transfer directly to us.<br> So you decide
+      the sum, the frequency and you can change it at any time.'
+    to_finish: ' To finalize your donation, please note our bank details:'
+    ref: ' Also note this <b>payment reference</b> which must be added to the description
+      of the transfer:'
+    to_bank: ' Then discuss with your bank how to plan the transfer. Some banks
+      can handle this online.'
+  modal_chq:
+    by: by check
+    to_finish: ' To finalize your donation, please complete your cheque to the order
+      of <b>“Association @:txt.soft”</b> and note this <b>payment reference
+      at the back</b>:'
+    to_post: ' Then send your cheque to the head office of the association to this
+      mailing address:'
+ask:
+  title: Questions
+  stop: Recurring donations can be stopped anytime, just <a href="@:link.contact/en/#soutenir">ask
+    us</a>.
+  edit: If you want to modify your recurring donation, please <a href="@:link.contact/en/#soutenir">contact
+    us</a>, we will stop the current one and you will be able to make a new one.
+  send: Tax receipts (in France only) are sent by postal mail in March/April @:year.next
+    (before tax declaration) for @:year.current donations
+  moral: Financial and activity reports can be found on the <a href="@:link.soft/@:lang/association">non-profit
+    page</a>
+  alter1: For <a href="@:link.contact/foire-aux-questions/#dons-alternatifs">practical
+    reasons</a>, we do not accept donations from micro-payment platforms (Lilo,
+    Flattr, Tipeee...) except Liberapay
+  lp: Make a donation via Liberapay
+  alter2: We also do not accept donations in crypto-currency (Bitcoin, Ether, Monero...)
+    but we carefully observe <a href="https://duniter.org/fr/comprendre/">the Ğ1
+    free currency</a>.
+  other: If you have more questions, <a href="@:link.soutenir/@:lang/questions">you
+    may find answers there…</a>…

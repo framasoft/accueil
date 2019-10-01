@@ -1,0 +1,116 @@
+intro:
+  subtitle: Cambiare il mondo<br>un byte alla volta
+  text: '@:txt.soft è una  <strong>organizzazione no-profit per l’educazione
+    popolare</strong> un gruppo di amici convinti che un mondo digitale <strong>emancipatore</strong>
+    è possibile, convinti che nascerà attraverso delle <strong>azioni concrete</strong>
+    nel mondo reale e online con te e per te!'
+  btn: Sostieni i nostri progetti
+more:
+  title: Framasoft è…
+  libre:
+    title: '@:txt.soft, l’annuario della cultura libera'
+    text: '@:txt.soft, il progetto storico: centinaia di software liberi e
+      contenuti culturali classificati e testati, presentati con brevi articoli'
+  book:
+    title: '@:txt.book, la casa editrice'
+    text: Libri liberi condivisi nello stesso modo del software libero. Pubblichiamo
+      manuali, libri tecnici, ma anche racconti e qualche fumetto.
+  blog:
+    title: '@:txt.blog, le notizie dal mondo della cultura libera'
+    text: 'Notizie su @:txt.soft, cultura libera e commons: cronache, rassegne
+      stampa, traduzioni, interviste'
+  confs:
+    title: Conferenze, laboratori
+    text: Più di cento conferenze, workshops e interventi ogni anno
+  footer: '@:txt.soft ha più di  50 progetti. Vai a vederli tutti.'
+  link: Guarda la presentazione completa.
+dio:
+  title: Degoogolizza la tua Internet<br>trovare strumenti di facile utilizzo
+  subtitle: <strong>Le alternative etiche</strong> sono possibili.<br> La dimostrazione
+    con <strong>{count} esempi</strong>.
+  btn: Aiutaci a mantenere questi servizi e a svilupparne di nuovi
+  footer: Puoi trovare l’elenco completo dei nostri servizi, con l’intera documentazione
+    per imparare ad usarli, nel sito <a href="@:link.dio">@:txt.dio</a>
+peertube:
+  title: 'PeerTube: l’alternativa a YouTube, fatta con te e per te'
+  text: Dai un'occhiata alla versione 1.0 di PeerTube che ti permette di creare
+    la <strong>tua</strong> alternativa a YouTube. Questo software è stato sviluppato
+    grazie al tuo contributo. <br> Tutti insieme costruiamo una  piattaforma video
+    che ci assomigli
+  btn: Vai a vedere le caratteristiche principali
+  footer: 'Per saperne di più su PeerTube, scopri com’è organizzato in una  <abbr
+    title="Also known as fediverse, the whole group of federated instances.">federazione</abbr>
+    e capisci come creare una tua <abbr title="Decentralized installation on a server,
+    accessible through a web address.">istanza</abbr>: <a href="https://joinpeertube.org"
+    lang="en">JoinPeertube</a>'
+  modal:
+    title: Caratteristiche principali di PeerTube
+    text: PeerTube è un software completo. Ecco alcune delle sue caratteristiche.
+    features:
+    - Importa da YouTube
+    - Importa file .torrent
+    - Sottotitoli
+    - Ricerca avanzata
+    - Iscrizione per gli utenti
+    - Feed RSS
+mobilizon:
+  title: 'Mobilizon: Uno strumento gratuito e federato per scaricare i nostri eventi da Facebook!'
+  text: Anteprima della versione beta di Mobilizon, che vi permetterà di
+    crea la tua alternativa agli eventi MeetUp e Facebook.
+    Questo software è in fase di sviluppo, grazie ai vostri contributi,
+    e sarà costantemente migliorata fino al rilascio del suo V1 nella prima metà del 2020.
+    Inventiamo insieme la piattaforma video che fa per noi.
+    Raccogliere ⋅ Organizzare ⋅ Mobilitare… in completa libertà!
+  btn: Vai a vedere le caratteristiche principali
+  link: '#framablog'
+  footer: 'Per scoprire il piano di sviluppo del software Mobilizon entro il 2020:
+    Iscriviti a Mobilizon. Per testare le caratteristiche in fase di sviluppo
+    <a href="https://test.mobilizon.org">test.mobilizon.org</a>.'
+cuo:
+  title: Contributopia
+  subtitle: La tabella di marcia di @:txt.soft, <br> verso il secondo anno
+  meet:
+    title: Mobilizon
+    text: 'All’inizio un’alternativa a Meetup o agli eventi Facebook, Mobilizon
+      vuole essere uno strumento per la mobilitazione: per il compleanno di tuo
+      cugino, per un convegno con 300 partecipanti o una dimostrazione di 15000
+      persone.'
+  petitions:
+    title: Frama<br>petitions
+    text: Organizza la sensibilizzazione per una causa che per te è importante.
+      Avvisa le persone. Riunisce le persone interessate ad un'azione comune.
+  mooc:
+    title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
+      lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
+      Neutres et Solidaires">CHATONS</abbr>
+    text: Un percorso educativo completo, pieno di utili risorse, per far crescere
+      la consapevolezza delle sfide della tecnologia digitale e per organizzare
+      la resistenza.
+  peertube:
+    title: PeerTube
+    text: 'PeerTube emancipa la trasmissione di video mescolando insieme la federazione delle società di hosting".
+      e la distribuzione peer-to-peer. Per il 2020 c’è ancora molto da fare:
+      ridisegno grafico, strumenti sociali, live-streaming…'
+  mobilizon:
+    title: Mobilizon
+    text: Mobilizon's v1 è prevista per il 2020. Questa piattaforma federata permetterà di
+      per riunire il tuo gruppo, organizzarlo con i tuoi strumenti
+      e mobilitarlo intorno ai tuoi eventi.
+  cloud:
+    titleo: Frama<br>cloud
+    text: Un account unico per sincronizzare le note, l’agenda, i contatti
+      o i suoi file, per collaborare su di esso, ecc. è una proposta
+      che vogliamo costruire, grazie al software Nextcloud.
+  btn: Dai il tuo contributo per un altro anno di Contributopia
+  footer: 'Tutto questo è solo un esempio di tutte le azioni a cui attualmente stiamo
+    lavorando… Scopri l’intera tabella di marcia: <a href="@:link.cuo">@:txt.cuo</a>!'
+soutenir:
+  title: Sostieni Framasoft
+  text: Framasoft è un'organizzazione no-profit e vive <strong>solo</strong> attraverso
+    le tue donazioni.<br> Ti è piaciuto quello che abbiamo fatto? Pensi che stiamo
+    andando nella giusta direzione? Se è così  ne hai la voglia e i mezzi, ti invitiamo
+    a fare una donazione.
+  why: Perchè sostenere @:txt.soft?
+  money: Dove vanno a finire i tuoi soldi?
+  numbers: '@:txt.soft in qualche cifra'
+  timeline: Cronologia delle azioni

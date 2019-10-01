@@ -1,0 +1,71 @@
+title: Association
+prez:
+  h2: Presentation of @:txt.soft
+  p-intro:
+  - From the educational world and now turned towards popular education, @:html.soft
+    is above all a network of projects, of which the first, <a href="@:link.libre">directory
+    @:link.libre</a>, dates back to 2001.
+  - 'These projects are run by people working together with the same desire: promote
+    digital freedoms.'
+  - Respect for the fundamental freedoms of users, guaranteed by legal contracts
+    (the <a href="@:link.wFreeLicense">free licenses</a>), is at the heart of the
+    librist movement and ensures that the human remains in control of the digital
+    tool.
+  - 'The @:html.soft’s goal is to offer, mainly online, a set of concrete and
+    practical tools to facilitate adoption:'
+  ul-axis:
+  - of free software (directory, USB sticks, installer…);
+  - of free cultural creations (blog, translation, publishing house…);
+  - of free services (more than 30 free services in the project <a href="@:link.dio">@:color.dio</a>).
+  p-gate:
+  - Presented as a "gateway to the Free World", the network @:html.soft wants
+    to position itself as a bridge between the librarian community and the general
+    public.
+  saveas: Right click on the image and “Save image as” to reuse it
+  infography: Infography <em lang="fr">Le monde de @:txt.soft</em> made by
+infos:
+  h2: The @:txt.soft association
+  p-asso:
+  - The network @:html.soft relies on its large community of volunteers but
+    could not exist if it wasn’t supported by an association founded in 2004.
+  - The @:html.soft association is a 1901 non-profit association whose character
+    of general interest authorizes a tax deduction. Which shows its willingness
+    to stay an association on a human scale (less than forty members, less than
+    ten permanent staff)
+  - You will find below some information including our statutes, the rules of procedure
+    and the annual moral reports.
+  statuts: Statutes of the association
+  ri: Internal Regulations
+data:
+  title: Administrative and practical data
+  dt:
+    juridical: Legal form
+    coprez: Co-chair
+    dg: Director and Managing Director
+    registration: Registration of the association
+    staff: Salaried
+    headquarters: Headquarters
+    org: Organization
+    id: Full identification
+    projects: Main projects
+    charte: Charter of the association and its services
+    reports: Moral reports
+    newsletter: Newsletter
+    press: Press and media review
+    graphics: Graphic charter and logos
+    founders: Founders
+  dd:
+    juridical: Association law of 1901, recognized of general interest
+    staff: '@:meta.employees employees'
+    org: Association supporting free and contributing projects
+    id: See the file
+    reportsFinancial: Financial report
+    reportsWriting: activity report in progress
+    reportsResults: Income statement
+    reportsActivities: Activity report
+    reportsMAndF: Moral and financial report
+    newsletter: registration and archives
+    press: Annual table
+    graphics: on this page
+    banners: Banners
+    benevalo: Valued volunteerism

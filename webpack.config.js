@@ -1,10 +1,13 @@
+/* eslint-disable import/newline-after-import */
+/* eslint-disable filenames/match-regex */
+/* eslint-disable import/no-commonjs */
 const webpack = require('webpack');
 const fs = require('fs');
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const PrerenderSPAPlugin = require('prerender-spa-plugin');
-const Renderer = PrerenderSPAPlugin.PuppeteerRenderer;
+const Renderer = require('@prerenderer/renderer-jsdom');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
@@ -17,6 +20,13 @@ for (let i = 0; i < process.argv.length; i += 1) {
     root = `/${process.argv[i].split('=')[1]}/`;
   }
 }
+
+const assets = [];
+fs.readdirSync('./app/assets').forEach((file) => {
+  if (!/scss/.test(file)) {
+    assets.push({ from: path.resolve(__dirname, `./app/assets/${file}`), to: file });
+  }
+});
 
 const config = {
   entry: './app/index.js',
@@ -95,11 +105,7 @@ const config = {
       chunkFilename: process.env.NODE_ENV !== 'production' ? '[id].css' : '[id].[hash].css',
     }),
     new webpack.HotModuleReplacementPlugin(),
-    new CopyWebpackPlugin([
-      { from: path.resolve(__dirname, './app/assets/fonts'), to: 'fonts' },
-      { from: path.resolve(__dirname, './app/assets/icons'), to: 'icons' },
-      { from: path.resolve(__dirname, './app/assets/img'), to: 'img' },
-    ]),
+    new CopyWebpackPlugin(assets),
     new PreloadWebpackPlugin({
       rel: 'preload',
       as(entry) {
@@ -120,16 +126,26 @@ const config = {
     inline: true,
     open: true,
     hot: true,
+    writeToDisk: true,
+    compress: true,
   },
   devtool: 'eval-source-map',
 };
 
 module.exports = config;
 
-const locales = [];
 // Import locales list
+const locales = [];
 fs.readdirSync('./app/locales')
-  .forEach(file => locales.push(file.replace(/(.*)\.yml/, '$1')));
+  .forEach((file) => {
+    if (fs.existsSync(`./app/locales/${file}/_main.yml`)
+      || fs.existsSync(`./app/locales/${file}/main.yml`)) {
+      locales.push(file);
+    }
+  });
+
+// Get last app modified time
+const date = JSON.stringify(fs.statSync('./app').mtime);
 
 if (process.env.NODE_ENV === 'development') {
   module.exports.plugins = (module.exports.plugins || [])
@@ -138,6 +154,7 @@ if (process.env.NODE_ENV === 'development') {
         'process.env': {
           NODE_ENV: '"development"',
           BASE_URL: '""',
+          DATE: date,
         },
       }),
       new HtmlWebpackPlugin({
@@ -180,6 +197,7 @@ if (process.env.NODE_ENV === 'development') {
       'process.env': {
         NODE_ENV: ((process.env.NODE_ENV !== 'production') ? '"preview"' : '"production"'),
         BASE_URL: `"${root.split('/')[1]}"`,
+        DATE: date,
       },
     }),
     new HtmlWebpackPlugin({
@@ -201,8 +219,8 @@ if (process.env.NODE_ENV === 'development') {
         postProcess(renderedRoute) {
           // eslint-disable-next-line no-param-reassign
           renderedRoute.html = renderedRoute.html
-              .replace(/<script (.*?)>/g, `<script $1 defer>`)
-              .replace(`id="app"`, `id="app" data-server-rendered="true"`);
+            .replace(/<script (.*?)>/g, '<script $1 defer>')
+            .replace('id="app"', 'id="app" data-server-rendered="true"');
 
           return renderedRoute;
         },

@@ -1,0 +1,113 @@
+intro:
+  subtitle: Change the world<br>one byte at a time
+  text: '@:txt.soft is a non-profit <strong>popular educational organization</strong>,
+    a group of friends convinced that an <strong>emancipatory</strong> digital world
+    is possible, convinced that it will arise through <strong>actual actions</strong>
+    on real world and online with and for you!'
+  btn: Support our actions
+more:
+  title: Framasoft is…
+  libre:
+    title: '@:txt.libre, the free culture directory'
+    text: '@:txt.soft historical project: hundreds of free softwares and cultural
+      contents organized and tested, displayed with short notices'
+  book:
+    title: '@:txt.book, the publishing house'
+    text: Free books share the same freedom as free software. We publish manuals,
+      technical books, but also novels and even comics
+  blog:
+    title: '@:txt.blog, the news about free culture'
+    text: 'News about @:txt.soft, free culture and commons : chronicles, press
+      reviews, translations, interviews'
+  confs:
+    title: Conferences, workshops
+    text: More than one hundred conferences, workshops and interventions per year
+  footer: '@:txt.soft has more than 50 projects. Check all of them.'
+  link: See the full presentation.
+dio:
+  title: Degooglize your Internet<br>find user-friendly tools
+  subtitle: <strong>Ethical alternatives</strong> are possible.<br> Demonstration
+    with <strong>{count} examples</strong>.
+  btn: Help us maintain these services and help us to develop new ones
+  footer: The complete list of our services, with the whole documentation to master
+    them, can be found on the <a href=@:link.dio/en>@:txt.dio</a> website
+peertube:
+  title: 'PeerTube : the alternative to YouTube, made with you and for you'
+  text: Have a look to 1.0 version of PeerTube, which lets you to create <strong>your</strong>
+    own alternative to YouTube. This software has been developped thanks to your
+    contriibutions.<br> All together, let’s build a smilar to us video platform
+  btn: Browse the main features
+  footer: 'To learn about the PeerTube software, discover how it’s organized into
+    a <abbr title="Also known as fediverse, the whole group of federated instances.">federation</abbr>
+    and understand how to create your own <abbr title="Decentralized installation
+    on a server, accessible through a web address.">instance</abbr>: <a href="https://joinpeertube.org/en"
+    lang="en">JoinPeertube</a>'
+  modal:
+    title: Main features of PeerTube
+    text: PeerTube is a fully featured software. Here is some of its abilities.
+    features:
+    - Import from YouTube
+    - Import .torrent files
+    - Subtitles
+    - Advanced search
+    - Subscription for users
+    - RSS feeds
+mobilizon:
+  title: 'Mobilizon: A free and federated tool to get our events off Facebook!'
+  text: Preview the beta version of Mobilizon, which will allow you to
+    create your alternative to MeetUp and Facebook events.
+    This software is under development, thanks to your contributions,
+    and will be constantly improved until the release of its V1 in the first half of 2020.
+    Together, let’s invent the video platform that suits us.
+    Gather ⋅ Organize ⋅ Mobilize… in complete freedom!
+  btn: Browse the main features
+  link: '#framablog'
+  footer: 'To discover the development plan for Mobilizon software by 2020:
+    JoinMobilizon. To test the features under development
+    <a href="https://test.mobilizon.org">test.mobilizon.org</a>'
+cuo:
+  title: Contributopia
+  subtitle: the @:txt.soft roadmap,<br>let’s go for year 2
+  meet:
+    title: Mobilizon
+    text: 'At the beginning an alternative to Meetup or Facebook events, Mobilizon
+      aims to be a mobilization tool : for your cousin’s birthday, a 300 attendants
+      symposium or a 15,000 people demonstration.'
+  petitions:
+    title: Frama<br>petitions
+    text: Organize the awareness to an important cause for you. Alert the people.
+      Group people interested in a common action.
+  mooc:
+    title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
+      lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
+      Neutres et Solidaires">CHATONS</abbr>
+    text: A complete educational path, full of useful resources, to raise awareness
+      of the challenges of digital technology and organize resistance.
+  peertube:
+    title: PeerTube
+    text: 'PeerTube emancipates the broadcasting of videos by mixing together the federation of hosting companies
+      and peer-to-peer distribution. For 2020, there is still much to be done:
+      graphic redesign, social tools, live-streaming…'
+  mobilizon:
+    title: Mobilizon
+    text: Mobilizon's v1 is scheduled for 2020. This federated platform will allow
+      to gather your group, organize it with your tools
+      and mobilize it around your events.
+  cloud:
+    title: Frama<br>cloud
+    text: A unique account to synchronize your notes, calendar, contacts
+      or its files, to collaborate on it, etc. it's a proposal
+      that we want to build, thanks to Nextcloud software.
+  btn: Contribute to another year of Contributopia
+  footer: 'All this is just a sample of all the actions we are currently working
+    on… Discover the whole roadmap: <a href="@:link.cuo/en">@:txt.cuo</a>!'
+soutenir:
+  title: Support Framasoft
+  text: Framasoft is a non-profit which can <strong>only</strong> keep running thanks
+    to your donations. Do you like what we do? Do you think we’re going in the right
+    direction? If so, and you’re able to make a donation, we’d very much appreciate
+    it!
+  why: Why support @:txt.soft?
+  money: Where is your money going to?
+  numbers: '@:txt.soft in a few numbers'
+  timeline: Actions timeline

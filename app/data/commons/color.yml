@@ -21,7 +21,7 @@ drive: <b class="violet">Frama</b><b class="vert" lang="en">drive</b>
 drop: <b class="violet">Frama</b><b class="vert">drop</b>
 dvd: <b class="violet">Frama</b><b class="bleu"><abbr>dvd</abbr></b>
 forms: <b class="violet">Frama</b><b class="vert">forms</b>
-games: <b class="violet">Frama</b><b class="vert" lang="en">games</b>
+games: <b class="violet">Frama</b><b class="rouge" lang="en">games</b>
 git: <b class="violet">Frama</b><b class="vert" lang="en">git</b>
 key: <b class="violet">Frama</b><b class="bleu" lang="en">key</b>
 lab: <b class="violet">Frama</b><b class="jaune">lab</b>
@@ -32,7 +32,7 @@ listes: <b class="violet">Frama</b><b class="vert" lang="fr">listes</b>
 maestro: <b class="violet">Fra</b><b class="vert" lang="it">maestro</b>
 memo: <b class="violet">Fra</b><b class="vert" lang="fr">memo</b>
 mindmap: <b class="violet">Fra</b><b class="vert" lang="en">mindmap</b>
-minetest: <b class="violet">Fra</b><b class="vert" lang="en">minetest</b>
+minetest: <b class="violet">Fra</b><b class="rouge" lang="en">minetest</b>
 my: <b class="violet" lang="en">My</b><b class="vert">Frama</b>
 news: <b class="violet">Frama</b><b class="vert" lang="en">news</b>
 notes: <b class="violet">Frama</b><b class="vert">notes</b>

@@ -1,0 +1,47 @@
+lite: Accesso rapido
+full: Home classica
+meta:
+  title: '@:txt.soft ~ Cambiare il mondo un byte alla volta'
+  lead: La strada è lunga, ma la via è libera…
+  description: 'Associazione no-profit francese (Association française de loi 1901),
+    nata come progetto educativo: @:txt.soft è una rete rivolta all’educazione
+    popolare, incentrata principalmente sul software libero e open source. La rete
+    è organizzata su un modello collaborativo incentrato su 3 tematiche principali:
+    promozione, diffusione e sviluppo del software libero, rafforzamento della cultura
+    libera. Forniamo anche servizi gratuiti online. La home page del portale introduce
+    all’intera gamma di azioni @:txt.soft e fornisce collegamenti ai vari siti
+    e progetti della rete.'
+  keywords: '@:txt.soft, software libero, gratuito e open source, cultura libera,
+    FOSS, FLOSS, promozione e diffusione di software libero, open source'
+  license: '@:license.ccbysa4 ad eccezione di casi diversamente notificati'
+nav:
+  lite: Quick access
+  full: Classic home
+  parts:
+    logiciel:
+      key: Sezione programmi
+      title: alla sezione programmi
+    culture:
+      key: Sezione cultura
+      title: alla sezione cultura
+    cloud:
+      key: Sezione cloud
+      title: alla sezione cloud
+    vrac:
+      key: Sezione materiale gratuito
+      title: Vai alla sezione materiale gratuito
+link:
+  partenaires: '@:link.soutenir/en/partenaires'
+  wFreeSoftware: https://it.wikipedia.org/wiki/Software_libero
+  wSourceCode: https://it.wikipedia.org/wiki/Codice_sorgente
+  wFreeLicense: https://it.wikipedia.org/wiki/Licenza_libera
+  wFreeCulture: https://it.wikipedia.org/wiki/Cultura_libera_(libro)
+  wCommons: https://it.wikipedia.org/wiki/Bene_comune
+  wOSM: https://it.wikipedia.org/wiki/OpenStreetMap
+  garden: '@:link.cloud/fr/cultiver-son-jardin'
+search:
+  btn: Cerca
+  frama: sui siti di @:txt.soft
+  web: sul web
+graphics:
+  title: Layout grafico

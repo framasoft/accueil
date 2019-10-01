@@ -1,0 +1,31 @@
+title: Crediti
+main:
+  p-intro:
+  - 'Questo sito utilizza elementi liberi comuni all’intera rete @:txt.soft:'
+  - Alcuni elementi vengono distribuiti tramite lo script che aggiunge la barra
+    di navigazione e il piè di pagina del sito. <br> Il codice sorgente può essere
+    trovato <a href="https://framagit.org/framasoft/framanav"> sul nostro repository
+    Gitlab </a>
+  - ' <a href="../graphics"> Layout grafico </a>:'
+  ul-tools:
+  - 'la libreria <a href="https://jquery.com/">jQuery</a> e il framework gratuito
+    <a href="https://getbootstrap.com">Bootstrap</a> '
+  - o il framework gratuito <a href="https://vuejs.org">VueJS</a> e molto dipendenze
+  - i font <a href="https://www.paratype.com/public/">PTSans</a> (titles), <a href="http://dejavu-fonts.org/wiki/Main_Page">Deja
+    Vu Sans</a> e <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a>
+    (icone)
+  - lo strumento di misurazione statistica <a href="https://www.matomo.org/">Matomo</a>
+  h2-license: Licenza
+  p-license:
+  - Quando non diversamente espresso, il contenuto dei siti è sottoposto a licenza
+    libera @:license.ccbysa4fr
+  - la nostra <a href="../charte">carta</a>, i <a href="../cgu">Termini d'uso </a>
+    dei nostri servizi, le <a href="../legals">menzioni legali</a> e tutti i <a
+    href="../association"> documenti amministrativi dell'associazione</a> sotto
+    sottoposti a questa licenza.
+  - I pinguini che camminano in giro per il sito provengono da <a href="https://www.le-terrier.net/pingouin/pingouin.html">@:people.lldemars</a>
+    e sono sottoposti a licenza @:license.lal.<br> I fumetti disegnati da <a
+    href="http://ptilouk.net">@:people.gee</a> sono sotto licenza @:license.ccbysa2fr.
+  - Il logo è opera di @:people.jo sotto licenza @:license.ccbysa4fr.<br>
+    È ispirato alla mascotte creata inizialmente da @:people.lldemars.<br>
+    (@:txt.soft è autorizzata ad utilizzare il logo senza dover citare l'autore).

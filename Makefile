@@ -1,15 +1,14 @@
 backup-locales:
-	cp app/locales/*.yml zanata/backup/
+	cp -r app/locales/* zanata/backup/
 
 restore-locales:
-	cp zanata/backup/*.yml app/locales/
+	cp -r zanata/backup/* app/locales/
 
 prepare-locales:
 	rm -f zanata/yml/*.yml zanata/po/*.po zanata/po/*.pot zanata/po/*.err
 
-clean-locales: backup-locales prepare-locales
-	zanata/scripts/selfyml2po.sh
-	zanata/scripts/selfpo2yml.sh
+clean-locales:
+	zanata/scripts/cleanyml.sh
 
 po:
 	zanata/scripts/yml2po.sh
