@@ -1,0 +1,116 @@
+intro:
+  subtitle: Changer le monde,<br>un octet à la fois
+  text: '@:txt.soft, c’est une association d’<strong>éducation populaire</strong>,
+    un groupe d’<span aria-label="amies">ami·es</span> <span aria-label="convaincues">convaincu·es</span>
+    qu’un monde numérique <strong>émancipateur</strong> est possible, <span aria-label="persuadées">persuadé·es</span>
+    qu’il adviendra grâce à des <strong>actions concrètes</strong> sur le terrain
+    et en ligne avec vous et pour vous !'
+  btn: Soutenez nos actions
+more:
+  title: Framasoft c’est…
+  libre:
+    title: '@:txt.libre, l’annuaire du Libre'
+    text: 'Le projet historique de Framasoft : des centaines de logiciels et de
+      contenus culturels libres, classés, testés et présentés dans des fiches synthétiques.'
+  book:
+    title: '@:txt.book, la maison d’édition'
+    text: Les livres libres offrent la même liberté que les logiciels libres. Nous
+      publions des manuels, des livres techniques, mais aussi des romans et même
+      des bandes dessinées.
+  blog:
+    title: '@:txt.blog, l’actualité du Libre'
+    text: 'L’actualité de Framasoft, de la culture libre et des communs : des chroniques,
+      une revue de presse, des traductions, des interviews.'
+  confs:
+    title: Des conférences, des ateliers
+    text: Plus d’une centaine de conférences, ateliers et interventions par an.
+      Dans toute la francophonie, essentiellement à destination du grand public.
+  footer: Framasoft, c’est près d’une cinquantaine de projets.
+  link: Voir la présentation complète.
+dio:
+  title: Dégooglisez votre Internet<br>trouvez des outils conviviaux
+  subtitle: Des <strong>alternatives éthiques</strong> sont possibles.<br> Démonstration
+    en <strong>{count} exemples</strong>.
+  btn: Soutenir l’existence de ces services et aider à en développer de nouveaux
+  footer: L’ensemble de nos services, avec la documentation pour les maîtriser,
+    se trouve sur le site <a href=@:link.dio>@:txt.dio</a>
+peertube:
+  title: 'PeerTube : l’alternative à YouTube qui se fait avec et grâce à vous'
+  text: Découvrez la version 1 de PeerTube, qui vous permet de créer <strong>votre</strong>
+    alternative à YouTube. Ce logiciel a été développé grâce à vos contributions.<br>
+    Ensemble, inventons la plateforme vidéo qui nous ressemble.
+  btn: Parcourir les principales fonctionnalités
+  footer: 'Pour en savoir plus sur le logiciel PeerTube, découvrir comment il s’organise
+    en <abbr title="Appelée aussi fédivers, c’est l’ensemble des instances fédérées.">fédération</abbr>
+    et comprendre la façon de créer son <abbr title="Installation décentralisée
+    sur un serveur, accessible grâce à une adresse Web spécifique.">instance</abbr> :
+    <a href="https://joinpeertube.org" lang="en">JoinPeertube</a>'
+  modal:
+    title: Principales fonctionnalités de PeerTube
+    text: PeerTube est un logiciel complet, dont voici quelques possibilités.
+    features:
+    - Import depuis Youtube
+    - Import de fichiers .torrent
+    - Sous-titres
+    - Recherche avancée
+    - Abonnement des utilisateurs
+    - Flux RSS
+mobilizon:
+  title: 'Mobilizon : Un outil libre et fédéré pour sortir nos événements de Facebook !'
+  text: Découvrez en avant-première la version betâ de Mobilizon, qui vous permettra de
+    créer votre alternative à MeetUp et aux événements Facebook.
+    Ce logiciel aest en cours de développement, grâce à vos contributions,
+    et sera constamment amélioré jusqu'à la sortie de sa V1 au premier semestre 2020.
+    Ensemble, inventons la plateforme vidéo qui nous ressemble.
+    Rassembler ⋅ Organiser ⋅ Mobiliser... en toutes libertés !
+  btn: Parcourir les principales fonctionnalités
+  link: '#framablog'
+  footer: 'Pour découvrir le plan de développement du logiciel Mobilizon d’ici 2020 :
+    JoinMobilizon. Pour tester les fonctionnalités en cours de développement
+    <a href="https://test.mobilizon.org">test.mobilizon.org</a>'
+cuo:
+  title: Contributopia
+  subtitle: La feuille de route de Framasoft, <br>c’est parti pour l’an 2
+  meet:
+    title: Mobilizon
+    text: 'Au départ une alternative à Meetup ou aux événements Facebook, Mobilizon
+      se veut un outil de mobilisation : pour l’anniversaire surprise de votre cousine,
+      un colloque de 300 <span aria-label="invités">invité⋅es</span> ou une manifestation
+      de 15 000 personnes.'
+  petitions:
+    title: Frama<br>pétitions
+    text: Organiser la sensibilisation à une cause qui vous tient à cœur. Alerter
+      l’opinion. Regrouper les personnes qui veulent mener une action commune.
+  mooc:
+    title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
+      lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
+      Neutres et Solidaires">CHATONS</abbr>
+    text: Un parcours pédagogique complet, débordant de ressources utiles, pour
+      sensibiliser aux enjeux du numérique et organiser la résistance.
+  peertube:
+    title: PeerTube
+    text: 'PeerTube émancipe la diffusion de vidéos en mêlant fédération des hébergements
+      et diffusion en pair-à-pair. Pour 2020, il reste beaucoup à faire :
+      refonte graphique, outils sociaux, live-streaming…'
+  mobilizon:
+    title: Mobilizon
+    text: La v1 de Mobilizon est prévue pour 2020. Cette plateforme fédérée permettra
+      de rassembler votre groupe, l'organiser avec vos outils
+      et le mobiliser autour de vos événements.
+  cloud:
+    title: Frama<br>cloud
+    text: Un compte unique pour synchroniser ses notes, son agenda, ses contacts
+      ou ses fichiers, pour collaborer dessus, etc. c’est une proposition
+      que nous voulons construire, grâce au logiciel Nextcloud.
+  btn: Contribuez à une nouvelle année de Contributopia
+  footer: 'Ceci n’est qu’un échantillon de l’ensemble des actions que nous menons
+    actuellement… Découvrez l’intégralité de notre feuille de route : <a href="@:link.cuo">@:txt.cuo</a> !'
+soutenir:
+  title: Soutenir Framasoft
+  text: L’association Framasoft ne vit <strong>que</strong> de vos dons.<br> Ce
+    qu’on a fait vous a plu ? Vous pensez que nous allons dans le bon sens ? Alors,
+    si vous en avez l’envie et les moyens, nous vous invitons à faire un don.
+  why: Pourquoi soutenir Framasoft ?
+  money: Où va votre argent ?
+  numbers: Framasoft en quelques chiffres
+  timeline: Historique des actions

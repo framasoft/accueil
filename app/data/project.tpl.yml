@@ -1,7 +1,16 @@
+# NB: The content of this file overwrites what is defined in commons/*.yml
+# For example,
+#   link:
+#     soft: https://frama.pink
+#
+# will overwrites the value above in commons/link.yml
+#   soft: https://framasoft.org
+
 meta:
   title: Framasoft
   author: Framasoft
   canonical: https://framasoft.org
+  description: Description is neededed for search engines, Twitter card and OpenGraph
 #  i18n: http://trad.framasoft.org/iteration/view/<project_name>/master
 
 txt:

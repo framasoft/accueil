@@ -6,8 +6,6 @@ import checkView from 'vue-check-view';
 
 import App from './App.vue';
 
-import './assets/scss/bootstrap.scss';
-import '../node_modules/fork-awesome/css/fork-awesome.css';
 import './assets/scss/main.scss';
 
 import text from './plugins/text';
@@ -26,16 +24,24 @@ Vue.use(cookie);
 Vue.use(merge);
 
 const defaultLocale = 'fr';
-const locales = [];
+const locales = {};
 const pages = [];
 const commons = [];
-const dataLocales = [];
 
 // Import locales list
-let req = require.context('./locales/', false, /\.yml$/);
+// in locales/[lg]/[file].yml
+let req = require.context('./locales/', true, /\.\/.*\/.*\.yml$/);
 req.keys().forEach((key) => {
-  locales.push(key.replace(/\.\/(.*)\.yml/, '$1'));
+  const lg = key.split('/')[1];
+  const file = key.split('/')[2].replace(/\.yml/, '');
+  if (locales[lg] === undefined) {
+    locales[lg] = [];
+  }
+  if (!locales[lg].includes(file)) {
+    locales[lg].push(file);
+  }
 });
+
 // Import pages list
 req = require.context('./components/pages', false, /\.vue$/);
 req.keys().forEach((key) => {
@@ -45,11 +51,6 @@ req.keys().forEach((key) => {
 req = require.context('./data/commons/', false, /\.yml$/);
 req.keys().forEach((key) => {
   commons.push(key.replace(/\.\/(.*)\.yml/, '$1'));
-});
-// Import dataLocales list
-req = require.context('./data/locales/', false, /\.yml$/);
-req.keys().forEach((key) => {
-  dataLocales.push(key.replace(/\.\/(.*)\.yml/, '$1'));
 });
 
 const lang = window.location.href
@@ -63,18 +64,20 @@ let defaultRouteLang = '';
 
 const messages = {};
 const numberFormats = {};
-messages.locales = require('./data/lang.yml'); // eslint-disable-line
-messages.locales.available = Object.keys(messages.locales).filter(n => locales.indexOf(n) > -1);
+messages.locales = require('./locales/lang.yml'); // eslint-disable-line
+messages.locales.available = Object
+  .keys(messages.locales)
+  .filter(n => Object.keys(locales).includes(n) && locales[n].includes('_main'));
 
 // Data import
-const data = {};
+let data = {};
 let project = {};
 const scripts = document.getElementsByTagName('script');
 for (let i = 0; i < commons.length; i += 1) {
   data[commons[i]] = require(`./data/commons/${commons[i]}.yml`); // eslint-disable-line
 }
 project = require('./data/project.yml'); // eslint-disable-line
-Object.assign(data, project);
+data = merge.$(data, project);
 
 Object.assign(data, {
   host: window.location.host,
@@ -82,17 +85,16 @@ Object.assign(data, {
   '/': `/${process.env.BASE_URL.replace(/(.+)/, '$1/')}`,
   inframe: window.top.location !== window.self.document.location,
   hash: window.location.hash.replace('#', ''),
-  browser: {
-    agent: navigator.userAgent,
-    opera: !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0,
-    firefox: typeof InstallTrigger !== 'undefined',
-    safari: Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0,
-    chrome: !!window.chrome && !(!!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0),
-    ie: /*@cc_on!@*/false || !!document.documentMode, // eslint-disable-line
-  },
+  date: process.env.DATE,
 });
 data.self = new URL(scripts[scripts.length - 1].src, data.url).href;
-data.baseurl = `${data.self.split('/').slice(0, -1).join('/')}/`;
+if (process.env.NODE_ENV === 'production'
+  && data.meta.canonical !== undefined
+  && /^http/.test(data.meta.canonical)) {
+  data.baseurl = data.meta.canonical;
+} else {
+  data.baseurl = `${data.self.split('/').slice(0, -1).join('/')}/`;
+}
 
 data.txt = data.txt || {};
 data.html = data.html || {};
@@ -118,50 +120,75 @@ data.year = {
 };
 
 const routes = [];
-for (let i = 0; i < locales.length; i += 1) {
-  messages[locales[i]] = {};
-  numberFormats[locales[i]] = {};
-  // Locales import
+let msg = {};
+// Import locales
+Object.keys(locales).forEach((k) => {
   /* eslint-disable */
-  messages[locales[i]] = require(`./locales/${locales[i]}.yml`);
-  messages[locales[i]].data = data;
-  messages[locales[i]].lang = locales[i];
-  numberFormats[locales[i]].eur = {
+  messages[k] = {};
+  numberFormats[k] = {};
+  msg = {
+    tmp: {},
+    commons: {},
+    main: {},
+    files: {},
+  };
+
+  // Import data
+  Object.keys(data).forEach((j) => {
+    msg.tmp[j] = merge.$(msg.tmp[j], data[j]);
+  });
+  messages[k].data = data; // Keep a copy (depreciated)
+
+  // Init with locales/lg/_commons.yml
+  if (locales[k].includes('_commons')) {
+    msg.commons = require(`./locales/${k}/_commons.yml`);
+    msg.tmp = merge.$(msg.tmp, msg.commons);
+  }
+
+  messages[k].lang = k;
+  numberFormats[k].eur = {
     style: 'currency',
     currency: 'EUR',
     maximumFractionDigits: 0,
     minimumFractionDigits: 0,
   };
 
-  if (dataLocales.includes(locales[i])) {
-    const dataLocale = require(`./data/locales/${locales[i]}.yml`);
-    Object.keys(dataLocale).forEach((k) => {
-      if (messages[locales[i]][k] === undefined) {
-        messages[locales[i]][k] = dataLocale[k];
-      } else {
-        Object.assign(messages[locales[i]][k], dataLocale[k]);
-      }
-    });
+  // locales/lg/_main.yml (active and visible)
+  // or locales/lg/_main.yml (active and hidden)
+  const mainFile = locales[k].filter(filename => /^_?main/.test(filename));
+  if (mainFile.length > 0) {
+    msg.main = require(`./locales/${k}/${mainFile[0]}.yml`);
+    msg.tmp = merge.$(msg.tmp, msg.main);
   }
+
+  // locales/lg/*.yml
+  for (let i = 0; i < locales[k].length; i += 1) {
+    const file = locales[k][i];
+    if (!/main|_commons/.test(file)) {
+      msg.files[file] = require(`./locales/${k}/${file}.yml`);
+      msg.tmp[file] = {};
+      msg.tmp[file] = merge.$(msg.tmp[file], msg.files[file]);
+    }
+  }
+  messages[k] = merge.$(messages[k], msg.tmp);
   /* eslint-enable */
 
   // Localized routes
   for (let j = 0; j < pages.length; j += 1) {
     const component = require(`./components/pages/${pages[j]}.vue`); // eslint-disable-line
     routes.push({
-      path: `/${locales[i]}${pages[j].toLowerCase().replace(/^/, '/').replace('/home', '')}`,
+      path: `/${k}${pages[j].toLowerCase().replace(/^/, '/').replace('/home', '')}`,
       component: component.default,
-      meta: { id: pages[j].toLowerCase(), lang: locales[i] },
+      meta: { id: pages[j].toLowerCase(), lang: k },
     });
   }
-}
+});
 
 // define defaultRouteLang
 for (let j = 0; j < userLang.length; j += 1) { // check if user locales
-  for (let i = 0; i < locales.length; i += 1) { // matches with app locales
-    if (defaultRouteLang === '' && userLang[j].substring(0, 2).toLowerCase() === locales[i]) {
-      defaultRouteLang = locales[i];
-    }
+  const lg = userLang[j].substring(0, 2).toLowerCase();
+  if (defaultRouteLang === '' && Object.keys(locales).includes(lg)) { // matches with app locales
+    defaultRouteLang = lg;
   }
 }
 

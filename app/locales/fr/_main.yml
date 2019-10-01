@@ -1,0 +1,46 @@
+lite: Accès rapide
+full: Accès classique
+meta:
+  title: '@:txt.soft - Changer le monde, un octet à la fois.'
+  lead: La route est longue mais la voie est libre…
+  description: 'Association française de loi 1901, issue du monde éducatif, @:txt.soft
+    est un réseau d’éducation populaire consacré principalement au logiciel libre.
+    Le réseau s’organise en trois axes sur un mode collaboratif: promotion, diffusion
+    et développement de logiciels libres, enrichissement de la culture libre. Il offre
+    également des services libres en ligne. La page portail du réseau présente l’ensemble
+    des activités de @:txt.soft et propose des liens vers les différents sites
+    et activités du réseau.'
+  keywords: '@:txt.soft, logiciels libres, logiciels libres et open source, culture
+    libre, FOSS, promotion et diffusion des logiciels libres, open source'
+  license: '@:license.ccbysa4 sauf mention contraire'
+nav:
+  lite: Accès rapide
+  full: Accueil classique
+  parts:
+    logiciel:
+      key: Rubrique logiciels
+      title: vers la rubrique logiciels
+    culture:
+      key: Rubrique culture
+      title: vers la rubrique culture
+    cloud:
+      key: Rubrique cloud
+      title: vers la rubrique cloud
+    vrac:
+      key: Rubrique libr’en vrac
+      title: vers la rubrique libr’en vrac
+link:
+  partenaires: '@:link.soutenir/fr/partenaires'
+  wFreeSoftware: https://fr.wikipedia.org/wiki/Logiciel_libre
+  wSourceCode: https://fr.wikipedia.org/wiki/Code_source
+  wFreeLicense: https://fr.wikipedia.org/wiki/Licence_libre
+  wFreeCulture: https://fr.wikipedia.org/wiki/Culture_libre
+  wCommons: https://fr.wikipedia.org/wiki/Bien_commun
+  wOSM: https://fr.wikipedia.org/wiki/Openstreetmap
+  garden: '@:link.cloud/fr/cultiver-son-jardin'
+search:
+  btn: Rechercher
+  frama: sur les sites de @:txt.soft
+  web: sur le web
+graphics:
+  title: Charte graphique

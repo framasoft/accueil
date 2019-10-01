@@ -1,0 +1,103 @@
+accroche:
+- Un réseau dédié à la promotion du « <i>libre</i> » en général et du <i>logiciel
+  libre</i> en particulier.
+- De nombreux services et projets innovants mis librement à disposition du grand
+  public.
+- Une <a href="#topPgCommunaute">communauté</a> de bénévoles soutenue par une association
+  d’intérêt général.
+- Une invitation à bâtir ensemble un monde de partage et de coopération.
+news: Quoi de neuf sur @:txt.soft ?
+medias:
+  title: Revue de presse
+  intro: On parle de @:txt.soft et de la campagne « @:txt.dio ». Voici quelques
+    extraits de notre <a href="@:link.press">revue de presse</a>.
+  th1: Date
+  th2: Média
+  th3: Liens
+  lArticle: Lien vers l’article
+  lPaywall: Lien vers l’article (abonnés)
+  lSummary: Lien vers le sommaire du numéro
+  lPodcast: Lien vers le podcast
+  lListen: Lien vers la page d’écoute
+communaute:
+  title: Une communauté
+  desc: Un joyeux bazar
+  text: Qui se cache derrière @:txt.soft ? Tous ceux qui ont participé ou participent
+    de près ou de loin à nos différents projets. Il suffit de vouloir promouvoir
+    le Libre et de placer sa participation sous licence libre, garantissant qu’elle
+    sera mise dans le pot des biens communs sans risque d’appropriation.
+asso:
+  title: Une association
+  desc: Un peu de cathédrale
+  text: '@:txt.soft repose sur une association 1901 d’intérêt général. À charge
+    pour elle de mettre de l’huile dans les rouages et de s’assurer que la communauté
+    puisse s’activer dans les meilleures conditions. Elle compte @:meta.employees
+    permanents et est financée principalement par les dons individuels collectés
+    sur Internet. Vous pouvez en être vous aussi, mais attention ça tient plus du
+    sacerdoce que de la sinécure !'
+participer:
+  title: Participer ?
+  desc: Il y a mille et une façons de participer avec nous à diffuser le Libre au
+    sein de nos nombreux projets.
+  text: Tester, rédiger, modérer, administrer, traduire, relire, relayer, coder,
+    communiquer, promouvoir, sensibiliser… N’hésitez pas à <a href="@:link.participer">mettre
+    la main à la pâte</a> avec nous ! Et merci d’avance…
+soutenir:
+  title: Nous soutenir ?
+  desc: Parce que libre ne signifie pas gratuit
+  text: '@:txt.soft ne serait rien sans sa communauté de bénévoles mais ne
+    pourrait pas fonctionner non plus sans le service de l’association qui a des
+    frais et emploie @:meta.employees indispensables permanents. Notre financement
+    dépend de vous, c’est-à-dire des dons individuels collectés sur Internet. <a
+    href="@:link.soutenir">Si vous pensez que nous le méritons…</a>'
+partenaires:
+  title: Nos partenaires
+  desc: '@:txt.soft est avant tout une communauté d’utilisateurs. Cependant,
+    son fonctionnement est clairement celui d’un réseau, non seulement de projets,
+    mais aussi de partenaires.<br> Ainsi, @:txt.soft bénéficie du soutien de
+    nombreuses organisations (publiques, commerciales, associatives) qui permettent
+    aux projets de croître et de se développer. <a href="@:link.partenaires">Liste
+    de tous nos partenaires</a>'
+logiciel:
+  title: Logiciel Libre ?
+  desc: 'Un <a href="@:link.wFreeSoftware">logiciel libre</a> est un logiciel qui
+    offre et garantit les quatre libertés suivantes : utilisation, étude, modification
+    et duplication en vue de sa diffusion (gratuite ou pas).'
+  text1: Ceci est permis techniquement grâce à l’accès au <a href="@:link.wSourceCode">code</a>
+    et légalement grâce à la <a href="@:link.wFreeLicense">licence libre</a> qui
+    l’accompagne. Ces <i>quatre libertés</i> favorisent la transparence, la confiance,
+    l’échange, le partage et la collaboration au sein de communautés.
+  text2: '@:txt.soft vous propose un annuaire, des clés USB et DVD et un installateur
+    Windows pour les découvrir et les utiliser régulièrement.'
+culture:
+  title: Culture Libre ?
+  desc: Facilitée par Internet et la numérisation, la « <a href="@:link.wFreeCulture">culture
+    libre</a> » est une culture en mouvement qui s’inspire directement du logiciel
+    libre dans sa philosophie et ses licences pour promouvoir et diffuser des œuvres
+    de l’esprit.
+  text1: Elle explore des domaines aussi variés que les arts, l’éducation, les sciences,
+    le matériel… Ces œuvres peuvent alors être considérées comme des <a href="@:link.wCommons">biens
+    communs</a>. L’exemple le plus emblématique est l’encyclopédie libre Wikipédia.
+  text2: Dans ce cadre, @:txt.soft vous propose un blog, une maison d’édition,
+    une plateforme vidéo, un site dédié à la musique libre ainsi qu’un service original
+    de traduction collaborative.
+  quote: « Parce que ce serait l’une des plus grandes opportunités manquées de notre
+    époque si le logiciel libre ne libérait rien d’autre que du code. »
+cloud:
+  title: Services Libres ?
+  desc: 'Nom de code : « @:txt.cloud »'
+  text1: Intuitif, sans inscription et à même votre navigateur, un ensemble de services
+    en ligne libres et respectueux de vos données personnelles. Ces services vous
+    sont proposés dans le cadre de notre campagne <a href="@:link.dio">« @:color.dio »</a>
+  text2: Vous pouvez aussi les installer sur votre propre serveur, participant ainsi
+    à décentraliser l’Internet. Des tutoriels sont là pour vous aider à franchir
+    le pas dans la rubrique <a href="@:link.garden">Cultiver son jardin</a>.
+vrac:
+  title: Les projets transversaux
+  desc: Espaces d’échanges, d’achats, de développements…
+  text: Nous regroupons ici tout ce qui touche à l’ensemble du réseau ainsi que
+    notre laboratoire d’idées et de projets en construction.
+  une:
+    title: Lumière sur…
+    desc: GéGé, Geektionnerd generator
+    text: Le geektionnerd à faire soi-même.

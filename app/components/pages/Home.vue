@@ -9,7 +9,9 @@
 
     <degooglisons />
 
-    <peertube />
+    <peertube v-if="is.before('2019/10/15')" />
+
+    <mobilizon v-if="is.after('2019/10/15')" />
 
     <contributopia />
 
@@ -692,6 +694,7 @@ import Intro from './home/Intro.vue';
 import More from './home/More.vue';
 import Degooglisons from './home/Degooglisons.vue';
 import Peertube from './home/Peertube.vue';
+import Mobilizon from './home/Mobilizon.vue';
 import Contributopia from './home/Contributopia.vue';
 
 import Chart from '../partials/Chart.vue';
@@ -709,6 +712,7 @@ export default {
     More,
     Degooglisons,
     Peertube,
+    Mobilizon,
     Contributopia,
   },
   data() {

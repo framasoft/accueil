@@ -68,9 +68,9 @@ export default {
             id: 'agenda',
           },
           {
-            cover: `${this.$root['/']}img/screens/memo.png`,
-            title: this.$root.txt.memo,
-            id: 'memo',
+            cover: `${this.$root['/']}img/screens/pad.png`,
+            title: this.$root.txt.pad,
+            id: 'pad',
           },
           {
             cover: `${this.$root['/']}img/screens/date.png`,
@@ -83,9 +83,9 @@ export default {
             id: 'forms',
           },
           {
-            cover: `${this.$root['/']}img/screens/drop.png`,
-            title: this.$root.txt.drop,
-            id: 'drop',
+            cover: `${this.$root['/']}img/screens/talk.png`,
+            title: this.$root.txt.talk,
+            id: 'talk',
           },
         ],
         index: 0,
