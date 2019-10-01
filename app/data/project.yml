@@ -18,15 +18,15 @@ cat:
 
   culture:
     color: rouge
-    sites: ['blog', 'book', 'bookin', 'lang', 'tube', 'zic']
+    sites: ['blog', 'book', 'bookin', 'lang', 'tube', 'zic', 'games', 'minetest',]
 
   cloud:
     color: vert
     sites: [
       'pad', 'calc', 'forms', 'agenda', 'date', 'board',
-      'mindmap', 'vectoriel', 'slides', 'maestro', 'bee', 'sphere',
+      'mindmap', 'vectoriel', 'slides', 'maestro', 'sphere',
       'piaf', 'team', 'listes', 'talk', 'vox', 'memo',
-      'notes', 'bag', 'news', 'carte', 'games', 'minetest',
+      'notes', 'bag', 'news', 'carte',
       'drop', 'bin', 'pic', 'link', 'drive', 'my',
       'git', 'site', 'wiki'
     ]

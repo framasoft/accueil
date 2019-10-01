@@ -1,0 +1,29 @@
+title: Credits
+main:
+  p-intro:
+  - 'This site uses free elements common to the entire @:txt.soft network:'
+  - Some elements are deployed via the script that adds the navigation bar and the
+    footer of the site.<br> The source code can be found <a href="https://framagit.org/framasoft/framanav">on
+    our Gitlab repository</a>.
+  - '<a href="../graphics">Graphic charter</a> :'
+  ui-tools:
+  - 'the library <a href="https://jquery.com/">jQuery</a> and the free <a href="https://getbootstrap.com">Bootstrap</a>
+    framework '
+  - or the free <a href="https://vuejs.org">VueJS</a> framework and many dependencies
+  - the fonts <a href="https://www.paratype.com/public/">PTSans</a> (titles), <a
+    href="http://dejavu-fonts.org/wiki/Main_Page">Deja Vu Sans</a> and <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a>
+    (icons)
+  - the statistical measurement tool <a href="https://www.matomo.org/">Matomo</a>
+  h2-license: License
+  p-license:
+  - Unless otherwise stated, the content of the sites is placed under free license
+    @:license.ccbysa4fr
+  - Our <a href="../charte">charter</a>, the <a href="../cgu">Terms of Use</a> of
+    our services, the <a href="../legals">legal mentions</a> and all <a href="../association">
+    administrative documents of the association</a> are also placed under this license.
+  - The penguins who walk around the site come to us from <a href="https://www.le-terrier.net/pingouin/pingouin.html">@:people.lldemars</a>
+    and are under @:license.lal license.<br> The comic characters drawn by
+    <a href="http://ptilouk.net">@:people.gee</a> are licensed @:license.ccbysa2fr
+  - The logo is a realization of @:people.jo under license @:license.ccbysa4fr<br>
+    It is inspired by the mascot initially created by @:people.lldemars.<br>
+    (@:txt.soft is allowed to use the logo without having to quote the author).

@@ -1,0 +1,304 @@
+communaute:
+  title: Comunità libera
+  desc: Sei libero stasera?
+campagnes:
+  sites:
+    dio:
+      what: Campagna 2014-2017
+    cuo:
+      what: Campagna 2017-2020
+logiciel:
+  title: Software libero
+  desc: Liberté, Égalité, Fraternité
+  sites:
+    libre:
+      what: Un annuario
+      title: Il grande annuario
+      desc: Oltre 1600 programmi classificati, testati e commentati nel progetto
+        creato per primo e di più lunga durata di @:txt.soft. Include tutorial
+        e articoli di approfondimento.
+    key:
+      what: Una chiavetta USB
+      title: Il pieno di libertà in una semplice chiavetta
+      desc: Con una chiavetta USB (o qualsiasi altro dispositivo mobile) puoi utilizzare
+        più di cento programmi gratuiti per dispositivi mobili, Windows, testare
+        e installare una distribuzione GNU/Linux o avere accesso offline a Wikipédia
+        in francese.
+    dvd:
+      what: Un DVD
+      title: Il pieno di libertà in un DVD
+      desc: Un DVD contenente i migliori programmi gratuiti per Windows, Mac e GNU/Linux
+        (distribuzione inclusa) ma anche di cultura libera (testo, foto, audio e
+        video). Disponibile anche nella speciale edizione scuola
+    pack:
+      what: Un distributore
+      title: Installazione massiva
+      desc: '@:txt.pack è uno strumento utile a scegliere il miglior software
+        libero per la versione più recente di Windows. <br> Selezioni il software
+        che desideri e tutti i programmi verranno installati in un unico comodo
+        passaggio!'
+culture:
+  title: Cultura libera
+  desc: Amplia il campo dell'open source
+  sites:
+    blog:
+      what: Info
+      title: Novità dal mondo del "libero"
+      desc: Colonna settimanale sul mondo del "libero" e in particolare sul software
+        libero. Dibattiti, commenti, traduzioni e news sulle attività di @:txt.soft.
+    book:
+      what: Alcuni libri…
+      title: Scommettere sui libri liberi
+      desc: 'La nostra casa editrice presenta circa venti titoli, che spaziano dal
+        software libero alla programmazione per principianti, opinioni sul copyright
+        ma anche fumetti e addirittura romanzi. Un libro libero offre al lettore
+        le stesse libertà di un software libero. '
+    bookin:
+      what: … e una biblioteca
+      title: Una biblioteca digitale libera
+      desc: La nostra biblioteca include qualche centinaio di pubblicazioni libere
+        o di pubblico dominio. È fruibile online da piattaforme mobili. Puoi aggiungerla
+        direttamente alla tua applicazione di lettura digitale attraverso il feed
+        <abbr>OPDS</abbr>.
+    lang:
+      what: Traduzioni
+      title: Traduzioni collaborative
+      desc: Tradurre insieme, principalmente dall'inglese al francese, con un senso
+        di comunità, sfruttando la potenza di Internet e la buona volontà dei suoi
+        abitanti. Può trattarsi di articoli, sottotitoli o anche interi libri!
+    tube:
+      what: Video
+      title: Il nostro «YouTube» libero
+      desc: Video in francese (o con sottotitoli in francese) sul software libero
+        e open source in generale. Interviste, conferenze, documentari, trasmissioni
+        televisive… per informarsi ed informare.
+    zic:
+      what: Musica
+      title: Quando la musica è libera
+      desc: La «musica libera» è quella che offre agli amanti della musica la stessa
+        libertà del software libero. Un sito web dedicato ti aiuterà a capire meglio
+        di cosa si parla. All'interno troverai una piccola selezione di brani che
+        potrà mostrarti anche la qualità offerta.
+cloud:
+  title: Servizi liberi
+  desc: Cloud computing gratuito? È possibile!
+  sites:
+    pad:
+      what: Modificare
+      title: Modificare insieme
+      desc: Scriviamo tutti insieme sullo stesso documento con un'interfaccia di
+        editing online collaborativa. Non è richiesta registrazione, scegli un nome
+        utente, un colore e inizia!
+    calc:
+      what: Calcolare
+      title: Un foglio di calcolo collaborativo
+      desc: '@:txt.calc sta ai fogli elettronici come @:txt.pad sta all’editing,
+        lavorare insieme sullo stesso documento in modo semplice e collaborativo.'
+    forms:
+      what: Fare domande
+      title: Creazione di questionari
+      desc: '@:txt.forms ti consente di creare i questionari di cui necessiti,
+        sia che si tratti di un contesto scolastico,  familiare o comunitario. Crea
+        le tue domande in base alle tue esigenze, utilizzando campi di testo liberi
+        o a scelta multipla per le risposte.'
+    agenda:
+      what: Organizzare
+      title: Agenda condivisa
+      desc: Con @:txt.agenda puoi creare calendari personali o di lavoro, puoi
+        pianificare l'agenda di un convegno o le attività della tua organizzazione
+        e condividere il tutto liberamente. Rimani padrone dei tuoi dati scegliendo
+        con chi, dove e quando mostrarli.
+    date:
+      what: Organizzare
+      title: Organizza appuntamenti e sondaggi
+      desc: '@:txt.date è come Doodle, ma gratuito. Non c’è niente di più semplice
+        che creare un appuntamento o un sondaggio con registrazione e invitare i
+        tuoi colleghi o collaboratori.'
+    board:
+      what: Organize
+      title: Gestisci i progetti
+      desc: '@:txt.board è un gestore collaborativo di attività e progetti,
+        che utilizza il sistema Kanban. La sua interfaccia grafica ti mette facilmente
+        a tuo agio, anche se non usi abitualmente questo tipo di strumento.'
+    mindmap:
+      what: Strutturare
+      title: Crea mappe mentali
+      desc: Un'interfaccia fluida e intuitiva per creare con facilità mappe mentali
+        direttamente dal tuo browser. Particolarmente interessante per prendere
+        appunti o fare brainstorming.
+    vectoriel:
+      what: Disegnare
+      title: Disegno vettoriale
+      desc: Crea e modifica immagini online con facilità utilizzando il formato
+        libero SVG. I bambini lo adorano!
+    slides:
+      what: Presentare
+      title: Crea e condividi delle presentazioni
+      desc: '@:txt.slides ti consente di creare direttamente online una presentazione,
+        di vederla con una semplice connessione internet, e di condividerla.'
+    maestro:
+      what: Collaborare
+      title: Orchestra i tuoi progetti collaborativi
+      desc: Hai bisogno di un blocco su cui prendere appunti, di una tabella per
+        organizzare e di una videoconferenza allo stesso tempo? Con @:txt.maestro
+        hai a disposizione tutti gli strumenti di cui hai bisogno, e tutto su di
+        un'unica pagina web.
+    bee:
+      what: Ricercare
+      title: Il motore di ricerca che esplora la rete attorno a te
+      desc: '@:txt.bee è un meta motore di ricerca libero e anonimo. La tua
+        ricerca viene inviata a più motori prima che venga visualizzata nel tuo
+        browser. Perché è interessante? Il nostro motore funge da intermediario
+        tra te e Google (ed altri), in modo che i tuoi dati personali (indirizzo
+        IP, cronologia delle ricerche, geolocalizzazione, profilo) non siano a loro
+        accessibili.'
+    sphere:
+      what: Networking
+      title: Il social network gratuito
+      desc: '@:txt.sphere è un social network gratuito basato sul software
+        decentralizzato Diaspora. Trova i tuoi amici su @:txt.sphere – o altri
+        pod Diaspora – e discuti con loro senza essere tracciato.'
+    piaf:
+      what: Networking
+      title: Social network in 500 caratteri
+      desc: '@:txt.piaf è un servizio di <b>microblogging</b>, basato sul software
+        decentralizzato Mastodon. Cerca i tuoi amici su @:txt.piaf - o altre
+        istanze Mastodon, GNU Social, Friendica - e dialoga con loro senza essere
+        tracciato.'
+    team:
+      what: Discutere
+      title: Comunicazione collaborativa
+      desc: '@:txt.team è un servizio di <b> chat </b> gratuito che consente
+        lavori di gruppo, invio di notifiche, la cronologia delle conversazioni
+        e funzioni di ricerca.'
+    listes:
+      what: Discussing
+      title: Mailing list
+      desc: '@:txt.listes ti consente di crearemailing list: tutti gli iscritti
+        alla tua lista possono ricevere le email inviate al gruppo, e partecipare
+        a loro volta. Sta a te decidere se la lista è pubblica, semi-privata o privata.'
+    talk:
+      what: Discussing
+      title: Videoconferenza
+      desc: '@:txt.talk ti consente di chattare con i tuoi amici senza la necessità
+        di installare programmi complessi o di registrarti. Avviene tutto direttamente
+        fra te e i tuoi amici, usando il browser web.'
+    vox:
+      what: Decidere
+      title: 'Decidere insieme '
+      desc: '@:txt.vox ti aiuta a prendere decisioni di gruppo. Inizia una
+        discussione, condividi opinioni, arriva ad un accordo. Ogni decisione ha
+        una data di scadenza chiara, di modo che puoi essere certo di decidere per
+        tempo.'
+    memo:
+      what: Brainstorming
+      title: Organizzare idee
+      desc: '@:txt.memo ti consente di creare una bacheca con colonne sulle
+        quali ognuno può segnare appunti di vari colori. Proprio come @:txt.pad,
+        non è richiesta alcuna registrazione e le modifiche sono visibili e salvate
+        in automatico continuamente.'
+    notes:
+      what: Appunti
+      title: Prendere appunti
+      desc: Con @:txt.notes puoi prendere appunti, salvare immagini, link…
+        e addirittura dei file; e sincronizzarli su tutti i ruoi dispositivi (o
+        condividerli con i tuoi amici).
+    bag:
+      what: Segui le news
+      title: Non perdere mai un articolo!
+      desc: '@:txt.bag ti permette di salvare gli articoli che non hai tempo
+        di leggere in questo momento.'
+    news:
+      what: Follow the news
+      title: Follow the news
+      desc: 'Sottoscrivi i tuoi RSS preferiti e resta aggiornato sulle ultime notizie
+        con @:txt.news! '
+    carte:
+      what: Creare mappe
+      title: Crea mappe personalizzate
+      desc: Framacarte ti consente di disegnare, etichettare, colorare, annotare
+        mappe da  <a href="@:link.wOSM">OpenStreetMap</a>per consultarle sul tuo
+        sito web o  stamparle.
+    games:
+      what: Giocare
+      title: Giocare online o offline
+      desc: '@:txt.games è una collezione di giochi gratuiti, alcuni di loro
+        online, su PC o tablet, che non richiedono alcuna istallazione.'
+    minetest:
+      what: Gaming
+      title: Gioco educativo di mining
+      desc: '@:txt.minetest è un server Minetest, un gioco "sandbox" in cui
+        costruisci e scomponi blocchi per poi modificarli e costruire le tue applicazioni  educative.'
+    drop:
+      what: Condividere
+      title: Condividi file in maniera anonima
+      desc: Con @:txt.drop, hai finito con allegati troppo grandi per essere
+        inviati via mail. Questo servizio ti permette di condividere file in maniera
+        efficiente e sicura.
+    bin:
+      what: Sharing
+      title: Trasmettere dati criptati
+      desc: Con @:txt.bin, puoi condividere dati che solo tu e il destinatario
+        potete decifrare, in maniera davvero semplice.
+    pic:
+      what: Sharing
+      title: Condividi immagini in maniera anonima
+      desc: '@:txt.picti permette di condividere immagini facilmente, di pubblicarle
+        su Twitter, Facebook… o @:txt.sphere ad esempio!'
+    link:
+      what: Sharing
+      title: Link abbreviati
+      desc: Con @;data.txt.link, puoi accorciare lunghi URL. Sui social network
+        o su piattaforme di microblogging, un link abbreviato salva spazio ed è
+        più chiaro.
+    drive:
+      what: Salvare
+      title: Salva online
+      desc: '@:txt.drive ti permette di salvare i tuoi file online, sincronizzarli
+        fra i tuoi PC, dispositivi mobili… e condividerli con chiunque tu voglia.'
+    my:
+      what: Salvare
+      title: Segnalibri
+      desc: '@:txt.my è uno strumento di cattura digitale, che ti permettere
+        di salvare e ricercare facilmente i link che ti piacciono nello stile di
+        del.ico.us! Con un sistema di tag e ordinamento automatico, puoi facilmente
+        sistemare le tue schede e segnalibri, e usare il tasto @:txt.my per
+        ricercare i servizi @:txt.soft che utilizzi!'
+    git:
+      what: Codice
+      title: Ospitare codice libero
+      desc: '@:txt.git è uno strumento per sviluppatori. Può ospitare i tuoi
+        progetti software open source e permetterere agli utenti di lavorare su
+        di essi in modo collaborativo.'
+    site:
+      what: Pubblicare
+      title: Creare siti web
+      desc: '@:txt.site ti consente di creare con facilità un sito web e di
+        ospitarlo sui nostri server. Non ci sono pubblicità o rilevamenti di posizione
+        rischiosi per la privacy di chi visita il tuo sito.'
+    wiki:
+      what: Publish
+      title: Creare wiki
+      desc: '@:txt.wiki ti permette di creare facilmente una wiki e ospitarla
+        sui nostri server. Non ci sono pubblicità e tracciamenti di posizione che
+        mettono a rischio la privacy di chi visita il tuo sito web.'
+vrac:
+  title: Dal mondo del "libero"
+  desc: Inclassificabile ma non classificato male
+  sites:
+    colibri:
+      what: Un forum
+      title: Il forum @:txt.soft
+      desc: Hai qualche domanda? (Forse) abbiamo la risposta! "Se non sai, chiedi.
+        Se sai, condividi". @:text.colibri è il luogo in cui scambiamo informazioni
+        sull'open source.
+    evl:
+      what: Un market
+      title: Il nostro piccolo market libero
+      desc: 'Il market dei prodotti @:txt.soft: @:txt.key. @:txt.book,
+        @:txt.dvd ma anche chicche e magliette.'
+    docs:
+      what: Documentazione
+      title: Il nostro centro di documentazione
+      desc: Per sapere tutto sui servizi online che offriamo e imparare attraverso
+        le nostre differenti guide ad acquisire autonomia.

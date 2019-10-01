@@ -1,6 +1,6 @@
 <template>
   <div class="pull-right">
-    <router-link :to="`${$t('lang')}/lite`" class="btn btn-default" :title="$t('lite')">
+    <router-link :to="`/${$t('lang')}/lite`" class="btn btn-default" :title="$t('lite')">
       <i class="fa fa-lg fa-th-large" aria-hidden="true"></i>
       <span class="sr-only" v-text="$t('lite')"></span>
     </router-link>

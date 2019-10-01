@@ -1,6 +1,13 @@
 image: framasoft/vuefs:latest
 stages:
+  - test
   - deploy
+
+test:
+  stage: test
+  script:
+    - npm install -g yaml-lint
+    - for f in $(find ./app/ -name "*.yml" -type f);do yamllint $f;done;
 
 pages:
   stage: deploy

@@ -1,3 +1,12 @@
+/* Frameworks */
+@import "./frameworks/bootstrap3";
+// @import "./frameworks/bootstrap4";
+
+/* Fonts */
+@import '../../../node_modules/fork-awesome/css/fork-awesome.css';
+@import "./fonts/ptsans_caption";
+
+/* Variables */
 $bgcolor: #eee;
 
 $violet: #6a5687;
@@ -14,10 +23,13 @@ $carousel-ombre: 0px 3px 3px rgba(50, 50, 50, 0.5);
 $button-ombre: 0px 1px 1px rgba(50, 50, 50, 0.5);
 
 /*---------- général ----------------------*/
-@import "../fonts/ptsans_caption";
-
 /* Correctif padding Bootstrap 15px → 25px */
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {padding-right:25px;padding-left:25px;}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+  padding-right:25px;
+  padding-left:25px;
+}
 
 body {
   background-color: $bgcolor !important;
@@ -544,22 +556,9 @@ blockquote {
 
 @import "lite";
 
-@import "frama/colors";
-@import "frama/links";
-@import "frama/text";
-@import "frama/backgrounds";
-@import "frama/alerts";
-@import "frama/buttons";
-@import "frama/carousel";
-// @import "frama/internav";
-@import "frama/labels";
-@import "frama/modals";
-// @import "frama/navs";
-@import "frama/panels";
-@import "frama/popovers";
-
-@import "frama/cleaning";
-@import "frama/a11y";
+/* Frama */
+@import "./frama/bs3";
+// @import "./frama/common";
 
 @import "soutenir";
 @import "home";
