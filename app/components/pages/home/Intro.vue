@@ -11,7 +11,7 @@
       </div>
       <div class="clearfix">
         <div class="col-sm-5">
-          <h1 v-html="$root.txt.soft"></h1>
+          <h1 v-html="$t('txt.soft')"></h1>
           <h2 v-html="$t('home.intro.subtitle')"></h2>
           <p v-html="$t('home.intro.text')"></p>
           <p>
@@ -22,7 +22,7 @@
           </p>
         </div>
         <div class="col-sm-7 text-center">
-          <img :src="`${$root['/']}img/biglogo-notxt.png`"
+          <img :src="`${$t('/')}img/biglogo-notxt.png`"
             alt=""
             class="img-circle">
         </div>
