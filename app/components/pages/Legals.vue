@@ -1,7 +1,7 @@
 <template>
   <div class="container ombre apropos">
     <vue-headful
-      :title="`${$root.meta.title} - ${$t('legals.title')}`"
+      :title="`${$t('txt.soft')} - ${$t('legals.title')}`"
     />
     <header class="clearfix header">
       <h1 class="pull-left" v-html="$t('legals.title')"></h1>
@@ -10,27 +10,27 @@
     <main>
       <h2 v-html="$t('legals.editor.title')"></h2>
 
-      <h3 v-html="$root.meta.title"></h3>
-      <p><span v-html="$t('legals.editor.asso')"></span><span v-html="$root.legals.editor.assoNb"></span></p>
-      <p><span v-html="$t('legals.editor.siret')"></span> <span v-html="$root.legals.editor.siretNb"></span></p>
+      <h3 v-html="$t('txt.soft')"></h3>
+      <p><span v-html="$t('legals.editor.asso')"></span><span v-html="$t('legals.editor.assoNb')"></span></p>
+      <p><span v-html="$t('legals.editor.siret')"></span> <span v-html="$t('legals.editor.siretNb')"></span></p>
 
       <h3 v-html="$t('legals.editor.siege')"></h3>
-      <p v-html="$root.legals.editor.address"></p>
-      <p><span v-html="$t('legals.editor.contact')"></span> <a :href="$root.link.contact" v-html="$root.link.contact"></a></p>
+      <p v-html="$t('legals.editor.address')"></p>
+      <p><span v-html="$t('legals.editor.contact')"></span> <a :href="$t('link.contact')" v-html="$t('link.contact')"></a></p>
 
       <h3 v-html="$t('legals.editor.coprez')"></h3>
-      <p v-html="$root.legals.editor.coprezName"></p>
+      <p v-html="$t('legals.editor.coprezName')"></p>
 
       <h3 v-html="$t('legals.editor.host')"></h3>
 
-      <div v-if="$root.hash === 'ovh'" id="modal-legals-host">
+      <div v-if="$t('hash') === 'ovh'" id="modal-legals-host">
         <p>OVH</p>
         <p>SAS au capital de 10 000 000 € RCS Roubaix –
           Tourcoing 424 761 41900045 </p>
         <p>Code APE 6202A - N° TVA : FR 22 424 761 419</p>
         <p>Siège social : 2 rue Kellermann 59100 Roubaix - France.</p>
       </div>
-      <div v-if="$root.hash === 'soyoustart'" id="modal-legals-host">
+      <div v-if="$t('hash') === 'soyoustart'" id="modal-legals-host">
         <p>So You Start</p>
         <p>OVH SAS au capital de 10 069 020€</p>
         <p>RCS Roubaix – Tourcoing 424 761 419 00045</p>
@@ -45,7 +45,7 @@
         <p>Tél.: +49 – 9831 - 610061</p>
       </div>
 
-      <hr />
+      <hr>
 
       <v-text section="legals.infoLib" />
       <div id="piwik-iframe" class="well text-center center-block">
@@ -56,7 +56,7 @@
       </div>
       <v-text section="legals.infoLib.modify" />
 
-      <hr />
+      <hr>
 
       <v-text section="legals.liabilities" />
 

@@ -1,7 +1,7 @@
 <template>
   <div class="container ombre apropos">
     <vue-headful
-      :title="`${$root.meta.title} - ${$t('cgu.title')}`"
+      :title="`${$t('txt.soft')} - ${$t('cgu.title')}`"
     />
     <header class="clearfix header">
       <h1 class="pull-left" v-html="$t('cgu.title')"></h1>

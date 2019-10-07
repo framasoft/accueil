@@ -1,5 +1,5 @@
 <template>
-  <form id="search" method="post" action="https://framabee.org">
+  <form id="search" method="get" action="https://duckduckgo.com">
     <div class="input-group input-group-lg">
       <label for="q" class="sr-only" v-html="$t('search.btn')"></label>
       <input id="q"

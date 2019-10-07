@@ -33,7 +33,7 @@ const config = {
   output: {
     path: path.resolve(__dirname, `public${root}`),
     publicPath: root,
-    filename: '[name].[hash].bundle.js',
+    filename: process.env.NODE_ENV !== 'development' ? '[name].[hash].bundle.js' : '[name].bundle.js',
     // chunkFilename: '[name].bundle.js',
   },
   module: {

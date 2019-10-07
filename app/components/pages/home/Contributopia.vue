@@ -10,7 +10,7 @@
           <div class="col-md-4">
             <h4 class="label label-success" v-html="$t('home.cuo.meet.title')"></h4>
             <button class="bigbubble"
-              :style="`background: url(${$root['/']}img/services-framameet.jpg);`">
+              :style="`background: url(${$t('/')}img/services-framameet.jpg);`">
               <p v-html="$t('home.cuo.meet.text')"></p>
             </button>
             <a href="#!" class="close" aria-hidden="true">
@@ -20,7 +20,7 @@
           <div class="col-md-4">
             <h4 class="label label-primary" v-html="$t('home.cuo.petitions.title')"></h4>
             <button class="bigbubble"
-              :style="`background: url(${$root['/']}img/services-framapetitions.jpg);`">
+              :style="`background: url(${$t('/')}img/services-framapetitions.jpg);`">
               <p v-html="$t('home.cuo.petitions.text')"></p>
             </button>
             <a href="#!" class="close" aria-hidden="true">
@@ -30,7 +30,7 @@
           <div class="col-md-4">
             <h4 class="label label-info" v-html="$t('home.cuo.mooc.title')"></h4>
             <button class="bigbubble"
-              :style="`background: url(${$root['/']}img/educ-pop-mooc-chatons.jpg);`">
+              :style="`background: url(${$t('/')}img/educ-pop-mooc-chatons.jpg);`">
               <p v-html="$t('home.cuo.mooc.text')"></p>
             </button>
             <a href="#!" class="close" aria-hidden="true">
@@ -42,7 +42,7 @@
           <div class="col-md-4">
             <h4 class="label label-warning" v-html="$t('home.cuo.peertube.title')"></h4>
             <button class="bigbubble"
-              :style="`background: url(${$root['/']}img/services-peertube.jpg);`">
+              :style="`background: url(${$t('/')}img/services-peertube.jpg);`">
               <p v-html="$t('home.cuo.peertube.text')"></p>
             </button>
             <a href="#!" class="close" aria-hidden="true">
@@ -52,7 +52,7 @@
           <div class="col-md-4">
             <h4 class="label label-primary" v-html="$t('home.cuo.mobilizon.title')"></h4>
             <button class="bigbubble"
-              :style="`background: url(${$root['/']}img/services-mobilizon.jpg);`">
+              :style="`background: url(${$('/')}img/services-mobilizon.jpg);`">
               <p v-html="$t('home.cuo.mobilizon.text')"></p>
             </button>
             <a href="#!" class="close" aria-hidden="true">
@@ -62,7 +62,7 @@
           <div class="col-md-4">
             <h4 class="label label-info" v-html="$t('home.cuo.cloud.title')"></h4>
             <button class="bigbubble"
-              :style="`background: url(${$root['/']}img/services-cloud.jpg);`">
+              :style="`background: url(${$t('/')}img/services-cloud.jpg);`">
               <p v-html="$t('home.cuo.cloud.text')"></p>
             </button>
             <a href="#!" class="close" aria-hidden="true">

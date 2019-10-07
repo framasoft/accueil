@@ -1,10 +1,10 @@
 <template>
   <div :class="`col-md-${serviceWidth(frama)} miniBloc ${clearBoth(frama)}`">
-    <a :href="$root.link[frama]">
-      <h4 class="vert" v-html="$root.color[frama]"></h4>
+    <a :href="$t(`link.${frama}`)">
+      <h4 class="vert" v-html="$t(`color.${frama}`)"></h4>
     </a>
     <p
-      :class="`miniBlocSubTitle ${$root.icon[frama]}`"
+      :class="`miniBlocSubTitle ${$t(`icon.${frama}`)}`"
       v-html="$t(`cat.cloud.sites.${frama}.title`)">
     </p>
     <p
@@ -24,11 +24,10 @@ export default {
   },
   methods: {
     serviceWidth(serviceId) {
-      return ['bee', 'my'].includes(serviceId) ? '6' : '3';
+      return ['my'].includes(serviceId) ? '6' : '3';
     },
     clearBoth(serviceId) {
-      return ['forms', 'mindmap', 'stallmanoramix', 'sphere', 'talk',
-        'village', 'drop', 'drive', 'fight'].includes(serviceId) ? 'clearBoth' : '';
+      return ['forms', 'mindmap', 'stallmanoramix', 'team', 'memo', 'bag', 'drop', 'drive', 'fight'].includes(serviceId) ? 'clearBoth' : '';
     },
   },
 };

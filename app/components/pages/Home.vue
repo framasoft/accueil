@@ -1,7 +1,7 @@
 <template>
   <main>
     <vue-headful
-      :title="`${$root.meta.title} - Changer le monde, un octet à la fois.`"
+      :title="$t('meta.title')"
     />
     <intro />
 
@@ -90,7 +90,7 @@
               <iframe
                 class="embed-responsive-item"
                 height="600"
-                :src="`${$root.link.dio}/${$route.meta.lang}/timeline`">
+                :src="`${$t('link.dio')}/${$t('lang')}/timeline`">
               </iframe>
             </div>
             <div slot="footer"><!-- Keep empty --></div>
@@ -447,7 +447,7 @@
                         ref="country"
                         v-model="form.country"
                         class="form-control">
-                        <option v-for="(country, key) in $root.country"
+                        <option v-for="(country, key) in $t('country')"
                           :key="key"
                           :value="key"
                           v-text="country">
@@ -837,7 +837,7 @@ export default {
           this.addFormField(form, 'adresse2', this.form.address2);
           this.addFormField(form, 'ville', this.form.city);
           this.addFormField(form, 'cp', this.form.zip);
-          this.addFormField(form, 'pays', this.$root.country[this.form.country]);
+          this.addFormField(form, 'pays', this.$t(`country[${this.form.country}]`));
           this.addFormField(form, 'montant', this.form.don);
 
           document.body.appendChild(form);
@@ -907,7 +907,7 @@ export default {
             `&address2=${encodeURIComponent(this.form.address2)}`,
             `&zip=${encodeURIComponent(this.form.zip)}`,
             `&city=${encodeURIComponent(this.form.city)}`,
-            `&country=${this.$root.country[this.form.country]}`,
+            `&country=${this.$t('country[' + this.form.country + ']')}`,
             `&amount=${this.form.don}`,
           );
           this.form.pay_send = offPayUrl.join('');

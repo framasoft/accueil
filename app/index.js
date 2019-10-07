@@ -71,13 +71,13 @@ messages.locales.available = Object
 
 // Data import
 let data = {};
-let project = {};
 const scripts = document.getElementsByTagName('script');
 for (let i = 0; i < commons.length; i += 1) {
-  data[commons[i]] = require(`./data/commons/${commons[i]}.yml`); // eslint-disable-line
+  req = require(`./data/commons/${commons[i]}.yml`) || {}; // eslint-disable-line
+  data[commons[i]] = merge.$(data[commons[i]], JSON.parse(JSON.stringify(req)));
 }
-project = require('./data/project.yml'); // eslint-disable-line
-data = merge.$(data, project);
+req = require('./data/project.yml') || {}; // eslint-disable-line
+data = merge.$(data, JSON.parse(JSON.stringify(req)));
 
 Object.assign(data, {
   host: window.location.host,
@@ -86,6 +86,10 @@ Object.assign(data, {
   inframe: window.top.location !== window.self.document.location,
   hash: window.location.hash.replace('#', ''),
   date: process.env.DATE,
+  year: {
+    current: (new Date().getFullYear()).toString(),
+    next: (new Date().getFullYear() + 1).toString(),
+  },
 });
 data.self = new URL(scripts[scripts.length - 1].src, data.url).href;
 if (process.env.NODE_ENV === 'production'
@@ -98,6 +102,8 @@ if (process.env.NODE_ENV === 'production'
 
 data.txt = data.txt || {};
 data.html = data.html || {};
+/* Depreciated */
+/* Doing this is better on msg */
 Object.keys(data.color).forEach((k) => {
   if (data.txt[k] === undefined) {
     const tmp = document.createElement('div');
@@ -114,10 +120,7 @@ Object.keys(data.link).forEach((k) => {
     }
   }
 });
-data.year = {
-  current: (new Date().getFullYear()).toString(),
-  next: (new Date().getFullYear() + 1).toString(),
-};
+/* \ */
 
 const routes = [];
 let msg = {};
@@ -125,27 +128,9 @@ let msg = {};
 Object.keys(locales).forEach((k) => {
   /* eslint-disable */
   messages[k] = {};
-  numberFormats[k] = {};
-  msg = {
-    tmp: {},
-    commons: {},
-    main: {},
-    files: {},
-  };
-
-  // Import data
-  Object.keys(data).forEach((j) => {
-    msg.tmp[j] = merge.$(msg.tmp[j], data[j]);
-  });
-  messages[k].data = data; // Keep a copy (depreciated)
-
-  // Init with locales/lg/_commons.yml
-  if (locales[k].includes('_commons')) {
-    msg.commons = require(`./locales/${k}/_commons.yml`);
-    msg.tmp = merge.$(msg.tmp, msg.commons);
-  }
-
   messages[k].lang = k;
+
+  numberFormats[k] = {};
   numberFormats[k].eur = {
     style: 'currency',
     currency: 'EUR',
@@ -153,24 +138,52 @@ Object.keys(locales).forEach((k) => {
     minimumFractionDigits: 0,
   };
 
+  // Import data
+  msg = {};
+  msg = merge.$(msg, JSON.parse(JSON.stringify(data)));
+  messages[k].data = data; // Keep a copy (depreciated)
+
+  // Init with locales/lg/_commons.yml
+  if (locales[k].includes('_commons')) {
+    req = require(`./locales/${k}/_commons.yml`) || {};
+    msg = merge.$(msg, JSON.parse(JSON.stringify(req)));
+  }
+
   // locales/lg/_main.yml (active and visible)
   // or locales/lg/_main.yml (active and hidden)
   const mainFile = locales[k].filter(filename => /^_?main/.test(filename));
   if (mainFile.length > 0) {
-    msg.main = require(`./locales/${k}/${mainFile[0]}.yml`);
-    msg.tmp = merge.$(msg.tmp, msg.main);
+    req = require(`./locales/${k}/${mainFile[0]}.yml`) || {};
+    msg = merge.$(msg, JSON.parse(JSON.stringify(req)));
   }
 
   // locales/lg/*.yml
   for (let i = 0; i < locales[k].length; i += 1) {
     const file = locales[k][i];
     if (!/main|_commons/.test(file)) {
-      msg.files[file] = require(`./locales/${k}/${file}.yml`);
-      msg.tmp[file] = {};
-      msg.tmp[file] = merge.$(msg.tmp[file], msg.files[file]);
+      msg[file] = msg[file] || {};
+      req = require(`./locales/${k}/${file}.yml`) || {};
+      msg[file] = merge.$(msg[file], JSON.parse(JSON.stringify(req)));
     }
   }
-  messages[k] = merge.$(messages[k], msg.tmp);
+
+  Object.keys(msg.color).forEach((j) => {
+    if (msg.txt[j] === undefined) {
+      const tmp = document.createElement('div');
+      tmp.innerHTML = msg.color[j];
+      msg.txt[j] = tmp.textContent || tmp.innerText;
+    }
+  });
+  Object.keys(msg.link).forEach((j) => {
+    if (msg.html[j] === undefined) {
+      if (msg.color[j] !== undefined) {
+        msg.html[j] = `<a href="@:link.${j}">@:color.${j}</a>`;
+      } else if (msg.txt[j] !== undefined) {
+        msg.html[j] = `<a href="@:link.${j}">@:txt.${j}</a>`;
+      }
+    }
+  });
+  messages[k] = merge.$(messages[k], msg);
   /* eslint-enable */
 
   // Localized routes
@@ -222,9 +235,6 @@ const i18n = new VueI18n({
 if (!window.vuefsPrerender
   && document.querySelectorAll('script[src$="nav.js"]').length < 1
   && process.env.NODE_ENV !== 'development') {
-  const navConfig = document.createElement('script');
-  navConfig.innerHTML = 'l$ = { js: { j$: \'noConflict\' } }';
-  document.getElementsByTagName('head')[0].appendChild(navConfig);
   const nav = document.createElement('script');
   nav.src = 'https://framasoft.org/nav/nav.js';
   document.getElementsByTagName('head')[0].appendChild(nav);
@@ -233,12 +243,7 @@ if (!window.vuefsPrerender
 // Routes
 const router = new VueRouter({
   routes,
-  scrollBehavior(to) {
-    if (to.path.match(/full/)) {
-      return { x: 0, y: 0 };
-    }
-    return {};
-  },
+  scrollBehavior() { return { x: 0, y: 0 }; },
   mode: 'history',
   base: `${__dirname}${process.env.BASE_URL}`,
 });

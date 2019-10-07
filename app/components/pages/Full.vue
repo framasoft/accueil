@@ -8,7 +8,7 @@
         <div class="col-md-8">
           <div class="row">
             <figure id="pingouinVolant" class="pull-right">
-              <img :src="`${$root['/']}img/biglogo-notxt.png`"
+              <img :src="`${$t('/')}img/biglogo-notxt.png`"
                 style="max-width: 250px;margin: 0;"
                 alt="" />
             </figure>
@@ -47,7 +47,7 @@
                 </thead>
                 <tbody>
                   <tr
-                    v-for="item in $root.pages.medias.list"
+                    v-for="item in $t('pages.medias.list')"
                     :key="item[3]"
                     :class="!(item[0] === $t('lang') || (item[0] === 'en' && $t('lang') !== 'fr')) ? 'hidden' : ''">
                     <td v-html="item[1]"></td>
@@ -62,27 +62,24 @@
 
         <div id="blocFramatrucs" class="col-md-4">
           <div
-            v-for="(section, titre) in sideMenuCat()"
-            :key="titre">
+            v-for="section in Object.keys($t('cat')).filter(key => !/(communaute|campagnes)/.test(key))"
+            :key="section">
             <h4 class="titreFramaTrucs">
-              <a
-                :href="`#topPg${titre}`"
-                :class="$root.cat[titre].color"
-                v-html="section.title">
+              <a :href="`#topPg${section}`"
+                :class="$t(`cat.${section}.color`)"
+                v-html="$t(`cat.${section}.title`)">
               </a>
             </h4>
             <div class="row">
               <ul class="listeFramaTrucs col-md-12">
-                <li
-                  v-for="([key, frama], index) in tradEntries(section.sites)"
-                  :key="frama.link">
+                <li v-for="key in $t(`cat.${section}.list`)"
+                  :key="key">
                   <span
-                    :class="hideRepeat(index, tradEntries(section.sites))"
-                     v-html="frama.what"></span>
-                  <a
-                    :href="$root.link[key]"
-                    :class="section.color">≻&nbsp;&nbsp;
-                    <span v-html="$root.color[key]"></span>
+                    :class="`w-${key}`"
+                    v-html="$t(`cat.${section}.sites.${key}.what`)"></span>
+                  <a :href="$t(`link.${key}`)"
+                    :class="$t(`cat.${section}.color`)">≻&nbsp;&nbsp;
+                    <span v-html="$t(`color.${key}`)"></span>
                   </a>
                 </li>
               </ul>
@@ -112,7 +109,7 @@
 
       <div class="row" id="contentCommunaute">
         <div class="col-md-4 blocCommunaute">
-          <img :src="`${$root['/']}img/framateam1.jpg`" class="img-responsive" alt="" />
+          <img :src="`${$t('/')}img/framateam1.jpg`" class="img-responsive" alt="" />
         </div>
 
         <div class="col-md-4 blocCommunaute">
@@ -140,7 +137,7 @@
         </div>
 
         <div class="col-md-4 blocCommunaute">
-          <img :src="`${$root['/']}img/framateam2.jpg`" class="img-responsive" alt="" />
+          <img :src="`${$t('/')}img/framateam2.jpg`" class="img-responsive" alt="" />
         </div>
 
         <div class="col-md-12 blocCommunaute partenaires">
@@ -178,20 +175,20 @@
 
         <div class="col-md-4">
           <figure id="pingouinMuseeWindows">
-            <img :src="`${$root['/']}img/musee-windows_ll-de-mars_licence-art-libre.jpg`" alt="" />
+            <img :src="`${$t('/')}img/musee-windows_ll-de-mars_licence-art-libre.jpg`" alt="" />
           </figure>
         </div>
       </div>
 
       <div class="row">
-        <div v-for="frama in $root.cat.logiciel.sites"
+        <div v-for="frama in Object.keys($t('cat.logiciel.sites'))"
           :key="frama"
           class="col-md-3 miniBloc">
-          <a :href="$root.link[frama]">
-            <h4 class="bleu" v-html="$root.color[frama]"></h4>
+          <a :href="$t(`link.${frama}`)">
+            <h4 class="bleu" v-html="$t(`color.${frama}`)"></h4>
           </a>
           <p
-            :class="`miniBlocSubTitle ${$root.icon[frama]}`"
+            :class="`miniBlocSubTitle ${$t(`icon.${frama}`)}`"
             v-html="$t(`cat.logiciel.sites.${frama}.title`)">
           </p>
           <p class="miniBlocTexte" v-html="$t(`cat.logiciel.sites.${frama}.desc`)"></p>
@@ -228,7 +225,7 @@
 
           <div class="row col-md-12">
             <figure id="pingouinsQuelquesBriques">
-              <img :src="`${$root['/']}img/${$t('lang')}/quelques-briques_licence-art-libre.jpg`" alt="" />
+              <img :src="`${$t('/')}img/${$t('lang')}/quelques-briques_licence-art-libre.jpg`" alt="" />
             </figure>
           </div>
 
@@ -239,14 +236,14 @@
 
         <div class="col-md-6">
           <div class="row">
-            <div v-for="frama in $root.cat.culture.sites"
+            <div v-for="frama in Object.keys($t('cat.culture.sites'))"
               :key="frama"
               class="col-md-6 miniBloc2">
-              <a :href="$root.link[frama]">
-                <h4 class="rouge" v-html="$root.color[frama]"></h4>
+              <a :href="$t(`link${frama}`)">
+                <h4 class="rouge" v-html="$t(`color.${frama}`)"></h4>
               </a>
               <p
-                :class="`miniBlocSubTitle ${$root.icon[frama]}`"
+                :class="`miniBlocSubTitle ${$t(`icon.${frama}`)}`"
                 v-html="$t(`cat.culture.sites.${frama}.title`)">
               </p>
               <p class="miniBlocTexte" v-html="$t(`cat.culture.sites.${frama}.desc`)"></p>
@@ -283,11 +280,11 @@
             <p class="blocTexte" v-html="$t('pages.cloud.text2')"></p>
           </div>
 
-          <div v-for="frama in $root.cat.cloud.sites"
+          <div v-for="frama in Object.keys($t('cat.cloud.sites'))"
             :id="`f-${frama}`"
             :key="frama">
             <ImageServiceBlock
-              v-if="['bee', 'bag', 'drop', 'site'].includes(frama)"
+              v-if="['sphere', 'bag', 'drop', 'site'].includes(frama)"
               :image="beforeImage(frama)" />
             <ServiceBlock :frama="frama.toString()" />
           </div>
@@ -326,7 +323,7 @@
           <p class="miniBlocSubTitle" v-html="$t('pages.vrac.une.desc')"></p>
           <figure id="GeGeGenerator">
             <a href="https://framalab.org/gknd-creator/">
-              <img :src="`${$root['/']}img/GeGeGenerator.jpg`" :alt="$t('pages.vrac.une.desc')" />
+              <img :src="`${$t('/')}img/GeGeGenerator.jpg`" :alt="$t('pages.vrac.une.desc')" />
             </a>
           </figure>
           <p class="legende" v-html="$t('pages.vrac.une.desc')"></p>
@@ -334,14 +331,13 @@
       </div>
 
       <div class="row">
-        <div v-for="frama in $root.cat.vrac.sites"
+        <div v-for="frama in Object.keys($t('cat.vrac.sites'))"
           :key="frama"
           class="col-md-4 miniBloc">
-          <a :href="$root.link[frama]">
-            <h4 class="jaune" v-html="$root.color[frama]"></h4>
+          <a :href="$t(`link.${frama}`)">
+            <h4 class="jaune" v-html="$t(`color.${frama}`)"></h4>
           </a>
-          <p
-            :class="`miniBlocSubTitle ${$root.icon[frama]}`"
+          <p :class="`miniBlocSubTitle ${$t(`icon.${frama}`)}`"
             v-html="$t(`cat.vrac.sites.${frama}.title`)">
           </p>
           <p class="miniBlocTexte" v-html="$t(`cat.vrac.sites.${frama}.desc`)"></p>
@@ -378,7 +374,7 @@ export default {
   data() {
     return {
       service2image: {
-        bee: 'stallmanoramix',
+        sphere: 'stallmanoramix',
         bag: 'village',
         drop: 'carte',
         site: 'fight',
@@ -412,21 +408,6 @@ export default {
     };
   },
   methods: {
-    hideRepeat(index, elemsEntries) {
-      return index > 0 && elemsEntries[index][1].what === elemsEntries[index - 1][1].what ? 'sr-only' : '';
-    },
-    tradEntries(key) {
-      if (key) {
-        return Object.entries(key);
-      }
-      return null;
-    },
-    sideMenuCat() {
-      const categories = this.$t('cat');
-      return Object.assign(...Object.keys(categories)
-        .filter(key => !/(communaute|campagnes)/.test(key))
-        .map(key => ({ [key]: categories[key] })));
-    },
     beforeImage(service) {
       return this.image[this.service2image[service]];
     },

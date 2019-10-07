@@ -20,9 +20,9 @@
             {{ locales[lang] }}
           </router-link>
         </li>
-        <li v-if="$root.meta.i18n" role="separator" class="divider"></li>
-        <li v-if="$root.meta.i18n">
-          <a :href="$root.meta.i18n">
+        <li v-if="$te('meta.i18n')" role="separator" class="divider"></li>
+        <li v-if="$te('meta.i18n')">
+          <a :href="$t('meta.i18n')">
             <i class="fa fa-fw fa-plus" aria-hidden="true"></i>
             <span v-html="$t('nav.translate')"></span>
           </a>
