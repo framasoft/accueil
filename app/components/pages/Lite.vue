@@ -17,28 +17,28 @@
     <div
       v-for="category in ['cloud', 'logiciel', 'culture', 'vrac']"
       :key="category"
-      :class="`row lite ${$root.cat[category].color}`">
+      :class="`row lite ${$t(`cat.${category}.color`)}`">
       <h3
-        class="titreFramaTrucs ${$root.cat[category].color}`"
+        :class="`titreFramaTrucs ${$t(`cat.${category}.color`)}`"
         v-html="$t(`cat.${category}.title`)">
       </h3>
       <ul class="list-inline">
-        <li v-for="frama in $root.cat[category].sites"
+        <li v-for="frama in $t(`cat.${category}.list`)"
           :key="frama"
           class="col-xs-4 col-sm-3 text-center">
           <a
-            :href="$root.link[frama]"
+            :href="$t(`link.${frama}`)"
             class="btn btn-lg btn-block btn-default"
             :title="$t(`cat.${category}.sites.${frama}.title`)">
-            <i :class="`fa fa-3x fa-fw ${$root.icon[frama]}`" aria-hidden="true"></i>
+            <i :class="`fa fa-3x fa-fw ${$t(`icon.${frama}`)}`" aria-hidden="true"></i>
             <br>
-            <span v-html="$root.color[frama]"></span>
+            <span v-html="$t(`color.${frama}`)"></span>
           </a>
         </li>
       </ul>
     </div>
 
-    <hr class="trait" role="presentation" style="margin-left:-15px; margin-right:-15px">
+    <hr class="trait row" role="presentation">
 
     <div class="row">
       <div class="col-xs-12 containerActu">
@@ -55,7 +55,6 @@ import Carousel from '../partials/Carousel.vue'
 import Search from '../partials/Search.vue'
 
 export default {
-  name: 'lite',
   components: {
     Header,
     Carousel,

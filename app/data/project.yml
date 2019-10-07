@@ -3,26 +3,24 @@ meta:
   author: Framasoft
   canonical: https://framasoft.org
   i18n: https://trad.framasoft.org/iteration/view/framasoft/master
-  employees: '8'
+  employees: '9'
 
 # Catégories
 cat:
-  communaute:
-
   campagnes:
-    sites: ['dio', 'cuo']
+    list: ['dio', 'cuo']
 
   logiciel:
     color: bleu
-    sites: ['libre', 'key', 'dvd', 'pack']
+    list: ['libre', 'key', 'dvd', 'pack']
 
   culture:
     color: rouge
-    sites: ['blog', 'book', 'bookin', 'lang', 'tube', 'zic', 'games', 'minetest',]
+    list: ['blog', 'book', 'bookin', 'lang', 'tube', 'zic', 'games', 'minetest',]
 
   cloud:
     color: vert
-    sites: [
+    list: [
       'pad', 'calc', 'forms', 'agenda', 'date', 'board',
       'mindmap', 'vectoriel', 'slides', 'maestro', 'sphere',
       'piaf', 'team', 'listes', 'talk', 'vox', 'memo',
@@ -33,7 +31,7 @@ cat:
 
   vrac:
     color: jaune
-    sites: ['colibri', 'evl', 'docs']
+    list: ['colibri', 'evl', 'docs']
 
 pages:
   medias:

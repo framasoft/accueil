@@ -79,6 +79,16 @@ culture:
         libertà del software libero. Un sito web dedicato ti aiuterà a capire meglio
         di cosa si parla. All'interno troverai una piccola selezione di brani che
         potrà mostrarti anche la qualità offerta.
+    games:
+      what: Giocare
+      title: Giocare online o offline
+      desc: '@:txt.games è una collezione di giochi gratuiti, alcuni di loro
+        online, su PC o tablet, che non richiedono alcuna istallazione.'
+    minetest:
+      what: Gaming
+      title: Gioco educativo di mining
+      desc: '@:txt.minetest è un server Minetest, un gioco "sandbox" in cui
+        costruisci e scomponi blocchi per poi modificarli e costruire le tue applicazioni  educative.'
 cloud:
   title: Servizi liberi
   desc: Cloud computing gratuito? È possibile!
@@ -143,15 +153,6 @@ cloud:
         organizzare e di una videoconferenza allo stesso tempo? Con @:txt.maestro
         hai a disposizione tutti gli strumenti di cui hai bisogno, e tutto su di
         un'unica pagina web.
-    bee:
-      what: Ricercare
-      title: Il motore di ricerca che esplora la rete attorno a te
-      desc: '@:txt.bee è un meta motore di ricerca libero e anonimo. La tua
-        ricerca viene inviata a più motori prima che venga visualizzata nel tuo
-        browser. Perché è interessante? Il nostro motore funge da intermediario
-        tra te e Google (ed altri), in modo che i tuoi dati personali (indirizzo
-        IP, cronologia delle ricerche, geolocalizzazione, profilo) non siano a loro
-        accessibili.'
     sphere:
       what: Networking
       title: Il social network gratuito
@@ -219,16 +220,6 @@ cloud:
       desc: Framacarte ti consente di disegnare, etichettare, colorare, annotare
         mappe da  <a href="@:link.wOSM">OpenStreetMap</a>per consultarle sul tuo
         sito web o  stamparle.
-    games:
-      what: Giocare
-      title: Giocare online o offline
-      desc: '@:txt.games è una collezione di giochi gratuiti, alcuni di loro
-        online, su PC o tablet, che non richiedono alcuna istallazione.'
-    minetest:
-      what: Gaming
-      title: Gioco educativo di mining
-      desc: '@:txt.minetest è un server Minetest, un gioco "sandbox" in cui
-        costruisci e scomponi blocchi per poi modificarli e costruire le tue applicazioni  educative.'
     drop:
       what: Condividere
       title: Condividi file in maniera anonima

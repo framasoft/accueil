@@ -63,28 +63,28 @@ export default {
       vcf: {
         coverList: [
           {
-            cover: `${this.$root['/']}img/screens/agenda.png`,
-            title: this.$root.txt.agenda,
+            cover: `${this.$t('/')}img/screens/agenda.png`,
+            title: this.$t('txt.agenda'),
             id: 'agenda',
           },
           {
-            cover: `${this.$root['/']}img/screens/pad.png`,
-            title: this.$root.txt.pad,
+            cover: `${this.$t('/')}img/screens/pad.png`,
+            title: this.$t('txt.pad'),
             id: 'pad',
           },
           {
-            cover: `${this.$root['/']}img/screens/date.png`,
-            title: this.$root.txt.date,
+            cover: `${this.$t('/')}img/screens/date.png`,
+            title: this.$t('txt.date'),
             id: 'date',
           },
           {
-            cover: `${this.$root['/']}img/screens/forms.png`,
-            title: this.$root.txt.forms,
+            cover: `${this.$t('/')}img/screens/forms.png`,
+            title: this.$t('txt.forms'),
             id: 'forms',
           },
           {
-            cover: `${this.$root['/']}img/screens/talk.png`,
-            title: this.$root.txt.talk,
+            cover: `${this.$t('/')}img/screens/talk.png`,
+            title: this.$t('txt.talk'),
             id: 'talk',
           },
         ],

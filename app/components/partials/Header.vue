@@ -2,7 +2,7 @@
   <div id="framaheader" class="clearfix header">
     <div class="col-md-4">
       <h1 id="framasoft" class="sitename">
-        <router-link :to="`/${$t('lang')}/`" v-html="$root.color.soft"></router-link>
+        <router-link :to="`/${$t('lang')}/`" v-html="$t('color.soft')"></router-link>
       </h1>
     </div>
     <div class="col-md-5">

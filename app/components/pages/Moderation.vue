@@ -1,7 +1,7 @@
 <template>
   <div class="container ombre apropos">
     <vue-headful
-      :title="`${$root.meta.title} - ${$t('moderation.title')}`"
+      :title="`${$t('txt.soft')} - ${$t('moderation.title')}`"
     />
     <header class="clearfix header">
       <h1 class="pull-left" v-html="$t('moderation.title')"></h1>
@@ -11,7 +11,7 @@
       <v-text section="moderation" />
 
       <div class="signature">
-        <hr />
+        <hr>
         <v-text section="moderation.footer" />
       </div>
     </main>

@@ -13,18 +13,18 @@
         'link[rel=canonical]': {href: `${$root.canonical}${$route.path}`},
 
         'meta[property^=og][property$=title]': {content: `${$t('meta.title')}`},
-        'meta[property^=og][property$=image]': {content: `${$root.baseurl}/icons/apple-touch-icon.png`},
-        'meta[property^=og][property$=url]': {content: $root.baseurl},
+        'meta[property^=og][property$=image]': {content: `${$t('baseurl')}/icons/apple-touch-icon.png`},
+        'meta[property^=og][property$=url]': {content: $t('baseurl')},
         'meta[property^=og][property$=description]': {content: `${$t('meta.description')}`},
 
         'meta[name^=twitter][name$=title]': {content: `${$t('meta.title')}`},
-        'meta[name^=twitter][name$=image]': {content: `${$root.baseurl}/icons/apple-touch-icon.png`},
+        'meta[name^=twitter][name$=image]': {content: `${$t('baseurl')}/icons/apple-touch-icon.png`},
         'meta[name^=twitter][name$=description]': {content: `${$t('meta.description')}`},
 
-        'meta[name=author]': {content:  $t('data.meta.name') },
+        'meta[name=author]': {content:  $t('meta.name') },
         'meta[name^=DC][name$=title]': {content: $t('meta.title') },
-        'meta[name^=DC][name$=publisher]': {content: $t('data.meta.name') },
-        'meta[name^=DC][name$=contributor]': {content: $t('data.meta.name') },
+        'meta[name^=DC][name$=publisher]': {content: $t('meta.name') },
+        'meta[name^=DC][name$=contributor]': {content: $t('meta.name') },
         'meta[name^=DC][name$=language]': {content: $t('lang') },
         'meta[name^=DC][name$=subject]': {content: $t('meta.keywords') },
         'meta[name^=DC][name$=rights]': {content: $t('meta.license') },
@@ -39,7 +39,7 @@
 export default {
   data() {
     return process.env.NODE_ENV === 'development'
-    ? { root: this.$root, i18n: this.$i18n.messages }
+    ? { i18n: this.$i18n.messages }
     : {}
   }
 }

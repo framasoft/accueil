@@ -1,7 +1,7 @@
 <template>
   <section id="mobilizon" class="clearfix">
     <div class="embed-responsive embed-responsive-16by9">
-      <img :src="`${$root['/']}img/mobilizon/event.gif`" alt="" style="width: 100%" />
+      <img :src="`${$t('/')}img/mobilizon/event.gif`" alt="" style="width: 100%" />
     </div>
     <div class="container ombre">
       <h2 v-html="$t('home.mobilizon.title')"></h2>
