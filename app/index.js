@@ -235,9 +235,6 @@ const i18n = new VueI18n({
 if (!window.vuefsPrerender
   && document.querySelectorAll('script[src$="nav.js"]').length < 1
   && process.env.NODE_ENV !== 'development') {
-  const navConfig = document.createElement('script');
-  navConfig.innerHTML = 'l$ = { js: { j$: \'noConflict\' } }';
-  document.getElementsByTagName('head')[0].appendChild(navConfig);
   const nav = document.createElement('script');
   nav.src = 'https://framasoft.org/nav/nav.js';
   document.getElementsByTagName('head')[0].appendChild(nav);
