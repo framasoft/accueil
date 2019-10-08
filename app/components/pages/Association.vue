@@ -16,7 +16,7 @@
             class="img-responsive"
             alt=""
             :title="$t('asso.prez.saveas')"
-            :src="`${$t('/')}img/${$route.meta.lang}/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018.jpg`" />
+            :src="`${$t('/')}img/${$route.meta.lang}/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2019.jpg`" />
           <p class="text-right">
             <span v-html="$t('asso.prez.infography')"></span>
             <a href="http://geoffreydorne.com" v-html="$t('people.dorme')"></a>,
