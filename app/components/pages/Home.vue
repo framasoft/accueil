@@ -31,10 +31,10 @@
             <br>
             <a href="#money" v-html="$t('home.soutenir.money')"></a>
             <br>
-            <a v-if="$t('lang') === 'fr'" href="https://framasoft.org/img/fr/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018.jpg"
-              v-html="$t('home.soutenir.numbers')" target="_blank"></a>
-            <a v-else-if="$t('lang') === 'en'" href="https://framasoft.org/img/en/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2018.jpg"
-              v-html="$t('home.soutenir.numbers')" target="_blank"></a>
+            <a :href="`${$t('/')}img/${$t('lang')}/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2019.jpg`"
+              target="_blank"
+              v-html="$t('home.soutenir.numbers')">
+            </a>
             <br>
             <a href="#timeline" v-html="$t('home.soutenir.timeline')" @click="modal.openTL = true;"></a>
           </p>
