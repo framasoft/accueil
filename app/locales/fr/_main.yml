@@ -3,15 +3,6 @@ full: Accès classique
 meta:
   title: '@:txt.soft - Changer le monde, un octet à la fois.'
   lead: La route est longue mais la voie est libre…
-  description: 'Association française de loi 1901, issue du monde éducatif, @:txt.soft
-    est un réseau d’éducation populaire consacré principalement au logiciel libre.
-    Le réseau s’organise en trois axes sur un mode collaboratif: promotion, diffusion
-    et développement de logiciels libres, enrichissement de la culture libre. Il offre
-    également des services libres en ligne. La page portail du réseau présente l’ensemble
-    des activités de @:txt.soft et propose des liens vers les différents sites
-    et activités du réseau.'
-  keywords: '@:txt.soft, logiciels libres, logiciels libres et open source, culture
-    libre, FOSS, promotion et diffusion des logiciels libres, open source'
   license: '@:license.ccbysa4 sauf mention contraire'
 nav:
   lite: Accès rapide

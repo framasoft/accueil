@@ -1,8 +1,5 @@
 <template>
   <div class="container ombre apropos">
-    <vue-headful
-      :title="`${$t('txt.soft')} - ${$t('legals.title')}`"
-    />
     <header class="clearfix header">
       <h1 class="pull-left" v-html="$t('legals.title')"></h1>
       <I18n/>

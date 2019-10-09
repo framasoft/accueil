@@ -1,8 +1,5 @@
 <template>
   <main>
-    <vue-headful
-      :title="$t('meta.title')"
-    />
     <intro />
 
     <more />
