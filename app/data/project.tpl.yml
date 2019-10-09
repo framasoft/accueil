@@ -12,6 +12,9 @@ meta:
   canonical: https://framasoft.org
   description: Description is neededed for search engines, Twitter card and OpenGraph
 #  i18n: http://trad.framasoft.org/iteration/view/<project_name>/master
+  about:
+    title: '@:meta.title - @:about'
+    description: '@:meta.lead'
 
 txt:
 #  soft: text from color.soft (but you can reassign it here)

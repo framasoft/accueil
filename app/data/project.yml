@@ -2,8 +2,23 @@ meta:
   title: Framasoft
   author: Framasoft
   canonical: https://framasoft.org
+  description: '@:home.intro.text'
   i18n: https://trad.framasoft.org/iteration/view/framasoft/master
   employees: '9'
+  association:
+    title: '@:txt.soft - @:asso.title'
+  cgu:
+    title: '@:txt.soft - @:cgu.title'
+  charte:
+    title: '@:txt.soft - @:charte.title'
+  credits:
+    title: '@:txt.soft - @:credits.title'
+  graphics:
+    title: '@:txt.soft - @:graphics.title'
+  legals:
+    title: '@:txt.soft - @:legals.title'
+  moderation:
+    title: '@:txt.soft - @:moderation.title'
 
 # Catégories
 cat:
