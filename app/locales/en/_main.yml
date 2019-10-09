@@ -3,16 +3,6 @@ full: Classic home
 meta:
   title: '@:txt.soft ~ Change the world one byte at a time'
   lead: There is a long way to go, but the road is Free…
-  description: 'A French non-profit (Association française de loi 1901), originating
-    as an education project, @:txt.soft is a network aimed at popular education,
-    focussing mostly on free and open source software. The network is organized following
-    3 main themes on a collaborative model: promotion, diffusion and development of
-    libre software, enhancement of free (as in free speech) culture. We also provide
-    free online services. The portal Homepage introduces the whole range of actions
-    by @:txt.soft and provides links to the various sites and projects of the
-    network.'
-  keywords: '@:txt.soft, libre software, free and open source sofware, free culture,
-    FOSS, FLOSS,  promotion and diffusion of free software, open source'
   license: '@:license.ccbysa4 except when notified'
 nav:
   lite: Quick access

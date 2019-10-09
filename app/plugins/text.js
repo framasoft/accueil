@@ -1,9 +1,11 @@
+import marked from 'marked';
+
 export default {
   install(Vue) {
     Object.defineProperty(Vue.prototype, 'text', {
       value: (html, options) => { // eslint-disable-line
         let text = '';
-        const tmp = new DOMParser().parseFromString(html, 'text/html');
+        const tmp = new DOMParser().parseFromString(marked(html.replace(/  \n/g, '  \n')), 'text/html'); // eslint-disable-line no-irregular-whitespace
         text = tmp.body.textContent || '';
         if (options) {
           if (/latin/.test(options)) {
