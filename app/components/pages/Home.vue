@@ -24,16 +24,16 @@
           </p>
           <p v-html="$t('home.soutenir.text')"></p>
           <p>
-            <a href="#why" v-html="$t('home.soutenir.why')"></a>
+            <a href="#why" @click.stop="setHash('#why')" v-html="$t('home.soutenir.why')"></a>
             <br>
-            <a href="#money" v-html="$t('home.soutenir.money')"></a>
+            <a href="#money" @click.stop="setHash('#money')" v-html="$t('home.soutenir.money')"></a>
             <br>
-            <a :href="`${$t('/')}img/${$t('lang')}/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2019.jpg`"
+            <a :href="`${$t('link.soft')}/img/${$t('lang')}/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2019.jpg`"
               target="_blank"
               v-html="$t('home.soutenir.numbers')">
             </a>
             <br>
-            <a href="#timeline" v-html="$t('home.soutenir.timeline')" @click="modal.openTL = true;"></a>
+            <a href="#timeline" @click.stop="setHash('#timeline'); modal.openTL = true;" v-html="$t('home.soutenir.timeline')" ></a>
           </p>
 
           <div class="why">
@@ -752,6 +752,13 @@ export default {
     }
   },
   methods: {
+    setHash(hash) {
+      if (history.pushState) {
+        history.pushState(null, null, hash);
+      } else {
+        location.hash = hash;
+      }
+    },
     randomRef() {
       const chars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
       let randomstring = '';
@@ -834,7 +841,7 @@ export default {
           this.addFormField(form, 'adresse2', this.form.address2);
           this.addFormField(form, 'ville', this.form.city);
           this.addFormField(form, 'cp', this.form.zip);
-          this.addFormField(form, 'pays', this.$t(`country[${this.form.country}]`));
+          this.addFormField(form, 'pays', this.$t(`country.${this.form.country}`));
           this.addFormField(form, 'montant', this.form.don);
 
           document.body.appendChild(form);
@@ -904,7 +911,7 @@ export default {
             `&address2=${encodeURIComponent(this.form.address2)}`,
             `&zip=${encodeURIComponent(this.form.zip)}`,
             `&city=${encodeURIComponent(this.form.city)}`,
-            `&country=${this.$t('country[' + this.form.country + ']')}`,
+            `&country=${this.$t(`country.${this.form.country}`)}`,
             `&amount=${this.form.don}`,
           );
           this.form.pay_send = offPayUrl.join('');
