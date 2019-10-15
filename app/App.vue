@@ -29,6 +29,12 @@
 
 <script>
 export default {
+  created() {
+    if (this.$route.meta.lang !== undefined
+      && this.$i18n.locale !== this.$route.meta.lang) {
+      this.$i18n.locale = this.$route.meta.lang;
+    }
+  },
   data() {
     const title = this.$te(`meta.${this.$route.meta.id}.title`)
       ? this.text(this.$t(`meta.${this.$route.meta.id}.title`))
