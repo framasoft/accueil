@@ -8,7 +8,7 @@
 
     <peertube v-if="is.before('2019/10/15')" />
 
-    <mobilizon v-if="is.after('2019/10/15')" />
+    <mobilizon v-if="!is.before('2019/10/15')" />
 
     <contributopia />
 
