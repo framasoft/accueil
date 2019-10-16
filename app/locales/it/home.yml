@@ -86,6 +86,21 @@ cuo:
     text: Un percorso educativo completo, pieno di utili risorse, per far crescere
       la consapevolezza delle sfide della tecnologia digitale e per organizzare
       la resistenza.
+  peertube:
+    title: PeerTube
+    text: 'PeerTube emancipa la trasmissione di video mescolando insieme la federazione delle società di hosting".
+      e la distribuzione peer-to-peer. Per il 2020 c’è ancora molto da fare:
+      ridisegno grafico, strumenti sociali, live-streaming…'
+  mobilizon:
+    title: Mobilizon
+    text: Mobilizon's v1 è prevista per il 2020. Questa piattaforma federata permetterà di
+      per riunire il tuo gruppo, organizzarlo con i tuoi strumenti
+      e mobilitarlo intorno ai tuoi eventi.
+  cloud:
+    titleo: Frama<br>cloud
+    text: Un account unico per sincronizzare le note, l’agenda, i contatti
+      o i suoi file, per collaborare su di esso, ecc. è una proposta
+      che vogliamo costruire, grazie al software Nextcloud.
   btn: Dai il tuo contributo per un altro anno di Contributopia
   footer: 'Tutto questo è solo un esempio di tutte le azioni a cui attualmente stiamo
     lavorando… Scopri l’intera tabella di marcia: <a href="@:link.cuo">@:txt.cuo</a>!'

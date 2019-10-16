@@ -87,6 +87,21 @@ cuo:
       Neutres et Solidaires">CHATONS</abbr>
     text: Un parcours pédagogique complet, débordant de ressources utiles, pour
       sensibiliser aux enjeux du numérique et organiser la résistance.
+  peertube:
+    title: PeerTube
+    text: 'PeerTube émancipe la diffusion de vidéos en mêlant fédération des hébergements
+      et diffusion en pair-à-pair. Pour 2020, il reste beaucoup à faire :
+      refonte graphique, outils sociaux, live-streaming…'
+  mobilizon:
+    title: Mobilizon
+    text: La v1 de Mobilizon est prévue pour 2020. Cette plateforme fédérée permettra
+      de rassembler votre groupe, l'organiser avec vos outils
+      et le mobiliser autour de vos événements.
+  cloud:
+    title: Frama<br>cloud
+    text: Un compte unique pour synchroniser ses notes, son agenda, ses contacts
+      ou ses fichiers, pour collaborer dessus, etc. c’est une proposition
+      que nous voulons construire, grâce au logiciel Nextcloud.
   btn: Contribuez à une nouvelle année de Contributopia
   footer: 'Ceci n’est qu’un échantillon de l’ensemble des actions que nous menons
     actuellement… Découvrez l’intégralité de notre feuille de route : <a href="@:link.cuo">@:txt.cuo</a> !'
