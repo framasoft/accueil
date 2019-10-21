@@ -33,11 +33,11 @@ step2:
   society_ex: 'ex : Free Software Fondation'
   society_email_ex: 'ex : contact@fsf.org'
   lastname: Nom
-  lastname_ex: 'ex : Stallman'
+  lastname_ex: 'ex : Lovelace'
   firstname: Prénom
-  firstname_ex: 'ex : Richard'
+  firstname_ex: 'ex : Ada'
   email: E-mail
-  email_ex: 'ex : r.stallman@outlock.com'
+  email_ex: 'ex : a.lovelace@outlock.com'
   address1: Adresse
   address1_ex: 'ex : 12 rue de la liberté'
   address2: Complément
