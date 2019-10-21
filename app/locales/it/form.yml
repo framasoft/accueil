@@ -36,7 +36,7 @@ step2:
   firstname: Nome
   firstname_ex: 'es: Ada'
   email: E-mail
-  email_ex: 'es: a.lovelace@outlock.com'
+  email_ex: 'es: a.lovelace@example.com'
   address1: Indirizzo
   address1_ex: 'es: via Libertà 12'
   address2: Aggiunte all'indirizzo
