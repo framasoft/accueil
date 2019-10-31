@@ -106,6 +106,17 @@
           <dd>
             <ul>
               <li>
+                2018 :
+                <a :href="`${$t('asso.files')}FRAMASOFT - Rapport Général %26 Spécial - 31.12.2018.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsFinancial')">
+                </a> - 
+                <a :href="`${$t('asso.files')}Framasoft_rapport_activite_2018-v2.1.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsActivities')">
+                </a> - 
+              </li>
+              <li>
                 2017 :
                 <a :href="`${$t('asso.files')}rapport_financier_2017.pdf`"
                   rel="nofollow"
