@@ -834,7 +834,7 @@ export default {
           this.addFormField(form, 'adresse2', this.form.address2);
           this.addFormField(form, 'ville', this.form.city);
           this.addFormField(form, 'cp', this.form.zip);
-          this.addFormField(form, 'pays', this.$t(`country.${this.form.country}`)`));
+          this.addFormField(form, 'pays', this.$t(`country.${this.form.country}`));
           this.addFormField(form, 'montant', this.form.don);
 
           document.body.appendChild(form);
