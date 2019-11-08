@@ -52,7 +52,7 @@
           <div class="col-md-4">
             <h4 class="label label-primary" v-html="$t('home.cuo.mobilizon.title')"></h4>
             <button class="bigbubble"
-              :style="`background: url(${$('/')}img/services-mobilizon.jpg);`">
+              :style="`background: url(${$t('/')}img/services-mobilizon.jpg);`">
               <p v-html="$t('home.cuo.mobilizon.text')"></p>
             </button>
             <a href="#!" class="close" aria-hidden="true">
