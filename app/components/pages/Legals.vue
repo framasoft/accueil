@@ -47,7 +47,7 @@
       <v-text section="legals.infoLib" />
       <div id="piwik-iframe" class="well text-center center-block">
         <iframe
-          style="border: 0; height: 200px; width: 600px;"
+          style="border: 0; height: 200px; max-width: 600px; width: 85%;"
           :src="`https://stats.framasoft.org/index.php?module=CoreAdminHome&action=optOut&language=${$t('lang')}`">
         </iframe>
       </div>
