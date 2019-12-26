@@ -1,1 +1,24 @@
-{}
+soutenir:
+  money: إلى أين يذهب مالُكم؟
+  title: ادعم Framasoft
+cuo:
+  mobilizon:
+    title: موبيليزون Mobilizon
+  peertube:
+    title: پيرتيوب PeerTube
+  meet:
+    title: موبيليزون Mobilizon
+mobilizon:
+  btn: استعرض الميزات الأساسية
+  link: https://framablog.org/?p=18299
+peertube:
+  modal:
+    features:
+    - اشتراك المستخدمين
+    - بحث متقدّم
+    - استيراد ملفات. torrent
+    - استيراد مِن يوتيوب
+    title: الميزات الأساسية لپيرتيوب PeerTube
+  btn: استعرض الميزات الأساسية
+more:
+  title: Framasoft هي…
