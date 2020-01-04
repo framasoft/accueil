@@ -1,1 +1,79 @@
-{}
+mobilizon:
+  footer: 'Aby poznać plan rozwoju oprogramowania Mobilizon do 2020: JoinMobilizon.
+    Aby przetestować powstające funkcje <a href="https://test.mobilizon.org">test.mobilizon.org</a>'
+  link: https://framablog.org/?p=18299
+  text: Zajrzyj na wersję beta Mobilizona, który pozwoli na utworzenie własnej alternatywy
+    dla MeetUp i wydarzeń na Facebooku. To oprogramowanie jest rozwijane dzięki Waszemu
+    udziałowi i będzie stale ulepszane do wydania wersji V1 w pierwszej połowie 2020.
+    Wspólnie utwórzmy platformę wydarzeń, która będzie nam pasować. Zbierz się ⋅ Zorganizuj
+    ⋅ Mobilizuj… w całkowitej wolności!
+  btn: Poznaj główne funkcje
+  title: Mobilizon – wolne i sfederowane narzędzie, aby uwolnić wydarzenia od Facebooka!
+soutenir:
+  timeline: Oś czasu działań
+  numbers: '@:txt.soft w liczbach'
+  money: Na co przeznaczacie pieniądze?
+  why: Dlaczego wesprzeć @:txt.soft?
+  title: Wesprzyj Framasoft
+cuo:
+  cloud:
+    title: Frama<br>cloud
+  mobilizon:
+    title: Mobilizon
+  peertube:
+    title: PeerTube
+  petitions:
+    title: Frama<br>petitions
+  meet:
+    title: Mobilizon
+  title: Contributopia
+peertube:
+  modal:
+    features:
+    - Strumienie RSS
+    - Subskrypcje dla użytkowników
+    - Zaawansowane wyszukiwanie
+    - Napisy
+    - Import z plików .torrent
+    - Import z YouTube
+    text: PeerTube jest w pełni funkcjonalnym oprogramowaniem. Oto część jego możliwości.
+    title: Główne funkcje PeerTube
+  footer: Aby dowiedzieć się więcej o oprogramowaniu PeerTube, jak działa <abbr title="Znana
+    również jako Fediwersum, grupa sfederowanych instancji.">federacja</abbr> i zrozumieć
+    jak możesz utworzyć własną <abbr title="Zdecentralizowana instalacja na serwerze,
+    dostępna za pośrednictwem adresu sieciowego.">instancję</abbr>, <a href="https://joinpeertube.org/en"
+    lang="en">JoinPeertube</a>
+  btn: Poznaj główne funkcje
+  title: PeerTube – alternatywa dla YouTube, powstała dzięki Tobie i dla Ciebie
+dio:
+  footer: Pełną listę naszych usług, wraz z ich całą dokumentacją możesz znaleźć na
+    stronie <a href=@:link.dio/en>@:txt.dio</a>
+  btn: Pomóż nam utrzymywać te usługi i pomóż w powstawaniu nowych
+  subtitle: <strong>Etyczne alternatywy</strong> mogą istnieć.<br>Przedstawienie na
+    <strong>{count} przykładach</strong>.
+  title: Uwolnij swój Internet od Google<br>poznaj przyjazne użytkownikom narzędzia
+more:
+  link: Zobacz pełną prezentację.
+  footer: '@:txt.soft to ponad 50 projektów. Sprawdź je wszystkie.'
+  confs:
+    title: Konferencje, warsztaty
+  blog:
+    text: Wiadomości dotyczące @:txt.soft, wolnej kulturze i dobrach wspólnych – historia,
+      recenzje prasowe, tłumaczenia, wywiady
+    title: '@:txt.blog, wiadomości o wolnej kulturze'
+  book:
+    text: Wolne książki dzielą wolność z wolnym oprogramowaniem. Publikujemy podręczniki,
+      książki techniczne, ale też powieści czy nawet komiksy
+    title: '@:txt.book, miejsce dla publikacji'
+  libre:
+    text: Historyczny projekt @:txt.soft – setki wolnego oprogramowania i zawartości
+      kulturowej, sprawdzonych i zorganizowanych
+    title: '@:txt.libre, katalog wolnej kultury'
+  title: Framasoft to…
+intro:
+  btn: Wspieraj nasze działania
+  text: '@:txt.soft jest <strong>organizacją</strong> non-profit <strong>na rzecz
+    powszechnej edukacji</strong>, grupą przyjaciół przekonanych, że <strong>uwolnienie</strong>
+    świata cyfrowego jest możliwe, przekonanych że doprowadzą do tego <strong>rzeczywiste
+    działania</strong> w prawdziwym świecie i Internecie dla Ciebie i dzięki Tobie!'
+  subtitle: Zmieniaj świat<br>bajt po bajcie
