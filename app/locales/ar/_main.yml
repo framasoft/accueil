@@ -1,0 +1,14 @@
+nav:
+  full: الصفحة الرئيسية العادية
+  lite: نفاذ سريع
+link:
+  wOSM: https://en.wikipedia.org/wiki/Openstreetmap
+  wFreeSoftware: https://ar.m.wikipedia.org/wiki/%D8%A8%D8%B1%D9%85%D8%AC%D9%8A%D8%A7%D8%AA_%D8%AD%D8%B1%D8%A9
+search:
+  frama: على مواقع @:txt.soft
+  web: على الويب
+  btn: بحث
+meta:
+  lead: المشوار طويل ولكن الطريق حُرة…
+full: نفاذ عادي
+lite: نفاذ سريع

@@ -1,0 +1,33 @@
+graphics:
+  title: Carta gráfica
+search:
+  web: na Web
+  frama: nos ''sites'' da Web de @:txt.soft’s
+  btn: Pesquisar
+link:
+  garden: '@:link.cloud/fr/cultiver-son-jardin'
+  wOSM: https://en.wikipedia.org/wiki/Openstreetmap
+  wCommons: https://en.wikipedia.org/wiki/Bien_commun
+  wFreeCulture: https://en.wikipedia.org/wiki/Culture_libre
+  wFreeLicense: https://en.wikipedia.org/wiki/Licence_libre
+  wSourceCode: https://en.wikipedia.org/wiki/Code_source
+  wFreeSoftware: https://en.wikipedia.org/wiki/Logiciel_libre
+  partenaires: '@:link.soutenir/en/partenaires'
+nav:
+  parts:
+    cloud:
+      title: para a secção da nuvem
+      key: Secção da Nuvem
+    culture:
+      title: para a secção da cultura
+      key: Secção da Cultura
+    logiciel:
+      title: para a secção do ''software''
+      key: Secção do 'software''
+  full: Início Clássico
+  lite: Acesso rápido
+meta:
+  license: '@:license.ccbysa4 exceto quando notificado'
+  title: '@:txt.soft ~ Mude o mundo, um byte de cada vez'
+full: Início Clássico
+lite: Acesso rápido
