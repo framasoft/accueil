@@ -3,7 +3,7 @@ main:
   p-intro:
   - 'Ce site utilise des éléments libres communs à l’ensemble du réseau @:txt.soft :'
   - Certains éléments sont déployés via le script qui ajoute la barre de navigation
-    et le pied de page du site.<br> Le code source peut être consulté <a href="https://framagit.org/framasoft/framanav">sur
+    et le pied de page du site.<br /> Le code source peut être consulté <a href="https://framagit.org/framasoft/framanav">sur
     notre dépôt Gitlab</a>.
   - '<a href="../graphics">Charte graphique</a> :'
   ul-tools:
@@ -23,9 +23,9 @@ main:
     et l’ensemble des <a href="../association"> documents administratifs de l’association</a>
     sont également placés sous cette licence.
   - Les pingouins qui se promènent sur le site nous viennent de <a href="https://www.le-terrier.net/pingouin/pingouin.html">@:people.lldemars</a>
-    et sont placés sous licence @:license.lal<br> Les personnages de BD dessinés
+    et sont placés sous licence @:license.lal<br /> Les personnages de BD dessinés
     par <a href="http://ptilouk.net">@:people.gee</a> sont sous licence @:license.ccbysa2fr
-  - Le logo est une œuvre de @:people.jo sous licence @:license.ccbysa4fr<br>
-    Il est inspiré de la mascotte initialement crée par @:people.lldemars</>.<br>
+  - Le logo est une œuvre de @:people.jo sous licence @:license.ccbysa4fr<br />
+    Il est inspiré de la mascotte initialement crée par @:people.lldemars</>.<br />
     (@:txt.soft a l’autorisation d’utiliser le logo sans avoir besoin de citer
     l’auteur).

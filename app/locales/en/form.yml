@@ -52,11 +52,11 @@ step3:
   title: 3. I access the payment
   defisc: Information on tax exemption
   defisc_title: Tax exemption
-  defisc_tip: ' @:txt.soft is a recognized association of general interest.<br>
+  defisc_tip: ' @:txt.soft is a recognized association of general interest.<br />
     As such, if you are subject to income tax in France, you can deduct 66% of the
     amount of your donation. Thus, if you have given €10 x 12 months (€120), you
-    will be able to deduct 120x66% (€79,20) from your next return.<br> The tax receipt
-    will be sent to you automatically by e-mail before the declaration.<br> For
+    will be able to deduct 120x66% (€79,20) from your next return.<br /> The tax receipt
+    will be sent to you automatically by e-mail before the declaration.<br /> For
     more detailed information, click here to access our explanation page.'
   defisc_text:
   - 'In France, thanks to the tax deduction of '
@@ -78,7 +78,7 @@ step3:
   modal_vir:
     by: by bank transfer
     no_sepa: ' @:txt.soft does not offer a SEPA form for direct debits, but
-      you can make a donation by bank transfer directly to us.<br> So you decide
+      you can make a donation by bank transfer directly to us.<br /> So you decide
       the sum, the frequency and you can change it at any time.'
     to_finish: ' To finalize your donation, please note our bank details:'
     ref: ' Also note this <b>payment reference</b> which must be added to the description

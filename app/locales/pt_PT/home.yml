@@ -3,7 +3,7 @@ peertube:
     title: Funcionalidades principais do PeerTube
 dio:
   btn: Ajude-nos a manter estes serviços e a desenvolver novos
-  title: '"Degooglize" a sua Internet<br> encontre ferramentas fáceis de utilizar'
+  title: '"Degooglize" a sua Internet<br /> encontre ferramentas fáceis de utilizar'
 more:
   link: Veja a apresentação completa.
   footer: '@:txt.soft tem mais de 50 projetos. Veja-os todos.'
@@ -15,4 +15,4 @@ more:
   title: Framasoft é…
 intro:
   btn: Apoie as nossas ações
-  subtitle: Mude o mundo<br>um byte de cada vez
+  subtitle: Mude o mundo<br />um byte de cada vez

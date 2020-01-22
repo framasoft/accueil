@@ -54,7 +54,7 @@ partenaires:
   title: Nos partenaires
   desc: '@:txt.soft est avant tout une communauté d’utilisateurs. Cependant,
     son fonctionnement est clairement celui d’un réseau, non seulement de projets,
-    mais aussi de partenaires.<br> Ainsi, @:txt.soft bénéficie du soutien de
+    mais aussi de partenaires.<br /> Ainsi, @:txt.soft bénéficie du soutien de
     nombreuses organisations (publiques, commerciales, associatives) qui permettent
     aux projets de croître et de se développer. <a href="@:link.partenaires">Liste
     de tous nos partenaires</a>'

@@ -1,7 +1,7 @@
 title: Terms of Use
 intro:
   title: Preamble
-  text: By using this service, you agree to be bound by the following terms.<br>
+  text: By using this service, you agree to be bound by the following terms.<br />
     @:color.soft reserves the right to update and modify these terms from time
     to time.
 short:
@@ -130,7 +130,7 @@ full:
   - '@:color.soft, in its sole discretion, has the right to suspend or terminate
     your account and refuse any current or future use of the service. Termination
     of the service will result in deactivation of access to your account, and the
-    restitution of all the contents.<br> @:color.soft reserves the right to
+    restitution of all the contents.<br /> @:color.soft reserves the right to
     refuse service to anyone for any reason at any time.'
   - '@:color.soft also reserves the right to terminate your account if you
     do not log into your account for a period longer than 6 months.'
@@ -157,5 +157,5 @@ full:
   - This data is neither sold nor passed on to third parties.
 footer:
   p:
-  - Terms of Use of the @:color.soft association’s online services,<br> version
+  - Terms of Use of the @:color.soft association’s online services,<br /> version
     1.0.3 of April 11, 2016.

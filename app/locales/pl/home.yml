@@ -17,13 +17,13 @@ soutenir:
   title: Wesprzyj Framasoft
 cuo:
   cloud:
-    title: Frama<br>cloud
+    title: Frama<br />cloud
   mobilizon:
     title: Mobilizon
   peertube:
     title: PeerTube
   petitions:
-    title: Frama<br>petitions
+    title: Frama<br />petitions
   meet:
     title: Mobilizon
   title: Contributopia
@@ -49,9 +49,9 @@ dio:
   footer: Pełną listę naszych usług, wraz z ich całą dokumentacją możesz znaleźć na
     stronie <a href=@:link.dio/en>@:txt.dio</a>
   btn: Pomóż nam utrzymywać te usługi i pomóż w powstawaniu nowych
-  subtitle: <strong>Etyczne alternatywy</strong> mogą istnieć.<br>Przedstawienie na
+  subtitle: <strong>Etyczne alternatywy</strong> mogą istnieć.<br />Przedstawienie na
     <strong>{count} przykładach</strong>.
-  title: Uwolnij swój Internet od Google<br>poznaj przyjazne użytkownikom narzędzia
+  title: Uwolnij swój Internet od Google<br />poznaj przyjazne użytkownikom narzędzia
 more:
   link: Zobacz pełną prezentację.
   footer: '@:txt.soft to ponad 50 projektów. Sprawdź je wszystkie.'
@@ -76,4 +76,4 @@ intro:
     powszechnej edukacji</strong>, grupą przyjaciół przekonanych, że <strong>uwolnienie</strong>
     świata cyfrowego jest możliwe, przekonanych że doprowadzą do tego <strong>rzeczywiste
     działania</strong> w prawdziwym świecie i Internecie dla Ciebie i dzięki Tobie!'
-  subtitle: Zmieniaj świat<br>bajt po bajcie
+  subtitle: Zmieniaj świat<br />bajt po bajcie

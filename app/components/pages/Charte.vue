@@ -1,15 +1,18 @@
 <template>
   <div class="container ombre apropos">
     <header class="clearfix header">
-      <h1 class="pull-left" v-html="$t('charte.title')"></h1>
-      <I18n/>
+      <h1
+        class="pull-left"
+        v-html="$t('charte.title')"
+      ></h1>
+      <I18n />
     </header>
     <main>
-      <v-text section="charte" />
+      <div v-html="$t('charte')"></div>
 
       <div class="signature">
         <hr />
-        <v-text section="charte.footer" />
+        <div v-html="$t('charte.footer')"></div>
       </div>
     </main>
   </div>
@@ -17,12 +20,10 @@
 
 <script>
 import I18n from '../partials/I18n.vue';
-import VText from '../partials/V-Text.vue';
 
 export default {
   components: {
     I18n,
-    VText,
   },
-}
+};
 </script>

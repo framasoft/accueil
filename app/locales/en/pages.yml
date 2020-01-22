@@ -51,7 +51,7 @@ soutenir:
 partenaires:
   title: Our partners
   desc: '@:txt.soft is first and foremost a community of users. Yet, its functioning
-    is distinctly that of a network, of projects, but also of partners..<br> So,
+    is distinctly that of a network, of projects, but also of partners..<br /> So,
     @:txt.soft receives the support from numerous organisations (public, business,
     non-profit) allowing our projects to grow and develop. <a href="@:link.partenaires">List
     of all our partners</a>'

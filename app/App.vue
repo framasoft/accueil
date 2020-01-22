@@ -30,9 +30,6 @@
 <script>
 export default {
   name: 'App',
-  components: {
-    HeaderComponent,
-  },
   data() {
     const description = this.$te(`meta.${this.$route.meta.id}.description`)
       ? this.$t(`meta.${this.$route.meta.id}.description`)

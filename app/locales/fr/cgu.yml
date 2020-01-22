@@ -1,7 +1,7 @@
 title: Conditions Générales d’Utilisation
 intro:
   title: Préambule
-  text: En utilisant ce service, vous acceptez d’être lié par les conditions suivantes.<br>
+  text: En utilisant ce service, vous acceptez d’être lié par les conditions suivantes.<br />
     @:color.soft se réserve le droit de mettre à jour et modifier ces conditions
     de temps à autre.
 short:
@@ -66,17 +66,17 @@ full:
   - Les comptes ne peuvent être créés et utilisés que par des humains. Les comptes
     créés par les robots ou autres méthodes automatisées pourront être supprimés
     sans avertissement.
-  - Vous êtes responsable de la sécurité de votre compte et de votre mot de passe.<br>
+  - Vous êtes responsable de la sécurité de votre compte et de votre mot de passe.<br />
     @:color.soft ne peut pas et ne sera pas responsable de toutes pertes ou
     dommages résultant de votre non-respect de cette obligation de sécurité.
   - Vous êtes responsable de tout contenu affiché et de l’activité qui se produit
     sous votre compte.
-  - Vous ne pouvez pas utiliser le service à des fins illégales ou non autorisées.<br>
+  - Vous ne pouvez pas utiliser le service à des fins illégales ou non autorisées.<br />
     Vous ne devez pas transgresser les lois de votre pays.
   - Vous ne pouvez pas vendre, échanger, revendre, ou exploiter dans un but commercial
     non autorisé un compte du service utilisé.
   p-liabilities:
-  - La violation de l’un de ces accords entraînera la résiliation de votre compte.<br>
+  - La violation de l’un de ces accords entraînera la résiliation de votre compte.<br />
     Vous comprenez et acceptez que l’association @:color.soft ne puisse être
     tenue responsable pour les contenus publiés sur ce service.
   ol-liabilities:
@@ -142,7 +142,7 @@ full:
   - '@:color.soft, à sa seule discrétion, a le droit de suspendre ou de résilier
     votre compte et de refuser toute utilisation actuelle ou future du service.
     Cette résiliation du service entraînera la désactivation de l’accès à votre
-    compte, et la restitution de tout le contenu.<br>@:color.soft se réserve
+    compte, et la restitution de tout le contenu.<br />@:color.soft se réserve
     le droit de refuser le service à n’importe qui pour n’importe quelle raison
     à tout moment.'
   - '@:color.soft se réserve également le droit de résilier votre compte si
@@ -173,5 +173,5 @@ full:
   - Ces données ne sont ni vendues, ni transmises à des tiers.
 footer:
   p:
-  - Conditions Générales d’Utilisation des services en ligne de l’association @:color.soft,<br>version
+  - Conditions Générales d’Utilisation des services en ligne de l’association @:color.soft,<br />version
     1.0.3 du 11 avril 2016.

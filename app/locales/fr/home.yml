@@ -1,5 +1,5 @@
 intro:
-  subtitle: Changer le monde,<br>un octet à la fois
+  subtitle: Changer le monde,<br />un octet à la fois
   text: '@:txt.soft, c’est une association d’<strong>éducation populaire</strong>,
     un groupe d’<span aria-label="amies">ami·es</span> <span aria-label="convaincues">convaincu·es</span>
     qu’un monde numérique <strong>émancipateur</strong> est possible, <span aria-label="persuadées">persuadé·es</span>
@@ -28,8 +28,8 @@ more:
   footer: Framasoft, c’est près d’une cinquantaine de projets.
   link: Voir la présentation complète.
 dio:
-  title: Dégooglisez votre Internet<br>trouvez des outils conviviaux
-  subtitle: Des <strong>alternatives éthiques</strong> sont possibles.<br> Démonstration
+  title: Dégooglisez votre Internet<br />trouvez des outils conviviaux
+  subtitle: Des <strong>alternatives éthiques</strong> sont possibles.<br /> Démonstration
     en <strong>{count} exemples</strong>.
   btn: Soutenir l’existence de ces services et aider à en développer de nouveaux
   footer: L’ensemble de nos services, avec la documentation pour les maîtriser,
@@ -37,7 +37,7 @@ dio:
 peertube:
   title: 'PeerTube : l’alternative à YouTube qui se fait avec et grâce à vous'
   text: Découvrez la version 1 de PeerTube, qui vous permet de créer <strong>votre</strong>
-    alternative à YouTube. Ce logiciel a été développé grâce à vos contributions.<br>
+    alternative à YouTube. Ce logiciel a été développé grâce à vos contributions.<br />
     Ensemble, inventons la plateforme vidéo qui nous ressemble.
   btn: Parcourir les principales fonctionnalités
   footer: 'Pour en savoir plus sur le logiciel PeerTube, découvrir comment il s’organise
@@ -70,7 +70,7 @@ mobilizon:
     <a href="https://test.mobilizon.org">test.mobilizon.org</a>'
 cuo:
   title: Contributopia
-  subtitle: La feuille de route de Framasoft, <br>c’est parti pour l’an 2
+  subtitle: La feuille de route de Framasoft, <br />c’est parti pour l’an 2
   meet:
     title: Mobilizon
     text: 'Au départ une alternative à Meetup ou aux événements Facebook, Mobilizon
@@ -78,11 +78,11 @@ cuo:
       un colloque de 300 <span aria-label="invités">invité⋅es</span> ou une manifestation
       de 15 000 personnes.'
   petitions:
-    title: Frama<br>pétitions
+    title: Frama<br />pétitions
     text: Organiser la sensibilisation à une cause qui vous tient à cœur. Alerter
       l’opinion. Regrouper les personnes qui veulent mener une action commune.
   mooc:
-    title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
+    title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br /><abbr
       lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
       Neutres et Solidaires">CHATONS</abbr>
     text: Un parcours pédagogique complet, débordant de ressources utiles, pour
@@ -98,7 +98,7 @@ cuo:
       de rassembler votre groupe, l'organiser avec vos outils
       et le mobiliser autour de vos événements.
   cloud:
-    title: Frama<br>cloud
+    title: Frama<br />cloud
     text: Un compte unique pour synchroniser ses notes, son agenda, ses contacts
       ou ses fichiers, pour collaborer dessus, etc. c’est une proposition
       que nous voulons construire, grâce au logiciel Nextcloud.
@@ -107,7 +107,7 @@ cuo:
     actuellement… Découvrez l’intégralité de notre feuille de route : <a href="@:link.cuo">@:txt.cuo</a> !'
 soutenir:
   title: Soutenir Framasoft
-  text: L’association Framasoft ne vit <strong>que</strong> de vos dons.<br> Ce
+  text: L’association Framasoft ne vit <strong>que</strong> de vos dons.<br /> Ce
     qu’on a fait vous a plu ? Vous pensez que nous allons dans le bon sens ? Alors,
     si vous en avez l’envie et les moyens, nous vous invitons à faire un don.
   why: Pourquoi soutenir Framasoft ?

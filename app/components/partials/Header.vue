@@ -1,16 +1,22 @@
 <template>
-  <div id="framaheader" class="clearfix header">
+  <div class="clearfix header">
     <div class="col-md-4">
-      <h1 id="framasoft" class="sitename">
-        <router-link :to="`/${$t('lang')}/`" v-html="$t('color.soft')"></router-link>
+      <h1 class="sitename">
+        <router-link
+          :to="`/${$t('lang')}/`"
+          v-html="$t('color.soft')"
+        />
       </h1>
     </div>
     <div class="col-md-5">
-      <p class="headerSubTitle" v-html="$t('meta.lead')"></p>
+      <p
+        class="headerSubTitle"
+        v-html="$t('meta.lead')"
+      ></p>
     </div>
     <div class="col-md-3">
-      <I18n/>
-      <InterNavHead/>
+      <I18n />
+      <InterNavHead />
     </div>
   </div>
 </template>

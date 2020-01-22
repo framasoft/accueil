@@ -53,11 +53,11 @@ step3:
   title: 3. J’accède au paiement
   defisc: Infos sur la défiscalisation
   defisc_title: Défiscalisation
-  defisc_tip: '@:txt.soft est une association reconnue d’intérêt général<br>
+  defisc_tip: '@:txt.soft est une association reconnue d’intérêt général<br />
     A ce titre, si vous êtes soumis à l’impôt sur le revenu, vous pourrez déduire
     66% du montant de votre don. Ainsi, si vous avez donné 10€ x 12 mois (120€),
-    vous pourrez déduire 120x66% (79,20€) de votre prochaine déclaration.<br> Le
-    reçu fiscal vous sera envoyé automatiquement par e-mail avant la déclaration.<br>
+    vous pourrez déduire 120x66% (79,20€) de votre prochaine déclaration.<br /> Le
+    reçu fiscal vous sera envoyé automatiquement par e-mail avant la déclaration.<br />
     Pour des informations plus détaillées, cliquez afin d’accéder à notre page explicative.'
   defisc_text:
   - 'En France, grâce à la déduction d’impôts de '
@@ -79,7 +79,7 @@ step3:
   modal_vir:
     by: par virement bancaire
     no_sepa: ' @:txt.soft ne propose pas de formulaire SEPA pour des prélèvements
-      bancaires, mais vous pouvez nous faire un don par virement directement.<br>
+      bancaires, mais vous pouvez nous faire un don par virement directement.<br />
       Ainsi vous décidez de la somme, de la fréquence et vous pouvez le modifier
       à tout moment.'
     to_finish: ' Pour finaliser votre don, merci de noter nos coordonnées bancaires :'

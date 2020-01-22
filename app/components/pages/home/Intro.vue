@@ -1,13 +1,25 @@
 <template>
-  <section id="intro" class="clearfix">
+  <section
+    id="intro"
+    class="clearfix"
+  >
     <div class="bg">
-      <div id="bubbles" class="bubbles"></div>
-      <div id="bubbles2" class="bubbles"></div>
-      <div id="bubbles3" class="bubbles"></div>
+      <div
+        id="bubbles"
+        class="bubbles"
+      ></div>
+      <div
+        id="bubbles2"
+        class="bubbles"
+      ></div>
+      <div
+        id="bubbles3"
+        class="bubbles"
+      ></div>
     </div>
     <div class="container">
       <div class="clearfix">
-        <I18n/>
+        <I18n />
       </div>
       <div class="clearfix">
         <div class="col-sm-5">
@@ -15,16 +27,19 @@
           <h2 v-html="$t('home.intro.subtitle')"></h2>
           <p v-html="$t('home.intro.text')"></p>
           <p>
-            <a href="#soutenir"
+            <a
+              href="#soutenir"
               class="btn btn-lg btn-soutenir"
-              v-html="$t('home.intro.btn')">
-            </a>
+              v-html="$t('home.intro.btn')"
+            ></a>
           </p>
         </div>
         <div class="col-sm-7 text-center">
-          <img :src="`${$t('/')}img/biglogo-notxt.png`"
+          <img
+            :src="`${$t('/')}img/biglogo-notxt.png`"
             alt=""
-            class="img-circle">
+            class="img-circle"
+          />
         </div>
       </div>
     </div>
@@ -37,5 +52,5 @@ export default {
   components: {
     I18n,
   },
-}
+};
 </script>

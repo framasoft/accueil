@@ -1,5 +1,5 @@
 intro:
-  subtitle: Cambiare il mondo<br>un byte alla volta
+  subtitle: Cambiare il mondo<br />un byte alla volta
   text: '@:txt.soft è una  <strong>organizzazione no-profit per l’educazione
     popolare</strong> un gruppo di amici convinti che un mondo digitale <strong>emancipatore</strong>
     è possibile, convinti che nascerà attraverso delle <strong>azioni concrete</strong>
@@ -25,8 +25,8 @@ more:
   footer: '@:txt.soft ha più di  50 progetti. Vai a vederli tutti.'
   link: Guarda la presentazione completa.
 dio:
-  title: Degoogolizza la tua Internet<br>trovare strumenti di facile utilizzo
-  subtitle: <strong>Le alternative etiche</strong> sono possibili.<br> La dimostrazione
+  title: Degoogolizza la tua Internet<br />trovare strumenti di facile utilizzo
+  subtitle: <strong>Le alternative etiche</strong> sono possibili.<br /> La dimostrazione
     con <strong>{count} esempi</strong>.
   btn: Aiutaci a mantenere questi servizi e a svilupparne di nuovi
   footer: Puoi trovare l’elenco completo dei nostri servizi, con l’intera documentazione
@@ -35,7 +35,7 @@ peertube:
   title: 'PeerTube: l’alternativa a YouTube, fatta con te e per te'
   text: Dai un'occhiata alla versione 1.0 di PeerTube che ti permette di creare
     la <strong>tua</strong> alternativa a YouTube. Questo software è stato sviluppato
-    grazie al tuo contributo. <br> Tutti insieme costruiamo una  piattaforma video
+    grazie al tuo contributo. <br /> Tutti insieme costruiamo una  piattaforma video
     che ci assomigli
   btn: Vai a vedere le caratteristiche principali
   footer: 'Per saperne di più su PeerTube, scopri com’è organizzato in una  <abbr
@@ -68,7 +68,7 @@ mobilizon:
     <a href="https://test.mobilizon.org">test.mobilizon.org</a>.'
 cuo:
   title: Contributopia
-  subtitle: La tabella di marcia di @:txt.soft, <br> verso il secondo anno
+  subtitle: La tabella di marcia di @:txt.soft, <br /> verso il secondo anno
   meet:
     title: Mobilizon
     text: 'All’inizio un’alternativa a Meetup o agli eventi Facebook, Mobilizon
@@ -76,11 +76,11 @@ cuo:
       cugino, per un convegno con 300 partecipanti o una dimostrazione di 15000
       persone.'
   petitions:
-    title: Frama<br>petitions
+    title: Frama<br />petitions
     text: Organizza la sensibilizzazione per una causa che per te è importante.
       Avvisa le persone. Riunisce le persone interessate ad un'azione comune.
   mooc:
-    title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
+    title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br /><abbr
       lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
       Neutres et Solidaires">CHATONS</abbr>
     text: Un percorso educativo completo, pieno di utili risorse, per far crescere
@@ -97,7 +97,7 @@ cuo:
       per riunire il tuo gruppo, organizzarlo con i tuoi strumenti
       e mobilitarlo intorno ai tuoi eventi.
   cloud:
-    titleo: Frama<br>cloud
+    titleo: Frama<br />cloud
     text: Un account unico per sincronizzare le note, l’agenda, i contatti
       o i suoi file, per collaborare su di esso, ecc. è una proposta
       che vogliamo costruire, grazie al software Nextcloud.
@@ -107,7 +107,7 @@ cuo:
 soutenir:
   title: Sostieni Framasoft
   text: Framasoft è un'organizzazione no-profit e vive <strong>solo</strong> attraverso
-    le tue donazioni.<br> Ti è piaciuto quello che abbiamo fatto? Pensi che stiamo
+    le tue donazioni.<br /> Ti è piaciuto quello che abbiamo fatto? Pensi che stiamo
     andando nella giusta direzione? Se è così  ne hai la voglia e i mezzi, ti invitiamo
     a fare una donazione.
   why: Perchè sostenere @:txt.soft?

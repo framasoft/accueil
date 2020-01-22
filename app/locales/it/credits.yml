@@ -3,7 +3,7 @@ main:
   p-intro:
   - 'Questo sito utilizza elementi liberi comuni all’intera rete @:txt.soft:'
   - Alcuni elementi vengono distribuiti tramite lo script che aggiunge la barra
-    di navigazione e il piè di pagina del sito. <br> Il codice sorgente può essere
+    di navigazione e il piè di pagina del sito. <br /> Il codice sorgente può essere
     trovato <a href="https://framagit.org/framasoft/framanav"> sul nostro repository
     Gitlab </a>
   - ' <a href="../graphics"> Layout grafico </a>:'
@@ -24,8 +24,8 @@ main:
     href="../association"> documenti amministrativi dell'associazione</a> sotto
     sottoposti a questa licenza.
   - I pinguini che camminano in giro per il sito provengono da <a href="https://www.le-terrier.net/pingouin/pingouin.html">@:people.lldemars</a>
-    e sono sottoposti a licenza @:license.lal.<br> I fumetti disegnati da <a
+    e sono sottoposti a licenza @:license.lal.<br /> I fumetti disegnati da <a
     href="http://ptilouk.net">@:people.gee</a> sono sotto licenza @:license.ccbysa2fr.
-  - Il logo è opera di @:people.jo sotto licenza @:license.ccbysa4fr.<br>
-    È ispirato alla mascotte creata inizialmente da @:people.lldemars.<br>
+  - Il logo è opera di @:people.jo sotto licenza @:license.ccbysa4fr.<br />
+    È ispirato alla mascotte creata inizialmente da @:people.lldemars.<br />
     (@:txt.soft è autorizzata ad utilizzare il logo senza dover citare l'autore).

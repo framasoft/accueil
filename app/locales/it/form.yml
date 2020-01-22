@@ -52,11 +52,11 @@ step3:
   title: Accedo al pagamento
   defisc: Informazioni sull'esenzione fiscale
   defisc_title: Esenzione fiscale
-  defisc_tip: '@:txt.soft  è un’associazione riconosciuta di interesse generale.<br>
+  defisc_tip: '@:txt.soft  è un’associazione riconosciuta di interesse generale.<br />
     Come tale, se sei soggetto all’imposta sul reddito, puoi dedurre il 66% dell’ammontare
     della tua donazione. Cioè, se tu hai donato €10 x 12 mesi (€120), potrai dedurre
-    120x66% (€79,20) dalla tua prossima dichiarazione. <br> La ricevuta fiscale
-    ti verrà inviata automaticamente via email prima della dichiarazione. <br> Per
+    120x66% (€79,20) dalla tua prossima dichiarazione. <br /> La ricevuta fiscale
+    ti verrà inviata automaticamente via email prima della dichiarazione. <br /> Per
     informazioni più dettagliate clicca qui per accedere alla nostra pagina di spiegazioni.'
   defisc_text:
   - In Francia grazie alla detrazione fiscale della
@@ -78,7 +78,7 @@ step3:
   modal_vir:
     by: con bonifico bancario
     no_sepa: '@:txt.soft  non offre un modulo SEPA per un addebito diretto,
-      ma tu puoi fare una donazione via bonifico bancario direttamente a noi.<br>
+      ma tu puoi fare una donazione via bonifico bancario direttamente a noi.<br />
       Così tu puoi decidere la somma e la frequenza e puoi cambiarle quando vuoi.'
     to_finish: 'Per completare la tua donazione, prendi nota delle nostre coordinate
       bancarie:'

@@ -34,7 +34,7 @@ logiciel:
       what: Un distributore
       title: Installazione massiva
       desc: '@:txt.pack è uno strumento utile a scegliere il miglior software
-        libero per la versione più recente di Windows. <br> Selezioni il software
+        libero per la versione più recente di Windows. <br /> Selezioni il software
         che desideri e tutti i programmi verranno installati in un unico comodo
         passaggio!'
 culture:

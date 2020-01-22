@@ -2,7 +2,7 @@ title: 'Termini d’uso '
 intro:
   title: Preambolo
   text: Utilizzando questo servizio, accetti di essere vincolato dai seguenti termini.
-    <br> @:color.soft si riserva il diritto di aggiornare e modificare questi
+    <br /> @:color.soft si riserva il diritto di aggiornare e modificare questi
     termini di volta in volta.
 short:
   title: 'Versione breve (TL;DR come siamo soliti dire) '
@@ -134,7 +134,7 @@ full:
   - '@:color.soft, a sua esclusiva discrezione, ha il diritto di sospendere
     o chiudere il tuo account e rifiutare qualsiasi utilizzo attuale o futuro del
     servizio. La cessazione del servizio comporterà la disattivazione dell’accesso
-    al tuo account e la restituzione di tutti i contenuti. <br> @:color.soft
+    al tuo account e la restituzione di tutti i contenuti. <br /> @:color.soft
     si riserva il diritto di rifiutare il servizio a chiunque, per qualsiasi motivo,
     in qualsiasi momento.'
   - '@:color.soft si riserva inoltre il diritto di chiudere un account se non
@@ -164,5 +164,5 @@ full:
   - Questi dati non vengono né venduti né trasmessi a terzi.
 footer:
   p:
-  - Condizioni d'uso dei servizi online dell'associazione @:color.soft,<br>
+  - Condizioni d'uso dei servizi online dell'associazione @:color.soft,<br />
     versione 1.0.3 dell'11 aprile 2016.
