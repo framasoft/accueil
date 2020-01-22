@@ -16,16 +16,15 @@
 </template>
 
 <script>
-import I18n from './I18n.vue'
-import InterNavHead from './InterNavHead.vue'
+import I18n from './I18n.vue';
+import InterNavHead from './InterNavHead.vue';
 
 export default {
-  name: 'framaheader',
   components: {
     I18n,
     InterNavHead,
   },
-}
+};
 
 // Konami code
 if (window.addEventListener) {

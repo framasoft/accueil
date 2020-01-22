@@ -20,28 +20,34 @@
         'meta[name^=twitter][name$=image]': {content: meta.img},
         'meta[name^=twitter][name$=description]': {content: meta.description},
 
-        'meta[name=author]': {content:  meta.author},
+        'meta[name=author]': {content: meta.author},
       }"
     />
-    <router-view></router-view>
+    <router-view />
   </div>
 </template>
 
 <script>
 export default {
-  created() {
-    if (this.$route.meta.lang !== undefined
-      && this.$i18n.locale !== this.$route.meta.lang) {
-      this.$i18n.locale = this.$route.meta.lang;
-    }
+  name: 'App',
+  components: {
+    HeaderComponent,
   },
   data() {
-    const title = this.$te(`meta.${this.$route.meta.id}.title`)
-      ? this.text(this.$t(`meta.${this.$route.meta.id}.title`))
-      : this.text(this.$t(`meta.title`));
     const description = this.$te(`meta.${this.$route.meta.id}.description`)
-      ? this.text(this.$t(`meta.${this.$route.meta.id}.description`))
-      : this.text(this.$t(`meta.description`));
+      ? this.$t(`meta.${this.$route.meta.id}.description`)
+      : this.$t('meta.description', '-t');
+
+    let title = this.$t('meta.title', '-t'); // Main title
+
+    if (this.$te(`${this.$route.meta.id}.title`)) {
+      // Main title - Page title
+      title = `${title} - ${this.$t(`${this.$route.meta.id}.title`, '-t')}`;
+    }
+    if (this.$te(`meta.${this.$route.meta.id}.title`)) {
+      // Custom title
+      title = this.$t(`meta.${this.$route.meta.id}.title`, '-t');
+    }
 
     return {
       meta: {
@@ -53,8 +59,14 @@ export default {
         favicon: `${this.$t('baseurl').replace(/\/$/, '')}/icons/favicon.png`,
         appleicon: `${this.$t('baseurl').replace(/\/$/, '')}/icons/apple-touch-icon.png`,
       },
-      i18n: process.env.NODE_ENV === 'development' ? this.$i18n.messages : ''
+      i18n: process.env.NODE_ENV === 'development' ? this.$i18n.messages : '',
+    };
+  },
+  created() {
+    if (this.$route.meta.lang !== undefined
+      && this.$i18n.locale !== this.$route.meta.lang) {
+      this.$i18n.locale = this.$route.meta.lang;
     }
-  }
-}
+  },
+};
 </script>
