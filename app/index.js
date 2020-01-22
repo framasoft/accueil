@@ -242,10 +242,21 @@ if (!window.vuefsPrerender
 
 // Routes
 const router = new VueRouter({
-  routes,
-  scrollBehavior() { return { x: 0, y: 0 }; },
-  mode: 'history',
   base: `${__dirname}${process.env.BASE_URL}`,
+  mode: 'history',
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        selector: to.hash,
+        offset: { x: 0, y: 60 },
+      };
+    }
+    if (savedPosition) {
+      return savedPosition;
+    }
+    return { x: 0, y: 0 };
+  },
 });
 
 new Vue({ // eslint-disable-line no-new

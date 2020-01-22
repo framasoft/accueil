@@ -1,0 +1,18 @@
+peertube:
+  modal:
+    title: Funcionalidades principais do PeerTube
+dio:
+  btn: Ajude-nos a manter estes serviços e a desenvolver novos
+  title: '"Degooglize" a sua Internet<br> encontre ferramentas fáceis de utilizar'
+more:
+  link: Veja a apresentação completa.
+  footer: '@:txt.soft tem mais de 50 projetos. Veja-os todos.'
+  confs:
+    text: Mais de cem conferências, sessões de formação e intervenções por ano
+    title: Conferências, sessões de formação
+  libre:
+    title: '@:txt.libre, a diretoria de cultura livre'
+  title: Framasoft é…
+intro:
+  btn: Apoie as nossas ações
+  subtitle: Mude o mundo<br>um byte de cada vez

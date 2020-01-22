@@ -66,14 +66,15 @@ ul-comportement:
 - Insister auprès d’une personne alors que cette dernière vous a demandé d’arrêter.
   Respectez les refus, les « non », laissez les gens tranquilles s’iels ne veulent
   pas vous parler.
-- Faire des blagues qui ne  nous font pas rire. Nous n’aurons pas d’humour notamment
-  sur des questions de genre, d’orientation sexuelle, d’apparence physique, de culture,
-  de validité physique ou mentale, etc. et plus généralement sur tout ce qui entretient
-  des oppressions systémiques. Dans le doute, demandez-vous préalablement si les
-  personnes visées vont en rire avec vous.
+- Tenir des propos dégradants sur les questions de genre, d’orientation sexuelle,
+  d’apparence physique, de culture, de validité physique ou mentale, etc. et plus
+  généralement sur tout ce qui entretient des oppressions systémiques. Si vous pensiez
+  faire une blague, sachez que nous n’avons pas d’humour sur ces questions et que nous
+  ne les tolérerons pas. Dans le doute, demandez-vous préalablement si les personnes
+  visées vont en rire avec vous.
 - Générer des messages automatiques de type flood, spam, etc. Les robots sont parfois
   tolérés, à condition d’être bien éduqués.
-- Partager des émotions négatives intenses (colère, dépression), en particulier
+- Partager des émotions négatives intenses (notamment la colère), en particulier
   à l’égard d’une personne. Les médias sociaux ne sont pas un lieu approprié pour
   un règlement de compte ou une demande de prise en charge psychologique. Quittez
   votre clavier pour exprimer les émotions intenses, trouvez le lieu adéquat pour
@@ -168,4 +169,4 @@ p-evolution:
 footer:
   p:
   - Charte de modération approuvée par<br>l’association @:color.soft le 8 juillet
-    2019.
+    2019 et mise à jour le 12 novembre 2019.

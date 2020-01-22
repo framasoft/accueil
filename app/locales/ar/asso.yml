@@ -1,0 +1,24 @@
+data:
+  dd:
+    banners: الشعارات
+    graphics: على هذه الصفحة
+    press: الجدول السنوي
+    reportsMAndF: التقرير الأدبي والمالي
+    reportsActivities: تقرير حول النشاطات
+    reportsFinancial: التقرير المالي
+  dt:
+    founders: الأعضاء المؤسّسون
+    projects: أهم المشاريع
+    id: الهوية الكاملة
+    org: التنظيم
+    headquarters: المقر
+    registration: تسجيل الجمعية
+    dg: المدير والمندوب العام
+    juridical: الصفة القانونية
+infos:
+  ri: النظام الداخلي
+  statuts: القانون الأساسي للجمعية
+  h2: جمعية @:txt.soft association
+prez:
+  h2: تعريف @:txt.soft
+title: الجمعية
