@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="dio"
-    class="clearfix"
-  >
+  <section id="dio">
     <div class="container-fluid">
       <p class="btn-circle">
         <a href="#dio">
@@ -28,13 +25,13 @@
           <span v-text="vcf.coverList[vcf.index].title"></span>
         </h4>
         <p
-          class="col-sm-6 col-sm-offset-3 fc_g3"
+          class="col-sm-6 mx-auto fc_g3"
           v-html="$t(`cat.cloud.sites.${vcf.coverList[vcf.index].id}.desc`)"
         ></p>
-        <div class="col-sm-12 text-center">
+        <div class="text-center">
           <carousel-3d
             :autoplay="true"
-            :autoplay-timeout="5000"
+            :autoplay-timeout="8000"
             :controls-visible="true"
             dir="ltr"
             :height="350"
@@ -60,12 +57,13 @@
             </slide>
           </carousel-3d>
         </div>
-        <p class="col-sm-12 text-center">
-          <a
+        <p class="text-center">
+          <b-button
             href="#soutenir"
-            class="btn btn-lg btn-soutenir"
+            size="lg"
+            variant="soutenir"
             v-html="$t('home.dio.btn')"
-          ></a>
+          />
         </p>
       </div>
       <p

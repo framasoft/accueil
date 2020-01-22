@@ -1,8 +1,5 @@
 <template>
-  <section
-    id="intro"
-    class="clearfix"
-  >
+  <section id="intro">
     <div class="bg">
       <div
         id="bubbles"
@@ -18,30 +15,34 @@
       ></div>
     </div>
     <div class="container">
-      <div class="clearfix">
+      <b-row class="mx-0 justify-content-end">
         <I18n />
-      </div>
-      <div class="clearfix">
-        <div class="col-sm-5">
+      </b-row>
+      <b-row class="mx-0">
+        <b-col md="5">
           <h1 v-html="$t('txt.soft')"></h1>
           <h2 v-html="$t('home.intro.subtitle')"></h2>
           <p v-html="$t('home.intro.text')"></p>
           <p>
-            <a
+            <b-button
               href="#soutenir"
-              class="btn btn-lg btn-soutenir"
+              variant="soutenir"
+              size="lg"
               v-html="$t('home.intro.btn')"
-            ></a>
+            />
           </p>
-        </div>
-        <div class="col-sm-7 text-center">
+        </b-col>
+        <b-col
+          md="7"
+          class="text-center"
+        >
           <img
             :src="`${$t('/')}img/biglogo-notxt.png`"
             alt=""
-            class="img-circle"
+            class="rounded-circle"
           />
-        </div>
-      </div>
+        </b-col>
+      </b-row>
     </div>
   </section>
 </template>

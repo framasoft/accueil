@@ -1,74 +1,49 @@
 <template>
-  <section
-    id="more"
-    class="clearfix"
-  >
+  <section id="more">
     <div class="container-fluid">
       <div class="container">
         <h2
-          class="col-xs-12 text-left"
+          class="text-left"
           v-html="$t('home.more.title')"
         ></h2>
-        <div class="col-sm-3 text-center">
-          <icon
-            name="linux"
-            name2="circle-thin"
-            size="4x bleu"
-          />
-          <h3
-            class="h3 text-left"
-            v-html="$t('home.more.libre.title')"
-          ></h3>
-          <p
-            class="text-left"
-            v-html="$t('home.more.libre.text')"
-          ></p>
-        </div>
-        <div class="col-sm-3 text-center">
-          <icon
-            name="book"
-            name2="circle-thin"
-            size="4x rouge"
-          />
-          <h3
-            class="h3 text-left"
-            v-html="$t('home.more.book.title')"
-          ></h3>
-          <p
-            class="text-left"
-            v-html="$t('home.more.book.text')"
-          ></p>
-        </div>
-        <div class="col-sm-3 text-center">
-          <icon
-            name="pencil"
-            name2="circle-thin"
-            size="4x violet"
-          />
-          <h3
-            class="h3 text-left"
-            v-html="$t('home.more.blog.title')"
-          ></h3>
-          <p
-            class="text-left"
-            v-html="$t('home.more.blog.text')"
-          ></p>
-        </div>
-        <div class="col-sm-3 text-center">
-          <icon
-            name="group"
-            name2="circle-thin"
-            size="4x orange"
-          />
-          <h3
-            class="h3 text-left"
-            v-html="$t('home.more.confs.title')"
-          ></h3>
-          <p
-            class="text-left"
-            v-html="$t('home.more.confs.text')"
-          ></p>
-        </div>
+        <b-row>
+          <b-col md="3">
+            <icon
+              name="linux"
+              name2="circle-thin"
+              size="4x bleu d-block mx-auto"
+            />
+            <h3 v-html="$t('home.more.libre.title')"></h3>
+            <p v-html="$t('home.more.libre.text')"></p>
+          </b-col>
+          <b-col md="3">
+            <icon
+              name="book"
+              name2="circle-thin"
+              size="4x rouge d-block mx-auto"
+            />
+            <h3 v-html="$t('home.more.book.title')"></h3>
+            <p v-html="$t('home.more.book.text')"></p>
+          </b-col>
+          <b-col md="3">
+            <icon
+              name="pencil"
+              name2="circle-thin"
+              size="4x violet d-block mx-auto"
+            />
+            <h3 v-html="$t('home.more.blog.title')"></h3>
+            <p v-html="$t('home.more.blog.text')"></p>
+          </b-col>
+          <b-col md="3">
+            <icon
+              name="group"
+              name2="circle-thin"
+              size="4x orange d-block mx-auto"
+            />
+            <h3 v-html="$t('home.more.confs.title')"></h3>
+            <p v-html="$t('home.more.confs.text')"></p>
+          </b-col>
+        </b-row>
       </div>
       <p class="pfooter">
         <span v-html="$t('home.more.footer')"></span>

@@ -2,17 +2,10 @@ $monthly: #DBA306; // $jaune foncé
 $onetime: #366F86; // $bleu foncé
 
 #soutenir {
-  .container {
-    padding: 30px 0;
-    background: transparent url('../img/dots.png') no-repeat 5% 95%;
-  }
+  background: transparent url('../img/dots.png') no-repeat 5% 95%;
 
   .ombre {
     padding: 1em 2em 0;
-  }
-
-  .col-md-7, .col-md-5 {
-    padding: 1em 0.5em;
   }
 
   h2 {
@@ -29,7 +22,7 @@ $onetime: #366F86; // $bleu foncé
 
   #why ~ .container .why,
   #timeline ~ .container .timeline,
-  #money ~ .container .money, {
+  #money ~ .container .money {
     display: none;
   }
 
@@ -39,33 +32,39 @@ $onetime: #366F86; // $bleu foncé
     display: block;
   }
 
-  .panel-group {
-    background: #fff;
-    box-shadow: $ombre;
-  }
-
-  .panel {
+  .card {
     margin-top: -1px;
     border-radius: 0;
   }
 
-  .panel-heading h4 {
+  .card-header h4 {
     color: #555;
+    font-size: 1.25rem;
 
     &:first-letter {
       color: #dba306;
     }
   }
 
-  #modalTL {
+  #f-modal-tl {
     top: 40px;
 
     .modal-header {
       background: #fff;
     }
+
+    .modal-body {
+      padding: 0;
+    }
+
     .modal-footer {
       border: none;
+
+      .btn-primary {
+        display: none;
+      }
     }
+
     .modal-content {
       border-radius: 0;
     }
@@ -128,12 +127,9 @@ $onetime: #366F86; // $bleu foncé
     width: 100%;
   }
 
-  .input-group span,
+  .input-group div,
   .input-group input {
-    line-height: 20px;
-    font-size: 1.2em;
-    padding: 0.65em 0.8em;
-    border: 1px solid #ccc;
+    font-size: 1.2rem;
     box-shadow: none;
     height: auto;
     border-radius: 0;
@@ -141,6 +137,10 @@ $onetime: #366F86; // $bleu foncé
 }
 
 .monthly .amount {
+  &.amount1 {
+    display: none;
+  }
+
   .btn {
     &.selected {
       background-color: $monthly;
@@ -154,17 +154,17 @@ $onetime: #366F86; // $bleu foncé
 
   .input-group {
     &.selected {
-      span {
+      div {
         background-color: $monthly;
         color: #fff;
       }
-      span, input {
+      div, input {
         border-color: $monthly;
       }
     }
 
     &:hover, &:focus {
-      span,
+      div,
       input {
         border-color: $monthly;
       }
@@ -173,6 +173,10 @@ $onetime: #366F86; // $bleu foncé
 }
 
 .onetime .amount {
+  &.amountM {
+    display: none;
+  }
+
   .btn {
     &.selected {
       background-color: $onetime;
@@ -186,17 +190,17 @@ $onetime: #366F86; // $bleu foncé
 
   .input-group {
     &.selected {
-      span {
+      div {
         background-color: $onetime;
         color: #fff;
       }
-      span, input {
+      div, input {
         border-color: $onetime;
       }
     }
 
     &:hover, &:focus {
-      span,
+      div,
       input {
         border-color: $onetime;
       }
@@ -204,19 +208,30 @@ $onetime: #366F86; // $bleu foncé
   }
 }
 
-.modal .modal-header {
-  background: $onetime;
-}
+#soutenir {
+  .modal-header {
+    background: $onetime;
+    display: block;
+  }
 
-.modal cite.alert {
-  display: block;
-}
+  cite.alert {
+    display: block;
+  }
 
-.modal.monthly .modal-header {
-  background: $monthly;
+  .monthly .modal-header {
+    background: $monthly;
+  }
+
+  .btn-group {
+    outline: 0;
+  }
 }
 
 #whoAreYou {
+  .card {
+    background: #f5f5f5;
+  }
+
   p.pull-left {
     line-height: 30px;
     margin: 0;
@@ -229,18 +244,14 @@ $onetime: #366F86; // $bleu foncé
     i { color: #757575; }
   }
 
-
-  .well {
-    margin:0;
-  }
-
-  .input-group-addon {
+  .input-group-prepend .input-group-text {
     color: #757575;
     background: #fff;
     border-top: 0px;
     border-left: 0px;
     border-right: 0px;
-    padding: 6px;
+    border-bottom-color: #fff;
+    border-radius: 0;
   }
 
   input, select {
@@ -252,77 +263,22 @@ $onetime: #366F86; // $bleu foncé
     box-shadow: none;
   }
 
-  .lastname, .society, .firstname,
-  .address1, .address2, .zip, .city {
-    margin-bottom: 0;
-  }
-
-  .address1 input {
+  #address1 {
     border-bottom-style: dashed;
   }
 
-  .email input,
-  .country select {
+  #email,
+  #nickname,
+  #country {
     border-bottom-color: #fff;
   }
 
-  .email.has-error input  {
-    border-bottom-color: #a94442;
+  #nickname[readonly="readonly"] {
+    border-bottom-color: #e9ecef;
   }
 
-  .email.has-success input  {
-    border-bottom-color: #3c763d;
-  }
-
-  .address2, .zip, .city, .country {
-    .fa { visibility: hidden; }
-  }
-
-  .email, .address1, .address2, .zip, .city, .country {
-    .input-group-addon {
-      border-bottom-color: #fff !important;
-    }
-  }
-
- .society, .lastname, .adress1 {
-    .input-group-addon {
-      border-bottom-color: #ccc !important;
-    }
-  }
-
-  .lastname, .zip {
-    padding-right: 0;
-  }
-
-  .firstname, .city {
-    padding-left: 0;
-    border-left: 1px solid #ccc !important;
-  }
-
-  .email .input-group-addon {
-    border-radius: 4px 0px 0px 4px;
-  }
-
-  .email input {
-    border-radius: 0px 4px 4px 0px;
-  }
-
-  .lastname .input-group-addon,
-  .society .input-group-addon {
-    border-radius: 4px 0px 0px 0px;
-  }
-
-  .firstname input,
-  .society input {
-    border-radius: 0px 4px 0px 0px;
-  }
-
-  .country select {
-    border-radius: 0px 0px 4px 0px;
-  }
-
-  .country .input-group-addon {
-    border-radius: 0px 0px 0px 4px;
+  #firstname, #city {
+    border-left: 1px solid #ccc;
   }
 }
 
@@ -340,14 +296,7 @@ $onetime: #366F86; // $bleu foncé
   }
 }
 
-#defiscalise {
-  padding: 0 1em;
-  font-size: 14px;
-}
-
 #payment{
-  margin-top: 0em;
-
   label.btn {
     width: 100%;
     border-radius: 0;

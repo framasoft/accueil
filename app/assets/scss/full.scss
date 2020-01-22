@@ -9,7 +9,6 @@
 
 body {
   background-color: $bgcolor !important;
-  font-family: "DejaVu Sans", Verdana, Geneva, sans-serif;
   color: #333;
 }
 
@@ -42,7 +41,6 @@ a, a:hover, a:focus, a:visited, a h4 {text-decoration: none !important;}
 /*----------- titraille général ------------*/
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PTSansCaption", sans-serif;
   font-weight: bold;
   margin-left: 0;
   margin-right: 0;

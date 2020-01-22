@@ -1,11 +1,9 @@
 <template>
-  <section
-    id="mobilizon"
-    class="clearfix"
-  >
+  <section id="mobilizon">
     <div class="embed-responsive embed-responsive-16by9">
       <img
         :src="`${$t('/')}img/mobilizon/event.gif`"
+        class="embed-responsive-item"
         alt=""
         style="width: 100%"
       />
@@ -14,11 +12,10 @@
       <h2 v-html="$t('home.mobilizon.title')"></h2>
       <p v-html="$t('home.mobilizon.text')"></p>
       <p>
-        <a
+        <b-button
           :href="$t('home.mobilizon.link')"
-          class="btn btn-default"
           v-html="$t('home.mobilizon.btn')"
-        ></a>
+        />
       </p>
     </div>
     <p

@@ -12,7 +12,9 @@
 
     <contributopia />
 
-    <soutenir />
+    <div class="clearfix container p-0">
+      <soutenir />
+    </div>
   </main>
 </template>
 

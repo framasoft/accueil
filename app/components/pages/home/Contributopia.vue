@@ -1,68 +1,68 @@
 <template>
-  <section
-    id="cuo"
-    class="clearfix"
-  >
+  <section id="cuo">
     <div class="container-fluid">
       <div class="container">
         <h2 v-html="$t('home.cuo.title')"></h2>
         <h3 v-html="$t('home.cuo.subtitle')"></h3>
       </div>
       <div class="container ombre">
-        <div class="col-md-4">
-          <h4
-            class="label label-success"
-            v-html="$t('home.cuo.meet.title')"
-          ></h4>
-          <button
-            class="bigbubble"
-            :style="`background: url(${$t('/')}img/services-framameet.jpg);`"
-          >
-            <p v-html="$t('home.cuo.meet.text')"></p>
-          </button>
-          <a
-            href="#!"
-            class="close"
-            aria-hidden="true"
-            v-html="'&times;'"
-          ></a>
-        </div>
-        <div class="col-md-4">
-          <h4
-            class="label label-primary"
-            v-html="$t('home.cuo.petitions.title')"
-          ></h4>
-          <button
-            class="bigbubble"
-            :style="`background: url(${$t('/')}img/services-framapetitions.jpg);`"
-          >
-            <p v-html="$t('home.cuo.petitions.text')"></p>
-          </button>
-          <a
-            href="#!"
-            class="close"
-            aria-hidden="true"
-            v-html="'&times;'"
-          ></a>
-        </div>
-        <div class="col-md-4">
-          <h4
-            class="label label-info"
-            v-html="$t('home.cuo.mooc.title')"
-          ></h4>
-          <button
-            class="bigbubble"
-            :style="`background: url(${$t('/')}img/educ-pop-mooc-chatons.jpg);`"
-          >
-            <p v-html="$t('home.cuo.mooc.text')"></p>
-          </button>
-          <a
-            href="#!"
-            class="close"
-            aria-hidden="true"
-            v-html="'&times;'"
-          ></a>
-        </div>
+        <b-row>
+          <b-col lg="4">
+            <h4
+              class="label label-success"
+              v-html="$t('home.cuo.meet.title')"
+            ></h4>
+            <button
+              class="bigbubble"
+              :style="`background: url(${$t('/')}img/services-framameet.jpg);`"
+            >
+              <p v-html="$t('home.cuo.meet.text')"></p>
+            </button>
+            <a
+              href="#!"
+              class="close"
+              aria-hidden="true"
+              v-html="'&times;'"
+            >
+            </a>
+          </b-col>
+          <b-col lg="4">
+            <h4
+              class="label label-primary"
+              v-html="$t('home.cuo.petitions.title')"
+            ></h4>
+            <button
+              class="bigbubble"
+              :style="`background: url(${$t('/')}img/services-framapetitions.jpg);`"
+            >
+              <p v-html="$t('home.cuo.petitions.text')"></p>
+            </button>
+            <a
+              href="#!"
+              class="close"
+              aria-hidden="true"
+              v-html="'&times;'"
+            ></a>
+          </b-col>
+          <b-col lg="4">
+            <h4
+              class="label label-info"
+              v-html="$t('home.cuo.mooc.title')"
+            ></h4>
+            <button
+              class="bigbubble"
+              :style="`background: url(${$t('/')}img/educ-pop-mooc-chatons.jpg);`"
+            >
+              <p v-html="$t('home.cuo.mooc.text')"></p>
+            </button>
+            <a
+              href="#!"
+              class="close"
+              aria-hidden="true"
+              v-html="'&times;'"
+            ></a>
+          </b-col>
+        </b-row>
         <p class="col-sm-12 text-center">
           <a
             href="#soutenir"
