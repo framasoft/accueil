@@ -1,5 +1,5 @@
 <template>
-  <div class="container ombre apropos">
+  <div class="container ombre">
     <header class="clearfix header">
       <h1
         class="pull-left"
@@ -10,10 +10,10 @@
     <main>
       <div v-html="$t('credits.main')"></div>
 
-      <div
+      <b-card
         v-if="$t('hash') !== ''"
         id="site-credits"
-        class="well"
+        bg-variant="light"
       >
         <section v-show="$t('hash') === 'blog'">
           <h1 v-html="$t('html.blog')"></h1>
@@ -40,36 +40,6 @@
             <span v-html="$t('html.soft')"></span>.
             Une partie de la traduction est issue du travail de traduction de
             la valeureuse équipe du <a href="http://www.crdp.ac-versailles.fr/">CRDP de Versailles</a>.
-          </p>
-        </section>
-        <section v-show="$t('hash') === 'connard'">
-          <h1>Bastard, Inc</h1>
-          <p>
-            Dessins&nbsp;:
-            <a
-              href="http://ptilouk.net"
-              v-html="$t('people.gee')"
-            ></a><br />
-            Textes&nbsp;:
-            <a
-              href="http://pouhiou.com"
-              v-html="$t('people.pouhiou')"
-            ></a>
-          </p>
-          <p>
-            Ce blog et ses contenus sont directement élevés par leurs auteurs
-            dans le
-            <a href="http://creativecommons.org/publicdomain/zero/1.0/">
-              Domaine Public Vivant
-            </a>.
-            À vous de vous en emparer.
-          </p>
-          <p>
-            Image de couverture et d’entête&nbsp;: versions dérivées de
-            <a href="https://secure.flickr.com/photos/thomasleuthard/8253943837/">
-              Business as usual…
-            </a>
-            (<span v-html="$t('license.ccby3')"></span> Thomas Leuthard)
           </p>
         </section>
         <section v-show="$t('hash') === 'contact'">
@@ -183,32 +153,32 @@
             La <span v-html="$t('html.key')"></span> est réalisée par une équipe
             de bénévoles du réseau <span v-html="$t('html.soft')"></span>&nbsp;:
           </p>
-          <dl class="dl-horizontal">
+          <dl>
             <dt>Réalisation</dt>
             <dd>
               pp (Pascal Parraud) (v1), pyg ({{ $t('people.pyg') }}) (v1),
               {{ $t('people.fat115') }} (v2)
             </dd>
           </dl>
-          <dl class="dl-horizontal">
-            <dt>Packaging<br />et mise à jours</dt>
+          <dl>
+            <dt>Packaging et mise à jours</dt>
             <dd>
               pyg ({{ $t('people.pyg') }}), {{ $t('people.fat115') }} (v1.12+),
               {{ $t('people.cyrille') }} (v1.12+), {{ $t('people.jo') }} (v1.12+)
             </dd>
           </dl>
-          <dl class="dl-horizontal">
-            <dt>Graphisme<br />et thème</dt>
+          <dl>
+            <dt>Graphisme et thème</dt>
             <dd>Ayo (v1.5 ; logo), Detruc (v1.6), Roromis (v1.12)</dd>
           </dl>
-          <dl class="dl-horizontal">
+          <dl>
             <dt>Rédaction</dt>
             <dd>
               {{ $t('people.pyg') }}, Julien Tayon, Eric-Marie Gabalda, Gaëtan Maison,
               {{ $t('people.fat115') }}, {{ $t('people.cyrille') }}, {{ $t('people.jo') }}
             </dd>
           </dl>
-          <dl class="dl-horizontal">
+          <dl>
             <dt>Communication</dt>
             <dd>Tbernard (Thierry Bernard)</dd>
           </dl>
@@ -322,25 +292,25 @@
             Cette page est un portail qui présente l’ensemble des activités et
             des sites web du réseau <span v-html="$t('html.soft')"></span>.
           </p>
-          <dl class="dl-horizontal">
+          <dl>
             <dt>Maquette</dt>
             <dd>{{ $t('people.sandra') }}</dd>
           </dl>
-          <dl class="dl-horizontal">
+          <dl>
             <dt>Intégration</dt>
             <dd>{{ $t('people.sandra') }}, {{ $t('people.jo') }}</dd>
           </dl>
         </section>
         <section v-show="$t('hash') === 'soutenir'">
           <h1>Site Soutenir</h1>
-          <dl class="dl-horizontal">
+          <dl>
             <dt>Maquette</dt>
             <dd>
               {{ $t('people.sandra') }} et {{ $t('people.gab') }} sur la base
               d’un travail de <a href="http://www.smile.fr/">Smile</a>
             </dd>
           </dl>
-          <dl class="dl-horizontal">
+          <dl>
             <dt>Intégration</dt>
             <dd>{{ $t('people.pyg') }} et {{ $t('people.jo') }}</dd>
           </dl>
@@ -547,7 +517,7 @@
             </a>).
           </p>
         </section>
-      </div>
+      </b-card>
     </main>
   </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <div class="container ombre apropos">
+  <div class="container ombre">
     <header class="clearfix header">
       <h1
         class="pull-left"
@@ -8,7 +8,7 @@
       <I18n />
     </header>
     <main>
-      <div v-html="$t('charte')"></div>
+      <div v-html="$t('charte.md')"></div>
 
       <div class="signature">
         <hr />

@@ -34,7 +34,7 @@ a, a:hover, a:focus, a:visited, a h4 {text-decoration: none !important;}
   content: " \f08e";
 }
 
-.apropos header a[href*="lite"] {
+#lite header a[href*="lite"] {
   display: none;
 }
 
@@ -518,12 +518,6 @@ blockquote {
   font: italic 1em/1.35 "PT Sans", Arial, sans-serif;
   margin-bottom: 2em;
   text-align: center;
-}
-
-#association {
-  .dl-horizontal dt {
-    white-space: normal;
-  }
 }
 
 .w-date, .w-board, .w-piaf, .w-listes, .w-talk,

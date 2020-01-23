@@ -1,5 +1,5 @@
 <template>
-  <div class="container ombre apropos">
+  <div class="container ombre">
     <header class="clearfix header">
       <h1
         class="pull-left"
@@ -8,26 +8,24 @@
       <I18n />
     </header>
     <main>
-      <h2 v-html="$t('cgu.intro.title')"></h2>
-      <p v-html="$t('cgu.intro.text')"></p>
+      <div v-html="$t('cgu.intro')"></div>
 
-      <h2 v-html="$t('cgu.short.title')"></h2>
-      <p v-html="$t('cgu.short.desc')"></p>
       <p><b v-html="$t('cgu.short.sympa.text')"></b></p>
-      <ul class="list-group">
+      <ul class="list-group mb-4">
         <li
           v-for="index in Object.keys($t('cgu.short.sympa.list'))"
           :key="index"
-          class="list-group-item bg-success"
+          class="list-group-item list-group-item-success"
           v-html="$t(`cgu.short.sympa.list[${index}]`)"
         ></li>
       </ul>
+
       <p v-html="$t('cgu.short.terms.text')"></p>
-      <ul class="list-group">
+      <ul class="list-group mb-4">
         <li
           v-for="index in Object.keys($t('cgu.short.terms.list'))"
           :key="index"
-          class="list-group-item bg-warning"
+          class="list-group-item list-group-item-warning"
           v-html="$t(`cgu.short.terms.list[${index}]`)"
         ></li>
       </ul>
@@ -36,7 +34,7 @@
 
       <div class="signature">
         <hr />
-        <div v-html="$t('cgu.footer')"></div>
+        <p v-html="$t('cgu.footer')"></p>
       </div>
     </main>
   </div>

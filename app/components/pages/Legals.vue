@@ -1,5 +1,5 @@
 <template>
-  <div class="container ombre apropos">
+  <div class="container ombre">
     <header class="clearfix header">
       <h1
         class="pull-left"
@@ -8,32 +8,7 @@
       <I18n />
     </header>
     <main>
-      <h2 v-html="$t('legals.editor.title')"></h2>
-
-      <h3 v-html="$t('txt.soft')"></h3>
-      <p>
-        <span v-html="$t('legals.editor.asso')"></span>
-        <span v-html="$t('legals.editor.assoNb')"></span>
-      </p>
-      <p>
-        <span v-html="$t('legals.editor.siret')"></span>
-        <span v-html="$t('legals.editor.siretNb')"></span>
-      </p>
-
-      <h3 v-html="$t('legals.editor.siege')"></h3>
-      <p v-html="$t('legals.editor.address')"></p>
-      <p>
-        <span v-html="$t('legals.editor.contact')"></span>
-        <a
-          :href="$t('link.contact')"
-          v-html="$t('link.contact')"
-        ></a>
-      </p>
-
-      <h3 v-html="$t('legals.editor.coprez')"></h3>
-      <p v-html="$t('legals.editor.coprezName')"></p>
-
-      <h3 v-html="$t('legals.editor.host')"></h3>
+      <div v-html="$t('legals.editor')"></div>
 
       <div
         v-if="$t('hash') === 'ovh'"
@@ -83,7 +58,7 @@
             $t('lang')}`"
         ></iframe>
       </div>
-      <div v-html="$t('legals.infoLib.modify')"></div>
+      <div v-html="$t('legals.modify')"></div>
 
       <hr />
 
@@ -91,7 +66,7 @@
 
       <div class="signature">
         <hr />
-        <div v-html="$t('legals.footer')"></div>
+        <p v-html="$t('legals.footer')"></p>
       </div>
     </main>
   </div>

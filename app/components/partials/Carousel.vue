@@ -3,27 +3,23 @@
     v-if="slides.length > 0"
     class="carousel-container"
   >
-    <carousel
+    <b-carousel
       ref="carousel"
-      :indicators="false"
+      fade
+      indicators
       :controls="true"
       :interval="interval"
     >
-      <slide
+      <b-carousel-slide
         v-for="(slide, index) in slides"
         :key="index"
-      >
-        <a :href="slide.link">
-          <img
-            :src="slide.img"
-            alt=""
-          />
-          <div class="carousel-caption">
-            <h4 v-text="slide.title"></h4>
-          </div>
-        </a>
-      </slide>
-    </carousel>
+        :caption="slide.title"
+        caption-tag="h4"
+        :img-src="slide.img"
+        content-tag="a"
+        :href="slide.link"
+      />
+    </b-carousel>
     <p
       v-if="interval === 5000"
       class="text-center play-pause"

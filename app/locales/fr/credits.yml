@@ -1,31 +1,37 @@
 title: Crédits
-main:
-  p-intro:
-  - 'Ce site utilise des éléments libres communs à l’ensemble du réseau @:txt.soft :'
-  - Certains éléments sont déployés via le script qui ajoute la barre de navigation
-    et le pied de page du site.<br /> Le code source peut être consulté <a href="https://framagit.org/framasoft/framanav">sur
-    notre dépôt Gitlab</a>.
-  - '<a href="../graphics">Charte graphique</a> :'
-  ul-tools:
-  - la librairie <a href="https://jquery.com/">jQuery</a> et le framework libre
-    <a href="https://getbootstrap.com">Bootstrap</a>
-  - ou bien le framework libre <a href="https://vuejs.org">VueJS</a> et de nombreuses
+main: |-
+  Ce site utilise des éléments libres communs à l’ensemble du réseau @:txt.soft :
+
+  Certains éléments sont déployés via le script qui ajoute la barre de navigation
+  et le pied de page du site.<br /> Le code source peut être consulté [sur notre dépôt
+  Gitlab](https://framagit.org/framasoft/framanav).
+
+  [Charte graphique](../graphics) :
+
+  - la librairie [jQuery](https://jquery.com/) et le framework libre
+    [Bootstrap](https://getbootstrap.com)
+  - ou bien le framework libre [VueJS](https://vuejs.org) et de nombreuses
     dépendances
-  - les polices d’écriture <a href="https://www.paratype.com/public/">PTSans</a>
-    (titres), <a href="http://dejavu-fonts.org/wiki/Main_Page">Deja Vu Sans</a>
-    et <a href="https://forkawesome.github.io/Fork-Awesome/">Fork-Awesome</a> (icônes)
-  - l’outil de mesure statistique <a href="https://www.matomo.org/">Matomo</a>
-  h2-license: Licence
-  p-license:
-  - Sauf mention contraire, le contenu des sites est placé sous licence libre @:license.ccbysa4fr
-  - Notre <a href="../charte">charte</a>, les <a href="../cgu">Conditions Générales
-    d’Utilisation</a> de nos services, les <a href="../legals">mentions légales</a>
-    et l’ensemble des <a href="../association"> documents administratifs de l’association</a>
-    sont également placés sous cette licence.
-  - Les pingouins qui se promènent sur le site nous viennent de <a href="https://www.le-terrier.net/pingouin/pingouin.html">@:people.lldemars</a>
-    et sont placés sous licence @:license.lal<br /> Les personnages de BD dessinés
-    par <a href="http://ptilouk.net">@:people.gee</a> sont sous licence @:license.ccbysa2fr
-  - Le logo est une œuvre de @:people.jo sous licence @:license.ccbysa4fr<br />
-    Il est inspiré de la mascotte initialement crée par @:people.lldemars</>.<br />
-    (@:txt.soft a l’autorisation d’utiliser le logo sans avoir besoin de citer
-    l’auteur).
+  - les polices d’écriture [Roboto](https://fonts.google.com/specimen/Roboto),
+    [Deja Vu Sans](http://dejavu-fonts.org/wiki/Main_Page)
+    et [Fork-Awesome](https://forkawesome.github.io/Fork-Awesome/) (icônes)
+  - l’outil de mesure statistique [Matomo](https://www.matomo.org/)
+
+  ## Licence
+
+  Sauf mention contraire, le contenu des sites est placé sous licence libre @:license.ccbysa4fr
+
+  Notre [charte](../charte), les [Conditions Générales d’Utilisation](../cgu)
+  de nos services, les [mentions légales](../legals)
+  et l’ensemble des [ documents administratifs de l’association](../association)
+  sont également placés sous cette licence.
+
+  Les pingouins qui se promènent sur le site nous viennent de
+  [@:people.lldemars](https://www.le-terrier.net/pingouin/pingouin.html)
+  et sont placés sous licence @:license.lal<br /> Les personnages de BD dessinés
+  par [@:people.gee](http://ptilouk.net) sont sous licence @:license.ccbysa2fr
+
+  Le logo est une œuvre de @:people.jo sous licence @:license.ccbysa4fr<br />
+  Il est inspiré de la mascotte initialement crée par @:(people.lldemars).<br />
+  (@:txt.soft a l’autorisation d’utiliser le logo sans avoir besoin de citer
+  l’auteur).

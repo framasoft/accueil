@@ -9,57 +9,56 @@
         <b-row>
           <b-col lg="4">
             <h4
-              class="label label-success"
-              v-html="$t('home.cuo.meet.title')"
+              class="badge badge-warning"
+              v-html="$t('home.cuo.peertube.title')"
             ></h4>
             <button
               class="bigbubble"
-              :style="`background: url(${$t('/')}img/services-framameet.jpg);`"
+              :style="`background: url(${$t('/')}img/services-peertube.jpg);`"
             >
-              <p v-html="$t('home.cuo.meet.text')"></p>
+              <p v-html="$t('home.cuo.peertube.text')"></p>
             </button>
             <a
               href="#!"
               class="close"
               aria-hidden="true"
-              v-html="'&times;'"
-            >
-            </a>
-          </b-col>
-          <b-col lg="4">
-            <h4
-              class="label label-primary"
-              v-html="$t('home.cuo.petitions.title')"
-            ></h4>
-            <button
-              class="bigbubble"
-              :style="`background: url(${$t('/')}img/services-framapetitions.jpg);`"
-            >
-              <p v-html="$t('home.cuo.petitions.text')"></p>
-            </button>
-            <a
-              href="#!"
-              class="close"
-              aria-hidden="true"
-              v-html="'&times;'"
+              v-text="'×'"
             ></a>
           </b-col>
           <b-col lg="4">
             <h4
-              class="label label-info"
-              v-html="$t('home.cuo.mooc.title')"
+              class="badge badge-primary"
+              v-html="$t('home.cuo.mobilizon.title')"
             ></h4>
             <button
               class="bigbubble"
-              :style="`background: url(${$t('/')}img/educ-pop-mooc-chatons.jpg);`"
+              :style="`background: url(${$t('/')}img/services-mobilizon.jpg);`"
             >
-              <p v-html="$t('home.cuo.mooc.text')"></p>
+              <p v-html="$t('home.cuo.mobilizon.text')"></p>
             </button>
             <a
               href="#!"
               class="close"
               aria-hidden="true"
-              v-html="'&times;'"
+              v-text="'×'"
+            ></a>
+          </b-col>
+          <b-col lg="4">
+            <h4
+              class="badge badge-info"
+              v-html="$t('home.cuo.cloud.title')"
+            ></h4>
+            <button
+              class="bigbubble"
+              :style="`background: url(${$t('/')}img/services-cloud.jpg);`"
+            >
+              <p v-html="$t('home.cuo.cloud.text')"></p>
+            </button>
+            <a
+              href="#!"
+              class="close"
+              aria-hidden="true"
+              v-text="'×'"
             ></a>
           </b-col>
         </b-row>

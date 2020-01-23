@@ -1,5 +1,5 @@
 <template>
-  <div class="container ombre apropos">
+  <div class="container ombre">
     <header class="clearfix header">
       <h1
         class="pull-left"
@@ -10,25 +10,25 @@
     <main>
       <div v-html="$t('asso.prez')"></div>
 
-      <div class="row">
-        <div class="col-sm-10 col-sm-offset-1">
+      <b-row align-h="center">
+        <b-col md="10">
           <img
-            class="img-responsive"
+            class="img-fluid"
             alt=""
-            :title="$t('asso.prez.saveas')"
+            :title="$t('asso.saveas')"
             :src="`${$t('baseurl')}img/${$t('lang')
             }/infographie_Le-Monde-de-Framasoft_CC-By-SA-Geoffrey-Dorne-1920px-2019.jpg`"
           />
           <p class="text-right">
-            <span v-html="$t('asso.prez.infography')"></span>
+            <span v-html="$t('asso.infography')"></span>
             <a
               href="http://geoffreydorne.com"
               v-html="$t('people.dorme')"
             ></a>,
             <span v-html="$t('license.ccbysa4fr')"></span>
           </p>
-        </div>
-      </div>
+        </b-col>
+      </b-row>
 
       <hr />
 
@@ -37,12 +37,12 @@
       <ul>
         <li>
           <a :href="`${$t('asso.files')}statuts-Framasoft-2015-v8.pdf`">
-            <strong v-html="$t('asso.infos.statuts')"></strong>
+            <strong v-html="$t('asso.statuts')"></strong>
           </a>
         </li>
         <li>
           <a :href="`${$t('asso.files')}reglement-interieur-2015-v6c.pdf`">
-            <strong v-html="$t('asso.infos.ri')"></strong>
+            <strong v-html="$t('asso.ri')"></strong>
           </a>
         </li>
       </ul>
@@ -58,49 +58,78 @@
       <hr />
 
       <h2 v-html="$t('asso.data.title')"></h2>
-      <div class="col-sm-10 col-sm-offset-1 well">
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.juridical')"></dt>
+
+      <b-card bg-variant="light mx-auto col-md-10">
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+
+            v-html="$t('asso.data.dt.juridical')"
+          ></dt>
           <dd v-html="$t('asso.data.dd.juridical')"></dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.coprez')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+
+            v-html="$t('asso.data.dt.coprez')"
+          ></dt>
           <dd v-html="$t('legals.editor.coprezName')"></dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.dg')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+
+            v-html="$t('asso.data.dt.dg')"
+          ></dt>
           <dd>Pierre-Yves Gosset</dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.registration')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+
+            v-html="$t('asso.data.dt.registration')"
+          ></dt>
           <dd>
             2004
             (<a
               :href="`${$t('asso.files')}statuts-Framasoft-2015-v8.pdf`"
               rel="nofollow"
-              v-html="$t('asso.infos.statuts')"
+              v-html="$t('asso.statuts')"
             ></a>)
             (<a
               :href="`${$t('asso.files')}reglement-interieur-2015-v6c.pdf`"
               rel="nofollow"
-              v-html="$t('asso.infos.ri')"
+              v-html="$t('asso.ri')"
             ></a>)
           </dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.staff')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.staff')"
+          ></dt>
           <dd v-html="$t('asso.data.dd.staff')"></dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.headquarters')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.headquarters')"
+          ></dt>
           <dd>Lyon, France</dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.org')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.org')"
+          ></dt>
           <dd v-html="$t('asso.data.dd.org')"></dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.id')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.id')"
+          ></dt>
           <dd>
             <a
               :href="`${$t('asso.files')}fiche_identification_framasoft.pdf`"
@@ -109,8 +138,11 @@
             ></a>
           </dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.projects')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.projects')"
+          ></dt>
           <dd>
             <a
               :href="$t('link.cuo')"
@@ -122,17 +154,23 @@
             ></a>
           </dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.charte')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.charte')"
+          ></dt>
           <dd>
             <a
               href="../charte"
-              v-html="$t('charte.title')"
+              v-html="$t('asso.data.dd.charte')"
             ></a>
           </dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.reports')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.reports')"
+          ></dt>
           <dd>
             <ul>
               <li>
@@ -225,8 +263,11 @@
             </ul>
           </dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.newsletter')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.newsletter')"
+          ></dt>
           <dd>
             <a
               :href="$t('link.newsletter')"
@@ -234,8 +275,11 @@
             ></a>
           </dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.press')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.press')"
+          ></dt>
           <dd>
             <a
               :href="$t('link.press')"
@@ -243,32 +287,46 @@
             ></a>
           </dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.graphics')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.graphics')"
+          ></dt>
           <dd>
             <a
               href="../graphics"
               v-html="$t('asso.data.dd.graphics')"
-            ></a>
-          </dd>
-        </dl>
-        <dl class="dl-horizontal">
-          <dd>
+            ></a> -
             <a
               href="https://soutenir.framasoft.org/afficher-votre-soutien"
               v-html="$t('asso.data.dd.banners')"
-            ></a> -
-            <a
-              href="https://soutenir.framasoft.org/benevolat"
-              v-html="$t('asso.data.dd.benevalo')"
             ></a>
           </dd>
         </dl>
-        <dl class="dl-horizontal">
-          <dt v-html="$t('asso.data.dt.founders')"></dt>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.community')"
+          ></dt>
+          <dd>
+            <a
+              href="https://soutenir.framasoft.org/benevolat"
+              v-html="$t('asso.data.dd.benevalo')"
+            ></a> -
+            <a
+              href="https://framasoft.org/moderation"
+              v-html="$t('asso.data.dd.moderation')"
+            ></a>
+          </dd>
+        </dl>
+        <dl class="row">
+          <dt
+            class="col-md-4 col-lg-3"
+            v-html="$t('asso.data.dt.founders')"
+          ></dt>
           <dd>{{ $t('people.aka') }}, Paul Lunetta, Georges Silva</dd>
         </dl>
-      </div>
+      </b-card>
     </main>
   </div>
 </template>

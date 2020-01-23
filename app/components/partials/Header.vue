@@ -1,24 +1,24 @@
 <template>
-  <div class="clearfix header">
-    <div class="col-md-4">
+  <b-row>
+    <b-col lg="4">
       <h1 class="sitename">
         <router-link
           :to="`/${$t('lang')}/`"
           v-html="$t('color.soft')"
         />
       </h1>
-    </div>
-    <div class="col-md-5">
+    </b-col>
+    <b-col lg="5">
       <p
-        class="headerSubTitle"
+        class="lead"
         v-html="$t('meta.lead')"
       ></p>
-    </div>
-    <div class="col-md-3">
+    </b-col>
+    <b-col lg="3">
       <I18n />
       <InterNavHead />
-    </div>
-  </div>
+    </b-col>
+  </b-row>
 </template>
 
 <script>
