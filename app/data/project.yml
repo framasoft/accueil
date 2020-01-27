@@ -3,7 +3,7 @@ meta:
   author: Framasoft
   canonical: https://framasoft.org
   description: '@:home.intro.text'
-  i18n: https://weblate.framasoft.org/projects/framasoft/
+  i18n: https://trad.framasoft.org/iteration/view/framasoft/master
   employees: '9'
   association:
     title: '@:txt.soft - @:asso.title'
