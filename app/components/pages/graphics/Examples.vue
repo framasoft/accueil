@@ -51,7 +51,7 @@
             v-for="variant in ['secondary', 'primary', 'success', 'info',
                                'warning', 'danger', 'soutenir', 'link']"
             :key="variant"
-            :class="`btn btn-${variant} mx-1`"
+            :class="`btn btn-${variant} m-1`"
             v-text="$t(variant, '-kK')"
           ></button>
         </p>

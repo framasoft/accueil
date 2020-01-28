@@ -171,7 +171,7 @@
             <SVGPinchot
               :icon="icon"
               :color="color"
-              class="display:none"
+              class="d-none"
             />
           </div>
           <canvas
@@ -179,7 +179,6 @@
             ref="canvas_round"
             width="120"
             height="120"
-            class="fa"
           ></canvas>
           <div
             id="svg_fav"
@@ -188,7 +187,7 @@
             <SVGFavicon
               :icon="icon"
               :color="color"
-              class="display:none"
+              class="d-none"
             />
           </div>
           <canvas
@@ -196,7 +195,6 @@
             ref="canvas_fav"
             width="32"
             height="32"
-            class="fa"
           ></canvas>
         </b-col>
       </b-row>
@@ -244,25 +242,15 @@ export default {
       [this.icon.unicode] = [getComputedStyle(this.$refs.framicon, ':before').content[1]];
     },
     svg2png(id) {
-      const fa = new FontFace('ForkAwesome',
-        'url(https://framasoft.org/nav/fonts/forkawesome-webfont.woff)');
-      fa.load()
-        .then((font) => {
-          document.fonts.add(font);
-          const canvas = this.$refs[`canvas_${id}`];
-          const ctx = canvas.getContext('2d');
-
-          const img = new Image();
-          const svg = new Blob([this.$refs[`svg_${id}`].innerHTML], {
-            type: 'image/svg+xml;charset=utf-8',
-          });
-
-          console.log(this.$refs[`svg_${id}`].innerHTML); // eslint-disable-line
-          const url = window.self.URL.createObjectURL(svg);
-          img.onload = () => { ctx.drawImage(img, 0, 0); };
-          img.src = url;
-        })
-        .catch(err => console.log(err)); // eslint-disable-line
+      const canvas = this.$refs[`canvas_${id}`];
+      const ctx = canvas.getContext('2d');
+      const img = new Image();
+      const svg = new Blob([this.$refs[`svg_${id}`].innerHTML], {
+        type: 'image/svg+xml;charset=utf-8',
+      });
+      const url = window.self.URL.createObjectURL(svg);
+      img.onload = () => { ctx.drawImage(img, 0, 0); };
+      img.src = url;
     },
   },
 };

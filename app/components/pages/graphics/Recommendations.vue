@@ -210,8 +210,8 @@
       </a>
     </p>
     <pre>&lt;a href="https://framasoft.org" class="btn btn-sm btn-outline-secondary" title="se rendre sur Framasoft"&gt;
-&lt;i class="fa fa-fighter-jet" aria-hidden="true"&gt;
-&lt;/i&gt;&lt;span class="sr-only"&gt;Framasoft&lt;/span&gt;
+  &lt;i class="fa fa-fighter-jet" aria-hidden="true"&gt;&lt;/i&gt;
+  &lt;span class="sr-only"&gt;Framasoft&lt;/span&gt;
 &lt;/a&gt;</pre>
 
     <h2>Typographie</h2>
