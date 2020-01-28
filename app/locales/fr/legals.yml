@@ -7,7 +7,8 @@ editor: |-
   sous le n° @:legals.assoNb
 
   N° Siret : @:legals.siretNb
-  siege: Siège social
+
+  Siège social : @:legals.address
 
   Pour nous contacter : <@:link.contact>
 
@@ -21,7 +22,7 @@ infoLib: |-
   ### Informations personnelles collectées
 
   En France, les données personnelles sont notamment protégées par [la loi n° 78-17 du 6 janvier
-  1978](https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460),
+  1978](https://legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460),
   la loi n° 2004-801 du 6 août 2004, l’article L. 226-13 du Code pénal et la Directive
   Européenne du 24  octobre 1995.
 

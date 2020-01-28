@@ -33,7 +33,7 @@ logiciel:
       what: A distributor
       title: Massive install
       desc: '@:txt.pack is a handy tool to pick the best free software for
-        Window’s most recent version.<br /> You select the software you want and all
+        Window’s most recent version.<br />You select the software you want and all
         the programs are installed in a single convenient step!'
 culture:
   title: Free cultures
@@ -157,14 +157,14 @@ cloud:
     piaf:
       what: Networking
       title: Social network in 500 characters
-      desc: '@:txt.piaf is a <b>microblogging</b> libre service, based on the
+      desc: '@:txt.piaf is a **microblogging** libre service, based on the
         decentralized Mastodon software. Find your friends on @:txt.piaf -
         or other instances Mastodon, GNU Social, Friendica - and exchange with them
         without being tracked.'
     team:
       what: Discussing
       title: Collaborative communication
-      desc: '@:txt.team is a free <b> chat </b> service which allows for team
+      desc: '@:txt.team is a free ** chat ** service which allows for team
         collaboration, notifications, conversations history and research.'
     listes:
       what: Discussing
@@ -210,8 +210,8 @@ cloud:
     carte:
       what: Mapping
       title: Creat custom maps
-      desc: Framacarte allows you to draw, label, colour, annotate maps from <a
-        href="@:link.wOSM">OpenStreetMap</a> in order to display them on your website
+      desc: Framacarte allows you to draw, label, colour, annotate maps from
+        [OpenStreetMap](@:link.wOSM) in order to display them on your website
         or print them.
     drop:
       what: Sharing

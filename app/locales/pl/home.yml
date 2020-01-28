@@ -1,6 +1,6 @@
 mobilizon:
   footer: 'Aby poznać plan rozwoju oprogramowania Mobilizon do 2020: JoinMobilizon.
-    Aby przetestować powstające funkcje <a href="https://test.mobilizon.org">test.mobilizon.org</a>'
+    Aby przetestować powstające funkcje [test.mobilizon.org](https://test.mobilizon.org)'
   link: https://framablog.org/?p=18299
   text: Zajrzyj na wersję beta Mobilizona, który pozwoli na utworzenie własnej alternatywy
     dla MeetUp i wydarzeń na Facebooku. To oprogramowanie jest rozwijane dzięki Waszemu
@@ -41,16 +41,15 @@ peertube:
   footer: Aby dowiedzieć się więcej o oprogramowaniu PeerTube, jak działa <abbr title="Znana
     również jako Fediwersum, grupa sfederowanych instancji.">federacja</abbr> i zrozumieć
     jak możesz utworzyć własną <abbr title="Zdecentralizowana instalacja na serwerze,
-    dostępna za pośrednictwem adresu sieciowego.">instancję</abbr>, <a href="https://joinpeertube.org/en"
-    lang="en">JoinPeertube</a>
+    dostępna za pośrednictwem adresu sieciowego.">instancję</abbr>, @:html.joinpeertube
   btn: Poznaj główne funkcje
   title: PeerTube – alternatywa dla YouTube, powstała dzięki Tobie i dla Ciebie
 dio:
   footer: Pełną listę naszych usług, wraz z ich całą dokumentacją możesz znaleźć na
-    stronie <a href=@:link.dio/en>@:txt.dio</a>
+    stronie [@:txt.dio](@:link.dio)
   btn: Pomóż nam utrzymywać te usługi i pomóż w powstawaniu nowych
-  subtitle: <strong>Etyczne alternatywy</strong> mogą istnieć.<br />Przedstawienie na
-    <strong>{count} przykładach</strong>.
+  subtitle: '**Etyczne alternatywy** mogą istnieć.<br />Przedstawienie na
+    **{count} przykładach**.'
   title: Uwolnij swój Internet od Google<br />poznaj przyjazne użytkownikom narzędzia
 more:
   link: Zobacz pełną prezentację.
@@ -72,8 +71,8 @@ more:
   title: Framasoft to…
 intro:
   btn: Wspieraj nasze działania
-  text: '@:txt.soft jest <strong>organizacją</strong> non-profit <strong>na rzecz
-    powszechnej edukacji</strong>, grupą przyjaciół przekonanych, że <strong>uwolnienie</strong>
-    świata cyfrowego jest możliwe, przekonanych że doprowadzą do tego <strong>rzeczywiste
-    działania</strong> w prawdziwym świecie i Internecie dla Ciebie i dzięki Tobie!'
+  text: '@:txt.soft jest **organizacją** non-profit **na rzecz
+    powszechnej edukacji**, grupą przyjaciół przekonanych, że **uwolnienie**
+    świata cyfrowego jest możliwe, przekonanych że doprowadzą do tego **rzeczywiste
+    działania** w prawdziwym świecie i Internecie dla Ciebie i dzięki Tobie!'
   subtitle: Zmieniaj świat<br />bajt po bajcie

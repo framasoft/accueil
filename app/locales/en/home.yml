@@ -26,16 +26,16 @@ more:
   link: See the full presentation.
 dio:
   title: Degooglize your Internet<br />find user-friendly tools
-  subtitle: '**Ethical alternatives** are possible.<br /> Demonstration
+  subtitle: '**Ethical alternatives** are possible.<br />Demonstration
     with **{count} examples**.'
   btn: Help us maintain these services and help us to develop new ones
   footer: The complete list of our services, with the whole documentation to master
-    them, can be found on the <a href=@:link.dio/en>@:txt.dio</a> website
+    them, can be found on the [@:txt.dio](@:link.dio) website
 peertube:
   title: 'PeerTube : the alternative to YouTube, made with you and for you'
   text: Have a look to 1.0 version of PeerTube, which lets you to create **your**
     own alternative to YouTube. This software has been developped thanks to your
-    contriibutions.<br /> All together, let’s build a smilar to us video platform
+    contriibutions.<br />All together, let’s build a smilar to us video platform
   btn: Browse the main features
   footer: 'To learn about the PeerTube software, discover how it’s organized into
     a <abbr title="Also known as fediverse, the whole group of federated instances.">federation</abbr>
@@ -99,7 +99,7 @@ cuo:
       that we want to build, thanks to Nextcloud software.
   btn: Contribute to another year of Contributopia
   footer: 'All this is just a sample of all the actions we are currently working
-    on… Discover the whole roadmap: [@:txt.cuo](@:link.cuo/en)!'
+    on… Discover the whole roadmap: [@:txt.cuo](@:link.cuo)!'
 soutenir:
   title: Support Framasoft
   text: Framasoft is a non-profit which can **only** keep running thanks

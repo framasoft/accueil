@@ -29,7 +29,7 @@ more:
   link: Voir la présentation complète.
 dio:
   title: Dégooglisez votre Internet<br />trouvez des outils conviviaux
-  subtitle: Des **alternatives éthiques** sont possibles.<br /> Démonstration
+  subtitle: Des **alternatives éthiques** sont possibles.<br />Démonstration
     en **{count} exemples**.
   btn: Soutenir l’existence de ces services et aider à en développer de nouveaux
   footer: L’ensemble de nos services, avec la documentation pour les maîtriser,
@@ -70,7 +70,7 @@ mobilizon:
     [test.mobilizon.org](https://test.mobilizon.org)'
 cuo:
   title: Contributopia
-  subtitle: La feuille de route de Framasoft, <br />c’est parti pour l’an 2
+  subtitle: La feuille de route de Framasoft,<br />c’est parti pour l’an 2
   meet:
     title: Mobilizon
     text: 'Au départ une alternative à Meetup ou aux événements Facebook, Mobilizon
@@ -107,7 +107,7 @@ cuo:
     actuellement… Découvrez l’intégralité de notre feuille de route : [@:txt.cuo](@:link.cuo) !'
 soutenir:
   title: Soutenir Framasoft
-  text: L’association Framasoft ne vit **que** de vos dons.<br /> Ce
+  text: L’association Framasoft ne vit **que** de vos dons.<br />Ce
     qu’on a fait vous a plu ? Vous pensez que nous allons dans le bon sens ? Alors,
     si vous en avez l’envie et les moyens, nous vous invitons à faire un don.
   why: Pourquoi soutenir Framasoft ?

@@ -2,7 +2,7 @@ graphics:
   title: Carta gráfica
 search:
   web: na Web
-  frama: nos ''sites'' da Web de @:txt.soft’s
+  frama: nos sites da Web de @:txt.soft’s
   btn: Pesquisar
 link:
   garden: '@:link.cloud/fr/cultiver-son-jardin'
@@ -22,8 +22,8 @@ nav:
       title: para a secção da cultura
       key: Secção da Cultura
     logiciel:
-      title: para a secção do ''software''
-      key: Secção do 'software''
+      title: para a secção do software
+      key: Secção do software
   full: Início Clássico
   lite: Acesso rápido
 meta:

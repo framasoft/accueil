@@ -1,15 +1,10 @@
-search:
-  web: w Internecie
-  frama: na stronach @:txt.soft
-  btn: Szukaj
-link:
-  wOSM: https://pl.wikipedia.org/wiki/OpenStreetMap
-  wCommons: https://pl.wikipedia.org/wiki/Dobra_spo%C5%82eczne
-  wFreeCulture: https://en.wikipedia.org/wiki/Libre_culture
-  wFreeLicense: https://pl.wikipedia.org/wiki/Wolna_licencja
-  wSourceCode: https://pl.wikipedia.org/wiki/Kod_%C5%BAr%C3%B3d%C5%82owy
-  wFreeSoftware: https://pl.wikipedia.org/wiki/Wolne_oprogramowanie
+lite: Szybki dostęp
+meta:
+  license: '@:license.ccbysa4, chyba że wspomniano inaczej'
+  lead: Przed nami długa droga, ale to droga ku wolności…
+  title: '@:txt.soft ~ Zmieniaj świat bajt po bajcie'
 nav:
+  lite: Szybki dostęp
   parts:
     cloud:
       title: do sekcji chmury
@@ -20,9 +15,15 @@ nav:
     logiciel:
       title: do sekcji oprogramowania
       key: Sekcja oprogramowania
-  lite: Szybki dostęp
-meta:
-  license: '@:license.ccbysa4, chyba że wspomniano inaczej'
-  lead: Przed nami długa droga, ale to droga ku wolności…
-  title: '@:txt.soft ~ Zmieniaj świat bajt po bajcie'
-lite: Szybki dostęp
+link:
+  wOSM: https://pl.wikipedia.org/wiki/OpenStreetMap
+  wCommons: https://pl.wikipedia.org/wiki/Dobra_spo%C5%82eczne
+  wFreeCulture: https://en.wikipedia.org/wiki/Libre_culture
+  wFreeLicense: https://pl.wikipedia.org/wiki/Wolna_licencja
+  wSourceCode: https://pl.wikipedia.org/wiki/Kod_%C5%BAr%C3%B3d%C5%82owy
+  wFreeSoftware: https://pl.wikipedia.org/wiki/Wolne_oprogramowanie
+search:
+  web: w Internecie
+  frama: na stronach @:txt.soft
+  btn: Szukaj
+

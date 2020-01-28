@@ -69,7 +69,7 @@ step3:
   ok: 'Ok, j’ai compris'
   modal_vir:
     by: par virement bancaire
-    no_sepa: ' @:txt.soft ne propose pas de formulaire SEPA pour des prélèvements bancaires, mais vous pouvez nous faire un don par virement directement.<br> Ainsi vous décidez de la somme, de la fréquence et vous pouvez le modifier à tout moment.'
+    no_sepa: ' @:txt.soft ne propose pas de formulaire SEPA pour des prélèvements bancaires, mais vous pouvez nous faire un don par virement directement.<br /> Ainsi vous décidez de la somme, de la fréquence et vous pouvez le modifier à tout moment.'
     to_finish: ' Pour finaliser votre don, merci de noter nos coordonnées bancaires :'
     ref: ' Notez aussi cette <b>référence de paiement</b> qu’il faudra ajouter à la description du virement :'
     to_bank: ' Voyez ensuite avec votre banque comment planifier le virement. Certaines banques permettent de gérer ça en ligne.'

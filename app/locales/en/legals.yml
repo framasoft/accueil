@@ -1,84 +1,100 @@
 title: Legals
-editor:
-  title: Publisher
-  asso: Association law 1901 declared in sub-prefecture of Arles on December 2,
-    2003 under the number 
-  siret: 'N° Siret :'
-  siege: Headquarters
-  contact: 'To contact us:'
-  coprez: Co-chair, publication management
-  host: Hosting company
-infoLib:
-  h2: Computers and liberties
-  h3-privacy: Personal information collected
-  p-privacy:
-  - In France, personal data is protected by <a href="https://www.legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460">
-    Act No. 78-17 of 6 January 1978</a>, Act No. 2004-801 of 6 August 2004, article
-    L. 226-13 of the Penal Code and the European Directive of 24  October 1995.
-  - In any event @:color.soft does collect personal information about the user
-    (name, e-mail address, telephone number) that is needed by the services offered
-    by the sites of the network @:color.soft, in particular for the inscription
-    with discussion spaces through online forms or for discussion forums statistical
-    processing. The user provides this information in full knowledge of the facts,
-    in particular when he/she inputs them him/herself. It is specified at this time
-    to the user of the network @:color.soft if the information to provide is
-    obligatory or not.
-  h3-stats: Statistical analysis and confidentiality
-  p-stats:
-  - In order to adapt the site to our visitors’ requests, we analyze the traffic
-    of our sites with Matomo. Matomo generates a cookie with a unique identifier,
-    whose storage period is limited to 13 months. The data collected (IP address,
-    User-Agent…) are anonymized and kept for a period of 6 months. They are not
-    transferred to third parties or used for any other purpose.
-  modify:
-    h3-modify: Rectification of personal information collected
-    p-modify:
-    - 'In accordance with the provisions of Article 34 of Act No 48-87 of January
-      6, 1978, the user has a right of modification of the personal data collected
-      concerning him. To do this, user sends to @:color.soft:'
-    ul-modify:
-    - you can send us an e-mail using the contact form
-    - a letter should be sent to the address of the association’s headquarters (indicated
-      above) indicating your name or business name, your physical and/or electronic
-      address and, where appropriate, the reference that you have as a user of the
-      @:color.soft site.
-    p1-modify:
-    - The amendment will be made within a reasonable period of time from the date
-      of receiving the user’s request.
-liabilities:
-  h2: Limitation of liability
-  p:
-  - This site contains information made available by external communities or companies
-    or hypertext links to other sites that were not developed by @:color.soft</>.
-    Content made available on the site is provided for information purposes only.
-    The existence of a link of this site to another site does not constitute a validation
-    of that site, or of its content. It is up to the Internet user to use these
-    information with discernment and critical thinking. The responsibility of @:color.soft
-    could not be committed because of the information, opinions and recommendations
-    made by third parties.
-  - '@:color.soft cannot be held liable for direct or consequential damages.
-    indirect caused to the user’s material, when accessing the site, and resulting
-    either from the use of equipment that does not meet the technical specifications
-    required, either from the appearance of a bug or of incompatibility.'
-  - '@:color.soft cannot also be held responsible for damages. indirect (such
-    as a loss of market or a loss of a chance) resulting from the use of the site.'
-  - Interactive spaces (possibility to ask questions in the contact area) are available
-    to users on the site @:color.soft</>. @:color.soft reserves the right
-    to delete, without prior formal notice, any content deposited in this space
-    which would contravene the applicable legislation in France, in in particular
-    data protection provisions. If necessary, @:color.soft also reserves the
-    possibility of putting in cause the user’s civil and/or criminal liability,
-    in particular in the event of a racist, insulting, defamatory, or pornographic
-    message, whatever the medium used (text, photography…).
-  h3-tech: Contractual limitations on technical data
-  p-tech:
-  - '@:color.soft cannot be held responsible for material damages. linked to
-    the use of the site. In addition, the user of the site undertakes to access
-    the site using recent material, not containing viruses and with an up-to-date
-    browser.'
-  h3-copyright: Intellectual property
-  p-copyright:
-  - The contents are published under the responsibility of the users.
-footer:
-  p:
-  - Legal information of the association @:color.soft,<br />October 6, 2014.
+editor: |-
+  ## Publisher
+  ### @:txt.soft
+
+  Association law 1901 declared in sub-prefecture of Arles on December 2,
+  2003 under the number @:legals.assoNb
+
+  N° Siret: @:legals.siretNb
+
+  Headquarters: @:legals.address
+
+  To contact us: <@:link.contact>
+
+  ### Co-chair, publication management
+
+  @:legals.coprezName
+
+  ### Hosting company
+infoLib: |-
+  ## Computers and liberties
+  ### Personal information collected
+
+  In France, personal data is protected by [Act No. 78-17 of 6 January
+  1978](https://legifrance.gouv.fr/affichTexte.do?cidTexte=JORFTEXT000000886460),
+  Act No. 2004-801 of 6 August 2004, article L. 226-13 of the Penal Code and
+  the European Directive of 24  October 1995.
+
+  In any event @:color.soft does collect personal information about the user
+  (name, e-mail address, telephone number) that is needed by the services offered
+  by the sites of the network @:color.soft, in particular for the inscription
+  with discussion spaces through online forms or for discussion forums statistical
+  processing. The user provides this information in full knowledge of the facts,
+  in particular when he/she inputs them him/herself. It is specified at this time
+  to the user of the network @:color.soft if the information to provide is
+  obligatory or not.
+
+  ### Statistical analysis and confidentiality
+
+  In order to adapt the site to our visitors’ requests, we analyze the traffic
+  of our sites with Matomo. Matomo generates a cookie with a unique identifier,
+  whose storage period is limited to 13 months. The data collected (IP address,
+  User-Agent…) are anonymized and kept for a period of 6 months. They are not
+  transferred to third parties or used for any other purpose.
+modify: |-
+  ### Rectification of personal information collected
+
+  In accordance with the provisions of Article 34 of Act No 48-87 of January
+  6, 1978, the user has a right of modification of the personal data collected
+  concerning him. To do this, user sends to @:color.soft:
+
+  - you can send us an e-mail using the contact form
+  - a letter should be sent to the address of the association’s headquarters (indicated
+    above) indicating your name or business name, your physical and/or electronic
+    address and, where appropriate, the reference that you have as a user of the
+    @:color.soft site.
+
+  The amendment will be made within a reasonable period of time from the date
+  of receiving the user’s request.
+liabilities: |-
+  ## Limitation of liability
+
+  This site contains information made available by external communities or companies
+  or hypertext links to other sites that were not developed by @:(color.soft).
+  Content made available on the site is provided for information purposes only.
+  The existence of a link of this site to another site does not constitute a validation
+  of that site, or of its content. It is up to the Internet user to use these
+  information with discernment and critical thinking. The responsibility of @:color.soft
+  could not be committed because of the information, opinions and recommendations
+  made by third parties.
+
+  @:color.soft cannot be held liable for direct or consequential damages.
+  indirect caused to the user’s material, when accessing the site, and resulting
+  either from the use of equipment that does not meet the technical specifications
+  required, either from the appearance of a bug or of incompatibility.
+
+  @:color.soft cannot also be held responsible for damages. indirect (such
+  as a loss of market or a loss of a chance) resulting from the use of the site.
+
+  Interactive spaces (possibility to ask questions in the contact area) are available
+  to users on the site @:(color.soft). @:color.soft reserves the right
+  to delete, without prior formal notice, any content deposited in this space
+  which would contravene the applicable legislation in France, in in particular
+  data protection provisions. If necessary, @:color.soft also reserves the
+  possibility of putting in cause the user’s civil and/or criminal liability,
+  in particular in the event of a racist, insulting, defamatory, or pornographic
+  message, whatever the medium used (text, photography…).
+
+  ### Contractual limitations on technical data
+
+  @:color.soft cannot be held responsible for material damages. linked to
+  the use of the site. In addition, the user of the site undertakes to access
+  the site using recent material, not containing viruses and with an up-to-date
+  browser.
+
+  ### Intellectual property
+
+  The contents are published under the responsibility of the users.
+footer: |-
+  Legal information of the association @:color.soft,<br />October 6, 2014.

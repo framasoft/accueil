@@ -8,7 +8,7 @@ md: |-
   ## Pour un Internet libre
 
   L’utilisation des logiciels libres et des standards ouverts sur Internet est l’objectif
-  prioritaire du projet [@:color.dio](@:link.dio).
+  prioritaire du projet @:html.dio.
 
   L’accès au code source est au fondement des principes du Libre. Pour chaque application
   rendue disponible dans ses projets, @:color.soft s’engage à ce qu’elle soit
@@ -88,5 +88,5 @@ md: |-
   et cognitives, fait d’Internet un bien commun, disponible pour tous et n’appartenant
   à personne.
 footer: |-
-  Charte des services Libres, Éthiques, Décentralisés et Solidaires,<br /> approuvée
+  Charte des services Libres, Éthiques, Décentralisés et Solidaires,<br />approuvée
   par l’association @:color.soft le 6 octobre 2014.
