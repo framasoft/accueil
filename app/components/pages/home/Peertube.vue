@@ -15,7 +15,7 @@
         allowfullscreen
       ></iframe>
     </div>
-    <div class="container ombre">
+    <b-container class="ombre">
       <h2 v-html="$t('home.peertube.title')"></h2>
       <p v-html="$t('home.peertube.text')"></p>
       <p>
@@ -26,13 +26,16 @@
           v-html="$t('home.peertube.btn')"
         ></a>
       </p>
-    </div>
+    </b-container>
     <p
       class="pfooter"
       v-html="$t('home.peertube.footer')"
     ></p>
 
-    <modal
+    <!--
+      TO UPDATE
+
+    <b-modal
       id="modalPT"
       v-model="modal.openPT"
       class="modal fade"
@@ -85,9 +88,9 @@
         </tabs>
       </div>
       <div slot="footer">
-        <!-- Keep empty -->
+
       </div>
-    </modal>
+    </b-modal> -->
   </section>
 </template>
 

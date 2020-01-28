@@ -5,7 +5,7 @@
         <h2 v-html="$t('home.cuo.title')"></h2>
         <h3 v-html="$t('home.cuo.subtitle')"></h3>
       </div>
-      <div class="container ombre">
+      <b-container class="ombre">
         <b-row>
           <b-col lg="4">
             <h4
@@ -69,7 +69,7 @@
             v-html="$t('home.cuo.btn')"
           ></a>
         </p>
-      </div>
+      </b-container>
       <p
         class="pfooter"
         v-html="$t('home.cuo.footer')"

@@ -1,12 +1,5 @@
 /*---------- général ----------------------*/
 /* Correctif padding Bootstrap 15px → 25px */
-
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
-.col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-  padding-right:25px;
-  padding-left:25px;
-}
-
 body {
   background-color: $bgcolor !important;
   color: #333;
@@ -76,43 +69,18 @@ h1.sitename a, h4.titreFramaTrucs a,  a h4.titreBloc {
 .orange { color: $orange !important; }
 
 /*---------- header ---------------------*/
-.header {
-  border-bottom: 11px solid #eee;
-  padding-bottom: 0.5em;
-  margin-bottom: 2.5em;
-  padding-top: 1.5em;
-
-  .col-md-5, .col-md-4, .col-md-3 {
-    padding:0 10px;
-  }
-}
-
-.sitename {
-  margin-bottom: 0;
-  margin-left: -0.2em;
-}
-
-.headerSubTitle {
+.lead {
   color: #666;
-  font: italic 1.3em/1.35 "PT Sans", Arial, sans-serif;
-  padding-top: 1.65em;
-  margin-bottom: 0.5em;
+  font-style: italic;
+  font-size: 1.3em;
+  margin: 0;
 }
 
 /*---------- navigation interne ---------------------*/
-body > .row {
-  margin-left:0;
-  margin-right:0;
-}
-
-.col-md-2 {float:left} /* pb pour cliquer sur les liens des blocs en dessous sinon */
-
-.navEntities {
+.row .navEntities { /*  .row = head */
   float: right;
-  margin-top: 2em;
-  margin-left: 13.4em;
-  height: 24px;
-  width: 172px;
+  margin-bottom: 0;
+  height: 20px;
 
   li {
     display: inline-block;
@@ -134,140 +102,154 @@ body > .row {
   }
 }
 
-.navEntities a,
-.navEntities2 a{
+.navEntities li a {
   text-decoration: none;
-  width:21px;
-  height:17px;
-  display:block;
+  width: 20px;
+  height: 20px;
+  display: block;
+  border: none;
+  border-radius: 50%;
+  color: transparent;
 }
 
-.navEntities2 {
+.container > .navEntities { /* .container > = foot */
+  position: relative;
   list-style-type: none;
   margin-top: -13.5em;
   margin-left: -2.2em;
   height: 172px;
   width: 21px;
-  position: relative;
-  bottom: 0.5em;
+
   li {
     margin-top: 24px;
-  }
-}
 
-.navEntities2 li:nth-child(1) a { background-color: $bleu; }
-.navEntities2 li:nth-child(2) a { background-color: $rouge; }
-.navEntities2 li:nth-child(3) a { background-color: $vert; }
-.navEntities2 li:nth-child(4) a { background-color: $jaune; }
+    a:hover {
+      background: transparent url('../img/widgetsFrama.png') no-repeat scroll 0 0 ;
+      background-color: transparent !important;
+    }
 
-.navEntities li a,
-.navEntities2 li a:hover {
-    background: url("../img/widgetsFrama.png") no-repeat scroll 0 0 transparent;
-    color: transparent;
-}
-
-.navEntities li a:hover,
-.navEntities2 li a,
-.navEntities2 li a:hover {
-    border: none;
-}
-
-/* symbole ⇓ par défaut par tout
- * 1 = bleu, 2 = rouge, 3 = vert, 4 = jaune */
-.navEntities li {
-  &:nth-child(1) a {
-    background-position:0 0;
-    &:hover { background-position:0 -20px; }
+    /* symbole ⇓ par défaut par tout
+    * 1 = bleu, 2 = rouge, 3 = vert, 4 = jaune */
+    &:nth-child(1) a {
+      background-color: $bleu;
+      &:hover { background-position: 0 -20px; }
+    }
+    &:nth-child(2) a {
+      background-color: $rouge;
+      &:hover { background-position: -44px -20px; }
+    }
+    &:nth-child(3) a {
+      background-color: $vert;
+      &:hover { background-position: -88px -20px; }
+    }
+    &:nth-child(4) a{
+      background-color: $jaune;
+      &:hover { background-position: -132px -20px; }
+    }
   }
 
-  &:nth-child(2) a {
-    background-position:-43px 0; margin-left: 23px;
-    &:hover { background-position:-43px -20px; }
-  }
-
-  &:nth-child(3) a {
-    background-position:-86px 0; margin-left: 23px;
-    &:hover { background-position:-86px -20px; }
-  }
-
-  &:nth-child(4) a {
-    background-position:-132px 0; margin-left: 23px;
-    &:hover { background-position:-132px -20px; }
-  }
 }
 
-.navEntities2 li {
-  &:nth-child(1) a:hover { background-position:0 -20px;}
-  &:nth-child(2) a:hover { background-position:-43px -20px;}
-  &:nth-child(3) a:hover { background-position:-86px -20px;}
-  &:nth-child(4) a:hover { background-position:-132px -20px;}
-}
+.row .navEntities { /* head */
+  li {
+    a {
+      background: url('../img/widgetsFrama.png') no-repeat scroll 0 0 transparent;
+      background-color: transparent !important;
+    }
 
+    &:nth-child(1) a {
+      background-position: 0 0;
+      &:hover { background-position: 0 -20px; }
+    }
+
+    &:nth-child(2) a {
+      background-position: -44px 0;
+      margin-left: 23px;
+      &:hover { background-position: -44px -20px; }
+    }
+
+    &:nth-child(3) a {
+      background-position: -88px 0;
+      margin-left: 23px;
+      &:hover { background-position: -88px -20px; }
+    }
+
+    &:nth-child(4) a {
+      background-position: -132px 0;
+      margin-left: 23px;
+      &:hover { background-position: -132px -20px; }
+    }
+  }
+}
 
 /* topPgLogiciel symbole ⇔ sur bleu */
-#topPglogiciel .navEntities li:nth-child(1) a {        background-position:0 -42px;}
-#topPglogiciel .navEntities li:nth-child(1) a:hover,
-#topPglogiciel .navEntities2 li:nth-child(1) a:hover { background-position:0 -63px;}
+#topPglogiciel .navEntities li:nth-child(1) a {
+  background-position: 0 -40px;
+  &:hover{
+    background-position: 0 -60px;
+  }
+}
 
 /* topPgculture symbole ⇔ sur rouge */
-#topPgculture .navEntities li:nth-child(2) a {          background-position:-43px -82px;}
-#topPgculture .navEntities li:nth-child(2) a:hover,
-#topPgculture .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -103px;}
+#topPgculture .navEntities li:nth-child(2) a {
+  background-position: -44px -80px;
+  &:hover {
+    background-position: -44px -100px;
+  }
+}
 
 /* topPgcloud symbole ⇔ sur vert */
-#topPgcloud .navEntities li:nth-child(3) a {            background-position:-86px -122px;}
-#topPgcloud .navEntities li:nth-child(3) a:hover,
-#topPgcloud .navEntities2 li:nth-child(3) a:hover {     background-position:-86px -142px;}
+#topPgcloud .navEntities li:nth-child(3) a {
+  background-position: -88px -120px;
+  &:hover {
+    background-position: -88px -140px;
+  }
+}
 
 /* topPgcloud symbole ⇔ sur jaune */
-#topPgvrac .navEntities li:nth-child(4) a {             background-position:-129px -163px;}
-#topPgvrac .navEntities li:nth-child(4) a:hover,
-#topPgvrac .navEntities2 li:nth-child(4) a:hover {      background-position:-129px -182px;}
+#topPgvrac .navEntities li:nth-child(4) a {
+  background-position: -132px -160px;
+  &:hover {
+    background-position: -132px -180px;
+  }
+}
 
 /* topPgculture, Cloud Vrac, symbole ⇑ sur bleu */
-#topPgculture .navEntities li:nth-child(1) a,
-#topPgcloud .navEntities li:nth-child(1) a,
-#topPgvrac .navEntities li:nth-child(1) a {          background-position:0 -82px;}
-#topPgculture .navEntities li:nth-child(1) a:hover,
-#topPgculture .navEntities2 li:nth-child(1) a:hover,
-#topPgcloud .navEntities li:nth-child(1) a:hover,
-#topPgcloud .navEntities2 li:nth-child(1) a:hover,
-#topPgvrac .navEntities li:nth-child(1) a:hover,
-#topPgvrac .navEntities2 li:nth-child(1) a:hover {   background-position:0 -103px;}
+#topPgculture, #topPgcloud, #topPgvrac {
+  .navEntities li:nth-child(1) a {
+    background-position: 0 -80px;
+    &:hover {
+      background-position: 0 -100px;
+    }
+  }
+}
 
 /* topPgcloud Vrac, symbole ⇑ sur rouge */
-#topPgcloud .navEntities li:nth-child(2) a,
-#topPgvrac .navEntities li:nth-child(2) a {          background-position:-43px -122px;}
-#topPgcloud .navEntities li:nth-child(2) a:hover,
-#topPgcloud .navEntities2 li:nth-child(2) a:hover,
-#topPgvrac .navEntities li:nth-child(2) a:hover,
-#topPgvrac .navEntities2 li:nth-child(2) a:hover {   background-position:-43px -142px;}
+#topPgcloud, #topPgvrac {
+  .navEntities li:nth-child(2) a {
+    background-position: -44px -120px;
+    &:hover {
+      background-position: -44px -140px;
+    }
+  }
+}
 
 /* topPgvrac, symbole ⇑ sur vert */
-#topPgvrac .navEntities li:nth-child(3) a {          background-position:-86px -163px;}
-#topPgvrac .navEntities li:nth-child(3) a:hover,
-#topPgvrac .navEntities2 li:nth-child(3) a:hover {   background-position:-86px -182px;}
-
+#topPgvrac .navEntities li:nth-child(3) a {
+  background-position:-88px -160px;
+  &:hover {
+    background-position:-88px -180px;
+  }
+}
 
 /*-------------------- ContentAccueil ---------------*/
 
 .accroche {
-  list-style-type: none;
-  font: 1.143em/1.7em PTSansCaption, GillSans, sans-serif;
-  padding-left: 2em !important;
-  margin-top: 15px;
+  font-size: 1.143em/1.7em;
 
   li {
     line-height: 2em;
   }
-}
-
-.containerActu{
-  margin-left: 0em !important;
-  margin-top: 1.5em;
-  margin-right: 0em;
-  font-size: 1em;
-  line-height: 1.8em;
 }
 
 #news, .presentation {
@@ -276,111 +258,10 @@ body > .row {
   margin-bottom: 10px;
 }
 
-#contentCommunaute {
-  margin-top: 3.5em;
-  margin-bottom: 2.5em;
-}
-.blocCommunaute {
-  margin-top: 1em;
-  min-height: 25em !important;
-}
-
-.blocCommunaute > img {
-  margin-top: 1.5em;
-}
-
-#full #app .partenaires img {
-  width: 150px;
-}
-
-#presentationLibre, #presentationServices,
-#presentationLogiciels, #presentationLibrenVrac {
-  padding-bottom: 2em;
-}
-
-.col-md-12 { clear: both; }
-
-#blocServices {
-  padding-bottom: 2em;
-}
-#AlaUne {
-  margin-top: 1.5em;
-}
-
-blockquote {
-  font: 1.287em/1.7em PTSans, GillSans, sans-serif;
-  color: #666;
-  margin-top: 2em;
-  margin-bottom: 1em;
-  text-align: right;
-  border: none;
-}
-
-.miniBloc {
-  margin-top: 2.5em;
-  min-height: 23em !important;
-}
-
-.miniBloc2 {
-  margin-top: 1.5em;
-  min-height: 22em !important;
-  margin-bottom: 1.5em;
-}
-
-#topPgculture .miniBloc2:nth-child(2n+1) {
-  clear: both;
-}
-
-#topPglogiciel h4,
-#topPgculture h4,
-#topPgcloud h4,
-#topPgvrac h4 {
-  background: url("../img/widgetsFrama2.png") no-repeat scroll transparent;
-}
-#topPglogiciel h4 {
-  background-position: 205px 2px;
-
-  &:hover {
-    background-position: 205px -23px;
-  }
-}
-#topPgculture h4   {
-  background-position: 205px -52px;
-
-  &:hover {
-    background-position:  205px -80px;
-  }
-}
-#topPgcloud h4     {
-  background-position: 205px -110px;
-
-  &:hover {
-    background-position: 205px -137px;
-  }
-}
-#topPgvrac h4      {
-  background-position: 205px -166px;
-
-  &:hover {
-    background-position: 205px -194px;
-  }
-}
-
 .blocSubTitle, .miniBlocSubTitle {
   font-weight: bold;
 }
-.blocSubTitle, .blocTexte{
-  margin-left: 0em;
-  margin-right: .5em;
-  line-height: 1.5em;
-}
 
-.miniBlocSubTitle , .miniBlocTexte {
-  margin-right: 1em;
-  line-height: 1.5em;
-  position:relative;
-  z-index:2;
-}
  /* Trait fin de § */
 .miniBlocTexte:after {
   content: "\A███";
@@ -388,6 +269,7 @@ blockquote {
   line-height:2em;
   color: #ddd;
 }
+
  /* Background icon (complété dans le code html par la classe font-awesome "fa-[nom-de-l-icone]" */
 .miniBlocSubTitle:before {
   font-family: ForkAwesome;
@@ -397,7 +279,7 @@ blockquote {
   font-size: 100px !important;
   position: absolute;
   top: 80px;
-  right:0;
+  right: 15px;
   opacity: 0.3;
   z-index: 1;
 }
@@ -411,62 +293,19 @@ blockquote {
 }
 
 #topPglogiciel .miniBlocSubTitle:before { color: $bleu; }
-#topPgculture .miniBlocSubTitle:before   { color: $rouge; }
-#topPgcloud .miniBlocSubTitle:before     { color: $vert; }
-#topPgvrac .miniBlocSubTitle:before      { color: $jaune; }
+#topPgculture .miniBlocSubTitle:before  { color: $rouge; }
+#topPgcloud .miniBlocSubTitle:before    { color: $vert; }
+#topPgvrac .miniBlocSubTitle:before     { color: $jaune; }
 
-.EnVenteLibre {
-  background: none;
-  font-weight: bold;
-  font-size:18px;
-  position: absolute;
-  right: 1em;
-  margin-top: -36px;
-}
-
-.EnVenteLibre a:hover {
-  color: $violet;
-  border: none;
-}
 /*-------------- les FramaTrucs-------------*/
-
-#blocFramatrucs{
-  margin-top: 0px;
-  padding-left:15px;
-  padding-right:15px;
-}
-
-#blocFramatrucs .col-md-4, #blocFramatrucs .col-md-8 {
-  padding-left:15px;
-  padding-right:15px;
-}
-
 .titreFramaTrucs {
   border-bottom: 2px solid #ddd;
   padding-top: 0.7em;
-  padding-bottom: 5px;
-  margin-bottom: 9px;
-  margin-left: 1em;
-  margin-right: 1em;
 }
 
 .listeFramaTrucs li, .FramaTrucs li {
   line-height: 24px;
   clear:both;
-}
-
-.listeFramaTrucs {
-  list-style-type: none;
-  margin-left: 1.5em;
-  padding-left: 15px !important;
-
-  a {
-    font: bold 1.143em/1.357em PT Sans, Arial, Helvetica, sans-serif;
-    text-decoration:none;
-    width:50%;
-    float:right;
-    line-height: 24px;
-  }
 }
 
 .titreFramaTrucs a:hover,
@@ -475,49 +314,13 @@ blockquote {
   color: $marron !important;
 }
 
-.homeAlerte {
-  text-align:center;
-  font-size:120%;
-  margin:45px 20px;
-}
-
 /*--------------------Illustrations -----------------*/
-#full #app, #lite #app {
-  img {
-    width:80%;
-    margin:0.5em 10%;
-  }
-
+#full, #lite {
   h4 {
     border-bottom: 8px solid #eee;
     padding-bottom: 6px;
     margin-bottom: 0.5em;
   }
-
-  .containerActu {
-    img{
-      width: 100%;
-      margin: 0;
-    }
-    h4 {
-      border-bottom: none;
-      margin-bottom: 0;
-    }
-  }
-
-  ul, ol {padding-left: 0;}
-}
-
-#pingouinVolant img {
-  width:94%;
-  margin:10px 0 0;
-}
-
-.legende {
-  color: #757575;
-  font: italic 1em/1.35 "PT Sans", Arial, sans-serif;
-  margin-bottom: 2em;
-  text-align: center;
 }
 
 .w-date, .w-board, .w-piaf, .w-listes, .w-talk,

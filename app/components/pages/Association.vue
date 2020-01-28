@@ -1,12 +1,20 @@
 <template>
-  <div class="container ombre">
-    <header class="clearfix header">
+  <b-container class="ombre">
+    <header class="row">
       <h1
-        class="pull-left"
+        class="col"
         v-html="$t('asso.title')"
       ></h1>
-      <I18n />
+      <b-col
+        cols="2"
+        align-self="end"
+      >
+        <I18n />
+      </b-col>
     </header>
+
+    <hr class="trait" />
+
     <main>
       <div v-html="$t('asso.prez')"></div>
 
@@ -328,7 +336,7 @@
         </dl>
       </b-card>
     </main>
-  </div>
+  </b-container>
 </template>
 
 <script>

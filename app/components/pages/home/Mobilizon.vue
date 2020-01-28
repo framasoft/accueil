@@ -8,7 +8,7 @@
         style="width: 100%"
       />
     </div>
-    <div class="container ombre">
+    <b-container class="ombre">
       <h2 v-html="$t('home.mobilizon.title')"></h2>
       <p v-html="$t('home.mobilizon.text')"></p>
       <p>
@@ -17,7 +17,7 @@
           v-html="$t('home.mobilizon.btn')"
         />
       </p>
-    </div>
+    </b-container>
     <p
       class="pfooter"
       v-html="$t('home.mobilizon.footer')"

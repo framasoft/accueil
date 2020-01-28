@@ -1,7 +1,10 @@
 <template>
-  <b-row>
+  <b-row
+    align-v="center"
+    align-h="center"
+  >
     <b-col lg="4">
-      <h1 class="sitename">
+      <h1>
         <router-link
           :to="`/${$t('lang')}/`"
           v-html="$t('color.soft')"
@@ -10,25 +13,36 @@
     </b-col>
     <b-col lg="5">
       <p
-        class="lead"
+        class="lead m-0"
         v-html="$t('meta.lead')"
       ></p>
     </b-col>
-    <b-col lg="3">
-      <I18n />
-      <InterNavHead />
+    <b-col
+      lg="3"
+      align-self="end"
+    >
+      <div class="clearfix">
+        <I18n />
+      </div>
+
+      <div
+        v-if="$route.meta.id === 'full'"
+        class="mt-4"
+      >
+        <InterNav />
+      </div>
     </b-col>
   </b-row>
 </template>
 
 <script>
 import I18n from './I18n.vue';
-import InterNavHead from './InterNavHead.vue';
+import InterNav from './InterNav.vue';
 
 export default {
   components: {
     I18n,
-    InterNavHead,
+    InterNav,
   },
 };
 

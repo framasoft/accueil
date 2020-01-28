@@ -15,7 +15,7 @@ logiciel:
       what: Un annuaire
       title: Le gros annuaire
       desc: Plus de 1600 logiciels classés, testés et commentés dans le projet historique
-        et fondateur de @:txt.soft</>. On y trouve également des tutoriels
+        et fondateur de @:(txt.soft). On y trouve également des tutoriels
         et des articles de fond.
     key:
       what: Une clé USB
@@ -46,7 +46,7 @@ culture:
       title: L’actualité du « Libre »
       desc: Chroniques quotidiennes autour du Libre en général et du logiciel libre
         en particulier. De riches débats dans les commentaires, de nombreuses traductions
-        originales et les annonces des nouveautés de l’ensemble du réseau @:txt.soft</>.
+        originales et les annonces des nouveautés de l’ensemble du réseau @:(txt.soft).
     book:
       what: Des livres…
       title: Le pari du livre libre

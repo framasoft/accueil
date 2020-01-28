@@ -1,5 +1,5 @@
 <template>
-  <ul class="row navEntities">
+  <ul class="navEntities p-0">
     <li
       v-for="(part, key) in $t('nav.parts')"
       :key="part.key"

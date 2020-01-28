@@ -1,3 +1,69 @@
 @import '~vuefs-commons/app/assets/scss/frama/bootstrap4/colors';
 @import '~vuefs-commons/app/assets/scss/frama/bootstrap4/links';
 @import '~vuefs-commons/app/assets/scss/frama/bootstrap4/carousel';
+
+.btn-soutenir {
+  color: #fff;
+  background-color: #C48A1B;
+  border-color: #C48A1B;
+
+  &:hover {
+    color: #fff;
+    background-color: #a27216;
+    border-color: #976a15;
+  }
+
+  &:focus, &.focus {
+    color: #fff;
+    background-color: #a27216;
+    border-color: #976a15;
+    box-shadow: 0 0 0 0.2rem rgba(205, 156, 61, 0.5);
+  }
+
+  &.disabled, &:disabled {
+    color: #fff;
+    background-color: #C48A1B;
+    border-color: #C48A1B;
+  }
+
+  &:not(:disabled):not(.disabled):active, &:not(:disabled):not(.disabled).active {
+    color: #fff;
+    background-color: #976a15;
+    border-color: #8c6313;
+
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(205, 156, 61, 0.5);
+    }
+  }
+}
+
+.btn-outline-soutenir {
+  color: #C48A1B;
+  border-color: #C48A1B;
+
+  &:hover {
+    color: #fff;
+    background-color: #C48A1B;
+    border-color: #C48A1B;
+  }
+
+  &:focus, &.focus {
+    box-shadow: 0 0 0 0.2rem rgba(196, 138, 27, 0.5);
+  }
+
+  &.disabled, &:disabled {
+    color: #C48A1B;
+    background-color: transparent;
+  }
+
+  &:not(:disabled):not(.disabled):active, &:not(:disabled):not(.disabled).active {
+    color: #fff;
+    background-color: #C48A1B;
+    border-color: #C48A1B;
+
+    &:focus {
+      box-shadow: 0 0 0 0.2rem rgba(196, 138, 27, 0.5);
+    }
+  }
+}
+

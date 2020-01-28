@@ -48,17 +48,25 @@
         </li>
       </ul>
     </div>
+    <h3
+      id="news"
+      v-html="$t('pages.news')"
+    ></h3>
+
+    <Carousel />
   </b-container>
 </template>
 
 <script>
 import Header from '../partials/Header.vue';
 import Search from '../partials/Search.vue';
+import Carousel from '../partials/Carousel.vue';
 
 export default {
   components: {
     Header,
     Search,
+    Carousel,
   },
 };
 </script>

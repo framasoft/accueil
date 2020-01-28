@@ -1,6 +1,7 @@
 <template>
   <div
     v-if="slides.length > 0"
+    id="f-carousel"
     class="carousel-container"
   >
     <b-carousel
@@ -9,16 +10,21 @@
       indicators
       :controls="true"
       :interval="interval"
+      :label-prev="$t('carousel.prev')"
+      :label-next="$t('carousel.next')"
+      class="mx-0 my-4"
     >
-      <b-carousel-slide
+      <a
         v-for="(slide, index) in slides"
         :key="index"
-        :caption="slide.title"
-        caption-tag="h4"
-        :img-src="slide.img"
-        content-tag="a"
         :href="slide.link"
-      />
+      >
+        <b-carousel-slide
+          :caption="slide.title"
+          caption-tag="h4"
+          :img-src="slide.img"
+        />
+      </a>
     </b-carousel>
     <p
       v-if="interval === 5000"
@@ -79,3 +85,22 @@ export default {
   },
 };
 </script>
+
+<style>
+#f-carousel .carousel img {
+  margin: 0;
+}
+
+#f-carousel .play-pause {
+  left: initial;
+  margin-top: -121px;
+}
+
+#f-carousel .play-pause button {
+  padding: 0;
+}
+
+#f-carousel h4 {
+  border: none;
+}
+</style>

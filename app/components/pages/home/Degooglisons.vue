@@ -15,7 +15,7 @@
         <h3 v-html="$t('home.dio.subtitle', 0, {count: vcf.coverList.length })">
         </h3>
       </div>
-      <div class="container ombre">
+      <b-container class="ombre">
         <h4 class="text-center">
           <span
             class="neon"
@@ -65,7 +65,7 @@
             v-html="$t('home.dio.btn')"
           />
         </p>
-      </div>
+      </b-container>
       <p
         class="pfooter"
         v-html="$t('home.dio.footer')"
