@@ -1,41 +1,46 @@
 title: Association
-prez:
-  h2: Présentation de @:txt.soft
-  p-intro:
-  - Issue du monde éducatif et désormais tournée vers l’éducation populaire, l’association @:html.soft
-    est avant tout un réseau de projets, dont le premier, <a href="@:link.libre">l’annuaire
-    @:color.libre</a>, remonte à 2001.
-  - 'Ces projets sont animés par des personnes collaborant autour d’une même volonté :
-    promouvoir les libertés numériques.'
-  - Le respect des libertés fondamentales des utilisatrices et utilisateurs, garanties
-    par des contrats légaux (les <a href="@:link.wFreeLicense">licences libres</a>),
-    est au cœur du mouvement libriste et permet de s’assurer que l’humain reste
-    en maîtrise de l’outil numérique.
-  - 'Le but de @:html.soft est de proposer, principalement en ligne, un ensemble
-    d’outils concrets et pratiques visant à faciliter l’adoption :'
-  ul-axis:
+prez: |-
+  ## Présentation de @:txt.soft
+
+  Issue du monde éducatif et désormais tournée vers l’éducation populaire,
+  l’association @:html.soft est avant tout un réseau de projets, dont le premier,
+  [l’annuaire @:color.libre](@:link.libre), remonte à 2001.
+
+  Ces projets sont animés par des personnes collaborant autour d’une même volonté :
+  promouvoir les libertés numériques.
+
+  Le respect des libertés fondamentales des utilisatrices et utilisateurs, garanties
+  par des contrats légaux (les [licences libres](@:link.wFreeLicense)),
+  est au cœur du mouvement libriste et permet de s’assurer que l’humain reste
+  en maîtrise de l’outil numérique.
+
+  Le but de @:html.soft est de proposer, principalement en ligne, un ensemble
+  d’outils concrets et pratiques visant à faciliter l’adoption :'
+
   - de logiciels libres (annuaire, clés USB, installateur…) ;
   - de créations culturelles libres (blog, traduction, maison d’édition…) ;
-  - de services libres (plus de 30 dans le projet <a href="@:link.dio">@:color.dio</a>).
-  p-gate:
-  - Présenté comme une « porte d’entrée dans le monde du Libre », le réseau @:html.soft
-    souhaite se positionner comme un trait d’union entre la communauté des libristes
-    et le grand public.
-  saveas: Clic droit sur l’image et « Enregistrer l’image sous » pour la réutiliser
-  infography: Infographie <em>Le monde de @:txt.soft</em> réalisée par
-infos:
-  h2: L’association @:txt.soft
-  p-asso:
-  - Le réseau @:html.soft repose sur sa vaste communauté de bénévoles mais
-    il ne pourrait exister s’il n’était soutenu par une association, créée en 2004.
-  - L’association @:html.soft est une association 1901 à but non lucratif dont
-    le caractère d’intérêt général autorise la déduction fiscale. Elle affiche sa
-    volonté de rester une association à taille humaine (moins de quarante membres,
-    moins de dix permanent·e·s).
-  - Vous trouverez ci-dessous un certain nombre d’informations dont nos statuts,
-    le règlement intérieur et les rapports moraux annuels.
-  statuts: Statuts de l’association
-  ri: Règlement Intérieur
+  - de services libres (plus de 30 dans le projet @:html.dio).
+
+  Présenté comme une « porte d’entrée dans le monde du Libre », le réseau @:html.soft
+  souhaite se positionner comme un trait d’union entre la communauté des libristes
+  et le grand public.
+saveas: Clic droit sur l’image et « Enregistrer l’image sous » pour la réutiliser
+infography: Infographie *Le monde de @:txt.soft* réalisée par
+infos: |-
+  ## L’association @:txt.soft
+
+  Le réseau @:html.soft repose sur sa vaste communauté de bénévoles mais
+  il ne pourrait exister s’il n’était soutenu par une association, créée en 2004.
+
+  L’association @:html.soft est une association 1901 à but non lucratif dont
+  le caractère d’intérêt général autorise la déduction fiscale. Elle affiche sa
+  volonté de rester une association à taille humaine (moins de quarante membres,
+  moins de dix permanent·e·s).
+
+  Vous trouverez ci-dessous un certain nombre d’informations dont nos statuts,
+  le règlement intérieur et les rapports moraux annuels.
+statuts: Statuts de l’association
+ri: Règlement Intérieur
 data:
   title: Données administratives et pratiques
   dt:
@@ -48,24 +53,27 @@ data:
     org: Organisation
     id: Identification complète
     projects: Projets phares
-    charte: Charte de l’association et ses services
+    charte: Chartes
     reports: Rapports moraux
     newsletter: Bulletin (newsletter)
     press: Revue de presse, médias
-    graphics: Charte graphique et logos
+    graphics: Visuels
+    community: Communauté
     founders: Membres fondateurs
   dd:
     juridical: Association loi de 1901, reconnue d’intérêt général
     staff: '@:meta.employees permanents'
     org: Association soutenant des projets libres et contributifs
     id: Voir la fiche
+    charte: Charte de l’association et ses services
+    moderation: Charte de modération
     reportsFinancial: Rapport financier
     reportsWriting: rapport d’activités en cours de rédaction
     reportsResults: Compte de résultats
     reportsActivities: Rapport d’activités
     reportsMAndF: Rapport moral et financier
-    newsletter: inscription et archives
+    newsletter: Inscription et archives
     press: Tableau annuel
-    graphics: sur cette page
+    graphics: Charte graphique et logos
     banners: Bannières
     benevalo: Bénévolat valorisé

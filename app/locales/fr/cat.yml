@@ -15,7 +15,7 @@ logiciel:
       what: Un annuaire
       title: Le gros annuaire
       desc: Plus de 1600 logiciels classés, testés et commentés dans le projet historique
-        et fondateur de @:txt.soft</>. On y trouve également des tutoriels
+        et fondateur de @:(txt.soft). On y trouve également des tutoriels
         et des articles de fond.
     key:
       what: Une clé USB
@@ -35,7 +35,7 @@ logiciel:
       what: Un distributeur
       title: Distribution massive
       desc: Pratique, sur @:txt.pack on fait son marché des meilleurs logiciels
-        libres Windows dans leur dernière version.<br> On les sélectionne et ils
+        libres Windows dans leur dernière version.<br />On les sélectionne et ils
         s’installent tous ensemble d’un simple clic !
 culture:
   title: Libres cultures
@@ -46,7 +46,7 @@ culture:
       title: L’actualité du « Libre »
       desc: Chroniques quotidiennes autour du Libre en général et du logiciel libre
         en particulier. De riches débats dans les commentaires, de nombreuses traductions
-        originales et les annonces des nouveautés de l’ensemble du réseau @:txt.soft</>.
+        originales et les annonces des nouveautés de l’ensemble du réseau @:(txt.soft).
     book:
       what: Des livres…
       title: Le pari du livre libre
@@ -168,14 +168,14 @@ cloud:
     piaf:
       what: Réseauter
       title: Réseau social en 500 caractères
-      desc: '@:txt.piaf est un service libre de <b>microblogging</b>, basé
+      desc: '@:txt.piaf est un service libre de **microblogging**, basé
         sur le logiciel décentralisé Mastodon. Retrouvez vos amis sur @:txt.piaf
         - ou d’autres instances Mastodon, GNU Social, Friendica - et échangez avec
         eux sans être pisté.'
     team:
       what: Discuter
       title: Communication collaborative
-      desc: '@:txt.team est un service de <b>tchat</b> libre qui permet de
+      desc: '@:txt.team est un service de **tchat** libre qui permet de
         communiquer avec son équipe en notifiant ses collègues, de conserver ses
         conversations et d’y faire des recherches.'
     listes:
@@ -224,7 +224,7 @@ cloud:
       what: Cartographier
       title: Créer des cartes personnalisées
       desc: '@:txt.carte vous permet de dessiner, marquer, colorier, annoter…
-        les fonds de carte d’<a href="@:link.wOSM">OpenStreetMap</a> pour les afficher
+        les fonds de carte d’[OpenStreetMap](@:link.wOSM) pour les afficher
         ensuite dans votre site web ou les imprimer.'
     drop:
       what: Partager

@@ -112,18 +112,6 @@ const config = {
     }),
     new webpack.HotModuleReplacementPlugin(),
     new CopyWebpackPlugin(assets),
-    new PreloadWebpackPlugin({
-      rel: 'preload',
-      as(entry) {
-        if (/\.css$/.test(entry)) return 'style';
-        if (/\.woff$/.test(entry)) return 'font';
-        if (/\.png$/.test(entry)) return 'image';
-        if (/\.jpg$/.test(entry)) return 'image';
-        return 'script';
-      },
-      fileBlacklist: [/\.map/, /\.svg/, /\.woff/, /\.eot/, /\.woff2/, /\.ttf/, /\.png/, /\.gif/, /\.mp4/],
-      include: 'allAssets',
-    }),
   ],
   devServer: {
     contentBase: path.resolve(__dirname, './public'),
@@ -210,6 +198,18 @@ if (mode.dev) {
       title: 'PRODUCTION prerender-spa-plugin',
       template: 'index.html',
       filename: path.resolve(__dirname, 'public/index.html'),
+    }),
+    new PreloadWebpackPlugin({
+      rel: 'preload',
+      as(entry) {
+        if (/\.css$/.test(entry)) return 'style';
+        if (/\.woff$/.test(entry)) return 'font';
+        if (/\.png$/.test(entry)) return 'image';
+        if (/\.jpg$/.test(entry)) return 'image';
+        return 'script';
+      },
+      fileBlacklist: [/\.map/, /\.svg/, /\.woff/, /\.eot/, /\.woff2/, /\.ttf/, /\.png/, /\.gif/, /\.mp4/],
+      include: 'allAssets',
     }),
     new PrerenderSPAPlugin({
       staticDir: path.join(__dirname, 'public'),

@@ -1,16 +1,16 @@
 accroche:
-- A network dedicated to globally promoting "<i>free</i>" and particularly <i>free
-  software</i>.
+- A network dedicated to globally promoting "*free*" and particularly *free
+  software*.
 - Many services and innovative projects freely put at the disposal of the general
   public.
-- A <a href="#topPgCommunaute">community</a> of volunteers supported by a public
+- A [community](#topPgCommunaute) of volunteers supported by a public
   interest association.
 - An invitation to build together a world of sharing and cooperation.
 news: What’s up on @:txt.soft?
 medias:
   title: Press Release
   intro: '@:txt.soft and the “@:txt.dio” campaign received some attention.
-    Here are some extracts from our <a href="@:link.press">Press release</a>.'
+    Here are some extracts from our [Press release](@:link.press).'
   th1: Date
   th2: Media
   th3: Links
@@ -39,40 +39,40 @@ participer:
   desc: There are lots of ways to participate with us to spread the Free spirit
     through our numerous projects.
   text: Test, write, moderate, administrate, translate, proofread, relay, code,
-    communicate, promote, raise awareness… Don’t hesitate to <a href="@:link.participer">join
-    in</a> with us! And thanks in advance…
+    communicate, promote, raise awareness… Don’t hesitate to [join
+    in](@:link.participer) with us! And thanks in advance…
 soutenir:
   title: Support us?
   desc: because its free as in free speech, not as in free beer
   text: '@:txt.soft would be nothing without its volunteer community, but cannot
     operate without the support of the association which has expenses and employs
     @:meta.employees vital employees. Our funding depends on individual donations,
-    that means on you. <a href="@:link.soutenir">If you think we deserve it…</a>'
+    that means on you. [If you think we deserve it…](@:link.soutenir)'
 partenaires:
   title: Our partners
   desc: '@:txt.soft is first and foremost a community of users. Yet, its functioning
-    is distinctly that of a network, of projects, but also of partners..<br> So,
+    is distinctly that of a network, of projects, but also of partners..<br />So,
     @:txt.soft receives the support from numerous organisations (public, business,
-    non-profit) allowing our projects to grow and develop. <a href="@:link.partenaires">List
-    of all our partners</a>'
+    non-profit) allowing our projects to grow and develop. [List of all our
+    partners](@:link.partenaires)'
 logiciel:
   title: Free software?
-  desc: '<a href="@:link.wFreeSoftware">Free software</a> is a software that offers
+  desc: '[Free software](@:link.wFreeSoftware) is a software that offers
     and guarantees the following four liberties: usage, study, modification and
     copying in order to spread (free of charge or not).'
-  text1: This is technically permitted thanks to the access to the <a href="@:link.wSourceCode">code</a>
-    and legally with the <a href="@:link.wFreeLicense">free license</a> going with
-    it. Theses <i>four liberties</i> promote transparency, trust, exchange, sharing
+  text1: This is technically permitted thanks to the access to the [code](@:link.wSourceCode)
+    and legally with the [free license](@:link.wFreeLicense) going with
+    it. Theses *four liberties* promote transparency, trust, exchange, sharing
     and collaboration inside communities.
   text2: '@:txt.soft provides a directory, USB and DVD keys and a Windows installer
     to discover these and use them regularly.'
 culture:
   title: Free Culture?
-  desc: Ease by Internet and digitisation, "<a href="@:link.wFreeCulture">free culture</a>"
+  desc: Ease by Internet and digitisation, "[free culture](@:link.wFreeCulture)"
     is a evolving culture inspired directly by free software in its spirit and licenses
     to promote and spread intellectuals works.
   text1: It explores various domains such as arts, education, sciences, hardware…
-    These works can then be considered as <a href="@:link.wCommons">common goods</a>.
+    These works can then be considered as [common goods](@:link.wCommons).
     The most illustrative example is the free encyclopedia Wikipedia.
   text2: In this context, @:txt.soft offers you a blog, a publising house a
     video platform, a website dedicated to free music as well as an original collaborative
@@ -84,7 +84,7 @@ cloud:
   desc: 'Code name: “@:txt.cloud”'
   text1: Intuitive, registration-free, and directly in your browser, it is a set
     of online free services and respectful of your personal data. These services
-    are offered in the context of our campaign <a href="@:link.dio">“@:color.dio”</a>
+    are offered in the context of our campaign @:html.dio
   text2: You can also install these on your own server, thus helping to decentralize
     Internet. Tutorials are availables in the section <a href="@:link.garden" lang="fr">Cultiver
     son jardin</a> (only in French at the moment) to help you to go for it.

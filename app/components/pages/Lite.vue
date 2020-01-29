@@ -1,64 +1,72 @@
 <template>
-  <div id="topPgAccueil" class="container ombre">
-    <Header/>
+  <b-container class="ombre">
+    <Header />
 
-    <div class="row">
-      <div class="col-xs-12">
-        <hr class="trait"/>
-      </div>
-    </div>
+    <hr class="trait" />
 
-    <div class="row" style="margin-top:40px; margin-bottom:20px">
-      <div class="col-xs-12">
-        <Search/>
-      </div>
-    </div>
+    <b-row
+      class="mt-4 mb-3 mx-0"
+      align-h="center"
+    >
+      <b-col
+        md="10"
+        class="p-0"
+      >
+        <Search />
+      </b-col>
+    </b-row>
 
     <div
       v-for="category in ['cloud', 'logiciel', 'culture', 'vrac']"
       :key="category"
-      :class="`row lite ${$t(`cat.${category}.color`)}`">
+      :class="`lite ${$t(`cat.${category}.color`)}`"
+    >
       <h3
-        :class="`titreFramaTrucs ${$t(`cat.${category}.color`)}`"
-        v-html="$t(`cat.${category}.title`)">
+        :class="`titreFramaTrucs m-0 ${$t(`cat.${category}.color`)}`"
+        v-html="$t(`cat.${category}.title`)"
+      >
       </h3>
-      <ul class="list-inline">
-        <li v-for="frama in $t(`cat.${category}.list`)"
+      <ul class="list-unstyled row">
+        <li
+          v-for="frama in $t(`cat.${category}.list`)"
           :key="frama"
-          class="col-xs-4 col-sm-3 text-center">
-          <a
+          class="col-6 col-sm-4 col-md-3 text-center"
+        >
+          <b-button
             :href="$t(`link.${frama}`)"
-            class="btn btn-lg btn-block btn-default"
-            :title="$t(`cat.${category}.sites.${frama}.title`)">
-            <i :class="`fa fa-3x fa-fw ${$t(`icon.${frama}`)}`" aria-hidden="true"></i>
-            <br>
-            <span v-html="$t(`color.${frama}`)"></span>
-          </a>
+            block
+            variant="outline-light border-0 m-2"
+            :title="$t(`cat.${category}.sites.${frama}.title`)"
+          >
+            <icon
+              :name="$t(`icon.${frama}`)"
+              size="2x"
+              variant="d-block mb-1"
+              :label="$t(`color.${frama}`)"
+            />
+          </b-button>
         </li>
       </ul>
     </div>
+    <h3
+      id="news"
+      v-html="$t('pages.news')"
+    ></h3>
 
-    <hr class="trait row" role="presentation">
-
-    <div class="row">
-      <div class="col-xs-12 containerActu">
-        <h3 id="news" v-html="$t('pages.news')"></h3>
-        <Carousel/>
-      </div>
-    </div>
-  </div>
+    <Carousel />
+  </b-container>
 </template>
 
 <script>
-import Header from '../partials/Header.vue'
-import Carousel from '../partials/Carousel.vue'
-import Search from '../partials/Search.vue'
+import Header from '../partials/Header.vue';
+import Search from '../partials/Search.vue';
+import Carousel from '../partials/Carousel.vue';
 
 export default {
   components: {
     Header,
-    Carousel,
     Search,
-  }
-}
+    Carousel,
+  },
+};
 </script>

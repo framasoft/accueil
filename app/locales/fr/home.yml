@@ -1,9 +1,9 @@
 intro:
-  subtitle: Changer le monde,<br>un octet à la fois
-  text: '@:txt.soft, c’est une association d’<strong>éducation populaire</strong>,
+  subtitle: Changer le monde,<br />un octet à la fois
+  text: '@:txt.soft, c’est une association d’**éducation populaire**,
     un groupe d’<span aria-label="amies">ami·es</span> <span aria-label="convaincues">convaincu·es</span>
-    qu’un monde numérique <strong>émancipateur</strong> est possible, <span aria-label="persuadées">persuadé·es</span>
-    qu’il adviendra grâce à des <strong>actions concrètes</strong> sur le terrain
+    qu’un monde numérique **émancipateur** est possible, <span aria-label="persuadées">persuadé·es</span>
+    qu’il adviendra grâce à des **actions concrètes** sur le terrain
     et en ligne avec vous et pour vous !'
   btn: Soutenez nos actions
 more:
@@ -28,23 +28,23 @@ more:
   footer: Framasoft, c’est près d’une cinquantaine de projets.
   link: Voir la présentation complète.
 dio:
-  title: Dégooglisez votre Internet<br>trouvez des outils conviviaux
-  subtitle: Des <strong>alternatives éthiques</strong> sont possibles.<br> Démonstration
-    en <strong>{count} exemples</strong>.
+  title: Dégooglisez votre Internet<br />trouvez des outils conviviaux
+  subtitle: Des **alternatives éthiques** sont possibles.<br />Démonstration
+    en **{count} exemples**.
   btn: Soutenir l’existence de ces services et aider à en développer de nouveaux
   footer: L’ensemble de nos services, avec la documentation pour les maîtriser,
-    se trouve sur le site <a href=@:link.dio>@:txt.dio</a>
+    se trouve sur le site [@:txt.dio](@:link.dio)
 peertube:
   title: 'PeerTube : l’alternative à YouTube qui se fait avec et grâce à vous'
-  text: Découvrez la version 1 de PeerTube, qui vous permet de créer <strong>votre</strong>
-    alternative à YouTube. Ce logiciel a été développé grâce à vos contributions.<br>
+  text: Découvrez la version 1 de PeerTube, qui vous permet de créer **votre**
+    alternative à YouTube. Ce logiciel a été développé grâce à vos contributions.<br />
     Ensemble, inventons la plateforme vidéo qui nous ressemble.
   btn: Parcourir les principales fonctionnalités
   footer: 'Pour en savoir plus sur le logiciel PeerTube, découvrir comment il s’organise
     en <abbr title="Appelée aussi fédivers, c’est l’ensemble des instances fédérées.">fédération</abbr>
     et comprendre la façon de créer son <abbr title="Installation décentralisée
     sur un serveur, accessible grâce à une adresse Web spécifique.">instance</abbr> :
-    <a href="https://joinpeertube.org" lang="en">JoinPeertube</a>'
+    @:html.joinpeertube'
   modal:
     title: Principales fonctionnalités de PeerTube
     text: PeerTube est un logiciel complet, dont voici quelques possibilités.
@@ -64,13 +64,13 @@ mobilizon:
     Ensemble, inventons la plateforme vidéo qui nous ressemble.
     Rassembler ⋅ Organiser ⋅ Mobiliser... en toutes libertés !
   btn: Parcourir les principales fonctionnalités
-  link: https://framablog.org/?p=18268
+  link: https://framablog.org/2019/10/15/mobilizon-on-leve-le-voile-sur-la-beta/
   footer: 'Pour découvrir le plan de développement du logiciel Mobilizon d’ici 2020 :
-    JoinMobilizon. Pour tester les fonctionnalités en cours de développement
-    <a href="https://test.mobilizon.org">test.mobilizon.org</a>'
+    @:(html.joinmobilizon). Pour tester les fonctionnalités en cours de développement
+    [test.mobilizon.org](https://test.mobilizon.org)'
 cuo:
   title: Contributopia
-  subtitle: La feuille de route de Framasoft, <br>c’est parti pour l’an 2
+  subtitle: La feuille de route de Framasoft,<br />c’est parti pour l’an 2
   meet:
     title: Mobilizon
     text: 'Au départ une alternative à Meetup ou aux événements Facebook, Mobilizon
@@ -78,11 +78,11 @@ cuo:
       un colloque de 300 <span aria-label="invités">invité⋅es</span> ou une manifestation
       de 15 000 personnes.'
   petitions:
-    title: Frama<br>pétitions
+    title: Frama<br />pétitions
     text: Organiser la sensibilisation à une cause qui vous tient à cœur. Alerter
       l’opinion. Regrouper les personnes qui veulent mener une action commune.
   mooc:
-    title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br><abbr
+    title: <abbr title="Massive Open Online Course" lang="en">MOOC</abbr><br /><abbr
       lang="fr" title="Collectif des Hébergeurs Alternatifs,Transparents, Ouverts,
       Neutres et Solidaires">CHATONS</abbr>
     text: Un parcours pédagogique complet, débordant de ressources utiles, pour
@@ -98,16 +98,16 @@ cuo:
       de rassembler votre groupe, l'organiser avec vos outils
       et le mobiliser autour de vos événements.
   cloud:
-    title: Frama<br>cloud
+    title: Frama<br />cloud
     text: Un compte unique pour synchroniser ses notes, son agenda, ses contacts
       ou ses fichiers, pour collaborer dessus, etc. c’est une proposition
       que nous voulons construire, grâce au logiciel Nextcloud.
   btn: Contribuez à une nouvelle année de Contributopia
   footer: 'Ceci n’est qu’un échantillon de l’ensemble des actions que nous menons
-    actuellement… Découvrez l’intégralité de notre feuille de route : <a href="@:link.cuo">@:txt.cuo</a> !'
+    actuellement… Découvrez l’intégralité de notre feuille de route : [@:txt.cuo](@:link.cuo) !'
 soutenir:
   title: Soutenir Framasoft
-  text: L’association Framasoft ne vit <strong>que</strong> de vos dons.<br> Ce
+  text: L’association Framasoft ne vit **que** de vos dons.<br />Ce
     qu’on a fait vous a plu ? Vous pensez que nous allons dans le bon sens ? Alors,
     si vous en avez l’envie et les moyens, nous vous invitons à faire un don.
   why: Pourquoi soutenir Framasoft ?
