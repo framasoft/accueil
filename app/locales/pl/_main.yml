@@ -1,10 +1,7 @@
-lite: Szybki dostęp
 meta:
   license: '@:license.ccbysa4, chyba że wspomniano inaczej'
   lead: Przed nami długa droga, ale to droga ku wolności…
-  title: '@:txt.soft ~ Zmieniaj świat bajt po bajcie'
 nav:
-  lite: Szybki dostęp
   parts:
     cloud:
       title: do sekcji chmury

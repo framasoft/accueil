@@ -1,12 +1,7 @@
-lite: Quick access
-full: Classic home
 meta:
-  title: '@:txt.soft ~ Change the world one byte at a time'
   lead: There is a long way to go, but the road is Free…
   license: '@:license.ccbysa4 except when notified'
 nav:
-  lite: Quick access
-  full: Classic home
   parts:
     logiciel:
       key: Software section
