@@ -108,7 +108,7 @@ data.self = new URL(scripts[scripts.length - 1].src, data.url).href;
 if (process.env.NODE_ENV === 'production'
   && data.meta.canonical !== undefined
   && /^http/.test(data.meta.canonical)) {
-  data.baseurl = data.meta.canonical;
+  data.baseurl = data.meta.canonical.replace(/(.+?)\/?/, '$1/');
 } else {
   data.baseurl = `${data.self.split('/').slice(0, -1).join('/')}/`;
 }
