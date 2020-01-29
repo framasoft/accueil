@@ -1,4 +1,4 @@
-[![](https://framagit.org/assets/favicon-7901bd695fb93edb07975966062049829afb56cf11511236e61bcf425070e36e.png)](https://framagit.org)
+[![](https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/GitLab_Logo.svg/48px-GitLab_Logo.svg.png)](https://framagit.org)
 
 ![English:](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Flag_of_the_United_Kingdom.svg/20px-Flag_of_the_United_Kingdom.svg.png) **Framasoft uses GitLab** for the development of its free softwares. Our Github repositories are only mirrors.
 If you want to work with us, **fork us on [framagit.org](https://framagit.org)**. (no registration needed, you can sign in with your Github account)
@@ -24,3 +24,4 @@ ainsi que ses pages annexes
 *  https://framasoft.org/fr/credits
 *  https://framasoft.org/fr/legals
 *  https://framasoft.org/fr/graphics
+*  https://framasoft.org/fr/moderation

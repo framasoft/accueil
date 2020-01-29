@@ -1,12 +1,7 @@
-lite: Accès rapide
-full: Accès classique
 meta:
-  title: '@:txt.soft - Changer le monde, un octet à la fois.'
   lead: La route est longue mais la voie est libre…
   license: '@:license.ccbysa4 sauf mention contraire'
 nav:
-  lite: Accès rapide
-  full: Accueil classique
   parts:
     logiciel:
       key: Rubrique logiciels

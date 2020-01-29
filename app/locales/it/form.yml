@@ -1,33 +1,31 @@
 step1:
   title: Dono per la cultura libera
-  privilegie: '@:txt.soft  preferisce le donazioni ricorrenti per continuare
-    la sua azione in modo sereno e duraturo'
-  count: Attualmente @:txt.soft conta
-  donators: donatori ricorrenti.
   monthly: Donazione tutti i mesi
   oneshot: Donazione una sola volta
   monthly_ex: 'es: 42'
   oneshot_ex: 'es: 133.7'
   other: Altra cifra
-  or: O
 step2:
   title: Completo le mie informazioni
   private: Privacy
-  private_tip:
-  - Queste informazioni sono necessarie per motivi pratici e per poter emettere
-    una ricevuta fiscale
-  - Se non vuoi o non puoi detassare la tua donazione, puoi comunque
-  - riempi questo modulo con false informazioni
-  - (avvertenza, in questo caso non usare Paypal).
-  - 'Devi anche sapere che tu puoi verificare se la tua donazione è stata ricevuta
-    alla pagina “<a href="stats">elenco dei donatori</a>” '
-  - Naturalmente il tuo nome e cognome non vengono resi pubblici.
+  private_tip: |-
+    Queste informazioni sono necessarie per motivi pratici e per poter
+    emettere una ricevuta fiscale
+
+    Se non vuoi o non puoi detassare la tua donazione, puoi comunque
+    riempi questo modulo con false informazioni
+    (avvertenza, in questo caso non usare Paypal).
+
+    Devi anche sapere che tu puoi verificare se la tua donazione è stata
+    ricevuta alla pagina “[elenco dei donatori](@:link.soutenir/stats)”
+    Naturalmente il tuo nome e cognome non vengono resi pubblici.
   type: Io rappresento
   part: un individuo
   corp: un'azienda
-  corp_tip: Azienda, associazione, comunità…
-  mecenat: Se vuoi diventare un partner di @:txt.softe <a href="partenaires">comparire
-    su questa pagina</a>, <a href="@:link.contact">contattaci</a>.
+  corp_tip: 'Azienda, associazione, comunità…'
+  mecenat: |-
+    Se vuoi diventare un partner di @:txt.soft e [comparire
+    su questa pagina](@:link.soutenir/partenaires), [contattaci](@:link.contact).
   society: Ragione sociale
   society_ex: 'es: Free Software Fondation'
   society_email_ex: 'es: contact@fsf.org'
@@ -52,17 +50,7 @@ step3:
   title: Accedo al pagamento
   defisc: Informazioni sull'esenzione fiscale
   defisc_title: Esenzione fiscale
-  defisc_tip: '@:txt.soft  è un’associazione riconosciuta di interesse generale.<br>
-    Come tale, se sei soggetto all’imposta sul reddito, puoi dedurre il 66% dell’ammontare
-    della tua donazione. Cioè, se tu hai donato €10 x 12 mesi (€120), potrai dedurre
-    120x66% (€79,20) dalla tua prossima dichiarazione. <br> La ricevuta fiscale
-    ti verrà inviata automaticamente via email prima della dichiarazione. <br> Per
-    informazioni più dettagliate clicca qui per accedere alla nostra pagina di spiegazioni.'
-  defisc_text:
-  - In Francia grazie alla detrazione fiscale della
-  - <b>tua donazione di </b>
-  - ti costerà soltanto
-  - al mese
+  defisc_text: In Francia grazie alla detrazione fiscale della {percent},
   cb: Carta di credito
   vir: Bonifico
   chq: Assegno
@@ -72,44 +60,59 @@ step3:
   now: ora
   coord: I tuoi dati personali sono stati registrati
   email_send:
-  - È stata appena inviata un'email al tuo indirizzo
-  - contenente un promemoria delle istruzioni qui sotto.
-  ok: OK, ho capito
+    - È stata appena inviata un'email al tuo indirizzo
+    - contenente un promemoria delle istruzioni qui sotto.
+  ok: 'OK, ho capito'
   modal_vir:
     by: con bonifico bancario
-    no_sepa: '@:txt.soft  non offre un modulo SEPA per un addebito diretto,
-      ma tu puoi fare una donazione via bonifico bancario direttamente a noi.<br>
-      Così tu puoi decidere la somma e la frequenza e puoi cambiarle quando vuoi.'
-    to_finish: 'Per completare la tua donazione, prendi nota delle nostre coordinate
-      bancarie:'
-    ref: 'Prendi nota anche di questo <b>riferimento al pagamento</b> che dovrà
-      essere aggiunto alla descrizione del bonifico:'
-    to_bank: Poi concorda con la tua banca come pianificare il bonifico. Alcune
-      banche possono gestirlo anche online.
+    no_sepa: |-
+      @:txt.soft  non offre un modulo SEPA per un addebito diretto, ma tu puoi
+      fare una donazione via bonifico bancario direttamente a noi.<br /> Così tu
+      puoi decidere la somma e la frequenza e puoi cambiarle quando vuoi.
+    to_finish: |-
+      Per completare la tua donazione, prendi nota delle nostre coordinate
+      bancarie:
+    ref: |-
+      Prendi nota anche di questo <b>riferimento al pagamento</b> che dovrà
+      essere aggiunto alla descrizione del bonifico:
+    to_bank: |-
+      Poi concorda con la tua banca come pianificare il bonifico. Alcune banche
+      possono gestirlo anche online.
   modal_chq:
     by: con assegno
-    to_finish: 'Per concludere la tua donazione, completa per favore l’assegno all’ordine
+    to_finish: |-
+      Per concludere la tua donazione, completa per favore l’assegno all’ordine
       di <b>“Associazione @:txt.soft”</b> e annota questo <b>riferimento di
-      pagamento sul retro</b>:'
-    to_post: 'Poi invia il tuo assegno alla sede dell’associazione a questo indirizzo
-      di posta:'
+      pagamento sul retro</b>:
+    to_post: |-
+      Poi invia il tuo assegno alla sede dell’associazione a questo indirizzo di
+      posta:
 ask:
   title: Domande
-  stop: Le donazioni ricorrenti possono essere interrotte in qualsiasi momento,
-    basta <a href="@:link.contact/#soutenir">chiedecelo</a>.
-  edit: Se vuoi modificare la tua donazione ricorrente, per favore <a href="@:link.contact/#soutenir">contattaci</a>,
-    noi interromperemo quella in corso e tu potrai farne una nuova.
-  send: Le rivcevute fiscali (solo in Francia) sono inviate via posta in Marzo/Aprile
-    @:year.next  (prima della dichiarazione delle tasse) per le donazioni fatte
-    in @:year.current
-  moral: I rapporti sulle attività e le finanze dell'associazione si possono trovare
-    sulla <a href="@:link.soft/@:lang/association">pagina no-profit</a>
-  alter1: Per <a href="@:link.contact/foire-aux-questions/#dons-alternatifs">ragioni
-    pratiche</a>, non accettiamo donazioni da piattaforme di micro pagamenti (Lilo,
-    Flattr, Tipeee…) ad eccezione di Liberapay
+  stop: |-
+    Le donazioni ricorrenti possono essere interrotte in qualsiasi momento,
+    basta [chiedecelo](@:link.contact/#soutenir).
+  edit: |-
+    Se vuoi modificare la tua donazione ricorrente, per favore
+    [contattaci](@:link.contact/#soutenir), noi interromperemo quella in
+    corso e tu potrai farne una nuova.
+  send: |-
+    Le rivcevute fiscali (solo in Francia) sono inviate via posta in
+    Marzo/Aprile @:year.next  (prima della dichiarazione delle tasse) per le
+    donazioni fatte in @:year.current
+  moral: |-
+    I rapporti sulle attività e le finanze dell'associazione si possono trovare
+    sulla [pagina no-profit](@:link.soft/association)
+  alter1: |-
+    Per [ragioni pratiche](@:link.contact/foire-aux-questions/#dons-alternatifs),
+    non accettiamo donazioni da piattaforme di micro pagamenti
+    (Lilo, Flattr, Tipeee…) ad eccezione di Liberapay
   lp: Fai una donazione via Liberapay
-  alter2: Non accettiamo nemmeno  donazioni in cripto-valute (Bitcoin, Ether, Monero…)
-    ma osserviamo con attenzione <a href="https://duniter.org/fr/comprendre/">la
-    moneta libera Ğ1 </a>.
-  other: Se hai altre domande <a href="@:link.soutenir/@:lang/questions">puoi
-    trovare delle risposte qui…</a>…
+  alter2: |-
+    Non accettiamo nemmeno  donazioni in cripto-valute (Bitcoin, Ether, Monero…)
+    ma osserviamo con attenzione [la moneta libera
+    Ğ1](https://duniter.org/fr/comprendre/).
+  other: |-
+    Se hai altre domande [puoi trovare delle risposte
+    qui](@:link.soutenir/questions)…
+

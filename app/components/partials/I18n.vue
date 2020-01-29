@@ -1,44 +1,41 @@
 <template>
   <div class="pull-right">
-    <router-link :to="`/${$t('lang')}/lite`" class="btn btn-default" :title="$t('lite')">
-      <i class="fa fa-lg fa-th-large" aria-hidden="true"></i>
-      <span class="sr-only" v-text="$t('lite')"></span>
-    </router-link>
-    <dropdown ref="dropdown" menu-right>
-      <btn type="button" class="btn btn-default dropdown-toggle"
-        aria-haspopup="true" aria-expanded="false"
-        :title="$t('nav.langChange')">
-        <i class="fa fa-lg fa-language" aria-hidden="true"></i>
-        <span v-html="$t('nav.lang')"></span>
-        <span class="caret"></span>
-      </btn>
-      <template slot="dropdown">
-        <li v-for="lang in locales.available"
-          :key="lang"
-          @click="changeLanguage(lang)">
-          <router-link :to="`/${lang}/${($route.path.split('/')[2] || '')}`">
-            {{ locales[lang] }}
-          </router-link>
-        </li>
-        <li v-if="$te('meta.i18n')" role="separator" class="divider"></li>
-        <li v-if="$te('meta.i18n')">
-          <a :href="$t('meta.i18n')">
-            <i class="fa fa-fw fa-plus" aria-hidden="true"></i>
-            <span v-html="$t('nav.translate')"></span>
-          </a>
-        </li>
+    <b-dropdown
+      right
+      variant="outline-secondary"
+      :title="$t('nav.langChange', '-t')"
+    >
+      <template v-slot:button-content>
+        <icon
+          name="language"
+          variant="fa-lg"
+          :label="$t('nav.lang')"
+        />
       </template>
-    </dropdown>
+      <b-dropdown-item
+        v-for="lang in locales.visible"
+        :key="lang"
+        :to="`/${lang}/${($route.path.split('/')[2] || '')}`"
+        @click="changeLanguage(lang)"
+      >
+        {{ locales[lang] }}
+      </b-dropdown-item>
+      <b-dropdown-divider v-if="$te('meta.i18n')" />
+      <b-dropdown-item
+        v-if="$te('meta.i18n')"
+        :href="$t('meta.i18n')"
+      >
+        <icon
+          name="plus"
+          :label="$t('nav.translate')"
+        />
+      </b-dropdown-item>
+    </b-dropdown>
   </div>
 </template>
 
 <script>
-import { Btn, Dropdown } from 'uiv';
-
 export default {
-  components: {
-    Btn, Dropdown,
-  },
   data() {
     return {
       currentComponent: '',
@@ -50,7 +47,7 @@ export default {
     changeLanguage(lang) {
       this.switchLanguage = lang;
       this.$i18n.locale = lang;
-      this.currentComponent = this.$route.path.split('/')[2]; // eslint-disable-line prefer-destructuring
+      [this.currentComponent] = [this.$route.path.split('/')[2]];
     },
   },
 };

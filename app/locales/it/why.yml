@@ -3,59 +3,70 @@ timeline:
 money:
   title: Scopri dove vanno a finire i tuoi soldi
   list:
-  - 'Risorse umane:'
-  - 'Server e nomi di dominio:'
-  - 'Spese di funzionamento:'
-  - 'Interventi e progetti esterni:'
-  - 'Comunicazione:'
-  - 'Acquisti:'
-  - 'Spese bancarie:'
+    - 'Risorse umane:'
+    - 'Server e nomi di dominio:'
+    - 'Spese di funzionamento:'
+    - 'Interventi e progetti esterni:'
+    - 'Comunicazione:'
+    - 'Acquisti:'
+    - 'Spese bancarie:'
 reasons:
   title: 6 buone ragioni per sostenerci
   list:
-  - 1. Perché la reclusione è adesso
-  - 2. Per altre alternative libere
-  - 3. Perché siamo dei bravi ragazzi!
-  - 4. Per decidere dove vanno le tue tasse
-  - 5. Perché l’economia del dono ci rende indipendenti
-  - 6. Per cambiare il mondo insieme
+    - 1. Perché la reclusione è adesso
+    - 2. Per altre alternative libere
+    - 3. Perché siamo dei bravi ragazzi!
+    - 4. Per decidere dove vanno le tue tasse
+    - 5. Perché l’economia del dono ci rende indipendenti
+    - 6. Per cambiare il mondo insieme
   desc:
-  - NSA, Facebook, Google, Amazon, Microsoft e Apple…  Le rivelazioni di E. Snowden
-    hanno dimostrato che i peggiori incubi degli informatici sono vivi. Siamo confinati
-    in servizi, strumenti e una cultura che centralizza i nostri dati e li utilizza
-    senza limiti. L’unica via d’uscita passa attraverso l’utilizzo e l’educazione
-    al software e ai servizi liberi, rispettosi dei nostri diritti fondamentali.
-  - Per 16 anni, @:txt.soft è stata una porta d’ingresso in lingua francese
-    al software e alla cultura liberi. Un collegamento tra gli sviluppatori di soluzioni
-    aperte e il pubblico in generale. Il successo dei servizi alternativi di "@:txt.dio"
-    dimostra che è possibile rispettare le persone e i loro dati. Vogliamo andare
-    oltre e solo il vostro sostegno ci permetterà di proporre o migliorare altri
-    servizi.
-  - '@:txt.soft è un gruppo di pensionati, impiegati, disoccupati, artisti,
-    insegnanti e studenti… Non proprio specializzati in informatica, ma abbastanza
-    bene informati per sapere che il software libero è una parte della soluzione.
-    Quindi ci impegniamo a rispettare alcuni principi etici attraverso una <a href="@:link.soft/en/charte">carta</a>
-    e abbiamo dedicato il nostro tempo a mettere in evidenza o introdurre sempre
-    più soluzioni libere per un pubblico più ampio.'
-  - Per gestire meglio i suoi progetti, @:txt.soft ha creato un’ associazione
-    no-profit (legge 1901 in Francia), riconosciuta di interesse generale. Le tue
-    donazioni possono essere dedotte dalle tue tasse (solo in Francia). Ad esempio,
-    con una donazione ricorrente di € 120 (€ 10 al mese per un anno), la riduzione
-    è di € 79,20 e quindi la spesa effettiva è di € 40,80. In questo modo, partecipi
-    direttamente ai nostri progetti, alle produzioni, alle spese strutturali e allo
-    stipendio di diversi dipendenti.
-  - Non appena fai clic, condividi, utilizzi un software o un sito web / un servizio,
-    gli dai un certo valore. Questa è l’economia dell’attenzione. Questa attenzione
-    viene quindi monetizzata con la pubblicità e la vendita di dati (Facebook, Google,
-    Twitter, Microsoft, ecc.) O con modalità di vendita (Apple, Amazon). Questa
-    attenzione può anche creare un certo valore sotto forma di donazioni, condivisione
-    e partecipazione (Wikipedia). Noi abbiamo scelto questo  modello. Ci offre l’indipendenza
-    dalle leggi del mercato e la totale libertà dei nostri donatori.
-  - 'Sì, niente di meno. Un progetto dopo l’altro, dimostriamo che sono possibili
-    alternative libere, semplici, rispettose e comunitarie. Nella nostra <a href="https://framabook.org">casa
-    editrice collaborativa</a>, i nostri scrittori ti permettono di ottenere liberamente
-    i loro ebook digitali e di essere pagati attraverso le vendite dei libri di
-    carta o le tue donazioni dirette. I nostri <a href="@:link.dio/en/list">
-    servizi di De-google-ify</a> sono sempre più usati… C’è ancora molto da fare
-    e possiamo continuare grazie al tuo sostegno: "C’è ancora molta strada da fare,
-    ma la strada è libera".'
+    - >-
+      NSA, Facebook, Google, Amazon, Microsoft e Apple…  Le rivelazioni di E.
+      Snowden hanno dimostrato che i peggiori incubi degli informatici sono
+      vivi. Siamo confinati in servizi, strumenti e una cultura che centralizza
+      i nostri dati e li utilizza senza limiti. L’unica via d’uscita passa
+      attraverso l’utilizzo e l’educazione al software e ai servizi liberi,
+      rispettosi dei nostri diritti fondamentali.
+    - >-
+      Per 16 anni, @:txt.soft è stata una porta d’ingresso in lingua francese al
+      software e alla cultura liberi. Un collegamento tra gli sviluppatori di
+      soluzioni aperte e il pubblico in generale. Il successo dei servizi
+      alternativi di "@:txt.dio" dimostra che è possibile rispettare le persone
+      e i loro dati. Vogliamo andare oltre e solo il vostro sostegno ci
+      permetterà di proporre o migliorare altri servizi.
+    - >-
+      @:txt.soft è un gruppo di pensionati, impiegati, disoccupati, artisti,
+      insegnanti e studenti… Non proprio specializzati in informatica, ma
+      abbastanza bene informati per sapere che il software libero è una parte
+      della soluzione. Quindi ci impegniamo a rispettare alcuni principi etici
+      attraverso una [carta](@:link.soft/charte) e abbiamo
+      dedicato il nostro tempo a mettere in evidenza o introdurre sempre più
+      soluzioni libere per un pubblico più ampio.
+    - >-
+      Per gestire meglio i suoi progetti, @:txt.soft ha creato un’ associazione
+      no-profit (legge 1901 in Francia), riconosciuta di interesse generale. Le
+      tue donazioni possono essere dedotte dalle tue tasse (solo in Francia). Ad
+      esempio, con una donazione ricorrente di € 120 (€ 10 al mese per un anno),
+      la riduzione è di € 79,20 e quindi la spesa effettiva è di € 40,80. In
+      questo modo, partecipi direttamente ai nostri progetti, alle produzioni,
+      alle spese strutturali e allo stipendio di diversi dipendenti.
+    - >-
+      Non appena fai clic, condividi, utilizzi un software o un sito web / un
+      servizio, gli dai un certo valore. Questa è l’economia dell’attenzione.
+      Questa attenzione viene quindi monetizzata con la pubblicità e la vendita
+      di dati (Facebook, Google, Twitter, Microsoft, ecc.) O con modalità di
+      vendita (Apple, Amazon). Questa attenzione può anche creare un certo
+      valore sotto forma di donazioni, condivisione e partecipazione
+      (Wikipedia). Noi abbiamo scelto questo  modello. Ci offre l’indipendenza
+      dalle leggi del mercato e la totale libertà dei nostri donatori.
+    - >-
+      Sì, niente di meno. Un progetto dopo l’altro, dimostriamo che sono
+      possibili alternative libere, semplici, rispettose e comunitarie. Nella
+      nostra [casa editrice collaborativa](@:link.book), i
+      nostri scrittori ti permettono di ottenere liberamente i loro ebook
+      digitali e di essere pagati attraverso le vendite dei libri di carta o le
+      tue donazioni dirette. I nostri [servizi di De-google-ify](@:link.dio/list)
+      sono sempre più usati… C’è ancora molto da fare e
+      possiamo continuare grazie al tuo sostegno: "C’è ancora molta strada da
+      fare, ma la strada è libera".
+

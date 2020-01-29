@@ -1,28 +1,37 @@
 <template>
-  <div class="container ombre apropos">
-    <header class="clearfix header">
-      <h1 class="pull-left" v-html="$t('moderation.title')"></h1>
-      <I18n/>
+  <b-container class="ombre">
+    <header class="row">
+      <h1
+        class="col"
+        v-html="$t('moderation.title')"
+      ></h1>
+      <b-col
+        cols="2"
+        align-self="end"
+      >
+        <I18n />
+      </b-col>
     </header>
+
+    <hr class="trait" />
+
     <main>
-      <v-text section="moderation" />
+      <div v-html="$t('moderation.md')"></div>
 
       <div class="signature">
-        <hr>
-        <v-text section="moderation.footer" />
+        <hr />
+        <div v-html="$t('moderation.footer')"></div>
       </div>
     </main>
-  </div>
+  </b-container>
 </template>
 
 <script>
 import I18n from '../partials/I18n.vue';
-import VText from '../partials/V-Text.vue';
 
 export default {
   components: {
     I18n,
-    VText,
   },
-}
+};
 </script>

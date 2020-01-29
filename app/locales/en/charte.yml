@@ -1,76 +1,91 @@
 title: Charter
-p-intro:
-- '@:color.soft is a network of popular education, which has its origins in
+md: |-
+  @:color.soft is a network of popular education, which has its origins in
   the education world, which is principally dedicated to free (as in free speech)
   software. It is collaboratively organized around three main issues: promotion,
   dissemination and development of free software, enhancement of open source culture,
-  and an online platform of open services.'
-h2-libre: For an open Internet
-p-libre:
-- The use of free software and open standards on the Internet is the main purpose
-  of our project <a href="@:link.dio">@:color.dio</a>.
-- Access to source code is the cornerstone of open source principles. @:color.soft
-  commits itself to place each application available in its projects under <a href="https://www.gnu.org/philosophy/free-sw.fr.html">free
-  license</a>.
-- In case of improvement of the code, @:color.soft commits itself to place
+  and an online platform of open services.
+
+  ## For an open Internet
+
+  The use of free software and open standards on the Internet is the main purpose
+  of our project @:html.dio.
+
+  Access to source code is the cornerstone of open source principles. @:color.soft
+  commits itself to place each application available in its projects under [free
+  license](https://www.gnu.org/philosophy/free-sw.fr.html).
+
+  In case of improvement of the code, @:color.soft commits itself to place
   the contribution under free license (compatible with the original license) and
   will encourage any voluntary contribution from users by inviting them to enter
   in contact with the author.
-- '@:color.soft commits itself to make the source code accessible, whether
+
+  @:color.soft commits itself to make the source code accessible, whether
   by publishing a link pointing to the official website of the application, or,
   if the latter is no longer available, by publishing the code in question on a
-  repository.'
-- Doing this, @:color.soft demonstrates its probity by allowing every user
+  repository.
+
+  Doing this, @:color.soft demonstrates its probity by allowing every user
   to check the source code, to potentially improve it, and above all to ensure that
   no unfair use will be made of his data, identity, or rights.
-- Users will then be able to knowingly use the available applications and learn
+
+  Users will then be able to knowingly use the available applications and learn
   about all their features, advantages, limits and possible uses.
-- None of the data produced with the help of these applications belong to @:color.soft,
+
+  None of the data produced with the help of these applications belong to @:color.soft,
   who does not apply any copyright nor censors your content. However, any content
   that would be considered infringing or illegal by French law, once duly signaled,
   will be immediately deleted.
-h2-decentralized: For a decentralized Internet
-p-decentralized:
-- By offering open applications online, @:color.soft intends to promote alternative
+
+  ## For a decentralized Internet
+
+  By offering open applications online, @:color.soft intends to promote alternative
   solutions to proprietary applications that some companies propose in order to
   achieve monopolies and make abusive use of personal data.
-- These alternatives are examples of the diversity of available open-source solutions
+
+  These alternatives are examples of the diversity of available open-source solutions
   which can be used for personal or collective purpose. In this perspective, @:color.soft
   is commited to foster their dissemination by publishing tutorials explaining how
   to install these applications on your own server.
-- 'Equal access to these applications is a strong commitment: by offering them for
+
+  Equal access to these applications is a strong commitment: by offering them for
   free, @:color.soft wishes to promote their use to the largest extent, and
-  to give a proof of concept that a decentralized and egalitarian Internet is possible.'
-h2-ethic: For an ethical Internet
-p-ethic:
-- The ethics of opensource software is about sharing and independence. @:color.soft
+  to give a proof of concept that a decentralized and egalitarian Internet is possible.
+
+  ## For an ethical Internet
+
+  The ethics of opensource software is about sharing and independence. @:color.soft
   commits itself to never practice any censorship of the contents, nor any surveillance
   of the actions of its users, and to never answer any administrative or authorities
   demands without a formal legal request. In return, users commit themselves, in
   production or hosting of their contents, to respect the frameworks provided by
   law.
-- We do not practice any discrimation among users, so as to ensure the greatest
+
+  We do not practice any discrimation among users, so as to ensure the greatest
   accessibility.
-- Personal data will not be exploited for commercial issues, or transmitted to a
+
+  Personal data will not be exploited for commercial issues, or transmitted to a
   third party, nor used for purposes that are not specified in the present charter.
   However, users must be aware that their data might be rendered accessible, especially
   when they make them public in the context of a collaborative application. In this
   case, users remain responsible for their content.
-h2-solidary: For an Internet of solidarity
-p-solidary:
-- '@:color.soft is a non-profit. Its volunteers and employees devote their
+
+  ## For an Internet of solidarity
+
+  @:color.soft is a non-profit. Its volunteers and employees devote their
   time to ensure the continuity of the services offered to users. Our business model
   is based on mutualisation of energies and costs. Our services are free, but it
   does not mean they cost nothing. If a large number of supporters financially encouraged
   @:color.soft to maintain its services, an even larger number of persons would
-  be able to use them, and they could even be improved.'
-- '@:color.soft has a popular education approach, and thus shares as much knowledge
+  be able to use them, and they could even be improved.
+
+  @:color.soft has a popular education approach, and thus shares as much knowledge
   as it can in order to promote the use of free software and teach users how to
   install free services on their servers. Sharing technical and cognitive ressources
   is what makes the Internet a common good, available for everyone and belonging
-  to no one.'
-footer:
-  p:
-  - Charter of Free, Ethical, Decentralized and Solidarity Services,<br> approved
-    by  @:color.soft on October 6th 2014.
-  - 'Translation by Framalang contributors Théo, #!, goofy, Diane'
+  to no one.
+footer: |-
+  Charter of Free, Ethical, Decentralized and Solidarity Services,<br />approved
+  by  @:color.soft on October 6th 2014.
+
+  Translation by Framalang contributors Théo, #!, goofy, Diane

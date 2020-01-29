@@ -4,6 +4,9 @@
   .btn-soutenir {
     white-space: normal;
     max-width: 21em;
+    background-color: #DBA306;
+    border: 1px solid #DBA306;
+    color: #fff;
   }
 
   section {
@@ -12,10 +15,8 @@
   }
 
   .pfooter {
-    margin-top: 15px;
-    margin-bottom: 30px;
-    padding-left: 15px;
-    padding-left: 15px;
+    margin: 15px auto 0 ;
+    padding-bottom: 30px;
     text-align: center;
     a {
       color: #fff;
@@ -34,6 +35,16 @@
     background-size: cover;
     padding-bottom: 40px;
     color: #fff;
+
+    .btn-outline-secondary {
+      background: #fff;
+      &:hover {
+        background-color: #616161;
+      }
+    }
+    .show > .btn-outline-secondary.dropdown-toggle {
+      background-color: #616161;
+    }
 
     h1, h2 { color: #fff; }
 
@@ -324,7 +335,7 @@
       position: absolute;
       top: 50px;
       right: 50px;
-      width: 33%;
+      width: 40%;
       height: auto;
       background: rgba(255, 255, 255, 0.9);
       padding-bottom: 20px;
@@ -393,8 +404,8 @@
 
     h4 {
       position: absolute;
-      left: 0.7rem;
-      top: -1.5rem;
+      left: 1.5rem;
+      top: -0.5rem;
       width: 6.5rem;
       height: 6.5rem;
       border-radius: 81% 75% 99% 71%;
@@ -542,7 +553,7 @@
       }
 
       .bigbubble:before {
-        top: 0px;
+        top: 15px;
       }
     }
 

@@ -1,28 +1,41 @@
 <template>
-  <section id="peertube" class="clearfix">
+  <section
+    id="peertube"
+    class="clearfix"
+  >
     <div class="embed-responsive embed-responsive-16by9">
-      <iframe v-if="peertube"
+      <iframe
+        v-if="peertube"
         v-view.once="loadPeertube"
-        width="560" height="315"
+        width="560"
+        height="315"
         sandbox="allow-same-origin allow-scripts"
         :src="videoBackground"
         frameborder="0"
-        allowfullscreen>
-      </iframe>
+        allowfullscreen
+      ></iframe>
     </div>
-    <div class="container ombre">
+    <b-container class="ombre">
       <h2 v-html="$t('home.peertube.title')"></h2>
       <p v-html="$t('home.peertube.text')"></p>
       <p>
-        <a href="#peertube" @click="openPeertubeModal();"
+        <a
+          href="#peertube"
           class="btn btn-default"
-          v-html="$t('home.peertube.btn')">
-        </a>
+          @click="openPeertubeModal();"
+          v-html="$t('home.peertube.btn')"
+        ></a>
       </p>
-    </div>
-    <p class="pfooter" v-html="$t('home.peertube.footer')"></p>
+    </b-container>
+    <p
+      class="pfooter"
+      v-html="$t('home.peertube.footer')"
+    ></p>
 
-    <modal
+    <!--
+      TO UPDATE
+
+    <b-modal
       id="modalPT"
       v-model="modal.openPT"
       class="modal fade"
@@ -30,16 +43,25 @@
       role="dialog"
       aria-labelledby="modalPTLabel"
       aria-hidden="true"
-      size="lg">
+      size="lg"
+    >
       <div slot="header">
-        <button type="button" class="close" @click="modal.openPT = false;">
+        <button
+          type="button"
+          class="close"
+          @click="modal.openPT = false;"
+        >
           <span aria-hidden="true">&times;</span>
-          <span class="sr-only" v-html="$t('txt.close')"></span>
+          <span
+            class="sr-only"
+            v-html="$t('txt.close')"
+          ></span>
         </button>
-        <h1 id="modalPTLabel"
+        <h1
+          id="modalPTLabel"
           class="modal-title"
-          v-html="$t('home.peertube.modal.title')">
-        </h1>
+          v-html="$t('home.peertube.modal.title')"
+        ></h1>
       </div>
 
       <p v-html="$t('home.peertube.modal.text')"></p>
@@ -48,33 +70,32 @@
           <tab
             v-for="index in Object.keys($t('home.peertube.modal.features'))"
             :key="index"
-            :title="(index + 1)">
+            :title="(index + 1)"
+          >
             <h3 v-html="$t(`home.peertube.modal.features[${index}]`)"></h3>
             <div class="embed-responsive embed-responsive-16by9">
-              <iframe v-if="peertube"
-                width="560" height="315"
+              <iframe
+                v-if="peertube"
+                width="560"
+                height="315"
                 sandbox="allow-same-origin allow-scripts"
                 :src="loadedPeertubeFeatures[index]"
-                frameborder="0" allowfullscreen>
-              </iframe>
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
             </div>
           </tab>
         </tabs>
       </div>
-      <div slot="footer"><!-- Keep empty --></div>
-    </modal>
+      <div slot="footer">
+
+      </div>
+    </b-modal> -->
   </section>
 </template>
 
 <script>
-import { Modal, Tabs, Tab} from 'uiv';
-
 export default {
-  components: {
-    Modal,
-    Tabs,
-    Tab,
-  },
   data() {
     return {
       peertube: !window.vuefsPrerender && process.env.NODE_ENV !== 'development',
@@ -90,8 +111,8 @@ export default {
       videoBackground: 'about:blank',
       modal: {
         openPT: false,
-      }
-    }
+      },
+    };
   },
   methods: {
     loadPeertube(e) {
@@ -99,7 +120,7 @@ export default {
         this.videoBackground = 'https://framatube.org/videos/embed/12b7c838-84f6-4b7d-98c6-686e4adce61d?autoplay=1&loop=1&muted=1&controls=0';
 
         // Load the first modal iframe
-        this.loadedPeertubeFeatures = [ this.peertubeFeatures[0] ]
+        this.loadedPeertubeFeatures = [this.peertubeFeatures[0]];
       }
     },
     openPeertubeModal() {
@@ -108,6 +129,6 @@ export default {
 
       this.modal.openPT = true;
     },
-  }
-}
+  },
+};
 </script>

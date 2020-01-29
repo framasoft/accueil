@@ -1,67 +1,71 @@
 title: Associazione
-prez:
-  h2: Presentazione di @:txt.soft
-  p-intro:
-  - Nata dal mondo dell'istruzione e ora rivolta   verso l'istruzione popolare,
-    @:html.soft è soprattutto una rete di progetti, di cui il primo, <a href="@:link.libre">
-    l'annuario @:link.libre </a>, risale al 2001.
-  - 'Questi progetti sono gestiti da persone che lavorano insieme con lo stesso
-    desiderio: promuovere le libertà digitali.'
-  - Il rispetto delle libertà fondamentali degli utenti, garantite da contratti
-    legali (le <a href="@:link.wFreeLicense"> licenze gratuite </a>), è al centro
-    del movimento libero e garantisce che l'elemento umano mantenga il controllo
-    sullo strumento digitale.
-  - 'L’obbiettivo di @:html.soft è offrire, soprattutto online, un insieme
-    di strumenti concreti e pratici per facilitare l’adozione:'
-  ul-axis:
+prez: |-
+  ## Presentazione di @:txt.soft
+
+  Nata dal mondo dell’istruzione e ora rivolta   verso l’istruzione popolare,
+  @:html.soft è soprattutto una rete di progetti, di cui il primo, [l’annuario
+  @:link.libre](@:link.libre), risale al 2001.
+
+  Questi progetti sono gestiti da persone che lavorano insieme con lo stesso
+  desiderio: promuovere le libertà digitali.
+
+  Il rispetto delle libertà fondamentali degli utenti, garantite da contratti
+  legali (le [licenze gratuite](@:link.wFreeLicense)), è al centro
+  del movimento libero e garantisce che l’elemento umano mantenga il controllo
+  sullo strumento digitale.
+
+  L’obbiettivo di @:html.soft è offrire, soprattutto online, un insieme
+  di strumenti concreti e pratici per facilitare l’adozione:
+
   - del software libero (annuarioy, chiavette USB, programma di installazione…);
   - di creazioni culturali gratuite (blog, traduzione, casa editrice…);
-  - di servizi liberii (più di 30 servizi liberi nel progetto <a href="@:link.dio">
-    @:color.dio </a>).
-  p-gate:
-  - Presentato come un "portale verso il Mondo Libero", la rete @:html.soft
-    vuole collocarsi come un ponte tra la comunità dei bibliotecari e il pubblico
-    generale.
-  saveas: Clicca col tasto destro sull'immagine e "Salva immagine come" per riutilizzarla
-  infography: Infografica <em lang="fr">Il mondo di @:txt.soft</em> realizzata
-    da
-infos:
-  h2: L'associazione @:txt.soft
-  p-asso:
-  - La rete @:html.soft fa affidamento sulla sua vasta comunità di volontari,
-    ma non potrebbe esistere se non fosse sostenuta da un’associazione fondata nel
-    2004.
-  - L'associazione @:html.soft è un'associazione no-profit 1901 il cui carattere
-    di interesse generale autorizza ad una detrazione fiscale. Il che mostra la
-    sua volontà di rimanere un'associazione a misura d'uomo (meno di quaranta membri,
-    meno di dieci impiegati permanenti)
-  - Troverai in basso alcune informazioni che includono i nostri statuti, le regole
-    procedurali e i rapporti etici annuali.
-  statuts: Statuti dell'associazione
-  ri: Regolamenti interni
+  - di servizi liberii (più di 30 servizi liberi nel progetto @:html.dio).
+
+  Presentato come un "portale verso il Mondo Libero", la rete @:html.soft
+  vuole collocarsi come un ponte tra la comunità dei bibliotecari e il pubblico
+  generale.
+saveas: Clicca col tasto destro sull’immagine e "Salva immagine come" per riutilizzarla
+infography: Infografica *Il mondo di @:txt.soft* realizzata da
+infos: |-
+  ## L’associazione @:txt.soft
+
+  La rete @:html.soft fa affidamento sulla sua vasta comunità di volontari,
+  ma non potrebbe esistere se non fosse sostenuta da un’associazione fondata nel
+  2004.
+
+  L’associazione @:html.soft è un’associazione no-profit 1901 il cui carattere
+  di interesse generale autorizza ad una detrazione fiscale. Il che mostra la
+  sua volontà di rimanere un’associazione a misura d’uomo (meno di quaranta membri,
+  meno di dieci impiegati permanenti)
+
+  Troverai in basso alcune informazioni che includono i nostri statuti, le regole
+  procedurali e i rapporti etici annuali.
+statuts: Statuti dell’associazione
+ri: Regolamenti interni
 data:
   title: Dati amministrativi e pratici
   dt:
     juridical: Status giuridico
     coprez: Copresidenza
     dg: Direttore e amministratore delegato
-    registration: Registrazione dell'associazione
+    registration: Registrazione dell’associazione
     staff: Dipendenti
     headquarters: Headquarters
     org: Organizzazione
     id: Identificazione completa
     projects: Progetti proncipali
-    charte: Atto costitutivo dell'associazione e suoi servizi
+    charte:
     reports: Rapporto etico
     newsletter: Newsletter
     press: Rassegna stampa e media
-    graphics: Layout grafico e logo
     founders: Fondatori
   dd:
     juridical: Associatzione legge 1901, riconosciuta di interesse generale
     staff: '@:meta.employees dipendenti'
     org: Associazione che sostiene progetti liberi e collaborativi
     id: Vedi il file
+    charte: Atto costitutivo dell’associazione e suoi servizi
+    moderation: Atto costitutivo de moderazione
     reportsFinancial: Rapporto finanziario
     reportsWriting: Rapporto di attività in corso di elaborazione
     reportsResults: Conto economico
@@ -69,6 +73,6 @@ data:
     reportsMAndF: Rapporto etico e finanziario
     newsletter: registrazione e archivi
     press: Piano annuale
-    graphics: su questa pagina
+    graphics: Layout grafico e logo
     banners: Banner
     benevalo: Volontariato valorizzato

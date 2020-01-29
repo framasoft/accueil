@@ -3,61 +3,72 @@ timeline:
 money:
   title: Découvrez où va votre argent
   list:
-  - 'Ressources humaines :'
-  - 'Serveurs et domaines :'
-  - 'Frais de fonctionnement :'
-  - 'Interventions et projets ext. :'
-  - 'Communication :'
-  - 'Achats de marchandise :'
-  - 'Frais bancaires :'
+    - 'Ressources humaines :'
+    - 'Serveurs et domaines :'
+    - 'Frais de fonctionnement :'
+    - 'Interventions et projets ext. :'
+    - 'Communication :'
+    - 'Achats de marchandise :'
+    - 'Frais bancaires :'
 reasons:
   title: 6 bonnes raisons de nous soutenir
   list:
-  - 1. Parce que l’enfermement, c’est maintenant
-  - 2. Pour plus d’alternatives libres.
-  - 3. Parce que les gentils, c’est nous !
-  - 4. Pour décider où vont vos impôts (avec défiscalisation
-  - 5. Parce que l’économie du don rend indépendant.
-  - 6. Pour changer le monde ensemble.
+    - '1. Parce que l’enfermement, c’est maintenant'
+    - 2. Pour plus d’alternatives libres
+    - '3. Parce que les gentils, c’est nous !'
+    - 4. Pour décider où vont vos impôts (avec défiscalisation)
+    - 5. Parce que l’économie du don rend indépendant
+    - 6. Pour changer le monde ensemble
   desc:
-  - La NSA (et la DGSE), Facebook, Google, Amazon, Microsoft et Apple… les révélations
-    d’E. Snowden ont montré que les pires cauchemars des informaticien·nes se sont
-    réalisés. Nous sommes enfermé·es dans des services, des outils et une culture
-    qui centralisent nos données et s’en servent allègrement. La seule solution
-    réside dans l’usage et l’éducation aux logiciels et services qui respectent
-    NOS libertés fondamentales.
-  - Depuis 16 ans, @:txt.soft est une porte d’entrée francophone dans le monde
-    du logiciel et de la culture libres, un trait d’union entre les développeur·euses
-    de solutions libres et le grand public. Le succès des services alternatifs de
-    « Dégooglisons Internet » montre qu’il est possible de respecter les personnes
-    et leurs données. Nous voulons aller beaucoup plus loin et seul votre soutien
-    nous permettra de proposer davantage de services et de les améliorer.
-  - '@:txt.soft, ce sont des retraité·es, des salarié·es, des chômeur·euses,
-    des artistes, des profs et des étudiant·es… Pas forcément spécialisé·es dans
-    l’informatique, mais suffisamment sensibilisé·es pour savoir que le Libre fait
-    partie de la solution. Alors on s’engage à une éthique par <a href="@:link.soft/fr/charte">une
-    charte</a> et on prend sur notre temps pour mettre en valeur et proposer plus
-    de solutions libres à un public de plus en plus large.'
-  - Pour mieux gérer ses projets, @:txt.soft s’est dotée d’une association
-    loi 1901, reconnue d’intérêt général. Vos dons peuvent donc être déduits de
-    vos impôts (en France uniquement). Ainsi, par exemple, pour un don récurrent
-    de 120 € (soit 10 € par mois pendant un an), la réduction est de 79,20 € et
-    donc le coût réel de votre don est de 40,80 €. Ainsi, vous participez directement
-    à nos initiatives, nos productions, nos frais de structures et l’emploi de plusieurs
-    salariés.
-  - 'Dès que vous cliquez, partagez, utilisez un logiciel ou un site/service : vous
-    lui donnez de la valeur. C’est l’économie de l’attention. Cette attention est
-    ensuite monétisée sour forme de publicité et de vente de vos données (Facebook,
-    Google, Twiter, Microsoft, etc.) ou sous forme d’achats enfermants (Apple, Amazon).
-    Cette attention peut aussi créer de la valeur sous forme de dons, partages et
-    participations (Wikipédia). Nous avons choisi ce dernier modèle pour notre fonctionnement.
-    Cela nous rend indépendant·es des lois du marché tout en laissant libres nos
-    donateur·ices.'
-  - 'Oui : rien de moins. Projet après projet, nous démontrons que des alternatives
-    libres, simples, respectueuses et communautaires sont possibles. Dans <a href="https://framabook.org">
-    notre maison d’édition collaborative</a> les auteur·ices ne brident pas leurs
-    livres numériques proposés en libre téléchargement et sont rémunéré·es sur les
-    ventes papier ou par votre soutien direct. Nos <a href="@:link.dio/fr/list">services
-    Dégooglisons</a> sont de plus en plus utilisés… Il reste du chemin à faire et
-    nous pouvons le poursuivre avec votre soutien : « la route est longue mais la
-    voie est libre ».'
+    - >-
+      La NSA (et la DGSE), Facebook, Google, Amazon, Microsoft et Apple… les
+      révélations d’E. Snowden ont montré que les pires cauchemars des
+      informaticien·nes se sont réalisés. Nous sommes enfermé·es dans des
+      services, des outils et une culture qui centralisent nos données et s’en
+      servent allègrement. La seule solution réside dans l’usage et l’éducation
+      aux logiciels et services qui respectent NOS libertés fondamentales.
+    - >-
+      Depuis 16 ans, @:txt.soft est une porte d’entrée francophone dans le monde
+      du logiciel et de la culture libres, un trait d’union entre les
+      développeur·euses de solutions libres et le grand public. Le succès des
+      services alternatifs de « Dégooglisons Internet » montre qu’il est
+      possible de respecter les personnes et leurs données. Nous voulons aller
+      beaucoup plus loin et seul votre soutien nous permettra de proposer
+      davantage de services et de les améliorer.
+    - >-
+      @:txt.soft, ce sont des retraité·es, des salarié·es, des chômeur·euses,
+      des artistes, des profs et des étudiant·es… Pas forcément spécialisé·es
+      dans l’informatique, mais suffisamment sensibilisé·es pour savoir que le
+      Libre fait partie de la solution. Alors on s’engage à une éthique par
+      [une charte](@:link.soft/charte) et on prend sur notre temps
+      pour mettre en valeur et proposer plus de solutions libres à un public de
+      plus en plus large.
+    - >-
+      Pour mieux gérer ses projets, @:txt.soft s’est dotée d’une association loi
+      1901, reconnue d’intérêt général. Vos dons peuvent donc être déduits de
+      vos impôts (en France uniquement). Ainsi, par exemple, pour un don
+      récurrent de 120 € (soit 10 € par mois pendant un an), la réduction est de
+      79,20 € et donc le coût réel de votre don est de 40,80 €. Ainsi, vous
+      participez directement à nos initiatives, nos productions, nos frais de
+      structures et l’emploi de plusieurs salariés.
+    - >-
+      Dès que vous cliquez, partagez, utilisez un logiciel ou un site/service :
+      vous lui donnez de la valeur. C’est l’économie de l’attention. Cette
+      attention est ensuite monétisée sour forme de publicité et de vente de vos
+      données (Facebook, Google, Twiter, Microsoft, etc.) ou sous forme d’achats
+      enfermants (Apple, Amazon). Cette attention peut aussi créer de la valeur
+      sous forme de dons, partages et participations (Wikipédia). Nous avons
+      choisi ce dernier modèle pour notre fonctionnement. Cela nous rend
+      indépendant·es des lois du marché tout en laissant libres nos
+      donateur·ices.
+    - >-
+      Oui : rien de moins. Projet après projet, nous démontrons que des
+      alternatives libres, simples, respectueuses et communautaires sont
+      possibles. Dans [notre maison d’édition
+      collaborative](@:link.book) les auteur·ices ne brident pas leurs livres numériques
+      proposés en libre téléchargement et sont rémunéré·es sur les ventes papier
+      ou par votre soutien direct. Nos [services
+      Dégooglisons](@:link.dio/list) sont de plus en plus utilisés… Il reste du chemin à faire
+      et nous pouvons le poursuivre avec votre soutien : « la route est longue
+      mais la voie est libre ».
+

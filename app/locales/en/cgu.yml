@@ -1,13 +1,16 @@
 title: Terms of Use
-intro:
-  title: Preamble
-  text: By using this service, you agree to be bound by the following terms.<br>
-    @:color.soft reserves the right to update and modify these terms from time
-    to time.
+intro: |-
+  ## Preamble
+
+  By using this service, you agree to be bound by the following terms.<br />
+  @:color.soft reserves the right to update and modify these terms from time
+  to time.
+
+  ## Short version (TL;DR as we say)
+
+  To make it easier to read, without the legal blah-blah, we offer you below
+  a version understandable by a normal human being.
 short:
-  title: Short version (TL;DR as we say)
-  desc: To make it easier to read, without the legal blah-blah, we offer you below
-    a version understandable by a normal human being.
   sympa:
     text: 'We’re nice people:'
     list:
@@ -18,144 +21,151 @@ short:
     - '@:color.soft  will not transmit or resell your personal data (your privacy
       is important to us - really - at heart) ;'
     - The commitments of @:color.soft result from an inspired militant approach
-      of the popular education movement, you can find them in our <a href="../charte">Charter
-      of Free, Ethical, Decentralized and Solidarity Services</a>.
+      of the popular education movement, you can find them in our [Charter of Free,
+      Ethical, Decentralized and Solidarity Services](../charte).
   terms:
-    text: '<b>But</b> that doesn’t mean you should think we’re kittens:'
+    text: '**But** that doesn’t mean you should think we’re kittens:'
     list:
-    - 'Clause <em>"The law is the law, and we don’t want to end up in jail"</em>:
+    - 'Clause *"The law is the law, and we don’t want to end up in jail"*:
       you must respect the law (whether it is well made or silly), otherwise your
       account will be deleted;'
-    - 'Clause <em>"Thank you for being polite and respectful with your neighbours
-      on duty"</em>: you must respect other users by being civic-minded and politeness,
+    - 'Clause *"Thank you for being polite and respectful with your neighbours
+      on duty"*: you must respect other users by being civic-minded and politeness,
       if not your content, even your account, can be deleted, without negotiation;'
-    - 'Clause <em>"If it breaks, we are not obliged to repair"</em>: @:color.soft
+    - 'Clause *"If it breaks, we are not obliged to repair"*: @:color.soft
       offers this service for free. If you lose data, through your fault or ours,
       sorry, but it happens. We’ll do what we can to get it back, but we assign
       no obligation of result. Clearly, avoid putting sensitive or important data
       on services @:color.soft, because in case of loss, we do not guarantee
       their recovery;'
-    - 'Clause <em>"If you are not happy, you are invited to go elsewhere"</em>:
+    - 'Clause *"If you are not happy, you are invited to go elsewhere"*:
       if the service does not suit you, you are free to find some an equivalent
       (or better) elsewhere, or to install your own;'
-    - 'Clause <em>"Any abuse will be punished"</em>: if a user abuses the service,
+    - 'Clause *"Any abuse will be punished"*: if a user abuses the service,
       for example by monopolizing shared machine resources, or by publishing content
       considered to be irrelevant, its content or his/her account can be deleted
       without warning or negotiation. @:color.soft remains the sole judge of
       this notion of "abuse" in order to provide the best possible service to all
       its users. If it seems anti-democratic, anti-libristic, anti-free speech to
       you, please refer to the previous clause;'
-    - 'Clause <em>"Nothing is eternal"</em>: services can close (for example, because
+    - 'Clause *"Nothing is eternal"*: services can close (for example, because
       of a lack of funds to maintain them), they can be victims of intrusion (the
       "100% secure" does not exist). We encourage you to keep a copy of the data
       that is important to you, because @:color.soft can not be held responsible
       for their hosting without time limit.'
-full:
-  h2: Full version
-  h3-conditions: Conditions of service
-  ol-conditions:
-  - Use of the service is at your own risk. The service is provided as is.
-  - You must not modify another site in order to falsely signify that it is associated
-    with this service @:color.soft</>.
-  - Accounts can only be created and used by humans. Accounts created by robots
+full: |-
+  ## Full version
+  ### Conditions of service
+
+  1. Use of the service is at your own risk. The service is provided as is.
+  2. You must not modify another site in order to falsely signify that it is associated
+    with this service @:(color.soft).
+  3. Accounts can only be created and used by humans. Accounts created by robots
     or other automated methods may be deleted without notice.
-  - You are responsible for the security of your account and password. @:color.soft
+  4. You are responsible for the security of your account and password. @:color.soft
     can not and will not be responsible for any losses or damage resulting from
     your failure to comply with this safety obligation.
-  - You are responsible for all content posted and activity that occurs under your
+  5. You are responsible for all content posted and activity that occurs under your
     account.
-  - You may not use the Service for any illegal or unauthorized purpose. You must
+  6. You may not use the Service for any illegal or unauthorized purpose. You must
     not break the laws of your country.
-  - You may not sell, trade, resell, or exploit in an unauthorized business purpose
+  7. You may not sell, trade, resell, or exploit in an unauthorized business purpose
     an account of the service used.
-  p-liabilities:
-  - Violation of any of these agreements will result in termination of your account.
-    You understand and accept that the @:color.soft association cannot be held
-    responsible for the content published on this service.
-  ol-liabilities:
-  - You understand that putting the service and your content online involves transmission
+
+  Violation of any of these agreements will result in termination of your account.
+  You understand and accept that the @:color.soft association cannot be held
+  responsible for the content published on this service.
+
+  1. You understand that putting the service and your content online involves transmission
     (in plain text or encrypted, depending on the service) over various networks.
-  - You must not transmit worms, viruses or any other malicious code.
-  - '@:color.soft does not guarantee that <ul> <li>the service will meet your
-    specific needs,</li> <li>the service will be uninterrupted or bug-free,</li>
-    <li>that errors in the service will be corrected.</li> </ul>'
-  - 'You understand and agree that @:color.soft cannot be held responsible
+  2. You must not transmit worms, viruses or any other malicious code.
+  3. @:color.soft does not guarantee that
+    - the service will meet your specific needs,
+    - the service will be uninterrupted or bug-free,
+    - that errors in the service will be corrected.
+  4. You understand and agree that @:color.soft cannot be held responsible
     for any direct, indirect or incidental damages, including damages for loss of
     profits, customers, access, data or other intangible losses (even if @:color.soft
-    is informed of the possibility of such damages) and that would result from :
-    <ol> <li>use or inability to use the service;</li> <li>unauthorized or altered
-    access to data transmission;</li> <li>statements or actions of a third party
-    about the service;</li> <li>cancelling your account;</li> <li>any other service
-    related question.</li> </ol>'
-  - The failure of @:color.soft to exercise or enforce any right or provision
+    is informed of the possibility of such damages) and that would result from:
+    1. use or inability to use the service;
+    2. unauthorized or altered access to data transmission;
+    3. statements or actions of a third party about the service;
+    4. cancelling your account;
+    5. any other service related question.
+  5. The failure of @:color.soft to exercise or enforce any right or provision
     of the General Conditions of Use does not constitute a waiver to that right
     or provision. The Terms of Use constitute the entire agreement between you and
     @:color.soft and govern your use of the service, replacing all previous
     agreements between you and @:color.soft (including previous versions of
     the Terms of Use).
-  - Questions about the conditions of service should be sent via <a href="@:link.contact">this
-    contact form</a>.
-  h2-modify: Modifications of the service
-  ol-modify:
-  - '@:color.soft reserves the right, at any time, to modify or interrupt,
-    temporarily or permanently, with or without notice.'
-  - '@:color.soft will not be liable to you or any third party for any modification,
-    suspension or interruption of service.'
-  h3-copyright: Content copyright
-  ol-copyright:
-  - You cannot send, upload, blog, distribute, disseminate any illegal, defamatory,
+  6. Questions about the conditions of service should be sent via [this contact
+    form](@:link.contact).
+
+  ## Modifications of the service
+
+  1. @:color.soft reserves the right, at any time, to modify or interrupt,
+    temporarily or permanently, with or without notice.
+  2. @:color.soft will not be liable to you or any third party for any modification,
+    suspension or interruption of service.
+
+  ###  Content copyright
+
+  1. You cannot send, upload, blog, distribute, disseminate any illegal, defamatory,
     harassing, abusive, fraudulent content, counterfeit, obscene or otherwise objectionable.
-  - 'We do not claim any rights on your data: text, images, sound, video, or any
-    other element, that you download or transmit from your account.'
-  - We will not use your content for any purpose other than to provide the service
+  2. We do not claim any rights on your data: text, images, sound, video, or any
+    other element, that you download or transmit from your account.
+  3. We will not use your content for any purpose other than to provide the service
     to you.
-  - You must not download or make available any content that infringes someone else’s
+  4. You must not download or make available any content that infringes someone else’s
     rights.
-  - We reserve the right to remove any content we deem necessary. not relevant to
+  5. We reserve the right to remove any content we deem necessary. not relevant to
     the use of the service, in our sole judgment.
-  - We may, if necessary, delete or prevent the distribution of any content on the
+  6. We may, if necessary, delete or prevent the distribution of any content on the
     service that does not comply with these conditions.
-  h3-share: Editing and data sharing
-  ul-share:
+
+  ### Editing and data sharing
+
   - The files you create with the service can be - if you wish - read, copied, used
     and redistributed by people you know or not.
   - By making your data public, you acknowledge and agree that any person using
     this website may consult them without restrictions.
   - But the service can also offer you the possibility to authorize restricted access
     and collaborative work on its documents to one or more other users.
-  - '@:color.soft cannot be held responsible for any problem resulting from
-    the sharing or publishing data between users.'
-  h3-closure: Closure
-  p-closure:
-  - '@:color.soft, in its sole discretion, has the right to suspend or terminate
-    your account and refuse any current or future use of the service. Termination
-    of the service will result in deactivation of access to your account, and the
-    restitution of all the contents.<br> @:color.soft reserves the right to
-    refuse service to anyone for any reason at any time.'
-  - '@:color.soft also reserves the right to terminate your account if you
-    do not log into your account for a period longer than 6 months.'
-  h3-privacy: Personal information
-  p-privacy:
-  - In accordance with article 34 of the law "Informatique et Libertés", @:color.soft
-    guarantees the user a right to opposition, access and of correction on the personal
-    data concerning him. The user has the possibility to exercise this right by
-    using the <a href="@:link.contact">contact form</a> available.
-  ul-privacy:
-  - 'To use certain services @:color.soft, you must create an account. @:color.soft
+  - @:color.soft cannot be held responsible for any problem resulting from
+    the sharing or publishing data between users.
+
+  ### Closure
+
+  @:color.soft, in its sole discretion, has the right to suspend or terminate
+  your account and refuse any current or future use of the service. Termination
+  of the service will result in deactivation of access to your account, and the
+  restitution of all the contents.<br />@:color.soft reserves the right to
+  refuse service to anyone for any reason at any time.
+
+  @:color.soft also reserves the right to terminate your account if you
+  do not log into your account for a period longer than 6 months.
+
+  ### Personal information
+
+  In accordance with article 34 of the law "Informatique et Libertés", @:color.soft
+  guarantees the user a right to opposition, access and of correction on the personal
+  data concerning him. The user has the possibility to exercise this right by
+  using the [contact form](@:link.contact) available.
+
+  - To use certain services @:color.soft, you must create an account. @:color.soft
     requests some personal information : a valid email address and a password that
     is used to protect your account against unauthorized access. The "Last Name"
     and "First Name" fields may be required for the correct operation of the software,
-    but it is not necessary that they reveal your true identity.'
-  - 'Just like other online services, @:color.soft automatically saves certain
+    but it is not necessary that they reveal your true identity.
+  - Just like other online services, @:color.soft automatically saves certain
     information about your use of the service such as account activity (example:
     storage space occupied, number of entries, measures taken), the data displayed
     or clicked (example: links, user interface elements), and other information
     to identify you (example: browser type, IP address, date and time of access,
-    reference URL).'
+    reference URL).
   - We use this information internally to improve for you the user interface of
     the @:color.soft services and maintain a consistent and reliable user experience.
   - This data is neither sold nor passed on to third parties.
-footer:
-  p:
-  - Terms of Use of the @:color.soft association’s online services,<br> version
-    1.0.3 of April 11, 2016.
+footer: |-
+  Terms of Use of the @:color.soft association’s online services,<br />version
+  1.0.3 of April 11, 2016.
