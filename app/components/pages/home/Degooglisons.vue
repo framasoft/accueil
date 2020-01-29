@@ -1,53 +1,77 @@
 <template>
-      <section id="dio" class="clearfix">
-      <div class="container-fluid">
-        <p class="btn-circle">
-          <a href="#dio">
-            <span class="fa-stack fa-4x vert" aria-hidden="true">
-              <i class="fa fa-circle-thin fa-stack-2x"></i>
-              <i class="fa fa-chevron-down fa-stack-1x"></i>
-            </span>
-          </a>
-        </p>
-        <div class="container">
-          <h2 v-html="$t('home.dio.title')"></h2>
-          <h3 v-html="$t('home.dio.subtitle', 0, {count: vcf.coverList.length })">
-          </h3>
-        </div>
-        <div class="container ombre">
-          <h4 class="text-center">
-            <span class="neon" v-text="vcf.index + 1"></span>
-            <br>
-            <span v-text="vcf.coverList[vcf.index].title"></span>
-          </h4>
-          <p
-            class="col-sm-6 col-sm-offset-3 fc_g3"
-            v-html="$t(`cat.cloud.sites.${vcf.coverList[vcf.index].id}.desc`)">
-          </p>
-          <div class="col-sm-12 text-center">
-            <carousel-3d
-              @after-slide-change="onAfterSlideChange"
-              :autoplay="true" :autoplay-timeout="5000"
-              :controls-visible="true"
-              dir="ltr" :height="350">
-              <slide v-for="(slide, i) in vcf.coverList"
-                :index="i"
-                :key="i">
-                <template slot-scope="{ index, isCurrent, leftIndex, rightIndex }">
-                  <img :data-index="index"
-                    :class="{ current: isCurrent, onLeft: (leftIndex >= 0), onRight: (rightIndex >= 0) }"
-                    :src="slide.cover">
-                </template>
-              </slide>
-            </carousel-3d>
-          </div>
-          <p class="col-sm-12 text-center">
-            <a href="#soutenir" class="btn btn-lg btn-soutenir" v-html="$t('home.dio.btn')"></a>
-          </p>
-        </div>
-        <p class="pfooter" v-html="$t('home.dio.footer')"></p>
+  <section id="dio">
+    <div class="container-fluid">
+      <p class="btn-circle">
+        <a href="#dio">
+          <icon
+            name="chevron-down"
+            name2="circle-thin"
+            size="4x vert"
+          />
+        </a>
+      </p>
+      <div class="container">
+        <h2 v-html="$t('home.dio.title')"></h2>
+        <h3 v-html="$t('home.dio.subtitle', 0, {count: vcf.coverList.length })">
+        </h3>
       </div>
-    </section>
+      <b-container class="ombre">
+        <h4 class="text-center">
+          <span
+            class="neon"
+            v-text="vcf.index + 1"
+          ></span>
+          <br />
+          <span v-text="vcf.coverList[vcf.index].title"></span>
+        </h4>
+        <p
+          class="col-sm-6 mx-auto fc_g3"
+          v-html="$t(`cat.cloud.sites.${vcf.coverList[vcf.index].id}.desc`)"
+        ></p>
+        <div class="text-center">
+          <carousel-3d
+            :autoplay="true"
+            :autoplay-timeout="8000"
+            :controls-visible="true"
+            dir="ltr"
+            :height="350"
+            @after-slide-change="onAfterSlideChange"
+          >
+            <slide
+              v-for="(slide, i) in vcf.coverList"
+              :key="i"
+              :index="i"
+            >
+              <template slot-scope="{ index, isCurrent, leftIndex, rightIndex }">
+                <img
+                  :data-index="index"
+                  :class="{
+                    current: isCurrent,
+                    onLeft: (leftIndex >= 0),
+                    onRight: (rightIndex >= 0)
+                  }"
+                  :src="slide.cover"
+                  alt=""
+                />
+              </template>
+            </slide>
+          </carousel-3d>
+        </div>
+        <p class="text-center">
+          <b-button
+            href="#soutenir"
+            size="lg"
+            variant="soutenir"
+            v-html="$t('home.dio.btn')"
+          />
+        </p>
+      </b-container>
+      <p
+        class="pfooter"
+        v-html="$t('home.dio.footer')"
+      ></p>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -90,7 +114,7 @@ export default {
         ],
         index: 0,
       },
-    }
+    };
   },
   mounted() {
     window.addEventListener('resize', this.coverflowSize);
@@ -100,6 +124,5 @@ export default {
       this.vcf.index = index;
     },
   },
-}
+};
 </script>
-

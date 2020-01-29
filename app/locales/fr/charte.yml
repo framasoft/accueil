@@ -1,79 +1,92 @@
 title: Charte
-p-intro:
-- '@:color.soft est un réseau d’éducation populaire, issu du monde éducatif,
+md: |-
+  @:color.soft est un réseau d’éducation populaire, issu du monde éducatif,
   consacré principalement au logiciel libre. Il s’organise en trois axes sur un
   mode collaboratif : promotion, diffusion et développement de logiciels libres,
-  enrichissement de la culture libre et offre de services libres en ligne.'
-h2-libre: Pour un Internet libre
-p-libre:
-- L’utilisation des logiciels libres et des standards ouverts sur Internet est l’objectif
-  prioritaire du projet <a href="@:link.dio">@:color.dio</a>.
-- L’accès au code source est au fondement des principes du Libre. Pour chaque application
+  enrichissement de la culture libre et offre de services libres en ligne.
+
+  ## Pour un Internet libre
+
+  L’utilisation des logiciels libres et des standards ouverts sur Internet est l’objectif
+  prioritaire du projet @:html.dio.
+
+  L’accès au code source est au fondement des principes du Libre. Pour chaque application
   rendue disponible dans ses projets, @:color.soft s’engage à ce qu’elle soit
-  placée exclusivement sous <a href="https://www.gnu.org/philosophy/free-sw.fr.html">licence
-  libre</a>.
-- En cas d’amélioration du code, @:color.soft s’engage à placer sa contribution
+  placée exclusivement sous [licence libre](https://www.gnu.org/philosophy/free-sw.fr.html).
+
+  En cas d’amélioration du code, @:color.soft s’engage à placer sa contribution
   sous licence libre (compatible avec la licence initiale) et encouragera toute
   contribution volontaire de la part des utilisateurs en les invitant à contacter
   les auteurs.
-- '@:color.soft s’engage à rendre accessible le code source soit en publiant
+
+  @:color.soft s’engage à rendre accessible le code source soit en publiant
   un lien vers le site officiel de l’application, soit, si ce dernier n’est plus
-  disponible, en publiant le code utilisé sur un dépôt.'
-- Ce faisant, @:color.soft démontre sa probité en permettant à chaque utilisateur
+  disponible, en publiant le code utilisé sur un dépôt.
+
+  Ce faisant, @:color.soft démontre sa probité en permettant à chaque utilisateur
   de vérifier le code source, éventuellement de l’améliorer, et surtout de s’assurer
   qu’aucun usage déloyal ne sera fait de ses données, de son identité et de ses
   droits.
-- C’est en connaissance de cause que les utilisateurs pourront user des applications
+
+  C’est en connaissance de cause que les utilisateurs pourront user des applications
   disponibles et prendre connaissance des toutes les fonctionnalités, de leur avantages,
   de leurs limites et de leurs emplois.
-- Aucune donnée produite à l’aide des applications n’appartient à @:color.soft,
+
+  Aucune donnée produite à l’aide des applications n’appartient à @:color.soft,
   qui n’y appose aucun droit et n’y pratique aucune censure. En revanche tout contenu
   contrefaisant ou illégal au regard de la loi française, une fois dûment signalé,
   sera supprimé immédiatement.
-h2-decentralized: Pour un Internet décentralisé
-p-decentralized:
-- En proposant des applications libres en ligne, @:color.soft expose autant
+
+  ## Pour un Internet décentralisé
+
+  En proposant des applications libres en ligne, @:color.soft expose autant
   d’alternatives aux applications proposées par des entreprises à des fins de monopole
   et d’usage dévoyé des données personnelles.
-- Ces alternatives illustrent la diversité des solutions libres disponibles et pouvant
+
+  Ces alternatives illustrent la diversité des solutions libres disponibles et pouvant
   être mises à disposition à des fins personnelles ou collectives. À ce titre @:color.soft
   s’engage à favoriser leur essaimage en publiant des tutoriaux explicatifs sur
   les méthodes employées pour installer ces applications sur vos propres serveurs.
-- 'L’égalité de l’accès à ces applications est un engagement fort : en les proposant
+
+  L’égalité de l’accès à ces applications est un engagement fort : en les proposant
   gratuitement, @:color.soft souhaite promouvoir leur usage envers le plus
   grand nombre et illustrer par l’exemple qu’un Internet décentralisé et égalitaire
-  est possible.'
-h2-ethic: Pour un Internet éthique
-p-ethic:
-- L’éthique du logiciel libre est faite de partage et d’indépendance. @:color.soft
+  est possible.
+
+  ## Pour un Internet éthique
+
+  L’éthique du logiciel libre est faite de partage et d’indépendance. @:color.soft
   s’engage à ne pratiquer aucune censure a priori des contenus, aucune surveillance
   des actions des utilisateurs, et à ne répondre à aucune demande administrative
   ou d’autorité sans une requête légale présentée en bonne et dûe forme. En retour,
   les utilisateurs s’engagent, dans la production ou l’hébergement de leurs contenus,
   à respecter les cadres prévus par la loi.
-- Aucune discrimination des utilisateurs n’est pratiquée, afin de favoriser la plus
+
+  Aucune discrimination des utilisateurs n’est pratiquée, afin de favoriser la plus
   grande accessibilité possible.
-- Aucune donnée personnelle ne sera exploitée à des fins commerciales, transmise
+
+  Aucune donnée personnelle ne sera exploitée à des fins commerciales, transmise
   à des tiers ou utilisée à des fins non prévues par la présente charte. En revanche,
   les utilisateurs doivent aussi intégrer le fait que leurs données peuvent parfois
   être accessibles, en particulier lorsqu’ils rendent leurs données publiques dans
   le cadre d’une application collaborative. Dans ce cas, les utilisateurs restent
   responsables de leurs contenus.
-h2-solidary: Pour un Internet solidaire
-p-solidary:
-- '@:color.soft est une association sans but lucratif. Ses bénévoles et salariés
+
+  ## Pour un Internet solidaire
+
+  @:color.soft est une association sans but lucratif. Ses bénévoles et salariés
   mettent leur temps de travail au service des utilisateurs  pour assurer la pérennité
   des services. Le modèle économique proposé est basé sur la mutualisation des énergies
   et des coûts. Si les services sont gratuits, cela ne signifie pas qu’ils ne coûtent
   rien. Si un grand nombre de personnes encouragent financièrement @:color.soft
   à maintenir ses services, un plus grand nombre encore sera en mesure de les utiliser
-  et ils pourront de même être améliorés.'
-- Dans une démarche d’éducation populaire, @:color.soft diffuse un maximum
+  et ils pourront de même être améliorés.
+
+  Dans une démarche d’éducation populaire, @:color.soft diffuse un maximum
   de connaissances pour promouvoir les usages des logiciels libres et apprendre
   à installer des services libres en ligne. Ce partage des ressources, techniques
   et cognitives, fait d’Internet un bien commun, disponible pour tous et n’appartenant
   à personne.
-footer:
-  p:
-  - Charte des services Libres, Éthiques, Décentralisés et Solidaires,<br> approuvée
-    par l’association @:color.soft le 6 octobre 2014.
+footer: |-
+  Charte des services Libres, Éthiques, Décentralisés et Solidaires,<br />approuvée
+  par l’association @:color.soft le 6 octobre 2014.

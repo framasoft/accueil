@@ -1,37 +1,38 @@
 step1:
   title: 1. Je donne pour le libre
-  privilegie: '@:txt.soft privilégie les dons récurrents pour continuer son
-    action de façon sereine et pérenne.'
-  count: Actuellement, @:txt.soft compte
-  donators: donateurs récurrents.
   monthly: tous les mois
   oneshot: une fois
-  monthly_ex: ex. 42
-  oneshot_ex: ex. 133.7
-  other: Autre montant
-  or: OU
+  other: 'Autre montant (ex : {n})'
+  anonymous: Je veux que mon don reste anonyme
+  receipt: Je souhaite recevoir un reçu fiscal
 step2:
   title: 2. Je complète mes informations
   private: Confidentialité
-  private_tip:
-  - Ces informations sont nécessaires pour des raisons pratiques et légales afin
-    de pouvoir délivrer un reçu fiscal.
-  - 'Si vous ne souhaitez pas ou ne pouvez pas défiscaliser votre don, vous pouvez
-    tout à fait '
-  - remplir ce formulaire avec de fausses informations
-  - (attention, n’utilisez pas votre compte Paypal dans ce cas).
-  - Sachez également que vous pouvez vérifier si votre don a bien été effectué dans
-    la page « <a href="@:link.soutenir/@:lang/stats">Liste des donateurs</a> ».
-  - Bien évidemment, vos nom et prénom y sont anonymisés.
+  private_tip: |-
+    Ces informations sont nécessaires pour des raisons pratiques et légales
+    afin de pouvoir délivrer un reçu fiscal.
+
+    Si vous ne souhaitez pas ou ne pouvez pas défiscaliser votre don, vous
+    pouvez tout à fait remplir ce formulaire avec de fausses informations
+    (attention, n’utilisez pas votre compte Paypal dans ce cas).
+
+    Sachez également que vous pouvez vérifier si votre don a bien été effectué
+    dans la page « [Liste des donateurs](@:link.soutenir/stats) ».
+
+    Bien évidemment, vos nom et prénom y sont anonymisés.
   type: Je représente
   part: un particulier
   corp: une société
-  corp_tip: Entreprise, association, collectivité…
-  mecenat: Si vous souhaitez devenir partenaire de @:txt.soft et <a href="@:link.soutenir/@:lang/partenaires">apparaître
-    sur cette page</a>, <a href="@:link.contact/#soutenir">contactez-nous</a>.
+  corp_tip: 'Entreprise, association, collectivité…'
+  mecenat: |-
+    Si vous souhaitez devenir partenaire de @:txt.soft et
+    [apparaître sur cette page](@:link.soutenir/partenaires),
+    [contactez-nous](@:link.contact/#soutenir).
   society: Raison sociale
   society_ex: 'ex : Free Software Fondation'
   society_email_ex: 'ex : contact@fsf.org'
+  nickname: Pseudonyme
+  nickname_ex: 'ex : Lady AAL'
   lastname: Nom
   lastname_ex: 'ex : Lovelace'
   firstname: Prénom
@@ -52,18 +53,8 @@ step2:
 step3:
   title: 3. J’accède au paiement
   defisc: Infos sur la défiscalisation
-  defisc_title: Défiscalisation
-  defisc_tip: '@:txt.soft est une association reconnue d’intérêt général<br>
-    A ce titre, si vous êtes soumis à l’impôt sur le revenu, vous pourrez déduire
-    66% du montant de votre don. Ainsi, si vous avez donné 10€ x 12 mois (120€),
-    vous pourrez déduire 120x66% (79,20€) de votre prochaine déclaration.<br> Le
-    reçu fiscal vous sera envoyé automatiquement par e-mail avant la déclaration.<br>
-    Pour des informations plus détaillées, cliquez afin d’accéder à notre page explicative.'
-  defisc_text:
-  - 'En France, grâce à la déduction d’impôts de '
-  - ', <b>votre don de </b>'
-  - ' ne vous coûtera que '
-  - ' par mois'
+  defisc_text: En France, grâce à la déduction d’impôts de {percent}, **votre don
+    de {amount}** vous coûtera {defisc}.
   cb: Carte bancaire
   vir: Virement
   chq: Chèque
@@ -73,44 +64,45 @@ step3:
   now: maintenant
   coord: Vos coordonnées sont notées.
   email_send:
-  - Un email vient de vous être envoyé à l’adresse
-  - contenant un rappel des instructions ci-dessous.
-  ok: Ok, j’ai compris
+    - Un email vient de vous être envoyé à l’adresse
+    - contenant un rappel des instructions ci-dessous.
+  ok: 'Ok, j’ai compris'
   modal_vir:
     by: par virement bancaire
-    no_sepa: ' @:txt.soft ne propose pas de formulaire SEPA pour des prélèvements
-      bancaires, mais vous pouvez nous faire un don par virement directement.<br>
-      Ainsi vous décidez de la somme, de la fréquence et vous pouvez le modifier
-      à tout moment.'
+    no_sepa: ' @:txt.soft ne propose pas de formulaire SEPA pour des prélèvements bancaires, mais vous pouvez nous faire un don par virement directement.<br /> Ainsi vous décidez de la somme, de la fréquence et vous pouvez le modifier à tout moment.'
     to_finish: ' Pour finaliser votre don, merci de noter nos coordonnées bancaires :'
-    ref: ' Notez aussi cette <b>référence de paiement</b> qu’il faudra ajouter à
-      la description du virement :'
-    to_bank: ' Voyez ensuite avec votre banque comment planifier le virement. Certaines
-      banques permettent de gérer ça en ligne.'
+    ref: ' Notez aussi cette <b>référence de paiement</b> qu’il faudra ajouter à la description du virement :'
+    to_bank: ' Voyez ensuite avec votre banque comment planifier le virement. Certaines banques permettent de gérer ça en ligne.'
   modal_chq:
     by: par chèque
-    to_finish: ' Pour finaliser votre don, merci de remplir votre chèque <b>à l’ordre
-      de « Association @:txt.soft »</b> et de noter cette <b>référence de paiement
-      au dos</b> :'
-    to_post: ' Envoyez ensuite votre chèque au siège l’association à cette adresse
-      postale :'
+    to_finish: ' Pour finaliser votre don, merci de remplir votre chèque <b>à l’ordre de « Association @:txt.soft »</b> et de noter cette <b>référence de paiement au dos</b> :'
+    to_post: ' Envoyez ensuite votre chèque au siège l’association à cette adresse postale :'
 ask:
   title: Questions
-  stop: Les dons récurrents peuvent être stoppés à tout moment <a href="@:link.contact/#soutenir">sur
-    simple demande</a>.
-  edit: Si vous souhaitez modifier votre don récurrent, <a href="@:link.contact/#soutenir">contactez-nous</a>,
-    nous stopperons les prélèvements et vous pourrez refaire un don.
-  send: Les reçus fiscaux (en France uniquement) sont envoyés par courriel en mars/avril
-    @:year.next (avant la déclaration d’impôt) pour les dons versés en @:year.current
-  moral: Les rapports d’activité et financier de l’association peuvent être consultés
-    depuis notre page de <a href="@:link.soft/@:lang/association">présentation
-    de l’association</a>
-  alter1: Pour <a href="@:link.contact/foire-aux-questions/#dons-alternatifs">des
-    raisons pratiques</a>, nous n’acceptons pas les dons depuis les plateformes
-    de micro paiement (Lilo, Flattr, Tipeee…) à l’exception de Liberapay
+  stop: |-
+    Les dons récurrents peuvent être stoppés à tout moment
+    [sur simple demande](@:link.contact/#soutenir).
+  edit: |-
+    Si vous souhaitez modifier votre don récurrent,
+    [contactez-nous](@:link.contact/#soutenir), nous stopperons les
+    prélèvements et vous pourrez refaire un don.
+  send: |-
+    Les reçus fiscaux (en France uniquement) sont envoyés par courriel en
+    mars/avril @:year.next (avant la déclaration d’impôt) pour les dons versés
+    en @:year.current
+  moral: |-
+    Les rapports d’activité et financier de l’association peuvent être consultés
+    depuis notre page de [présentation de l’association](@:link.soft/association)
+  alter1: |-
+    Pour [des raisons pratiques](@:link.contact/faq/#dons-alternatifs), nous
+    n’acceptons pas les dons depuis les plateformes de micro paiement
+    (Lilo, Flattr, Tipeee…) à l’exception de Liberapay
   lp: Faire un don via Liberapay
-  alter2: Nous n’acceptons pas non plus les dons en crypto-monnaie (Bitcoin, Ether,
-    Monero…) mais nous observons avec attention <a href="https://duniter.org/fr/comprendre/">la
-    monnaie libre Ğ1</a>.
-  other: Si vous avez d’autres questions, <a href="@:link.soutenir/@:lang/questions">les
-    réponses se trouvent peut-être là</a>…
+  alter2: |-
+    Nous n’acceptons pas non plus les dons en crypto-monnaie (Bitcoin, Ether,
+    Monero…) mais nous observons avec attention
+    [la monnaie libre Ğ1](https://duniter.org/fr/comprendre/)<.
+  other: |-
+    Si vous avez d’autres questions, [les réponses se trouvent peut-être
+    là](@:link.soutenir/questions)…
+

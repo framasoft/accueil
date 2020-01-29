@@ -3,22 +3,17 @@ meta:
   author: Framasoft
   canonical: https://framasoft.org
   description: '@:home.intro.text'
-  i18n: https://trad.framasoft.org/iteration/view/framasoft/master
+  i18n: https://weblate.framasoft.org/projects/framasoft/
   employees: '9'
   association:
     title: '@:txt.soft - @:asso.title'
-  cgu:
-    title: '@:txt.soft - @:cgu.title'
-  charte:
-    title: '@:txt.soft - @:charte.title'
-  credits:
-    title: '@:txt.soft - @:credits.title'
-  graphics:
-    title: '@:txt.soft - @:graphics.title'
-  legals:
-    title: '@:txt.soft - @:legals.title'
-  moderation:
-    title: '@:txt.soft - @:moderation.title'
+  home:
+    title: '@:txt.soft - @:home.intro.subtitle'
+  full:
+    title: '@:meta.home.title'
+  lite:
+    title: '@:meta.home.title'
+
 
 # Catégories
 cat:
@@ -107,12 +102,11 @@ pages:
        'pages.medias.lArticle']
 
 legals:
-  editor:
-    assoNb: 0132007842
-    siretNb: 500 715 776 00026
-    address: 'Association Framasoft<br>Pierre-Yves Gosset<br>
-      c/o Locaux Motiv<br>10 bis, rue Jangot<br>69007 LYON<br>FRANCE'
-    coprezName: Christelle Thomas, Marien Fressinaud, Pierre-Yves Thouvenot
+  assoNb: 0132007842
+  siretNb: 500 715 776 00026
+  address: 'Association Framasoft<br />Pierre-Yves Gosset<br />
+    c/o Locaux Motiv<br />10 bis, rue Jangot<br />69007 LYON<br />FRANCE'
+  coprezName: Christelle Thomas, Marien Fressinaud, Pierre-Yves Thouvenot
 
 asso:
   files: https://soutenir.framasoft.org/sites/default/files/

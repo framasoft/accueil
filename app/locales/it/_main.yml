@@ -1,12 +1,7 @@
-lite: Accesso rapido
-full: Home classica
 meta:
-  title: '@:txt.soft ~ Cambiare il mondo un byte alla volta'
   lead: La strada è lunga, ma la via è libera…
   license: '@:license.ccbysa4 ad eccezione di casi diversamente notificati'
 nav:
-  lite: Quick access
-  full: Classic home
   parts:
     logiciel:
       key: Sezione programmi

@@ -34,7 +34,7 @@ logiciel:
       what: Un distributore
       title: Installazione massiva
       desc: '@:txt.pack è uno strumento utile a scegliere il miglior software
-        libero per la versione più recente di Windows. <br> Selezioni il software
+        libero per la versione più recente di Windows.<br />Selezioni il software
         che desideri e tutti i programmi verranno installati in un unico comodo
         passaggio!'
 culture:
@@ -162,14 +162,14 @@ cloud:
     piaf:
       what: Networking
       title: Social network in 500 caratteri
-      desc: '@:txt.piaf è un servizio di <b>microblogging</b>, basato sul software
+      desc: '@:txt.piaf è un servizio di **microblogging**, basato sul software
         decentralizzato Mastodon. Cerca i tuoi amici su @:txt.piaf - o altre
         istanze Mastodon, GNU Social, Friendica - e dialoga con loro senza essere
         tracciato.'
     team:
       what: Discutere
       title: Comunicazione collaborativa
-      desc: '@:txt.team è un servizio di <b> chat </b> gratuito che consente
+      desc: '@:txt.team è un servizio di ** chat ** gratuito che consente
         lavori di gruppo, invio di notifiche, la cronologia delle conversazioni
         e funzioni di ricerca.'
     listes:
@@ -218,7 +218,7 @@ cloud:
       what: Creare mappe
       title: Crea mappe personalizzate
       desc: Framacarte ti consente di disegnare, etichettare, colorare, annotare
-        mappe da  <a href="@:link.wOSM">OpenStreetMap</a>per consultarle sul tuo
+        mappe da  [OpenStreetMap](@:link.wOSM)per consultarle sul tuo
         sito web o  stamparle.
     drop:
       what: Condividere
