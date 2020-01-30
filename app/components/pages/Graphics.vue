@@ -171,15 +171,8 @@
             <SVGPinchot
               :icon="icon"
               :color="color"
-              class="d-none"
             />
           </div>
-          <canvas
-            id="canvas_round"
-            ref="canvas_round"
-            width="120"
-            height="120"
-          ></canvas>
           <div
             id="svg_fav"
             ref="svg_fav"
@@ -187,9 +180,16 @@
             <SVGFavicon
               :icon="icon"
               :color="color"
-              class="d-none"
             />
           </div>
+        </b-col>
+        <b-col>
+          <canvas
+            id="canvas_round"
+            ref="canvas_round"
+            width="120"
+            height="120"
+          ></canvas>
           <canvas
             id="canvas_fav"
             ref="canvas_fav"
