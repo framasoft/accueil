@@ -21,7 +21,7 @@
           <li
             v-for="item in $t('pages.accroche')"
             :key="item"
-            v-html="item"
+            v-html="$t(item)"
           ></li>
         </ul>
 
