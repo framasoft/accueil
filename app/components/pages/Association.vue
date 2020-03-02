@@ -182,6 +182,14 @@
           <dd>
             <ul>
               <li>
+                2019&nbsp;:
+                <a
+                  :href="`${$t('asso.files')}Framasoft_rapport_activite_2019-v04.pdf`"
+                  rel="nofollow"
+                  v-html="$t('asso.data.dd.reportsActivities')"
+                ></a> (Rapport financier définitif à venir en octobre 2019)
+              </li>            
+              <li>
                 2018&nbsp;:
                 <a
                   :href="`${$t('asso.files')
