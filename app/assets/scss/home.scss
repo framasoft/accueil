@@ -127,6 +127,12 @@
       }
     }
 
+    @media (max-width: 480px) {
+      h4 {
+        font-size: 3rem;
+      }
+    }
+
     h3 strong,
     .neon {
       font-weight: 400;
