@@ -82,7 +82,7 @@
 
             v-html="$t('asso.data.dt.coprez')"
           ></dt>
-          <dd v-html="$t('legals.editor.coprezName')"></dd>
+          <dd v-html="$t('legals.coprezName')"></dd>
         </dl>
         <dl class="row">
           <dt
@@ -188,7 +188,7 @@
                   rel="nofollow"
                   v-html="$t('asso.data.dd.reportsActivities')"
                 ></a> (Rapport financier définitif à venir en octobre 2019)
-              </li>            
+              </li>
               <li>
                 2018&nbsp;:
                 <a
