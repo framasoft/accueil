@@ -31,7 +31,7 @@
             <span v-html="$t('asso.infography')"></span>
             <a
               href="http://geoffreydorne.com"
-              v-html="$t('people.dorme')"
+              v-html="$t('people.dorne')"
             ></a>,
             <span v-html="$t('license.ccbysa4fr')"></span>
           </p>
