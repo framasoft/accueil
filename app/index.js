@@ -32,6 +32,9 @@ const locales = {};
 const pages = [];
 let commons = [];
 
+Vue.config.devtools = true;
+Vue.config.performance = true;
+
 // Import locales list
 // in locales/[lg]/[file].yml
 let req = require.context('./locales/', true, /\.\/.*\/.*\.yml$/);
@@ -226,7 +229,8 @@ Vue.prototype.$t = (key, locale, values) => {
 
   if (typeof locale === 'string') {
     // Split locale and options
-    if (i18n.messages.locales.available.indexOf(locale.split(' ')[0]) > 0) {
+    // eslint-disable-next-line
+    if (i18n._getMessages().locales.available.indexOf(locale.split(' ')[0]) > 0) {
       // locale = 'en_GB -t', 'fr_FR latin'…
       [trueLocale] = [locale.split(' ')[0]];
       options = locale.substring(locale.indexOf(' ') + 1);
